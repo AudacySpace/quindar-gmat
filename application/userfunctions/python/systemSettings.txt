@@ -1,0 +1,2 @@
+# [Exchange_name, Key_name, Exchange_type, URLParameters]
+quindarExchange04,audacy.telemetry.position,topic,amqp://audacyapp:quindar@data04.audacy.space/develop

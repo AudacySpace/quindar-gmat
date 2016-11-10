@@ -1,0 +1,12 @@
+/plugins/
+/GMAT.exe
+/GMAT.ilk
+/GMAT.pdb
+/*.dll
+/*.exp
+/*.ilk
+/*.lib
+/*.pdb
+*R2015a
+/GMATd
+/GmatConsoled

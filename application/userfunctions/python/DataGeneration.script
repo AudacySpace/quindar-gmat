@@ -1,0 +1,309 @@
+%eneral Mission Analysis Tool(GMAT) Script
+%Created: 2016-05-06 13:59:09
+
+
+%----------------------------------------
+%---------- Spacecraft
+%----------------------------------------
+
+Create Spacecraft Audacy1;
+GMAT Audacy1.DateFormat = TAIGregorian;
+GMAT Audacy1.Epoch = '01 Jan 2019 19:00:00.000';
+GMAT Audacy1.CoordinateSystem = EarthMJ2000Eq;
+GMAT Audacy1.DisplayStateType = Keplerian;
+GMAT Audacy1.SMA = 10000;
+GMAT Audacy1.ECC = 3.613466575717167e-016;
+GMAT Audacy1.INC = 0;
+GMAT Audacy1.RAAN = 0;
+GMAT Audacy1.AOP = 0;
+GMAT Audacy1.TA = 0;
+GMAT Audacy1.DryMass = 2000;
+GMAT Audacy1.Cd = 2.2;
+GMAT Audacy1.Cr = 1.8;
+GMAT Audacy1.DragArea = 15;
+GMAT Audacy1.SRPArea = 1;
+GMAT Audacy1.NAIFId = -10002001;
+GMAT Audacy1.NAIFIdReferenceFrame = -9002001;
+GMAT Audacy1.OrbitColor = Red;
+GMAT Audacy1.TargetColor = Teal;
+GMAT Audacy1.Id = 'SatId';
+GMAT Audacy1.Attitude = CoordinateSystemFixed;
+GMAT Audacy1.SPADSRPScaleFactor = 1;
+GMAT Audacy1.ModelFile = 'aura.3ds';
+GMAT Audacy1.ModelOffsetX = 0;
+GMAT Audacy1.ModelOffsetY = 0;
+GMAT Audacy1.ModelOffsetZ = 0;
+GMAT Audacy1.ModelRotationX = 0;
+GMAT Audacy1.ModelRotationY = 0;
+GMAT Audacy1.ModelRotationZ = 0;
+GMAT Audacy1.ModelScale = 1;
+GMAT Audacy1.AttitudeDisplayStateType = 'Quaternion';
+GMAT Audacy1.AttitudeRateDisplayStateType = 'AngularVelocity';
+GMAT Audacy1.AttitudeCoordinateSystem = EarthMJ2000Eq;
+GMAT Audacy1.EulerAngleSequence = '321';
+
+%----------------------------------------
+%---------- Spacecraft
+%----------------------------------------
+
+Create Spacecraft Audacy2;
+GMAT Audacy2.DateFormat = TAIGregorian;
+GMAT Audacy2.Epoch = '01 Jan 2019 19:00:00.000';
+GMAT Audacy2.CoordinateSystem = EarthMJ2000Eq;
+GMAT Audacy2.DisplayStateType = Keplerian;
+GMAT Audacy2.SMA =10000;
+GMAT Audacy2.ECC = 5.424388653999496e-016;
+GMAT Audacy2.INC = 45.00000000000004;
+GMAT Audacy2.RAAN = 0;
+GMAT Audacy2.AOP = 0;
+GMAT Audacy2.TA = 180;
+GMAT Audacy2.DryMass = 2000;
+GMAT Audacy2.Cd = 2.2;
+GMAT Audacy2.Cr = 1.8;
+GMAT Audacy2.DragArea = 15;
+GMAT Audacy2.SRPArea = 1;
+GMAT Audacy2.NAIFId = -10002001;
+GMAT Audacy2.NAIFIdReferenceFrame = -9002001;
+GMAT Audacy2.OrbitColor = Red;
+GMAT Audacy2.TargetColor = Teal;
+GMAT Audacy2.Id = 'SatId';
+GMAT Audacy2.Attitude = CoordinateSystemFixed;
+GMAT Audacy2.SPADSRPScaleFactor = 1;
+GMAT Audacy2.ModelFile = 'aura.3ds';
+GMAT Audacy2.ModelOffsetX = 0;
+GMAT Audacy2.ModelOffsetY = 0;
+GMAT Audacy2.ModelOffsetZ = 0;
+GMAT Audacy2.ModelRotationX = 0;
+GMAT Audacy2.ModelRotationY = 0;
+GMAT Audacy2.ModelRotationZ = 0;
+GMAT Audacy2.ModelScale = 1;
+GMAT Audacy2.AttitudeDisplayStateType = 'Quaternion';
+GMAT Audacy2.AttitudeRateDisplayStateType = 'AngularVelocity';
+GMAT Audacy2.AttitudeCoordinateSystem = EarthMJ2000Eq;
+GMAT Audacy2.EulerAngleSequence = '321';
+
+%----------------------------------------
+%---------- Spacecraft
+%----------------------------------------
+
+Create Spacecraft Audacy3;
+GMAT Audacy3.DateFormat = TAIGregorian;
+GMAT Audacy3.Epoch = '01 Jan 2019 19:00:00.000';
+GMAT Audacy3.CoordinateSystem = EarthMJ2000Eq;
+GMAT Audacy3.DisplayStateType = Keplerian;
+GMAT Audacy3.SMA = 10000;
+GMAT Audacy3.ECC = 3.613466575744519e-016;
+GMAT Audacy3.INC = 90.00000000000004;
+GMAT Audacy3.RAAN = 0;
+GMAT Audacy3.AOP = 0;
+GMAT Audacy3.TA = 90;
+GMAT Audacy3.DryMass = 2000;
+GMAT Audacy3.Cd = 2.2;
+GMAT Audacy3.Cr = 1.8;
+GMAT Audacy3.DragArea = 15;
+GMAT Audacy3.SRPArea = 1;
+GMAT Audacy3.NAIFId = -10002001;
+GMAT Audacy3.NAIFIdReferenceFrame = -9002001;
+GMAT Audacy3.OrbitColor = Red;
+GMAT Audacy3.TargetColor = Teal;
+GMAT Audacy3.Id = 'SatId';
+GMAT Audacy3.Attitude = CoordinateSystemFixed;
+GMAT Audacy3.SPADSRPScaleFactor = 1;
+GMAT Audacy3.ModelFile = 'aura.3ds';
+GMAT Audacy3.ModelOffsetX = 0;
+GMAT Audacy3.ModelOffsetY = 0;
+GMAT Audacy3.ModelOffsetZ = 0;
+GMAT Audacy3.ModelRotationX = 0;
+GMAT Audacy3.ModelRotationY = 0;
+GMAT Audacy3.ModelRotationZ = 0;
+GMAT Audacy3.ModelScale = 1;
+GMAT Audacy3.AttitudeDisplayStateType = 'Quaternion';
+GMAT Audacy3.AttitudeRateDisplayStateType = 'AngularVelocity';
+GMAT Audacy3.AttitudeCoordinateSystem = EarthMJ2000Eq;
+GMAT Audacy3.EulerAngleSequence = '321';
+
+%----------------------------------------
+%---------- ForceModels
+%----------------------------------------
+
+Create ForceModel DefaultProp_ForceModel;
+GMAT DefaultProp_ForceModel.CentralBody = Earth;
+GMAT DefaultProp_ForceModel.PrimaryBodies = {Earth};
+GMAT DefaultProp_ForceModel.Drag = None;
+GMAT DefaultProp_ForceModel.SRP = Off;
+GMAT DefaultProp_ForceModel.RelativisticCorrection = Off;
+GMAT DefaultProp_ForceModel.ErrorControl = RSSStep;
+GMAT DefaultProp_ForceModel.GravityField.Earth.Degree = 8;
+GMAT DefaultProp_ForceModel.GravityField.Earth.Order = 8;
+GMAT DefaultProp_ForceModel.GravityField.Earth.PotentialFile = 'JGM2.cof';
+GMAT DefaultProp_ForceModel.GravityField.Earth.EarthTideModel = 'None';
+
+%----------------------------------------
+%---------- Propagators
+%----------------------------------------
+
+Create Propagator DefaultProp;
+GMAT DefaultProp.FM = DefaultProp_ForceModel;
+GMAT DefaultProp.Type = RungeKutta89;
+GMAT DefaultProp.InitialStepSize = 60;
+GMAT DefaultProp.Accuracy = 9.999999999999999e-012;
+GMAT DefaultProp.MinStep = 0.001;
+GMAT DefaultProp.MaxStep = 2700;
+GMAT DefaultProp.MaxStepAttempts = 50;
+GMAT DefaultProp.StopIfAccuracyIsViolated = true;
+
+%----------------------------------------
+%---------- Burns
+%----------------------------------------
+
+Create ImpulsiveBurn DefaultIB;
+GMAT DefaultIB.CoordinateSystem = Local;
+GMAT DefaultIB.Origin = Earth;
+GMAT DefaultIB.Axes = VNB;
+GMAT DefaultIB.Element1 = 0;
+GMAT DefaultIB.Element2 = 0;
+GMAT DefaultIB.Element3 = 0;
+GMAT DefaultIB.DecrementMass = false;
+GMAT DefaultIB.Isp = 300;
+GMAT DefaultIB.GravitationalAccel = 9.810000000000001;
+
+%----------------------------------------
+%---------- EventLocators
+%----------------------------------------
+
+Create EclipseLocator EclipseLocator1;
+GMAT EclipseLocator1.Spacecraft = Audacy1;
+GMAT EclipseLocator1.Filename = 'EclipseLocator1.txt';
+GMAT EclipseLocator1.OccultingBodies = {Earth, Luna};
+GMAT EclipseLocator1.InputEpochFormat = 'TAIModJulian';
+GMAT EclipseLocator1.InitialEpoch = '21545';
+GMAT EclipseLocator1.StepSize = 10;
+GMAT EclipseLocator1.FinalEpoch = '21545.138';
+GMAT EclipseLocator1.UseLightTimeDelay = true;
+GMAT EclipseLocator1.UseStellarAberration = true;
+GMAT EclipseLocator1.WriteReport = true;
+GMAT EclipseLocator1.RunMode = Automatic;
+GMAT EclipseLocator1.UseEntireInterval = true;
+GMAT EclipseLocator1.EclipseTypes = {'Umbra', 'Penumbra', 'Antumbra'};
+
+%----------------------------------------
+%---------- Subscribers
+%----------------------------------------
+
+Create OrbitView DefaultOrbitView;
+GMAT DefaultOrbitView.SolverIterations = Current;
+GMAT DefaultOrbitView.UpperLeft = [ 0 0 ];
+GMAT DefaultOrbitView.Size = [ 0.5916473317865429 0.5269516728624535 ];
+GMAT DefaultOrbitView.RelativeZOrder = 16;
+GMAT DefaultOrbitView.Maximized = false;
+GMAT DefaultOrbitView.Add = {Audacy1, Audacy2, Audacy3, Earth};
+GMAT DefaultOrbitView.CoordinateSystem = EarthMJ2000Eq;
+GMAT DefaultOrbitView.DrawObject = [ true true true true ];
+GMAT DefaultOrbitView.DataCollectFrequency = 1;
+GMAT DefaultOrbitView.UpdatePlotFrequency = 50;
+GMAT DefaultOrbitView.NumPointsToRedraw = 0;
+GMAT DefaultOrbitView.ShowPlot = true;
+GMAT DefaultOrbitView.ShowLabels = true;
+GMAT DefaultOrbitView.ViewPointReference = Earth;
+GMAT DefaultOrbitView.ViewPointVector = [ 50000 0 0 ];
+GMAT DefaultOrbitView.ViewDirection = Earth;
+GMAT DefaultOrbitView.ViewScaleFactor = 1;
+GMAT DefaultOrbitView.ViewUpCoordinateSystem = EarthMJ2000Eq;
+GMAT DefaultOrbitView.ViewUpAxis = Z;
+GMAT DefaultOrbitView.EclipticPlane = Off;
+GMAT DefaultOrbitView.XYPlane = On;
+GMAT DefaultOrbitView.WireFrame = Off;
+GMAT DefaultOrbitView.Axes = On;
+GMAT DefaultOrbitView.Grid = Off;
+GMAT DefaultOrbitView.SunLine = Off;
+GMAT DefaultOrbitView.UseInitialView = On;
+GMAT DefaultOrbitView.StarCount = 7000;
+GMAT DefaultOrbitView.EnableStars = On;
+GMAT DefaultOrbitView.EnableConstellations = On;
+
+Create GroundTrackPlot DefaultGroundTrackPlot;
+GMAT DefaultGroundTrackPlot.SolverIterations = Current;
+GMAT DefaultGroundTrackPlot.UpperLeft = [ 0 0.5148698884758365 ];
+GMAT DefaultGroundTrackPlot.Size = [ 0.5003866976024749 0.4498141263940521 ];
+GMAT DefaultGroundTrackPlot.RelativeZOrder = 8;
+GMAT DefaultGroundTrackPlot.Maximized = false;
+GMAT DefaultGroundTrackPlot.Add = {Audacy1, Audacy2, Audacy3};
+GMAT DefaultGroundTrackPlot.DataCollectFrequency = 1;
+GMAT DefaultGroundTrackPlot.UpdatePlotFrequency = 50;
+GMAT DefaultGroundTrackPlot.NumPointsToRedraw = 0;
+GMAT DefaultGroundTrackPlot.ShowPlot = true;
+GMAT DefaultGroundTrackPlot.CentralBody = Earth;
+GMAT DefaultGroundTrackPlot.TextureMap = 'ModifiedBlueMarble.jpg';
+
+Create ReportFile ReportFile1;
+GMAT ReportFile1.SolverIterations = Current;
+GMAT ReportFile1.UpperLeft = [ 0 0 ];
+GMAT ReportFile1.Size = [ 0 0 ];
+GMAT ReportFile1.RelativeZOrder = 0;
+GMAT ReportFile1.Maximized = false;
+GMAT ReportFile1.Filename = 'ReportFile1.txt';
+GMAT ReportFile1.Precision = 16;
+GMAT ReportFile1.Add = {Audacy1.A1ModJulian, Audacy1.EarthMJ2000Eq.X, Audacy1.EulerAngle1, Audacy1.EulerAngle2, Audacy1.EulerAngle3};
+GMAT ReportFile1.WriteHeaders = true;
+GMAT ReportFile1.LeftJustify = On;
+GMAT ReportFile1.ZeroFill = Off;
+GMAT ReportFile1.FixedWidth = true;
+GMAT ReportFile1.Delimiter = ' ';
+GMAT ReportFile1.ColumnWidth = 23;
+GMAT ReportFile1.WriteReport = true;
+
+%----------------------------------------
+%---------- Arrays, Variables, Strings
+%----------------------------------------
+Create Variable x1 y1 z1 vx1 vy1 vz1 i_loop time x2 y2;
+Create Variable z2 vx2 vy2 vz2 x3 y3 z3 vx3 vy3 vz3;
+Create Variable q1_1 q2_1 q3_1 q4_1 q1_2 q2_2 q3_2 q4_2 q1_3 q2_3;
+Create Variable q3_3 q4_3;
+Create Variable testData;
+
+%----------------------------------------
+%---------- Mission Sequence
+%----------------------------------------
+
+BeginMissionSequence;
+GMAT i_loop = 1;
+While i_loop > 0
+   Propagate DefaultProp(Audacy1, Audacy2, Audacy3) {Audacy1.ElapsedSecs = 100};
+   GMAT x1 = Audacy1.EarthFixed.X;
+   GMAT y1 = Audacy1.EarthFixed.Y;
+   GMAT z1 = Audacy1.EarthFixed.Z;
+   GMAT vx1 = Audacy1.EarthFixed.VX;
+   GMAT vy1 = Audacy1.EarthFixed.VY;
+   GMAT vz1 = Audacy1.EarthFixed.VZ;
+   GMAT time = Audacy1.UTCModJulian;
+   GMAT x2 = Audacy2.EarthFixed.X;
+   GMAT y2 = Audacy2.EarthFixed.Y;
+   GMAT z2 = Audacy2.EarthFixed.Z;
+   GMAT vx2 = Audacy2.EarthFixed.VX;
+   GMAT vy2 = Audacy2.EarthFixed.VY;
+   GMAT vz2 = Audacy2.EarthFixed.VZ;
+   GMAT x3 = Audacy3.EarthFixed.X;
+   GMAT y3 = Audacy3.EarthFixed.Y;
+   GMAT z3 = Audacy3.EarthFixed.Z;
+   GMAT vx3 = Audacy3.EarthFixed.VX;
+   GMAT vy3 = Audacy3.EarthFixed.VY;
+   GMAT vz3 = Audacy3.EarthFixed.VZ;
+   
+   GMAT q1_1 = Audacy1.Q1;
+   GMAT q2_1 = Audacy1.Q2;
+   GMAT q3_1 = Audacy1.Q3;
+   GMAT q4_1 = Audacy1.Q4;
+   GMAT q1_2 = Audacy2.Q1;
+   GMAT q2_2 = Audacy2.Q2;
+   GMAT q3_2 = Audacy2.Q3;
+   GMAT q4_2 = Audacy2.Q4;
+   GMAT q1_3 = Audacy3.Q1;
+   GMAT q2_3 = Audacy3.Q2;
+   GMAT q3_3 = Audacy3.Q3;
+   GMAT q4_3 = Audacy3.Q4;
+
+   GMAT testData = Python.MathFunctions.sqrt(x1);   
+%   GMAT [testData] = Python.DataGeneration.Generate(x1, y1, z1, vx1, vy1, vz1, x2, y2, z2, vx2, vy2, vz2, x3, y3, z3, vx3, vy3, vz3, q1_1, q2_1, q3_1, q4_1, q1_2, q2_2, q3_2, q4_2, q1_3, q2_3, q3_3, q4_3, time);
+%   GMAT Python.DataGenerationMQ.SendMQ(x1, y1, z1, vx1, vy1, vz1, x2, y2, z2, vx2, vy2, vz2, x3, y3, z3, vx3, vy3, vz3, q1_1, q2_1, q3_1, q4_1, q1_2, q2_2, q3_2, q4_2, q1_3, q2_3, q3_3, q4_3, time);
+
+EndWhile;

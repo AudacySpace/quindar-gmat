@@ -1,0 +1,5 @@
+GMAT Build Date: Oct 14 2016 13:01:53
+
+GuiMessageReceiver::SetLogFile() Log file set to "GmatLog.txt"
+The log file mode is create
+GMAT working directory set to '/GMAT-R2015a/application/bin/'
