@@ -36,8 +36,6 @@ pythoninterface_defs.hpp
 Factory.hpp
 /gmat/plugins/PythonInterfacePlugin/src/base/factory/Factory.hpp
 
-/gmat/plugins/PythonInterfacePlugin/src/base/function/PythonModule.cpp
-
 /gmat/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.cpp
 stdlib.h
 /gmat/plugins/PythonInterfacePlugin/src/base/interface/stdlib.h

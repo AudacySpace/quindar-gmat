@@ -51,8 +51,8 @@ PLUGIN                   = ../plugins/libNewParameters
 PLUGIN                   = ../plugins/libProductionPropagators
 PLUGIN                   = ../plugins/libPythonInterface
 PLUGIN                   = ../plugins/libStation
-PLUGIN                   = ../plugins/libMatlabInterface
-PLUGIN                   = ../plugins/libFminconOptimizer
+#PLUGIN                   = ../plugins/libMatlabInterface
+#PLUGIN                   = ../plugins/libFminconOptimizer
 
 # Alpha plugins (disabled by default)
 #PLUGIN                  = ./libCInterface
@@ -63,11 +63,11 @@ PLUGIN                   = ../plugins/libFminconOptimizer
 #PLUGIN                  = ../plugins/libSaveCommand
 
 # Internal-only plugins
-PLUGIN                   = ../plugins/proprietary/libMarsGRAM
-PLUGIN                   = ../plugins/proprietary/libMsise86
-PLUGIN                   = ../plugins/proprietary/libNRLMsise00
-PLUGIN                   = ../plugins/proprietary/libSNOptimizer
-PLUGIN                   = ../plugins/proprietary/libVF13Optimizer
+#PLUGIN                   = ../plugins/proprietary/libMarsGRAM
+#PLUGIN                   = ../plugins/proprietary/libMsise86
+#PLUGIN                   = ../plugins/proprietary/libNRLMsise00
+#PLUGIN                   = ../plugins/proprietary/libSNOptimizer
+#PLUGIN                   = ../plugins/proprietary/libVF13Optimizer
 
 #-----------------------------------------------------------
 # Directory/file paths
