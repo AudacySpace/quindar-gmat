@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/src/console/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/console/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/src/console/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/console/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/console/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/console/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/console/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/console/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/console/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/console/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/console/CMakeFiles/GmatConsole.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/GmatConsole.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/GmatConsole.dir/rule
 .PHONY : src/console/CMakeFiles/GmatConsole.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ GmatConsole: src/console/CMakeFiles/GmatConsole.dir/rule
 
 # fast build rule for target.
 GmatConsole/fast:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/build
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/build
 .PHONY : GmatConsole/fast
 
 ConsoleAppException.o: ConsoleAppException.cpp.o
@@ -161,7 +161,7 @@ ConsoleAppException.o: ConsoleAppException.cpp.o
 
 # target to build an object file
 ConsoleAppException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.o
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.o
 .PHONY : ConsoleAppException.cpp.o
 
 ConsoleAppException.i: ConsoleAppException.cpp.i
@@ -169,7 +169,7 @@ ConsoleAppException.i: ConsoleAppException.cpp.i
 
 # target to preprocess a source file
 ConsoleAppException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.i
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.i
 .PHONY : ConsoleAppException.cpp.i
 
 ConsoleAppException.s: ConsoleAppException.cpp.s
@@ -177,7 +177,7 @@ ConsoleAppException.s: ConsoleAppException.cpp.s
 
 # target to generate assembly for a file
 ConsoleAppException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.s
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.s
 .PHONY : ConsoleAppException.cpp.s
 
 ConsoleMessageReceiver.o: ConsoleMessageReceiver.cpp.o
@@ -185,7 +185,7 @@ ConsoleMessageReceiver.o: ConsoleMessageReceiver.cpp.o
 
 # target to build an object file
 ConsoleMessageReceiver.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.o
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.o
 .PHONY : ConsoleMessageReceiver.cpp.o
 
 ConsoleMessageReceiver.i: ConsoleMessageReceiver.cpp.i
@@ -193,7 +193,7 @@ ConsoleMessageReceiver.i: ConsoleMessageReceiver.cpp.i
 
 # target to preprocess a source file
 ConsoleMessageReceiver.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.i
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.i
 .PHONY : ConsoleMessageReceiver.cpp.i
 
 ConsoleMessageReceiver.s: ConsoleMessageReceiver.cpp.s
@@ -201,7 +201,7 @@ ConsoleMessageReceiver.s: ConsoleMessageReceiver.cpp.s
 
 # target to generate assembly for a file
 ConsoleMessageReceiver.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.s
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.s
 .PHONY : ConsoleMessageReceiver.cpp.s
 
 PrintUtility.o: PrintUtility.cpp.o
@@ -209,7 +209,7 @@ PrintUtility.o: PrintUtility.cpp.o
 
 # target to build an object file
 PrintUtility.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.o
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.o
 .PHONY : PrintUtility.cpp.o
 
 PrintUtility.i: PrintUtility.cpp.i
@@ -217,7 +217,7 @@ PrintUtility.i: PrintUtility.cpp.i
 
 # target to preprocess a source file
 PrintUtility.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.i
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.i
 .PHONY : PrintUtility.cpp.i
 
 PrintUtility.s: PrintUtility.cpp.s
@@ -225,7 +225,7 @@ PrintUtility.s: PrintUtility.cpp.s
 
 # target to generate assembly for a file
 PrintUtility.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.s
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.s
 .PHONY : PrintUtility.cpp.s
 
 driver.o: driver.cpp.o
@@ -233,7 +233,7 @@ driver.o: driver.cpp.o
 
 # target to build an object file
 driver.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/driver.cpp.o
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/driver.cpp.o
 .PHONY : driver.cpp.o
 
 driver.i: driver.cpp.i
@@ -241,7 +241,7 @@ driver.i: driver.cpp.i
 
 # target to preprocess a source file
 driver.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/driver.cpp.i
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/driver.cpp.i
 .PHONY : driver.cpp.i
 
 driver.s: driver.cpp.s
@@ -249,7 +249,7 @@ driver.s: driver.cpp.s
 
 # target to generate assembly for a file
 driver.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/driver.cpp.s
+	cd /gmat && $(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/driver.cpp.s
 .PHONY : driver.cpp.s
 
 # Help Target
@@ -288,6 +288,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

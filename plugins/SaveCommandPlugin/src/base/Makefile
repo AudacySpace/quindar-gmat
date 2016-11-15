@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/SaveCommandPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/rule
 .PHONY : plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ SaveCommand: plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/rule
 
 # fast build rule for target.
 SaveCommand/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build
+	cd /gmat && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build
 .PHONY : SaveCommand/fast
 
 command/Save.o: command/Save.cpp.o
@@ -161,7 +161,7 @@ command/Save.o: command/Save.cpp.o
 
 # target to build an object file
 command/Save.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.o
+	cd /gmat && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.o
 .PHONY : command/Save.cpp.o
 
 command/Save.i: command/Save.cpp.i
@@ -169,7 +169,7 @@ command/Save.i: command/Save.cpp.i
 
 # target to preprocess a source file
 command/Save.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.i
+	cd /gmat && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.i
 .PHONY : command/Save.cpp.i
 
 command/Save.s: command/Save.cpp.s
@@ -177,7 +177,7 @@ command/Save.s: command/Save.cpp.s
 
 # target to generate assembly for a file
 command/Save.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.s
+	cd /gmat && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.s
 .PHONY : command/Save.cpp.s
 
 factory/SaveCommandFactory.o: factory/SaveCommandFactory.cpp.o
@@ -185,7 +185,7 @@ factory/SaveCommandFactory.o: factory/SaveCommandFactory.cpp.o
 
 # target to build an object file
 factory/SaveCommandFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.o
 .PHONY : factory/SaveCommandFactory.cpp.o
 
 factory/SaveCommandFactory.i: factory/SaveCommandFactory.cpp.i
@@ -193,7 +193,7 @@ factory/SaveCommandFactory.i: factory/SaveCommandFactory.cpp.i
 
 # target to preprocess a source file
 factory/SaveCommandFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.i
 .PHONY : factory/SaveCommandFactory.cpp.i
 
 factory/SaveCommandFactory.s: factory/SaveCommandFactory.cpp.s
@@ -201,7 +201,7 @@ factory/SaveCommandFactory.s: factory/SaveCommandFactory.cpp.s
 
 # target to generate assembly for a file
 factory/SaveCommandFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.s
 .PHONY : factory/SaveCommandFactory.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -209,7 +209,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -217,7 +217,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -225,7 +225,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

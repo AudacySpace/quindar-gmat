@@ -6,3 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/gmat/src/base/solarsys/msise90_sub.c
+f2c.h
+/gmat/src/base/solarsys/f2c.h
+
+depends/cspice/linux/cspice64/include/SpiceZpl.h
+
+depends/cspice/linux/cspice64/include/SpiceZrnm.h
+
+depends/cspice/linux/cspice64/include/f2c.h
+SpiceZrnm.h
+depends/cspice/linux/cspice64/include/SpiceZrnm.h
+f2cMang.h
+depends/cspice/linux/cspice64/include/f2cMang.h
+SpiceZpl.h
+depends/cspice/linux/cspice64/include/SpiceZpl.h
+
+depends/cspice/linux/cspice64/include/f2cMang.h
+

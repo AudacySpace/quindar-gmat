@@ -16,10 +16,10 @@
 #endif /* __cplusplus */
 
 /* fill in with the string wxGetOsDescription() will return */
-#define WXWIN_OS_DESCRIPTION "Linux 3.10.0-327.36.1.el7.x86_64 x86_64"
+#define WXWIN_OS_DESCRIPTION "Linux 3.10.0-327.el7.x86_64 x86_64"
 
 /* the installation location prefix from configure */
-#define wxINSTALL_PREFIX "/GMAT-R2015a/depends/wxWidgets/wxWidgets-3.0.2/gtk-install"
+#define wxINSTALL_PREFIX "/gmat/depends/wxWidgets/wxWidgets-3.0.2/gtk-install"
 
 /* Define to `int' if <sys/types.h> doesn't define.  */
 /* #undef gid_t */

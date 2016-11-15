@@ -1,8 +1,8 @@
-# Install script for directory: /GMAT-R2015a/plugins
+# Install script for directory: /gmat/plugins
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/GMAT-R2015a/GMAT-R2015a-Linux-x64")
+  SET(CMAKE_INSTALL_PREFIX "/gmat/GMAT-R2015a-Linux-x64")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,22 +34,22 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/GMAT-R2015a/plugins/CInterfacePlugin/src/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/DataInterfacePlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/EstimationPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/EventLocatorPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/FormationPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/GmatFunctionPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/MatlabInterfacePlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/NewParameterPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/SaveCommandPlugin/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/plugins/StationPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/CInterfacePlugin/src/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/DataInterfacePlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/EphemPropagatorPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/EstimationPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/EventLocatorPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/ExtraPropagatorsPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/FormationPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/GeometricMeasurementPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/GmatFunctionPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/MatlabInterfacePlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/NewParameterPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/PolyhedronGravityPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/ProductionPropagatorPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/PythonInterfacePlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/SaveCommandPlugin/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/plugins/StationPlugin/src/base/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

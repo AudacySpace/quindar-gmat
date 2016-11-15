@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/flags.ma
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.o: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/flags.make
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.o: plugins/EventLocatorPlugin/src/base/event/ContactEvent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.o"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.o -c /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/ContactEvent.cpp
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.o -c /gmat/plugins/EventLocatorPlugin/src/base/event/ContactEvent.cpp
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.i"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/ContactEvent.cpp > CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.i
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EventLocatorPlugin/src/base/event/ContactEvent.cpp > CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.i
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.s"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/ContactEvent.cpp -o CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.s
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EventLocatorPlugin/src/base/event/ContactEvent.cpp -o CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.s
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.o.requires:
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEve
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.o: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/flags.make
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.o: plugins/EventLocatorPlugin/src/base/event/ContactResult.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.o"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/event/ContactResult.cpp.o -c /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/ContactResult.cpp
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/event/ContactResult.cpp.o -c /gmat/plugins/EventLocatorPlugin/src/base/event/ContactResult.cpp
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventLocator.dir/event/ContactResult.cpp.i"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/ContactResult.cpp > CMakeFiles/EventLocator.dir/event/ContactResult.cpp.i
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EventLocatorPlugin/src/base/event/ContactResult.cpp > CMakeFiles/EventLocator.dir/event/ContactResult.cpp.i
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventLocator.dir/event/ContactResult.cpp.s"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/ContactResult.cpp -o CMakeFiles/EventLocator.dir/event/ContactResult.cpp.s
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EventLocatorPlugin/src/base/event/ContactResult.cpp -o CMakeFiles/EventLocator.dir/event/ContactResult.cpp.s
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.o.requires:
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactRes
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.o: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/flags.make
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.o: plugins/EventLocatorPlugin/src/base/event/EclipseEvent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.o"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.o -c /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/EclipseEvent.cpp
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.o -c /gmat/plugins/EventLocatorPlugin/src/base/event/EclipseEvent.cpp
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.i"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/EclipseEvent.cpp > CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.i
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EventLocatorPlugin/src/base/event/EclipseEvent.cpp > CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.i
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.s"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/EclipseEvent.cpp -o CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.s
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EventLocatorPlugin/src/base/event/EclipseEvent.cpp -o CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.s
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.o.requires:
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.o.requires
@@ -123,17 +123,17 @@ plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEve
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.o: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/flags.make
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.o: plugins/EventLocatorPlugin/src/base/event/EclipseTotalEvent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.o"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.o -c /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/EclipseTotalEvent.cpp
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.o -c /gmat/plugins/EventLocatorPlugin/src/base/event/EclipseTotalEvent.cpp
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.i"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/EclipseTotalEvent.cpp > CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.i
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EventLocatorPlugin/src/base/event/EclipseTotalEvent.cpp > CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.i
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.s"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/event/EclipseTotalEvent.cpp -o CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.s
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EventLocatorPlugin/src/base/event/EclipseTotalEvent.cpp -o CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.s
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.o.requires:
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.o.requires
@@ -146,17 +146,17 @@ plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTot
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.o: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/flags.make
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.o: plugins/EventLocatorPlugin/src/base/factory/EventLocatorFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.o -c /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/factory/EventLocatorFactory.cpp
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.o -c /gmat/plugins/EventLocatorPlugin/src/base/factory/EventLocatorFactory.cpp
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/factory/EventLocatorFactory.cpp > CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.i
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EventLocatorPlugin/src/base/factory/EventLocatorFactory.cpp > CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.i
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/factory/EventLocatorFactory.cpp -o CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.s
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EventLocatorPlugin/src/base/factory/EventLocatorFactory.cpp -o CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.s
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.o.requires:
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.o.requires
@@ -169,17 +169,17 @@ plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLoc
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.o: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/flags.make
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.o: plugins/EventLocatorPlugin/src/base/locator/ContactLocator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.o"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.o -c /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/locator/ContactLocator.cpp
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.o -c /gmat/plugins/EventLocatorPlugin/src/base/locator/ContactLocator.cpp
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.i"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/locator/ContactLocator.cpp > CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.i
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EventLocatorPlugin/src/base/locator/ContactLocator.cpp > CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.i
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.s"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/locator/ContactLocator.cpp -o CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.s
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EventLocatorPlugin/src/base/locator/ContactLocator.cpp -o CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.s
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.o.requires:
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.o.requires
@@ -192,17 +192,17 @@ plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactL
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.o: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/flags.make
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.o: plugins/EventLocatorPlugin/src/base/locator/EclipseLocator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.o"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.o -c /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/locator/EclipseLocator.cpp
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.o -c /gmat/plugins/EventLocatorPlugin/src/base/locator/EclipseLocator.cpp
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.i"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/locator/EclipseLocator.cpp > CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.i
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EventLocatorPlugin/src/base/locator/EclipseLocator.cpp > CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.i
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.s"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/locator/EclipseLocator.cpp -o CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.s
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EventLocatorPlugin/src/base/locator/EclipseLocator.cpp -o CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.s
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.o.requires:
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.o.requires
@@ -215,17 +215,17 @@ plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseL
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.o: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/flags.make
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.o: plugins/EventLocatorPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/EventLocatorPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EventLocatorPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/EventLocatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EventLocatorPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -263,8 +263,8 @@ application/plugins/libEventLocator.so.R2015a: application/bin/libGmatBase.so.R2
 application/plugins/libEventLocator.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libEventLocator.so.R2015a: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libEventLocator.so"
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EventLocator.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libEventLocator.so.R2015a ../../../../application/plugins/libEventLocator.so.R2015a ../../../../application/plugins/libEventLocator.so
+	cd /gmat/plugins/EventLocatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EventLocator.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/EventLocatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libEventLocator.so.R2015a ../../../../application/plugins/libEventLocator.so.R2015a ../../../../application/plugins/libEventLocator.so
 
 application/plugins/libEventLocator.so: application/plugins/libEventLocator.so.R2015a
 
@@ -283,10 +283,10 @@ plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/requires: plugin
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/requires
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/clean:
-	cd /GMAT-R2015a/plugins/EventLocatorPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/EventLocator.dir/cmake_clean.cmake
+	cd /gmat/plugins/EventLocatorPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/EventLocator.dir/cmake_clean.cmake
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/clean
 
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/EventLocatorPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/EventLocatorPlugin/src/base /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/EventLocatorPlugin/src/base /gmat /gmat/plugins/EventLocatorPlugin/src/base /gmat/plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/depend
 

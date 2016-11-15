@@ -1,8 +1,8 @@
-# Install script for directory: /GMAT-R2015a/build/install
+# Install script for directory: /gmat/build/install
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/GMAT-R2015a/GMAT-R2015a-Linux-x64")
+  SET(CMAKE_INSTALL_PREFIX "/gmat/GMAT-R2015a-Linux-x64")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,13 +34,13 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee]|[Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/libwx" TYPE DIRECTORY FILES "/GMAT-R2015a/depends/wxWidgets/wxWidgets-3.0.2/gtk-install/lib/" USE_SOURCE_PERMISSIONS FILES_MATCHING REGEX "/libwx\\_[^/]*u[_-][^/]*$" REGEX "/wx$" EXCLUDE)
+    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/libwx" TYPE DIRECTORY FILES "/gmat/depends/wxWidgets/wxWidgets-3.0.2/gtk-install/lib/" USE_SOURCE_PERMISSIONS FILES_MATCHING REGEX "/libwx\\_[^/]*u[_-][^/]*$" REGEX "/wx$" EXCLUDE)
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee]|[Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg]|[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/libwx" TYPE DIRECTORY FILES "/GMAT-R2015a/depends/wxWidgets/wxWidgets-3.0.2/gtk-install/lib/" USE_SOURCE_PERMISSIONS FILES_MATCHING REGEX "/libwx\\_[^/]*u[_-][^/]*$" REGEX "/wx$" EXCLUDE)
+    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/libwx" TYPE DIRECTORY FILES "/gmat/depends/wxWidgets/wxWidgets-3.0.2/gtk-install/lib/" USE_SOURCE_PERMISSIONS FILES_MATCHING REGEX "/libwx\\_[^/]*u[_-][^/]*$" REGEX "/wx$" EXCLUDE)
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg]|[Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

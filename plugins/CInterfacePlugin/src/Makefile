@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/CInterfacePlugin/src/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/CInterfacePlugin/src/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/rule
 .PHONY : plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ CInterface: plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/rule
 
 # fast build rule for target.
 CInterface/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build
+	cd /gmat && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build
 .PHONY : CInterface/fast
 
 command/PrepareMissionSequence.o: command/PrepareMissionSequence.cpp.o
@@ -161,7 +161,7 @@ command/PrepareMissionSequence.o: command/PrepareMissionSequence.cpp.o
 
 # target to build an object file
 command/PrepareMissionSequence.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.o
+	cd /gmat && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.o
 .PHONY : command/PrepareMissionSequence.cpp.o
 
 command/PrepareMissionSequence.i: command/PrepareMissionSequence.cpp.i
@@ -169,7 +169,7 @@ command/PrepareMissionSequence.i: command/PrepareMissionSequence.cpp.i
 
 # target to preprocess a source file
 command/PrepareMissionSequence.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.i
+	cd /gmat && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.i
 .PHONY : command/PrepareMissionSequence.cpp.i
 
 command/PrepareMissionSequence.s: command/PrepareMissionSequence.cpp.s
@@ -177,7 +177,7 @@ command/PrepareMissionSequence.s: command/PrepareMissionSequence.cpp.s
 
 # target to generate assembly for a file
 command/PrepareMissionSequence.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.s
+	cd /gmat && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.s
 .PHONY : command/PrepareMissionSequence.cpp.s
 
 factory/CCommandFactory.o: factory/CCommandFactory.cpp.o
@@ -185,7 +185,7 @@ factory/CCommandFactory.o: factory/CCommandFactory.cpp.o
 
 # target to build an object file
 factory/CCommandFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.o
 .PHONY : factory/CCommandFactory.cpp.o
 
 factory/CCommandFactory.i: factory/CCommandFactory.cpp.i
@@ -193,7 +193,7 @@ factory/CCommandFactory.i: factory/CCommandFactory.cpp.i
 
 # target to preprocess a source file
 factory/CCommandFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.i
 .PHONY : factory/CCommandFactory.cpp.i
 
 factory/CCommandFactory.s: factory/CCommandFactory.cpp.s
@@ -201,7 +201,7 @@ factory/CCommandFactory.s: factory/CCommandFactory.cpp.s
 
 # target to generate assembly for a file
 factory/CCommandFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.s
 .PHONY : factory/CCommandFactory.cpp.s
 
 plugin/CInterfacePluginFunctions.o: plugin/CInterfacePluginFunctions.cpp.o
@@ -209,7 +209,7 @@ plugin/CInterfacePluginFunctions.o: plugin/CInterfacePluginFunctions.cpp.o
 
 # target to build an object file
 plugin/CInterfacePluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.o
 .PHONY : plugin/CInterfacePluginFunctions.cpp.o
 
 plugin/CInterfacePluginFunctions.i: plugin/CInterfacePluginFunctions.cpp.i
@@ -217,7 +217,7 @@ plugin/CInterfacePluginFunctions.i: plugin/CInterfacePluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/CInterfacePluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.i
 .PHONY : plugin/CInterfacePluginFunctions.cpp.i
 
 plugin/CInterfacePluginFunctions.s: plugin/CInterfacePluginFunctions.cpp.s
@@ -225,7 +225,7 @@ plugin/CInterfacePluginFunctions.s: plugin/CInterfacePluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/CInterfacePluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.s
 .PHONY : plugin/CInterfacePluginFunctions.cpp.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,8 +1,8 @@
-# Install script for directory: /GMAT-R2015a/src
+# Install script for directory: /gmat/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/GMAT-R2015a/GMAT-R2015a-Linux-x64")
+  SET(CMAKE_INSTALL_PREFIX "/gmat/GMAT-R2015a-Linux-x64")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,9 +34,9 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/GMAT-R2015a/src/base/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/src/console/cmake_install.cmake")
-  INCLUDE("/GMAT-R2015a/src/gui/cmake_install.cmake")
+  INCLUDE("/gmat/src/base/cmake_install.cmake")
+  INCLUDE("/gmat/src/console/cmake_install.cmake")
+  INCLUDE("/gmat/src/gui/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

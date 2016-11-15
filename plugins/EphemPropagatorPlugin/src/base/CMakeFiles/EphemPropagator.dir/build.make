@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/fl
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.o: plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/flags.make
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.o: plugins/EphemPropagatorPlugin/src/base/factory/EphemPropFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.o -c /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/factory/EphemPropFactory.cpp
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.o -c /gmat/plugins/EphemPropagatorPlugin/src/base/factory/EphemPropFactory.cpp
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/factory/EphemPropFactory.cpp > CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.i
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EphemPropagatorPlugin/src/base/factory/EphemPropFactory.cpp > CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.i
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/factory/EphemPropFactory.cpp -o CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.s
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EphemPropagatorPlugin/src/base/factory/EphemPropFactory.cpp -o CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.s
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.o.requires:
 .PHONY : plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/Ep
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.o: plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/flags.make
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.o: plugins/EphemPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/EphemPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EphemPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EphemPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/Gma
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.o: plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/flags.make
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.o: plugins/EphemPropagatorPlugin/src/base/propagator/EphemerisPropagator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.o"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.o -c /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/propagator/EphemerisPropagator.cpp
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.o -c /gmat/plugins/EphemPropagatorPlugin/src/base/propagator/EphemerisPropagator.cpp
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.i"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/propagator/EphemerisPropagator.cpp > CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.i
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EphemPropagatorPlugin/src/base/propagator/EphemerisPropagator.cpp > CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.i
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.s"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/propagator/EphemerisPropagator.cpp -o CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.s
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EphemPropagatorPlugin/src/base/propagator/EphemerisPropagator.cpp -o CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.s
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.o.requires:
 .PHONY : plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.o.requires
@@ -123,17 +123,17 @@ plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.o: plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/flags.make
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.o: plugins/EphemPropagatorPlugin/src/base/propagator/SPKPropagator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.o"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.o -c /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/propagator/SPKPropagator.cpp
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.o -c /gmat/plugins/EphemPropagatorPlugin/src/base/propagator/SPKPropagator.cpp
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.i"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/propagator/SPKPropagator.cpp > CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.i
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EphemPropagatorPlugin/src/base/propagator/SPKPropagator.cpp > CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.i
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.s"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/propagator/SPKPropagator.cpp -o CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.s
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EphemPropagatorPlugin/src/base/propagator/SPKPropagator.cpp -o CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.s
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.o.requires:
 .PHONY : plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.o.requires
@@ -163,8 +163,8 @@ application/plugins/libEphemPropagator.so.R2015a: application/bin/libGmatBase.so
 application/plugins/libEphemPropagator.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libEphemPropagator.so.R2015a: plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libEphemPropagator.so"
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EphemPropagator.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libEphemPropagator.so.R2015a ../../../../application/plugins/libEphemPropagator.so.R2015a ../../../../application/plugins/libEphemPropagator.so
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EphemPropagator.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libEphemPropagator.so.R2015a ../../../../application/plugins/libEphemPropagator.so.R2015a ../../../../application/plugins/libEphemPropagator.so
 
 application/plugins/libEphemPropagator.so: application/plugins/libEphemPropagator.so.R2015a
 
@@ -179,10 +179,10 @@ plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/requires: 
 .PHONY : plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/requires
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/clean:
-	cd /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/EphemPropagator.dir/cmake_clean.cmake
+	cd /gmat/plugins/EphemPropagatorPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/EphemPropagator.dir/cmake_clean.cmake
 .PHONY : plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/clean
 
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/EphemPropagatorPlugin/src/base /gmat /gmat/plugins/EphemPropagatorPlugin/src/base /gmat/plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/depend
 

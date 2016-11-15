@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/rule
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ GeometricMeasurements: plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/Ge
 
 # fast build rule for target.
 GeometricMeasurements/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build
 .PHONY : GeometricMeasurements/fast
 
 factory/MeasurementFactory.o: factory/MeasurementFactory.cpp.o
@@ -161,7 +161,7 @@ factory/MeasurementFactory.o: factory/MeasurementFactory.cpp.o
 
 # target to build an object file
 factory/MeasurementFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.o
 .PHONY : factory/MeasurementFactory.cpp.o
 
 factory/MeasurementFactory.i: factory/MeasurementFactory.cpp.i
@@ -169,7 +169,7 @@ factory/MeasurementFactory.i: factory/MeasurementFactory.cpp.i
 
 # target to preprocess a source file
 factory/MeasurementFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.i
 .PHONY : factory/MeasurementFactory.cpp.i
 
 factory/MeasurementFactory.s: factory/MeasurementFactory.cpp.s
@@ -177,7 +177,7 @@ factory/MeasurementFactory.s: factory/MeasurementFactory.cpp.s
 
 # target to generate assembly for a file
 factory/MeasurementFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.s
 .PHONY : factory/MeasurementFactory.cpp.s
 
 measurement/GeometricAzEl.o: measurement/GeometricAzEl.cpp.o
@@ -185,7 +185,7 @@ measurement/GeometricAzEl.o: measurement/GeometricAzEl.cpp.o
 
 # target to build an object file
 measurement/GeometricAzEl.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.o
 .PHONY : measurement/GeometricAzEl.cpp.o
 
 measurement/GeometricAzEl.i: measurement/GeometricAzEl.cpp.i
@@ -193,7 +193,7 @@ measurement/GeometricAzEl.i: measurement/GeometricAzEl.cpp.i
 
 # target to preprocess a source file
 measurement/GeometricAzEl.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.i
 .PHONY : measurement/GeometricAzEl.cpp.i
 
 measurement/GeometricAzEl.s: measurement/GeometricAzEl.cpp.s
@@ -201,7 +201,7 @@ measurement/GeometricAzEl.s: measurement/GeometricAzEl.cpp.s
 
 # target to generate assembly for a file
 measurement/GeometricAzEl.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.s
 .PHONY : measurement/GeometricAzEl.cpp.s
 
 measurement/GeometricRADec.o: measurement/GeometricRADec.cpp.o
@@ -209,7 +209,7 @@ measurement/GeometricRADec.o: measurement/GeometricRADec.cpp.o
 
 # target to build an object file
 measurement/GeometricRADec.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.o
 .PHONY : measurement/GeometricRADec.cpp.o
 
 measurement/GeometricRADec.i: measurement/GeometricRADec.cpp.i
@@ -217,7 +217,7 @@ measurement/GeometricRADec.i: measurement/GeometricRADec.cpp.i
 
 # target to preprocess a source file
 measurement/GeometricRADec.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.i
 .PHONY : measurement/GeometricRADec.cpp.i
 
 measurement/GeometricRADec.s: measurement/GeometricRADec.cpp.s
@@ -225,7 +225,7 @@ measurement/GeometricRADec.s: measurement/GeometricRADec.cpp.s
 
 # target to generate assembly for a file
 measurement/GeometricRADec.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.s
 .PHONY : measurement/GeometricRADec.cpp.s
 
 measurement/GeometricRange.o: measurement/GeometricRange.cpp.o
@@ -233,7 +233,7 @@ measurement/GeometricRange.o: measurement/GeometricRange.cpp.o
 
 # target to build an object file
 measurement/GeometricRange.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.o
 .PHONY : measurement/GeometricRange.cpp.o
 
 measurement/GeometricRange.i: measurement/GeometricRange.cpp.i
@@ -241,7 +241,7 @@ measurement/GeometricRange.i: measurement/GeometricRange.cpp.i
 
 # target to preprocess a source file
 measurement/GeometricRange.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.i
 .PHONY : measurement/GeometricRange.cpp.i
 
 measurement/GeometricRange.s: measurement/GeometricRange.cpp.s
@@ -249,7 +249,7 @@ measurement/GeometricRange.s: measurement/GeometricRange.cpp.s
 
 # target to generate assembly for a file
 measurement/GeometricRange.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.s
 .PHONY : measurement/GeometricRange.cpp.s
 
 measurement/GeometricRangeRate.o: measurement/GeometricRangeRate.cpp.o
@@ -257,7 +257,7 @@ measurement/GeometricRangeRate.o: measurement/GeometricRangeRate.cpp.o
 
 # target to build an object file
 measurement/GeometricRangeRate.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.o
 .PHONY : measurement/GeometricRangeRate.cpp.o
 
 measurement/GeometricRangeRate.i: measurement/GeometricRangeRate.cpp.i
@@ -265,7 +265,7 @@ measurement/GeometricRangeRate.i: measurement/GeometricRangeRate.cpp.i
 
 # target to preprocess a source file
 measurement/GeometricRangeRate.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.i
 .PHONY : measurement/GeometricRangeRate.cpp.i
 
 measurement/GeometricRangeRate.s: measurement/GeometricRangeRate.cpp.s
@@ -273,7 +273,7 @@ measurement/GeometricRangeRate.s: measurement/GeometricRangeRate.cpp.s
 
 # target to generate assembly for a file
 measurement/GeometricRangeRate.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.s
 .PHONY : measurement/GeometricRangeRate.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -281,7 +281,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -289,7 +289,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -297,7 +297,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 # Help Target
@@ -342,6 +342,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

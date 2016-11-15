@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/src/gui/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/gui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/src/gui/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/gui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/gui/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/gui/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/gui/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/gui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/gui/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/gui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/gui/CMakeFiles/GmatGUI.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/gui/CMakeFiles/GmatGUI.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/gui/CMakeFiles/GmatGUI.dir/rule
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ GmatGUI: src/gui/CMakeFiles/GmatGUI.dir/rule
 
 # fast build rule for target.
 GmatGUI/fast:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/build
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/build
 .PHONY : GmatGUI/fast
 
 app/AboutDialog.o: app/AboutDialog.cpp.o
@@ -161,7 +161,7 @@ app/AboutDialog.o: app/AboutDialog.cpp.o
 
 # target to build an object file
 app/AboutDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.o
 .PHONY : app/AboutDialog.cpp.o
 
 app/AboutDialog.i: app/AboutDialog.cpp.i
@@ -169,7 +169,7 @@ app/AboutDialog.i: app/AboutDialog.cpp.i
 
 # target to preprocess a source file
 app/AboutDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.i
 .PHONY : app/AboutDialog.cpp.i
 
 app/AboutDialog.s: app/AboutDialog.cpp.s
@@ -177,7 +177,7 @@ app/AboutDialog.s: app/AboutDialog.cpp.s
 
 # target to generate assembly for a file
 app/AboutDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.s
 .PHONY : app/AboutDialog.cpp.s
 
 app/CompareFilesDialog.o: app/CompareFilesDialog.cpp.o
@@ -185,7 +185,7 @@ app/CompareFilesDialog.o: app/CompareFilesDialog.cpp.o
 
 # target to build an object file
 app/CompareFilesDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.o
 .PHONY : app/CompareFilesDialog.cpp.o
 
 app/CompareFilesDialog.i: app/CompareFilesDialog.cpp.i
@@ -193,7 +193,7 @@ app/CompareFilesDialog.i: app/CompareFilesDialog.cpp.i
 
 # target to preprocess a source file
 app/CompareFilesDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.i
 .PHONY : app/CompareFilesDialog.cpp.i
 
 app/CompareFilesDialog.s: app/CompareFilesDialog.cpp.s
@@ -201,7 +201,7 @@ app/CompareFilesDialog.s: app/CompareFilesDialog.cpp.s
 
 # target to generate assembly for a file
 app/CompareFilesDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.s
 .PHONY : app/CompareFilesDialog.cpp.s
 
 app/CompareTextDialog.o: app/CompareTextDialog.cpp.o
@@ -209,7 +209,7 @@ app/CompareTextDialog.o: app/CompareTextDialog.cpp.o
 
 # target to build an object file
 app/CompareTextDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.o
 .PHONY : app/CompareTextDialog.cpp.o
 
 app/CompareTextDialog.i: app/CompareTextDialog.cpp.i
@@ -217,7 +217,7 @@ app/CompareTextDialog.i: app/CompareTextDialog.cpp.i
 
 # target to preprocess a source file
 app/CompareTextDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.i
 .PHONY : app/CompareTextDialog.cpp.i
 
 app/CompareTextDialog.s: app/CompareTextDialog.cpp.s
@@ -225,7 +225,7 @@ app/CompareTextDialog.s: app/CompareTextDialog.cpp.s
 
 # target to generate assembly for a file
 app/CompareTextDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.s
 .PHONY : app/CompareTextDialog.cpp.s
 
 app/GmatApp.o: app/GmatApp.cpp.o
@@ -233,7 +233,7 @@ app/GmatApp.o: app/GmatApp.cpp.o
 
 # target to build an object file
 app/GmatApp.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.o
 .PHONY : app/GmatApp.cpp.o
 
 app/GmatApp.i: app/GmatApp.cpp.i
@@ -241,7 +241,7 @@ app/GmatApp.i: app/GmatApp.cpp.i
 
 # target to preprocess a source file
 app/GmatApp.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.i
 .PHONY : app/GmatApp.cpp.i
 
 app/GmatApp.s: app/GmatApp.cpp.s
@@ -249,7 +249,7 @@ app/GmatApp.s: app/GmatApp.cpp.s
 
 # target to generate assembly for a file
 app/GmatApp.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.s
 .PHONY : app/GmatApp.cpp.s
 
 app/GmatAppData.o: app/GmatAppData.cpp.o
@@ -257,7 +257,7 @@ app/GmatAppData.o: app/GmatAppData.cpp.o
 
 # target to build an object file
 app/GmatAppData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.o
 .PHONY : app/GmatAppData.cpp.o
 
 app/GmatAppData.i: app/GmatAppData.cpp.i
@@ -265,7 +265,7 @@ app/GmatAppData.i: app/GmatAppData.cpp.i
 
 # target to preprocess a source file
 app/GmatAppData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.i
 .PHONY : app/GmatAppData.cpp.i
 
 app/GmatAppData.s: app/GmatAppData.cpp.s
@@ -273,7 +273,7 @@ app/GmatAppData.s: app/GmatAppData.cpp.s
 
 # target to generate assembly for a file
 app/GmatAppData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.s
 .PHONY : app/GmatAppData.cpp.s
 
 app/GmatConnection.o: app/GmatConnection.cpp.o
@@ -281,7 +281,7 @@ app/GmatConnection.o: app/GmatConnection.cpp.o
 
 # target to build an object file
 app/GmatConnection.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.o
 .PHONY : app/GmatConnection.cpp.o
 
 app/GmatConnection.i: app/GmatConnection.cpp.i
@@ -289,7 +289,7 @@ app/GmatConnection.i: app/GmatConnection.cpp.i
 
 # target to preprocess a source file
 app/GmatConnection.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.i
 .PHONY : app/GmatConnection.cpp.i
 
 app/GmatConnection.s: app/GmatConnection.cpp.s
@@ -297,7 +297,7 @@ app/GmatConnection.s: app/GmatConnection.cpp.s
 
 # target to generate assembly for a file
 app/GmatConnection.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.s
 .PHONY : app/GmatConnection.cpp.s
 
 app/GmatMainFrame.o: app/GmatMainFrame.cpp.o
@@ -305,7 +305,7 @@ app/GmatMainFrame.o: app/GmatMainFrame.cpp.o
 
 # target to build an object file
 app/GmatMainFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.o
 .PHONY : app/GmatMainFrame.cpp.o
 
 app/GmatMainFrame.i: app/GmatMainFrame.cpp.i
@@ -313,7 +313,7 @@ app/GmatMainFrame.i: app/GmatMainFrame.cpp.i
 
 # target to preprocess a source file
 app/GmatMainFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.i
 .PHONY : app/GmatMainFrame.cpp.i
 
 app/GmatMainFrame.s: app/GmatMainFrame.cpp.s
@@ -321,7 +321,7 @@ app/GmatMainFrame.s: app/GmatMainFrame.cpp.s
 
 # target to generate assembly for a file
 app/GmatMainFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.s
 .PHONY : app/GmatMainFrame.cpp.s
 
 app/GmatMenuBar.o: app/GmatMenuBar.cpp.o
@@ -329,7 +329,7 @@ app/GmatMenuBar.o: app/GmatMenuBar.cpp.o
 
 # target to build an object file
 app/GmatMenuBar.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.o
 .PHONY : app/GmatMenuBar.cpp.o
 
 app/GmatMenuBar.i: app/GmatMenuBar.cpp.i
@@ -337,7 +337,7 @@ app/GmatMenuBar.i: app/GmatMenuBar.cpp.i
 
 # target to preprocess a source file
 app/GmatMenuBar.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.i
 .PHONY : app/GmatMenuBar.cpp.i
 
 app/GmatMenuBar.s: app/GmatMenuBar.cpp.s
@@ -345,7 +345,7 @@ app/GmatMenuBar.s: app/GmatMenuBar.cpp.s
 
 # target to generate assembly for a file
 app/GmatMenuBar.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.s
 .PHONY : app/GmatMenuBar.cpp.s
 
 app/GmatNotebook.o: app/GmatNotebook.cpp.o
@@ -353,7 +353,7 @@ app/GmatNotebook.o: app/GmatNotebook.cpp.o
 
 # target to build an object file
 app/GmatNotebook.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.o
 .PHONY : app/GmatNotebook.cpp.o
 
 app/GmatNotebook.i: app/GmatNotebook.cpp.i
@@ -361,7 +361,7 @@ app/GmatNotebook.i: app/GmatNotebook.cpp.i
 
 # target to preprocess a source file
 app/GmatNotebook.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.i
 .PHONY : app/GmatNotebook.cpp.i
 
 app/GmatNotebook.s: app/GmatNotebook.cpp.s
@@ -369,7 +369,7 @@ app/GmatNotebook.s: app/GmatNotebook.cpp.s
 
 # target to generate assembly for a file
 app/GmatNotebook.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.s
 .PHONY : app/GmatNotebook.cpp.s
 
 app/GmatServer.o: app/GmatServer.cpp.o
@@ -377,7 +377,7 @@ app/GmatServer.o: app/GmatServer.cpp.o
 
 # target to build an object file
 app/GmatServer.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.o
 .PHONY : app/GmatServer.cpp.o
 
 app/GmatServer.i: app/GmatServer.cpp.i
@@ -385,7 +385,7 @@ app/GmatServer.i: app/GmatServer.cpp.i
 
 # target to preprocess a source file
 app/GmatServer.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.i
 .PHONY : app/GmatServer.cpp.i
 
 app/GmatServer.s: app/GmatServer.cpp.s
@@ -393,7 +393,7 @@ app/GmatServer.s: app/GmatServer.cpp.s
 
 # target to generate assembly for a file
 app/GmatServer.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.s
 .PHONY : app/GmatServer.cpp.s
 
 app/GmatToolBar.o: app/GmatToolBar.cpp.o
@@ -401,7 +401,7 @@ app/GmatToolBar.o: app/GmatToolBar.cpp.o
 
 # target to build an object file
 app/GmatToolBar.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.o
 .PHONY : app/GmatToolBar.cpp.o
 
 app/GmatToolBar.i: app/GmatToolBar.cpp.i
@@ -409,7 +409,7 @@ app/GmatToolBar.i: app/GmatToolBar.cpp.i
 
 # target to preprocess a source file
 app/GmatToolBar.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.i
 .PHONY : app/GmatToolBar.cpp.i
 
 app/GmatToolBar.s: app/GmatToolBar.cpp.s
@@ -417,7 +417,7 @@ app/GmatToolBar.s: app/GmatToolBar.cpp.s
 
 # target to generate assembly for a file
 app/GmatToolBar.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.s
 .PHONY : app/GmatToolBar.cpp.s
 
 app/GmatTreeItemData.o: app/GmatTreeItemData.cpp.o
@@ -425,7 +425,7 @@ app/GmatTreeItemData.o: app/GmatTreeItemData.cpp.o
 
 # target to build an object file
 app/GmatTreeItemData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.o
 .PHONY : app/GmatTreeItemData.cpp.o
 
 app/GmatTreeItemData.i: app/GmatTreeItemData.cpp.i
@@ -433,7 +433,7 @@ app/GmatTreeItemData.i: app/GmatTreeItemData.cpp.i
 
 # target to preprocess a source file
 app/GmatTreeItemData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.i
 .PHONY : app/GmatTreeItemData.cpp.i
 
 app/GmatTreeItemData.s: app/GmatTreeItemData.cpp.s
@@ -441,7 +441,7 @@ app/GmatTreeItemData.s: app/GmatTreeItemData.cpp.s
 
 # target to generate assembly for a file
 app/GmatTreeItemData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.s
 .PHONY : app/GmatTreeItemData.cpp.s
 
 app/GuiInterpreter.o: app/GuiInterpreter.cpp.o
@@ -449,7 +449,7 @@ app/GuiInterpreter.o: app/GuiInterpreter.cpp.o
 
 # target to build an object file
 app/GuiInterpreter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.o
 .PHONY : app/GuiInterpreter.cpp.o
 
 app/GuiInterpreter.i: app/GuiInterpreter.cpp.i
@@ -457,7 +457,7 @@ app/GuiInterpreter.i: app/GuiInterpreter.cpp.i
 
 # target to preprocess a source file
 app/GuiInterpreter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.i
 .PHONY : app/GuiInterpreter.cpp.i
 
 app/GuiInterpreter.s: app/GuiInterpreter.cpp.s
@@ -465,7 +465,7 @@ app/GuiInterpreter.s: app/GuiInterpreter.cpp.s
 
 # target to generate assembly for a file
 app/GuiInterpreter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.s
 .PHONY : app/GuiInterpreter.cpp.s
 
 app/GuiListenerManager.o: app/GuiListenerManager.cpp.o
@@ -473,7 +473,7 @@ app/GuiListenerManager.o: app/GuiListenerManager.cpp.o
 
 # target to build an object file
 app/GuiListenerManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.o
 .PHONY : app/GuiListenerManager.cpp.o
 
 app/GuiListenerManager.i: app/GuiListenerManager.cpp.i
@@ -481,7 +481,7 @@ app/GuiListenerManager.i: app/GuiListenerManager.cpp.i
 
 # target to preprocess a source file
 app/GuiListenerManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.i
 .PHONY : app/GuiListenerManager.cpp.i
 
 app/GuiListenerManager.s: app/GuiListenerManager.cpp.s
@@ -489,7 +489,7 @@ app/GuiListenerManager.s: app/GuiListenerManager.cpp.s
 
 # target to generate assembly for a file
 app/GuiListenerManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.s
 .PHONY : app/GuiListenerManager.cpp.s
 
 app/GuiMessageReceiver.o: app/GuiMessageReceiver.cpp.o
@@ -497,7 +497,7 @@ app/GuiMessageReceiver.o: app/GuiMessageReceiver.cpp.o
 
 # target to build an object file
 app/GuiMessageReceiver.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.o
 .PHONY : app/GuiMessageReceiver.cpp.o
 
 app/GuiMessageReceiver.i: app/GuiMessageReceiver.cpp.i
@@ -505,7 +505,7 @@ app/GuiMessageReceiver.i: app/GuiMessageReceiver.cpp.i
 
 # target to preprocess a source file
 app/GuiMessageReceiver.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.i
 .PHONY : app/GuiMessageReceiver.cpp.i
 
 app/GuiMessageReceiver.s: app/GuiMessageReceiver.cpp.s
@@ -513,7 +513,7 @@ app/GuiMessageReceiver.s: app/GuiMessageReceiver.cpp.s
 
 # target to generate assembly for a file
 app/GuiMessageReceiver.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.s
 .PHONY : app/GuiMessageReceiver.cpp.s
 
 app/GuiPlotReceiver.o: app/GuiPlotReceiver.cpp.o
@@ -521,7 +521,7 @@ app/GuiPlotReceiver.o: app/GuiPlotReceiver.cpp.o
 
 # target to build an object file
 app/GuiPlotReceiver.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.o
 .PHONY : app/GuiPlotReceiver.cpp.o
 
 app/GuiPlotReceiver.i: app/GuiPlotReceiver.cpp.i
@@ -529,7 +529,7 @@ app/GuiPlotReceiver.i: app/GuiPlotReceiver.cpp.i
 
 # target to preprocess a source file
 app/GuiPlotReceiver.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.i
 .PHONY : app/GuiPlotReceiver.cpp.i
 
 app/GuiPlotReceiver.s: app/GuiPlotReceiver.cpp.s
@@ -537,7 +537,7 @@ app/GuiPlotReceiver.s: app/GuiPlotReceiver.cpp.s
 
 # target to generate assembly for a file
 app/GuiPlotReceiver.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.s
 .PHONY : app/GuiPlotReceiver.cpp.s
 
 app/InteractiveMatlabDialog.o: app/InteractiveMatlabDialog.cpp.o
@@ -545,7 +545,7 @@ app/InteractiveMatlabDialog.o: app/InteractiveMatlabDialog.cpp.o
 
 # target to build an object file
 app/InteractiveMatlabDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.o
 .PHONY : app/InteractiveMatlabDialog.cpp.o
 
 app/InteractiveMatlabDialog.i: app/InteractiveMatlabDialog.cpp.i
@@ -553,7 +553,7 @@ app/InteractiveMatlabDialog.i: app/InteractiveMatlabDialog.cpp.i
 
 # target to preprocess a source file
 app/InteractiveMatlabDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.i
 .PHONY : app/InteractiveMatlabDialog.cpp.i
 
 app/InteractiveMatlabDialog.s: app/InteractiveMatlabDialog.cpp.s
@@ -561,7 +561,7 @@ app/InteractiveMatlabDialog.s: app/InteractiveMatlabDialog.cpp.s
 
 # target to generate assembly for a file
 app/InteractiveMatlabDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.s
 .PHONY : app/InteractiveMatlabDialog.cpp.s
 
 app/MissionTreeItemData.o: app/MissionTreeItemData.cpp.o
@@ -569,7 +569,7 @@ app/MissionTreeItemData.o: app/MissionTreeItemData.cpp.o
 
 # target to build an object file
 app/MissionTreeItemData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.o
 .PHONY : app/MissionTreeItemData.cpp.o
 
 app/MissionTreeItemData.i: app/MissionTreeItemData.cpp.i
@@ -577,7 +577,7 @@ app/MissionTreeItemData.i: app/MissionTreeItemData.cpp.i
 
 # target to preprocess a source file
 app/MissionTreeItemData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.i
 .PHONY : app/MissionTreeItemData.cpp.i
 
 app/MissionTreeItemData.s: app/MissionTreeItemData.cpp.s
@@ -585,7 +585,7 @@ app/MissionTreeItemData.s: app/MissionTreeItemData.cpp.s
 
 # target to generate assembly for a file
 app/MissionTreeItemData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.s
 .PHONY : app/MissionTreeItemData.cpp.s
 
 app/ResourceTree.o: app/ResourceTree.cpp.o
@@ -593,7 +593,7 @@ app/ResourceTree.o: app/ResourceTree.cpp.o
 
 # target to build an object file
 app/ResourceTree.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.o
 .PHONY : app/ResourceTree.cpp.o
 
 app/ResourceTree.i: app/ResourceTree.cpp.i
@@ -601,7 +601,7 @@ app/ResourceTree.i: app/ResourceTree.cpp.i
 
 # target to preprocess a source file
 app/ResourceTree.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.i
 .PHONY : app/ResourceTree.cpp.i
 
 app/ResourceTree.s: app/ResourceTree.cpp.s
@@ -609,7 +609,7 @@ app/ResourceTree.s: app/ResourceTree.cpp.s
 
 # target to generate assembly for a file
 app/ResourceTree.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.s
 .PHONY : app/ResourceTree.cpp.s
 
 app/RunScriptFolderDialog.o: app/RunScriptFolderDialog.cpp.o
@@ -617,7 +617,7 @@ app/RunScriptFolderDialog.o: app/RunScriptFolderDialog.cpp.o
 
 # target to build an object file
 app/RunScriptFolderDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.o
 .PHONY : app/RunScriptFolderDialog.cpp.o
 
 app/RunScriptFolderDialog.i: app/RunScriptFolderDialog.cpp.i
@@ -625,7 +625,7 @@ app/RunScriptFolderDialog.i: app/RunScriptFolderDialog.cpp.i
 
 # target to preprocess a source file
 app/RunScriptFolderDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.i
 .PHONY : app/RunScriptFolderDialog.cpp.i
 
 app/RunScriptFolderDialog.s: app/RunScriptFolderDialog.cpp.s
@@ -633,7 +633,7 @@ app/RunScriptFolderDialog.s: app/RunScriptFolderDialog.cpp.s
 
 # target to generate assembly for a file
 app/RunScriptFolderDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.s
 .PHONY : app/RunScriptFolderDialog.cpp.s
 
 app/ScriptPanel.o: app/ScriptPanel.cpp.o
@@ -641,7 +641,7 @@ app/ScriptPanel.o: app/ScriptPanel.cpp.o
 
 # target to build an object file
 app/ScriptPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.o
 .PHONY : app/ScriptPanel.cpp.o
 
 app/ScriptPanel.i: app/ScriptPanel.cpp.i
@@ -649,7 +649,7 @@ app/ScriptPanel.i: app/ScriptPanel.cpp.i
 
 # target to preprocess a source file
 app/ScriptPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.i
 .PHONY : app/ScriptPanel.cpp.i
 
 app/ScriptPanel.s: app/ScriptPanel.cpp.s
@@ -657,7 +657,7 @@ app/ScriptPanel.s: app/ScriptPanel.cpp.s
 
 # target to generate assembly for a file
 app/ScriptPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.s
 .PHONY : app/ScriptPanel.cpp.s
 
 app/SetPathDialog.o: app/SetPathDialog.cpp.o
@@ -665,7 +665,7 @@ app/SetPathDialog.o: app/SetPathDialog.cpp.o
 
 # target to build an object file
 app/SetPathDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.o
 .PHONY : app/SetPathDialog.cpp.o
 
 app/SetPathDialog.i: app/SetPathDialog.cpp.i
@@ -673,7 +673,7 @@ app/SetPathDialog.i: app/SetPathDialog.cpp.i
 
 # target to preprocess a source file
 app/SetPathDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.i
 .PHONY : app/SetPathDialog.cpp.i
 
 app/SetPathDialog.s: app/SetPathDialog.cpp.s
@@ -681,7 +681,7 @@ app/SetPathDialog.s: app/SetPathDialog.cpp.s
 
 # target to generate assembly for a file
 app/SetPathDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.s
 .PHONY : app/SetPathDialog.cpp.s
 
 app/TextEphemFileDialog.o: app/TextEphemFileDialog.cpp.o
@@ -689,7 +689,7 @@ app/TextEphemFileDialog.o: app/TextEphemFileDialog.cpp.o
 
 # target to build an object file
 app/TextEphemFileDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.o
 .PHONY : app/TextEphemFileDialog.cpp.o
 
 app/TextEphemFileDialog.i: app/TextEphemFileDialog.cpp.i
@@ -697,7 +697,7 @@ app/TextEphemFileDialog.i: app/TextEphemFileDialog.cpp.i
 
 # target to preprocess a source file
 app/TextEphemFileDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.i
 .PHONY : app/TextEphemFileDialog.cpp.i
 
 app/TextEphemFileDialog.s: app/TextEphemFileDialog.cpp.s
@@ -705,7 +705,7 @@ app/TextEphemFileDialog.s: app/TextEphemFileDialog.cpp.s
 
 # target to generate assembly for a file
 app/TextEphemFileDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.s
 .PHONY : app/TextEphemFileDialog.cpp.s
 
 app/WelcomePanel.o: app/WelcomePanel.cpp.o
@@ -713,7 +713,7 @@ app/WelcomePanel.o: app/WelcomePanel.cpp.o
 
 # target to build an object file
 app/WelcomePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.o
 .PHONY : app/WelcomePanel.cpp.o
 
 app/WelcomePanel.i: app/WelcomePanel.cpp.i
@@ -721,7 +721,7 @@ app/WelcomePanel.i: app/WelcomePanel.cpp.i
 
 # target to preprocess a source file
 app/WelcomePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.i
 .PHONY : app/WelcomePanel.cpp.i
 
 app/WelcomePanel.s: app/WelcomePanel.cpp.s
@@ -729,7 +729,7 @@ app/WelcomePanel.s: app/WelcomePanel.cpp.s
 
 # target to generate assembly for a file
 app/WelcomePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.s
 .PHONY : app/WelcomePanel.cpp.s
 
 asset/GroundStationPanel.o: asset/GroundStationPanel.cpp.o
@@ -737,7 +737,7 @@ asset/GroundStationPanel.o: asset/GroundStationPanel.cpp.o
 
 # target to build an object file
 asset/GroundStationPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.o
 .PHONY : asset/GroundStationPanel.cpp.o
 
 asset/GroundStationPanel.i: asset/GroundStationPanel.cpp.i
@@ -745,7 +745,7 @@ asset/GroundStationPanel.i: asset/GroundStationPanel.cpp.i
 
 # target to preprocess a source file
 asset/GroundStationPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.i
 .PHONY : asset/GroundStationPanel.cpp.i
 
 asset/GroundStationPanel.s: asset/GroundStationPanel.cpp.s
@@ -753,7 +753,7 @@ asset/GroundStationPanel.s: asset/GroundStationPanel.cpp.s
 
 # target to generate assembly for a file
 asset/GroundStationPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.s
 .PHONY : asset/GroundStationPanel.cpp.s
 
 burn/FiniteBurnSetupPanel.o: burn/FiniteBurnSetupPanel.cpp.o
@@ -761,7 +761,7 @@ burn/FiniteBurnSetupPanel.o: burn/FiniteBurnSetupPanel.cpp.o
 
 # target to build an object file
 burn/FiniteBurnSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.o
 .PHONY : burn/FiniteBurnSetupPanel.cpp.o
 
 burn/FiniteBurnSetupPanel.i: burn/FiniteBurnSetupPanel.cpp.i
@@ -769,7 +769,7 @@ burn/FiniteBurnSetupPanel.i: burn/FiniteBurnSetupPanel.cpp.i
 
 # target to preprocess a source file
 burn/FiniteBurnSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.i
 .PHONY : burn/FiniteBurnSetupPanel.cpp.i
 
 burn/FiniteBurnSetupPanel.s: burn/FiniteBurnSetupPanel.cpp.s
@@ -777,7 +777,7 @@ burn/FiniteBurnSetupPanel.s: burn/FiniteBurnSetupPanel.cpp.s
 
 # target to generate assembly for a file
 burn/FiniteBurnSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.s
 .PHONY : burn/FiniteBurnSetupPanel.cpp.s
 
 burn/ImpulsiveBurnSetupPanel.o: burn/ImpulsiveBurnSetupPanel.cpp.o
@@ -785,7 +785,7 @@ burn/ImpulsiveBurnSetupPanel.o: burn/ImpulsiveBurnSetupPanel.cpp.o
 
 # target to build an object file
 burn/ImpulsiveBurnSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.o
 .PHONY : burn/ImpulsiveBurnSetupPanel.cpp.o
 
 burn/ImpulsiveBurnSetupPanel.i: burn/ImpulsiveBurnSetupPanel.cpp.i
@@ -793,7 +793,7 @@ burn/ImpulsiveBurnSetupPanel.i: burn/ImpulsiveBurnSetupPanel.cpp.i
 
 # target to preprocess a source file
 burn/ImpulsiveBurnSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.i
 .PHONY : burn/ImpulsiveBurnSetupPanel.cpp.i
 
 burn/ImpulsiveBurnSetupPanel.s: burn/ImpulsiveBurnSetupPanel.cpp.s
@@ -801,7 +801,7 @@ burn/ImpulsiveBurnSetupPanel.s: burn/ImpulsiveBurnSetupPanel.cpp.s
 
 # target to generate assembly for a file
 burn/ImpulsiveBurnSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.s
 .PHONY : burn/ImpulsiveBurnSetupPanel.cpp.s
 
 command/AchievePanel.o: command/AchievePanel.cpp.o
@@ -809,7 +809,7 @@ command/AchievePanel.o: command/AchievePanel.cpp.o
 
 # target to build an object file
 command/AchievePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.o
 .PHONY : command/AchievePanel.cpp.o
 
 command/AchievePanel.i: command/AchievePanel.cpp.i
@@ -817,7 +817,7 @@ command/AchievePanel.i: command/AchievePanel.cpp.i
 
 # target to preprocess a source file
 command/AchievePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.i
 .PHONY : command/AchievePanel.cpp.i
 
 command/AchievePanel.s: command/AchievePanel.cpp.s
@@ -825,7 +825,7 @@ command/AchievePanel.s: command/AchievePanel.cpp.s
 
 # target to generate assembly for a file
 command/AchievePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.s
 .PHONY : command/AchievePanel.cpp.s
 
 command/AssignmentPanel.o: command/AssignmentPanel.cpp.o
@@ -833,7 +833,7 @@ command/AssignmentPanel.o: command/AssignmentPanel.cpp.o
 
 # target to build an object file
 command/AssignmentPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.o
 .PHONY : command/AssignmentPanel.cpp.o
 
 command/AssignmentPanel.i: command/AssignmentPanel.cpp.i
@@ -841,7 +841,7 @@ command/AssignmentPanel.i: command/AssignmentPanel.cpp.i
 
 # target to preprocess a source file
 command/AssignmentPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.i
 .PHONY : command/AssignmentPanel.cpp.i
 
 command/AssignmentPanel.s: command/AssignmentPanel.cpp.s
@@ -849,7 +849,7 @@ command/AssignmentPanel.s: command/AssignmentPanel.cpp.s
 
 # target to generate assembly for a file
 command/AssignmentPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.s
 .PHONY : command/AssignmentPanel.cpp.s
 
 command/BeginFiniteBurnPanel.o: command/BeginFiniteBurnPanel.cpp.o
@@ -857,7 +857,7 @@ command/BeginFiniteBurnPanel.o: command/BeginFiniteBurnPanel.cpp.o
 
 # target to build an object file
 command/BeginFiniteBurnPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.o
 .PHONY : command/BeginFiniteBurnPanel.cpp.o
 
 command/BeginFiniteBurnPanel.i: command/BeginFiniteBurnPanel.cpp.i
@@ -865,7 +865,7 @@ command/BeginFiniteBurnPanel.i: command/BeginFiniteBurnPanel.cpp.i
 
 # target to preprocess a source file
 command/BeginFiniteBurnPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.i
 .PHONY : command/BeginFiniteBurnPanel.cpp.i
 
 command/BeginFiniteBurnPanel.s: command/BeginFiniteBurnPanel.cpp.s
@@ -873,7 +873,7 @@ command/BeginFiniteBurnPanel.s: command/BeginFiniteBurnPanel.cpp.s
 
 # target to generate assembly for a file
 command/BeginFiniteBurnPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.s
 .PHONY : command/BeginFiniteBurnPanel.cpp.s
 
 command/CallFunctionPanel.o: command/CallFunctionPanel.cpp.o
@@ -881,7 +881,7 @@ command/CallFunctionPanel.o: command/CallFunctionPanel.cpp.o
 
 # target to build an object file
 command/CallFunctionPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.o
 .PHONY : command/CallFunctionPanel.cpp.o
 
 command/CallFunctionPanel.i: command/CallFunctionPanel.cpp.i
@@ -889,7 +889,7 @@ command/CallFunctionPanel.i: command/CallFunctionPanel.cpp.i
 
 # target to preprocess a source file
 command/CallFunctionPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.i
 .PHONY : command/CallFunctionPanel.cpp.i
 
 command/CallFunctionPanel.s: command/CallFunctionPanel.cpp.s
@@ -897,7 +897,7 @@ command/CallFunctionPanel.s: command/CallFunctionPanel.cpp.s
 
 # target to generate assembly for a file
 command/CallFunctionPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.s
 .PHONY : command/CallFunctionPanel.cpp.s
 
 command/EndFiniteBurnPanel.o: command/EndFiniteBurnPanel.cpp.o
@@ -905,7 +905,7 @@ command/EndFiniteBurnPanel.o: command/EndFiniteBurnPanel.cpp.o
 
 # target to build an object file
 command/EndFiniteBurnPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.o
 .PHONY : command/EndFiniteBurnPanel.cpp.o
 
 command/EndFiniteBurnPanel.i: command/EndFiniteBurnPanel.cpp.i
@@ -913,7 +913,7 @@ command/EndFiniteBurnPanel.i: command/EndFiniteBurnPanel.cpp.i
 
 # target to preprocess a source file
 command/EndFiniteBurnPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.i
 .PHONY : command/EndFiniteBurnPanel.cpp.i
 
 command/EndFiniteBurnPanel.s: command/EndFiniteBurnPanel.cpp.s
@@ -921,7 +921,7 @@ command/EndFiniteBurnPanel.s: command/EndFiniteBurnPanel.cpp.s
 
 # target to generate assembly for a file
 command/EndFiniteBurnPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.s
 .PHONY : command/EndFiniteBurnPanel.cpp.s
 
 command/FindEventsPanel.o: command/FindEventsPanel.cpp.o
@@ -929,7 +929,7 @@ command/FindEventsPanel.o: command/FindEventsPanel.cpp.o
 
 # target to build an object file
 command/FindEventsPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.o
 .PHONY : command/FindEventsPanel.cpp.o
 
 command/FindEventsPanel.i: command/FindEventsPanel.cpp.i
@@ -937,7 +937,7 @@ command/FindEventsPanel.i: command/FindEventsPanel.cpp.i
 
 # target to preprocess a source file
 command/FindEventsPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.i
 .PHONY : command/FindEventsPanel.cpp.i
 
 command/FindEventsPanel.s: command/FindEventsPanel.cpp.s
@@ -945,7 +945,7 @@ command/FindEventsPanel.s: command/FindEventsPanel.cpp.s
 
 # target to generate assembly for a file
 command/FindEventsPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.s
 .PHONY : command/FindEventsPanel.cpp.s
 
 command/GmatCommandPanel.o: command/GmatCommandPanel.cpp.o
@@ -953,7 +953,7 @@ command/GmatCommandPanel.o: command/GmatCommandPanel.cpp.o
 
 # target to build an object file
 command/GmatCommandPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.o
 .PHONY : command/GmatCommandPanel.cpp.o
 
 command/GmatCommandPanel.i: command/GmatCommandPanel.cpp.i
@@ -961,7 +961,7 @@ command/GmatCommandPanel.i: command/GmatCommandPanel.cpp.i
 
 # target to preprocess a source file
 command/GmatCommandPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.i
 .PHONY : command/GmatCommandPanel.cpp.i
 
 command/GmatCommandPanel.s: command/GmatCommandPanel.cpp.s
@@ -969,7 +969,7 @@ command/GmatCommandPanel.s: command/GmatCommandPanel.cpp.s
 
 # target to generate assembly for a file
 command/GmatCommandPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.s
 .PHONY : command/GmatCommandPanel.cpp.s
 
 command/ManageObjectPanel.o: command/ManageObjectPanel.cpp.o
@@ -977,7 +977,7 @@ command/ManageObjectPanel.o: command/ManageObjectPanel.cpp.o
 
 # target to build an object file
 command/ManageObjectPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.o
 .PHONY : command/ManageObjectPanel.cpp.o
 
 command/ManageObjectPanel.i: command/ManageObjectPanel.cpp.i
@@ -985,7 +985,7 @@ command/ManageObjectPanel.i: command/ManageObjectPanel.cpp.i
 
 # target to preprocess a source file
 command/ManageObjectPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.i
 .PHONY : command/ManageObjectPanel.cpp.i
 
 command/ManageObjectPanel.s: command/ManageObjectPanel.cpp.s
@@ -993,7 +993,7 @@ command/ManageObjectPanel.s: command/ManageObjectPanel.cpp.s
 
 # target to generate assembly for a file
 command/ManageObjectPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.s
 .PHONY : command/ManageObjectPanel.cpp.s
 
 command/ManeuverPanel.o: command/ManeuverPanel.cpp.o
@@ -1001,7 +1001,7 @@ command/ManeuverPanel.o: command/ManeuverPanel.cpp.o
 
 # target to build an object file
 command/ManeuverPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.o
 .PHONY : command/ManeuverPanel.cpp.o
 
 command/ManeuverPanel.i: command/ManeuverPanel.cpp.i
@@ -1009,7 +1009,7 @@ command/ManeuverPanel.i: command/ManeuverPanel.cpp.i
 
 # target to preprocess a source file
 command/ManeuverPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.i
 .PHONY : command/ManeuverPanel.cpp.i
 
 command/ManeuverPanel.s: command/ManeuverPanel.cpp.s
@@ -1017,7 +1017,7 @@ command/ManeuverPanel.s: command/ManeuverPanel.cpp.s
 
 # target to generate assembly for a file
 command/ManeuverPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.s
 .PHONY : command/ManeuverPanel.cpp.s
 
 command/MinimizePanel.o: command/MinimizePanel.cpp.o
@@ -1025,7 +1025,7 @@ command/MinimizePanel.o: command/MinimizePanel.cpp.o
 
 # target to build an object file
 command/MinimizePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.o
 .PHONY : command/MinimizePanel.cpp.o
 
 command/MinimizePanel.i: command/MinimizePanel.cpp.i
@@ -1033,7 +1033,7 @@ command/MinimizePanel.i: command/MinimizePanel.cpp.i
 
 # target to preprocess a source file
 command/MinimizePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.i
 .PHONY : command/MinimizePanel.cpp.i
 
 command/MinimizePanel.s: command/MinimizePanel.cpp.s
@@ -1041,7 +1041,7 @@ command/MinimizePanel.s: command/MinimizePanel.cpp.s
 
 # target to generate assembly for a file
 command/MinimizePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.s
 .PHONY : command/MinimizePanel.cpp.s
 
 command/NonlinearConstraintPanel.o: command/NonlinearConstraintPanel.cpp.o
@@ -1049,7 +1049,7 @@ command/NonlinearConstraintPanel.o: command/NonlinearConstraintPanel.cpp.o
 
 # target to build an object file
 command/NonlinearConstraintPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.o
 .PHONY : command/NonlinearConstraintPanel.cpp.o
 
 command/NonlinearConstraintPanel.i: command/NonlinearConstraintPanel.cpp.i
@@ -1057,7 +1057,7 @@ command/NonlinearConstraintPanel.i: command/NonlinearConstraintPanel.cpp.i
 
 # target to preprocess a source file
 command/NonlinearConstraintPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.i
 .PHONY : command/NonlinearConstraintPanel.cpp.i
 
 command/NonlinearConstraintPanel.s: command/NonlinearConstraintPanel.cpp.s
@@ -1065,7 +1065,7 @@ command/NonlinearConstraintPanel.s: command/NonlinearConstraintPanel.cpp.s
 
 # target to generate assembly for a file
 command/NonlinearConstraintPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.s
 .PHONY : command/NonlinearConstraintPanel.cpp.s
 
 command/OptimizePanel.o: command/OptimizePanel.cpp.o
@@ -1073,7 +1073,7 @@ command/OptimizePanel.o: command/OptimizePanel.cpp.o
 
 # target to build an object file
 command/OptimizePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.o
 .PHONY : command/OptimizePanel.cpp.o
 
 command/OptimizePanel.i: command/OptimizePanel.cpp.i
@@ -1081,7 +1081,7 @@ command/OptimizePanel.i: command/OptimizePanel.cpp.i
 
 # target to preprocess a source file
 command/OptimizePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.i
 .PHONY : command/OptimizePanel.cpp.i
 
 command/OptimizePanel.s: command/OptimizePanel.cpp.s
@@ -1089,7 +1089,7 @@ command/OptimizePanel.s: command/OptimizePanel.cpp.s
 
 # target to generate assembly for a file
 command/OptimizePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.s
 .PHONY : command/OptimizePanel.cpp.s
 
 command/PropagatePanel.o: command/PropagatePanel.cpp.o
@@ -1097,7 +1097,7 @@ command/PropagatePanel.o: command/PropagatePanel.cpp.o
 
 # target to build an object file
 command/PropagatePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.o
 .PHONY : command/PropagatePanel.cpp.o
 
 command/PropagatePanel.i: command/PropagatePanel.cpp.i
@@ -1105,7 +1105,7 @@ command/PropagatePanel.i: command/PropagatePanel.cpp.i
 
 # target to preprocess a source file
 command/PropagatePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.i
 .PHONY : command/PropagatePanel.cpp.i
 
 command/PropagatePanel.s: command/PropagatePanel.cpp.s
@@ -1113,7 +1113,7 @@ command/PropagatePanel.s: command/PropagatePanel.cpp.s
 
 # target to generate assembly for a file
 command/PropagatePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.s
 .PHONY : command/PropagatePanel.cpp.s
 
 command/ReportPanel.o: command/ReportPanel.cpp.o
@@ -1121,7 +1121,7 @@ command/ReportPanel.o: command/ReportPanel.cpp.o
 
 # target to build an object file
 command/ReportPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.o
 .PHONY : command/ReportPanel.cpp.o
 
 command/ReportPanel.i: command/ReportPanel.cpp.i
@@ -1129,7 +1129,7 @@ command/ReportPanel.i: command/ReportPanel.cpp.i
 
 # target to preprocess a source file
 command/ReportPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.i
 .PHONY : command/ReportPanel.cpp.i
 
 command/ReportPanel.s: command/ReportPanel.cpp.s
@@ -1137,7 +1137,7 @@ command/ReportPanel.s: command/ReportPanel.cpp.s
 
 # target to generate assembly for a file
 command/ReportPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.s
 .PHONY : command/ReportPanel.cpp.s
 
 command/ScriptEventPanel.o: command/ScriptEventPanel.cpp.o
@@ -1145,7 +1145,7 @@ command/ScriptEventPanel.o: command/ScriptEventPanel.cpp.o
 
 # target to build an object file
 command/ScriptEventPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.o
 .PHONY : command/ScriptEventPanel.cpp.o
 
 command/ScriptEventPanel.i: command/ScriptEventPanel.cpp.i
@@ -1153,7 +1153,7 @@ command/ScriptEventPanel.i: command/ScriptEventPanel.cpp.i
 
 # target to preprocess a source file
 command/ScriptEventPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.i
 .PHONY : command/ScriptEventPanel.cpp.i
 
 command/ScriptEventPanel.s: command/ScriptEventPanel.cpp.s
@@ -1161,7 +1161,7 @@ command/ScriptEventPanel.s: command/ScriptEventPanel.cpp.s
 
 # target to generate assembly for a file
 command/ScriptEventPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.s
 .PHONY : command/ScriptEventPanel.cpp.s
 
 command/TargetPanel.o: command/TargetPanel.cpp.o
@@ -1169,7 +1169,7 @@ command/TargetPanel.o: command/TargetPanel.cpp.o
 
 # target to build an object file
 command/TargetPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.o
 .PHONY : command/TargetPanel.cpp.o
 
 command/TargetPanel.i: command/TargetPanel.cpp.i
@@ -1177,7 +1177,7 @@ command/TargetPanel.i: command/TargetPanel.cpp.i
 
 # target to preprocess a source file
 command/TargetPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.i
 .PHONY : command/TargetPanel.cpp.i
 
 command/TargetPanel.s: command/TargetPanel.cpp.s
@@ -1185,7 +1185,7 @@ command/TargetPanel.s: command/TargetPanel.cpp.s
 
 # target to generate assembly for a file
 command/TargetPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.s
 .PHONY : command/TargetPanel.cpp.s
 
 command/TogglePanel.o: command/TogglePanel.cpp.o
@@ -1193,7 +1193,7 @@ command/TogglePanel.o: command/TogglePanel.cpp.o
 
 # target to build an object file
 command/TogglePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.o
 .PHONY : command/TogglePanel.cpp.o
 
 command/TogglePanel.i: command/TogglePanel.cpp.i
@@ -1201,7 +1201,7 @@ command/TogglePanel.i: command/TogglePanel.cpp.i
 
 # target to preprocess a source file
 command/TogglePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.i
 .PHONY : command/TogglePanel.cpp.i
 
 command/TogglePanel.s: command/TogglePanel.cpp.s
@@ -1209,7 +1209,7 @@ command/TogglePanel.s: command/TogglePanel.cpp.s
 
 # target to generate assembly for a file
 command/TogglePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.s
 .PHONY : command/TogglePanel.cpp.s
 
 command/VaryPanel.o: command/VaryPanel.cpp.o
@@ -1217,7 +1217,7 @@ command/VaryPanel.o: command/VaryPanel.cpp.o
 
 # target to build an object file
 command/VaryPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.o
 .PHONY : command/VaryPanel.cpp.o
 
 command/VaryPanel.i: command/VaryPanel.cpp.i
@@ -1225,7 +1225,7 @@ command/VaryPanel.i: command/VaryPanel.cpp.i
 
 # target to preprocess a source file
 command/VaryPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.i
 .PHONY : command/VaryPanel.cpp.i
 
 command/VaryPanel.s: command/VaryPanel.cpp.s
@@ -1233,7 +1233,7 @@ command/VaryPanel.s: command/VaryPanel.cpp.s
 
 # target to generate assembly for a file
 command/VaryPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.s
 .PHONY : command/VaryPanel.cpp.s
 
 controllogic/ConditionPanel.o: controllogic/ConditionPanel.cpp.o
@@ -1241,7 +1241,7 @@ controllogic/ConditionPanel.o: controllogic/ConditionPanel.cpp.o
 
 # target to build an object file
 controllogic/ConditionPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.o
 .PHONY : controllogic/ConditionPanel.cpp.o
 
 controllogic/ConditionPanel.i: controllogic/ConditionPanel.cpp.i
@@ -1249,7 +1249,7 @@ controllogic/ConditionPanel.i: controllogic/ConditionPanel.cpp.i
 
 # target to preprocess a source file
 controllogic/ConditionPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.i
 .PHONY : controllogic/ConditionPanel.cpp.i
 
 controllogic/ConditionPanel.s: controllogic/ConditionPanel.cpp.s
@@ -1257,7 +1257,7 @@ controllogic/ConditionPanel.s: controllogic/ConditionPanel.cpp.s
 
 # target to generate assembly for a file
 controllogic/ConditionPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.s
 .PHONY : controllogic/ConditionPanel.cpp.s
 
 controllogic/ForPanel.o: controllogic/ForPanel.cpp.o
@@ -1265,7 +1265,7 @@ controllogic/ForPanel.o: controllogic/ForPanel.cpp.o
 
 # target to build an object file
 controllogic/ForPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.o
 .PHONY : controllogic/ForPanel.cpp.o
 
 controllogic/ForPanel.i: controllogic/ForPanel.cpp.i
@@ -1273,7 +1273,7 @@ controllogic/ForPanel.i: controllogic/ForPanel.cpp.i
 
 # target to preprocess a source file
 controllogic/ForPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.i
 .PHONY : controllogic/ForPanel.cpp.i
 
 controllogic/ForPanel.s: controllogic/ForPanel.cpp.s
@@ -1281,7 +1281,7 @@ controllogic/ForPanel.s: controllogic/ForPanel.cpp.s
 
 # target to generate assembly for a file
 controllogic/ForPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.s
 .PHONY : controllogic/ForPanel.cpp.s
 
 coordsystem/CoordPanel.o: coordsystem/CoordPanel.cpp.o
@@ -1289,7 +1289,7 @@ coordsystem/CoordPanel.o: coordsystem/CoordPanel.cpp.o
 
 # target to build an object file
 coordsystem/CoordPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.o
 .PHONY : coordsystem/CoordPanel.cpp.o
 
 coordsystem/CoordPanel.i: coordsystem/CoordPanel.cpp.i
@@ -1297,7 +1297,7 @@ coordsystem/CoordPanel.i: coordsystem/CoordPanel.cpp.i
 
 # target to preprocess a source file
 coordsystem/CoordPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.i
 .PHONY : coordsystem/CoordPanel.cpp.i
 
 coordsystem/CoordPanel.s: coordsystem/CoordPanel.cpp.s
@@ -1305,7 +1305,7 @@ coordsystem/CoordPanel.s: coordsystem/CoordPanel.cpp.s
 
 # target to generate assembly for a file
 coordsystem/CoordPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.s
 .PHONY : coordsystem/CoordPanel.cpp.s
 
 coordsystem/CoordSysCreateDialog.o: coordsystem/CoordSysCreateDialog.cpp.o
@@ -1313,7 +1313,7 @@ coordsystem/CoordSysCreateDialog.o: coordsystem/CoordSysCreateDialog.cpp.o
 
 # target to build an object file
 coordsystem/CoordSysCreateDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.o
 .PHONY : coordsystem/CoordSysCreateDialog.cpp.o
 
 coordsystem/CoordSysCreateDialog.i: coordsystem/CoordSysCreateDialog.cpp.i
@@ -1321,7 +1321,7 @@ coordsystem/CoordSysCreateDialog.i: coordsystem/CoordSysCreateDialog.cpp.i
 
 # target to preprocess a source file
 coordsystem/CoordSysCreateDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.i
 .PHONY : coordsystem/CoordSysCreateDialog.cpp.i
 
 coordsystem/CoordSysCreateDialog.s: coordsystem/CoordSysCreateDialog.cpp.s
@@ -1329,7 +1329,7 @@ coordsystem/CoordSysCreateDialog.s: coordsystem/CoordSysCreateDialog.cpp.s
 
 # target to generate assembly for a file
 coordsystem/CoordSysCreateDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.s
 .PHONY : coordsystem/CoordSysCreateDialog.cpp.s
 
 coordsystem/CoordSystemConfigPanel.o: coordsystem/CoordSystemConfigPanel.cpp.o
@@ -1337,7 +1337,7 @@ coordsystem/CoordSystemConfigPanel.o: coordsystem/CoordSystemConfigPanel.cpp.o
 
 # target to build an object file
 coordsystem/CoordSystemConfigPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.o
 .PHONY : coordsystem/CoordSystemConfigPanel.cpp.o
 
 coordsystem/CoordSystemConfigPanel.i: coordsystem/CoordSystemConfigPanel.cpp.i
@@ -1345,7 +1345,7 @@ coordsystem/CoordSystemConfigPanel.i: coordsystem/CoordSystemConfigPanel.cpp.i
 
 # target to preprocess a source file
 coordsystem/CoordSystemConfigPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.i
 .PHONY : coordsystem/CoordSystemConfigPanel.cpp.i
 
 coordsystem/CoordSystemConfigPanel.s: coordsystem/CoordSystemConfigPanel.cpp.s
@@ -1353,7 +1353,7 @@ coordsystem/CoordSystemConfigPanel.s: coordsystem/CoordSystemConfigPanel.cpp.s
 
 # target to generate assembly for a file
 coordsystem/CoordSystemConfigPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.s
 .PHONY : coordsystem/CoordSystemConfigPanel.cpp.s
 
 event/EventLocatorPanel.o: event/EventLocatorPanel.cpp.o
@@ -1361,7 +1361,7 @@ event/EventLocatorPanel.o: event/EventLocatorPanel.cpp.o
 
 # target to build an object file
 event/EventLocatorPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.o
 .PHONY : event/EventLocatorPanel.cpp.o
 
 event/EventLocatorPanel.i: event/EventLocatorPanel.cpp.i
@@ -1369,7 +1369,7 @@ event/EventLocatorPanel.i: event/EventLocatorPanel.cpp.i
 
 # target to preprocess a source file
 event/EventLocatorPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.i
 .PHONY : event/EventLocatorPanel.cpp.i
 
 event/EventLocatorPanel.s: event/EventLocatorPanel.cpp.s
@@ -1377,7 +1377,7 @@ event/EventLocatorPanel.s: event/EventLocatorPanel.cpp.s
 
 # target to generate assembly for a file
 event/EventLocatorPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.s
 .PHONY : event/EventLocatorPanel.cpp.s
 
 forcemodel/DragInputsDialog.o: forcemodel/DragInputsDialog.cpp.o
@@ -1385,7 +1385,7 @@ forcemodel/DragInputsDialog.o: forcemodel/DragInputsDialog.cpp.o
 
 # target to build an object file
 forcemodel/DragInputsDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.o
 .PHONY : forcemodel/DragInputsDialog.cpp.o
 
 forcemodel/DragInputsDialog.i: forcemodel/DragInputsDialog.cpp.i
@@ -1393,7 +1393,7 @@ forcemodel/DragInputsDialog.i: forcemodel/DragInputsDialog.cpp.i
 
 # target to preprocess a source file
 forcemodel/DragInputsDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.i
 .PHONY : forcemodel/DragInputsDialog.cpp.i
 
 forcemodel/DragInputsDialog.s: forcemodel/DragInputsDialog.cpp.s
@@ -1401,7 +1401,7 @@ forcemodel/DragInputsDialog.s: forcemodel/DragInputsDialog.cpp.s
 
 # target to generate assembly for a file
 forcemodel/DragInputsDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.s
 .PHONY : forcemodel/DragInputsDialog.cpp.s
 
 foundation/ArraySetupDialog.o: foundation/ArraySetupDialog.cpp.o
@@ -1409,7 +1409,7 @@ foundation/ArraySetupDialog.o: foundation/ArraySetupDialog.cpp.o
 
 # target to build an object file
 foundation/ArraySetupDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.o
 .PHONY : foundation/ArraySetupDialog.cpp.o
 
 foundation/ArraySetupDialog.i: foundation/ArraySetupDialog.cpp.i
@@ -1417,7 +1417,7 @@ foundation/ArraySetupDialog.i: foundation/ArraySetupDialog.cpp.i
 
 # target to preprocess a source file
 foundation/ArraySetupDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.i
 .PHONY : foundation/ArraySetupDialog.cpp.i
 
 foundation/ArraySetupDialog.s: foundation/ArraySetupDialog.cpp.s
@@ -1425,7 +1425,7 @@ foundation/ArraySetupDialog.s: foundation/ArraySetupDialog.cpp.s
 
 # target to generate assembly for a file
 foundation/ArraySetupDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.s
 .PHONY : foundation/ArraySetupDialog.cpp.s
 
 foundation/ArraySetupPanel.o: foundation/ArraySetupPanel.cpp.o
@@ -1433,7 +1433,7 @@ foundation/ArraySetupPanel.o: foundation/ArraySetupPanel.cpp.o
 
 # target to build an object file
 foundation/ArraySetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.o
 .PHONY : foundation/ArraySetupPanel.cpp.o
 
 foundation/ArraySetupPanel.i: foundation/ArraySetupPanel.cpp.i
@@ -1441,7 +1441,7 @@ foundation/ArraySetupPanel.i: foundation/ArraySetupPanel.cpp.i
 
 # target to preprocess a source file
 foundation/ArraySetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.i
 .PHONY : foundation/ArraySetupPanel.cpp.i
 
 foundation/ArraySetupPanel.s: foundation/ArraySetupPanel.cpp.s
@@ -1449,7 +1449,7 @@ foundation/ArraySetupPanel.s: foundation/ArraySetupPanel.cpp.s
 
 # target to generate assembly for a file
 foundation/ArraySetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.s
 .PHONY : foundation/ArraySetupPanel.cpp.s
 
 foundation/GmatBaseSetupPanel.o: foundation/GmatBaseSetupPanel.cpp.o
@@ -1457,7 +1457,7 @@ foundation/GmatBaseSetupPanel.o: foundation/GmatBaseSetupPanel.cpp.o
 
 # target to build an object file
 foundation/GmatBaseSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.o
 .PHONY : foundation/GmatBaseSetupPanel.cpp.o
 
 foundation/GmatBaseSetupPanel.i: foundation/GmatBaseSetupPanel.cpp.i
@@ -1465,7 +1465,7 @@ foundation/GmatBaseSetupPanel.i: foundation/GmatBaseSetupPanel.cpp.i
 
 # target to preprocess a source file
 foundation/GmatBaseSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.i
 .PHONY : foundation/GmatBaseSetupPanel.cpp.i
 
 foundation/GmatBaseSetupPanel.s: foundation/GmatBaseSetupPanel.cpp.s
@@ -1473,7 +1473,7 @@ foundation/GmatBaseSetupPanel.s: foundation/GmatBaseSetupPanel.cpp.s
 
 # target to generate assembly for a file
 foundation/GmatBaseSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.s
 .PHONY : foundation/GmatBaseSetupPanel.cpp.s
 
 foundation/GmatColorPanel.o: foundation/GmatColorPanel.cpp.o
@@ -1481,7 +1481,7 @@ foundation/GmatColorPanel.o: foundation/GmatColorPanel.cpp.o
 
 # target to build an object file
 foundation/GmatColorPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.o
 .PHONY : foundation/GmatColorPanel.cpp.o
 
 foundation/GmatColorPanel.i: foundation/GmatColorPanel.cpp.i
@@ -1489,7 +1489,7 @@ foundation/GmatColorPanel.i: foundation/GmatColorPanel.cpp.i
 
 # target to preprocess a source file
 foundation/GmatColorPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.i
 .PHONY : foundation/GmatColorPanel.cpp.i
 
 foundation/GmatColorPanel.s: foundation/GmatColorPanel.cpp.s
@@ -1497,7 +1497,7 @@ foundation/GmatColorPanel.s: foundation/GmatColorPanel.cpp.s
 
 # target to generate assembly for a file
 foundation/GmatColorPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.s
 .PHONY : foundation/GmatColorPanel.cpp.s
 
 foundation/GmatDialog.o: foundation/GmatDialog.cpp.o
@@ -1505,7 +1505,7 @@ foundation/GmatDialog.o: foundation/GmatDialog.cpp.o
 
 # target to build an object file
 foundation/GmatDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.o
 .PHONY : foundation/GmatDialog.cpp.o
 
 foundation/GmatDialog.i: foundation/GmatDialog.cpp.i
@@ -1513,7 +1513,7 @@ foundation/GmatDialog.i: foundation/GmatDialog.cpp.i
 
 # target to preprocess a source file
 foundation/GmatDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.i
 .PHONY : foundation/GmatDialog.cpp.i
 
 foundation/GmatDialog.s: foundation/GmatDialog.cpp.s
@@ -1521,7 +1521,7 @@ foundation/GmatDialog.s: foundation/GmatDialog.cpp.s
 
 # target to generate assembly for a file
 foundation/GmatDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.s
 .PHONY : foundation/GmatDialog.cpp.s
 
 foundation/GmatMdiChildFrame.o: foundation/GmatMdiChildFrame.cpp.o
@@ -1529,7 +1529,7 @@ foundation/GmatMdiChildFrame.o: foundation/GmatMdiChildFrame.cpp.o
 
 # target to build an object file
 foundation/GmatMdiChildFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.o
 .PHONY : foundation/GmatMdiChildFrame.cpp.o
 
 foundation/GmatMdiChildFrame.i: foundation/GmatMdiChildFrame.cpp.i
@@ -1537,7 +1537,7 @@ foundation/GmatMdiChildFrame.i: foundation/GmatMdiChildFrame.cpp.i
 
 # target to preprocess a source file
 foundation/GmatMdiChildFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.i
 .PHONY : foundation/GmatMdiChildFrame.cpp.i
 
 foundation/GmatMdiChildFrame.s: foundation/GmatMdiChildFrame.cpp.s
@@ -1545,7 +1545,7 @@ foundation/GmatMdiChildFrame.s: foundation/GmatMdiChildFrame.cpp.s
 
 # target to generate assembly for a file
 foundation/GmatMdiChildFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.s
 .PHONY : foundation/GmatMdiChildFrame.cpp.s
 
 foundation/GmatPanel.o: foundation/GmatPanel.cpp.o
@@ -1553,7 +1553,7 @@ foundation/GmatPanel.o: foundation/GmatPanel.cpp.o
 
 # target to build an object file
 foundation/GmatPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.o
 .PHONY : foundation/GmatPanel.cpp.o
 
 foundation/GmatPanel.i: foundation/GmatPanel.cpp.i
@@ -1561,7 +1561,7 @@ foundation/GmatPanel.i: foundation/GmatPanel.cpp.i
 
 # target to preprocess a source file
 foundation/GmatPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.i
 .PHONY : foundation/GmatPanel.cpp.i
 
 foundation/GmatPanel.s: foundation/GmatPanel.cpp.s
@@ -1569,7 +1569,7 @@ foundation/GmatPanel.s: foundation/GmatPanel.cpp.s
 
 # target to generate assembly for a file
 foundation/GmatPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.s
 .PHONY : foundation/GmatPanel.cpp.s
 
 foundation/GmatSavePanel.o: foundation/GmatSavePanel.cpp.o
@@ -1577,7 +1577,7 @@ foundation/GmatSavePanel.o: foundation/GmatSavePanel.cpp.o
 
 # target to build an object file
 foundation/GmatSavePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.o
 .PHONY : foundation/GmatSavePanel.cpp.o
 
 foundation/GmatSavePanel.i: foundation/GmatSavePanel.cpp.i
@@ -1585,7 +1585,7 @@ foundation/GmatSavePanel.i: foundation/GmatSavePanel.cpp.i
 
 # target to preprocess a source file
 foundation/GmatSavePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.i
 .PHONY : foundation/GmatSavePanel.cpp.i
 
 foundation/GmatSavePanel.s: foundation/GmatSavePanel.cpp.s
@@ -1593,7 +1593,7 @@ foundation/GmatSavePanel.s: foundation/GmatSavePanel.cpp.s
 
 # target to generate assembly for a file
 foundation/GmatSavePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.s
 .PHONY : foundation/GmatSavePanel.cpp.s
 
 foundation/GmatStaticBoxSizer.o: foundation/GmatStaticBoxSizer.cpp.o
@@ -1601,7 +1601,7 @@ foundation/GmatStaticBoxSizer.o: foundation/GmatStaticBoxSizer.cpp.o
 
 # target to build an object file
 foundation/GmatStaticBoxSizer.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.o
 .PHONY : foundation/GmatStaticBoxSizer.cpp.o
 
 foundation/GmatStaticBoxSizer.i: foundation/GmatStaticBoxSizer.cpp.i
@@ -1609,7 +1609,7 @@ foundation/GmatStaticBoxSizer.i: foundation/GmatStaticBoxSizer.cpp.i
 
 # target to preprocess a source file
 foundation/GmatStaticBoxSizer.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.i
 .PHONY : foundation/GmatStaticBoxSizer.cpp.i
 
 foundation/GmatStaticBoxSizer.s: foundation/GmatStaticBoxSizer.cpp.s
@@ -1617,7 +1617,7 @@ foundation/GmatStaticBoxSizer.s: foundation/GmatStaticBoxSizer.cpp.s
 
 # target to generate assembly for a file
 foundation/GmatStaticBoxSizer.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.s
 .PHONY : foundation/GmatStaticBoxSizer.cpp.s
 
 foundation/GuiItemManager.o: foundation/GuiItemManager.cpp.o
@@ -1625,7 +1625,7 @@ foundation/GuiItemManager.o: foundation/GuiItemManager.cpp.o
 
 # target to build an object file
 foundation/GuiItemManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.o
 .PHONY : foundation/GuiItemManager.cpp.o
 
 foundation/GuiItemManager.i: foundation/GuiItemManager.cpp.i
@@ -1633,7 +1633,7 @@ foundation/GuiItemManager.i: foundation/GuiItemManager.cpp.i
 
 # target to preprocess a source file
 foundation/GuiItemManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.i
 .PHONY : foundation/GuiItemManager.cpp.i
 
 foundation/GuiItemManager.s: foundation/GuiItemManager.cpp.s
@@ -1641,7 +1641,7 @@ foundation/GuiItemManager.s: foundation/GuiItemManager.cpp.s
 
 # target to generate assembly for a file
 foundation/GuiItemManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.s
 .PHONY : foundation/GuiItemManager.cpp.s
 
 foundation/MultiPathSetupPanel.o: foundation/MultiPathSetupPanel.cpp.o
@@ -1649,7 +1649,7 @@ foundation/MultiPathSetupPanel.o: foundation/MultiPathSetupPanel.cpp.o
 
 # target to build an object file
 foundation/MultiPathSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.o
 .PHONY : foundation/MultiPathSetupPanel.cpp.o
 
 foundation/MultiPathSetupPanel.i: foundation/MultiPathSetupPanel.cpp.i
@@ -1657,7 +1657,7 @@ foundation/MultiPathSetupPanel.i: foundation/MultiPathSetupPanel.cpp.i
 
 # target to preprocess a source file
 foundation/MultiPathSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.i
 .PHONY : foundation/MultiPathSetupPanel.cpp.i
 
 foundation/MultiPathSetupPanel.s: foundation/MultiPathSetupPanel.cpp.s
@@ -1665,7 +1665,7 @@ foundation/MultiPathSetupPanel.s: foundation/MultiPathSetupPanel.cpp.s
 
 # target to generate assembly for a file
 foundation/MultiPathSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.s
 .PHONY : foundation/MultiPathSetupPanel.cpp.s
 
 foundation/ParameterCreateDialog.o: foundation/ParameterCreateDialog.cpp.o
@@ -1673,7 +1673,7 @@ foundation/ParameterCreateDialog.o: foundation/ParameterCreateDialog.cpp.o
 
 # target to build an object file
 foundation/ParameterCreateDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.o
 .PHONY : foundation/ParameterCreateDialog.cpp.o
 
 foundation/ParameterCreateDialog.i: foundation/ParameterCreateDialog.cpp.i
@@ -1681,7 +1681,7 @@ foundation/ParameterCreateDialog.i: foundation/ParameterCreateDialog.cpp.i
 
 # target to preprocess a source file
 foundation/ParameterCreateDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.i
 .PHONY : foundation/ParameterCreateDialog.cpp.i
 
 foundation/ParameterCreateDialog.s: foundation/ParameterCreateDialog.cpp.s
@@ -1689,7 +1689,7 @@ foundation/ParameterCreateDialog.s: foundation/ParameterCreateDialog.cpp.s
 
 # target to generate assembly for a file
 foundation/ParameterCreateDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.s
 .PHONY : foundation/ParameterCreateDialog.cpp.s
 
 foundation/ParameterSelectDialog.o: foundation/ParameterSelectDialog.cpp.o
@@ -1697,7 +1697,7 @@ foundation/ParameterSelectDialog.o: foundation/ParameterSelectDialog.cpp.o
 
 # target to build an object file
 foundation/ParameterSelectDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.o
 .PHONY : foundation/ParameterSelectDialog.cpp.o
 
 foundation/ParameterSelectDialog.i: foundation/ParameterSelectDialog.cpp.i
@@ -1705,7 +1705,7 @@ foundation/ParameterSelectDialog.i: foundation/ParameterSelectDialog.cpp.i
 
 # target to preprocess a source file
 foundation/ParameterSelectDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.i
 .PHONY : foundation/ParameterSelectDialog.cpp.i
 
 foundation/ParameterSelectDialog.s: foundation/ParameterSelectDialog.cpp.s
@@ -1713,7 +1713,7 @@ foundation/ParameterSelectDialog.s: foundation/ParameterSelectDialog.cpp.s
 
 # target to generate assembly for a file
 foundation/ParameterSelectDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.s
 .PHONY : foundation/ParameterSelectDialog.cpp.s
 
 foundation/ParameterSetupPanel.o: foundation/ParameterSetupPanel.cpp.o
@@ -1721,7 +1721,7 @@ foundation/ParameterSetupPanel.o: foundation/ParameterSetupPanel.cpp.o
 
 # target to build an object file
 foundation/ParameterSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.o
 .PHONY : foundation/ParameterSetupPanel.cpp.o
 
 foundation/ParameterSetupPanel.i: foundation/ParameterSetupPanel.cpp.i
@@ -1729,7 +1729,7 @@ foundation/ParameterSetupPanel.i: foundation/ParameterSetupPanel.cpp.i
 
 # target to preprocess a source file
 foundation/ParameterSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.i
 .PHONY : foundation/ParameterSetupPanel.cpp.i
 
 foundation/ParameterSetupPanel.s: foundation/ParameterSetupPanel.cpp.s
@@ -1737,7 +1737,7 @@ foundation/ParameterSetupPanel.s: foundation/ParameterSetupPanel.cpp.s
 
 # target to generate assembly for a file
 foundation/ParameterSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.s
 .PHONY : foundation/ParameterSetupPanel.cpp.s
 
 foundation/ShowScriptDialog.o: foundation/ShowScriptDialog.cpp.o
@@ -1745,7 +1745,7 @@ foundation/ShowScriptDialog.o: foundation/ShowScriptDialog.cpp.o
 
 # target to build an object file
 foundation/ShowScriptDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.o
 .PHONY : foundation/ShowScriptDialog.cpp.o
 
 foundation/ShowScriptDialog.i: foundation/ShowScriptDialog.cpp.i
@@ -1753,7 +1753,7 @@ foundation/ShowScriptDialog.i: foundation/ShowScriptDialog.cpp.i
 
 # target to preprocess a source file
 foundation/ShowScriptDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.i
 .PHONY : foundation/ShowScriptDialog.cpp.i
 
 foundation/ShowScriptDialog.s: foundation/ShowScriptDialog.cpp.s
@@ -1761,7 +1761,7 @@ foundation/ShowScriptDialog.s: foundation/ShowScriptDialog.cpp.s
 
 # target to generate assembly for a file
 foundation/ShowScriptDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.s
 .PHONY : foundation/ShowScriptDialog.cpp.s
 
 foundation/ShowSummaryDialog.o: foundation/ShowSummaryDialog.cpp.o
@@ -1769,7 +1769,7 @@ foundation/ShowSummaryDialog.o: foundation/ShowSummaryDialog.cpp.o
 
 # target to build an object file
 foundation/ShowSummaryDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.o
 .PHONY : foundation/ShowSummaryDialog.cpp.o
 
 foundation/ShowSummaryDialog.i: foundation/ShowSummaryDialog.cpp.i
@@ -1777,7 +1777,7 @@ foundation/ShowSummaryDialog.i: foundation/ShowSummaryDialog.cpp.i
 
 # target to preprocess a source file
 foundation/ShowSummaryDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.i
 .PHONY : foundation/ShowSummaryDialog.cpp.i
 
 foundation/ShowSummaryDialog.s: foundation/ShowSummaryDialog.cpp.s
@@ -1785,7 +1785,7 @@ foundation/ShowSummaryDialog.s: foundation/ShowSummaryDialog.cpp.s
 
 # target to generate assembly for a file
 foundation/ShowSummaryDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.s
 .PHONY : foundation/ShowSummaryDialog.cpp.s
 
 foundation/SinglePathSetupPanel.o: foundation/SinglePathSetupPanel.cpp.o
@@ -1793,7 +1793,7 @@ foundation/SinglePathSetupPanel.o: foundation/SinglePathSetupPanel.cpp.o
 
 # target to build an object file
 foundation/SinglePathSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.o
 .PHONY : foundation/SinglePathSetupPanel.cpp.o
 
 foundation/SinglePathSetupPanel.i: foundation/SinglePathSetupPanel.cpp.i
@@ -1801,7 +1801,7 @@ foundation/SinglePathSetupPanel.i: foundation/SinglePathSetupPanel.cpp.i
 
 # target to preprocess a source file
 foundation/SinglePathSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.i
 .PHONY : foundation/SinglePathSetupPanel.cpp.i
 
 foundation/SinglePathSetupPanel.s: foundation/SinglePathSetupPanel.cpp.s
@@ -1809,7 +1809,7 @@ foundation/SinglePathSetupPanel.s: foundation/SinglePathSetupPanel.cpp.s
 
 # target to generate assembly for a file
 foundation/SinglePathSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.s
 .PHONY : foundation/SinglePathSetupPanel.cpp.s
 
 foundation/UserInputValidator.o: foundation/UserInputValidator.cpp.o
@@ -1817,7 +1817,7 @@ foundation/UserInputValidator.o: foundation/UserInputValidator.cpp.o
 
 # target to build an object file
 foundation/UserInputValidator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.o
 .PHONY : foundation/UserInputValidator.cpp.o
 
 foundation/UserInputValidator.i: foundation/UserInputValidator.cpp.i
@@ -1825,7 +1825,7 @@ foundation/UserInputValidator.i: foundation/UserInputValidator.cpp.i
 
 # target to preprocess a source file
 foundation/UserInputValidator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.i
 .PHONY : foundation/UserInputValidator.cpp.i
 
 foundation/UserInputValidator.s: foundation/UserInputValidator.cpp.s
@@ -1833,7 +1833,7 @@ foundation/UserInputValidator.s: foundation/UserInputValidator.cpp.s
 
 # target to generate assembly for a file
 foundation/UserInputValidator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.s
 .PHONY : foundation/UserInputValidator.cpp.s
 
 function/FunctionSetupPanel.o: function/FunctionSetupPanel.cpp.o
@@ -1841,7 +1841,7 @@ function/FunctionSetupPanel.o: function/FunctionSetupPanel.cpp.o
 
 # target to build an object file
 function/FunctionSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.o
 .PHONY : function/FunctionSetupPanel.cpp.o
 
 function/FunctionSetupPanel.i: function/FunctionSetupPanel.cpp.i
@@ -1849,7 +1849,7 @@ function/FunctionSetupPanel.i: function/FunctionSetupPanel.cpp.i
 
 # target to preprocess a source file
 function/FunctionSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.i
 .PHONY : function/FunctionSetupPanel.cpp.i
 
 function/FunctionSetupPanel.s: function/FunctionSetupPanel.cpp.s
@@ -1857,7 +1857,7 @@ function/FunctionSetupPanel.s: function/FunctionSetupPanel.cpp.s
 
 # target to generate assembly for a file
 function/FunctionSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.s
 .PHONY : function/FunctionSetupPanel.cpp.s
 
 function/MatlabFunctionSetupPanel.o: function/MatlabFunctionSetupPanel.cpp.o
@@ -1865,7 +1865,7 @@ function/MatlabFunctionSetupPanel.o: function/MatlabFunctionSetupPanel.cpp.o
 
 # target to build an object file
 function/MatlabFunctionSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.o
 .PHONY : function/MatlabFunctionSetupPanel.cpp.o
 
 function/MatlabFunctionSetupPanel.i: function/MatlabFunctionSetupPanel.cpp.i
@@ -1873,7 +1873,7 @@ function/MatlabFunctionSetupPanel.i: function/MatlabFunctionSetupPanel.cpp.i
 
 # target to preprocess a source file
 function/MatlabFunctionSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.i
 .PHONY : function/MatlabFunctionSetupPanel.cpp.i
 
 function/MatlabFunctionSetupPanel.s: function/MatlabFunctionSetupPanel.cpp.s
@@ -1881,7 +1881,7 @@ function/MatlabFunctionSetupPanel.s: function/MatlabFunctionSetupPanel.cpp.s
 
 # target to generate assembly for a file
 function/MatlabFunctionSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.s
 .PHONY : function/MatlabFunctionSetupPanel.cpp.s
 
 hardware/BurnThrusterPanel.o: hardware/BurnThrusterPanel.cpp.o
@@ -1889,7 +1889,7 @@ hardware/BurnThrusterPanel.o: hardware/BurnThrusterPanel.cpp.o
 
 # target to build an object file
 hardware/BurnThrusterPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.o
 .PHONY : hardware/BurnThrusterPanel.cpp.o
 
 hardware/BurnThrusterPanel.i: hardware/BurnThrusterPanel.cpp.i
@@ -1897,7 +1897,7 @@ hardware/BurnThrusterPanel.i: hardware/BurnThrusterPanel.cpp.i
 
 # target to preprocess a source file
 hardware/BurnThrusterPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.i
 .PHONY : hardware/BurnThrusterPanel.cpp.i
 
 hardware/BurnThrusterPanel.s: hardware/BurnThrusterPanel.cpp.s
@@ -1905,7 +1905,7 @@ hardware/BurnThrusterPanel.s: hardware/BurnThrusterPanel.cpp.s
 
 # target to generate assembly for a file
 hardware/BurnThrusterPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.s
 .PHONY : hardware/BurnThrusterPanel.cpp.s
 
 hardware/PowerSystemConfigPanel.o: hardware/PowerSystemConfigPanel.cpp.o
@@ -1913,7 +1913,7 @@ hardware/PowerSystemConfigPanel.o: hardware/PowerSystemConfigPanel.cpp.o
 
 # target to build an object file
 hardware/PowerSystemConfigPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.o
 .PHONY : hardware/PowerSystemConfigPanel.cpp.o
 
 hardware/PowerSystemConfigPanel.i: hardware/PowerSystemConfigPanel.cpp.i
@@ -1921,7 +1921,7 @@ hardware/PowerSystemConfigPanel.i: hardware/PowerSystemConfigPanel.cpp.i
 
 # target to preprocess a source file
 hardware/PowerSystemConfigPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.i
 .PHONY : hardware/PowerSystemConfigPanel.cpp.i
 
 hardware/PowerSystemConfigPanel.s: hardware/PowerSystemConfigPanel.cpp.s
@@ -1929,7 +1929,7 @@ hardware/PowerSystemConfigPanel.s: hardware/PowerSystemConfigPanel.cpp.s
 
 # target to generate assembly for a file
 hardware/PowerSystemConfigPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.s
 .PHONY : hardware/PowerSystemConfigPanel.cpp.s
 
 hardware/ThrusterCoefficientDialog.o: hardware/ThrusterCoefficientDialog.cpp.o
@@ -1937,7 +1937,7 @@ hardware/ThrusterCoefficientDialog.o: hardware/ThrusterCoefficientDialog.cpp.o
 
 # target to build an object file
 hardware/ThrusterCoefficientDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.o
 .PHONY : hardware/ThrusterCoefficientDialog.cpp.o
 
 hardware/ThrusterCoefficientDialog.i: hardware/ThrusterCoefficientDialog.cpp.i
@@ -1945,7 +1945,7 @@ hardware/ThrusterCoefficientDialog.i: hardware/ThrusterCoefficientDialog.cpp.i
 
 # target to preprocess a source file
 hardware/ThrusterCoefficientDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.i
 .PHONY : hardware/ThrusterCoefficientDialog.cpp.i
 
 hardware/ThrusterCoefficientDialog.s: hardware/ThrusterCoefficientDialog.cpp.s
@@ -1953,7 +1953,7 @@ hardware/ThrusterCoefficientDialog.s: hardware/ThrusterCoefficientDialog.cpp.s
 
 # target to generate assembly for a file
 hardware/ThrusterCoefficientDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.s
 .PHONY : hardware/ThrusterCoefficientDialog.cpp.s
 
 hardware/ThrusterConfigPanel.o: hardware/ThrusterConfigPanel.cpp.o
@@ -1961,7 +1961,7 @@ hardware/ThrusterConfigPanel.o: hardware/ThrusterConfigPanel.cpp.o
 
 # target to build an object file
 hardware/ThrusterConfigPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.o
 .PHONY : hardware/ThrusterConfigPanel.cpp.o
 
 hardware/ThrusterConfigPanel.i: hardware/ThrusterConfigPanel.cpp.i
@@ -1969,7 +1969,7 @@ hardware/ThrusterConfigPanel.i: hardware/ThrusterConfigPanel.cpp.i
 
 # target to preprocess a source file
 hardware/ThrusterConfigPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.i
 .PHONY : hardware/ThrusterConfigPanel.cpp.i
 
 hardware/ThrusterConfigPanel.s: hardware/ThrusterConfigPanel.cpp.s
@@ -1977,7 +1977,7 @@ hardware/ThrusterConfigPanel.s: hardware/ThrusterConfigPanel.cpp.s
 
 # target to generate assembly for a file
 hardware/ThrusterConfigPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.s
 .PHONY : hardware/ThrusterConfigPanel.cpp.s
 
 mission/DecoratedTree.o: mission/DecoratedTree.cpp.o
@@ -1985,7 +1985,7 @@ mission/DecoratedTree.o: mission/DecoratedTree.cpp.o
 
 # target to build an object file
 mission/DecoratedTree.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.o
 .PHONY : mission/DecoratedTree.cpp.o
 
 mission/DecoratedTree.i: mission/DecoratedTree.cpp.i
@@ -1993,7 +1993,7 @@ mission/DecoratedTree.i: mission/DecoratedTree.cpp.i
 
 # target to preprocess a source file
 mission/DecoratedTree.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.i
 .PHONY : mission/DecoratedTree.cpp.i
 
 mission/DecoratedTree.s: mission/DecoratedTree.cpp.s
@@ -2001,7 +2001,7 @@ mission/DecoratedTree.s: mission/DecoratedTree.cpp.s
 
 # target to generate assembly for a file
 mission/DecoratedTree.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.s
 .PHONY : mission/DecoratedTree.cpp.s
 
 mission/MissionTree.o: mission/MissionTree.cpp.o
@@ -2009,7 +2009,7 @@ mission/MissionTree.o: mission/MissionTree.cpp.o
 
 # target to build an object file
 mission/MissionTree.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.o
 .PHONY : mission/MissionTree.cpp.o
 
 mission/MissionTree.i: mission/MissionTree.cpp.i
@@ -2017,7 +2017,7 @@ mission/MissionTree.i: mission/MissionTree.cpp.i
 
 # target to preprocess a source file
 mission/MissionTree.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.i
 .PHONY : mission/MissionTree.cpp.i
 
 mission/MissionTree.s: mission/MissionTree.cpp.s
@@ -2025,7 +2025,7 @@ mission/MissionTree.s: mission/MissionTree.cpp.s
 
 # target to generate assembly for a file
 mission/MissionTree.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.s
 .PHONY : mission/MissionTree.cpp.s
 
 mission/MissionTreeToolBar.o: mission/MissionTreeToolBar.cpp.o
@@ -2033,7 +2033,7 @@ mission/MissionTreeToolBar.o: mission/MissionTreeToolBar.cpp.o
 
 # target to build an object file
 mission/MissionTreeToolBar.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.o
 .PHONY : mission/MissionTreeToolBar.cpp.o
 
 mission/MissionTreeToolBar.i: mission/MissionTreeToolBar.cpp.i
@@ -2041,7 +2041,7 @@ mission/MissionTreeToolBar.i: mission/MissionTreeToolBar.cpp.i
 
 # target to preprocess a source file
 mission/MissionTreeToolBar.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.i
 .PHONY : mission/MissionTreeToolBar.cpp.i
 
 mission/MissionTreeToolBar.s: mission/MissionTreeToolBar.cpp.s
@@ -2049,7 +2049,7 @@ mission/MissionTreeToolBar.s: mission/MissionTreeToolBar.cpp.s
 
 # target to generate assembly for a file
 mission/MissionTreeToolBar.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.s
 .PHONY : mission/MissionTreeToolBar.cpp.s
 
 mission/TreeViewOptionDialog.o: mission/TreeViewOptionDialog.cpp.o
@@ -2057,7 +2057,7 @@ mission/TreeViewOptionDialog.o: mission/TreeViewOptionDialog.cpp.o
 
 # target to build an object file
 mission/TreeViewOptionDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.o
 .PHONY : mission/TreeViewOptionDialog.cpp.o
 
 mission/TreeViewOptionDialog.i: mission/TreeViewOptionDialog.cpp.i
@@ -2065,7 +2065,7 @@ mission/TreeViewOptionDialog.i: mission/TreeViewOptionDialog.cpp.i
 
 # target to preprocess a source file
 mission/TreeViewOptionDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.i
 .PHONY : mission/TreeViewOptionDialog.cpp.i
 
 mission/TreeViewOptionDialog.s: mission/TreeViewOptionDialog.cpp.s
@@ -2073,7 +2073,7 @@ mission/TreeViewOptionDialog.s: mission/TreeViewOptionDialog.cpp.s
 
 # target to generate assembly for a file
 mission/TreeViewOptionDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.s
 .PHONY : mission/TreeViewOptionDialog.cpp.s
 
 mission/UndockedMissionPanel.o: mission/UndockedMissionPanel.cpp.o
@@ -2081,7 +2081,7 @@ mission/UndockedMissionPanel.o: mission/UndockedMissionPanel.cpp.o
 
 # target to build an object file
 mission/UndockedMissionPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.o
 .PHONY : mission/UndockedMissionPanel.cpp.o
 
 mission/UndockedMissionPanel.i: mission/UndockedMissionPanel.cpp.i
@@ -2089,7 +2089,7 @@ mission/UndockedMissionPanel.i: mission/UndockedMissionPanel.cpp.i
 
 # target to preprocess a source file
 mission/UndockedMissionPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.i
 .PHONY : mission/UndockedMissionPanel.cpp.i
 
 mission/UndockedMissionPanel.s: mission/UndockedMissionPanel.cpp.s
@@ -2097,7 +2097,7 @@ mission/UndockedMissionPanel.s: mission/UndockedMissionPanel.cpp.s
 
 # target to generate assembly for a file
 mission/UndockedMissionPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.s
 .PHONY : mission/UndockedMissionPanel.cpp.s
 
 output/CompareReportPanel.o: output/CompareReportPanel.cpp.o
@@ -2105,7 +2105,7 @@ output/CompareReportPanel.o: output/CompareReportPanel.cpp.o
 
 # target to build an object file
 output/CompareReportPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.o
 .PHONY : output/CompareReportPanel.cpp.o
 
 output/CompareReportPanel.i: output/CompareReportPanel.cpp.i
@@ -2113,7 +2113,7 @@ output/CompareReportPanel.i: output/CompareReportPanel.cpp.i
 
 # target to preprocess a source file
 output/CompareReportPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.i
 .PHONY : output/CompareReportPanel.cpp.i
 
 output/CompareReportPanel.s: output/CompareReportPanel.cpp.s
@@ -2121,7 +2121,7 @@ output/CompareReportPanel.s: output/CompareReportPanel.cpp.s
 
 # target to generate assembly for a file
 output/CompareReportPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.s
 .PHONY : output/CompareReportPanel.cpp.s
 
 output/EventFilePanel.o: output/EventFilePanel.cpp.o
@@ -2129,7 +2129,7 @@ output/EventFilePanel.o: output/EventFilePanel.cpp.o
 
 # target to build an object file
 output/EventFilePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.o
 .PHONY : output/EventFilePanel.cpp.o
 
 output/EventFilePanel.i: output/EventFilePanel.cpp.i
@@ -2137,7 +2137,7 @@ output/EventFilePanel.i: output/EventFilePanel.cpp.i
 
 # target to preprocess a source file
 output/EventFilePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.i
 .PHONY : output/EventFilePanel.cpp.i
 
 output/EventFilePanel.s: output/EventFilePanel.cpp.s
@@ -2145,7 +2145,7 @@ output/EventFilePanel.s: output/EventFilePanel.cpp.s
 
 # target to generate assembly for a file
 output/EventFilePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.s
 .PHONY : output/EventFilePanel.cpp.s
 
 output/OutputTree.o: output/OutputTree.cpp.o
@@ -2153,7 +2153,7 @@ output/OutputTree.o: output/OutputTree.cpp.o
 
 # target to build an object file
 output/OutputTree.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.o
 .PHONY : output/OutputTree.cpp.o
 
 output/OutputTree.i: output/OutputTree.cpp.i
@@ -2161,7 +2161,7 @@ output/OutputTree.i: output/OutputTree.cpp.i
 
 # target to preprocess a source file
 output/OutputTree.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.i
 .PHONY : output/OutputTree.cpp.i
 
 output/OutputTree.s: output/OutputTree.cpp.s
@@ -2169,7 +2169,7 @@ output/OutputTree.s: output/OutputTree.cpp.s
 
 # target to generate assembly for a file
 output/OutputTree.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.s
 .PHONY : output/OutputTree.cpp.s
 
 output/ReportFilePanel.o: output/ReportFilePanel.cpp.o
@@ -2177,7 +2177,7 @@ output/ReportFilePanel.o: output/ReportFilePanel.cpp.o
 
 # target to build an object file
 output/ReportFilePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.o
 .PHONY : output/ReportFilePanel.cpp.o
 
 output/ReportFilePanel.i: output/ReportFilePanel.cpp.i
@@ -2185,7 +2185,7 @@ output/ReportFilePanel.i: output/ReportFilePanel.cpp.i
 
 # target to preprocess a source file
 output/ReportFilePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.i
 .PHONY : output/ReportFilePanel.cpp.i
 
 output/ReportFilePanel.s: output/ReportFilePanel.cpp.s
@@ -2193,7 +2193,7 @@ output/ReportFilePanel.s: output/ReportFilePanel.cpp.s
 
 # target to generate assembly for a file
 output/ReportFilePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.s
 .PHONY : output/ReportFilePanel.cpp.s
 
 propagator/PropagationConfigPanel.o: propagator/PropagationConfigPanel.cpp.o
@@ -2201,7 +2201,7 @@ propagator/PropagationConfigPanel.o: propagator/PropagationConfigPanel.cpp.o
 
 # target to build an object file
 propagator/PropagationConfigPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.o
 .PHONY : propagator/PropagationConfigPanel.cpp.o
 
 propagator/PropagationConfigPanel.i: propagator/PropagationConfigPanel.cpp.i
@@ -2209,7 +2209,7 @@ propagator/PropagationConfigPanel.i: propagator/PropagationConfigPanel.cpp.i
 
 # target to preprocess a source file
 propagator/PropagationConfigPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.i
 .PHONY : propagator/PropagationConfigPanel.cpp.i
 
 propagator/PropagationConfigPanel.s: propagator/PropagationConfigPanel.cpp.s
@@ -2217,7 +2217,7 @@ propagator/PropagationConfigPanel.s: propagator/PropagationConfigPanel.cpp.s
 
 # target to generate assembly for a file
 propagator/PropagationConfigPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.s
 .PHONY : propagator/PropagationConfigPanel.cpp.s
 
 propagator/PropagatorSelectDialog.o: propagator/PropagatorSelectDialog.cpp.o
@@ -2225,7 +2225,7 @@ propagator/PropagatorSelectDialog.o: propagator/PropagatorSelectDialog.cpp.o
 
 # target to build an object file
 propagator/PropagatorSelectDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.o
 .PHONY : propagator/PropagatorSelectDialog.cpp.o
 
 propagator/PropagatorSelectDialog.i: propagator/PropagatorSelectDialog.cpp.i
@@ -2233,7 +2233,7 @@ propagator/PropagatorSelectDialog.i: propagator/PropagatorSelectDialog.cpp.i
 
 # target to preprocess a source file
 propagator/PropagatorSelectDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.i
 .PHONY : propagator/PropagatorSelectDialog.cpp.i
 
 propagator/PropagatorSelectDialog.s: propagator/PropagatorSelectDialog.cpp.s
@@ -2241,7 +2241,7 @@ propagator/PropagatorSelectDialog.s: propagator/PropagatorSelectDialog.cpp.s
 
 # target to generate assembly for a file
 propagator/PropagatorSelectDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.s
 .PHONY : propagator/PropagatorSelectDialog.cpp.s
 
 rendering/Camera.o: rendering/Camera.cpp.o
@@ -2249,7 +2249,7 @@ rendering/Camera.o: rendering/Camera.cpp.o
 
 # target to build an object file
 rendering/Camera.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.o
 .PHONY : rendering/Camera.cpp.o
 
 rendering/Camera.i: rendering/Camera.cpp.i
@@ -2257,7 +2257,7 @@ rendering/Camera.i: rendering/Camera.cpp.i
 
 # target to preprocess a source file
 rendering/Camera.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.i
 .PHONY : rendering/Camera.cpp.i
 
 rendering/Camera.s: rendering/Camera.cpp.s
@@ -2265,7 +2265,7 @@ rendering/Camera.s: rendering/Camera.cpp.s
 
 # target to generate assembly for a file
 rendering/Camera.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.s
 .PHONY : rendering/Camera.cpp.s
 
 rendering/GLStars.o: rendering/GLStars.cpp.o
@@ -2273,7 +2273,7 @@ rendering/GLStars.o: rendering/GLStars.cpp.o
 
 # target to build an object file
 rendering/GLStars.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.o
 .PHONY : rendering/GLStars.cpp.o
 
 rendering/GLStars.i: rendering/GLStars.cpp.i
@@ -2281,7 +2281,7 @@ rendering/GLStars.i: rendering/GLStars.cpp.i
 
 # target to preprocess a source file
 rendering/GLStars.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.i
 .PHONY : rendering/GLStars.cpp.i
 
 rendering/GLStars.s: rendering/GLStars.cpp.s
@@ -2289,7 +2289,7 @@ rendering/GLStars.s: rendering/GLStars.cpp.s
 
 # target to generate assembly for a file
 rendering/GLStars.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.s
 .PHONY : rendering/GLStars.cpp.s
 
 rendering/GmatOpenGLSupport.o: rendering/GmatOpenGLSupport.cpp.o
@@ -2297,7 +2297,7 @@ rendering/GmatOpenGLSupport.o: rendering/GmatOpenGLSupport.cpp.o
 
 # target to build an object file
 rendering/GmatOpenGLSupport.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.o
 .PHONY : rendering/GmatOpenGLSupport.cpp.o
 
 rendering/GmatOpenGLSupport.i: rendering/GmatOpenGLSupport.cpp.i
@@ -2305,7 +2305,7 @@ rendering/GmatOpenGLSupport.i: rendering/GmatOpenGLSupport.cpp.i
 
 # target to preprocess a source file
 rendering/GmatOpenGLSupport.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.i
 .PHONY : rendering/GmatOpenGLSupport.cpp.i
 
 rendering/GmatOpenGLSupport.s: rendering/GmatOpenGLSupport.cpp.s
@@ -2313,7 +2313,7 @@ rendering/GmatOpenGLSupport.s: rendering/GmatOpenGLSupport.cpp.s
 
 # target to generate assembly for a file
 rendering/GmatOpenGLSupport.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.s
 .PHONY : rendering/GmatOpenGLSupport.cpp.s
 
 rendering/Light.o: rendering/Light.cpp.o
@@ -2321,7 +2321,7 @@ rendering/Light.o: rendering/Light.cpp.o
 
 # target to build an object file
 rendering/Light.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.o
 .PHONY : rendering/Light.cpp.o
 
 rendering/Light.i: rendering/Light.cpp.i
@@ -2329,7 +2329,7 @@ rendering/Light.i: rendering/Light.cpp.i
 
 # target to preprocess a source file
 rendering/Light.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.i
 .PHONY : rendering/Light.cpp.i
 
 rendering/Light.s: rendering/Light.cpp.s
@@ -2337,7 +2337,7 @@ rendering/Light.s: rendering/Light.cpp.s
 
 # target to generate assembly for a file
 rendering/Light.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.s
 .PHONY : rendering/Light.cpp.s
 
 rendering/ModelManager.o: rendering/ModelManager.cpp.o
@@ -2345,7 +2345,7 @@ rendering/ModelManager.o: rendering/ModelManager.cpp.o
 
 # target to build an object file
 rendering/ModelManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.o
 .PHONY : rendering/ModelManager.cpp.o
 
 rendering/ModelManager.i: rendering/ModelManager.cpp.i
@@ -2353,7 +2353,7 @@ rendering/ModelManager.i: rendering/ModelManager.cpp.i
 
 # target to preprocess a source file
 rendering/ModelManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.i
 .PHONY : rendering/ModelManager.cpp.i
 
 rendering/ModelManager.s: rendering/ModelManager.cpp.s
@@ -2361,7 +2361,7 @@ rendering/ModelManager.s: rendering/ModelManager.cpp.s
 
 # target to generate assembly for a file
 rendering/ModelManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.s
 .PHONY : rendering/ModelManager.cpp.s
 
 rendering/ModelObject.o: rendering/ModelObject.cpp.o
@@ -2369,7 +2369,7 @@ rendering/ModelObject.o: rendering/ModelObject.cpp.o
 
 # target to build an object file
 rendering/ModelObject.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.o
 .PHONY : rendering/ModelObject.cpp.o
 
 rendering/ModelObject.i: rendering/ModelObject.cpp.i
@@ -2377,7 +2377,7 @@ rendering/ModelObject.i: rendering/ModelObject.cpp.i
 
 # target to preprocess a source file
 rendering/ModelObject.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.i
 .PHONY : rendering/ModelObject.cpp.i
 
 rendering/ModelObject.s: rendering/ModelObject.cpp.s
@@ -2385,7 +2385,7 @@ rendering/ModelObject.s: rendering/ModelObject.cpp.s
 
 # target to generate assembly for a file
 rendering/ModelObject.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.s
 .PHONY : rendering/ModelObject.cpp.s
 
 rendering/Rendering.o: rendering/Rendering.cpp.o
@@ -2393,7 +2393,7 @@ rendering/Rendering.o: rendering/Rendering.cpp.o
 
 # target to build an object file
 rendering/Rendering.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.o
 .PHONY : rendering/Rendering.cpp.o
 
 rendering/Rendering.i: rendering/Rendering.cpp.i
@@ -2401,7 +2401,7 @@ rendering/Rendering.i: rendering/Rendering.cpp.i
 
 # target to preprocess a source file
 rendering/Rendering.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.i
 .PHONY : rendering/Rendering.cpp.i
 
 rendering/Rendering.s: rendering/Rendering.cpp.s
@@ -2409,7 +2409,7 @@ rendering/Rendering.s: rendering/Rendering.cpp.s
 
 # target to generate assembly for a file
 rendering/Rendering.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.s
 .PHONY : rendering/Rendering.cpp.s
 
 rendering/Structure.o: rendering/Structure.cpp.o
@@ -2417,7 +2417,7 @@ rendering/Structure.o: rendering/Structure.cpp.o
 
 # target to build an object file
 rendering/Structure.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.o
 .PHONY : rendering/Structure.cpp.o
 
 rendering/Structure.i: rendering/Structure.cpp.i
@@ -2425,7 +2425,7 @@ rendering/Structure.i: rendering/Structure.cpp.i
 
 # target to preprocess a source file
 rendering/Structure.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.i
 .PHONY : rendering/Structure.cpp.i
 
 rendering/Structure.s: rendering/Structure.cpp.s
@@ -2433,7 +2433,7 @@ rendering/Structure.s: rendering/Structure.cpp.s
 
 # target to generate assembly for a file
 rendering/Structure.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.s
 .PHONY : rendering/Structure.cpp.s
 
 rendering/StructureReader.o: rendering/StructureReader.cpp.o
@@ -2441,7 +2441,7 @@ rendering/StructureReader.o: rendering/StructureReader.cpp.o
 
 # target to build an object file
 rendering/StructureReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.o
 .PHONY : rendering/StructureReader.cpp.o
 
 rendering/StructureReader.i: rendering/StructureReader.cpp.i
@@ -2449,7 +2449,7 @@ rendering/StructureReader.i: rendering/StructureReader.cpp.i
 
 # target to preprocess a source file
 rendering/StructureReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.i
 .PHONY : rendering/StructureReader.cpp.i
 
 rendering/StructureReader.s: rendering/StructureReader.cpp.s
@@ -2457,7 +2457,7 @@ rendering/StructureReader.s: rendering/StructureReader.cpp.s
 
 # target to generate assembly for a file
 rendering/StructureReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.s
 .PHONY : rendering/StructureReader.cpp.s
 
 rendering/StructureReader3ds.o: rendering/StructureReader3ds.cpp.o
@@ -2465,7 +2465,7 @@ rendering/StructureReader3ds.o: rendering/StructureReader3ds.cpp.o
 
 # target to build an object file
 rendering/StructureReader3ds.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.o
 .PHONY : rendering/StructureReader3ds.cpp.o
 
 rendering/StructureReader3ds.i: rendering/StructureReader3ds.cpp.i
@@ -2473,7 +2473,7 @@ rendering/StructureReader3ds.i: rendering/StructureReader3ds.cpp.i
 
 # target to preprocess a source file
 rendering/StructureReader3ds.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.i
 .PHONY : rendering/StructureReader3ds.cpp.i
 
 rendering/StructureReader3ds.s: rendering/StructureReader3ds.cpp.s
@@ -2481,7 +2481,7 @@ rendering/StructureReader3ds.s: rendering/StructureReader3ds.cpp.s
 
 # target to generate assembly for a file
 rendering/StructureReader3ds.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.s
 .PHONY : rendering/StructureReader3ds.cpp.s
 
 rendering/SurfaceBase.o: rendering/SurfaceBase.cpp.o
@@ -2489,7 +2489,7 @@ rendering/SurfaceBase.o: rendering/SurfaceBase.cpp.o
 
 # target to build an object file
 rendering/SurfaceBase.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.o
 .PHONY : rendering/SurfaceBase.cpp.o
 
 rendering/SurfaceBase.i: rendering/SurfaceBase.cpp.i
@@ -2497,7 +2497,7 @@ rendering/SurfaceBase.i: rendering/SurfaceBase.cpp.i
 
 # target to preprocess a source file
 rendering/SurfaceBase.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.i
 .PHONY : rendering/SurfaceBase.cpp.i
 
 rendering/SurfaceBase.s: rendering/SurfaceBase.cpp.s
@@ -2505,7 +2505,7 @@ rendering/SurfaceBase.s: rendering/SurfaceBase.cpp.s
 
 # target to generate assembly for a file
 rendering/SurfaceBase.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.s
 .PHONY : rendering/SurfaceBase.cpp.s
 
 solarsys/BarycenterPanel.o: solarsys/BarycenterPanel.cpp.o
@@ -2513,7 +2513,7 @@ solarsys/BarycenterPanel.o: solarsys/BarycenterPanel.cpp.o
 
 # target to build an object file
 solarsys/BarycenterPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.o
 .PHONY : solarsys/BarycenterPanel.cpp.o
 
 solarsys/BarycenterPanel.i: solarsys/BarycenterPanel.cpp.i
@@ -2521,7 +2521,7 @@ solarsys/BarycenterPanel.i: solarsys/BarycenterPanel.cpp.i
 
 # target to preprocess a source file
 solarsys/BarycenterPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.i
 .PHONY : solarsys/BarycenterPanel.cpp.i
 
 solarsys/BarycenterPanel.s: solarsys/BarycenterPanel.cpp.s
@@ -2529,7 +2529,7 @@ solarsys/BarycenterPanel.s: solarsys/BarycenterPanel.cpp.s
 
 # target to generate assembly for a file
 solarsys/BarycenterPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.s
 .PHONY : solarsys/BarycenterPanel.cpp.s
 
 solarsys/CelesBodySelectDialog.o: solarsys/CelesBodySelectDialog.cpp.o
@@ -2537,7 +2537,7 @@ solarsys/CelesBodySelectDialog.o: solarsys/CelesBodySelectDialog.cpp.o
 
 # target to build an object file
 solarsys/CelesBodySelectDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.o
 .PHONY : solarsys/CelesBodySelectDialog.cpp.o
 
 solarsys/CelesBodySelectDialog.i: solarsys/CelesBodySelectDialog.cpp.i
@@ -2545,7 +2545,7 @@ solarsys/CelesBodySelectDialog.i: solarsys/CelesBodySelectDialog.cpp.i
 
 # target to preprocess a source file
 solarsys/CelesBodySelectDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.i
 .PHONY : solarsys/CelesBodySelectDialog.cpp.i
 
 solarsys/CelesBodySelectDialog.s: solarsys/CelesBodySelectDialog.cpp.s
@@ -2553,7 +2553,7 @@ solarsys/CelesBodySelectDialog.s: solarsys/CelesBodySelectDialog.cpp.s
 
 # target to generate assembly for a file
 solarsys/CelesBodySelectDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.s
 .PHONY : solarsys/CelesBodySelectDialog.cpp.s
 
 solarsys/CelestialBodyOrbitPanel.o: solarsys/CelestialBodyOrbitPanel.cpp.o
@@ -2561,7 +2561,7 @@ solarsys/CelestialBodyOrbitPanel.o: solarsys/CelestialBodyOrbitPanel.cpp.o
 
 # target to build an object file
 solarsys/CelestialBodyOrbitPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.o
 .PHONY : solarsys/CelestialBodyOrbitPanel.cpp.o
 
 solarsys/CelestialBodyOrbitPanel.i: solarsys/CelestialBodyOrbitPanel.cpp.i
@@ -2569,7 +2569,7 @@ solarsys/CelestialBodyOrbitPanel.i: solarsys/CelestialBodyOrbitPanel.cpp.i
 
 # target to preprocess a source file
 solarsys/CelestialBodyOrbitPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.i
 .PHONY : solarsys/CelestialBodyOrbitPanel.cpp.i
 
 solarsys/CelestialBodyOrbitPanel.s: solarsys/CelestialBodyOrbitPanel.cpp.s
@@ -2577,7 +2577,7 @@ solarsys/CelestialBodyOrbitPanel.s: solarsys/CelestialBodyOrbitPanel.cpp.s
 
 # target to generate assembly for a file
 solarsys/CelestialBodyOrbitPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.s
 .PHONY : solarsys/CelestialBodyOrbitPanel.cpp.s
 
 solarsys/CelestialBodyOrientationPanel.o: solarsys/CelestialBodyOrientationPanel.cpp.o
@@ -2585,7 +2585,7 @@ solarsys/CelestialBodyOrientationPanel.o: solarsys/CelestialBodyOrientationPanel
 
 # target to build an object file
 solarsys/CelestialBodyOrientationPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.o
 .PHONY : solarsys/CelestialBodyOrientationPanel.cpp.o
 
 solarsys/CelestialBodyOrientationPanel.i: solarsys/CelestialBodyOrientationPanel.cpp.i
@@ -2593,7 +2593,7 @@ solarsys/CelestialBodyOrientationPanel.i: solarsys/CelestialBodyOrientationPanel
 
 # target to preprocess a source file
 solarsys/CelestialBodyOrientationPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.i
 .PHONY : solarsys/CelestialBodyOrientationPanel.cpp.i
 
 solarsys/CelestialBodyOrientationPanel.s: solarsys/CelestialBodyOrientationPanel.cpp.s
@@ -2601,7 +2601,7 @@ solarsys/CelestialBodyOrientationPanel.s: solarsys/CelestialBodyOrientationPanel
 
 # target to generate assembly for a file
 solarsys/CelestialBodyOrientationPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.s
 .PHONY : solarsys/CelestialBodyOrientationPanel.cpp.s
 
 solarsys/CelestialBodyPanel.o: solarsys/CelestialBodyPanel.cpp.o
@@ -2609,7 +2609,7 @@ solarsys/CelestialBodyPanel.o: solarsys/CelestialBodyPanel.cpp.o
 
 # target to build an object file
 solarsys/CelestialBodyPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.o
 .PHONY : solarsys/CelestialBodyPanel.cpp.o
 
 solarsys/CelestialBodyPanel.i: solarsys/CelestialBodyPanel.cpp.i
@@ -2617,7 +2617,7 @@ solarsys/CelestialBodyPanel.i: solarsys/CelestialBodyPanel.cpp.i
 
 # target to preprocess a source file
 solarsys/CelestialBodyPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.i
 .PHONY : solarsys/CelestialBodyPanel.cpp.i
 
 solarsys/CelestialBodyPanel.s: solarsys/CelestialBodyPanel.cpp.s
@@ -2625,7 +2625,7 @@ solarsys/CelestialBodyPanel.s: solarsys/CelestialBodyPanel.cpp.s
 
 # target to generate assembly for a file
 solarsys/CelestialBodyPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.s
 .PHONY : solarsys/CelestialBodyPanel.cpp.s
 
 solarsys/CelestialBodyPropertiesPanel.o: solarsys/CelestialBodyPropertiesPanel.cpp.o
@@ -2633,7 +2633,7 @@ solarsys/CelestialBodyPropertiesPanel.o: solarsys/CelestialBodyPropertiesPanel.c
 
 # target to build an object file
 solarsys/CelestialBodyPropertiesPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.o
 .PHONY : solarsys/CelestialBodyPropertiesPanel.cpp.o
 
 solarsys/CelestialBodyPropertiesPanel.i: solarsys/CelestialBodyPropertiesPanel.cpp.i
@@ -2641,7 +2641,7 @@ solarsys/CelestialBodyPropertiesPanel.i: solarsys/CelestialBodyPropertiesPanel.c
 
 # target to preprocess a source file
 solarsys/CelestialBodyPropertiesPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.i
 .PHONY : solarsys/CelestialBodyPropertiesPanel.cpp.i
 
 solarsys/CelestialBodyPropertiesPanel.s: solarsys/CelestialBodyPropertiesPanel.cpp.s
@@ -2649,7 +2649,7 @@ solarsys/CelestialBodyPropertiesPanel.s: solarsys/CelestialBodyPropertiesPanel.c
 
 # target to generate assembly for a file
 solarsys/CelestialBodyPropertiesPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.s
 .PHONY : solarsys/CelestialBodyPropertiesPanel.cpp.s
 
 solarsys/CelestialBodyVisualizationPanel.o: solarsys/CelestialBodyVisualizationPanel.cpp.o
@@ -2657,7 +2657,7 @@ solarsys/CelestialBodyVisualizationPanel.o: solarsys/CelestialBodyVisualizationP
 
 # target to build an object file
 solarsys/CelestialBodyVisualizationPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.o
 .PHONY : solarsys/CelestialBodyVisualizationPanel.cpp.o
 
 solarsys/CelestialBodyVisualizationPanel.i: solarsys/CelestialBodyVisualizationPanel.cpp.i
@@ -2665,7 +2665,7 @@ solarsys/CelestialBodyVisualizationPanel.i: solarsys/CelestialBodyVisualizationP
 
 # target to preprocess a source file
 solarsys/CelestialBodyVisualizationPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.i
 .PHONY : solarsys/CelestialBodyVisualizationPanel.cpp.i
 
 solarsys/CelestialBodyVisualizationPanel.s: solarsys/CelestialBodyVisualizationPanel.cpp.s
@@ -2673,7 +2673,7 @@ solarsys/CelestialBodyVisualizationPanel.s: solarsys/CelestialBodyVisualizationP
 
 # target to generate assembly for a file
 solarsys/CelestialBodyVisualizationPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.s
 .PHONY : solarsys/CelestialBodyVisualizationPanel.cpp.s
 
 solarsys/LibrationPointPanel.o: solarsys/LibrationPointPanel.cpp.o
@@ -2681,7 +2681,7 @@ solarsys/LibrationPointPanel.o: solarsys/LibrationPointPanel.cpp.o
 
 # target to build an object file
 solarsys/LibrationPointPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.o
 .PHONY : solarsys/LibrationPointPanel.cpp.o
 
 solarsys/LibrationPointPanel.i: solarsys/LibrationPointPanel.cpp.i
@@ -2689,7 +2689,7 @@ solarsys/LibrationPointPanel.i: solarsys/LibrationPointPanel.cpp.i
 
 # target to preprocess a source file
 solarsys/LibrationPointPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.i
 .PHONY : solarsys/LibrationPointPanel.cpp.i
 
 solarsys/LibrationPointPanel.s: solarsys/LibrationPointPanel.cpp.s
@@ -2697,7 +2697,7 @@ solarsys/LibrationPointPanel.s: solarsys/LibrationPointPanel.cpp.s
 
 # target to generate assembly for a file
 solarsys/LibrationPointPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.s
 .PHONY : solarsys/LibrationPointPanel.cpp.s
 
 solarsys/UniversePanel.o: solarsys/UniversePanel.cpp.o
@@ -2705,7 +2705,7 @@ solarsys/UniversePanel.o: solarsys/UniversePanel.cpp.o
 
 # target to build an object file
 solarsys/UniversePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.o
 .PHONY : solarsys/UniversePanel.cpp.o
 
 solarsys/UniversePanel.i: solarsys/UniversePanel.cpp.i
@@ -2713,7 +2713,7 @@ solarsys/UniversePanel.i: solarsys/UniversePanel.cpp.i
 
 # target to preprocess a source file
 solarsys/UniversePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.i
 .PHONY : solarsys/UniversePanel.cpp.i
 
 solarsys/UniversePanel.s: solarsys/UniversePanel.cpp.s
@@ -2721,7 +2721,7 @@ solarsys/UniversePanel.s: solarsys/UniversePanel.cpp.s
 
 # target to generate assembly for a file
 solarsys/UniversePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.s
 .PHONY : solarsys/UniversePanel.cpp.s
 
 solver/DCSetupPanel.o: solver/DCSetupPanel.cpp.o
@@ -2729,7 +2729,7 @@ solver/DCSetupPanel.o: solver/DCSetupPanel.cpp.o
 
 # target to build an object file
 solver/DCSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.o
 .PHONY : solver/DCSetupPanel.cpp.o
 
 solver/DCSetupPanel.i: solver/DCSetupPanel.cpp.i
@@ -2737,7 +2737,7 @@ solver/DCSetupPanel.i: solver/DCSetupPanel.cpp.i
 
 # target to preprocess a source file
 solver/DCSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.i
 .PHONY : solver/DCSetupPanel.cpp.i
 
 solver/DCSetupPanel.s: solver/DCSetupPanel.cpp.s
@@ -2745,7 +2745,7 @@ solver/DCSetupPanel.s: solver/DCSetupPanel.cpp.s
 
 # target to generate assembly for a file
 solver/DCSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.s
 .PHONY : solver/DCSetupPanel.cpp.s
 
 solver/SQPSetupPanel.o: solver/SQPSetupPanel.cpp.o
@@ -2753,7 +2753,7 @@ solver/SQPSetupPanel.o: solver/SQPSetupPanel.cpp.o
 
 # target to build an object file
 solver/SQPSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.o
 .PHONY : solver/SQPSetupPanel.cpp.o
 
 solver/SQPSetupPanel.i: solver/SQPSetupPanel.cpp.i
@@ -2761,7 +2761,7 @@ solver/SQPSetupPanel.i: solver/SQPSetupPanel.cpp.i
 
 # target to preprocess a source file
 solver/SQPSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.i
 .PHONY : solver/SQPSetupPanel.cpp.i
 
 solver/SQPSetupPanel.s: solver/SQPSetupPanel.cpp.s
@@ -2769,7 +2769,7 @@ solver/SQPSetupPanel.s: solver/SQPSetupPanel.cpp.s
 
 # target to generate assembly for a file
 solver/SQPSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.s
 .PHONY : solver/SQPSetupPanel.cpp.s
 
 solver/SolverCreatePanel.o: solver/SolverCreatePanel.cpp.o
@@ -2777,7 +2777,7 @@ solver/SolverCreatePanel.o: solver/SolverCreatePanel.cpp.o
 
 # target to build an object file
 solver/SolverCreatePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.o
 .PHONY : solver/SolverCreatePanel.cpp.o
 
 solver/SolverCreatePanel.i: solver/SolverCreatePanel.cpp.i
@@ -2785,7 +2785,7 @@ solver/SolverCreatePanel.i: solver/SolverCreatePanel.cpp.i
 
 # target to preprocess a source file
 solver/SolverCreatePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.i
 .PHONY : solver/SolverCreatePanel.cpp.i
 
 solver/SolverCreatePanel.s: solver/SolverCreatePanel.cpp.s
@@ -2793,7 +2793,7 @@ solver/SolverCreatePanel.s: solver/SolverCreatePanel.cpp.s
 
 # target to generate assembly for a file
 solver/SolverCreatePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.s
 .PHONY : solver/SolverCreatePanel.cpp.s
 
 solver/SolverGoalsPanel.o: solver/SolverGoalsPanel.cpp.o
@@ -2801,7 +2801,7 @@ solver/SolverGoalsPanel.o: solver/SolverGoalsPanel.cpp.o
 
 # target to build an object file
 solver/SolverGoalsPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.o
 .PHONY : solver/SolverGoalsPanel.cpp.o
 
 solver/SolverGoalsPanel.i: solver/SolverGoalsPanel.cpp.i
@@ -2809,7 +2809,7 @@ solver/SolverGoalsPanel.i: solver/SolverGoalsPanel.cpp.i
 
 # target to preprocess a source file
 solver/SolverGoalsPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.i
 .PHONY : solver/SolverGoalsPanel.cpp.i
 
 solver/SolverGoalsPanel.s: solver/SolverGoalsPanel.cpp.s
@@ -2817,7 +2817,7 @@ solver/SolverGoalsPanel.s: solver/SolverGoalsPanel.cpp.s
 
 # target to generate assembly for a file
 solver/SolverGoalsPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.s
 .PHONY : solver/SolverGoalsPanel.cpp.s
 
 solver/SolverSetupPanel.o: solver/SolverSetupPanel.cpp.o
@@ -2825,7 +2825,7 @@ solver/SolverSetupPanel.o: solver/SolverSetupPanel.cpp.o
 
 # target to build an object file
 solver/SolverSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.o
 .PHONY : solver/SolverSetupPanel.cpp.o
 
 solver/SolverSetupPanel.i: solver/SolverSetupPanel.cpp.i
@@ -2833,7 +2833,7 @@ solver/SolverSetupPanel.i: solver/SolverSetupPanel.cpp.i
 
 # target to preprocess a source file
 solver/SolverSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.i
 .PHONY : solver/SolverSetupPanel.cpp.i
 
 solver/SolverSetupPanel.s: solver/SolverSetupPanel.cpp.s
@@ -2841,7 +2841,7 @@ solver/SolverSetupPanel.s: solver/SolverSetupPanel.cpp.s
 
 # target to generate assembly for a file
 solver/SolverSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.s
 .PHONY : solver/SolverSetupPanel.cpp.s
 
 solver/SolverVariablesPanel.o: solver/SolverVariablesPanel.cpp.o
@@ -2849,7 +2849,7 @@ solver/SolverVariablesPanel.o: solver/SolverVariablesPanel.cpp.o
 
 # target to build an object file
 solver/SolverVariablesPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.o
 .PHONY : solver/SolverVariablesPanel.cpp.o
 
 solver/SolverVariablesPanel.i: solver/SolverVariablesPanel.cpp.i
@@ -2857,7 +2857,7 @@ solver/SolverVariablesPanel.i: solver/SolverVariablesPanel.cpp.i
 
 # target to preprocess a source file
 solver/SolverVariablesPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.i
 .PHONY : solver/SolverVariablesPanel.cpp.i
 
 solver/SolverVariablesPanel.s: solver/SolverVariablesPanel.cpp.s
@@ -2865,7 +2865,7 @@ solver/SolverVariablesPanel.s: solver/SolverVariablesPanel.cpp.s
 
 # target to generate assembly for a file
 solver/SolverVariablesPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.s
 .PHONY : solver/SolverVariablesPanel.cpp.s
 
 spacecraft/AttitudePanel.o: spacecraft/AttitudePanel.cpp.o
@@ -2873,7 +2873,7 @@ spacecraft/AttitudePanel.o: spacecraft/AttitudePanel.cpp.o
 
 # target to build an object file
 spacecraft/AttitudePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.o
 .PHONY : spacecraft/AttitudePanel.cpp.o
 
 spacecraft/AttitudePanel.i: spacecraft/AttitudePanel.cpp.i
@@ -2881,7 +2881,7 @@ spacecraft/AttitudePanel.i: spacecraft/AttitudePanel.cpp.i
 
 # target to preprocess a source file
 spacecraft/AttitudePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.i
 .PHONY : spacecraft/AttitudePanel.cpp.i
 
 spacecraft/AttitudePanel.s: spacecraft/AttitudePanel.cpp.s
@@ -2889,7 +2889,7 @@ spacecraft/AttitudePanel.s: spacecraft/AttitudePanel.cpp.s
 
 # target to generate assembly for a file
 spacecraft/AttitudePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.s
 .PHONY : spacecraft/AttitudePanel.cpp.s
 
 spacecraft/BallisticsMassPanel.o: spacecraft/BallisticsMassPanel.cpp.o
@@ -2897,7 +2897,7 @@ spacecraft/BallisticsMassPanel.o: spacecraft/BallisticsMassPanel.cpp.o
 
 # target to build an object file
 spacecraft/BallisticsMassPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.o
 .PHONY : spacecraft/BallisticsMassPanel.cpp.o
 
 spacecraft/BallisticsMassPanel.i: spacecraft/BallisticsMassPanel.cpp.i
@@ -2905,7 +2905,7 @@ spacecraft/BallisticsMassPanel.i: spacecraft/BallisticsMassPanel.cpp.i
 
 # target to preprocess a source file
 spacecraft/BallisticsMassPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.i
 .PHONY : spacecraft/BallisticsMassPanel.cpp.i
 
 spacecraft/BallisticsMassPanel.s: spacecraft/BallisticsMassPanel.cpp.s
@@ -2913,7 +2913,7 @@ spacecraft/BallisticsMassPanel.s: spacecraft/BallisticsMassPanel.cpp.s
 
 # target to generate assembly for a file
 spacecraft/BallisticsMassPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.s
 .PHONY : spacecraft/BallisticsMassPanel.cpp.s
 
 spacecraft/FormationSetupPanel.o: spacecraft/FormationSetupPanel.cpp.o
@@ -2921,7 +2921,7 @@ spacecraft/FormationSetupPanel.o: spacecraft/FormationSetupPanel.cpp.o
 
 # target to build an object file
 spacecraft/FormationSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.o
 .PHONY : spacecraft/FormationSetupPanel.cpp.o
 
 spacecraft/FormationSetupPanel.i: spacecraft/FormationSetupPanel.cpp.i
@@ -2929,7 +2929,7 @@ spacecraft/FormationSetupPanel.i: spacecraft/FormationSetupPanel.cpp.i
 
 # target to preprocess a source file
 spacecraft/FormationSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.i
 .PHONY : spacecraft/FormationSetupPanel.cpp.i
 
 spacecraft/FormationSetupPanel.s: spacecraft/FormationSetupPanel.cpp.s
@@ -2937,7 +2937,7 @@ spacecraft/FormationSetupPanel.s: spacecraft/FormationSetupPanel.cpp.s
 
 # target to generate assembly for a file
 spacecraft/FormationSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.s
 .PHONY : spacecraft/FormationSetupPanel.cpp.s
 
 spacecraft/OrbitDesignerDialog.o: spacecraft/OrbitDesignerDialog.cpp.o
@@ -2945,7 +2945,7 @@ spacecraft/OrbitDesignerDialog.o: spacecraft/OrbitDesignerDialog.cpp.o
 
 # target to build an object file
 spacecraft/OrbitDesignerDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.o
 .PHONY : spacecraft/OrbitDesignerDialog.cpp.o
 
 spacecraft/OrbitDesignerDialog.i: spacecraft/OrbitDesignerDialog.cpp.i
@@ -2953,7 +2953,7 @@ spacecraft/OrbitDesignerDialog.i: spacecraft/OrbitDesignerDialog.cpp.i
 
 # target to preprocess a source file
 spacecraft/OrbitDesignerDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.i
 .PHONY : spacecraft/OrbitDesignerDialog.cpp.i
 
 spacecraft/OrbitDesignerDialog.s: spacecraft/OrbitDesignerDialog.cpp.s
@@ -2961,7 +2961,7 @@ spacecraft/OrbitDesignerDialog.s: spacecraft/OrbitDesignerDialog.cpp.s
 
 # target to generate assembly for a file
 spacecraft/OrbitDesignerDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.s
 .PHONY : spacecraft/OrbitDesignerDialog.cpp.s
 
 spacecraft/OrbitPanel.o: spacecraft/OrbitPanel.cpp.o
@@ -2969,7 +2969,7 @@ spacecraft/OrbitPanel.o: spacecraft/OrbitPanel.cpp.o
 
 # target to build an object file
 spacecraft/OrbitPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.o
 .PHONY : spacecraft/OrbitPanel.cpp.o
 
 spacecraft/OrbitPanel.i: spacecraft/OrbitPanel.cpp.i
@@ -2977,7 +2977,7 @@ spacecraft/OrbitPanel.i: spacecraft/OrbitPanel.cpp.i
 
 # target to preprocess a source file
 spacecraft/OrbitPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.i
 .PHONY : spacecraft/OrbitPanel.cpp.i
 
 spacecraft/OrbitPanel.s: spacecraft/OrbitPanel.cpp.s
@@ -2985,7 +2985,7 @@ spacecraft/OrbitPanel.s: spacecraft/OrbitPanel.cpp.s
 
 # target to generate assembly for a file
 spacecraft/OrbitPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.s
 .PHONY : spacecraft/OrbitPanel.cpp.s
 
 spacecraft/OrbitSummaryDialog.o: spacecraft/OrbitSummaryDialog.cpp.o
@@ -2993,7 +2993,7 @@ spacecraft/OrbitSummaryDialog.o: spacecraft/OrbitSummaryDialog.cpp.o
 
 # target to build an object file
 spacecraft/OrbitSummaryDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.o
 .PHONY : spacecraft/OrbitSummaryDialog.cpp.o
 
 spacecraft/OrbitSummaryDialog.i: spacecraft/OrbitSummaryDialog.cpp.i
@@ -3001,7 +3001,7 @@ spacecraft/OrbitSummaryDialog.i: spacecraft/OrbitSummaryDialog.cpp.i
 
 # target to preprocess a source file
 spacecraft/OrbitSummaryDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.i
 .PHONY : spacecraft/OrbitSummaryDialog.cpp.i
 
 spacecraft/OrbitSummaryDialog.s: spacecraft/OrbitSummaryDialog.cpp.s
@@ -3009,7 +3009,7 @@ spacecraft/OrbitSummaryDialog.s: spacecraft/OrbitSummaryDialog.cpp.s
 
 # target to generate assembly for a file
 spacecraft/OrbitSummaryDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.s
 .PHONY : spacecraft/OrbitSummaryDialog.cpp.s
 
 spacecraft/PowerSystemPanel.o: spacecraft/PowerSystemPanel.cpp.o
@@ -3017,7 +3017,7 @@ spacecraft/PowerSystemPanel.o: spacecraft/PowerSystemPanel.cpp.o
 
 # target to build an object file
 spacecraft/PowerSystemPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.o
 .PHONY : spacecraft/PowerSystemPanel.cpp.o
 
 spacecraft/PowerSystemPanel.i: spacecraft/PowerSystemPanel.cpp.i
@@ -3025,7 +3025,7 @@ spacecraft/PowerSystemPanel.i: spacecraft/PowerSystemPanel.cpp.i
 
 # target to preprocess a source file
 spacecraft/PowerSystemPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.i
 .PHONY : spacecraft/PowerSystemPanel.cpp.i
 
 spacecraft/PowerSystemPanel.s: spacecraft/PowerSystemPanel.cpp.s
@@ -3033,7 +3033,7 @@ spacecraft/PowerSystemPanel.s: spacecraft/PowerSystemPanel.cpp.s
 
 # target to generate assembly for a file
 spacecraft/PowerSystemPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.s
 .PHONY : spacecraft/PowerSystemPanel.cpp.s
 
 spacecraft/SpaceObjectSelectDialog.o: spacecraft/SpaceObjectSelectDialog.cpp.o
@@ -3041,7 +3041,7 @@ spacecraft/SpaceObjectSelectDialog.o: spacecraft/SpaceObjectSelectDialog.cpp.o
 
 # target to build an object file
 spacecraft/SpaceObjectSelectDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.o
 .PHONY : spacecraft/SpaceObjectSelectDialog.cpp.o
 
 spacecraft/SpaceObjectSelectDialog.i: spacecraft/SpaceObjectSelectDialog.cpp.i
@@ -3049,7 +3049,7 @@ spacecraft/SpaceObjectSelectDialog.i: spacecraft/SpaceObjectSelectDialog.cpp.i
 
 # target to preprocess a source file
 spacecraft/SpaceObjectSelectDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.i
 .PHONY : spacecraft/SpaceObjectSelectDialog.cpp.i
 
 spacecraft/SpaceObjectSelectDialog.s: spacecraft/SpaceObjectSelectDialog.cpp.s
@@ -3057,7 +3057,7 @@ spacecraft/SpaceObjectSelectDialog.s: spacecraft/SpaceObjectSelectDialog.cpp.s
 
 # target to generate assembly for a file
 spacecraft/SpaceObjectSelectDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.s
 .PHONY : spacecraft/SpaceObjectSelectDialog.cpp.s
 
 spacecraft/SpacecraftPanel.o: spacecraft/SpacecraftPanel.cpp.o
@@ -3065,7 +3065,7 @@ spacecraft/SpacecraftPanel.o: spacecraft/SpacecraftPanel.cpp.o
 
 # target to build an object file
 spacecraft/SpacecraftPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.o
 .PHONY : spacecraft/SpacecraftPanel.cpp.o
 
 spacecraft/SpacecraftPanel.i: spacecraft/SpacecraftPanel.cpp.i
@@ -3073,7 +3073,7 @@ spacecraft/SpacecraftPanel.i: spacecraft/SpacecraftPanel.cpp.i
 
 # target to preprocess a source file
 spacecraft/SpacecraftPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.i
 .PHONY : spacecraft/SpacecraftPanel.cpp.i
 
 spacecraft/SpacecraftPanel.s: spacecraft/SpacecraftPanel.cpp.s
@@ -3081,7 +3081,7 @@ spacecraft/SpacecraftPanel.s: spacecraft/SpacecraftPanel.cpp.s
 
 # target to generate assembly for a file
 spacecraft/SpacecraftPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.s
 .PHONY : spacecraft/SpacecraftPanel.cpp.s
 
 spacecraft/SpicePanel.o: spacecraft/SpicePanel.cpp.o
@@ -3089,7 +3089,7 @@ spacecraft/SpicePanel.o: spacecraft/SpicePanel.cpp.o
 
 # target to build an object file
 spacecraft/SpicePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.o
 .PHONY : spacecraft/SpicePanel.cpp.o
 
 spacecraft/SpicePanel.i: spacecraft/SpicePanel.cpp.i
@@ -3097,7 +3097,7 @@ spacecraft/SpicePanel.i: spacecraft/SpicePanel.cpp.i
 
 # target to preprocess a source file
 spacecraft/SpicePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.i
 .PHONY : spacecraft/SpicePanel.cpp.i
 
 spacecraft/SpicePanel.s: spacecraft/SpicePanel.cpp.s
@@ -3105,7 +3105,7 @@ spacecraft/SpicePanel.s: spacecraft/SpicePanel.cpp.s
 
 # target to generate assembly for a file
 spacecraft/SpicePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.s
 .PHONY : spacecraft/SpicePanel.cpp.s
 
 spacecraft/TankPanel.o: spacecraft/TankPanel.cpp.o
@@ -3113,7 +3113,7 @@ spacecraft/TankPanel.o: spacecraft/TankPanel.cpp.o
 
 # target to build an object file
 spacecraft/TankPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.o
 .PHONY : spacecraft/TankPanel.cpp.o
 
 spacecraft/TankPanel.i: spacecraft/TankPanel.cpp.i
@@ -3121,7 +3121,7 @@ spacecraft/TankPanel.i: spacecraft/TankPanel.cpp.i
 
 # target to preprocess a source file
 spacecraft/TankPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.i
 .PHONY : spacecraft/TankPanel.cpp.i
 
 spacecraft/TankPanel.s: spacecraft/TankPanel.cpp.s
@@ -3129,7 +3129,7 @@ spacecraft/TankPanel.s: spacecraft/TankPanel.cpp.s
 
 # target to generate assembly for a file
 spacecraft/TankPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.s
 .PHONY : spacecraft/TankPanel.cpp.s
 
 spacecraft/ThrusterPanel.o: spacecraft/ThrusterPanel.cpp.o
@@ -3137,7 +3137,7 @@ spacecraft/ThrusterPanel.o: spacecraft/ThrusterPanel.cpp.o
 
 # target to build an object file
 spacecraft/ThrusterPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.o
 .PHONY : spacecraft/ThrusterPanel.cpp.o
 
 spacecraft/ThrusterPanel.i: spacecraft/ThrusterPanel.cpp.i
@@ -3145,7 +3145,7 @@ spacecraft/ThrusterPanel.i: spacecraft/ThrusterPanel.cpp.i
 
 # target to preprocess a source file
 spacecraft/ThrusterPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.i
 .PHONY : spacecraft/ThrusterPanel.cpp.i
 
 spacecraft/ThrusterPanel.s: spacecraft/ThrusterPanel.cpp.s
@@ -3153,7 +3153,7 @@ spacecraft/ThrusterPanel.s: spacecraft/ThrusterPanel.cpp.s
 
 # target to generate assembly for a file
 spacecraft/ThrusterPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.s
 .PHONY : spacecraft/ThrusterPanel.cpp.s
 
 spacecraft/VisualModelCanvas.o: spacecraft/VisualModelCanvas.cpp.o
@@ -3161,7 +3161,7 @@ spacecraft/VisualModelCanvas.o: spacecraft/VisualModelCanvas.cpp.o
 
 # target to build an object file
 spacecraft/VisualModelCanvas.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.o
 .PHONY : spacecraft/VisualModelCanvas.cpp.o
 
 spacecraft/VisualModelCanvas.i: spacecraft/VisualModelCanvas.cpp.i
@@ -3169,7 +3169,7 @@ spacecraft/VisualModelCanvas.i: spacecraft/VisualModelCanvas.cpp.i
 
 # target to preprocess a source file
 spacecraft/VisualModelCanvas.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.i
 .PHONY : spacecraft/VisualModelCanvas.cpp.i
 
 spacecraft/VisualModelCanvas.s: spacecraft/VisualModelCanvas.cpp.s
@@ -3177,7 +3177,7 @@ spacecraft/VisualModelCanvas.s: spacecraft/VisualModelCanvas.cpp.s
 
 # target to generate assembly for a file
 spacecraft/VisualModelCanvas.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.s
 .PHONY : spacecraft/VisualModelCanvas.cpp.s
 
 spacecraft/VisualModelPanel.o: spacecraft/VisualModelPanel.cpp.o
@@ -3185,7 +3185,7 @@ spacecraft/VisualModelPanel.o: spacecraft/VisualModelPanel.cpp.o
 
 # target to build an object file
 spacecraft/VisualModelPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.o
 .PHONY : spacecraft/VisualModelPanel.cpp.o
 
 spacecraft/VisualModelPanel.i: spacecraft/VisualModelPanel.cpp.i
@@ -3193,7 +3193,7 @@ spacecraft/VisualModelPanel.i: spacecraft/VisualModelPanel.cpp.i
 
 # target to preprocess a source file
 spacecraft/VisualModelPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.i
 .PHONY : spacecraft/VisualModelPanel.cpp.i
 
 spacecraft/VisualModelPanel.s: spacecraft/VisualModelPanel.cpp.s
@@ -3201,7 +3201,7 @@ spacecraft/VisualModelPanel.s: spacecraft/VisualModelPanel.cpp.s
 
 # target to generate assembly for a file
 spacecraft/VisualModelPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.s
 .PHONY : spacecraft/VisualModelPanel.cpp.s
 
 subscriber/EphemerisFilePanel.o: subscriber/EphemerisFilePanel.cpp.o
@@ -3209,7 +3209,7 @@ subscriber/EphemerisFilePanel.o: subscriber/EphemerisFilePanel.cpp.o
 
 # target to build an object file
 subscriber/EphemerisFilePanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.o
 .PHONY : subscriber/EphemerisFilePanel.cpp.o
 
 subscriber/EphemerisFilePanel.i: subscriber/EphemerisFilePanel.cpp.i
@@ -3217,7 +3217,7 @@ subscriber/EphemerisFilePanel.i: subscriber/EphemerisFilePanel.cpp.i
 
 # target to preprocess a source file
 subscriber/EphemerisFilePanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.i
 .PHONY : subscriber/EphemerisFilePanel.cpp.i
 
 subscriber/EphemerisFilePanel.s: subscriber/EphemerisFilePanel.cpp.s
@@ -3225,7 +3225,7 @@ subscriber/EphemerisFilePanel.s: subscriber/EphemerisFilePanel.cpp.s
 
 # target to generate assembly for a file
 subscriber/EphemerisFilePanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.s
 .PHONY : subscriber/EphemerisFilePanel.cpp.s
 
 subscriber/GroundTrackCanvas.o: subscriber/GroundTrackCanvas.cpp.o
@@ -3233,7 +3233,7 @@ subscriber/GroundTrackCanvas.o: subscriber/GroundTrackCanvas.cpp.o
 
 # target to build an object file
 subscriber/GroundTrackCanvas.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.o
 .PHONY : subscriber/GroundTrackCanvas.cpp.o
 
 subscriber/GroundTrackCanvas.i: subscriber/GroundTrackCanvas.cpp.i
@@ -3241,7 +3241,7 @@ subscriber/GroundTrackCanvas.i: subscriber/GroundTrackCanvas.cpp.i
 
 # target to preprocess a source file
 subscriber/GroundTrackCanvas.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.i
 .PHONY : subscriber/GroundTrackCanvas.cpp.i
 
 subscriber/GroundTrackCanvas.s: subscriber/GroundTrackCanvas.cpp.s
@@ -3249,7 +3249,7 @@ subscriber/GroundTrackCanvas.s: subscriber/GroundTrackCanvas.cpp.s
 
 # target to generate assembly for a file
 subscriber/GroundTrackCanvas.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.s
 .PHONY : subscriber/GroundTrackCanvas.cpp.s
 
 subscriber/GroundTrackPlotPanel.o: subscriber/GroundTrackPlotPanel.cpp.o
@@ -3257,7 +3257,7 @@ subscriber/GroundTrackPlotPanel.o: subscriber/GroundTrackPlotPanel.cpp.o
 
 # target to build an object file
 subscriber/GroundTrackPlotPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.o
 .PHONY : subscriber/GroundTrackPlotPanel.cpp.o
 
 subscriber/GroundTrackPlotPanel.i: subscriber/GroundTrackPlotPanel.cpp.i
@@ -3265,7 +3265,7 @@ subscriber/GroundTrackPlotPanel.i: subscriber/GroundTrackPlotPanel.cpp.i
 
 # target to preprocess a source file
 subscriber/GroundTrackPlotPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.i
 .PHONY : subscriber/GroundTrackPlotPanel.cpp.i
 
 subscriber/GroundTrackPlotPanel.s: subscriber/GroundTrackPlotPanel.cpp.s
@@ -3273,7 +3273,7 @@ subscriber/GroundTrackPlotPanel.s: subscriber/GroundTrackPlotPanel.cpp.s
 
 # target to generate assembly for a file
 subscriber/GroundTrackPlotPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.s
 .PHONY : subscriber/GroundTrackPlotPanel.cpp.s
 
 subscriber/MdiChild3DViewFrame.o: subscriber/MdiChild3DViewFrame.cpp.o
@@ -3281,7 +3281,7 @@ subscriber/MdiChild3DViewFrame.o: subscriber/MdiChild3DViewFrame.cpp.o
 
 # target to build an object file
 subscriber/MdiChild3DViewFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.o
 .PHONY : subscriber/MdiChild3DViewFrame.cpp.o
 
 subscriber/MdiChild3DViewFrame.i: subscriber/MdiChild3DViewFrame.cpp.i
@@ -3289,7 +3289,7 @@ subscriber/MdiChild3DViewFrame.i: subscriber/MdiChild3DViewFrame.cpp.i
 
 # target to preprocess a source file
 subscriber/MdiChild3DViewFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.i
 .PHONY : subscriber/MdiChild3DViewFrame.cpp.i
 
 subscriber/MdiChild3DViewFrame.s: subscriber/MdiChild3DViewFrame.cpp.s
@@ -3297,7 +3297,7 @@ subscriber/MdiChild3DViewFrame.s: subscriber/MdiChild3DViewFrame.cpp.s
 
 # target to generate assembly for a file
 subscriber/MdiChild3DViewFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.s
 .PHONY : subscriber/MdiChild3DViewFrame.cpp.s
 
 subscriber/MdiChildGroundTrackFrame.o: subscriber/MdiChildGroundTrackFrame.cpp.o
@@ -3305,7 +3305,7 @@ subscriber/MdiChildGroundTrackFrame.o: subscriber/MdiChildGroundTrackFrame.cpp.o
 
 # target to build an object file
 subscriber/MdiChildGroundTrackFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.o
 .PHONY : subscriber/MdiChildGroundTrackFrame.cpp.o
 
 subscriber/MdiChildGroundTrackFrame.i: subscriber/MdiChildGroundTrackFrame.cpp.i
@@ -3313,7 +3313,7 @@ subscriber/MdiChildGroundTrackFrame.i: subscriber/MdiChildGroundTrackFrame.cpp.i
 
 # target to preprocess a source file
 subscriber/MdiChildGroundTrackFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.i
 .PHONY : subscriber/MdiChildGroundTrackFrame.cpp.i
 
 subscriber/MdiChildGroundTrackFrame.s: subscriber/MdiChildGroundTrackFrame.cpp.s
@@ -3321,7 +3321,7 @@ subscriber/MdiChildGroundTrackFrame.s: subscriber/MdiChildGroundTrackFrame.cpp.s
 
 # target to generate assembly for a file
 subscriber/MdiChildGroundTrackFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.s
 .PHONY : subscriber/MdiChildGroundTrackFrame.cpp.s
 
 subscriber/MdiChildTsFrame.o: subscriber/MdiChildTsFrame.cpp.o
@@ -3329,7 +3329,7 @@ subscriber/MdiChildTsFrame.o: subscriber/MdiChildTsFrame.cpp.o
 
 # target to build an object file
 subscriber/MdiChildTsFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.o
 .PHONY : subscriber/MdiChildTsFrame.cpp.o
 
 subscriber/MdiChildTsFrame.i: subscriber/MdiChildTsFrame.cpp.i
@@ -3337,7 +3337,7 @@ subscriber/MdiChildTsFrame.i: subscriber/MdiChildTsFrame.cpp.i
 
 # target to preprocess a source file
 subscriber/MdiChildTsFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.i
 .PHONY : subscriber/MdiChildTsFrame.cpp.i
 
 subscriber/MdiChildTsFrame.s: subscriber/MdiChildTsFrame.cpp.s
@@ -3345,7 +3345,7 @@ subscriber/MdiChildTsFrame.s: subscriber/MdiChildTsFrame.cpp.s
 
 # target to generate assembly for a file
 subscriber/MdiChildTsFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.s
 .PHONY : subscriber/MdiChildTsFrame.cpp.s
 
 subscriber/MdiChildViewFrame.o: subscriber/MdiChildViewFrame.cpp.o
@@ -3353,7 +3353,7 @@ subscriber/MdiChildViewFrame.o: subscriber/MdiChildViewFrame.cpp.o
 
 # target to build an object file
 subscriber/MdiChildViewFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.o
 .PHONY : subscriber/MdiChildViewFrame.cpp.o
 
 subscriber/MdiChildViewFrame.i: subscriber/MdiChildViewFrame.cpp.i
@@ -3361,7 +3361,7 @@ subscriber/MdiChildViewFrame.i: subscriber/MdiChildViewFrame.cpp.i
 
 # target to preprocess a source file
 subscriber/MdiChildViewFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.i
 .PHONY : subscriber/MdiChildViewFrame.cpp.i
 
 subscriber/MdiChildViewFrame.s: subscriber/MdiChildViewFrame.cpp.s
@@ -3369,7 +3369,7 @@ subscriber/MdiChildViewFrame.s: subscriber/MdiChildViewFrame.cpp.s
 
 # target to generate assembly for a file
 subscriber/MdiChildViewFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.s
 .PHONY : subscriber/MdiChildViewFrame.cpp.s
 
 subscriber/MdiGlPlotData.o: subscriber/MdiGlPlotData.cpp.o
@@ -3377,7 +3377,7 @@ subscriber/MdiGlPlotData.o: subscriber/MdiGlPlotData.cpp.o
 
 # target to build an object file
 subscriber/MdiGlPlotData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.o
 .PHONY : subscriber/MdiGlPlotData.cpp.o
 
 subscriber/MdiGlPlotData.i: subscriber/MdiGlPlotData.cpp.i
@@ -3385,7 +3385,7 @@ subscriber/MdiGlPlotData.i: subscriber/MdiGlPlotData.cpp.i
 
 # target to preprocess a source file
 subscriber/MdiGlPlotData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.i
 .PHONY : subscriber/MdiGlPlotData.cpp.i
 
 subscriber/MdiGlPlotData.s: subscriber/MdiGlPlotData.cpp.s
@@ -3393,7 +3393,7 @@ subscriber/MdiGlPlotData.s: subscriber/MdiGlPlotData.cpp.s
 
 # target to generate assembly for a file
 subscriber/MdiGlPlotData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.s
 .PHONY : subscriber/MdiGlPlotData.cpp.s
 
 subscriber/MdiTableViewFrame.o: subscriber/MdiTableViewFrame.cpp.o
@@ -3401,7 +3401,7 @@ subscriber/MdiTableViewFrame.o: subscriber/MdiTableViewFrame.cpp.o
 
 # target to build an object file
 subscriber/MdiTableViewFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.o
 .PHONY : subscriber/MdiTableViewFrame.cpp.o
 
 subscriber/MdiTableViewFrame.i: subscriber/MdiTableViewFrame.cpp.i
@@ -3409,7 +3409,7 @@ subscriber/MdiTableViewFrame.i: subscriber/MdiTableViewFrame.cpp.i
 
 # target to preprocess a source file
 subscriber/MdiTableViewFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.i
 .PHONY : subscriber/MdiTableViewFrame.cpp.i
 
 subscriber/MdiTableViewFrame.s: subscriber/MdiTableViewFrame.cpp.s
@@ -3417,7 +3417,7 @@ subscriber/MdiTableViewFrame.s: subscriber/MdiTableViewFrame.cpp.s
 
 # target to generate assembly for a file
 subscriber/MdiTableViewFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.s
 .PHONY : subscriber/MdiTableViewFrame.cpp.s
 
 subscriber/MdiTsPlotData.o: subscriber/MdiTsPlotData.cpp.o
@@ -3425,7 +3425,7 @@ subscriber/MdiTsPlotData.o: subscriber/MdiTsPlotData.cpp.o
 
 # target to build an object file
 subscriber/MdiTsPlotData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.o
 .PHONY : subscriber/MdiTsPlotData.cpp.o
 
 subscriber/MdiTsPlotData.i: subscriber/MdiTsPlotData.cpp.i
@@ -3433,7 +3433,7 @@ subscriber/MdiTsPlotData.i: subscriber/MdiTsPlotData.cpp.i
 
 # target to preprocess a source file
 subscriber/MdiTsPlotData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.i
 .PHONY : subscriber/MdiTsPlotData.cpp.i
 
 subscriber/MdiTsPlotData.s: subscriber/MdiTsPlotData.cpp.s
@@ -3441,7 +3441,7 @@ subscriber/MdiTsPlotData.s: subscriber/MdiTsPlotData.cpp.s
 
 # target to generate assembly for a file
 subscriber/MdiTsPlotData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.s
 .PHONY : subscriber/MdiTsPlotData.cpp.s
 
 subscriber/OrbitViewCanvas.o: subscriber/OrbitViewCanvas.cpp.o
@@ -3449,7 +3449,7 @@ subscriber/OrbitViewCanvas.o: subscriber/OrbitViewCanvas.cpp.o
 
 # target to build an object file
 subscriber/OrbitViewCanvas.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.o
 .PHONY : subscriber/OrbitViewCanvas.cpp.o
 
 subscriber/OrbitViewCanvas.i: subscriber/OrbitViewCanvas.cpp.i
@@ -3457,7 +3457,7 @@ subscriber/OrbitViewCanvas.i: subscriber/OrbitViewCanvas.cpp.i
 
 # target to preprocess a source file
 subscriber/OrbitViewCanvas.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.i
 .PHONY : subscriber/OrbitViewCanvas.cpp.i
 
 subscriber/OrbitViewCanvas.s: subscriber/OrbitViewCanvas.cpp.s
@@ -3465,7 +3465,7 @@ subscriber/OrbitViewCanvas.s: subscriber/OrbitViewCanvas.cpp.s
 
 # target to generate assembly for a file
 subscriber/OrbitViewCanvas.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.s
 .PHONY : subscriber/OrbitViewCanvas.cpp.s
 
 subscriber/OrbitViewPanel.o: subscriber/OrbitViewPanel.cpp.o
@@ -3473,7 +3473,7 @@ subscriber/OrbitViewPanel.o: subscriber/OrbitViewPanel.cpp.o
 
 # target to build an object file
 subscriber/OrbitViewPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.o
 .PHONY : subscriber/OrbitViewPanel.cpp.o
 
 subscriber/OrbitViewPanel.i: subscriber/OrbitViewPanel.cpp.i
@@ -3481,7 +3481,7 @@ subscriber/OrbitViewPanel.i: subscriber/OrbitViewPanel.cpp.i
 
 # target to preprocess a source file
 subscriber/OrbitViewPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.i
 .PHONY : subscriber/OrbitViewPanel.cpp.i
 
 subscriber/OrbitViewPanel.s: subscriber/OrbitViewPanel.cpp.s
@@ -3489,7 +3489,7 @@ subscriber/OrbitViewPanel.s: subscriber/OrbitViewPanel.cpp.s
 
 # target to generate assembly for a file
 subscriber/OrbitViewPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.s
 .PHONY : subscriber/OrbitViewPanel.cpp.s
 
 subscriber/ReportFileSetupPanel.o: subscriber/ReportFileSetupPanel.cpp.o
@@ -3497,7 +3497,7 @@ subscriber/ReportFileSetupPanel.o: subscriber/ReportFileSetupPanel.cpp.o
 
 # target to build an object file
 subscriber/ReportFileSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.o
 .PHONY : subscriber/ReportFileSetupPanel.cpp.o
 
 subscriber/ReportFileSetupPanel.i: subscriber/ReportFileSetupPanel.cpp.i
@@ -3505,7 +3505,7 @@ subscriber/ReportFileSetupPanel.i: subscriber/ReportFileSetupPanel.cpp.i
 
 # target to preprocess a source file
 subscriber/ReportFileSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.i
 .PHONY : subscriber/ReportFileSetupPanel.cpp.i
 
 subscriber/ReportFileSetupPanel.s: subscriber/ReportFileSetupPanel.cpp.s
@@ -3513,7 +3513,7 @@ subscriber/ReportFileSetupPanel.s: subscriber/ReportFileSetupPanel.cpp.s
 
 # target to generate assembly for a file
 subscriber/ReportFileSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.s
 .PHONY : subscriber/ReportFileSetupPanel.cpp.s
 
 subscriber/SubscriberSetupPanel.o: subscriber/SubscriberSetupPanel.cpp.o
@@ -3521,7 +3521,7 @@ subscriber/SubscriberSetupPanel.o: subscriber/SubscriberSetupPanel.cpp.o
 
 # target to build an object file
 subscriber/SubscriberSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.o
 .PHONY : subscriber/SubscriberSetupPanel.cpp.o
 
 subscriber/SubscriberSetupPanel.i: subscriber/SubscriberSetupPanel.cpp.i
@@ -3529,7 +3529,7 @@ subscriber/SubscriberSetupPanel.i: subscriber/SubscriberSetupPanel.cpp.i
 
 # target to preprocess a source file
 subscriber/SubscriberSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.i
 .PHONY : subscriber/SubscriberSetupPanel.cpp.i
 
 subscriber/SubscriberSetupPanel.s: subscriber/SubscriberSetupPanel.cpp.s
@@ -3537,7 +3537,7 @@ subscriber/SubscriberSetupPanel.s: subscriber/SubscriberSetupPanel.cpp.s
 
 # target to generate assembly for a file
 subscriber/SubscriberSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.s
 .PHONY : subscriber/SubscriberSetupPanel.cpp.s
 
 subscriber/TsPlotCanvas.o: subscriber/TsPlotCanvas.cpp.o
@@ -3545,7 +3545,7 @@ subscriber/TsPlotCanvas.o: subscriber/TsPlotCanvas.cpp.o
 
 # target to build an object file
 subscriber/TsPlotCanvas.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.o
 .PHONY : subscriber/TsPlotCanvas.cpp.o
 
 subscriber/TsPlotCanvas.i: subscriber/TsPlotCanvas.cpp.i
@@ -3553,7 +3553,7 @@ subscriber/TsPlotCanvas.i: subscriber/TsPlotCanvas.cpp.i
 
 # target to preprocess a source file
 subscriber/TsPlotCanvas.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.i
 .PHONY : subscriber/TsPlotCanvas.cpp.i
 
 subscriber/TsPlotCanvas.s: subscriber/TsPlotCanvas.cpp.s
@@ -3561,7 +3561,7 @@ subscriber/TsPlotCanvas.s: subscriber/TsPlotCanvas.cpp.s
 
 # target to generate assembly for a file
 subscriber/TsPlotCanvas.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.s
 .PHONY : subscriber/TsPlotCanvas.cpp.s
 
 subscriber/TsPlotCurve.o: subscriber/TsPlotCurve.cpp.o
@@ -3569,7 +3569,7 @@ subscriber/TsPlotCurve.o: subscriber/TsPlotCurve.cpp.o
 
 # target to build an object file
 subscriber/TsPlotCurve.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.o
 .PHONY : subscriber/TsPlotCurve.cpp.o
 
 subscriber/TsPlotCurve.i: subscriber/TsPlotCurve.cpp.i
@@ -3577,7 +3577,7 @@ subscriber/TsPlotCurve.i: subscriber/TsPlotCurve.cpp.i
 
 # target to preprocess a source file
 subscriber/TsPlotCurve.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.i
 .PHONY : subscriber/TsPlotCurve.cpp.i
 
 subscriber/TsPlotCurve.s: subscriber/TsPlotCurve.cpp.s
@@ -3585,7 +3585,7 @@ subscriber/TsPlotCurve.s: subscriber/TsPlotCurve.cpp.s
 
 # target to generate assembly for a file
 subscriber/TsPlotCurve.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.s
 .PHONY : subscriber/TsPlotCurve.cpp.s
 
 subscriber/TsPlotOptionsDialog.o: subscriber/TsPlotOptionsDialog.cpp.o
@@ -3593,7 +3593,7 @@ subscriber/TsPlotOptionsDialog.o: subscriber/TsPlotOptionsDialog.cpp.o
 
 # target to build an object file
 subscriber/TsPlotOptionsDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.o
 .PHONY : subscriber/TsPlotOptionsDialog.cpp.o
 
 subscriber/TsPlotOptionsDialog.i: subscriber/TsPlotOptionsDialog.cpp.i
@@ -3601,7 +3601,7 @@ subscriber/TsPlotOptionsDialog.i: subscriber/TsPlotOptionsDialog.cpp.i
 
 # target to preprocess a source file
 subscriber/TsPlotOptionsDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.i
 .PHONY : subscriber/TsPlotOptionsDialog.cpp.i
 
 subscriber/TsPlotOptionsDialog.s: subscriber/TsPlotOptionsDialog.cpp.s
@@ -3609,7 +3609,7 @@ subscriber/TsPlotOptionsDialog.s: subscriber/TsPlotOptionsDialog.cpp.s
 
 # target to generate assembly for a file
 subscriber/TsPlotOptionsDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.s
 .PHONY : subscriber/TsPlotOptionsDialog.cpp.s
 
 subscriber/TsPlotXYCanvas.o: subscriber/TsPlotXYCanvas.cpp.o
@@ -3617,7 +3617,7 @@ subscriber/TsPlotXYCanvas.o: subscriber/TsPlotXYCanvas.cpp.o
 
 # target to build an object file
 subscriber/TsPlotXYCanvas.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.o
 .PHONY : subscriber/TsPlotXYCanvas.cpp.o
 
 subscriber/TsPlotXYCanvas.i: subscriber/TsPlotXYCanvas.cpp.i
@@ -3625,7 +3625,7 @@ subscriber/TsPlotXYCanvas.i: subscriber/TsPlotXYCanvas.cpp.i
 
 # target to preprocess a source file
 subscriber/TsPlotXYCanvas.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.i
 .PHONY : subscriber/TsPlotXYCanvas.cpp.i
 
 subscriber/TsPlotXYCanvas.s: subscriber/TsPlotXYCanvas.cpp.s
@@ -3633,7 +3633,7 @@ subscriber/TsPlotXYCanvas.s: subscriber/TsPlotXYCanvas.cpp.s
 
 # target to generate assembly for a file
 subscriber/TsPlotXYCanvas.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.s
 .PHONY : subscriber/TsPlotXYCanvas.cpp.s
 
 subscriber/ViewCanvas.o: subscriber/ViewCanvas.cpp.o
@@ -3641,7 +3641,7 @@ subscriber/ViewCanvas.o: subscriber/ViewCanvas.cpp.o
 
 # target to build an object file
 subscriber/ViewCanvas.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.o
 .PHONY : subscriber/ViewCanvas.cpp.o
 
 subscriber/ViewCanvas.i: subscriber/ViewCanvas.cpp.i
@@ -3649,7 +3649,7 @@ subscriber/ViewCanvas.i: subscriber/ViewCanvas.cpp.i
 
 # target to preprocess a source file
 subscriber/ViewCanvas.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.i
 .PHONY : subscriber/ViewCanvas.cpp.i
 
 subscriber/ViewCanvas.s: subscriber/ViewCanvas.cpp.s
@@ -3657,7 +3657,7 @@ subscriber/ViewCanvas.s: subscriber/ViewCanvas.cpp.s
 
 # target to generate assembly for a file
 subscriber/ViewCanvas.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.s
 .PHONY : subscriber/ViewCanvas.cpp.s
 
 subscriber/XyPlotSetupPanel.o: subscriber/XyPlotSetupPanel.cpp.o
@@ -3665,7 +3665,7 @@ subscriber/XyPlotSetupPanel.o: subscriber/XyPlotSetupPanel.cpp.o
 
 # target to build an object file
 subscriber/XyPlotSetupPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.o
 .PHONY : subscriber/XyPlotSetupPanel.cpp.o
 
 subscriber/XyPlotSetupPanel.i: subscriber/XyPlotSetupPanel.cpp.i
@@ -3673,7 +3673,7 @@ subscriber/XyPlotSetupPanel.i: subscriber/XyPlotSetupPanel.cpp.i
 
 # target to preprocess a source file
 subscriber/XyPlotSetupPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.i
 .PHONY : subscriber/XyPlotSetupPanel.cpp.i
 
 subscriber/XyPlotSetupPanel.s: subscriber/XyPlotSetupPanel.cpp.s
@@ -3681,7 +3681,7 @@ subscriber/XyPlotSetupPanel.s: subscriber/XyPlotSetupPanel.cpp.s
 
 # target to generate assembly for a file
 subscriber/XyPlotSetupPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.s
 .PHONY : subscriber/XyPlotSetupPanel.cpp.s
 
 view/EditorPanel.o: view/EditorPanel.cpp.o
@@ -3689,7 +3689,7 @@ view/EditorPanel.o: view/EditorPanel.cpp.o
 
 # target to build an object file
 view/EditorPanel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.o
 .PHONY : view/EditorPanel.cpp.o
 
 view/EditorPanel.i: view/EditorPanel.cpp.i
@@ -3697,7 +3697,7 @@ view/EditorPanel.i: view/EditorPanel.cpp.i
 
 # target to preprocess a source file
 view/EditorPanel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.i
 .PHONY : view/EditorPanel.cpp.i
 
 view/EditorPanel.s: view/EditorPanel.cpp.s
@@ -3705,7 +3705,7 @@ view/EditorPanel.s: view/EditorPanel.cpp.s
 
 # target to generate assembly for a file
 view/EditorPanel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.s
 .PHONY : view/EditorPanel.cpp.s
 
 view/EditorPreferences.o: view/EditorPreferences.cpp.o
@@ -3713,7 +3713,7 @@ view/EditorPreferences.o: view/EditorPreferences.cpp.o
 
 # target to build an object file
 view/EditorPreferences.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.o
 .PHONY : view/EditorPreferences.cpp.o
 
 view/EditorPreferences.i: view/EditorPreferences.cpp.i
@@ -3721,7 +3721,7 @@ view/EditorPreferences.i: view/EditorPreferences.cpp.i
 
 # target to preprocess a source file
 view/EditorPreferences.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.i
 .PHONY : view/EditorPreferences.cpp.i
 
 view/EditorPreferences.s: view/EditorPreferences.cpp.s
@@ -3729,7 +3729,7 @@ view/EditorPreferences.s: view/EditorPreferences.cpp.s
 
 # target to generate assembly for a file
 view/EditorPreferences.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.s
 .PHONY : view/EditorPreferences.cpp.s
 
 view/EditorPrintout.o: view/EditorPrintout.cpp.o
@@ -3737,7 +3737,7 @@ view/EditorPrintout.o: view/EditorPrintout.cpp.o
 
 # target to build an object file
 view/EditorPrintout.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.o
 .PHONY : view/EditorPrintout.cpp.o
 
 view/EditorPrintout.i: view/EditorPrintout.cpp.i
@@ -3745,7 +3745,7 @@ view/EditorPrintout.i: view/EditorPrintout.cpp.i
 
 # target to preprocess a source file
 view/EditorPrintout.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.i
 .PHONY : view/EditorPrintout.cpp.i
 
 view/EditorPrintout.s: view/EditorPrintout.cpp.s
@@ -3753,7 +3753,7 @@ view/EditorPrintout.s: view/EditorPrintout.cpp.s
 
 # target to generate assembly for a file
 view/EditorPrintout.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.s
 .PHONY : view/EditorPrintout.cpp.s
 
 view/FindReplaceDialog.o: view/FindReplaceDialog.cpp.o
@@ -3761,7 +3761,7 @@ view/FindReplaceDialog.o: view/FindReplaceDialog.cpp.o
 
 # target to build an object file
 view/FindReplaceDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.o
 .PHONY : view/FindReplaceDialog.cpp.o
 
 view/FindReplaceDialog.i: view/FindReplaceDialog.cpp.i
@@ -3769,7 +3769,7 @@ view/FindReplaceDialog.i: view/FindReplaceDialog.cpp.i
 
 # target to preprocess a source file
 view/FindReplaceDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.i
 .PHONY : view/FindReplaceDialog.cpp.i
 
 view/FindReplaceDialog.s: view/FindReplaceDialog.cpp.s
@@ -3777,7 +3777,7 @@ view/FindReplaceDialog.s: view/FindReplaceDialog.cpp.s
 
 # target to generate assembly for a file
 view/FindReplaceDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.s
 .PHONY : view/FindReplaceDialog.cpp.s
 
 view/ScriptEditor.o: view/ScriptEditor.cpp.o
@@ -3785,7 +3785,7 @@ view/ScriptEditor.o: view/ScriptEditor.cpp.o
 
 # target to build an object file
 view/ScriptEditor.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.o
 .PHONY : view/ScriptEditor.cpp.o
 
 view/ScriptEditor.i: view/ScriptEditor.cpp.i
@@ -3793,7 +3793,7 @@ view/ScriptEditor.i: view/ScriptEditor.cpp.i
 
 # target to preprocess a source file
 view/ScriptEditor.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.i
 .PHONY : view/ScriptEditor.cpp.i
 
 view/ScriptEditor.s: view/ScriptEditor.cpp.s
@@ -3801,7 +3801,7 @@ view/ScriptEditor.s: view/ScriptEditor.cpp.s
 
 # target to generate assembly for a file
 view/ScriptEditor.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.s
 .PHONY : view/ScriptEditor.cpp.s
 
 view/ViewTextDialog.o: view/ViewTextDialog.cpp.o
@@ -3809,7 +3809,7 @@ view/ViewTextDialog.o: view/ViewTextDialog.cpp.o
 
 # target to build an object file
 view/ViewTextDialog.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.o
 .PHONY : view/ViewTextDialog.cpp.o
 
 view/ViewTextDialog.i: view/ViewTextDialog.cpp.i
@@ -3817,7 +3817,7 @@ view/ViewTextDialog.i: view/ViewTextDialog.cpp.i
 
 # target to preprocess a source file
 view/ViewTextDialog.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.i
 .PHONY : view/ViewTextDialog.cpp.i
 
 view/ViewTextDialog.s: view/ViewTextDialog.cpp.s
@@ -3825,7 +3825,7 @@ view/ViewTextDialog.s: view/ViewTextDialog.cpp.s
 
 # target to generate assembly for a file
 view/ViewTextDialog.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.s
 .PHONY : view/ViewTextDialog.cpp.s
 
 view/ViewTextFrame.o: view/ViewTextFrame.cpp.o
@@ -3833,7 +3833,7 @@ view/ViewTextFrame.o: view/ViewTextFrame.cpp.o
 
 # target to build an object file
 view/ViewTextFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.o
 .PHONY : view/ViewTextFrame.cpp.o
 
 view/ViewTextFrame.i: view/ViewTextFrame.cpp.i
@@ -3841,7 +3841,7 @@ view/ViewTextFrame.i: view/ViewTextFrame.cpp.i
 
 # target to preprocess a source file
 view/ViewTextFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.i
 .PHONY : view/ViewTextFrame.cpp.i
 
 view/ViewTextFrame.s: view/ViewTextFrame.cpp.s
@@ -3849,7 +3849,7 @@ view/ViewTextFrame.s: view/ViewTextFrame.cpp.s
 
 # target to generate assembly for a file
 view/ViewTextFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.s
 .PHONY : view/ViewTextFrame.cpp.s
 
 # Help Target
@@ -4338,6 +4338,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

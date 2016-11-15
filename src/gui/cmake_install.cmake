@@ -1,8 +1,8 @@
-# Install script for directory: /GMAT-R2015a/src/gui
+# Install script for directory: /gmat/src/gui
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/GMAT-R2015a/GMAT-R2015a-Linux-x64")
+  SET(CMAKE_INSTALL_PREFIX "/gmat/GMAT-R2015a-Linux-x64")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,8 +45,8 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     ENDIF()
   ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES
-    "/GMAT-R2015a/application/bin/GMAT-R2015a"
-    "/GMAT-R2015a/application/bin/GMAT"
+    "/gmat/application/bin/GMAT-R2015a"
+    "/gmat/application/bin/GMAT"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/GMAT-R2015a"
@@ -56,7 +56,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
        NOT IS_SYMLINK "${file}")
       FILE(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/GMAT-R2015a/depends/wxWidgets/wxWidgets-3.0.2/gtk-install/lib:/GMAT-R2015a/application/bin:"
+           OLD_RPATH "/gmat/depends/wxWidgets/wxWidgets-3.0.2/gtk-install/lib:/gmat/application/bin:"
            NEW_RPATH "$ORIGIN/:$ORIGIN/libwx/")
       IF(CMAKE_INSTALL_DO_STRIP)
         EXECUTE_PROCESS(COMMAND "/bin/strip" "${file}")

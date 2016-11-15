@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/DataInterfacePlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/DataInterfacePlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/rule
 .PHONY : plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ DataInterface: plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir
 
 # fast build rule for target.
 DataInterface/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build
 .PHONY : DataInterface/fast
 
 command/Set.o: command/Set.cpp.o
@@ -161,7 +161,7 @@ command/Set.o: command/Set.cpp.o
 
 # target to build an object file
 command/Set.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/command/Set.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/command/Set.cpp.o
 .PHONY : command/Set.cpp.o
 
 command/Set.i: command/Set.cpp.i
@@ -169,7 +169,7 @@ command/Set.i: command/Set.cpp.i
 
 # target to preprocess a source file
 command/Set.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/command/Set.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/command/Set.cpp.i
 .PHONY : command/Set.cpp.i
 
 command/Set.s: command/Set.cpp.s
@@ -177,7 +177,7 @@ command/Set.s: command/Set.cpp.s
 
 # target to generate assembly for a file
 command/Set.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/command/Set.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/command/Set.cpp.s
 .PHONY : command/Set.cpp.s
 
 datainterface/DataInterface.o: datainterface/DataInterface.cpp.o
@@ -185,7 +185,7 @@ datainterface/DataInterface.o: datainterface/DataInterface.cpp.o
 
 # target to build an object file
 datainterface/DataInterface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/DataInterface.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/DataInterface.cpp.o
 .PHONY : datainterface/DataInterface.cpp.o
 
 datainterface/DataInterface.i: datainterface/DataInterface.cpp.i
@@ -193,7 +193,7 @@ datainterface/DataInterface.i: datainterface/DataInterface.cpp.i
 
 # target to preprocess a source file
 datainterface/DataInterface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/DataInterface.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/DataInterface.cpp.i
 .PHONY : datainterface/DataInterface.cpp.i
 
 datainterface/DataInterface.s: datainterface/DataInterface.cpp.s
@@ -201,7 +201,7 @@ datainterface/DataInterface.s: datainterface/DataInterface.cpp.s
 
 # target to generate assembly for a file
 datainterface/DataInterface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/DataInterface.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/DataInterface.cpp.s
 .PHONY : datainterface/DataInterface.cpp.s
 
 datainterface/FileInterface.o: datainterface/FileInterface.cpp.o
@@ -209,7 +209,7 @@ datainterface/FileInterface.o: datainterface/FileInterface.cpp.o
 
 # target to build an object file
 datainterface/FileInterface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/FileInterface.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/FileInterface.cpp.o
 .PHONY : datainterface/FileInterface.cpp.o
 
 datainterface/FileInterface.i: datainterface/FileInterface.cpp.i
@@ -217,7 +217,7 @@ datainterface/FileInterface.i: datainterface/FileInterface.cpp.i
 
 # target to preprocess a source file
 datainterface/FileInterface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/FileInterface.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/FileInterface.cpp.i
 .PHONY : datainterface/FileInterface.cpp.i
 
 datainterface/FileInterface.s: datainterface/FileInterface.cpp.s
@@ -225,7 +225,7 @@ datainterface/FileInterface.s: datainterface/FileInterface.cpp.s
 
 # target to generate assembly for a file
 datainterface/FileInterface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/FileInterface.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datainterface/FileInterface.cpp.s
 .PHONY : datainterface/FileInterface.cpp.s
 
 datareader/DataReader.o: datareader/DataReader.cpp.o
@@ -233,7 +233,7 @@ datareader/DataReader.o: datareader/DataReader.cpp.o
 
 # target to build an object file
 datareader/DataReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/DataReader.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/DataReader.cpp.o
 .PHONY : datareader/DataReader.cpp.o
 
 datareader/DataReader.i: datareader/DataReader.cpp.i
@@ -241,7 +241,7 @@ datareader/DataReader.i: datareader/DataReader.cpp.i
 
 # target to preprocess a source file
 datareader/DataReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/DataReader.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/DataReader.cpp.i
 .PHONY : datareader/DataReader.cpp.i
 
 datareader/DataReader.s: datareader/DataReader.cpp.s
@@ -249,7 +249,7 @@ datareader/DataReader.s: datareader/DataReader.cpp.s
 
 # target to generate assembly for a file
 datareader/DataReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/DataReader.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/DataReader.cpp.s
 .PHONY : datareader/DataReader.cpp.s
 
 datareader/FileReader.o: datareader/FileReader.cpp.o
@@ -257,7 +257,7 @@ datareader/FileReader.o: datareader/FileReader.cpp.o
 
 # target to build an object file
 datareader/FileReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/FileReader.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/FileReader.cpp.o
 .PHONY : datareader/FileReader.cpp.o
 
 datareader/FileReader.i: datareader/FileReader.cpp.i
@@ -265,7 +265,7 @@ datareader/FileReader.i: datareader/FileReader.cpp.i
 
 # target to preprocess a source file
 datareader/FileReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/FileReader.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/FileReader.cpp.i
 .PHONY : datareader/FileReader.cpp.i
 
 datareader/FileReader.s: datareader/FileReader.cpp.s
@@ -273,7 +273,7 @@ datareader/FileReader.s: datareader/FileReader.cpp.s
 
 # target to generate assembly for a file
 datareader/FileReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/FileReader.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/FileReader.cpp.s
 .PHONY : datareader/FileReader.cpp.s
 
 datareader/TcopsVHFAscii.o: datareader/TcopsVHFAscii.cpp.o
@@ -281,7 +281,7 @@ datareader/TcopsVHFAscii.o: datareader/TcopsVHFAscii.cpp.o
 
 # target to build an object file
 datareader/TcopsVHFAscii.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFAscii.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFAscii.cpp.o
 .PHONY : datareader/TcopsVHFAscii.cpp.o
 
 datareader/TcopsVHFAscii.i: datareader/TcopsVHFAscii.cpp.i
@@ -289,7 +289,7 @@ datareader/TcopsVHFAscii.i: datareader/TcopsVHFAscii.cpp.i
 
 # target to preprocess a source file
 datareader/TcopsVHFAscii.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFAscii.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFAscii.cpp.i
 .PHONY : datareader/TcopsVHFAscii.cpp.i
 
 datareader/TcopsVHFAscii.s: datareader/TcopsVHFAscii.cpp.s
@@ -297,7 +297,7 @@ datareader/TcopsVHFAscii.s: datareader/TcopsVHFAscii.cpp.s
 
 # target to generate assembly for a file
 datareader/TcopsVHFAscii.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFAscii.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFAscii.cpp.s
 .PHONY : datareader/TcopsVHFAscii.cpp.s
 
 datareader/TcopsVHFData.o: datareader/TcopsVHFData.cpp.o
@@ -305,7 +305,7 @@ datareader/TcopsVHFData.o: datareader/TcopsVHFData.cpp.o
 
 # target to build an object file
 datareader/TcopsVHFData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFData.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFData.cpp.o
 .PHONY : datareader/TcopsVHFData.cpp.o
 
 datareader/TcopsVHFData.i: datareader/TcopsVHFData.cpp.i
@@ -313,7 +313,7 @@ datareader/TcopsVHFData.i: datareader/TcopsVHFData.cpp.i
 
 # target to preprocess a source file
 datareader/TcopsVHFData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFData.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFData.cpp.i
 .PHONY : datareader/TcopsVHFData.cpp.i
 
 datareader/TcopsVHFData.s: datareader/TcopsVHFData.cpp.s
@@ -321,7 +321,7 @@ datareader/TcopsVHFData.s: datareader/TcopsVHFData.cpp.s
 
 # target to generate assembly for a file
 datareader/TcopsVHFData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFData.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/datareader/TcopsVHFData.cpp.s
 .PHONY : datareader/TcopsVHFData.cpp.s
 
 factory/DataInterfaceCommandFactory.o: factory/DataInterfaceCommandFactory.cpp.o
@@ -329,7 +329,7 @@ factory/DataInterfaceCommandFactory.o: factory/DataInterfaceCommandFactory.cpp.o
 
 # target to build an object file
 factory/DataInterfaceCommandFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceCommandFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceCommandFactory.cpp.o
 .PHONY : factory/DataInterfaceCommandFactory.cpp.o
 
 factory/DataInterfaceCommandFactory.i: factory/DataInterfaceCommandFactory.cpp.i
@@ -337,7 +337,7 @@ factory/DataInterfaceCommandFactory.i: factory/DataInterfaceCommandFactory.cpp.i
 
 # target to preprocess a source file
 factory/DataInterfaceCommandFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceCommandFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceCommandFactory.cpp.i
 .PHONY : factory/DataInterfaceCommandFactory.cpp.i
 
 factory/DataInterfaceCommandFactory.s: factory/DataInterfaceCommandFactory.cpp.s
@@ -345,7 +345,7 @@ factory/DataInterfaceCommandFactory.s: factory/DataInterfaceCommandFactory.cpp.s
 
 # target to generate assembly for a file
 factory/DataInterfaceCommandFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceCommandFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceCommandFactory.cpp.s
 .PHONY : factory/DataInterfaceCommandFactory.cpp.s
 
 factory/DataInterfaceFactory.o: factory/DataInterfaceFactory.cpp.o
@@ -353,7 +353,7 @@ factory/DataInterfaceFactory.o: factory/DataInterfaceFactory.cpp.o
 
 # target to build an object file
 factory/DataInterfaceFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceFactory.cpp.o
 .PHONY : factory/DataInterfaceFactory.cpp.o
 
 factory/DataInterfaceFactory.i: factory/DataInterfaceFactory.cpp.i
@@ -361,7 +361,7 @@ factory/DataInterfaceFactory.i: factory/DataInterfaceFactory.cpp.i
 
 # target to preprocess a source file
 factory/DataInterfaceFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceFactory.cpp.i
 .PHONY : factory/DataInterfaceFactory.cpp.i
 
 factory/DataInterfaceFactory.s: factory/DataInterfaceFactory.cpp.s
@@ -369,7 +369,7 @@ factory/DataInterfaceFactory.s: factory/DataInterfaceFactory.cpp.s
 
 # target to generate assembly for a file
 factory/DataInterfaceFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/DataInterfaceFactory.cpp.s
 .PHONY : factory/DataInterfaceFactory.cpp.s
 
 factory/ReaderFactory.o: factory/ReaderFactory.cpp.o
@@ -377,7 +377,7 @@ factory/ReaderFactory.o: factory/ReaderFactory.cpp.o
 
 # target to build an object file
 factory/ReaderFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/ReaderFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/ReaderFactory.cpp.o
 .PHONY : factory/ReaderFactory.cpp.o
 
 factory/ReaderFactory.i: factory/ReaderFactory.cpp.i
@@ -385,7 +385,7 @@ factory/ReaderFactory.i: factory/ReaderFactory.cpp.i
 
 # target to preprocess a source file
 factory/ReaderFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/ReaderFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/ReaderFactory.cpp.i
 .PHONY : factory/ReaderFactory.cpp.i
 
 factory/ReaderFactory.s: factory/ReaderFactory.cpp.s
@@ -393,7 +393,7 @@ factory/ReaderFactory.s: factory/ReaderFactory.cpp.s
 
 # target to generate assembly for a file
 factory/ReaderFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/ReaderFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/factory/ReaderFactory.cpp.s
 .PHONY : factory/ReaderFactory.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -401,7 +401,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -409,7 +409,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -417,7 +417,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 # Help Target
@@ -477,6 +477,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/StationPlugin/src/base/CMakeFiles/Station.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/StationPlugin/src/base/CMakeFiles/Station.dir/flags.make
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.o: plugins/StationPlugin/src/base/CMakeFiles/Station.dir/flags.make
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.o: plugins/StationPlugin/src/base/factory/StationFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Station.dir/factory/StationFactory.cpp.o -c /GMAT-R2015a/plugins/StationPlugin/src/base/factory/StationFactory.cpp
+	cd /gmat/plugins/StationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Station.dir/factory/StationFactory.cpp.o -c /gmat/plugins/StationPlugin/src/base/factory/StationFactory.cpp
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Station.dir/factory/StationFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/StationPlugin/src/base/factory/StationFactory.cpp > CMakeFiles/Station.dir/factory/StationFactory.cpp.i
+	cd /gmat/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/StationPlugin/src/base/factory/StationFactory.cpp > CMakeFiles/Station.dir/factory/StationFactory.cpp.i
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Station.dir/factory/StationFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/StationPlugin/src/base/factory/StationFactory.cpp -o CMakeFiles/Station.dir/factory/StationFactory.cpp.s
+	cd /gmat/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/StationPlugin/src/base/factory/StationFactory.cpp -o CMakeFiles/Station.dir/factory/StationFactory.cpp.s
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.o.requires:
 .PHONY : plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.o: plugins/StationPlugin/src/base/CMakeFiles/Station.dir/flags.make
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.o: plugins/StationPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/StationPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/StationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/StationPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/StationPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/StationPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/StationPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/StationPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.o: plugins/StationPlugin/src/base/CMakeFiles/Station.dir/flags.make
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.o: plugins/StationPlugin/src/base/station/GroundStation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.o"
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Station.dir/station/GroundStation.cpp.o -c /GMAT-R2015a/plugins/StationPlugin/src/base/station/GroundStation.cpp
+	cd /gmat/plugins/StationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Station.dir/station/GroundStation.cpp.o -c /gmat/plugins/StationPlugin/src/base/station/GroundStation.cpp
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Station.dir/station/GroundStation.cpp.i"
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/StationPlugin/src/base/station/GroundStation.cpp > CMakeFiles/Station.dir/station/GroundStation.cpp.i
+	cd /gmat/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/StationPlugin/src/base/station/GroundStation.cpp > CMakeFiles/Station.dir/station/GroundStation.cpp.i
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Station.dir/station/GroundStation.cpp.s"
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/StationPlugin/src/base/station/GroundStation.cpp -o CMakeFiles/Station.dir/station/GroundStation.cpp.s
+	cd /gmat/plugins/StationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/StationPlugin/src/base/station/GroundStation.cpp -o CMakeFiles/Station.dir/station/GroundStation.cpp.s
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.o.requires:
 .PHONY : plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.o.requires
@@ -138,8 +138,8 @@ application/plugins/libStation.so.R2015a: application/bin/libGmatBase.so.R2015a
 application/plugins/libStation.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libStation.so.R2015a: plugins/StationPlugin/src/base/CMakeFiles/Station.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libStation.so"
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Station.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libStation.so.R2015a ../../../../application/plugins/libStation.so.R2015a ../../../../application/plugins/libStation.so
+	cd /gmat/plugins/StationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Station.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/StationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libStation.so.R2015a ../../../../application/plugins/libStation.so.R2015a ../../../../application/plugins/libStation.so
 
 application/plugins/libStation.so: application/plugins/libStation.so.R2015a
 
@@ -153,10 +153,10 @@ plugins/StationPlugin/src/base/CMakeFiles/Station.dir/requires: plugins/StationP
 .PHONY : plugins/StationPlugin/src/base/CMakeFiles/Station.dir/requires
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/clean:
-	cd /GMAT-R2015a/plugins/StationPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/Station.dir/cmake_clean.cmake
+	cd /gmat/plugins/StationPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/Station.dir/cmake_clean.cmake
 .PHONY : plugins/StationPlugin/src/base/CMakeFiles/Station.dir/clean
 
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/StationPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/StationPlugin/src/base /GMAT-R2015a/plugins/StationPlugin/src/base/CMakeFiles/Station.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/StationPlugin/src/base /gmat /gmat/plugins/StationPlugin/src/base /gmat/plugins/StationPlugin/src/base/CMakeFiles/Station.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/StationPlugin/src/base/CMakeFiles/Station.dir/depend
 

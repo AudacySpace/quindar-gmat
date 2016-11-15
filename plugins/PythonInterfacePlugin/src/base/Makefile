@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/PythonInterfacePlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/rule
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ PythonInterface: plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterfa
 
 # fast build rule for target.
 PythonInterface/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build
 .PHONY : PythonInterface/fast
 
 command/CallPythonFunction.o: command/CallPythonFunction.cpp.o
@@ -161,7 +161,7 @@ command/CallPythonFunction.o: command/CallPythonFunction.cpp.o
 
 # target to build an object file
 command/CallPythonFunction.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.o
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.o
 .PHONY : command/CallPythonFunction.cpp.o
 
 command/CallPythonFunction.i: command/CallPythonFunction.cpp.i
@@ -169,7 +169,7 @@ command/CallPythonFunction.i: command/CallPythonFunction.cpp.i
 
 # target to preprocess a source file
 command/CallPythonFunction.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.i
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.i
 .PHONY : command/CallPythonFunction.cpp.i
 
 command/CallPythonFunction.s: command/CallPythonFunction.cpp.s
@@ -177,7 +177,7 @@ command/CallPythonFunction.s: command/CallPythonFunction.cpp.s
 
 # target to generate assembly for a file
 command/CallPythonFunction.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.s
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.s
 .PHONY : command/CallPythonFunction.cpp.s
 
 factory/PythonCommandFactory.o: factory/PythonCommandFactory.cpp.o
@@ -185,7 +185,7 @@ factory/PythonCommandFactory.o: factory/PythonCommandFactory.cpp.o
 
 # target to build an object file
 factory/PythonCommandFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.o
 .PHONY : factory/PythonCommandFactory.cpp.o
 
 factory/PythonCommandFactory.i: factory/PythonCommandFactory.cpp.i
@@ -193,7 +193,7 @@ factory/PythonCommandFactory.i: factory/PythonCommandFactory.cpp.i
 
 # target to preprocess a source file
 factory/PythonCommandFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.i
 .PHONY : factory/PythonCommandFactory.cpp.i
 
 factory/PythonCommandFactory.s: factory/PythonCommandFactory.cpp.s
@@ -201,7 +201,7 @@ factory/PythonCommandFactory.s: factory/PythonCommandFactory.cpp.s
 
 # target to generate assembly for a file
 factory/PythonCommandFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.s
 .PHONY : factory/PythonCommandFactory.cpp.s
 
 function/PythonModule.o: function/PythonModule.cpp.o
@@ -209,7 +209,7 @@ function/PythonModule.o: function/PythonModule.cpp.o
 
 # target to build an object file
 function/PythonModule.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.o
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.o
 .PHONY : function/PythonModule.cpp.o
 
 function/PythonModule.i: function/PythonModule.cpp.i
@@ -217,7 +217,7 @@ function/PythonModule.i: function/PythonModule.cpp.i
 
 # target to preprocess a source file
 function/PythonModule.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.i
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.i
 .PHONY : function/PythonModule.cpp.i
 
 function/PythonModule.s: function/PythonModule.cpp.s
@@ -225,7 +225,7 @@ function/PythonModule.s: function/PythonModule.cpp.s
 
 # target to generate assembly for a file
 function/PythonModule.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.s
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.s
 .PHONY : function/PythonModule.cpp.s
 
 interface/PythonInterface.o: interface/PythonInterface.cpp.o
@@ -233,7 +233,7 @@ interface/PythonInterface.o: interface/PythonInterface.cpp.o
 
 # target to build an object file
 interface/PythonInterface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.o
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.o
 .PHONY : interface/PythonInterface.cpp.o
 
 interface/PythonInterface.i: interface/PythonInterface.cpp.i
@@ -241,7 +241,7 @@ interface/PythonInterface.i: interface/PythonInterface.cpp.i
 
 # target to preprocess a source file
 interface/PythonInterface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.i
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.i
 .PHONY : interface/PythonInterface.cpp.i
 
 interface/PythonInterface.s: interface/PythonInterface.cpp.s
@@ -249,7 +249,7 @@ interface/PythonInterface.s: interface/PythonInterface.cpp.s
 
 # target to generate assembly for a file
 interface/PythonInterface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.s
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.s
 .PHONY : interface/PythonInterface.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -257,7 +257,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -265,7 +265,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -273,7 +273,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

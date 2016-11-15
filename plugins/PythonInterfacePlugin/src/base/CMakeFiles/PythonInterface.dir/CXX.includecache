@@ -6,75 +6,75 @@
 
 #IncludeRegexTransform: 
 
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.cpp
+/gmat/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.cpp
 InterfaceException.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/InterfaceException.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/command/InterfaceException.hpp
 CallPythonFunction.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.hpp
 FileManager.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/FileManager.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/command/FileManager.hpp
 MessageInterface.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/MessageInterface.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/command/MessageInterface.hpp
 
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.hpp
 pythoninterface_defs.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/pythoninterface_defs.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/command/pythoninterface_defs.hpp
 CallFunction.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/CallFunction.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/command/CallFunction.hpp
 PythonInterface.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/PythonInterface.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/command/PythonInterface.hpp
 
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.cpp
+/gmat/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.cpp
 PythonCommandFactory.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.hpp
 CallPythonFunction.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/factory/CallPythonFunction.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/factory/CallPythonFunction.hpp
 
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.hpp
 pythoninterface_defs.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/factory/pythoninterface_defs.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/factory/pythoninterface_defs.hpp
 Factory.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/factory/Factory.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/factory/Factory.hpp
 
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/function/PythonModule.cpp
+/gmat/plugins/PythonInterfacePlugin/src/base/function/PythonModule.cpp
 
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.cpp
+/gmat/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.cpp
 stdlib.h
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/stdlib.h
+/gmat/plugins/PythonInterfacePlugin/src/base/interface/stdlib.h
 PythonInterface.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.hpp
 MessageInterface.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/MessageInterface.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/interface/MessageInterface.hpp
 InterfaceException.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/InterfaceException.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/interface/InterfaceException.hpp
 Array.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/Array.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/interface/Array.hpp
 iostream
 -
 
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.hpp
 Python.h
 -
 pythoninterface_defs.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/pythoninterface_defs.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/interface/pythoninterface_defs.hpp
 Interface.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/Interface.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/interface/Interface.hpp
 CommandException.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/CommandException.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/interface/CommandException.hpp
 
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.cpp
+/gmat/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.cpp
 GmatPluginFunctions.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.hpp
 MessageInterface.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/plugin/MessageInterface.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/plugin/MessageInterface.hpp
 PythonCommandFactory.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/plugin/PythonCommandFactory.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/plugin/PythonCommandFactory.hpp
 
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.hpp
 pythoninterface_defs.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/plugin/pythoninterface_defs.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/plugin/pythoninterface_defs.hpp
 Factory.hpp
-/GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/plugin/Factory.hpp
+/gmat/plugins/PythonInterfacePlugin/src/base/plugin/Factory.hpp
 
 /usr/local/include/python3.4m/Python.h
 patchlevel.h

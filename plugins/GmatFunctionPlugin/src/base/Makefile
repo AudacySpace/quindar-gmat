@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/GmatFunctionPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/GmatFunctionPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/rule
 .PHONY : plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ GmatFunction: plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/ru
 
 # fast build rule for target.
 GmatFunction/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build
 .PHONY : GmatFunction/fast
 
 command/CallGmatFunction.o: command/CallGmatFunction.cpp.o
@@ -161,7 +161,7 @@ command/CallGmatFunction.o: command/CallGmatFunction.cpp.o
 
 # target to build an object file
 command/CallGmatFunction.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/CallGmatFunction.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/CallGmatFunction.cpp.o
 .PHONY : command/CallGmatFunction.cpp.o
 
 command/CallGmatFunction.i: command/CallGmatFunction.cpp.i
@@ -169,7 +169,7 @@ command/CallGmatFunction.i: command/CallGmatFunction.cpp.i
 
 # target to preprocess a source file
 command/CallGmatFunction.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/CallGmatFunction.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/CallGmatFunction.cpp.i
 .PHONY : command/CallGmatFunction.cpp.i
 
 command/CallGmatFunction.s: command/CallGmatFunction.cpp.s
@@ -177,7 +177,7 @@ command/CallGmatFunction.s: command/CallGmatFunction.cpp.s
 
 # target to generate assembly for a file
 command/CallGmatFunction.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/CallGmatFunction.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/CallGmatFunction.cpp.s
 .PHONY : command/CallGmatFunction.cpp.s
 
 command/Global.o: command/Global.cpp.o
@@ -185,7 +185,7 @@ command/Global.o: command/Global.cpp.o
 
 # target to build an object file
 command/Global.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/Global.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/Global.cpp.o
 .PHONY : command/Global.cpp.o
 
 command/Global.i: command/Global.cpp.i
@@ -193,7 +193,7 @@ command/Global.i: command/Global.cpp.i
 
 # target to preprocess a source file
 command/Global.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/Global.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/Global.cpp.i
 .PHONY : command/Global.cpp.i
 
 command/Global.s: command/Global.cpp.s
@@ -201,7 +201,7 @@ command/Global.s: command/Global.cpp.s
 
 # target to generate assembly for a file
 command/Global.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/Global.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/command/Global.cpp.s
 .PHONY : command/Global.cpp.s
 
 factory/GmatFunctionCommandFactory.o: factory/GmatFunctionCommandFactory.cpp.o
@@ -209,7 +209,7 @@ factory/GmatFunctionCommandFactory.o: factory/GmatFunctionCommandFactory.cpp.o
 
 # target to build an object file
 factory/GmatFunctionCommandFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionCommandFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionCommandFactory.cpp.o
 .PHONY : factory/GmatFunctionCommandFactory.cpp.o
 
 factory/GmatFunctionCommandFactory.i: factory/GmatFunctionCommandFactory.cpp.i
@@ -217,7 +217,7 @@ factory/GmatFunctionCommandFactory.i: factory/GmatFunctionCommandFactory.cpp.i
 
 # target to preprocess a source file
 factory/GmatFunctionCommandFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionCommandFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionCommandFactory.cpp.i
 .PHONY : factory/GmatFunctionCommandFactory.cpp.i
 
 factory/GmatFunctionCommandFactory.s: factory/GmatFunctionCommandFactory.cpp.s
@@ -225,7 +225,7 @@ factory/GmatFunctionCommandFactory.s: factory/GmatFunctionCommandFactory.cpp.s
 
 # target to generate assembly for a file
 factory/GmatFunctionCommandFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionCommandFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionCommandFactory.cpp.s
 .PHONY : factory/GmatFunctionCommandFactory.cpp.s
 
 factory/GmatFunctionFactory.o: factory/GmatFunctionFactory.cpp.o
@@ -233,7 +233,7 @@ factory/GmatFunctionFactory.o: factory/GmatFunctionFactory.cpp.o
 
 # target to build an object file
 factory/GmatFunctionFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionFactory.cpp.o
 .PHONY : factory/GmatFunctionFactory.cpp.o
 
 factory/GmatFunctionFactory.i: factory/GmatFunctionFactory.cpp.i
@@ -241,7 +241,7 @@ factory/GmatFunctionFactory.i: factory/GmatFunctionFactory.cpp.i
 
 # target to preprocess a source file
 factory/GmatFunctionFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionFactory.cpp.i
 .PHONY : factory/GmatFunctionFactory.cpp.i
 
 factory/GmatFunctionFactory.s: factory/GmatFunctionFactory.cpp.s
@@ -249,7 +249,7 @@ factory/GmatFunctionFactory.s: factory/GmatFunctionFactory.cpp.s
 
 # target to generate assembly for a file
 factory/GmatFunctionFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/factory/GmatFunctionFactory.cpp.s
 .PHONY : factory/GmatFunctionFactory.cpp.s
 
 function/GmatFunction.o: function/GmatFunction.cpp.o
@@ -257,7 +257,7 @@ function/GmatFunction.o: function/GmatFunction.cpp.o
 
 # target to build an object file
 function/GmatFunction.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/function/GmatFunction.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/function/GmatFunction.cpp.o
 .PHONY : function/GmatFunction.cpp.o
 
 function/GmatFunction.i: function/GmatFunction.cpp.i
@@ -265,7 +265,7 @@ function/GmatFunction.i: function/GmatFunction.cpp.i
 
 # target to preprocess a source file
 function/GmatFunction.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/function/GmatFunction.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/function/GmatFunction.cpp.i
 .PHONY : function/GmatFunction.cpp.i
 
 function/GmatFunction.s: function/GmatFunction.cpp.s
@@ -273,7 +273,7 @@ function/GmatFunction.s: function/GmatFunction.cpp.s
 
 # target to generate assembly for a file
 function/GmatFunction.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/function/GmatFunction.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/function/GmatFunction.cpp.s
 .PHONY : function/GmatFunction.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -281,7 +281,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -289,7 +289,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -297,7 +297,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 # Help Target
@@ -342,6 +342,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

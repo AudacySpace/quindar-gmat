@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/flags.make
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.o: plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/flags.make
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.o: plugins/SaveCommandPlugin/src/base/command/Save.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.o"
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SaveCommand.dir/command/Save.cpp.o -c /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/command/Save.cpp
+	cd /gmat/plugins/SaveCommandPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SaveCommand.dir/command/Save.cpp.o -c /gmat/plugins/SaveCommandPlugin/src/base/command/Save.cpp
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SaveCommand.dir/command/Save.cpp.i"
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/command/Save.cpp > CMakeFiles/SaveCommand.dir/command/Save.cpp.i
+	cd /gmat/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/SaveCommandPlugin/src/base/command/Save.cpp > CMakeFiles/SaveCommand.dir/command/Save.cpp.i
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SaveCommand.dir/command/Save.cpp.s"
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/command/Save.cpp -o CMakeFiles/SaveCommand.dir/command/Save.cpp.s
+	cd /gmat/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/SaveCommandPlugin/src/base/command/Save.cpp -o CMakeFiles/SaveCommand.dir/command/Save.cpp.s
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.o.requires:
 .PHONY : plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/command/Save.cpp.o
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.o: plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/flags.make
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.o: plugins/SaveCommandPlugin/src/base/factory/SaveCommandFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.o -c /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/factory/SaveCommandFactory.cpp
+	cd /gmat/plugins/SaveCommandPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.o -c /gmat/plugins/SaveCommandPlugin/src/base/factory/SaveCommandFactory.cpp
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/factory/SaveCommandFactory.cpp > CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.i
+	cd /gmat/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/SaveCommandPlugin/src/base/factory/SaveCommandFactory.cpp > CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.i
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/factory/SaveCommandFactory.cpp -o CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.s
+	cd /gmat/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/SaveCommandPlugin/src/base/factory/SaveCommandFactory.cpp -o CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.s
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.o.requires:
 .PHONY : plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveCommandFactory.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/factory/SaveComman
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.o: plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/flags.make
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.o: plugins/SaveCommandPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/SaveCommandPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/SaveCommandPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/SaveCommandPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/SaveCommandPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/SaveCommandPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -138,8 +138,8 @@ application/plugins/libSaveCommand.so.R2015a: application/bin/libGmatBase.so.R20
 application/plugins/libSaveCommand.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libSaveCommand.so.R2015a: plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libSaveCommand.so"
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SaveCommand.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libSaveCommand.so.R2015a ../../../../application/plugins/libSaveCommand.so.R2015a ../../../../application/plugins/libSaveCommand.so
+	cd /gmat/plugins/SaveCommandPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SaveCommand.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/SaveCommandPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libSaveCommand.so.R2015a ../../../../application/plugins/libSaveCommand.so.R2015a ../../../../application/plugins/libSaveCommand.so
 
 application/plugins/libSaveCommand.so: application/plugins/libSaveCommand.so.R2015a
 
@@ -153,10 +153,10 @@ plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/requires: plugins/
 .PHONY : plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/requires
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/clean:
-	cd /GMAT-R2015a/plugins/SaveCommandPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/SaveCommand.dir/cmake_clean.cmake
+	cd /gmat/plugins/SaveCommandPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/SaveCommand.dir/cmake_clean.cmake
 .PHONY : plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/clean
 
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/SaveCommandPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/SaveCommandPlugin/src/base /GMAT-R2015a/plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/SaveCommandPlugin/src/base /gmat /gmat/plugins/SaveCommandPlugin/src/base /gmat/plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/depend
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/flags.make
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.o: plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/flags.make
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.o: plugins/CInterfacePlugin/src/command/PrepareMissionSequence.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.o"
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.o -c /GMAT-R2015a/plugins/CInterfacePlugin/src/command/PrepareMissionSequence.cpp
+	cd /gmat/plugins/CInterfacePlugin/src && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.o -c /gmat/plugins/CInterfacePlugin/src/command/PrepareMissionSequence.cpp
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.i"
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/CInterfacePlugin/src/command/PrepareMissionSequence.cpp > CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.i
+	cd /gmat/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/CInterfacePlugin/src/command/PrepareMissionSequence.cpp > CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.i
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.s"
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/CInterfacePlugin/src/command/PrepareMissionSequence.cpp -o CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.s
+	cd /gmat/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/CInterfacePlugin/src/command/PrepareMissionSequence.cpp -o CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.s
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.o.requires:
 .PHONY : plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSequence.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/command/PrepareMissionSeq
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.o: plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/flags.make
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.o: plugins/CInterfacePlugin/src/factory/CCommandFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.o -c /GMAT-R2015a/plugins/CInterfacePlugin/src/factory/CCommandFactory.cpp
+	cd /gmat/plugins/CInterfacePlugin/src && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.o -c /gmat/plugins/CInterfacePlugin/src/factory/CCommandFactory.cpp
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/CInterfacePlugin/src/factory/CCommandFactory.cpp > CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.i
+	cd /gmat/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/CInterfacePlugin/src/factory/CCommandFactory.cpp > CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.i
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/CInterfacePlugin/src/factory/CCommandFactory.cpp -o CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.s
+	cd /gmat/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/CInterfacePlugin/src/factory/CCommandFactory.cpp -o CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.s
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.o.requires:
 .PHONY : plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/factory/CCommandFactory.c
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.o: plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/flags.make
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.o: plugins/CInterfacePlugin/src/plugin/CInterfacePluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.o -c /GMAT-R2015a/plugins/CInterfacePlugin/src/plugin/CInterfacePluginFunctions.cpp
+	cd /gmat/plugins/CInterfacePlugin/src && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.o -c /gmat/plugins/CInterfacePlugin/src/plugin/CInterfacePluginFunctions.cpp
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/CInterfacePlugin/src/plugin/CInterfacePluginFunctions.cpp > CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.i
+	cd /gmat/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/CInterfacePlugin/src/plugin/CInterfacePluginFunctions.cpp > CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.i
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/CInterfacePlugin/src/plugin/CInterfacePluginFunctions.cpp -o CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.s
+	cd /gmat/plugins/CInterfacePlugin/src && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/CInterfacePlugin/src/plugin/CInterfacePluginFunctions.cpp -o CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.s
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.o.requires:
 .PHONY : plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/plugin/CInterfacePluginFunctions.cpp.o.requires
@@ -138,8 +138,8 @@ application/bin/libCInterface.so.R2015a: application/bin/libGmatBase.so.R2015a
 application/bin/libCInterface.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/bin/libCInterface.so.R2015a: plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../application/bin/libCInterface.so"
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CInterface.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../application/bin/libCInterface.so.R2015a ../../../application/bin/libCInterface.so.R2015a ../../../application/bin/libCInterface.so
+	cd /gmat/plugins/CInterfacePlugin/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CInterface.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/CInterfacePlugin/src && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../application/bin/libCInterface.so.R2015a ../../../application/bin/libCInterface.so.R2015a ../../../application/bin/libCInterface.so
 
 application/bin/libCInterface.so: application/bin/libCInterface.so.R2015a
 
@@ -153,10 +153,10 @@ plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/requires: plugins/CInterf
 .PHONY : plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/requires
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/clean:
-	cd /GMAT-R2015a/plugins/CInterfacePlugin/src && $(CMAKE_COMMAND) -P CMakeFiles/CInterface.dir/cmake_clean.cmake
+	cd /gmat/plugins/CInterfacePlugin/src && $(CMAKE_COMMAND) -P CMakeFiles/CInterface.dir/cmake_clean.cmake
 .PHONY : plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/clean
 
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/CInterfacePlugin/src /GMAT-R2015a /GMAT-R2015a/plugins/CInterfacePlugin/src /GMAT-R2015a/plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/CInterfacePlugin/src /gmat /gmat/plugins/CInterfacePlugin/src /gmat/plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/depend
 

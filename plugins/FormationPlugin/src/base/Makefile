@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/FormationPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/FormationPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/rule
 .PHONY : plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ Formation: plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/rule
 
 # fast build rule for target.
 Formation/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build
+	cd /gmat && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build
 .PHONY : Formation/fast
 
 factory/FormationFactory.o: factory/FormationFactory.cpp.o
@@ -161,7 +161,7 @@ factory/FormationFactory.o: factory/FormationFactory.cpp.o
 
 # target to build an object file
 factory/FormationFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.o
 .PHONY : factory/FormationFactory.cpp.o
 
 factory/FormationFactory.i: factory/FormationFactory.cpp.i
@@ -169,7 +169,7 @@ factory/FormationFactory.i: factory/FormationFactory.cpp.i
 
 # target to preprocess a source file
 factory/FormationFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.i
 .PHONY : factory/FormationFactory.cpp.i
 
 factory/FormationFactory.s: factory/FormationFactory.cpp.s
@@ -177,7 +177,7 @@ factory/FormationFactory.s: factory/FormationFactory.cpp.s
 
 # target to generate assembly for a file
 factory/FormationFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.s
 .PHONY : factory/FormationFactory.cpp.s
 
 formation/Formation.o: formation/Formation.cpp.o
@@ -185,7 +185,7 @@ formation/Formation.o: formation/Formation.cpp.o
 
 # target to build an object file
 formation/Formation.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.o
+	cd /gmat && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.o
 .PHONY : formation/Formation.cpp.o
 
 formation/Formation.i: formation/Formation.cpp.i
@@ -193,7 +193,7 @@ formation/Formation.i: formation/Formation.cpp.i
 
 # target to preprocess a source file
 formation/Formation.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.i
+	cd /gmat && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.i
 .PHONY : formation/Formation.cpp.i
 
 formation/Formation.s: formation/Formation.cpp.s
@@ -201,7 +201,7 @@ formation/Formation.s: formation/Formation.cpp.s
 
 # target to generate assembly for a file
 formation/Formation.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.s
+	cd /gmat && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.s
 .PHONY : formation/Formation.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -209,7 +209,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -217,7 +217,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -225,7 +225,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

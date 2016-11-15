@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/EventLocatorPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/EventLocatorPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/rule
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ EventLocator: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/ru
 
 # fast build rule for target.
 EventLocator/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build
 .PHONY : EventLocator/fast
 
 event/ContactEvent.o: event/ContactEvent.cpp.o
@@ -161,7 +161,7 @@ event/ContactEvent.o: event/ContactEvent.cpp.o
 
 # target to build an object file
 event/ContactEvent.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.o
 .PHONY : event/ContactEvent.cpp.o
 
 event/ContactEvent.i: event/ContactEvent.cpp.i
@@ -169,7 +169,7 @@ event/ContactEvent.i: event/ContactEvent.cpp.i
 
 # target to preprocess a source file
 event/ContactEvent.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.i
 .PHONY : event/ContactEvent.cpp.i
 
 event/ContactEvent.s: event/ContactEvent.cpp.s
@@ -177,7 +177,7 @@ event/ContactEvent.s: event/ContactEvent.cpp.s
 
 # target to generate assembly for a file
 event/ContactEvent.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactEvent.cpp.s
 .PHONY : event/ContactEvent.cpp.s
 
 event/ContactResult.o: event/ContactResult.cpp.o
@@ -185,7 +185,7 @@ event/ContactResult.o: event/ContactResult.cpp.o
 
 # target to build an object file
 event/ContactResult.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.o
 .PHONY : event/ContactResult.cpp.o
 
 event/ContactResult.i: event/ContactResult.cpp.i
@@ -193,7 +193,7 @@ event/ContactResult.i: event/ContactResult.cpp.i
 
 # target to preprocess a source file
 event/ContactResult.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.i
 .PHONY : event/ContactResult.cpp.i
 
 event/ContactResult.s: event/ContactResult.cpp.s
@@ -201,7 +201,7 @@ event/ContactResult.s: event/ContactResult.cpp.s
 
 # target to generate assembly for a file
 event/ContactResult.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/ContactResult.cpp.s
 .PHONY : event/ContactResult.cpp.s
 
 event/EclipseEvent.o: event/EclipseEvent.cpp.o
@@ -209,7 +209,7 @@ event/EclipseEvent.o: event/EclipseEvent.cpp.o
 
 # target to build an object file
 event/EclipseEvent.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.o
 .PHONY : event/EclipseEvent.cpp.o
 
 event/EclipseEvent.i: event/EclipseEvent.cpp.i
@@ -217,7 +217,7 @@ event/EclipseEvent.i: event/EclipseEvent.cpp.i
 
 # target to preprocess a source file
 event/EclipseEvent.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.i
 .PHONY : event/EclipseEvent.cpp.i
 
 event/EclipseEvent.s: event/EclipseEvent.cpp.s
@@ -225,7 +225,7 @@ event/EclipseEvent.s: event/EclipseEvent.cpp.s
 
 # target to generate assembly for a file
 event/EclipseEvent.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseEvent.cpp.s
 .PHONY : event/EclipseEvent.cpp.s
 
 event/EclipseTotalEvent.o: event/EclipseTotalEvent.cpp.o
@@ -233,7 +233,7 @@ event/EclipseTotalEvent.o: event/EclipseTotalEvent.cpp.o
 
 # target to build an object file
 event/EclipseTotalEvent.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.o
 .PHONY : event/EclipseTotalEvent.cpp.o
 
 event/EclipseTotalEvent.i: event/EclipseTotalEvent.cpp.i
@@ -241,7 +241,7 @@ event/EclipseTotalEvent.i: event/EclipseTotalEvent.cpp.i
 
 # target to preprocess a source file
 event/EclipseTotalEvent.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.i
 .PHONY : event/EclipseTotalEvent.cpp.i
 
 event/EclipseTotalEvent.s: event/EclipseTotalEvent.cpp.s
@@ -249,7 +249,7 @@ event/EclipseTotalEvent.s: event/EclipseTotalEvent.cpp.s
 
 # target to generate assembly for a file
 event/EclipseTotalEvent.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/event/EclipseTotalEvent.cpp.s
 .PHONY : event/EclipseTotalEvent.cpp.s
 
 factory/EventLocatorFactory.o: factory/EventLocatorFactory.cpp.o
@@ -257,7 +257,7 @@ factory/EventLocatorFactory.o: factory/EventLocatorFactory.cpp.o
 
 # target to build an object file
 factory/EventLocatorFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.o
 .PHONY : factory/EventLocatorFactory.cpp.o
 
 factory/EventLocatorFactory.i: factory/EventLocatorFactory.cpp.i
@@ -265,7 +265,7 @@ factory/EventLocatorFactory.i: factory/EventLocatorFactory.cpp.i
 
 # target to preprocess a source file
 factory/EventLocatorFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.i
 .PHONY : factory/EventLocatorFactory.cpp.i
 
 factory/EventLocatorFactory.s: factory/EventLocatorFactory.cpp.s
@@ -273,7 +273,7 @@ factory/EventLocatorFactory.s: factory/EventLocatorFactory.cpp.s
 
 # target to generate assembly for a file
 factory/EventLocatorFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/factory/EventLocatorFactory.cpp.s
 .PHONY : factory/EventLocatorFactory.cpp.s
 
 locator/ContactLocator.o: locator/ContactLocator.cpp.o
@@ -281,7 +281,7 @@ locator/ContactLocator.o: locator/ContactLocator.cpp.o
 
 # target to build an object file
 locator/ContactLocator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.o
 .PHONY : locator/ContactLocator.cpp.o
 
 locator/ContactLocator.i: locator/ContactLocator.cpp.i
@@ -289,7 +289,7 @@ locator/ContactLocator.i: locator/ContactLocator.cpp.i
 
 # target to preprocess a source file
 locator/ContactLocator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.i
 .PHONY : locator/ContactLocator.cpp.i
 
 locator/ContactLocator.s: locator/ContactLocator.cpp.s
@@ -297,7 +297,7 @@ locator/ContactLocator.s: locator/ContactLocator.cpp.s
 
 # target to generate assembly for a file
 locator/ContactLocator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/ContactLocator.cpp.s
 .PHONY : locator/ContactLocator.cpp.s
 
 locator/EclipseLocator.o: locator/EclipseLocator.cpp.o
@@ -305,7 +305,7 @@ locator/EclipseLocator.o: locator/EclipseLocator.cpp.o
 
 # target to build an object file
 locator/EclipseLocator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.o
 .PHONY : locator/EclipseLocator.cpp.o
 
 locator/EclipseLocator.i: locator/EclipseLocator.cpp.i
@@ -313,7 +313,7 @@ locator/EclipseLocator.i: locator/EclipseLocator.cpp.i
 
 # target to preprocess a source file
 locator/EclipseLocator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.i
 .PHONY : locator/EclipseLocator.cpp.i
 
 locator/EclipseLocator.s: locator/EclipseLocator.cpp.s
@@ -321,7 +321,7 @@ locator/EclipseLocator.s: locator/EclipseLocator.cpp.s
 
 # target to generate assembly for a file
 locator/EclipseLocator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/locator/EclipseLocator.cpp.s
 .PHONY : locator/EclipseLocator.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -329,7 +329,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -337,7 +337,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -345,7 +345,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 # Help Target
@@ -396,6 +396,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

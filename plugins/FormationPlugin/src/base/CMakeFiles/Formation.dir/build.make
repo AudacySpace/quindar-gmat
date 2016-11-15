@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/flags.make
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.o: plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/flags.make
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.o: plugins/FormationPlugin/src/base/factory/FormationFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Formation.dir/factory/FormationFactory.cpp.o -c /GMAT-R2015a/plugins/FormationPlugin/src/base/factory/FormationFactory.cpp
+	cd /gmat/plugins/FormationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Formation.dir/factory/FormationFactory.cpp.o -c /gmat/plugins/FormationPlugin/src/base/factory/FormationFactory.cpp
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Formation.dir/factory/FormationFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/FormationPlugin/src/base/factory/FormationFactory.cpp > CMakeFiles/Formation.dir/factory/FormationFactory.cpp.i
+	cd /gmat/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/FormationPlugin/src/base/factory/FormationFactory.cpp > CMakeFiles/Formation.dir/factory/FormationFactory.cpp.i
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Formation.dir/factory/FormationFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/FormationPlugin/src/base/factory/FormationFactory.cpp -o CMakeFiles/Formation.dir/factory/FormationFactory.cpp.s
+	cd /gmat/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/FormationPlugin/src/base/factory/FormationFactory.cpp -o CMakeFiles/Formation.dir/factory/FormationFactory.cpp.s
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.o.requires:
 .PHONY : plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFactory.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/factory/FormationFacto
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.o: plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/flags.make
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.o: plugins/FormationPlugin/src/base/formation/Formation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.o"
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Formation.dir/formation/Formation.cpp.o -c /GMAT-R2015a/plugins/FormationPlugin/src/base/formation/Formation.cpp
+	cd /gmat/plugins/FormationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Formation.dir/formation/Formation.cpp.o -c /gmat/plugins/FormationPlugin/src/base/formation/Formation.cpp
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Formation.dir/formation/Formation.cpp.i"
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/FormationPlugin/src/base/formation/Formation.cpp > CMakeFiles/Formation.dir/formation/Formation.cpp.i
+	cd /gmat/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/FormationPlugin/src/base/formation/Formation.cpp > CMakeFiles/Formation.dir/formation/Formation.cpp.i
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Formation.dir/formation/Formation.cpp.s"
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/FormationPlugin/src/base/formation/Formation.cpp -o CMakeFiles/Formation.dir/formation/Formation.cpp.s
+	cd /gmat/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/FormationPlugin/src/base/formation/Formation.cpp -o CMakeFiles/Formation.dir/formation/Formation.cpp.s
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.o.requires:
 .PHONY : plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/formation/Formation.cp
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.o: plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/flags.make
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.o: plugins/FormationPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/FormationPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/FormationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/FormationPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/FormationPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/FormationPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/FormationPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/FormationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/FormationPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -138,8 +138,8 @@ application/plugins/libFormation.so.R2015a: application/bin/libGmatBase.so.R2015
 application/plugins/libFormation.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libFormation.so.R2015a: plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libFormation.so"
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Formation.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libFormation.so.R2015a ../../../../application/plugins/libFormation.so.R2015a ../../../../application/plugins/libFormation.so
+	cd /gmat/plugins/FormationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Formation.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/FormationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libFormation.so.R2015a ../../../../application/plugins/libFormation.so.R2015a ../../../../application/plugins/libFormation.so
 
 application/plugins/libFormation.so: application/plugins/libFormation.so.R2015a
 
@@ -153,10 +153,10 @@ plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/requires: plugins/Form
 .PHONY : plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/requires
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/clean:
-	cd /GMAT-R2015a/plugins/FormationPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/Formation.dir/cmake_clean.cmake
+	cd /gmat/plugins/FormationPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/Formation.dir/cmake_clean.cmake
 .PHONY : plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/clean
 
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/FormationPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/FormationPlugin/src/base /GMAT-R2015a/plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/FormationPlugin/src/base /gmat /gmat/plugins/FormationPlugin/src/base /gmat/plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/depend
 

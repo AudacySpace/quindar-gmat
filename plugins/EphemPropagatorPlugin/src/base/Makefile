@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/EphemPropagatorPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/EphemPropagatorPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/rule
 .PHONY : plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ EphemPropagator: plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagat
 
 # fast build rule for target.
 EphemPropagator/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build
 .PHONY : EphemPropagator/fast
 
 factory/EphemPropFactory.o: factory/EphemPropFactory.cpp.o
@@ -161,7 +161,7 @@ factory/EphemPropFactory.o: factory/EphemPropFactory.cpp.o
 
 # target to build an object file
 factory/EphemPropFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.o
 .PHONY : factory/EphemPropFactory.cpp.o
 
 factory/EphemPropFactory.i: factory/EphemPropFactory.cpp.i
@@ -169,7 +169,7 @@ factory/EphemPropFactory.i: factory/EphemPropFactory.cpp.i
 
 # target to preprocess a source file
 factory/EphemPropFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.i
 .PHONY : factory/EphemPropFactory.cpp.i
 
 factory/EphemPropFactory.s: factory/EphemPropFactory.cpp.s
@@ -177,7 +177,7 @@ factory/EphemPropFactory.s: factory/EphemPropFactory.cpp.s
 
 # target to generate assembly for a file
 factory/EphemPropFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/factory/EphemPropFactory.cpp.s
 .PHONY : factory/EphemPropFactory.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -185,7 +185,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -193,7 +193,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -201,7 +201,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 propagator/EphemerisPropagator.o: propagator/EphemerisPropagator.cpp.o
@@ -209,7 +209,7 @@ propagator/EphemerisPropagator.o: propagator/EphemerisPropagator.cpp.o
 
 # target to build an object file
 propagator/EphemerisPropagator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.o
 .PHONY : propagator/EphemerisPropagator.cpp.o
 
 propagator/EphemerisPropagator.i: propagator/EphemerisPropagator.cpp.i
@@ -217,7 +217,7 @@ propagator/EphemerisPropagator.i: propagator/EphemerisPropagator.cpp.i
 
 # target to preprocess a source file
 propagator/EphemerisPropagator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.i
 .PHONY : propagator/EphemerisPropagator.cpp.i
 
 propagator/EphemerisPropagator.s: propagator/EphemerisPropagator.cpp.s
@@ -225,7 +225,7 @@ propagator/EphemerisPropagator.s: propagator/EphemerisPropagator.cpp.s
 
 # target to generate assembly for a file
 propagator/EphemerisPropagator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/EphemerisPropagator.cpp.s
 .PHONY : propagator/EphemerisPropagator.cpp.s
 
 propagator/SPKPropagator.o: propagator/SPKPropagator.cpp.o
@@ -233,7 +233,7 @@ propagator/SPKPropagator.o: propagator/SPKPropagator.cpp.o
 
 # target to build an object file
 propagator/SPKPropagator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.o
 .PHONY : propagator/SPKPropagator.cpp.o
 
 propagator/SPKPropagator.i: propagator/SPKPropagator.cpp.i
@@ -241,7 +241,7 @@ propagator/SPKPropagator.i: propagator/SPKPropagator.cpp.i
 
 # target to preprocess a source file
 propagator/SPKPropagator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.i
 .PHONY : propagator/SPKPropagator.cpp.i
 
 propagator/SPKPropagator.s: propagator/SPKPropagator.cpp.s
@@ -249,7 +249,7 @@ propagator/SPKPropagator.s: propagator/SPKPropagator.cpp.s
 
 # target to generate assembly for a file
 propagator/SPKPropagator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/propagator/SPKPropagator.cpp.s
 .PHONY : propagator/SPKPropagator.cpp.s
 
 # Help Target
@@ -288,6 +288,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

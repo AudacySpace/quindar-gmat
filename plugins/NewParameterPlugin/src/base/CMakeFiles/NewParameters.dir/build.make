@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.m
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.o: plugins/NewParameterPlugin/src/base/factory/NewParameterFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/factory/NewParameterFactory.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/factory/NewParameterFactory.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/factory/NewParameterFactory.cpp > CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/factory/NewParameterFactory.cpp > CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/factory/NewParameterFactory.cpp -o CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/factory/NewParameterFactory.cpp -o CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewPara
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.o: plugins/NewParameterPlugin/src/base/parameter/AtmosDensity.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/AtmosDensity.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/parameter/AtmosDensity.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/AtmosDensity.cpp > CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/parameter/AtmosDensity.cpp > CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/AtmosDensity.cpp -o CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/parameter/AtmosDensity.cpp -o CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/Atmos
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.o: plugins/NewParameterPlugin/src/base/parameter/FMAcceleration.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/FMAcceleration.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/parameter/FMAcceleration.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/FMAcceleration.cpp > CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/parameter/FMAcceleration.cpp > CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/FMAcceleration.cpp -o CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/parameter/FMAcceleration.cpp -o CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.o.requires
@@ -123,17 +123,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcc
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.o: plugins/NewParameterPlugin/src/base/parameter/FMDensity.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/FMDensity.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/parameter/FMDensity.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/FMDensity.cpp > CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/parameter/FMDensity.cpp > CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/FMDensity.cpp -o CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/parameter/FMDensity.cpp -o CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.o.requires
@@ -146,17 +146,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDen
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.o: plugins/NewParameterPlugin/src/base/parameter/OdeData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/OdeData.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/parameter/OdeData.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/OdeData.cpp > CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/parameter/OdeData.cpp > CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/OdeData.cpp -o CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/parameter/OdeData.cpp -o CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.o.requires
@@ -169,17 +169,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeDa
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.o: plugins/NewParameterPlugin/src/base/parameter/OdeReal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/OdeReal.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/parameter/OdeReal.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/OdeReal.cpp > CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/parameter/OdeReal.cpp > CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/OdeReal.cpp -o CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/parameter/OdeReal.cpp -o CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.o.requires
@@ -192,17 +192,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeRe
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.o: plugins/NewParameterPlugin/src/base/parameter/SolverData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverData.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverData.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverData.cpp > CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverData.cpp > CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverData.cpp -o CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverData.cpp -o CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.o.requires
@@ -215,17 +215,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/Solve
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.o: plugins/NewParameterPlugin/src/base/parameter/SolverReal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverReal.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverReal.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverReal.cpp > CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverReal.cpp > CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverReal.cpp -o CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverReal.cpp -o CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.o.requires
@@ -238,17 +238,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/Solve
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.o: plugins/NewParameterPlugin/src/base/parameter/SolverState.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverState.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverState.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverState.cpp > CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverState.cpp > CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverState.cpp -o CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverState.cpp -o CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.o.requires
@@ -261,17 +261,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/Solve
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.o: plugins/NewParameterPlugin/src/base/parameter/SolverStatus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverStatus.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverStatus.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverStatus.cpp > CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverStatus.cpp > CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverStatus.cpp -o CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverStatus.cpp -o CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.o.requires
@@ -284,17 +284,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/Solve
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.o: plugins/NewParameterPlugin/src/base/parameter/SolverString.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverString.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverString.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverString.cpp > CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverString.cpp > CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/parameter/SolverString.cpp -o CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/parameter/SolverString.cpp -o CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.o.requires
@@ -307,17 +307,17 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/Solve
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.o: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/flags.make
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.o: plugins/NewParameterPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/NewParameterPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/NewParameterPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/NewParameterPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/NewParameterPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/NewParameterPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/NewParameterPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/NewParameterPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -363,8 +363,8 @@ application/plugins/libNewParameters.so.R2015a: application/bin/libGmatBase.so.R
 application/plugins/libNewParameters.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libNewParameters.so.R2015a: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libNewParameters.so"
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NewParameters.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libNewParameters.so.R2015a ../../../../application/plugins/libNewParameters.so.R2015a ../../../../application/plugins/libNewParameters.so
+	cd /gmat/plugins/NewParameterPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NewParameters.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/NewParameterPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libNewParameters.so.R2015a ../../../../application/plugins/libNewParameters.so.R2015a ../../../../application/plugins/libNewParameters.so
 
 application/plugins/libNewParameters.so: application/plugins/libNewParameters.so.R2015a
 
@@ -387,10 +387,10 @@ plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/requires: plugi
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/requires
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/clean:
-	cd /GMAT-R2015a/plugins/NewParameterPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/NewParameters.dir/cmake_clean.cmake
+	cd /gmat/plugins/NewParameterPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/NewParameters.dir/cmake_clean.cmake
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/clean
 
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/NewParameterPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/NewParameterPlugin/src/base /GMAT-R2015a/plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/NewParameterPlugin/src/base /gmat /gmat/plugins/NewParameterPlugin/src/base /gmat/plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/depend
 
