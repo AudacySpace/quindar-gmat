@@ -1,6 +1,6 @@
 # quindar-gmat
 
-Nov 17,2016
+Nov 17,2016.
 
 Compiled NASA General Mission Analysis Tool (GMAT) code used as a spacecraft data simulator for the Quindar Mission Operations software platform.
 
