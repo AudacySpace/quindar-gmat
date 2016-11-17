@@ -1,4 +1,7 @@
 # quindar-gmat
+
+Nov 17,2016
+
 Compiled NASA General Mission Analysis Tool (GMAT) code used as a spacecraft data simulator for the Quindar Mission Operations software platform.
 
 These files are copied under gmat folder when quindar-qsrc is deployed.  See  https://github.com/quindar/quindar-deploy for details to deploy quindar-qsrc. 
