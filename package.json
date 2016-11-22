@@ -1,0 +1,12 @@
+{
+  "name": "gmat-node-server-example",
+  "version": "1.0.0",
+  "description": "An example node server to receive data from GMAT",
+  "main": "server.js",
+  "author": "Quindar",
+  "license": "MIT",
+  "dependencies":{
+    "express": "^4.14.0",
+    "socket.io": "^1.6.0"
+  }
+}
