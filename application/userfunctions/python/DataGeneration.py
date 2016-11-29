@@ -41,3 +41,23 @@ q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,time):
 		socketIO.emit('attitude', attiData3)		
 		socketIO.wait(seconds=1)
 		return testData1
+
+def Generate_v1(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q1_1,q2_1,q3_1, q4_1,
+q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,time):
+	timestamp = (time+2430000-2440587.5)*86400.0
+	with SocketIO('localhost', 3000, LoggingNamespace) as socketIO:
+		testData1 = json.dumps({ "vehicleId": "Audacy1", "x": x1, "y": y1, "z": z1,
+		 "vx": vx1,"vy": vy1, "vz": vz1, "timestamp": timestamp }, sort_keys=True)
+		
+		testData2 = json.dumps({ "vehicleId": "Audacy2", "x": x2, "y": y2, "z": z2,
+		 "vx": vx2,"vy": vy2, "vz": vz2, "timestamp": timestamp }, sort_keys=True)
+
+		testData3 = json.dumps({ "vehicleId": "Audacy3", "x": x3, "y": y3, "z": z3,
+		 "vx": vx3,"vy": vy3, "vz": vz3, "timestamp": timestamp }, sort_keys=True)
+
+
+		socketIO.emit("satData1", testData1)
+		socketIO.emit("satData2", testData2)
+		socketIO.emit("satData3", testData3)
+		socketIO.wait(seconds=1)
+		return testData1

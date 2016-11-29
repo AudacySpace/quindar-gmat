@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurem
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.o: plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/flags.make
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.o: plugins/GeometricMeasurementPlugin/src/base/factory/MeasurementFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.o -c /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/factory/MeasurementFactory.cpp
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.o -c /gmat/plugins/GeometricMeasurementPlugin/src/base/factory/MeasurementFactory.cpp
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/factory/MeasurementFactory.cpp > CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.i
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/GeometricMeasurementPlugin/src/base/factory/MeasurementFactory.cpp > CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.i
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/factory/MeasurementFactory.cpp -o CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.s
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/GeometricMeasurementPlugin/src/base/factory/MeasurementFactory.cpp -o CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.s
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.o.requires:
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/factory/MeasurementFactory.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.o: plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/flags.make
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.o: plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricAzEl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.o"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.o -c /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricAzEl.cpp
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.o -c /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricAzEl.cpp
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.i"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricAzEl.cpp > CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.i
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricAzEl.cpp > CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.i
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.s"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricAzEl.cpp -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.s
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricAzEl.cpp -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.s
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.o.requires:
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricAzEl.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.o: plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/flags.make
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.o: plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRADec.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.o"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.o -c /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRADec.cpp
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.o -c /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRADec.cpp
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.i"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRADec.cpp > CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.i
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRADec.cpp > CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.i
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.s"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRADec.cpp -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.s
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRADec.cpp -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.s
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.o.requires:
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRADec.cpp.o.requires
@@ -123,17 +123,17 @@ plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.o: plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/flags.make
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.o: plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRange.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.o"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.o -c /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRange.cpp
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.o -c /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRange.cpp
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.i"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRange.cpp > CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.i
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRange.cpp > CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.i
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.s"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRange.cpp -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.s
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRange.cpp -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.s
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.o.requires:
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRange.cpp.o.requires
@@ -146,17 +146,17 @@ plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.o: plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/flags.make
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.o: plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRangeRate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.o"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.o -c /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRangeRate.cpp
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.o -c /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRangeRate.cpp
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.i"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRangeRate.cpp > CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.i
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRangeRate.cpp > CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.i
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.s"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRangeRate.cpp -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.s
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/GeometricMeasurementPlugin/src/base/measurement/GeometricRangeRate.cpp -o CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.s
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.o.requires:
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/measurement/GeometricRangeRate.cpp.o.requires
@@ -169,17 +169,17 @@ plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.o: plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/flags.make
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.o: plugins/GeometricMeasurementPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/GeometricMeasurementPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/GeometricMeasurementPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/GeometricMeasurementPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -215,8 +215,8 @@ application/plugins/libGeometricMeasurements.so.R2015a: application/bin/libGmatB
 application/plugins/libGeometricMeasurements.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libGeometricMeasurements.so.R2015a: plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libGeometricMeasurements.so"
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GeometricMeasurements.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libGeometricMeasurements.so.R2015a ../../../../application/plugins/libGeometricMeasurements.so.R2015a ../../../../application/plugins/libGeometricMeasurements.so
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GeometricMeasurements.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libGeometricMeasurements.so.R2015a ../../../../application/plugins/libGeometricMeasurements.so.R2015a ../../../../application/plugins/libGeometricMeasurements.so
 
 application/plugins/libGeometricMeasurements.so: application/plugins/libGeometricMeasurements.so.R2015a
 
@@ -233,10 +233,10 @@ plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/requires
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/clean:
-	cd /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/GeometricMeasurements.dir/cmake_clean.cmake
+	cd /gmat/plugins/GeometricMeasurementPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/GeometricMeasurements.dir/cmake_clean.cmake
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/clean
 
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base /GMAT-R2015a/plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/GeometricMeasurementPlugin/src/base /gmat /gmat/plugins/GeometricMeasurementPlugin/src/base /gmat/plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/depend
 

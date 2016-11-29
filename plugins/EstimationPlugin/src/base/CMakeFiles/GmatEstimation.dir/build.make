@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.ma
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.o: plugins/EstimationPlugin/src/base/command/RunEstimator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/command/RunEstimator.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/command/RunEstimator.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/command/RunEstimator.cpp > CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/command/RunEstimator.cpp > CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/command/RunEstimator.cpp -o CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/command/RunEstimator.cpp -o CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstim
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.o: plugins/EstimationPlugin/src/base/command/RunSimulator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/command/RunSimulator.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/command/RunSimulator.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/command/RunSimulator.cpp > CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/command/RunSimulator.cpp > CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/command/RunSimulator.cpp -o CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/command/RunSimulator.cpp -o CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimul
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.o: plugins/EstimationPlugin/src/base/estimator/BatchEstimator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/BatchEstimator.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/estimator/BatchEstimator.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/BatchEstimator.cpp > CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/estimator/BatchEstimator.cpp > CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/BatchEstimator.cpp -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/estimator/BatchEstimator.cpp -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.o.requires
@@ -123,17 +123,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchE
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.o: plugins/EstimationPlugin/src/base/estimator/BatchEstimatorInv.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorInv.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorInv.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorInv.cpp > CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorInv.cpp > CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorInv.cpp -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorInv.cpp -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.o.requires
@@ -146,17 +146,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchE
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.o: plugins/EstimationPlugin/src/base/estimator/BatchEstimatorSVD.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorSVD.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorSVD.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorSVD.cpp > CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorSVD.cpp > CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorSVD.cpp -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/estimator/BatchEstimatorSVD.cpp -o CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.o.requires
@@ -169,17 +169,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchE
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.o: plugins/EstimationPlugin/src/base/estimator/EstimationStateManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/EstimationStateManager.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/estimator/EstimationStateManager.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/EstimationStateManager.cpp > CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/estimator/EstimationStateManager.cpp > CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/EstimationStateManager.cpp -o CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/estimator/EstimationStateManager.cpp -o CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.o.requires
@@ -192,17 +192,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estima
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.o: plugins/EstimationPlugin/src/base/estimator/Estimator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/Estimator.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/estimator/Estimator.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/Estimator.cpp > CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/estimator/Estimator.cpp > CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/Estimator.cpp -o CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/estimator/Estimator.cpp -o CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.o.requires
@@ -215,17 +215,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estima
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.o: plugins/EstimationPlugin/src/base/estimator/EstimatorException.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/EstimatorException.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/estimator/EstimatorException.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/EstimatorException.cpp > CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/estimator/EstimatorException.cpp > CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/EstimatorException.cpp -o CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/estimator/EstimatorException.cpp -o CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.o.requires
@@ -238,17 +238,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estima
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.o: plugins/EstimationPlugin/src/base/estimator/ExtendedKalmanInv.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/ExtendedKalmanInv.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/estimator/ExtendedKalmanInv.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/ExtendedKalmanInv.cpp > CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/estimator/ExtendedKalmanInv.cpp > CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/ExtendedKalmanInv.cpp -o CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/estimator/ExtendedKalmanInv.cpp -o CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.o.requires
@@ -261,17 +261,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Extend
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.o: plugins/EstimationPlugin/src/base/estimator/SequentialEstimator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/SequentialEstimator.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/estimator/SequentialEstimator.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/SequentialEstimator.cpp > CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/estimator/SequentialEstimator.cpp > CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/SequentialEstimator.cpp -o CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/estimator/SequentialEstimator.cpp -o CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.o.requires
@@ -284,17 +284,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Sequen
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.o: plugins/EstimationPlugin/src/base/estimator/Simulator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/Simulator.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/estimator/Simulator.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/Simulator.cpp > CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/estimator/Simulator.cpp > CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/estimator/Simulator.cpp -o CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/estimator/Simulator.cpp -o CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.o.requires
@@ -307,17 +307,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simula
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.o: plugins/EstimationPlugin/src/base/event/EstimationRootFinder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EstimationRootFinder.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/event/EstimationRootFinder.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EstimationRootFinder.cpp > CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/event/EstimationRootFinder.cpp > CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EstimationRootFinder.cpp -o CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/event/EstimationRootFinder.cpp -o CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.o.requires
@@ -330,17 +330,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Estimation
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.o: plugins/EstimationPlugin/src/base/event/Event.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/Event.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/Event.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/Event.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/event/Event.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/event/Event.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/Event.cpp > CMakeFiles/GmatEstimation.dir/event/Event.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/event/Event.cpp > CMakeFiles/GmatEstimation.dir/event/Event.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/event/Event.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/Event.cpp -o CMakeFiles/GmatEstimation.dir/event/Event.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/event/Event.cpp -o CMakeFiles/GmatEstimation.dir/event/Event.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.o.requires
@@ -353,17 +353,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.o: plugins/EstimationPlugin/src/base/event/EventData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/EventData.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EventData.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/EventData.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/event/EventData.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/event/EventData.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EventData.cpp > CMakeFiles/GmatEstimation.dir/event/EventData.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/event/EventData.cpp > CMakeFiles/GmatEstimation.dir/event/EventData.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/event/EventData.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EventData.cpp -o CMakeFiles/GmatEstimation.dir/event/EventData.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/event/EventData.cpp -o CMakeFiles/GmatEstimation.dir/event/EventData.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.o.requires
@@ -376,17 +376,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.o: plugins/EstimationPlugin/src/base/event/EventException.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/EventException.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EventException.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/EventException.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/event/EventException.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/event/EventException.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EventException.cpp > CMakeFiles/GmatEstimation.dir/event/EventException.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/event/EventException.cpp > CMakeFiles/GmatEstimation.dir/event/EventException.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/event/EventException.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EventException.cpp -o CMakeFiles/GmatEstimation.dir/event/EventException.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/event/EventException.cpp -o CMakeFiles/GmatEstimation.dir/event/EventException.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.o.requires
@@ -399,17 +399,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventExcep
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.o: plugins/EstimationPlugin/src/base/event/EventManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EventManager.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/event/EventManager.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EventManager.cpp > CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/event/EventManager.cpp > CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/EventManager.cpp -o CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/event/EventManager.cpp -o CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.o.requires
@@ -422,17 +422,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManag
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.o: plugins/EstimationPlugin/src/base/event/LightTimeCorrection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/LightTimeCorrection.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/event/LightTimeCorrection.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/LightTimeCorrection.cpp > CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/event/LightTimeCorrection.cpp > CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/event/LightTimeCorrection.cpp -o CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/event/LightTimeCorrection.cpp -o CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.o.requires
@@ -445,17 +445,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeC
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.o: plugins/EstimationPlugin/src/base/factory/DataFileFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/DataFileFactory.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/factory/DataFileFactory.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/DataFileFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/factory/DataFileFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/DataFileFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/factory/DataFileFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.o.requires
@@ -468,17 +468,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFile
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.o: plugins/EstimationPlugin/src/base/factory/EstimationCommandFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EstimationCommandFactory.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/factory/EstimationCommandFactory.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EstimationCommandFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/factory/EstimationCommandFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EstimationCommandFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/factory/EstimationCommandFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.o.requires
@@ -491,17 +491,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/Estimati
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.o: plugins/EstimationPlugin/src/base/factory/EstimatorFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EstimatorFactory.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/factory/EstimatorFactory.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EstimatorFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/factory/EstimatorFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EstimatorFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/factory/EstimatorFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.o.requires
@@ -514,17 +514,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/Estimato
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.o: plugins/EstimationPlugin/src/base/factory/EstimatorHardwareFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EstimatorHardwareFactory.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/factory/EstimatorHardwareFactory.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EstimatorHardwareFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/factory/EstimatorHardwareFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EstimatorHardwareFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/factory/EstimatorHardwareFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.o.requires
@@ -537,17 +537,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/Estimato
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.o: plugins/EstimationPlugin/src/base/factory/EventFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EventFactory.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/factory/EventFactory.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EventFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/factory/EventFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/EventFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/factory/EventFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.o.requires
@@ -560,17 +560,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFac
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.o: plugins/EstimationPlugin/src/base/factory/MeasurementFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/MeasurementFactory.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/factory/MeasurementFactory.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/MeasurementFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/factory/MeasurementFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/MeasurementFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/factory/MeasurementFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.o.requires
@@ -583,17 +583,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/Measurem
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.o: plugins/EstimationPlugin/src/base/factory/MeasurementModelFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/MeasurementModelFactory.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/factory/MeasurementModelFactory.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/MeasurementModelFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/factory/MeasurementModelFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/MeasurementModelFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/factory/MeasurementModelFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.o.requires
@@ -606,17 +606,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/Measurem
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.o: plugins/EstimationPlugin/src/base/factory/ObTypeFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/ObTypeFactory.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/factory/ObTypeFactory.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/ObTypeFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/factory/ObTypeFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/ObTypeFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/factory/ObTypeFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.o.requires
@@ -629,17 +629,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFa
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.o: plugins/EstimationPlugin/src/base/factory/TrackingDataFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/TrackingDataFactory.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/factory/TrackingDataFactory.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/TrackingDataFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/factory/TrackingDataFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/TrackingDataFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/factory/TrackingDataFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.o.requires
@@ -652,17 +652,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/Tracking
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.o: plugins/EstimationPlugin/src/base/factory/TrackingSystemFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/TrackingSystemFactory.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/factory/TrackingSystemFactory.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/TrackingSystemFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/factory/TrackingSystemFactory.cpp > CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/factory/TrackingSystemFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/factory/TrackingSystemFactory.cpp -o CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.o.requires
@@ -675,17 +675,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/Tracking
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.o: plugins/EstimationPlugin/src/base/hardware/Antenna.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Antenna.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/hardware/Antenna.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Antenna.cpp > CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/hardware/Antenna.cpp > CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Antenna.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/hardware/Antenna.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.o.requires
@@ -698,17 +698,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.o: plugins/EstimationPlugin/src/base/hardware/RFHardware.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/RFHardware.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/hardware/RFHardware.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/RFHardware.cpp > CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/hardware/RFHardware.cpp > CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/RFHardware.cpp -o CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/hardware/RFHardware.cpp -o CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.o.requires
@@ -721,17 +721,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardw
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.o: plugins/EstimationPlugin/src/base/hardware/Receiver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Receiver.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/hardware/Receiver.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Receiver.cpp > CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/hardware/Receiver.cpp > CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Receiver.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/hardware/Receiver.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.o.requires
@@ -744,17 +744,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receive
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.o: plugins/EstimationPlugin/src/base/hardware/Sensor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Sensor.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/hardware/Sensor.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Sensor.cpp > CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/hardware/Sensor.cpp > CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Sensor.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/hardware/Sensor.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.o.requires
@@ -767,17 +767,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.o: plugins/EstimationPlugin/src/base/hardware/Signal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Signal.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/hardware/Signal.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Signal.cpp > CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/hardware/Signal.cpp > CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Signal.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/hardware/Signal.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.o.requires
@@ -790,17 +790,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.o: plugins/EstimationPlugin/src/base/hardware/Transmitter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Transmitter.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/hardware/Transmitter.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Transmitter.cpp > CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/hardware/Transmitter.cpp > CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Transmitter.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/hardware/Transmitter.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.o.requires
@@ -813,17 +813,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmi
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.o: plugins/EstimationPlugin/src/base/hardware/Transponder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Transponder.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/hardware/Transponder.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Transponder.cpp > CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/hardware/Transponder.cpp > CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/hardware/Transponder.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/hardware/Transponder.cpp -o CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.o.requires
@@ -836,17 +836,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transpo
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.o: plugins/EstimationPlugin/src/base/measurement/AveragedDoppler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/AveragedDoppler.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/AveragedDoppler.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/AveragedDoppler.cpp > CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/AveragedDoppler.cpp > CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/AveragedDoppler.cpp -o CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/AveragedDoppler.cpp -o CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.o.requires
@@ -859,17 +859,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Aver
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.o: plugins/EstimationPlugin/src/base/measurement/CoreMeasurement.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/CoreMeasurement.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/CoreMeasurement.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/CoreMeasurement.cpp > CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/CoreMeasurement.cpp > CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/CoreMeasurement.cpp -o CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/CoreMeasurement.cpp -o CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.o.requires
@@ -882,17 +882,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Core
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.o: plugins/EstimationPlugin/src/base/measurement/DSNTwoWayDoppler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayDoppler.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayDoppler.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayDoppler.cpp > CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayDoppler.cpp > CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayDoppler.cpp -o CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayDoppler.cpp -o CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.o.requires
@@ -905,17 +905,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNT
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.o: plugins/EstimationPlugin/src/base/measurement/DSNTwoWayRange.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayRange.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayRange.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayRange.cpp > CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayRange.cpp > CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayRange.cpp -o CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/DSNTwoWayRange.cpp -o CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.o.requires
@@ -928,17 +928,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNT
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.o: plugins/EstimationPlugin/src/base/measurement/MeasurementData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MeasurementData.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/MeasurementData.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MeasurementData.cpp > CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/MeasurementData.cpp > CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MeasurementData.cpp -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/MeasurementData.cpp -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.o.requires
@@ -951,17 +951,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Meas
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.o: plugins/EstimationPlugin/src/base/measurement/MeasurementManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MeasurementManager.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/MeasurementManager.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MeasurementManager.cpp > CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/MeasurementManager.cpp > CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MeasurementManager.cpp -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/MeasurementManager.cpp -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.o.requires
@@ -974,17 +974,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Meas
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.o: plugins/EstimationPlugin/src/base/measurement/MeasurementModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MeasurementModel.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/MeasurementModel.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MeasurementModel.cpp > CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/MeasurementModel.cpp > CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MeasurementModel.cpp -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/MeasurementModel.cpp -o CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.o.requires
@@ -997,17 +997,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Meas
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.o: plugins/EstimationPlugin/src/base/measurement/MediaCorrection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MediaCorrection.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/MediaCorrection.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MediaCorrection.cpp > CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/MediaCorrection.cpp > CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/MediaCorrection.cpp -o CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/MediaCorrection.cpp -o CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.o.requires
@@ -1020,17 +1020,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Medi
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.o: plugins/EstimationPlugin/src/base/measurement/OpticalAngles.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/OpticalAngles.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/OpticalAngles.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/OpticalAngles.cpp > CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/OpticalAngles.cpp > CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/OpticalAngles.cpp -o CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/OpticalAngles.cpp -o CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.o.requires
@@ -1043,17 +1043,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Opti
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.o: plugins/EstimationPlugin/src/base/measurement/OpticalAzEl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/OpticalAzEl.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/OpticalAzEl.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/OpticalAzEl.cpp > CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/OpticalAzEl.cpp > CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/OpticalAzEl.cpp -o CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/OpticalAzEl.cpp -o CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.o.requires
@@ -1066,17 +1066,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Opti
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.o: plugins/EstimationPlugin/src/base/measurement/PhysicalMeasurement.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/PhysicalMeasurement.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/PhysicalMeasurement.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/PhysicalMeasurement.cpp > CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/PhysicalMeasurement.cpp > CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/PhysicalMeasurement.cpp -o CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/PhysicalMeasurement.cpp -o CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.o.requires
@@ -1089,17 +1089,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Phys
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.o: plugins/EstimationPlugin/src/base/measurement/SnTwoWayRange.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/SnTwoWayRange.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/SnTwoWayRange.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/SnTwoWayRange.cpp > CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/SnTwoWayRange.cpp > CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/SnTwoWayRange.cpp -o CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/SnTwoWayRange.cpp -o CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.o.requires
@@ -1112,17 +1112,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTw
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.o: plugins/EstimationPlugin/src/base/measurement/TDRSSTwoWayRange.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/TDRSSTwoWayRange.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/TDRSSTwoWayRange.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/TDRSSTwoWayRange.cpp > CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/TDRSSTwoWayRange.cpp > CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/TDRSSTwoWayRange.cpp -o CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/TDRSSTwoWayRange.cpp -o CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.o.requires
@@ -1135,17 +1135,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRS
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.o: plugins/EstimationPlugin/src/base/measurement/TrackingData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/TrackingData.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/TrackingData.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/TrackingData.cpp > CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/TrackingData.cpp > CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/TrackingData.cpp -o CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/TrackingData.cpp -o CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.o.requires
@@ -1158,17 +1158,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Trac
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.o: plugins/EstimationPlugin/src/base/measurement/TwoWayRange.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/TwoWayRange.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/TwoWayRange.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/TwoWayRange.cpp > CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/TwoWayRange.cpp > CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/TwoWayRange.cpp -o CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/TwoWayRange.cpp -o CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.o.requires
@@ -1181,17 +1181,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoW
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.o: plugins/EstimationPlugin/src/base/measurement/USNTwoWayRange.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/USNTwoWayRange.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/USNTwoWayRange.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/USNTwoWayRange.cpp > CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/USNTwoWayRange.cpp > CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/USNTwoWayRange.cpp -o CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/USNTwoWayRange.cpp -o CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.o.requires
@@ -1204,17 +1204,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNT
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.o: plugins/EstimationPlugin/src/base/measurement/Troposphere/Troposphere.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/Troposphere/Troposphere.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurement/Troposphere/Troposphere.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/Troposphere/Troposphere.cpp > CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurement/Troposphere/Troposphere.cpp > CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurement/Troposphere/Troposphere.cpp -o CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurement/Troposphere/Troposphere.cpp -o CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.o.requires
@@ -1227,17 +1227,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Trop
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.o: plugins/EstimationPlugin/src/base/measurementfile/B3_obtype.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/B3_obtype.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurementfile/B3_obtype.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/B3_obtype.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurementfile/B3_obtype.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/B3_obtype.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurementfile/B3_obtype.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.o.requires
@@ -1250,17 +1250,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.o: plugins/EstimationPlugin/src/base/measurementfile/DataFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/DataFile.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurementfile/DataFile.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/DataFile.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurementfile/DataFile.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/DataFile.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurementfile/DataFile.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.o.requires
@@ -1273,17 +1273,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.o: plugins/EstimationPlugin/src/base/measurementfile/DataFileAdapter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/DataFileAdapter.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurementfile/DataFileAdapter.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/DataFileAdapter.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurementfile/DataFileAdapter.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/DataFileAdapter.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurementfile/DataFileAdapter.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.o.requires
@@ -1296,17 +1296,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.o: plugins/EstimationPlugin/src/base/measurementfile/GmatObType.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/GmatObType.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurementfile/GmatObType.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/GmatObType.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurementfile/GmatObType.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/GmatObType.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurementfile/GmatObType.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.o.requires
@@ -1319,17 +1319,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.o: plugins/EstimationPlugin/src/base/measurementfile/ObType.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/ObType.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurementfile/ObType.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/ObType.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurementfile/ObType.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/ObType.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurementfile/ObType.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.o.requires
@@ -1342,17 +1342,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.o: plugins/EstimationPlugin/src/base/measurementfile/ObservationData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/ObservationData.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/measurementfile/ObservationData.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/ObservationData.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/measurementfile/ObservationData.cpp > CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/measurementfile/ObservationData.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/measurementfile/ObservationData.cpp -o CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.o.requires
@@ -1365,17 +1365,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.o: plugins/EstimationPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -1388,17 +1388,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPlugi
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.o: plugins/EstimationPlugin/src/base/trackingsystem/DSNTrackingSystem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/DSNTrackingSystem.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/trackingsystem/DSNTrackingSystem.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/DSNTrackingSystem.cpp > CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/trackingsystem/DSNTrackingSystem.cpp > CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/DSNTrackingSystem.cpp -o CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/trackingsystem/DSNTrackingSystem.cpp -o CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.o.requires
@@ -1411,17 +1411,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/D
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.o: plugins/EstimationPlugin/src/base/trackingsystem/OpticalTrackingSystem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/OpticalTrackingSystem.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/trackingsystem/OpticalTrackingSystem.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/OpticalTrackingSystem.cpp > CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/trackingsystem/OpticalTrackingSystem.cpp > CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/OpticalTrackingSystem.cpp -o CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/trackingsystem/OpticalTrackingSystem.cpp -o CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.o.requires
@@ -1434,17 +1434,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/O
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.o: plugins/EstimationPlugin/src/base/trackingsystem/TDRSSTrackingSystem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/TDRSSTrackingSystem.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/trackingsystem/TDRSSTrackingSystem.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/TDRSSTrackingSystem.cpp > CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/trackingsystem/TDRSSTrackingSystem.cpp > CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/TDRSSTrackingSystem.cpp -o CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/trackingsystem/TDRSSTrackingSystem.cpp -o CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.o.requires
@@ -1457,17 +1457,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/T
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.o: plugins/EstimationPlugin/src/base/trackingsystem/TrackingSystem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/TrackingSystem.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/trackingsystem/TrackingSystem.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/TrackingSystem.cpp > CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/trackingsystem/TrackingSystem.cpp > CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/TrackingSystem.cpp -o CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/trackingsystem/TrackingSystem.cpp -o CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.o.requires
@@ -1480,17 +1480,17 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/T
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.o: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/flags.make
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.o: plugins/EstimationPlugin/src/base/trackingsystem/USNTrackingSystem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.o"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.o -c /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/USNTrackingSystem.cpp
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.o -c /gmat/plugins/EstimationPlugin/src/base/trackingsystem/USNTrackingSystem.cpp
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.i"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/USNTrackingSystem.cpp > CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.i
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/EstimationPlugin/src/base/trackingsystem/USNTrackingSystem.cpp > CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.i
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.s"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/EstimationPlugin/src/base/trackingsystem/USNTrackingSystem.cpp -o CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.s
+	cd /gmat/plugins/EstimationPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/EstimationPlugin/src/base/trackingsystem/USNTrackingSystem.cpp -o CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.s
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.o.requires:
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.o.requires
@@ -1638,8 +1638,8 @@ application/plugins/libGmatEstimation.so.R2015a: application/bin/libGmatBase.so.
 application/plugins/libGmatEstimation.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libGmatEstimation.so.R2015a: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libGmatEstimation.so"
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GmatEstimation.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libGmatEstimation.so.R2015a ../../../../application/plugins/libGmatEstimation.so.R2015a ../../../../application/plugins/libGmatEstimation.so
+	cd /gmat/plugins/EstimationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GmatEstimation.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/EstimationPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libGmatEstimation.so.R2015a ../../../../application/plugins/libGmatEstimation.so.R2015a ../../../../application/plugins/libGmatEstimation.so
 
 application/plugins/libGmatEstimation.so: application/plugins/libGmatEstimation.so.R2015a
 
@@ -1713,10 +1713,10 @@ plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/requires: plugin
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/requires
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/clean:
-	cd /GMAT-R2015a/plugins/EstimationPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/GmatEstimation.dir/cmake_clean.cmake
+	cd /gmat/plugins/EstimationPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/GmatEstimation.dir/cmake_clean.cmake
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/clean
 
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/EstimationPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/EstimationPlugin/src/base /GMAT-R2015a/plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/EstimationPlugin/src/base /gmat /gmat/plugins/EstimationPlugin/src/base /gmat/plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/depend
 

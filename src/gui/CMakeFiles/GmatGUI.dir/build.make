@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include src/gui/CMakeFiles/GmatGUI.dir/depend.make
@@ -54,17 +54,17 @@ include src/gui/CMakeFiles/GmatGUI.dir/flags.make
 
 src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.o: src/gui/app/AboutDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.o -c /GMAT-R2015a/src/gui/app/AboutDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.o -c /gmat/src/gui/app/AboutDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/AboutDialog.cpp > CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/AboutDialog.cpp > CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/AboutDialog.cpp -o CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/AboutDialog.cpp -o CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.o.requires
@@ -77,17 +77,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/AboutDialog.cpp.o.provides.build: src/gui/CMa
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.o: src/gui/app/GmatApp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.o -c /GMAT-R2015a/src/gui/app/GmatApp.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.o -c /gmat/src/gui/app/GmatApp.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GmatApp.cpp > CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GmatApp.cpp > CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GmatApp.cpp -o CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GmatApp.cpp -o CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.o.requires
@@ -100,17 +100,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GmatApp.cpp.o.provides.build: src/gui/CMakeFi
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.o: src/gui/app/GmatAppData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.o -c /GMAT-R2015a/src/gui/app/GmatAppData.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.o -c /gmat/src/gui/app/GmatAppData.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GmatAppData.cpp > CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GmatAppData.cpp > CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GmatAppData.cpp -o CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GmatAppData.cpp -o CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.o.requires
@@ -123,17 +123,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GmatAppData.cpp.o.provides.build: src/gui/CMa
 
 src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.o: src/gui/app/CompareFilesDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.o -c /GMAT-R2015a/src/gui/app/CompareFilesDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.o -c /gmat/src/gui/app/CompareFilesDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/CompareFilesDialog.cpp > CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/CompareFilesDialog.cpp > CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/CompareFilesDialog.cpp -o CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/CompareFilesDialog.cpp -o CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.o.requires
@@ -146,17 +146,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/CompareFilesDialog.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.o: src/gui/app/CompareTextDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.o -c /GMAT-R2015a/src/gui/app/CompareTextDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.o -c /gmat/src/gui/app/CompareTextDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/CompareTextDialog.cpp > CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/CompareTextDialog.cpp > CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/CompareTextDialog.cpp -o CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/CompareTextDialog.cpp -o CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.o.requires
@@ -169,17 +169,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/CompareTextDialog.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.o: src/gui/app/GmatConnection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.o -c /GMAT-R2015a/src/gui/app/GmatConnection.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.o -c /gmat/src/gui/app/GmatConnection.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GmatConnection.cpp > CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GmatConnection.cpp > CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GmatConnection.cpp -o CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GmatConnection.cpp -o CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.o.requires
@@ -192,17 +192,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GmatConnection.cpp.o.provides.build: src/gui/
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.o: src/gui/app/GmatMainFrame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.o -c /GMAT-R2015a/src/gui/app/GmatMainFrame.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.o -c /gmat/src/gui/app/GmatMainFrame.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GmatMainFrame.cpp > CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GmatMainFrame.cpp > CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GmatMainFrame.cpp -o CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GmatMainFrame.cpp -o CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.o.requires
@@ -215,17 +215,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GmatMainFrame.cpp.o.provides.build: src/gui/C
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.o: src/gui/app/GmatMenuBar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.o -c /GMAT-R2015a/src/gui/app/GmatMenuBar.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.o -c /gmat/src/gui/app/GmatMenuBar.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GmatMenuBar.cpp > CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GmatMenuBar.cpp > CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GmatMenuBar.cpp -o CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GmatMenuBar.cpp -o CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.o.requires
@@ -238,17 +238,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GmatMenuBar.cpp.o.provides.build: src/gui/CMa
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.o: src/gui/app/GmatToolBar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.o -c /GMAT-R2015a/src/gui/app/GmatToolBar.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.o -c /gmat/src/gui/app/GmatToolBar.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GmatToolBar.cpp > CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GmatToolBar.cpp > CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GmatToolBar.cpp -o CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GmatToolBar.cpp -o CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.o.requires
@@ -261,17 +261,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GmatToolBar.cpp.o.provides.build: src/gui/CMa
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.o: src/gui/app/GuiInterpreter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.o -c /GMAT-R2015a/src/gui/app/GuiInterpreter.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.o -c /gmat/src/gui/app/GuiInterpreter.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GuiInterpreter.cpp > CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GuiInterpreter.cpp > CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GuiInterpreter.cpp -o CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GuiInterpreter.cpp -o CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.o.requires
@@ -284,17 +284,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GuiInterpreter.cpp.o.provides.build: src/gui/
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.o: src/gui/app/GuiListenerManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.o -c /GMAT-R2015a/src/gui/app/GuiListenerManager.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.o -c /gmat/src/gui/app/GuiListenerManager.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GuiListenerManager.cpp > CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GuiListenerManager.cpp > CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GuiListenerManager.cpp -o CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GuiListenerManager.cpp -o CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.o.requires
@@ -307,17 +307,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GuiListenerManager.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.o: src/gui/app/GuiMessageReceiver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.o -c /GMAT-R2015a/src/gui/app/GuiMessageReceiver.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.o -c /gmat/src/gui/app/GuiMessageReceiver.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GuiMessageReceiver.cpp > CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GuiMessageReceiver.cpp > CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GuiMessageReceiver.cpp -o CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GuiMessageReceiver.cpp -o CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.o.requires
@@ -330,17 +330,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GuiMessageReceiver.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.o: src/gui/app/GmatNotebook.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.o -c /GMAT-R2015a/src/gui/app/GmatNotebook.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.o -c /gmat/src/gui/app/GmatNotebook.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GmatNotebook.cpp > CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GmatNotebook.cpp > CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GmatNotebook.cpp -o CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GmatNotebook.cpp -o CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.o.requires
@@ -353,17 +353,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GmatNotebook.cpp.o.provides.build: src/gui/CM
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.o: src/gui/app/GmatServer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.o -c /GMAT-R2015a/src/gui/app/GmatServer.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.o -c /gmat/src/gui/app/GmatServer.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GmatServer.cpp > CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GmatServer.cpp > CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GmatServer.cpp -o CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GmatServer.cpp -o CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.o.requires
@@ -376,17 +376,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GmatServer.cpp.o.provides.build: src/gui/CMak
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.o: src/gui/app/GmatTreeItemData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.o -c /GMAT-R2015a/src/gui/app/GmatTreeItemData.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.o -c /gmat/src/gui/app/GmatTreeItemData.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GmatTreeItemData.cpp > CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GmatTreeItemData.cpp > CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GmatTreeItemData.cpp -o CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GmatTreeItemData.cpp -o CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.o.requires
@@ -399,17 +399,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GmatTreeItemData.cpp.o.provides.build: src/gu
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.o: src/gui/app/GuiPlotReceiver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.o -c /GMAT-R2015a/src/gui/app/GuiPlotReceiver.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.o -c /gmat/src/gui/app/GuiPlotReceiver.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/GuiPlotReceiver.cpp > CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/GuiPlotReceiver.cpp > CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/GuiPlotReceiver.cpp -o CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/GuiPlotReceiver.cpp -o CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.o.requires
@@ -422,17 +422,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/GuiPlotReceiver.cpp.o.provides.build: src/gui
 
 src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.o: src/gui/app/InteractiveMatlabDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.o -c /GMAT-R2015a/src/gui/app/InteractiveMatlabDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.o -c /gmat/src/gui/app/InteractiveMatlabDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/InteractiveMatlabDialog.cpp > CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/InteractiveMatlabDialog.cpp > CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/InteractiveMatlabDialog.cpp -o CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/InteractiveMatlabDialog.cpp -o CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.o.requires
@@ -445,17 +445,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/InteractiveMatlabDialog.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.o: src/gui/app/MissionTreeItemData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.o -c /GMAT-R2015a/src/gui/app/MissionTreeItemData.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.o -c /gmat/src/gui/app/MissionTreeItemData.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/MissionTreeItemData.cpp > CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/MissionTreeItemData.cpp > CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/MissionTreeItemData.cpp -o CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/MissionTreeItemData.cpp -o CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.o.requires
@@ -468,17 +468,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/MissionTreeItemData.cpp.o.provides.build: src
 
 src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.o: src/gui/app/RunScriptFolderDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.o -c /GMAT-R2015a/src/gui/app/RunScriptFolderDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.o -c /gmat/src/gui/app/RunScriptFolderDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/RunScriptFolderDialog.cpp > CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/RunScriptFolderDialog.cpp > CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/RunScriptFolderDialog.cpp -o CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/RunScriptFolderDialog.cpp -o CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.o.requires
@@ -491,17 +491,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/RunScriptFolderDialog.cpp.o.provides.build: s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.o: src/gui/app/ResourceTree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.o -c /GMAT-R2015a/src/gui/app/ResourceTree.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.o -c /gmat/src/gui/app/ResourceTree.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/ResourceTree.cpp > CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/ResourceTree.cpp > CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/ResourceTree.cpp -o CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/ResourceTree.cpp -o CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.o.requires
@@ -514,17 +514,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/ResourceTree.cpp.o.provides.build: src/gui/CM
 
 src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.o: src/gui/app/ScriptPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.o -c /GMAT-R2015a/src/gui/app/ScriptPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.o -c /gmat/src/gui/app/ScriptPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/ScriptPanel.cpp > CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/ScriptPanel.cpp > CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/ScriptPanel.cpp -o CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/ScriptPanel.cpp -o CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.o.requires
@@ -537,17 +537,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/ScriptPanel.cpp.o.provides.build: src/gui/CMa
 
 src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.o: src/gui/app/SetPathDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.o -c /GMAT-R2015a/src/gui/app/SetPathDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.o -c /gmat/src/gui/app/SetPathDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/SetPathDialog.cpp > CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/SetPathDialog.cpp > CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/SetPathDialog.cpp -o CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/SetPathDialog.cpp -o CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.o.requires
@@ -560,17 +560,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/SetPathDialog.cpp.o.provides.build: src/gui/C
 
 src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.o: src/gui/app/TextEphemFileDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.o -c /GMAT-R2015a/src/gui/app/TextEphemFileDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.o -c /gmat/src/gui/app/TextEphemFileDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/TextEphemFileDialog.cpp > CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/TextEphemFileDialog.cpp > CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/TextEphemFileDialog.cpp -o CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/TextEphemFileDialog.cpp -o CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.o.requires
@@ -583,17 +583,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/TextEphemFileDialog.cpp.o.provides.build: src
 
 src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.o: src/gui/app/WelcomePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.o -c /GMAT-R2015a/src/gui/app/WelcomePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.o -c /gmat/src/gui/app/WelcomePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/app/WelcomePanel.cpp > CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/app/WelcomePanel.cpp > CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/app/WelcomePanel.cpp -o CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/app/WelcomePanel.cpp -o CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.o.requires
@@ -606,17 +606,17 @@ src/gui/CMakeFiles/GmatGUI.dir/app/WelcomePanel.cpp.o.provides.build: src/gui/CM
 
 src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.o: src/gui/asset/GroundStationPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.o -c /GMAT-R2015a/src/gui/asset/GroundStationPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.o -c /gmat/src/gui/asset/GroundStationPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/asset/GroundStationPanel.cpp > CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/asset/GroundStationPanel.cpp > CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/asset/GroundStationPanel.cpp -o CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/asset/GroundStationPanel.cpp -o CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.o.requires
@@ -629,17 +629,17 @@ src/gui/CMakeFiles/GmatGUI.dir/asset/GroundStationPanel.cpp.o.provides.build: sr
 
 src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.o: src/gui/burn/FiniteBurnSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/burn/FiniteBurnSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.o -c /gmat/src/gui/burn/FiniteBurnSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/burn/FiniteBurnSetupPanel.cpp > CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/burn/FiniteBurnSetupPanel.cpp > CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/burn/FiniteBurnSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/burn/FiniteBurnSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.o.requires
@@ -652,17 +652,17 @@ src/gui/CMakeFiles/GmatGUI.dir/burn/FiniteBurnSetupPanel.cpp.o.provides.build: s
 
 src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.o: src/gui/burn/ImpulsiveBurnSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/burn/ImpulsiveBurnSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.o -c /gmat/src/gui/burn/ImpulsiveBurnSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/burn/ImpulsiveBurnSetupPanel.cpp > CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/burn/ImpulsiveBurnSetupPanel.cpp > CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/burn/ImpulsiveBurnSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/burn/ImpulsiveBurnSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.o.requires
@@ -675,17 +675,17 @@ src/gui/CMakeFiles/GmatGUI.dir/burn/ImpulsiveBurnSetupPanel.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.o: src/gui/command/AchievePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.o -c /GMAT-R2015a/src/gui/command/AchievePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.o -c /gmat/src/gui/command/AchievePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/AchievePanel.cpp > CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/AchievePanel.cpp > CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/AchievePanel.cpp -o CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/AchievePanel.cpp -o CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.o.requires
@@ -698,17 +698,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/AchievePanel.cpp.o.provides.build: src/gu
 
 src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.o: src/gui/command/AssignmentPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.o -c /GMAT-R2015a/src/gui/command/AssignmentPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.o -c /gmat/src/gui/command/AssignmentPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/AssignmentPanel.cpp > CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/AssignmentPanel.cpp > CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/AssignmentPanel.cpp -o CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/AssignmentPanel.cpp -o CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.o.requires
@@ -721,17 +721,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/AssignmentPanel.cpp.o.provides.build: src
 
 src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.o: src/gui/command/BeginFiniteBurnPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.o -c /GMAT-R2015a/src/gui/command/BeginFiniteBurnPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.o -c /gmat/src/gui/command/BeginFiniteBurnPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/BeginFiniteBurnPanel.cpp > CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/BeginFiniteBurnPanel.cpp > CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/BeginFiniteBurnPanel.cpp -o CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/BeginFiniteBurnPanel.cpp -o CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.o.requires
@@ -744,17 +744,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/BeginFiniteBurnPanel.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.o: src/gui/command/CallFunctionPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.o -c /GMAT-R2015a/src/gui/command/CallFunctionPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.o -c /gmat/src/gui/command/CallFunctionPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/CallFunctionPanel.cpp > CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/CallFunctionPanel.cpp > CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/CallFunctionPanel.cpp -o CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/CallFunctionPanel.cpp -o CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.o.requires
@@ -767,17 +767,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/CallFunctionPanel.cpp.o.provides.build: s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.o: src/gui/command/EndFiniteBurnPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.o -c /GMAT-R2015a/src/gui/command/EndFiniteBurnPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.o -c /gmat/src/gui/command/EndFiniteBurnPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/EndFiniteBurnPanel.cpp > CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/EndFiniteBurnPanel.cpp > CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/EndFiniteBurnPanel.cpp -o CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/EndFiniteBurnPanel.cpp -o CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.o.requires
@@ -790,17 +790,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/EndFiniteBurnPanel.cpp.o.provides.build: 
 
 src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.o: src/gui/command/FindEventsPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.o -c /GMAT-R2015a/src/gui/command/FindEventsPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.o -c /gmat/src/gui/command/FindEventsPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/FindEventsPanel.cpp > CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/FindEventsPanel.cpp > CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/FindEventsPanel.cpp -o CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/FindEventsPanel.cpp -o CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.o.requires
@@ -813,17 +813,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/FindEventsPanel.cpp.o.provides.build: src
 
 src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.o: src/gui/command/GmatCommandPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.o -c /GMAT-R2015a/src/gui/command/GmatCommandPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.o -c /gmat/src/gui/command/GmatCommandPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/GmatCommandPanel.cpp > CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/GmatCommandPanel.cpp > CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/GmatCommandPanel.cpp -o CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/GmatCommandPanel.cpp -o CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.o.requires
@@ -836,17 +836,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/GmatCommandPanel.cpp.o.provides.build: sr
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.o: src/gui/command/ManageObjectPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.o -c /GMAT-R2015a/src/gui/command/ManageObjectPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.o -c /gmat/src/gui/command/ManageObjectPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/ManageObjectPanel.cpp > CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/ManageObjectPanel.cpp > CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/ManageObjectPanel.cpp -o CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/ManageObjectPanel.cpp -o CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.o.requires
@@ -859,17 +859,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/ManageObjectPanel.cpp.o.provides.build: s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.o: src/gui/command/ManeuverPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.o -c /GMAT-R2015a/src/gui/command/ManeuverPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.o -c /gmat/src/gui/command/ManeuverPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/ManeuverPanel.cpp > CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/ManeuverPanel.cpp > CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/ManeuverPanel.cpp -o CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/ManeuverPanel.cpp -o CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.o.requires
@@ -882,17 +882,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/ManeuverPanel.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.o: src/gui/command/MinimizePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.o -c /GMAT-R2015a/src/gui/command/MinimizePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.o -c /gmat/src/gui/command/MinimizePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/MinimizePanel.cpp > CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/MinimizePanel.cpp > CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/MinimizePanel.cpp -o CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/MinimizePanel.cpp -o CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.o.requires
@@ -905,17 +905,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/MinimizePanel.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.o: src/gui/command/NonlinearConstraintPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.o -c /GMAT-R2015a/src/gui/command/NonlinearConstraintPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.o -c /gmat/src/gui/command/NonlinearConstraintPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/NonlinearConstraintPanel.cpp > CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/NonlinearConstraintPanel.cpp > CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/NonlinearConstraintPanel.cpp -o CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/NonlinearConstraintPanel.cpp -o CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.o.requires
@@ -928,17 +928,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/NonlinearConstraintPanel.cpp.o.provides.b
 
 src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.o: src/gui/command/OptimizePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.o -c /GMAT-R2015a/src/gui/command/OptimizePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.o -c /gmat/src/gui/command/OptimizePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/OptimizePanel.cpp > CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/OptimizePanel.cpp > CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/OptimizePanel.cpp -o CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/OptimizePanel.cpp -o CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.o.requires
@@ -951,17 +951,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/OptimizePanel.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.o: src/gui/command/PropagatePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.o -c /GMAT-R2015a/src/gui/command/PropagatePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.o -c /gmat/src/gui/command/PropagatePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/PropagatePanel.cpp > CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/PropagatePanel.cpp > CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/PropagatePanel.cpp -o CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/PropagatePanel.cpp -o CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.o.requires
@@ -974,17 +974,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/PropagatePanel.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.o: src/gui/command/ReportPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.o -c /GMAT-R2015a/src/gui/command/ReportPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.o -c /gmat/src/gui/command/ReportPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/ReportPanel.cpp > CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/ReportPanel.cpp > CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/ReportPanel.cpp -o CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/ReportPanel.cpp -o CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.o.requires
@@ -997,17 +997,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/ReportPanel.cpp.o.provides.build: src/gui
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.o: src/gui/command/ScriptEventPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.o -c /GMAT-R2015a/src/gui/command/ScriptEventPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.o -c /gmat/src/gui/command/ScriptEventPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/ScriptEventPanel.cpp > CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/ScriptEventPanel.cpp > CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/ScriptEventPanel.cpp -o CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/ScriptEventPanel.cpp -o CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.o.requires
@@ -1020,17 +1020,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/ScriptEventPanel.cpp.o.provides.build: sr
 
 src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.o: src/gui/command/TargetPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.o -c /GMAT-R2015a/src/gui/command/TargetPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.o -c /gmat/src/gui/command/TargetPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/TargetPanel.cpp > CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/TargetPanel.cpp > CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/TargetPanel.cpp -o CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/TargetPanel.cpp -o CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.o.requires
@@ -1043,17 +1043,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/TargetPanel.cpp.o.provides.build: src/gui
 
 src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.o: src/gui/command/TogglePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.o -c /GMAT-R2015a/src/gui/command/TogglePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.o -c /gmat/src/gui/command/TogglePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/TogglePanel.cpp > CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/TogglePanel.cpp > CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/TogglePanel.cpp -o CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/TogglePanel.cpp -o CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.o.requires
@@ -1066,17 +1066,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/TogglePanel.cpp.o.provides.build: src/gui
 
 src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.o: src/gui/command/VaryPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.o -c /GMAT-R2015a/src/gui/command/VaryPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.o -c /gmat/src/gui/command/VaryPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/command/VaryPanel.cpp > CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/command/VaryPanel.cpp > CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/command/VaryPanel.cpp -o CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/command/VaryPanel.cpp -o CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.o.requires
@@ -1089,17 +1089,17 @@ src/gui/CMakeFiles/GmatGUI.dir/command/VaryPanel.cpp.o.provides.build: src/gui/C
 
 src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.o: src/gui/controllogic/ForPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.o -c /GMAT-R2015a/src/gui/controllogic/ForPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.o -c /gmat/src/gui/controllogic/ForPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/controllogic/ForPanel.cpp > CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/controllogic/ForPanel.cpp > CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/controllogic/ForPanel.cpp -o CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/controllogic/ForPanel.cpp -o CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.o.requires
@@ -1112,17 +1112,17 @@ src/gui/CMakeFiles/GmatGUI.dir/controllogic/ForPanel.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.o: src/gui/controllogic/ConditionPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.o -c /GMAT-R2015a/src/gui/controllogic/ConditionPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.o -c /gmat/src/gui/controllogic/ConditionPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/controllogic/ConditionPanel.cpp > CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/controllogic/ConditionPanel.cpp > CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/controllogic/ConditionPanel.cpp -o CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/controllogic/ConditionPanel.cpp -o CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.o.requires
@@ -1135,17 +1135,17 @@ src/gui/CMakeFiles/GmatGUI.dir/controllogic/ConditionPanel.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.o: src/gui/coordsystem/CoordPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.o -c /GMAT-R2015a/src/gui/coordsystem/CoordPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.o -c /gmat/src/gui/coordsystem/CoordPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/coordsystem/CoordPanel.cpp > CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/coordsystem/CoordPanel.cpp > CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/coordsystem/CoordPanel.cpp -o CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/coordsystem/CoordPanel.cpp -o CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.o.requires
@@ -1158,17 +1158,17 @@ src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordPanel.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.o: src/gui/coordsystem/CoordSysCreateDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.o -c /GMAT-R2015a/src/gui/coordsystem/CoordSysCreateDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.o -c /gmat/src/gui/coordsystem/CoordSysCreateDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/coordsystem/CoordSysCreateDialog.cpp > CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/coordsystem/CoordSysCreateDialog.cpp > CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/coordsystem/CoordSysCreateDialog.cpp -o CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/coordsystem/CoordSysCreateDialog.cpp -o CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.o.requires
@@ -1181,17 +1181,17 @@ src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSysCreateDialog.cpp.o.provides.b
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.o: src/gui/coordsystem/CoordSystemConfigPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.o -c /GMAT-R2015a/src/gui/coordsystem/CoordSystemConfigPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.o -c /gmat/src/gui/coordsystem/CoordSystemConfigPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/coordsystem/CoordSystemConfigPanel.cpp > CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/coordsystem/CoordSystemConfigPanel.cpp > CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/coordsystem/CoordSystemConfigPanel.cpp -o CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/coordsystem/CoordSystemConfigPanel.cpp -o CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.o.requires
@@ -1204,17 +1204,17 @@ src/gui/CMakeFiles/GmatGUI.dir/coordsystem/CoordSystemConfigPanel.cpp.o.provides
 
 src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.o: src/gui/event/EventLocatorPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.o -c /GMAT-R2015a/src/gui/event/EventLocatorPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.o -c /gmat/src/gui/event/EventLocatorPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/event/EventLocatorPanel.cpp > CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/event/EventLocatorPanel.cpp > CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/event/EventLocatorPanel.cpp -o CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/event/EventLocatorPanel.cpp -o CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.o.requires
@@ -1227,17 +1227,17 @@ src/gui/CMakeFiles/GmatGUI.dir/event/EventLocatorPanel.cpp.o.provides.build: src
 
 src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.o: src/gui/forcemodel/DragInputsDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.o -c /GMAT-R2015a/src/gui/forcemodel/DragInputsDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.o -c /gmat/src/gui/forcemodel/DragInputsDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/forcemodel/DragInputsDialog.cpp > CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/forcemodel/DragInputsDialog.cpp > CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/forcemodel/DragInputsDialog.cpp -o CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/forcemodel/DragInputsDialog.cpp -o CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.o.requires
@@ -1250,17 +1250,17 @@ src/gui/CMakeFiles/GmatGUI.dir/forcemodel/DragInputsDialog.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.o: src/gui/foundation/ArraySetupDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.o -c /GMAT-R2015a/src/gui/foundation/ArraySetupDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.o -c /gmat/src/gui/foundation/ArraySetupDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/ArraySetupDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/ArraySetupDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/ArraySetupDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/ArraySetupDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.o.requires
@@ -1273,17 +1273,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupDialog.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.o: src/gui/foundation/ArraySetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.o -c /GMAT-R2015a/src/gui/foundation/ArraySetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.o -c /gmat/src/gui/foundation/ArraySetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/ArraySetupPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/ArraySetupPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/ArraySetupPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/ArraySetupPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.o.requires
@@ -1296,17 +1296,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/ArraySetupPanel.cpp.o.provides.build: 
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.o: src/gui/foundation/GmatColorPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.o -c /GMAT-R2015a/src/gui/foundation/GmatColorPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.o -c /gmat/src/gui/foundation/GmatColorPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/GmatColorPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/GmatColorPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/GmatColorPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/GmatColorPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.o.requires
@@ -1319,17 +1319,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatColorPanel.cpp.o.provides.build: s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.o: src/gui/foundation/GmatDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.o -c /GMAT-R2015a/src/gui/foundation/GmatDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.o -c /gmat/src/gui/foundation/GmatDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/GmatDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/GmatDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/GmatDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/GmatDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.o.requires
@@ -1342,17 +1342,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatDialog.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.o: src/gui/foundation/GmatMdiChildFrame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.o -c /GMAT-R2015a/src/gui/foundation/GmatMdiChildFrame.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.o -c /gmat/src/gui/foundation/GmatMdiChildFrame.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/GmatMdiChildFrame.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/GmatMdiChildFrame.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/GmatMdiChildFrame.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/GmatMdiChildFrame.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.o.requires
@@ -1365,17 +1365,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatMdiChildFrame.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.o: src/gui/foundation/GmatPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.o -c /GMAT-R2015a/src/gui/foundation/GmatPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.o -c /gmat/src/gui/foundation/GmatPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/GmatPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/GmatPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/GmatPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/GmatPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.o.requires
@@ -1388,17 +1388,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatPanel.cpp.o.provides.build: src/gu
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.o: src/gui/foundation/GmatBaseSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/foundation/GmatBaseSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.o -c /gmat/src/gui/foundation/GmatBaseSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/GmatBaseSetupPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/GmatBaseSetupPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/GmatBaseSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/GmatBaseSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.o.requires
@@ -1411,17 +1411,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatBaseSetupPanel.cpp.o.provides.buil
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.o: src/gui/foundation/GmatSavePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.o -c /GMAT-R2015a/src/gui/foundation/GmatSavePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.o -c /gmat/src/gui/foundation/GmatSavePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/GmatSavePanel.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/GmatSavePanel.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/GmatSavePanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/GmatSavePanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.o.requires
@@ -1434,17 +1434,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatSavePanel.cpp.o.provides.build: sr
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.o: src/gui/foundation/GmatStaticBoxSizer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.o -c /GMAT-R2015a/src/gui/foundation/GmatStaticBoxSizer.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.o -c /gmat/src/gui/foundation/GmatStaticBoxSizer.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/GmatStaticBoxSizer.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/GmatStaticBoxSizer.cpp > CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/GmatStaticBoxSizer.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/GmatStaticBoxSizer.cpp -o CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.o.requires
@@ -1457,17 +1457,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/GmatStaticBoxSizer.cpp.o.provides.buil
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.o: src/gui/foundation/GuiItemManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.o -c /GMAT-R2015a/src/gui/foundation/GuiItemManager.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.o -c /gmat/src/gui/foundation/GuiItemManager.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/GuiItemManager.cpp > CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/GuiItemManager.cpp > CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/GuiItemManager.cpp -o CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/GuiItemManager.cpp -o CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.o.requires
@@ -1480,17 +1480,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/GuiItemManager.cpp.o.provides.build: s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.o: src/gui/foundation/MultiPathSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/foundation/MultiPathSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.o -c /gmat/src/gui/foundation/MultiPathSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/MultiPathSetupPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/MultiPathSetupPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/MultiPathSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/MultiPathSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.o.requires
@@ -1503,17 +1503,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/MultiPathSetupPanel.cpp.o.provides.bui
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.o: src/gui/foundation/ParameterCreateDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.o -c /GMAT-R2015a/src/gui/foundation/ParameterCreateDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.o -c /gmat/src/gui/foundation/ParameterCreateDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/ParameterCreateDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/ParameterCreateDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/ParameterCreateDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/ParameterCreateDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.o.requires
@@ -1526,17 +1526,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterCreateDialog.cpp.o.provides.b
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.o: src/gui/foundation/ParameterSelectDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.o -c /GMAT-R2015a/src/gui/foundation/ParameterSelectDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.o -c /gmat/src/gui/foundation/ParameterSelectDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/ParameterSelectDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/ParameterSelectDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/ParameterSelectDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/ParameterSelectDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.o.requires
@@ -1549,17 +1549,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSelectDialog.cpp.o.provides.b
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.o: src/gui/foundation/ParameterSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/foundation/ParameterSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.o -c /gmat/src/gui/foundation/ParameterSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/ParameterSetupPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/ParameterSetupPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/ParameterSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/ParameterSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.o.requires
@@ -1572,17 +1572,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/ParameterSetupPanel.cpp.o.provides.bui
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.o: src/gui/foundation/ShowScriptDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.o -c /GMAT-R2015a/src/gui/foundation/ShowScriptDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.o -c /gmat/src/gui/foundation/ShowScriptDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/ShowScriptDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/ShowScriptDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/ShowScriptDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/ShowScriptDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.o.requires
@@ -1595,17 +1595,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowScriptDialog.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.o: src/gui/foundation/ShowSummaryDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.o -c /GMAT-R2015a/src/gui/foundation/ShowSummaryDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.o -c /gmat/src/gui/foundation/ShowSummaryDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/ShowSummaryDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/ShowSummaryDialog.cpp > CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/ShowSummaryDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/ShowSummaryDialog.cpp -o CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.o.requires
@@ -1618,17 +1618,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/ShowSummaryDialog.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.o: src/gui/foundation/SinglePathSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/foundation/SinglePathSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.o -c /gmat/src/gui/foundation/SinglePathSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/SinglePathSetupPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/SinglePathSetupPanel.cpp > CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/SinglePathSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/SinglePathSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.o.requires
@@ -1641,17 +1641,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/SinglePathSetupPanel.cpp.o.provides.bu
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.o: src/gui/foundation/UserInputValidator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.o -c /GMAT-R2015a/src/gui/foundation/UserInputValidator.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.o -c /gmat/src/gui/foundation/UserInputValidator.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/foundation/UserInputValidator.cpp > CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/foundation/UserInputValidator.cpp > CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/foundation/UserInputValidator.cpp -o CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/foundation/UserInputValidator.cpp -o CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.o.requires
@@ -1664,17 +1664,17 @@ src/gui/CMakeFiles/GmatGUI.dir/foundation/UserInputValidator.cpp.o.provides.buil
 
 src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.o: src/gui/function/FunctionSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/function/FunctionSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.o -c /gmat/src/gui/function/FunctionSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/function/FunctionSetupPanel.cpp > CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/function/FunctionSetupPanel.cpp > CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/function/FunctionSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/function/FunctionSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.o.requires
@@ -1687,17 +1687,17 @@ src/gui/CMakeFiles/GmatGUI.dir/function/FunctionSetupPanel.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.o: src/gui/function/MatlabFunctionSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/function/MatlabFunctionSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.o -c /gmat/src/gui/function/MatlabFunctionSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/function/MatlabFunctionSetupPanel.cpp > CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/function/MatlabFunctionSetupPanel.cpp > CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/function/MatlabFunctionSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/function/MatlabFunctionSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.o.requires
@@ -1710,17 +1710,17 @@ src/gui/CMakeFiles/GmatGUI.dir/function/MatlabFunctionSetupPanel.cpp.o.provides.
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.o: src/gui/hardware/BurnThrusterPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.o -c /GMAT-R2015a/src/gui/hardware/BurnThrusterPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.o -c /gmat/src/gui/hardware/BurnThrusterPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/hardware/BurnThrusterPanel.cpp > CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/hardware/BurnThrusterPanel.cpp > CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/hardware/BurnThrusterPanel.cpp -o CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/hardware/BurnThrusterPanel.cpp -o CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.o.requires
@@ -1733,17 +1733,17 @@ src/gui/CMakeFiles/GmatGUI.dir/hardware/BurnThrusterPanel.cpp.o.provides.build: 
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.o: src/gui/hardware/PowerSystemConfigPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.o -c /GMAT-R2015a/src/gui/hardware/PowerSystemConfigPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.o -c /gmat/src/gui/hardware/PowerSystemConfigPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/hardware/PowerSystemConfigPanel.cpp > CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/hardware/PowerSystemConfigPanel.cpp > CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/hardware/PowerSystemConfigPanel.cpp -o CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/hardware/PowerSystemConfigPanel.cpp -o CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.o.requires
@@ -1756,17 +1756,17 @@ src/gui/CMakeFiles/GmatGUI.dir/hardware/PowerSystemConfigPanel.cpp.o.provides.bu
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.o: src/gui/hardware/ThrusterCoefficientDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.o -c /GMAT-R2015a/src/gui/hardware/ThrusterCoefficientDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.o -c /gmat/src/gui/hardware/ThrusterCoefficientDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/hardware/ThrusterCoefficientDialog.cpp > CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/hardware/ThrusterCoefficientDialog.cpp > CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/hardware/ThrusterCoefficientDialog.cpp -o CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/hardware/ThrusterCoefficientDialog.cpp -o CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.o.requires
@@ -1779,17 +1779,17 @@ src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterCoefficientDialog.cpp.o.provides
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.o: src/gui/hardware/ThrusterConfigPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.o -c /GMAT-R2015a/src/gui/hardware/ThrusterConfigPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.o -c /gmat/src/gui/hardware/ThrusterConfigPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/hardware/ThrusterConfigPanel.cpp > CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/hardware/ThrusterConfigPanel.cpp > CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/hardware/ThrusterConfigPanel.cpp -o CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/hardware/ThrusterConfigPanel.cpp -o CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.o.requires
@@ -1802,17 +1802,17 @@ src/gui/CMakeFiles/GmatGUI.dir/hardware/ThrusterConfigPanel.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.o: src/gui/mission/DecoratedTree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.o -c /GMAT-R2015a/src/gui/mission/DecoratedTree.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.o -c /gmat/src/gui/mission/DecoratedTree.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/mission/DecoratedTree.cpp > CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/mission/DecoratedTree.cpp > CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/mission/DecoratedTree.cpp -o CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/mission/DecoratedTree.cpp -o CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.o.requires
@@ -1825,17 +1825,17 @@ src/gui/CMakeFiles/GmatGUI.dir/mission/DecoratedTree.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.o: src/gui/mission/MissionTree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.o -c /GMAT-R2015a/src/gui/mission/MissionTree.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.o -c /gmat/src/gui/mission/MissionTree.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/mission/MissionTree.cpp > CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/mission/MissionTree.cpp > CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/mission/MissionTree.cpp -o CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/mission/MissionTree.cpp -o CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.o.requires
@@ -1848,17 +1848,17 @@ src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTree.cpp.o.provides.build: src/gui
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.o: src/gui/mission/MissionTreeToolBar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.o -c /GMAT-R2015a/src/gui/mission/MissionTreeToolBar.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.o -c /gmat/src/gui/mission/MissionTreeToolBar.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/mission/MissionTreeToolBar.cpp > CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/mission/MissionTreeToolBar.cpp > CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/mission/MissionTreeToolBar.cpp -o CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/mission/MissionTreeToolBar.cpp -o CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.o.requires
@@ -1871,17 +1871,17 @@ src/gui/CMakeFiles/GmatGUI.dir/mission/MissionTreeToolBar.cpp.o.provides.build: 
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.o: src/gui/mission/TreeViewOptionDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.o -c /GMAT-R2015a/src/gui/mission/TreeViewOptionDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.o -c /gmat/src/gui/mission/TreeViewOptionDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/mission/TreeViewOptionDialog.cpp > CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/mission/TreeViewOptionDialog.cpp > CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/mission/TreeViewOptionDialog.cpp -o CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/mission/TreeViewOptionDialog.cpp -o CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.o.requires
@@ -1894,17 +1894,17 @@ src/gui/CMakeFiles/GmatGUI.dir/mission/TreeViewOptionDialog.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.o: src/gui/mission/UndockedMissionPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.o -c /GMAT-R2015a/src/gui/mission/UndockedMissionPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.o -c /gmat/src/gui/mission/UndockedMissionPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/mission/UndockedMissionPanel.cpp > CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/mission/UndockedMissionPanel.cpp > CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/mission/UndockedMissionPanel.cpp -o CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/mission/UndockedMissionPanel.cpp -o CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.o.requires
@@ -1917,17 +1917,17 @@ src/gui/CMakeFiles/GmatGUI.dir/mission/UndockedMissionPanel.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.o: src/gui/output/CompareReportPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.o -c /GMAT-R2015a/src/gui/output/CompareReportPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.o -c /gmat/src/gui/output/CompareReportPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/output/CompareReportPanel.cpp > CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/output/CompareReportPanel.cpp > CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/output/CompareReportPanel.cpp -o CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/output/CompareReportPanel.cpp -o CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.o.requires
@@ -1940,17 +1940,17 @@ src/gui/CMakeFiles/GmatGUI.dir/output/CompareReportPanel.cpp.o.provides.build: s
 
 src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.o: src/gui/output/EventFilePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.o -c /GMAT-R2015a/src/gui/output/EventFilePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.o -c /gmat/src/gui/output/EventFilePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/output/EventFilePanel.cpp > CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/output/EventFilePanel.cpp > CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/output/EventFilePanel.cpp -o CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/output/EventFilePanel.cpp -o CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.o.requires
@@ -1963,17 +1963,17 @@ src/gui/CMakeFiles/GmatGUI.dir/output/EventFilePanel.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.o: src/gui/output/OutputTree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.o -c /GMAT-R2015a/src/gui/output/OutputTree.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.o -c /gmat/src/gui/output/OutputTree.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/output/OutputTree.cpp > CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/output/OutputTree.cpp > CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/output/OutputTree.cpp -o CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/output/OutputTree.cpp -o CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.o.requires
@@ -1986,17 +1986,17 @@ src/gui/CMakeFiles/GmatGUI.dir/output/OutputTree.cpp.o.provides.build: src/gui/C
 
 src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.o: src/gui/output/ReportFilePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.o -c /GMAT-R2015a/src/gui/output/ReportFilePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.o -c /gmat/src/gui/output/ReportFilePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/output/ReportFilePanel.cpp > CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/output/ReportFilePanel.cpp > CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/output/ReportFilePanel.cpp -o CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/output/ReportFilePanel.cpp -o CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.o.requires
@@ -2009,17 +2009,17 @@ src/gui/CMakeFiles/GmatGUI.dir/output/ReportFilePanel.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.o: src/gui/propagator/PropagationConfigPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_86)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.o -c /GMAT-R2015a/src/gui/propagator/PropagationConfigPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.o -c /gmat/src/gui/propagator/PropagationConfigPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/propagator/PropagationConfigPanel.cpp > CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/propagator/PropagationConfigPanel.cpp > CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/propagator/PropagationConfigPanel.cpp -o CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/propagator/PropagationConfigPanel.cpp -o CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.o.requires
@@ -2032,17 +2032,17 @@ src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagationConfigPanel.cpp.o.provides.
 
 src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.o: src/gui/propagator/PropagatorSelectDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.o -c /GMAT-R2015a/src/gui/propagator/PropagatorSelectDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.o -c /gmat/src/gui/propagator/PropagatorSelectDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/propagator/PropagatorSelectDialog.cpp > CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/propagator/PropagatorSelectDialog.cpp > CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/propagator/PropagatorSelectDialog.cpp -o CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/propagator/PropagatorSelectDialog.cpp -o CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.o.requires
@@ -2055,17 +2055,17 @@ src/gui/CMakeFiles/GmatGUI.dir/propagator/PropagatorSelectDialog.cpp.o.provides.
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.o: src/gui/rendering/Camera.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_88)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.o -c /GMAT-R2015a/src/gui/rendering/Camera.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.o -c /gmat/src/gui/rendering/Camera.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/Camera.cpp > CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/Camera.cpp > CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/Camera.cpp -o CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/Camera.cpp -o CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.o.requires
@@ -2078,17 +2078,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/Camera.cpp.o.provides.build: src/gui/CM
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.o: src/gui/rendering/GLStars.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_89)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.o -c /GMAT-R2015a/src/gui/rendering/GLStars.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.o -c /gmat/src/gui/rendering/GLStars.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/GLStars.cpp > CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/GLStars.cpp > CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/GLStars.cpp -o CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/GLStars.cpp -o CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.o.requires
@@ -2101,17 +2101,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/GLStars.cpp.o.provides.build: src/gui/C
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.o: src/gui/rendering/GmatOpenGLSupport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_90)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.o -c /GMAT-R2015a/src/gui/rendering/GmatOpenGLSupport.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.o -c /gmat/src/gui/rendering/GmatOpenGLSupport.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/GmatOpenGLSupport.cpp > CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/GmatOpenGLSupport.cpp > CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/GmatOpenGLSupport.cpp -o CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/GmatOpenGLSupport.cpp -o CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.o.requires
@@ -2124,17 +2124,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/GmatOpenGLSupport.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.o: src/gui/rendering/Light.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_91)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/Light.cpp.o -c /GMAT-R2015a/src/gui/rendering/Light.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/Light.cpp.o -c /gmat/src/gui/rendering/Light.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/Light.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/Light.cpp > CMakeFiles/GmatGUI.dir/rendering/Light.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/Light.cpp > CMakeFiles/GmatGUI.dir/rendering/Light.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/Light.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/Light.cpp -o CMakeFiles/GmatGUI.dir/rendering/Light.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/Light.cpp -o CMakeFiles/GmatGUI.dir/rendering/Light.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.o.requires
@@ -2147,17 +2147,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/Light.cpp.o.provides.build: src/gui/CMa
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.o: src/gui/rendering/ModelManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_92)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.o -c /GMAT-R2015a/src/gui/rendering/ModelManager.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.o -c /gmat/src/gui/rendering/ModelManager.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/ModelManager.cpp > CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/ModelManager.cpp > CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/ModelManager.cpp -o CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/ModelManager.cpp -o CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.o.requires
@@ -2170,17 +2170,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelManager.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.o: src/gui/rendering/ModelObject.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_93)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.o -c /GMAT-R2015a/src/gui/rendering/ModelObject.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.o -c /gmat/src/gui/rendering/ModelObject.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/ModelObject.cpp > CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/ModelObject.cpp > CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/ModelObject.cpp -o CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/ModelObject.cpp -o CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.o.requires
@@ -2193,17 +2193,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/ModelObject.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.o: src/gui/rendering/Rendering.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_94)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.o -c /GMAT-R2015a/src/gui/rendering/Rendering.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.o -c /gmat/src/gui/rendering/Rendering.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/Rendering.cpp > CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/Rendering.cpp > CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/Rendering.cpp -o CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/Rendering.cpp -o CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.o.requires
@@ -2216,17 +2216,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/Rendering.cpp.o.provides.build: src/gui
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.o: src/gui/rendering/Structure.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_95)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.o -c /GMAT-R2015a/src/gui/rendering/Structure.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.o -c /gmat/src/gui/rendering/Structure.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/Structure.cpp > CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/Structure.cpp > CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/Structure.cpp -o CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/Structure.cpp -o CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.o.requires
@@ -2239,17 +2239,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/Structure.cpp.o.provides.build: src/gui
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.o: src/gui/rendering/StructureReader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_96)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.o -c /GMAT-R2015a/src/gui/rendering/StructureReader.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.o -c /gmat/src/gui/rendering/StructureReader.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/StructureReader.cpp > CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/StructureReader.cpp > CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/StructureReader.cpp -o CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/StructureReader.cpp -o CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.o.requires
@@ -2262,17 +2262,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader.cpp.o.provides.build: s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.o: src/gui/rendering/StructureReader3ds.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_97)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.o -c /GMAT-R2015a/src/gui/rendering/StructureReader3ds.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.o -c /gmat/src/gui/rendering/StructureReader3ds.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/StructureReader3ds.cpp > CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/StructureReader3ds.cpp > CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/StructureReader3ds.cpp -o CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/StructureReader3ds.cpp -o CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.o.requires
@@ -2285,17 +2285,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/StructureReader3ds.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.o: src/gui/rendering/SurfaceBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_98)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.o -c /GMAT-R2015a/src/gui/rendering/SurfaceBase.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.o -c /gmat/src/gui/rendering/SurfaceBase.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/rendering/SurfaceBase.cpp > CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/rendering/SurfaceBase.cpp > CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/rendering/SurfaceBase.cpp -o CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/rendering/SurfaceBase.cpp -o CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.o.requires
@@ -2308,17 +2308,17 @@ src/gui/CMakeFiles/GmatGUI.dir/rendering/SurfaceBase.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.o: src/gui/solarsys/BarycenterPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_99)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_99)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.o -c /GMAT-R2015a/src/gui/solarsys/BarycenterPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.o -c /gmat/src/gui/solarsys/BarycenterPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solarsys/BarycenterPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solarsys/BarycenterPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solarsys/BarycenterPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solarsys/BarycenterPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.o.requires
@@ -2331,17 +2331,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solarsys/BarycenterPanel.cpp.o.provides.build: sr
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.o: src/gui/solarsys/CelesBodySelectDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_100)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_100)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.o -c /GMAT-R2015a/src/gui/solarsys/CelesBodySelectDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.o -c /gmat/src/gui/solarsys/CelesBodySelectDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solarsys/CelesBodySelectDialog.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solarsys/CelesBodySelectDialog.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solarsys/CelesBodySelectDialog.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solarsys/CelesBodySelectDialog.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.o.requires
@@ -2354,17 +2354,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelesBodySelectDialog.cpp.o.provides.bui
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.o: src/gui/solarsys/CelestialBodyOrbitPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_101)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_101)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.o -c /GMAT-R2015a/src/gui/solarsys/CelestialBodyOrbitPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.o -c /gmat/src/gui/solarsys/CelestialBodyOrbitPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solarsys/CelestialBodyOrbitPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solarsys/CelestialBodyOrbitPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solarsys/CelestialBodyOrbitPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solarsys/CelestialBodyOrbitPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.o.requires
@@ -2377,17 +2377,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrbitPanel.cpp.o.provides.b
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.o: src/gui/solarsys/CelestialBodyOrientationPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_102)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_102)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.o -c /GMAT-R2015a/src/gui/solarsys/CelestialBodyOrientationPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.o -c /gmat/src/gui/solarsys/CelestialBodyOrientationPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solarsys/CelestialBodyOrientationPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solarsys/CelestialBodyOrientationPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solarsys/CelestialBodyOrientationPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solarsys/CelestialBodyOrientationPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.o.requires
@@ -2400,17 +2400,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyOrientationPanel.cpp.o.prov
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.o: src/gui/solarsys/CelestialBodyPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_103)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_103)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.o -c /GMAT-R2015a/src/gui/solarsys/CelestialBodyPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.o -c /gmat/src/gui/solarsys/CelestialBodyPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solarsys/CelestialBodyPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solarsys/CelestialBodyPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solarsys/CelestialBodyPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solarsys/CelestialBodyPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.o.requires
@@ -2423,17 +2423,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPanel.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.o: src/gui/solarsys/CelestialBodyPropertiesPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_104)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_104)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.o -c /GMAT-R2015a/src/gui/solarsys/CelestialBodyPropertiesPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.o -c /gmat/src/gui/solarsys/CelestialBodyPropertiesPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solarsys/CelestialBodyPropertiesPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solarsys/CelestialBodyPropertiesPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solarsys/CelestialBodyPropertiesPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solarsys/CelestialBodyPropertiesPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.o.requires
@@ -2446,17 +2446,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyPropertiesPanel.cpp.o.provi
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.o: src/gui/solarsys/CelestialBodyVisualizationPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_105)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_105)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.o -c /GMAT-R2015a/src/gui/solarsys/CelestialBodyVisualizationPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.o -c /gmat/src/gui/solarsys/CelestialBodyVisualizationPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solarsys/CelestialBodyVisualizationPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solarsys/CelestialBodyVisualizationPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solarsys/CelestialBodyVisualizationPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solarsys/CelestialBodyVisualizationPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.o.requires
@@ -2469,17 +2469,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solarsys/CelestialBodyVisualizationPanel.cpp.o.pr
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.o: src/gui/solarsys/LibrationPointPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_106)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_106)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.o -c /GMAT-R2015a/src/gui/solarsys/LibrationPointPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.o -c /gmat/src/gui/solarsys/LibrationPointPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solarsys/LibrationPointPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solarsys/LibrationPointPanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solarsys/LibrationPointPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solarsys/LibrationPointPanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.o.requires
@@ -2492,17 +2492,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solarsys/LibrationPointPanel.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.o: src/gui/solarsys/UniversePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_107)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_107)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.o -c /GMAT-R2015a/src/gui/solarsys/UniversePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.o -c /gmat/src/gui/solarsys/UniversePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solarsys/UniversePanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solarsys/UniversePanel.cpp > CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solarsys/UniversePanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solarsys/UniversePanel.cpp -o CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.o.requires
@@ -2515,17 +2515,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solarsys/UniversePanel.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.o: src/gui/solver/DCSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_108)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_108)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/solver/DCSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.o -c /gmat/src/gui/solver/DCSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solver/DCSetupPanel.cpp > CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solver/DCSetupPanel.cpp > CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solver/DCSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solver/DCSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.o.requires
@@ -2538,17 +2538,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solver/DCSetupPanel.cpp.o.provides.build: src/gui
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.o: src/gui/solver/SQPSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_109)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_109)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/solver/SQPSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.o -c /gmat/src/gui/solver/SQPSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solver/SQPSetupPanel.cpp > CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solver/SQPSetupPanel.cpp > CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solver/SQPSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solver/SQPSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.o.requires
@@ -2561,17 +2561,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solver/SQPSetupPanel.cpp.o.provides.build: src/gu
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.o: src/gui/solver/SolverCreatePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_110)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_110)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.o -c /GMAT-R2015a/src/gui/solver/SolverCreatePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.o -c /gmat/src/gui/solver/SolverCreatePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solver/SolverCreatePanel.cpp > CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solver/SolverCreatePanel.cpp > CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solver/SolverCreatePanel.cpp -o CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solver/SolverCreatePanel.cpp -o CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.o.requires
@@ -2584,17 +2584,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solver/SolverCreatePanel.cpp.o.provides.build: sr
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.o: src/gui/solver/SolverGoalsPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_111)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_111)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.o -c /GMAT-R2015a/src/gui/solver/SolverGoalsPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.o -c /gmat/src/gui/solver/SolverGoalsPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solver/SolverGoalsPanel.cpp > CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solver/SolverGoalsPanel.cpp > CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solver/SolverGoalsPanel.cpp -o CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solver/SolverGoalsPanel.cpp -o CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.o.requires
@@ -2607,17 +2607,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solver/SolverGoalsPanel.cpp.o.provides.build: src
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.o: src/gui/solver/SolverSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_112)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_112)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/solver/SolverSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.o -c /gmat/src/gui/solver/SolverSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solver/SolverSetupPanel.cpp > CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solver/SolverSetupPanel.cpp > CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solver/SolverSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solver/SolverSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.o.requires
@@ -2630,17 +2630,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solver/SolverSetupPanel.cpp.o.provides.build: src
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.o: src/gui/solver/SolverVariablesPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_113)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_113)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.o -c /GMAT-R2015a/src/gui/solver/SolverVariablesPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.o -c /gmat/src/gui/solver/SolverVariablesPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/solver/SolverVariablesPanel.cpp > CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/solver/SolverVariablesPanel.cpp > CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/solver/SolverVariablesPanel.cpp -o CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/solver/SolverVariablesPanel.cpp -o CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.o.requires
@@ -2653,17 +2653,17 @@ src/gui/CMakeFiles/GmatGUI.dir/solver/SolverVariablesPanel.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.o: src/gui/spacecraft/AttitudePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_114)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_114)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/AttitudePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.o -c /gmat/src/gui/spacecraft/AttitudePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/AttitudePanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/AttitudePanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/AttitudePanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/AttitudePanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.o.requires
@@ -2676,17 +2676,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/AttitudePanel.cpp.o.provides.build: sr
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.o: src/gui/spacecraft/BallisticsMassPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_115)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_115)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/BallisticsMassPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.o -c /gmat/src/gui/spacecraft/BallisticsMassPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/BallisticsMassPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/BallisticsMassPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/BallisticsMassPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/BallisticsMassPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.o.requires
@@ -2699,17 +2699,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/BallisticsMassPanel.cpp.o.provides.bui
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.o: src/gui/spacecraft/FormationSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_116)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_116)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/FormationSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.o -c /gmat/src/gui/spacecraft/FormationSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/FormationSetupPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/FormationSetupPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/FormationSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/FormationSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.o.requires
@@ -2722,17 +2722,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/FormationSetupPanel.cpp.o.provides.bui
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.o: src/gui/spacecraft/OrbitDesignerDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_117)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_117)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/OrbitDesignerDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.o -c /gmat/src/gui/spacecraft/OrbitDesignerDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/OrbitDesignerDialog.cpp > CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/OrbitDesignerDialog.cpp > CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/OrbitDesignerDialog.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/OrbitDesignerDialog.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.o.requires
@@ -2745,17 +2745,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitDesignerDialog.cpp.o.provides.bui
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.o: src/gui/spacecraft/OrbitPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_118)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_118)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/OrbitPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.o -c /gmat/src/gui/spacecraft/OrbitPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/OrbitPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/OrbitPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/OrbitPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/OrbitPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.o.requires
@@ -2768,17 +2768,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitPanel.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.o: src/gui/spacecraft/OrbitSummaryDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_119)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_119)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/OrbitSummaryDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.o -c /gmat/src/gui/spacecraft/OrbitSummaryDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/OrbitSummaryDialog.cpp > CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/OrbitSummaryDialog.cpp > CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/OrbitSummaryDialog.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/OrbitSummaryDialog.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.o.requires
@@ -2791,17 +2791,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/OrbitSummaryDialog.cpp.o.provides.buil
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.o: src/gui/spacecraft/PowerSystemPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_120)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_120)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/PowerSystemPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.o -c /gmat/src/gui/spacecraft/PowerSystemPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/PowerSystemPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/PowerSystemPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/PowerSystemPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/PowerSystemPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.o.requires
@@ -2814,17 +2814,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/PowerSystemPanel.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.o: src/gui/spacecraft/SpacecraftPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_121)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_121)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/SpacecraftPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.o -c /gmat/src/gui/spacecraft/SpacecraftPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/SpacecraftPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/SpacecraftPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/SpacecraftPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/SpacecraftPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.o.requires
@@ -2837,17 +2837,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpacecraftPanel.cpp.o.provides.build: 
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.o: src/gui/spacecraft/SpaceObjectSelectDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_122)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_122)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/SpaceObjectSelectDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.o -c /gmat/src/gui/spacecraft/SpaceObjectSelectDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/SpaceObjectSelectDialog.cpp > CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/SpaceObjectSelectDialog.cpp > CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/SpaceObjectSelectDialog.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/SpaceObjectSelectDialog.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.o.requires
@@ -2860,17 +2860,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpaceObjectSelectDialog.cpp.o.provides
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.o: src/gui/spacecraft/TankPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_123)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_123)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/TankPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.o -c /gmat/src/gui/spacecraft/TankPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/TankPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/TankPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/TankPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/TankPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.o.requires
@@ -2883,17 +2883,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/TankPanel.cpp.o.provides.build: src/gu
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.o: src/gui/spacecraft/ThrusterPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_124)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_124)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/ThrusterPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.o -c /gmat/src/gui/spacecraft/ThrusterPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/ThrusterPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/ThrusterPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/ThrusterPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/ThrusterPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.o.requires
@@ -2906,17 +2906,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/ThrusterPanel.cpp.o.provides.build: sr
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.o: src/gui/spacecraft/VisualModelCanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_125)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_125)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/VisualModelCanvas.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.o -c /gmat/src/gui/spacecraft/VisualModelCanvas.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/VisualModelCanvas.cpp > CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/VisualModelCanvas.cpp > CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/VisualModelCanvas.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/VisualModelCanvas.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.o.requires
@@ -2929,17 +2929,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelCanvas.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.o: src/gui/spacecraft/VisualModelPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_126)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_126)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/VisualModelPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.o -c /gmat/src/gui/spacecraft/VisualModelPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/VisualModelPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/VisualModelPanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/VisualModelPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/VisualModelPanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.o.requires
@@ -2952,17 +2952,17 @@ src/gui/CMakeFiles/GmatGUI.dir/spacecraft/VisualModelPanel.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.o: src/gui/subscriber/EphemerisFilePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_127)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_127)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.o -c /GMAT-R2015a/src/gui/subscriber/EphemerisFilePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.o -c /gmat/src/gui/subscriber/EphemerisFilePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/EphemerisFilePanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/EphemerisFilePanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/EphemerisFilePanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/EphemerisFilePanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.o.requires
@@ -2975,17 +2975,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/EphemerisFilePanel.cpp.o.provides.buil
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.o: src/gui/subscriber/GroundTrackCanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_128)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_128)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.o -c /GMAT-R2015a/src/gui/subscriber/GroundTrackCanvas.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.o -c /gmat/src/gui/subscriber/GroundTrackCanvas.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/GroundTrackCanvas.cpp > CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/GroundTrackCanvas.cpp > CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/GroundTrackCanvas.cpp -o CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/GroundTrackCanvas.cpp -o CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.o.requires
@@ -2998,17 +2998,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackCanvas.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.o: src/gui/subscriber/GroundTrackPlotPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_129)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_129)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.o -c /GMAT-R2015a/src/gui/subscriber/GroundTrackPlotPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.o -c /gmat/src/gui/subscriber/GroundTrackPlotPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/GroundTrackPlotPanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/GroundTrackPlotPanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/GroundTrackPlotPanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/GroundTrackPlotPanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.o.requires
@@ -3021,17 +3021,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/GroundTrackPlotPanel.cpp.o.provides.bu
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.o: src/gui/subscriber/MdiChild3DViewFrame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_130)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_130)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.o -c /GMAT-R2015a/src/gui/subscriber/MdiChild3DViewFrame.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.o -c /gmat/src/gui/subscriber/MdiChild3DViewFrame.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/MdiChild3DViewFrame.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/MdiChild3DViewFrame.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/MdiChild3DViewFrame.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/MdiChild3DViewFrame.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.o.requires
@@ -3044,17 +3044,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChild3DViewFrame.cpp.o.provides.bui
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.o: src/gui/subscriber/MdiChildGroundTrackFrame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_131)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_131)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.o -c /GMAT-R2015a/src/gui/subscriber/MdiChildGroundTrackFrame.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.o -c /gmat/src/gui/subscriber/MdiChildGroundTrackFrame.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/MdiChildGroundTrackFrame.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/MdiChildGroundTrackFrame.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/MdiChildGroundTrackFrame.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/MdiChildGroundTrackFrame.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.o.requires
@@ -3067,17 +3067,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildGroundTrackFrame.cpp.o.provide
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.o: src/gui/subscriber/MdiChildViewFrame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_132)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_132)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.o -c /GMAT-R2015a/src/gui/subscriber/MdiChildViewFrame.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.o -c /gmat/src/gui/subscriber/MdiChildViewFrame.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/MdiChildViewFrame.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/MdiChildViewFrame.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/MdiChildViewFrame.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/MdiChildViewFrame.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.o.requires
@@ -3090,17 +3090,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildViewFrame.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.o: src/gui/subscriber/MdiChildTsFrame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_133)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_133)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.o -c /GMAT-R2015a/src/gui/subscriber/MdiChildTsFrame.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.o -c /gmat/src/gui/subscriber/MdiChildTsFrame.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/MdiChildTsFrame.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/MdiChildTsFrame.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/MdiChildTsFrame.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/MdiChildTsFrame.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.o.requires
@@ -3113,17 +3113,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiChildTsFrame.cpp.o.provides.build: 
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.o: src/gui/subscriber/MdiGlPlotData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_134)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_134)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.o -c /GMAT-R2015a/src/gui/subscriber/MdiGlPlotData.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.o -c /gmat/src/gui/subscriber/MdiGlPlotData.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/MdiGlPlotData.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/MdiGlPlotData.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/MdiGlPlotData.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/MdiGlPlotData.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.o.requires
@@ -3136,17 +3136,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiGlPlotData.cpp.o.provides.build: sr
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.o: src/gui/subscriber/MdiTableViewFrame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_135)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_135)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.o -c /GMAT-R2015a/src/gui/subscriber/MdiTableViewFrame.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.o -c /gmat/src/gui/subscriber/MdiTableViewFrame.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/MdiTableViewFrame.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/MdiTableViewFrame.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/MdiTableViewFrame.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/MdiTableViewFrame.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.o.requires
@@ -3159,17 +3159,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTableViewFrame.cpp.o.provides.build
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.o: src/gui/subscriber/MdiTsPlotData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_136)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_136)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.o -c /GMAT-R2015a/src/gui/subscriber/MdiTsPlotData.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.o -c /gmat/src/gui/subscriber/MdiTsPlotData.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/MdiTsPlotData.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/MdiTsPlotData.cpp > CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/MdiTsPlotData.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/MdiTsPlotData.cpp -o CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.o.requires
@@ -3182,17 +3182,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/MdiTsPlotData.cpp.o.provides.build: sr
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.o: src/gui/subscriber/OrbitViewCanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_137)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_137)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.o -c /GMAT-R2015a/src/gui/subscriber/OrbitViewCanvas.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.o -c /gmat/src/gui/subscriber/OrbitViewCanvas.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/OrbitViewCanvas.cpp > CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/OrbitViewCanvas.cpp > CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/OrbitViewCanvas.cpp -o CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/OrbitViewCanvas.cpp -o CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.o.requires
@@ -3205,17 +3205,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewCanvas.cpp.o.provides.build: 
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.o: src/gui/subscriber/OrbitViewPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_138)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_138)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.o -c /GMAT-R2015a/src/gui/subscriber/OrbitViewPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.o -c /gmat/src/gui/subscriber/OrbitViewPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/OrbitViewPanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/OrbitViewPanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/OrbitViewPanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/OrbitViewPanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.o.requires
@@ -3228,17 +3228,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/OrbitViewPanel.cpp.o.provides.build: s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.o: src/gui/subscriber/ReportFileSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_139)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_139)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/subscriber/ReportFileSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.o -c /gmat/src/gui/subscriber/ReportFileSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/ReportFileSetupPanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/ReportFileSetupPanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/ReportFileSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/ReportFileSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.o.requires
@@ -3251,17 +3251,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/ReportFileSetupPanel.cpp.o.provides.bu
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.o: src/gui/subscriber/SubscriberSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_140)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_140)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/subscriber/SubscriberSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.o -c /gmat/src/gui/subscriber/SubscriberSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/SubscriberSetupPanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/SubscriberSetupPanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/SubscriberSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/SubscriberSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.o.requires
@@ -3274,17 +3274,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/SubscriberSetupPanel.cpp.o.provides.bu
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.o: src/gui/subscriber/ViewCanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_141)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_141)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.o -c /GMAT-R2015a/src/gui/subscriber/ViewCanvas.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.o -c /gmat/src/gui/subscriber/ViewCanvas.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/ViewCanvas.cpp > CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/ViewCanvas.cpp > CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/ViewCanvas.cpp -o CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/ViewCanvas.cpp -o CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.o.requires
@@ -3297,17 +3297,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/ViewCanvas.cpp.o.provides.build: src/g
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.o: src/gui/subscriber/TsPlotCanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_142)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_142)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.o -c /GMAT-R2015a/src/gui/subscriber/TsPlotCanvas.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.o -c /gmat/src/gui/subscriber/TsPlotCanvas.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/TsPlotCanvas.cpp > CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/TsPlotCanvas.cpp > CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/TsPlotCanvas.cpp -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/TsPlotCanvas.cpp -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.o.requires
@@ -3320,17 +3320,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCanvas.cpp.o.provides.build: src
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.o: src/gui/subscriber/TsPlotXYCanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_143)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_143)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.o -c /GMAT-R2015a/src/gui/subscriber/TsPlotXYCanvas.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.o -c /gmat/src/gui/subscriber/TsPlotXYCanvas.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/TsPlotXYCanvas.cpp > CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/TsPlotXYCanvas.cpp > CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/TsPlotXYCanvas.cpp -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/TsPlotXYCanvas.cpp -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.o.requires
@@ -3343,17 +3343,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotXYCanvas.cpp.o.provides.build: s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.o: src/gui/subscriber/TsPlotCurve.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_144)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_144)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.o -c /GMAT-R2015a/src/gui/subscriber/TsPlotCurve.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.o -c /gmat/src/gui/subscriber/TsPlotCurve.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/TsPlotCurve.cpp > CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/TsPlotCurve.cpp > CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/TsPlotCurve.cpp -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/TsPlotCurve.cpp -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.o.requires
@@ -3366,17 +3366,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotCurve.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.o: src/gui/subscriber/TsPlotOptionsDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_145)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_145)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.o -c /GMAT-R2015a/src/gui/subscriber/TsPlotOptionsDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.o -c /gmat/src/gui/subscriber/TsPlotOptionsDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/TsPlotOptionsDialog.cpp > CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/TsPlotOptionsDialog.cpp > CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/TsPlotOptionsDialog.cpp -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/TsPlotOptionsDialog.cpp -o CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.o.requires
@@ -3389,17 +3389,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/TsPlotOptionsDialog.cpp.o.provides.bui
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.o: src/gui/subscriber/XyPlotSetupPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_146)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_146)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.o -c /GMAT-R2015a/src/gui/subscriber/XyPlotSetupPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.o -c /gmat/src/gui/subscriber/XyPlotSetupPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/subscriber/XyPlotSetupPanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/subscriber/XyPlotSetupPanel.cpp > CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/subscriber/XyPlotSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/subscriber/XyPlotSetupPanel.cpp -o CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.o.requires
@@ -3412,17 +3412,17 @@ src/gui/CMakeFiles/GmatGUI.dir/subscriber/XyPlotSetupPanel.cpp.o.provides.build:
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.o: src/gui/view/EditorPanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_147)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_147)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.o -c /GMAT-R2015a/src/gui/view/EditorPanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.o -c /gmat/src/gui/view/EditorPanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/view/EditorPanel.cpp > CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/view/EditorPanel.cpp > CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/view/EditorPanel.cpp -o CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/view/EditorPanel.cpp -o CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.o.requires
@@ -3435,17 +3435,17 @@ src/gui/CMakeFiles/GmatGUI.dir/view/EditorPanel.cpp.o.provides.build: src/gui/CM
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.o: src/gui/view/EditorPreferences.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_148)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_148)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.o -c /GMAT-R2015a/src/gui/view/EditorPreferences.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.o -c /gmat/src/gui/view/EditorPreferences.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/view/EditorPreferences.cpp > CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/view/EditorPreferences.cpp > CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/view/EditorPreferences.cpp -o CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/view/EditorPreferences.cpp -o CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.o.requires
@@ -3458,17 +3458,17 @@ src/gui/CMakeFiles/GmatGUI.dir/view/EditorPreferences.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.o: src/gui/view/EditorPrintout.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_149)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_149)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.o -c /GMAT-R2015a/src/gui/view/EditorPrintout.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.o -c /gmat/src/gui/view/EditorPrintout.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/view/EditorPrintout.cpp > CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/view/EditorPrintout.cpp > CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/view/EditorPrintout.cpp -o CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/view/EditorPrintout.cpp -o CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.o.requires
@@ -3481,17 +3481,17 @@ src/gui/CMakeFiles/GmatGUI.dir/view/EditorPrintout.cpp.o.provides.build: src/gui
 
 src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.o: src/gui/view/FindReplaceDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_150)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_150)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.o -c /GMAT-R2015a/src/gui/view/FindReplaceDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.o -c /gmat/src/gui/view/FindReplaceDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/view/FindReplaceDialog.cpp > CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/view/FindReplaceDialog.cpp > CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/view/FindReplaceDialog.cpp -o CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/view/FindReplaceDialog.cpp -o CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.o.requires
@@ -3504,17 +3504,17 @@ src/gui/CMakeFiles/GmatGUI.dir/view/FindReplaceDialog.cpp.o.provides.build: src/
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.o: src/gui/view/ScriptEditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_151)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_151)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.o -c /GMAT-R2015a/src/gui/view/ScriptEditor.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.o -c /gmat/src/gui/view/ScriptEditor.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/view/ScriptEditor.cpp > CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/view/ScriptEditor.cpp > CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/view/ScriptEditor.cpp -o CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/view/ScriptEditor.cpp -o CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.o.requires
@@ -3527,17 +3527,17 @@ src/gui/CMakeFiles/GmatGUI.dir/view/ScriptEditor.cpp.o.provides.build: src/gui/C
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.o: src/gui/view/ViewTextDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_152)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_152)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.o -c /GMAT-R2015a/src/gui/view/ViewTextDialog.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.o -c /gmat/src/gui/view/ViewTextDialog.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/view/ViewTextDialog.cpp > CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/view/ViewTextDialog.cpp > CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/view/ViewTextDialog.cpp -o CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/view/ViewTextDialog.cpp -o CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.o.requires
@@ -3550,17 +3550,17 @@ src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextDialog.cpp.o.provides.build: src/gui
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.o: src/gui/view/ViewTextFrame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_153)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_153)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.o -c /GMAT-R2015a/src/gui/view/ViewTextFrame.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.o -c /gmat/src/gui/view/ViewTextFrame.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/view/ViewTextFrame.cpp > CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/view/ViewTextFrame.cpp > CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/view/ViewTextFrame.cpp -o CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/view/ViewTextFrame.cpp -o CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.o.requires
@@ -3573,17 +3573,17 @@ src/gui/CMakeFiles/GmatGUI.dir/view/ViewTextFrame.cpp.o.provides.build: src/gui/
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.o: src/gui/CMakeFiles/GmatGUI.dir/flags.make
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.o: src/gui/spacecraft/SpicePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_154)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_154)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.o"
-	cd /GMAT-R2015a/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.o -c /GMAT-R2015a/src/gui/spacecraft/SpicePanel.cpp
+	cd /gmat/src/gui && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.o -c /gmat/src/gui/spacecraft/SpicePanel.cpp
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.i"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/gui/spacecraft/SpicePanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.i
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/gui/spacecraft/SpicePanel.cpp > CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.i
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.s"
-	cd /GMAT-R2015a/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/gui/spacecraft/SpicePanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.s
+	cd /gmat/src/gui && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/gui/spacecraft/SpicePanel.cpp -o CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.s
 
 src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.o.requires:
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/spacecraft/SpicePanel.cpp.o.requires
@@ -3917,8 +3917,8 @@ application/bin/GMAT-R2015a: /usr/lib64/libXext.so
 application/bin/GMAT-R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/bin/GMAT-R2015a: src/gui/CMakeFiles/GmatGUI.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../application/bin/GMAT"
-	cd /GMAT-R2015a/src/gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GmatGUI.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/src/gui && $(CMAKE_COMMAND) -E cmake_symlink_executable ../../application/bin/GMAT-R2015a ../../application/bin/GMAT
+	cd /gmat/src/gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GmatGUI.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/src/gui && $(CMAKE_COMMAND) -E cmake_symlink_executable ../../application/bin/GMAT-R2015a ../../application/bin/GMAT
 
 application/bin/GMAT: application/bin/GMAT-R2015a
 
@@ -4083,10 +4083,10 @@ src/gui/CMakeFiles/GmatGUI.dir/requires: src/gui/CMakeFiles/GmatGUI.dir/spacecra
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/requires
 
 src/gui/CMakeFiles/GmatGUI.dir/clean:
-	cd /GMAT-R2015a/src/gui && $(CMAKE_COMMAND) -P CMakeFiles/GmatGUI.dir/cmake_clean.cmake
+	cd /gmat/src/gui && $(CMAKE_COMMAND) -P CMakeFiles/GmatGUI.dir/cmake_clean.cmake
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/clean
 
 src/gui/CMakeFiles/GmatGUI.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/src/gui /GMAT-R2015a /GMAT-R2015a/src/gui /GMAT-R2015a/src/gui/CMakeFiles/GmatGUI.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/src/gui /gmat /gmat/src/gui /gmat/src/gui/CMakeFiles/GmatGUI.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/depend
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/base/CMakeFiles/GmatBase.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/GmatBase.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/GmatBase.dir/rule
 .PHONY : src/base/CMakeFiles/GmatBase.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ GmatBase: src/base/CMakeFiles/GmatBase.dir/rule
 
 # fast build rule for target.
 GmatBase/fast:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/build
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/build
 .PHONY : GmatBase/fast
 
 asset/AssetException.o: asset/AssetException.cpp.o
@@ -161,7 +161,7 @@ asset/AssetException.o: asset/AssetException.cpp.o
 
 # target to build an object file
 asset/AssetException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/AssetException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/AssetException.cpp.o
 .PHONY : asset/AssetException.cpp.o
 
 asset/AssetException.i: asset/AssetException.cpp.i
@@ -169,7 +169,7 @@ asset/AssetException.i: asset/AssetException.cpp.i
 
 # target to preprocess a source file
 asset/AssetException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/AssetException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/AssetException.cpp.i
 .PHONY : asset/AssetException.cpp.i
 
 asset/AssetException.s: asset/AssetException.cpp.s
@@ -177,7 +177,7 @@ asset/AssetException.s: asset/AssetException.cpp.s
 
 # target to generate assembly for a file
 asset/AssetException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/AssetException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/AssetException.cpp.s
 .PHONY : asset/AssetException.cpp.s
 
 asset/BodyFixedPoint.o: asset/BodyFixedPoint.cpp.o
@@ -185,7 +185,7 @@ asset/BodyFixedPoint.o: asset/BodyFixedPoint.cpp.o
 
 # target to build an object file
 asset/BodyFixedPoint.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/BodyFixedPoint.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/BodyFixedPoint.cpp.o
 .PHONY : asset/BodyFixedPoint.cpp.o
 
 asset/BodyFixedPoint.i: asset/BodyFixedPoint.cpp.i
@@ -193,7 +193,7 @@ asset/BodyFixedPoint.i: asset/BodyFixedPoint.cpp.i
 
 # target to preprocess a source file
 asset/BodyFixedPoint.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/BodyFixedPoint.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/BodyFixedPoint.cpp.i
 .PHONY : asset/BodyFixedPoint.cpp.i
 
 asset/BodyFixedPoint.s: asset/BodyFixedPoint.cpp.s
@@ -201,7 +201,7 @@ asset/BodyFixedPoint.s: asset/BodyFixedPoint.cpp.s
 
 # target to generate assembly for a file
 asset/BodyFixedPoint.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/BodyFixedPoint.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/BodyFixedPoint.cpp.s
 .PHONY : asset/BodyFixedPoint.cpp.s
 
 asset/GroundstationInterface.o: asset/GroundstationInterface.cpp.o
@@ -209,7 +209,7 @@ asset/GroundstationInterface.o: asset/GroundstationInterface.cpp.o
 
 # target to build an object file
 asset/GroundstationInterface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/GroundstationInterface.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/GroundstationInterface.cpp.o
 .PHONY : asset/GroundstationInterface.cpp.o
 
 asset/GroundstationInterface.i: asset/GroundstationInterface.cpp.i
@@ -217,7 +217,7 @@ asset/GroundstationInterface.i: asset/GroundstationInterface.cpp.i
 
 # target to preprocess a source file
 asset/GroundstationInterface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/GroundstationInterface.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/GroundstationInterface.cpp.i
 .PHONY : asset/GroundstationInterface.cpp.i
 
 asset/GroundstationInterface.s: asset/GroundstationInterface.cpp.s
@@ -225,7 +225,7 @@ asset/GroundstationInterface.s: asset/GroundstationInterface.cpp.s
 
 # target to generate assembly for a file
 asset/GroundstationInterface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/GroundstationInterface.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/asset/GroundstationInterface.cpp.s
 .PHONY : asset/GroundstationInterface.cpp.s
 
 attitude/Attitude.o: attitude/Attitude.cpp.o
@@ -233,7 +233,7 @@ attitude/Attitude.o: attitude/Attitude.cpp.o
 
 # target to build an object file
 attitude/Attitude.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Attitude.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Attitude.cpp.o
 .PHONY : attitude/Attitude.cpp.o
 
 attitude/Attitude.i: attitude/Attitude.cpp.i
@@ -241,7 +241,7 @@ attitude/Attitude.i: attitude/Attitude.cpp.i
 
 # target to preprocess a source file
 attitude/Attitude.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Attitude.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Attitude.cpp.i
 .PHONY : attitude/Attitude.cpp.i
 
 attitude/Attitude.s: attitude/Attitude.cpp.s
@@ -249,7 +249,7 @@ attitude/Attitude.s: attitude/Attitude.cpp.s
 
 # target to generate assembly for a file
 attitude/Attitude.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Attitude.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Attitude.cpp.s
 .PHONY : attitude/Attitude.cpp.s
 
 attitude/AttitudeException.o: attitude/AttitudeException.cpp.o
@@ -257,7 +257,7 @@ attitude/AttitudeException.o: attitude/AttitudeException.cpp.o
 
 # target to build an object file
 attitude/AttitudeException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/AttitudeException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/AttitudeException.cpp.o
 .PHONY : attitude/AttitudeException.cpp.o
 
 attitude/AttitudeException.i: attitude/AttitudeException.cpp.i
@@ -265,7 +265,7 @@ attitude/AttitudeException.i: attitude/AttitudeException.cpp.i
 
 # target to preprocess a source file
 attitude/AttitudeException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/AttitudeException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/AttitudeException.cpp.i
 .PHONY : attitude/AttitudeException.cpp.i
 
 attitude/AttitudeException.s: attitude/AttitudeException.cpp.s
@@ -273,7 +273,7 @@ attitude/AttitudeException.s: attitude/AttitudeException.cpp.s
 
 # target to generate assembly for a file
 attitude/AttitudeException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/AttitudeException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/AttitudeException.cpp.s
 .PHONY : attitude/AttitudeException.cpp.s
 
 attitude/CCSDSAttitude.o: attitude/CCSDSAttitude.cpp.o
@@ -281,7 +281,7 @@ attitude/CCSDSAttitude.o: attitude/CCSDSAttitude.cpp.o
 
 # target to build an object file
 attitude/CCSDSAttitude.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CCSDSAttitude.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CCSDSAttitude.cpp.o
 .PHONY : attitude/CCSDSAttitude.cpp.o
 
 attitude/CCSDSAttitude.i: attitude/CCSDSAttitude.cpp.i
@@ -289,7 +289,7 @@ attitude/CCSDSAttitude.i: attitude/CCSDSAttitude.cpp.i
 
 # target to preprocess a source file
 attitude/CCSDSAttitude.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CCSDSAttitude.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CCSDSAttitude.cpp.i
 .PHONY : attitude/CCSDSAttitude.cpp.i
 
 attitude/CCSDSAttitude.s: attitude/CCSDSAttitude.cpp.s
@@ -297,7 +297,7 @@ attitude/CCSDSAttitude.s: attitude/CCSDSAttitude.cpp.s
 
 # target to generate assembly for a file
 attitude/CCSDSAttitude.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CCSDSAttitude.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CCSDSAttitude.cpp.s
 .PHONY : attitude/CCSDSAttitude.cpp.s
 
 attitude/CSFixed.o: attitude/CSFixed.cpp.o
@@ -305,7 +305,7 @@ attitude/CSFixed.o: attitude/CSFixed.cpp.o
 
 # target to build an object file
 attitude/CSFixed.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CSFixed.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CSFixed.cpp.o
 .PHONY : attitude/CSFixed.cpp.o
 
 attitude/CSFixed.i: attitude/CSFixed.cpp.i
@@ -313,7 +313,7 @@ attitude/CSFixed.i: attitude/CSFixed.cpp.i
 
 # target to preprocess a source file
 attitude/CSFixed.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CSFixed.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CSFixed.cpp.i
 .PHONY : attitude/CSFixed.cpp.i
 
 attitude/CSFixed.s: attitude/CSFixed.cpp.s
@@ -321,7 +321,7 @@ attitude/CSFixed.s: attitude/CSFixed.cpp.s
 
 # target to generate assembly for a file
 attitude/CSFixed.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CSFixed.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/CSFixed.cpp.s
 .PHONY : attitude/CSFixed.cpp.s
 
 attitude/Kinematic.o: attitude/Kinematic.cpp.o
@@ -329,7 +329,7 @@ attitude/Kinematic.o: attitude/Kinematic.cpp.o
 
 # target to build an object file
 attitude/Kinematic.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Kinematic.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Kinematic.cpp.o
 .PHONY : attitude/Kinematic.cpp.o
 
 attitude/Kinematic.i: attitude/Kinematic.cpp.i
@@ -337,7 +337,7 @@ attitude/Kinematic.i: attitude/Kinematic.cpp.i
 
 # target to preprocess a source file
 attitude/Kinematic.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Kinematic.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Kinematic.cpp.i
 .PHONY : attitude/Kinematic.cpp.i
 
 attitude/Kinematic.s: attitude/Kinematic.cpp.s
@@ -345,7 +345,7 @@ attitude/Kinematic.s: attitude/Kinematic.cpp.s
 
 # target to generate assembly for a file
 attitude/Kinematic.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Kinematic.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Kinematic.cpp.s
 .PHONY : attitude/Kinematic.cpp.s
 
 attitude/NadirPointing.o: attitude/NadirPointing.cpp.o
@@ -353,7 +353,7 @@ attitude/NadirPointing.o: attitude/NadirPointing.cpp.o
 
 # target to build an object file
 attitude/NadirPointing.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/NadirPointing.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/NadirPointing.cpp.o
 .PHONY : attitude/NadirPointing.cpp.o
 
 attitude/NadirPointing.i: attitude/NadirPointing.cpp.i
@@ -361,7 +361,7 @@ attitude/NadirPointing.i: attitude/NadirPointing.cpp.i
 
 # target to preprocess a source file
 attitude/NadirPointing.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/NadirPointing.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/NadirPointing.cpp.i
 .PHONY : attitude/NadirPointing.cpp.i
 
 attitude/NadirPointing.s: attitude/NadirPointing.cpp.s
@@ -369,7 +369,7 @@ attitude/NadirPointing.s: attitude/NadirPointing.cpp.s
 
 # target to generate assembly for a file
 attitude/NadirPointing.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/NadirPointing.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/NadirPointing.cpp.s
 .PHONY : attitude/NadirPointing.cpp.s
 
 attitude/PrecessingSpinner.o: attitude/PrecessingSpinner.cpp.o
@@ -377,7 +377,7 @@ attitude/PrecessingSpinner.o: attitude/PrecessingSpinner.cpp.o
 
 # target to build an object file
 attitude/PrecessingSpinner.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/PrecessingSpinner.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/PrecessingSpinner.cpp.o
 .PHONY : attitude/PrecessingSpinner.cpp.o
 
 attitude/PrecessingSpinner.i: attitude/PrecessingSpinner.cpp.i
@@ -385,7 +385,7 @@ attitude/PrecessingSpinner.i: attitude/PrecessingSpinner.cpp.i
 
 # target to preprocess a source file
 attitude/PrecessingSpinner.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/PrecessingSpinner.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/PrecessingSpinner.cpp.i
 .PHONY : attitude/PrecessingSpinner.cpp.i
 
 attitude/PrecessingSpinner.s: attitude/PrecessingSpinner.cpp.s
@@ -393,7 +393,7 @@ attitude/PrecessingSpinner.s: attitude/PrecessingSpinner.cpp.s
 
 # target to generate assembly for a file
 attitude/PrecessingSpinner.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/PrecessingSpinner.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/PrecessingSpinner.cpp.s
 .PHONY : attitude/PrecessingSpinner.cpp.s
 
 attitude/SpiceAttitude.o: attitude/SpiceAttitude.cpp.o
@@ -401,7 +401,7 @@ attitude/SpiceAttitude.o: attitude/SpiceAttitude.cpp.o
 
 # target to build an object file
 attitude/SpiceAttitude.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/SpiceAttitude.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/SpiceAttitude.cpp.o
 .PHONY : attitude/SpiceAttitude.cpp.o
 
 attitude/SpiceAttitude.i: attitude/SpiceAttitude.cpp.i
@@ -409,7 +409,7 @@ attitude/SpiceAttitude.i: attitude/SpiceAttitude.cpp.i
 
 # target to preprocess a source file
 attitude/SpiceAttitude.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/SpiceAttitude.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/SpiceAttitude.cpp.i
 .PHONY : attitude/SpiceAttitude.cpp.i
 
 attitude/SpiceAttitude.s: attitude/SpiceAttitude.cpp.s
@@ -417,7 +417,7 @@ attitude/SpiceAttitude.s: attitude/SpiceAttitude.cpp.s
 
 # target to generate assembly for a file
 attitude/SpiceAttitude.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/SpiceAttitude.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/SpiceAttitude.cpp.s
 .PHONY : attitude/SpiceAttitude.cpp.s
 
 attitude/Spinner.o: attitude/Spinner.cpp.o
@@ -425,7 +425,7 @@ attitude/Spinner.o: attitude/Spinner.cpp.o
 
 # target to build an object file
 attitude/Spinner.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Spinner.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Spinner.cpp.o
 .PHONY : attitude/Spinner.cpp.o
 
 attitude/Spinner.i: attitude/Spinner.cpp.i
@@ -433,7 +433,7 @@ attitude/Spinner.i: attitude/Spinner.cpp.i
 
 # target to preprocess a source file
 attitude/Spinner.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Spinner.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Spinner.cpp.i
 .PHONY : attitude/Spinner.cpp.i
 
 attitude/Spinner.s: attitude/Spinner.cpp.s
@@ -441,7 +441,7 @@ attitude/Spinner.s: attitude/Spinner.cpp.s
 
 # target to generate assembly for a file
 attitude/Spinner.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Spinner.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/attitude/Spinner.cpp.s
 .PHONY : attitude/Spinner.cpp.s
 
 burn/Burn.o: burn/Burn.cpp.o
@@ -449,7 +449,7 @@ burn/Burn.o: burn/Burn.cpp.o
 
 # target to build an object file
 burn/Burn.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/Burn.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/Burn.cpp.o
 .PHONY : burn/Burn.cpp.o
 
 burn/Burn.i: burn/Burn.cpp.i
@@ -457,7 +457,7 @@ burn/Burn.i: burn/Burn.cpp.i
 
 # target to preprocess a source file
 burn/Burn.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/Burn.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/Burn.cpp.i
 .PHONY : burn/Burn.cpp.i
 
 burn/Burn.s: burn/Burn.cpp.s
@@ -465,7 +465,7 @@ burn/Burn.s: burn/Burn.cpp.s
 
 # target to generate assembly for a file
 burn/Burn.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/Burn.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/Burn.cpp.s
 .PHONY : burn/Burn.cpp.s
 
 burn/BurnException.o: burn/BurnException.cpp.o
@@ -473,7 +473,7 @@ burn/BurnException.o: burn/BurnException.cpp.o
 
 # target to build an object file
 burn/BurnException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/BurnException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/BurnException.cpp.o
 .PHONY : burn/BurnException.cpp.o
 
 burn/BurnException.i: burn/BurnException.cpp.i
@@ -481,7 +481,7 @@ burn/BurnException.i: burn/BurnException.cpp.i
 
 # target to preprocess a source file
 burn/BurnException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/BurnException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/BurnException.cpp.i
 .PHONY : burn/BurnException.cpp.i
 
 burn/BurnException.s: burn/BurnException.cpp.s
@@ -489,7 +489,7 @@ burn/BurnException.s: burn/BurnException.cpp.s
 
 # target to generate assembly for a file
 burn/BurnException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/BurnException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/BurnException.cpp.s
 .PHONY : burn/BurnException.cpp.s
 
 burn/FiniteBurn.o: burn/FiniteBurn.cpp.o
@@ -497,7 +497,7 @@ burn/FiniteBurn.o: burn/FiniteBurn.cpp.o
 
 # target to build an object file
 burn/FiniteBurn.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/FiniteBurn.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/FiniteBurn.cpp.o
 .PHONY : burn/FiniteBurn.cpp.o
 
 burn/FiniteBurn.i: burn/FiniteBurn.cpp.i
@@ -505,7 +505,7 @@ burn/FiniteBurn.i: burn/FiniteBurn.cpp.i
 
 # target to preprocess a source file
 burn/FiniteBurn.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/FiniteBurn.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/FiniteBurn.cpp.i
 .PHONY : burn/FiniteBurn.cpp.i
 
 burn/FiniteBurn.s: burn/FiniteBurn.cpp.s
@@ -513,7 +513,7 @@ burn/FiniteBurn.s: burn/FiniteBurn.cpp.s
 
 # target to generate assembly for a file
 burn/FiniteBurn.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/FiniteBurn.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/FiniteBurn.cpp.s
 .PHONY : burn/FiniteBurn.cpp.s
 
 burn/ImpulsiveBurn.o: burn/ImpulsiveBurn.cpp.o
@@ -521,7 +521,7 @@ burn/ImpulsiveBurn.o: burn/ImpulsiveBurn.cpp.o
 
 # target to build an object file
 burn/ImpulsiveBurn.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ImpulsiveBurn.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ImpulsiveBurn.cpp.o
 .PHONY : burn/ImpulsiveBurn.cpp.o
 
 burn/ImpulsiveBurn.i: burn/ImpulsiveBurn.cpp.i
@@ -529,7 +529,7 @@ burn/ImpulsiveBurn.i: burn/ImpulsiveBurn.cpp.i
 
 # target to preprocess a source file
 burn/ImpulsiveBurn.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ImpulsiveBurn.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ImpulsiveBurn.cpp.i
 .PHONY : burn/ImpulsiveBurn.cpp.i
 
 burn/ImpulsiveBurn.s: burn/ImpulsiveBurn.cpp.s
@@ -537,7 +537,7 @@ burn/ImpulsiveBurn.s: burn/ImpulsiveBurn.cpp.s
 
 # target to generate assembly for a file
 burn/ImpulsiveBurn.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ImpulsiveBurn.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ImpulsiveBurn.cpp.s
 .PHONY : burn/ImpulsiveBurn.cpp.s
 
 burn/InertialManeuverFrame.o: burn/InertialManeuverFrame.cpp.o
@@ -545,7 +545,7 @@ burn/InertialManeuverFrame.o: burn/InertialManeuverFrame.cpp.o
 
 # target to build an object file
 burn/InertialManeuverFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/InertialManeuverFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/InertialManeuverFrame.cpp.o
 .PHONY : burn/InertialManeuverFrame.cpp.o
 
 burn/InertialManeuverFrame.i: burn/InertialManeuverFrame.cpp.i
@@ -553,7 +553,7 @@ burn/InertialManeuverFrame.i: burn/InertialManeuverFrame.cpp.i
 
 # target to preprocess a source file
 burn/InertialManeuverFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/InertialManeuverFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/InertialManeuverFrame.cpp.i
 .PHONY : burn/InertialManeuverFrame.cpp.i
 
 burn/InertialManeuverFrame.s: burn/InertialManeuverFrame.cpp.s
@@ -561,7 +561,7 @@ burn/InertialManeuverFrame.s: burn/InertialManeuverFrame.cpp.s
 
 # target to generate assembly for a file
 burn/InertialManeuverFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/InertialManeuverFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/InertialManeuverFrame.cpp.s
 .PHONY : burn/InertialManeuverFrame.cpp.s
 
 burn/ManeuverFrame.o: burn/ManeuverFrame.cpp.o
@@ -569,7 +569,7 @@ burn/ManeuverFrame.o: burn/ManeuverFrame.cpp.o
 
 # target to build an object file
 burn/ManeuverFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrame.cpp.o
 .PHONY : burn/ManeuverFrame.cpp.o
 
 burn/ManeuverFrame.i: burn/ManeuverFrame.cpp.i
@@ -577,7 +577,7 @@ burn/ManeuverFrame.i: burn/ManeuverFrame.cpp.i
 
 # target to preprocess a source file
 burn/ManeuverFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrame.cpp.i
 .PHONY : burn/ManeuverFrame.cpp.i
 
 burn/ManeuverFrame.s: burn/ManeuverFrame.cpp.s
@@ -585,7 +585,7 @@ burn/ManeuverFrame.s: burn/ManeuverFrame.cpp.s
 
 # target to generate assembly for a file
 burn/ManeuverFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrame.cpp.s
 .PHONY : burn/ManeuverFrame.cpp.s
 
 burn/ManeuverFrameManager.o: burn/ManeuverFrameManager.cpp.o
@@ -593,7 +593,7 @@ burn/ManeuverFrameManager.o: burn/ManeuverFrameManager.cpp.o
 
 # target to build an object file
 burn/ManeuverFrameManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrameManager.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrameManager.cpp.o
 .PHONY : burn/ManeuverFrameManager.cpp.o
 
 burn/ManeuverFrameManager.i: burn/ManeuverFrameManager.cpp.i
@@ -601,7 +601,7 @@ burn/ManeuverFrameManager.i: burn/ManeuverFrameManager.cpp.i
 
 # target to preprocess a source file
 burn/ManeuverFrameManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrameManager.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrameManager.cpp.i
 .PHONY : burn/ManeuverFrameManager.cpp.i
 
 burn/ManeuverFrameManager.s: burn/ManeuverFrameManager.cpp.s
@@ -609,7 +609,7 @@ burn/ManeuverFrameManager.s: burn/ManeuverFrameManager.cpp.s
 
 # target to generate assembly for a file
 burn/ManeuverFrameManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrameManager.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/ManeuverFrameManager.cpp.s
 .PHONY : burn/ManeuverFrameManager.cpp.s
 
 burn/VnbManeuverFrame.o: burn/VnbManeuverFrame.cpp.o
@@ -617,7 +617,7 @@ burn/VnbManeuverFrame.o: burn/VnbManeuverFrame.cpp.o
 
 # target to build an object file
 burn/VnbManeuverFrame.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/VnbManeuverFrame.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/VnbManeuverFrame.cpp.o
 .PHONY : burn/VnbManeuverFrame.cpp.o
 
 burn/VnbManeuverFrame.i: burn/VnbManeuverFrame.cpp.i
@@ -625,7 +625,7 @@ burn/VnbManeuverFrame.i: burn/VnbManeuverFrame.cpp.i
 
 # target to preprocess a source file
 burn/VnbManeuverFrame.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/VnbManeuverFrame.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/VnbManeuverFrame.cpp.i
 .PHONY : burn/VnbManeuverFrame.cpp.i
 
 burn/VnbManeuverFrame.s: burn/VnbManeuverFrame.cpp.s
@@ -633,7 +633,7 @@ burn/VnbManeuverFrame.s: burn/VnbManeuverFrame.cpp.s
 
 # target to generate assembly for a file
 burn/VnbManeuverFrame.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/VnbManeuverFrame.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/burn/VnbManeuverFrame.cpp.s
 .PHONY : burn/VnbManeuverFrame.cpp.s
 
 command/Achieve.o: command/Achieve.cpp.o
@@ -641,7 +641,7 @@ command/Achieve.o: command/Achieve.cpp.o
 
 # target to build an object file
 command/Achieve.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Achieve.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Achieve.cpp.o
 .PHONY : command/Achieve.cpp.o
 
 command/Achieve.i: command/Achieve.cpp.i
@@ -649,7 +649,7 @@ command/Achieve.i: command/Achieve.cpp.i
 
 # target to preprocess a source file
 command/Achieve.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Achieve.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Achieve.cpp.i
 .PHONY : command/Achieve.cpp.i
 
 command/Achieve.s: command/Achieve.cpp.s
@@ -657,7 +657,7 @@ command/Achieve.s: command/Achieve.cpp.s
 
 # target to generate assembly for a file
 command/Achieve.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Achieve.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Achieve.cpp.s
 .PHONY : command/Achieve.cpp.s
 
 command/Assignment.o: command/Assignment.cpp.o
@@ -665,7 +665,7 @@ command/Assignment.o: command/Assignment.cpp.o
 
 # target to build an object file
 command/Assignment.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Assignment.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Assignment.cpp.o
 .PHONY : command/Assignment.cpp.o
 
 command/Assignment.i: command/Assignment.cpp.i
@@ -673,7 +673,7 @@ command/Assignment.i: command/Assignment.cpp.i
 
 # target to preprocess a source file
 command/Assignment.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Assignment.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Assignment.cpp.i
 .PHONY : command/Assignment.cpp.i
 
 command/Assignment.s: command/Assignment.cpp.s
@@ -681,7 +681,7 @@ command/Assignment.s: command/Assignment.cpp.s
 
 # target to generate assembly for a file
 command/Assignment.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Assignment.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Assignment.cpp.s
 .PHONY : command/Assignment.cpp.s
 
 command/BeginFiniteBurn.o: command/BeginFiniteBurn.cpp.o
@@ -689,7 +689,7 @@ command/BeginFiniteBurn.o: command/BeginFiniteBurn.cpp.o
 
 # target to build an object file
 command/BeginFiniteBurn.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFiniteBurn.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFiniteBurn.cpp.o
 .PHONY : command/BeginFiniteBurn.cpp.o
 
 command/BeginFiniteBurn.i: command/BeginFiniteBurn.cpp.i
@@ -697,7 +697,7 @@ command/BeginFiniteBurn.i: command/BeginFiniteBurn.cpp.i
 
 # target to preprocess a source file
 command/BeginFiniteBurn.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFiniteBurn.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFiniteBurn.cpp.i
 .PHONY : command/BeginFiniteBurn.cpp.i
 
 command/BeginFiniteBurn.s: command/BeginFiniteBurn.cpp.s
@@ -705,7 +705,7 @@ command/BeginFiniteBurn.s: command/BeginFiniteBurn.cpp.s
 
 # target to generate assembly for a file
 command/BeginFiniteBurn.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFiniteBurn.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFiniteBurn.cpp.s
 .PHONY : command/BeginFiniteBurn.cpp.s
 
 command/BeginFunction.o: command/BeginFunction.cpp.o
@@ -713,7 +713,7 @@ command/BeginFunction.o: command/BeginFunction.cpp.o
 
 # target to build an object file
 command/BeginFunction.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFunction.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFunction.cpp.o
 .PHONY : command/BeginFunction.cpp.o
 
 command/BeginFunction.i: command/BeginFunction.cpp.i
@@ -721,7 +721,7 @@ command/BeginFunction.i: command/BeginFunction.cpp.i
 
 # target to preprocess a source file
 command/BeginFunction.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFunction.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFunction.cpp.i
 .PHONY : command/BeginFunction.cpp.i
 
 command/BeginFunction.s: command/BeginFunction.cpp.s
@@ -729,7 +729,7 @@ command/BeginFunction.s: command/BeginFunction.cpp.s
 
 # target to generate assembly for a file
 command/BeginFunction.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFunction.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginFunction.cpp.s
 .PHONY : command/BeginFunction.cpp.s
 
 command/BeginMissionSequence.o: command/BeginMissionSequence.cpp.o
@@ -737,7 +737,7 @@ command/BeginMissionSequence.o: command/BeginMissionSequence.cpp.o
 
 # target to build an object file
 command/BeginMissionSequence.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginMissionSequence.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginMissionSequence.cpp.o
 .PHONY : command/BeginMissionSequence.cpp.o
 
 command/BeginMissionSequence.i: command/BeginMissionSequence.cpp.i
@@ -745,7 +745,7 @@ command/BeginMissionSequence.i: command/BeginMissionSequence.cpp.i
 
 # target to preprocess a source file
 command/BeginMissionSequence.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginMissionSequence.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginMissionSequence.cpp.i
 .PHONY : command/BeginMissionSequence.cpp.i
 
 command/BeginMissionSequence.s: command/BeginMissionSequence.cpp.s
@@ -753,7 +753,7 @@ command/BeginMissionSequence.s: command/BeginMissionSequence.cpp.s
 
 # target to generate assembly for a file
 command/BeginMissionSequence.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginMissionSequence.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginMissionSequence.cpp.s
 .PHONY : command/BeginMissionSequence.cpp.s
 
 command/BeginScript.o: command/BeginScript.cpp.o
@@ -761,7 +761,7 @@ command/BeginScript.o: command/BeginScript.cpp.o
 
 # target to build an object file
 command/BeginScript.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginScript.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginScript.cpp.o
 .PHONY : command/BeginScript.cpp.o
 
 command/BeginScript.i: command/BeginScript.cpp.i
@@ -769,7 +769,7 @@ command/BeginScript.i: command/BeginScript.cpp.i
 
 # target to preprocess a source file
 command/BeginScript.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginScript.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginScript.cpp.i
 .PHONY : command/BeginScript.cpp.i
 
 command/BeginScript.s: command/BeginScript.cpp.s
@@ -777,7 +777,7 @@ command/BeginScript.s: command/BeginScript.cpp.s
 
 # target to generate assembly for a file
 command/BeginScript.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginScript.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BeginScript.cpp.s
 .PHONY : command/BeginScript.cpp.s
 
 command/BranchCommand.o: command/BranchCommand.cpp.o
@@ -785,7 +785,7 @@ command/BranchCommand.o: command/BranchCommand.cpp.o
 
 # target to build an object file
 command/BranchCommand.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BranchCommand.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BranchCommand.cpp.o
 .PHONY : command/BranchCommand.cpp.o
 
 command/BranchCommand.i: command/BranchCommand.cpp.i
@@ -793,7 +793,7 @@ command/BranchCommand.i: command/BranchCommand.cpp.i
 
 # target to preprocess a source file
 command/BranchCommand.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BranchCommand.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BranchCommand.cpp.i
 .PHONY : command/BranchCommand.cpp.i
 
 command/BranchCommand.s: command/BranchCommand.cpp.s
@@ -801,7 +801,7 @@ command/BranchCommand.s: command/BranchCommand.cpp.s
 
 # target to generate assembly for a file
 command/BranchCommand.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BranchCommand.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/BranchCommand.cpp.s
 .PHONY : command/BranchCommand.cpp.s
 
 command/CallFunction.o: command/CallFunction.cpp.o
@@ -809,7 +809,7 @@ command/CallFunction.o: command/CallFunction.cpp.o
 
 # target to build an object file
 command/CallFunction.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CallFunction.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CallFunction.cpp.o
 .PHONY : command/CallFunction.cpp.o
 
 command/CallFunction.i: command/CallFunction.cpp.i
@@ -817,7 +817,7 @@ command/CallFunction.i: command/CallFunction.cpp.i
 
 # target to preprocess a source file
 command/CallFunction.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CallFunction.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CallFunction.cpp.i
 .PHONY : command/CallFunction.cpp.i
 
 command/CallFunction.s: command/CallFunction.cpp.s
@@ -825,7 +825,7 @@ command/CallFunction.s: command/CallFunction.cpp.s
 
 # target to generate assembly for a file
 command/CallFunction.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CallFunction.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CallFunction.cpp.s
 .PHONY : command/CallFunction.cpp.s
 
 command/ClearPlot.o: command/ClearPlot.cpp.o
@@ -833,7 +833,7 @@ command/ClearPlot.o: command/ClearPlot.cpp.o
 
 # target to build an object file
 command/ClearPlot.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ClearPlot.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ClearPlot.cpp.o
 .PHONY : command/ClearPlot.cpp.o
 
 command/ClearPlot.i: command/ClearPlot.cpp.i
@@ -841,7 +841,7 @@ command/ClearPlot.i: command/ClearPlot.cpp.i
 
 # target to preprocess a source file
 command/ClearPlot.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ClearPlot.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ClearPlot.cpp.i
 .PHONY : command/ClearPlot.cpp.i
 
 command/ClearPlot.s: command/ClearPlot.cpp.s
@@ -849,7 +849,7 @@ command/ClearPlot.s: command/ClearPlot.cpp.s
 
 # target to generate assembly for a file
 command/ClearPlot.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ClearPlot.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ClearPlot.cpp.s
 .PHONY : command/ClearPlot.cpp.s
 
 command/CommandException.o: command/CommandException.cpp.o
@@ -857,7 +857,7 @@ command/CommandException.o: command/CommandException.cpp.o
 
 # target to build an object file
 command/CommandException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandException.cpp.o
 .PHONY : command/CommandException.cpp.o
 
 command/CommandException.i: command/CommandException.cpp.i
@@ -865,7 +865,7 @@ command/CommandException.i: command/CommandException.cpp.i
 
 # target to preprocess a source file
 command/CommandException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandException.cpp.i
 .PHONY : command/CommandException.cpp.i
 
 command/CommandException.s: command/CommandException.cpp.s
@@ -873,7 +873,7 @@ command/CommandException.s: command/CommandException.cpp.s
 
 # target to generate assembly for a file
 command/CommandException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandException.cpp.s
 .PHONY : command/CommandException.cpp.s
 
 command/CommandUtil.o: command/CommandUtil.cpp.o
@@ -881,7 +881,7 @@ command/CommandUtil.o: command/CommandUtil.cpp.o
 
 # target to build an object file
 command/CommandUtil.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandUtil.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandUtil.cpp.o
 .PHONY : command/CommandUtil.cpp.o
 
 command/CommandUtil.i: command/CommandUtil.cpp.i
@@ -889,7 +889,7 @@ command/CommandUtil.i: command/CommandUtil.cpp.i
 
 # target to preprocess a source file
 command/CommandUtil.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandUtil.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandUtil.cpp.i
 .PHONY : command/CommandUtil.cpp.i
 
 command/CommandUtil.s: command/CommandUtil.cpp.s
@@ -897,7 +897,7 @@ command/CommandUtil.s: command/CommandUtil.cpp.s
 
 # target to generate assembly for a file
 command/CommandUtil.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandUtil.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/CommandUtil.cpp.s
 .PHONY : command/CommandUtil.cpp.s
 
 command/ConditionalBranch.o: command/ConditionalBranch.cpp.o
@@ -905,7 +905,7 @@ command/ConditionalBranch.o: command/ConditionalBranch.cpp.o
 
 # target to build an object file
 command/ConditionalBranch.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ConditionalBranch.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ConditionalBranch.cpp.o
 .PHONY : command/ConditionalBranch.cpp.o
 
 command/ConditionalBranch.i: command/ConditionalBranch.cpp.i
@@ -913,7 +913,7 @@ command/ConditionalBranch.i: command/ConditionalBranch.cpp.i
 
 # target to preprocess a source file
 command/ConditionalBranch.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ConditionalBranch.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ConditionalBranch.cpp.i
 .PHONY : command/ConditionalBranch.cpp.i
 
 command/ConditionalBranch.s: command/ConditionalBranch.cpp.s
@@ -921,7 +921,7 @@ command/ConditionalBranch.s: command/ConditionalBranch.cpp.s
 
 # target to generate assembly for a file
 command/ConditionalBranch.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ConditionalBranch.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ConditionalBranch.cpp.s
 .PHONY : command/ConditionalBranch.cpp.s
 
 command/Create.o: command/Create.cpp.o
@@ -929,7 +929,7 @@ command/Create.o: command/Create.cpp.o
 
 # target to build an object file
 command/Create.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Create.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Create.cpp.o
 .PHONY : command/Create.cpp.o
 
 command/Create.i: command/Create.cpp.i
@@ -937,7 +937,7 @@ command/Create.i: command/Create.cpp.i
 
 # target to preprocess a source file
 command/Create.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Create.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Create.cpp.i
 .PHONY : command/Create.cpp.i
 
 command/Create.s: command/Create.cpp.s
@@ -945,7 +945,7 @@ command/Create.s: command/Create.cpp.s
 
 # target to generate assembly for a file
 command/Create.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Create.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Create.cpp.s
 .PHONY : command/Create.cpp.s
 
 command/Else.o: command/Else.cpp.o
@@ -953,7 +953,7 @@ command/Else.o: command/Else.cpp.o
 
 # target to build an object file
 command/Else.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Else.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Else.cpp.o
 .PHONY : command/Else.cpp.o
 
 command/Else.i: command/Else.cpp.i
@@ -961,7 +961,7 @@ command/Else.i: command/Else.cpp.i
 
 # target to preprocess a source file
 command/Else.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Else.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Else.cpp.i
 .PHONY : command/Else.cpp.i
 
 command/Else.s: command/Else.cpp.s
@@ -969,7 +969,7 @@ command/Else.s: command/Else.cpp.s
 
 # target to generate assembly for a file
 command/Else.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Else.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Else.cpp.s
 .PHONY : command/Else.cpp.s
 
 command/EndFiniteBurn.o: command/EndFiniteBurn.cpp.o
@@ -977,7 +977,7 @@ command/EndFiniteBurn.o: command/EndFiniteBurn.cpp.o
 
 # target to build an object file
 command/EndFiniteBurn.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFiniteBurn.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFiniteBurn.cpp.o
 .PHONY : command/EndFiniteBurn.cpp.o
 
 command/EndFiniteBurn.i: command/EndFiniteBurn.cpp.i
@@ -985,7 +985,7 @@ command/EndFiniteBurn.i: command/EndFiniteBurn.cpp.i
 
 # target to preprocess a source file
 command/EndFiniteBurn.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFiniteBurn.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFiniteBurn.cpp.i
 .PHONY : command/EndFiniteBurn.cpp.i
 
 command/EndFiniteBurn.s: command/EndFiniteBurn.cpp.s
@@ -993,7 +993,7 @@ command/EndFiniteBurn.s: command/EndFiniteBurn.cpp.s
 
 # target to generate assembly for a file
 command/EndFiniteBurn.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFiniteBurn.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFiniteBurn.cpp.s
 .PHONY : command/EndFiniteBurn.cpp.s
 
 command/EndFor.o: command/EndFor.cpp.o
@@ -1001,7 +1001,7 @@ command/EndFor.o: command/EndFor.cpp.o
 
 # target to build an object file
 command/EndFor.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFor.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFor.cpp.o
 .PHONY : command/EndFor.cpp.o
 
 command/EndFor.i: command/EndFor.cpp.i
@@ -1009,7 +1009,7 @@ command/EndFor.i: command/EndFor.cpp.i
 
 # target to preprocess a source file
 command/EndFor.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFor.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFor.cpp.i
 .PHONY : command/EndFor.cpp.i
 
 command/EndFor.s: command/EndFor.cpp.s
@@ -1017,7 +1017,7 @@ command/EndFor.s: command/EndFor.cpp.s
 
 # target to generate assembly for a file
 command/EndFor.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFor.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFor.cpp.s
 .PHONY : command/EndFor.cpp.s
 
 command/EndFunction.o: command/EndFunction.cpp.o
@@ -1025,7 +1025,7 @@ command/EndFunction.o: command/EndFunction.cpp.o
 
 # target to build an object file
 command/EndFunction.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFunction.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFunction.cpp.o
 .PHONY : command/EndFunction.cpp.o
 
 command/EndFunction.i: command/EndFunction.cpp.i
@@ -1033,7 +1033,7 @@ command/EndFunction.i: command/EndFunction.cpp.i
 
 # target to preprocess a source file
 command/EndFunction.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFunction.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFunction.cpp.i
 .PHONY : command/EndFunction.cpp.i
 
 command/EndFunction.s: command/EndFunction.cpp.s
@@ -1041,7 +1041,7 @@ command/EndFunction.s: command/EndFunction.cpp.s
 
 # target to generate assembly for a file
 command/EndFunction.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFunction.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndFunction.cpp.s
 .PHONY : command/EndFunction.cpp.s
 
 command/EndIf.o: command/EndIf.cpp.o
@@ -1049,7 +1049,7 @@ command/EndIf.o: command/EndIf.cpp.o
 
 # target to build an object file
 command/EndIf.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndIf.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndIf.cpp.o
 .PHONY : command/EndIf.cpp.o
 
 command/EndIf.i: command/EndIf.cpp.i
@@ -1057,7 +1057,7 @@ command/EndIf.i: command/EndIf.cpp.i
 
 # target to preprocess a source file
 command/EndIf.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndIf.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndIf.cpp.i
 .PHONY : command/EndIf.cpp.i
 
 command/EndIf.s: command/EndIf.cpp.s
@@ -1065,7 +1065,7 @@ command/EndIf.s: command/EndIf.cpp.s
 
 # target to generate assembly for a file
 command/EndIf.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndIf.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndIf.cpp.s
 .PHONY : command/EndIf.cpp.s
 
 command/EndOptimize.o: command/EndOptimize.cpp.o
@@ -1073,7 +1073,7 @@ command/EndOptimize.o: command/EndOptimize.cpp.o
 
 # target to build an object file
 command/EndOptimize.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndOptimize.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndOptimize.cpp.o
 .PHONY : command/EndOptimize.cpp.o
 
 command/EndOptimize.i: command/EndOptimize.cpp.i
@@ -1081,7 +1081,7 @@ command/EndOptimize.i: command/EndOptimize.cpp.i
 
 # target to preprocess a source file
 command/EndOptimize.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndOptimize.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndOptimize.cpp.i
 .PHONY : command/EndOptimize.cpp.i
 
 command/EndOptimize.s: command/EndOptimize.cpp.s
@@ -1089,7 +1089,7 @@ command/EndOptimize.s: command/EndOptimize.cpp.s
 
 # target to generate assembly for a file
 command/EndOptimize.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndOptimize.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndOptimize.cpp.s
 .PHONY : command/EndOptimize.cpp.s
 
 command/EndScript.o: command/EndScript.cpp.o
@@ -1097,7 +1097,7 @@ command/EndScript.o: command/EndScript.cpp.o
 
 # target to build an object file
 command/EndScript.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndScript.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndScript.cpp.o
 .PHONY : command/EndScript.cpp.o
 
 command/EndScript.i: command/EndScript.cpp.i
@@ -1105,7 +1105,7 @@ command/EndScript.i: command/EndScript.cpp.i
 
 # target to preprocess a source file
 command/EndScript.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndScript.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndScript.cpp.i
 .PHONY : command/EndScript.cpp.i
 
 command/EndScript.s: command/EndScript.cpp.s
@@ -1113,7 +1113,7 @@ command/EndScript.s: command/EndScript.cpp.s
 
 # target to generate assembly for a file
 command/EndScript.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndScript.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndScript.cpp.s
 .PHONY : command/EndScript.cpp.s
 
 command/EndTarget.o: command/EndTarget.cpp.o
@@ -1121,7 +1121,7 @@ command/EndTarget.o: command/EndTarget.cpp.o
 
 # target to build an object file
 command/EndTarget.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndTarget.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndTarget.cpp.o
 .PHONY : command/EndTarget.cpp.o
 
 command/EndTarget.i: command/EndTarget.cpp.i
@@ -1129,7 +1129,7 @@ command/EndTarget.i: command/EndTarget.cpp.i
 
 # target to preprocess a source file
 command/EndTarget.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndTarget.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndTarget.cpp.i
 .PHONY : command/EndTarget.cpp.i
 
 command/EndTarget.s: command/EndTarget.cpp.s
@@ -1137,7 +1137,7 @@ command/EndTarget.s: command/EndTarget.cpp.s
 
 # target to generate assembly for a file
 command/EndTarget.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndTarget.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndTarget.cpp.s
 .PHONY : command/EndTarget.cpp.s
 
 command/EndWhile.o: command/EndWhile.cpp.o
@@ -1145,7 +1145,7 @@ command/EndWhile.o: command/EndWhile.cpp.o
 
 # target to build an object file
 command/EndWhile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndWhile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndWhile.cpp.o
 .PHONY : command/EndWhile.cpp.o
 
 command/EndWhile.i: command/EndWhile.cpp.i
@@ -1153,7 +1153,7 @@ command/EndWhile.i: command/EndWhile.cpp.i
 
 # target to preprocess a source file
 command/EndWhile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndWhile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndWhile.cpp.i
 .PHONY : command/EndWhile.cpp.i
 
 command/EndWhile.s: command/EndWhile.cpp.s
@@ -1161,7 +1161,7 @@ command/EndWhile.s: command/EndWhile.cpp.s
 
 # target to generate assembly for a file
 command/EndWhile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndWhile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/EndWhile.cpp.s
 .PHONY : command/EndWhile.cpp.s
 
 command/FindEvents.o: command/FindEvents.cpp.o
@@ -1169,7 +1169,7 @@ command/FindEvents.o: command/FindEvents.cpp.o
 
 # target to build an object file
 command/FindEvents.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/FindEvents.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/FindEvents.cpp.o
 .PHONY : command/FindEvents.cpp.o
 
 command/FindEvents.i: command/FindEvents.cpp.i
@@ -1177,7 +1177,7 @@ command/FindEvents.i: command/FindEvents.cpp.i
 
 # target to preprocess a source file
 command/FindEvents.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/FindEvents.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/FindEvents.cpp.i
 .PHONY : command/FindEvents.cpp.i
 
 command/FindEvents.s: command/FindEvents.cpp.s
@@ -1185,7 +1185,7 @@ command/FindEvents.s: command/FindEvents.cpp.s
 
 # target to generate assembly for a file
 command/FindEvents.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/FindEvents.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/FindEvents.cpp.s
 .PHONY : command/FindEvents.cpp.s
 
 command/For.o: command/For.cpp.o
@@ -1193,7 +1193,7 @@ command/For.o: command/For.cpp.o
 
 # target to build an object file
 command/For.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/For.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/For.cpp.o
 .PHONY : command/For.cpp.o
 
 command/For.i: command/For.cpp.i
@@ -1201,7 +1201,7 @@ command/For.i: command/For.cpp.i
 
 # target to preprocess a source file
 command/For.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/For.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/For.cpp.i
 .PHONY : command/For.cpp.i
 
 command/For.s: command/For.cpp.s
@@ -1209,7 +1209,7 @@ command/For.s: command/For.cpp.s
 
 # target to generate assembly for a file
 command/For.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/For.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/For.cpp.s
 .PHONY : command/For.cpp.s
 
 command/GmatCommand.o: command/GmatCommand.cpp.o
@@ -1217,7 +1217,7 @@ command/GmatCommand.o: command/GmatCommand.cpp.o
 
 # target to build an object file
 command/GmatCommand.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/GmatCommand.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/GmatCommand.cpp.o
 .PHONY : command/GmatCommand.cpp.o
 
 command/GmatCommand.i: command/GmatCommand.cpp.i
@@ -1225,7 +1225,7 @@ command/GmatCommand.i: command/GmatCommand.cpp.i
 
 # target to preprocess a source file
 command/GmatCommand.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/GmatCommand.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/GmatCommand.cpp.i
 .PHONY : command/GmatCommand.cpp.i
 
 command/GmatCommand.s: command/GmatCommand.cpp.s
@@ -1233,7 +1233,7 @@ command/GmatCommand.s: command/GmatCommand.cpp.s
 
 # target to generate assembly for a file
 command/GmatCommand.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/GmatCommand.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/GmatCommand.cpp.s
 .PHONY : command/GmatCommand.cpp.s
 
 command/If.o: command/If.cpp.o
@@ -1241,7 +1241,7 @@ command/If.o: command/If.cpp.o
 
 # target to build an object file
 command/If.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/If.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/If.cpp.o
 .PHONY : command/If.cpp.o
 
 command/If.i: command/If.cpp.i
@@ -1249,7 +1249,7 @@ command/If.i: command/If.cpp.i
 
 # target to preprocess a source file
 command/If.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/If.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/If.cpp.i
 .PHONY : command/If.cpp.i
 
 command/If.s: command/If.cpp.s
@@ -1257,7 +1257,7 @@ command/If.s: command/If.cpp.s
 
 # target to generate assembly for a file
 command/If.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/If.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/If.cpp.s
 .PHONY : command/If.cpp.s
 
 command/ManageObject.o: command/ManageObject.cpp.o
@@ -1265,7 +1265,7 @@ command/ManageObject.o: command/ManageObject.cpp.o
 
 # target to build an object file
 command/ManageObject.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ManageObject.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ManageObject.cpp.o
 .PHONY : command/ManageObject.cpp.o
 
 command/ManageObject.i: command/ManageObject.cpp.i
@@ -1273,7 +1273,7 @@ command/ManageObject.i: command/ManageObject.cpp.i
 
 # target to preprocess a source file
 command/ManageObject.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ManageObject.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ManageObject.cpp.i
 .PHONY : command/ManageObject.cpp.i
 
 command/ManageObject.s: command/ManageObject.cpp.s
@@ -1281,7 +1281,7 @@ command/ManageObject.s: command/ManageObject.cpp.s
 
 # target to generate assembly for a file
 command/ManageObject.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ManageObject.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/ManageObject.cpp.s
 .PHONY : command/ManageObject.cpp.s
 
 command/Maneuver.o: command/Maneuver.cpp.o
@@ -1289,7 +1289,7 @@ command/Maneuver.o: command/Maneuver.cpp.o
 
 # target to build an object file
 command/Maneuver.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Maneuver.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Maneuver.cpp.o
 .PHONY : command/Maneuver.cpp.o
 
 command/Maneuver.i: command/Maneuver.cpp.i
@@ -1297,7 +1297,7 @@ command/Maneuver.i: command/Maneuver.cpp.i
 
 # target to preprocess a source file
 command/Maneuver.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Maneuver.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Maneuver.cpp.i
 .PHONY : command/Maneuver.cpp.i
 
 command/Maneuver.s: command/Maneuver.cpp.s
@@ -1305,7 +1305,7 @@ command/Maneuver.s: command/Maneuver.cpp.s
 
 # target to generate assembly for a file
 command/Maneuver.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Maneuver.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Maneuver.cpp.s
 .PHONY : command/Maneuver.cpp.s
 
 command/MarkPoint.o: command/MarkPoint.cpp.o
@@ -1313,7 +1313,7 @@ command/MarkPoint.o: command/MarkPoint.cpp.o
 
 # target to build an object file
 command/MarkPoint.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/MarkPoint.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/MarkPoint.cpp.o
 .PHONY : command/MarkPoint.cpp.o
 
 command/MarkPoint.i: command/MarkPoint.cpp.i
@@ -1321,7 +1321,7 @@ command/MarkPoint.i: command/MarkPoint.cpp.i
 
 # target to preprocess a source file
 command/MarkPoint.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/MarkPoint.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/MarkPoint.cpp.i
 .PHONY : command/MarkPoint.cpp.i
 
 command/MarkPoint.s: command/MarkPoint.cpp.s
@@ -1329,7 +1329,7 @@ command/MarkPoint.s: command/MarkPoint.cpp.s
 
 # target to generate assembly for a file
 command/MarkPoint.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/MarkPoint.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/MarkPoint.cpp.s
 .PHONY : command/MarkPoint.cpp.s
 
 command/Minimize.o: command/Minimize.cpp.o
@@ -1337,7 +1337,7 @@ command/Minimize.o: command/Minimize.cpp.o
 
 # target to build an object file
 command/Minimize.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Minimize.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Minimize.cpp.o
 .PHONY : command/Minimize.cpp.o
 
 command/Minimize.i: command/Minimize.cpp.i
@@ -1345,7 +1345,7 @@ command/Minimize.i: command/Minimize.cpp.i
 
 # target to preprocess a source file
 command/Minimize.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Minimize.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Minimize.cpp.i
 .PHONY : command/Minimize.cpp.i
 
 command/Minimize.s: command/Minimize.cpp.s
@@ -1353,7 +1353,7 @@ command/Minimize.s: command/Minimize.cpp.s
 
 # target to generate assembly for a file
 command/Minimize.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Minimize.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Minimize.cpp.s
 .PHONY : command/Minimize.cpp.s
 
 command/NoOp.o: command/NoOp.cpp.o
@@ -1361,7 +1361,7 @@ command/NoOp.o: command/NoOp.cpp.o
 
 # target to build an object file
 command/NoOp.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NoOp.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NoOp.cpp.o
 .PHONY : command/NoOp.cpp.o
 
 command/NoOp.i: command/NoOp.cpp.i
@@ -1369,7 +1369,7 @@ command/NoOp.i: command/NoOp.cpp.i
 
 # target to preprocess a source file
 command/NoOp.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NoOp.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NoOp.cpp.i
 .PHONY : command/NoOp.cpp.i
 
 command/NoOp.s: command/NoOp.cpp.s
@@ -1377,7 +1377,7 @@ command/NoOp.s: command/NoOp.cpp.s
 
 # target to generate assembly for a file
 command/NoOp.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NoOp.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NoOp.cpp.s
 .PHONY : command/NoOp.cpp.s
 
 command/NonlinearConstraint.o: command/NonlinearConstraint.cpp.o
@@ -1385,7 +1385,7 @@ command/NonlinearConstraint.o: command/NonlinearConstraint.cpp.o
 
 # target to build an object file
 command/NonlinearConstraint.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NonlinearConstraint.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NonlinearConstraint.cpp.o
 .PHONY : command/NonlinearConstraint.cpp.o
 
 command/NonlinearConstraint.i: command/NonlinearConstraint.cpp.i
@@ -1393,7 +1393,7 @@ command/NonlinearConstraint.i: command/NonlinearConstraint.cpp.i
 
 # target to preprocess a source file
 command/NonlinearConstraint.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NonlinearConstraint.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NonlinearConstraint.cpp.i
 .PHONY : command/NonlinearConstraint.cpp.i
 
 command/NonlinearConstraint.s: command/NonlinearConstraint.cpp.s
@@ -1401,7 +1401,7 @@ command/NonlinearConstraint.s: command/NonlinearConstraint.cpp.s
 
 # target to generate assembly for a file
 command/NonlinearConstraint.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NonlinearConstraint.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/NonlinearConstraint.cpp.s
 .PHONY : command/NonlinearConstraint.cpp.s
 
 command/Optimize.o: command/Optimize.cpp.o
@@ -1409,7 +1409,7 @@ command/Optimize.o: command/Optimize.cpp.o
 
 # target to build an object file
 command/Optimize.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Optimize.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Optimize.cpp.o
 .PHONY : command/Optimize.cpp.o
 
 command/Optimize.i: command/Optimize.cpp.i
@@ -1417,7 +1417,7 @@ command/Optimize.i: command/Optimize.cpp.i
 
 # target to preprocess a source file
 command/Optimize.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Optimize.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Optimize.cpp.i
 .PHONY : command/Optimize.cpp.i
 
 command/Optimize.s: command/Optimize.cpp.s
@@ -1425,7 +1425,7 @@ command/Optimize.s: command/Optimize.cpp.s
 
 # target to generate assembly for a file
 command/Optimize.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Optimize.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Optimize.cpp.s
 .PHONY : command/Optimize.cpp.s
 
 command/PenDown.o: command/PenDown.cpp.o
@@ -1433,7 +1433,7 @@ command/PenDown.o: command/PenDown.cpp.o
 
 # target to build an object file
 command/PenDown.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenDown.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenDown.cpp.o
 .PHONY : command/PenDown.cpp.o
 
 command/PenDown.i: command/PenDown.cpp.i
@@ -1441,7 +1441,7 @@ command/PenDown.i: command/PenDown.cpp.i
 
 # target to preprocess a source file
 command/PenDown.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenDown.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenDown.cpp.i
 .PHONY : command/PenDown.cpp.i
 
 command/PenDown.s: command/PenDown.cpp.s
@@ -1449,7 +1449,7 @@ command/PenDown.s: command/PenDown.cpp.s
 
 # target to generate assembly for a file
 command/PenDown.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenDown.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenDown.cpp.s
 .PHONY : command/PenDown.cpp.s
 
 command/PenUp.o: command/PenUp.cpp.o
@@ -1457,7 +1457,7 @@ command/PenUp.o: command/PenUp.cpp.o
 
 # target to build an object file
 command/PenUp.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenUp.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenUp.cpp.o
 .PHONY : command/PenUp.cpp.o
 
 command/PenUp.i: command/PenUp.cpp.i
@@ -1465,7 +1465,7 @@ command/PenUp.i: command/PenUp.cpp.i
 
 # target to preprocess a source file
 command/PenUp.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenUp.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenUp.cpp.i
 .PHONY : command/PenUp.cpp.i
 
 command/PenUp.s: command/PenUp.cpp.s
@@ -1473,7 +1473,7 @@ command/PenUp.s: command/PenUp.cpp.s
 
 # target to generate assembly for a file
 command/PenUp.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenUp.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PenUp.cpp.s
 .PHONY : command/PenUp.cpp.s
 
 command/PlotCommand.o: command/PlotCommand.cpp.o
@@ -1481,7 +1481,7 @@ command/PlotCommand.o: command/PlotCommand.cpp.o
 
 # target to build an object file
 command/PlotCommand.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PlotCommand.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PlotCommand.cpp.o
 .PHONY : command/PlotCommand.cpp.o
 
 command/PlotCommand.i: command/PlotCommand.cpp.i
@@ -1489,7 +1489,7 @@ command/PlotCommand.i: command/PlotCommand.cpp.i
 
 # target to preprocess a source file
 command/PlotCommand.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PlotCommand.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PlotCommand.cpp.i
 .PHONY : command/PlotCommand.cpp.i
 
 command/PlotCommand.s: command/PlotCommand.cpp.s
@@ -1497,7 +1497,7 @@ command/PlotCommand.s: command/PlotCommand.cpp.s
 
 # target to generate assembly for a file
 command/PlotCommand.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PlotCommand.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PlotCommand.cpp.s
 .PHONY : command/PlotCommand.cpp.s
 
 command/Propagate.o: command/Propagate.cpp.o
@@ -1505,7 +1505,7 @@ command/Propagate.o: command/Propagate.cpp.o
 
 # target to build an object file
 command/Propagate.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Propagate.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Propagate.cpp.o
 .PHONY : command/Propagate.cpp.o
 
 command/Propagate.i: command/Propagate.cpp.i
@@ -1513,7 +1513,7 @@ command/Propagate.i: command/Propagate.cpp.i
 
 # target to preprocess a source file
 command/Propagate.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Propagate.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Propagate.cpp.i
 .PHONY : command/Propagate.cpp.i
 
 command/Propagate.s: command/Propagate.cpp.s
@@ -1521,7 +1521,7 @@ command/Propagate.s: command/Propagate.cpp.s
 
 # target to generate assembly for a file
 command/Propagate.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Propagate.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Propagate.cpp.s
 .PHONY : command/Propagate.cpp.s
 
 command/PropagationEnabledCommand.o: command/PropagationEnabledCommand.cpp.o
@@ -1529,7 +1529,7 @@ command/PropagationEnabledCommand.o: command/PropagationEnabledCommand.cpp.o
 
 # target to build an object file
 command/PropagationEnabledCommand.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PropagationEnabledCommand.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PropagationEnabledCommand.cpp.o
 .PHONY : command/PropagationEnabledCommand.cpp.o
 
 command/PropagationEnabledCommand.i: command/PropagationEnabledCommand.cpp.i
@@ -1537,7 +1537,7 @@ command/PropagationEnabledCommand.i: command/PropagationEnabledCommand.cpp.i
 
 # target to preprocess a source file
 command/PropagationEnabledCommand.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PropagationEnabledCommand.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PropagationEnabledCommand.cpp.i
 .PHONY : command/PropagationEnabledCommand.cpp.i
 
 command/PropagationEnabledCommand.s: command/PropagationEnabledCommand.cpp.s
@@ -1545,7 +1545,7 @@ command/PropagationEnabledCommand.s: command/PropagationEnabledCommand.cpp.s
 
 # target to generate assembly for a file
 command/PropagationEnabledCommand.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PropagationEnabledCommand.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/PropagationEnabledCommand.cpp.s
 .PHONY : command/PropagationEnabledCommand.cpp.s
 
 command/Report.o: command/Report.cpp.o
@@ -1553,7 +1553,7 @@ command/Report.o: command/Report.cpp.o
 
 # target to build an object file
 command/Report.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Report.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Report.cpp.o
 .PHONY : command/Report.cpp.o
 
 command/Report.i: command/Report.cpp.i
@@ -1561,7 +1561,7 @@ command/Report.i: command/Report.cpp.i
 
 # target to preprocess a source file
 command/Report.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Report.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Report.cpp.i
 .PHONY : command/Report.cpp.i
 
 command/Report.s: command/Report.cpp.s
@@ -1569,7 +1569,7 @@ command/Report.s: command/Report.cpp.s
 
 # target to generate assembly for a file
 command/Report.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Report.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Report.cpp.s
 .PHONY : command/Report.cpp.s
 
 command/RunSolver.o: command/RunSolver.cpp.o
@@ -1577,7 +1577,7 @@ command/RunSolver.o: command/RunSolver.cpp.o
 
 # target to build an object file
 command/RunSolver.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/RunSolver.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/RunSolver.cpp.o
 .PHONY : command/RunSolver.cpp.o
 
 command/RunSolver.i: command/RunSolver.cpp.i
@@ -1585,7 +1585,7 @@ command/RunSolver.i: command/RunSolver.cpp.i
 
 # target to preprocess a source file
 command/RunSolver.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/RunSolver.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/RunSolver.cpp.i
 .PHONY : command/RunSolver.cpp.i
 
 command/RunSolver.s: command/RunSolver.cpp.s
@@ -1593,7 +1593,7 @@ command/RunSolver.s: command/RunSolver.cpp.s
 
 # target to generate assembly for a file
 command/RunSolver.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/RunSolver.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/RunSolver.cpp.s
 .PHONY : command/RunSolver.cpp.s
 
 command/SaveMission.o: command/SaveMission.cpp.o
@@ -1601,7 +1601,7 @@ command/SaveMission.o: command/SaveMission.cpp.o
 
 # target to build an object file
 command/SaveMission.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SaveMission.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SaveMission.cpp.o
 .PHONY : command/SaveMission.cpp.o
 
 command/SaveMission.i: command/SaveMission.cpp.i
@@ -1609,7 +1609,7 @@ command/SaveMission.i: command/SaveMission.cpp.i
 
 # target to preprocess a source file
 command/SaveMission.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SaveMission.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SaveMission.cpp.i
 .PHONY : command/SaveMission.cpp.i
 
 command/SaveMission.s: command/SaveMission.cpp.s
@@ -1617,7 +1617,7 @@ command/SaveMission.s: command/SaveMission.cpp.s
 
 # target to generate assembly for a file
 command/SaveMission.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SaveMission.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SaveMission.cpp.s
 .PHONY : command/SaveMission.cpp.s
 
 command/SolverBranchCommand.o: command/SolverBranchCommand.cpp.o
@@ -1625,7 +1625,7 @@ command/SolverBranchCommand.o: command/SolverBranchCommand.cpp.o
 
 # target to build an object file
 command/SolverBranchCommand.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverBranchCommand.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverBranchCommand.cpp.o
 .PHONY : command/SolverBranchCommand.cpp.o
 
 command/SolverBranchCommand.i: command/SolverBranchCommand.cpp.i
@@ -1633,7 +1633,7 @@ command/SolverBranchCommand.i: command/SolverBranchCommand.cpp.i
 
 # target to preprocess a source file
 command/SolverBranchCommand.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverBranchCommand.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverBranchCommand.cpp.i
 .PHONY : command/SolverBranchCommand.cpp.i
 
 command/SolverBranchCommand.s: command/SolverBranchCommand.cpp.s
@@ -1641,7 +1641,7 @@ command/SolverBranchCommand.s: command/SolverBranchCommand.cpp.s
 
 # target to generate assembly for a file
 command/SolverBranchCommand.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverBranchCommand.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverBranchCommand.cpp.s
 .PHONY : command/SolverBranchCommand.cpp.s
 
 command/SolverSequenceCommand.o: command/SolverSequenceCommand.cpp.o
@@ -1649,7 +1649,7 @@ command/SolverSequenceCommand.o: command/SolverSequenceCommand.cpp.o
 
 # target to build an object file
 command/SolverSequenceCommand.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverSequenceCommand.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverSequenceCommand.cpp.o
 .PHONY : command/SolverSequenceCommand.cpp.o
 
 command/SolverSequenceCommand.i: command/SolverSequenceCommand.cpp.i
@@ -1657,7 +1657,7 @@ command/SolverSequenceCommand.i: command/SolverSequenceCommand.cpp.i
 
 # target to preprocess a source file
 command/SolverSequenceCommand.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverSequenceCommand.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverSequenceCommand.cpp.i
 .PHONY : command/SolverSequenceCommand.cpp.i
 
 command/SolverSequenceCommand.s: command/SolverSequenceCommand.cpp.s
@@ -1665,7 +1665,7 @@ command/SolverSequenceCommand.s: command/SolverSequenceCommand.cpp.s
 
 # target to generate assembly for a file
 command/SolverSequenceCommand.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverSequenceCommand.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/SolverSequenceCommand.cpp.s
 .PHONY : command/SolverSequenceCommand.cpp.s
 
 command/Stop.o: command/Stop.cpp.o
@@ -1673,7 +1673,7 @@ command/Stop.o: command/Stop.cpp.o
 
 # target to build an object file
 command/Stop.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Stop.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Stop.cpp.o
 .PHONY : command/Stop.cpp.o
 
 command/Stop.i: command/Stop.cpp.i
@@ -1681,7 +1681,7 @@ command/Stop.i: command/Stop.cpp.i
 
 # target to preprocess a source file
 command/Stop.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Stop.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Stop.cpp.i
 .PHONY : command/Stop.cpp.i
 
 command/Stop.s: command/Stop.cpp.s
@@ -1689,7 +1689,7 @@ command/Stop.s: command/Stop.cpp.s
 
 # target to generate assembly for a file
 command/Stop.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Stop.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Stop.cpp.s
 .PHONY : command/Stop.cpp.s
 
 command/Target.o: command/Target.cpp.o
@@ -1697,7 +1697,7 @@ command/Target.o: command/Target.cpp.o
 
 # target to build an object file
 command/Target.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Target.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Target.cpp.o
 .PHONY : command/Target.cpp.o
 
 command/Target.i: command/Target.cpp.i
@@ -1705,7 +1705,7 @@ command/Target.i: command/Target.cpp.i
 
 # target to preprocess a source file
 command/Target.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Target.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Target.cpp.i
 .PHONY : command/Target.cpp.i
 
 command/Target.s: command/Target.cpp.s
@@ -1713,7 +1713,7 @@ command/Target.s: command/Target.cpp.s
 
 # target to generate assembly for a file
 command/Target.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Target.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Target.cpp.s
 .PHONY : command/Target.cpp.s
 
 command/Toggle.o: command/Toggle.cpp.o
@@ -1721,7 +1721,7 @@ command/Toggle.o: command/Toggle.cpp.o
 
 # target to build an object file
 command/Toggle.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Toggle.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Toggle.cpp.o
 .PHONY : command/Toggle.cpp.o
 
 command/Toggle.i: command/Toggle.cpp.i
@@ -1729,7 +1729,7 @@ command/Toggle.i: command/Toggle.cpp.i
 
 # target to preprocess a source file
 command/Toggle.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Toggle.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Toggle.cpp.i
 .PHONY : command/Toggle.cpp.i
 
 command/Toggle.s: command/Toggle.cpp.s
@@ -1737,7 +1737,7 @@ command/Toggle.s: command/Toggle.cpp.s
 
 # target to generate assembly for a file
 command/Toggle.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Toggle.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Toggle.cpp.s
 .PHONY : command/Toggle.cpp.s
 
 command/Vary.o: command/Vary.cpp.o
@@ -1745,7 +1745,7 @@ command/Vary.o: command/Vary.cpp.o
 
 # target to build an object file
 command/Vary.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Vary.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Vary.cpp.o
 .PHONY : command/Vary.cpp.o
 
 command/Vary.i: command/Vary.cpp.i
@@ -1753,7 +1753,7 @@ command/Vary.i: command/Vary.cpp.i
 
 # target to preprocess a source file
 command/Vary.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Vary.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Vary.cpp.i
 .PHONY : command/Vary.cpp.i
 
 command/Vary.s: command/Vary.cpp.s
@@ -1761,7 +1761,7 @@ command/Vary.s: command/Vary.cpp.s
 
 # target to generate assembly for a file
 command/Vary.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Vary.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/Vary.cpp.s
 .PHONY : command/Vary.cpp.s
 
 command/While.o: command/While.cpp.o
@@ -1769,7 +1769,7 @@ command/While.o: command/While.cpp.o
 
 # target to build an object file
 command/While.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/While.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/While.cpp.o
 .PHONY : command/While.cpp.o
 
 command/While.i: command/While.cpp.i
@@ -1777,7 +1777,7 @@ command/While.i: command/While.cpp.i
 
 # target to preprocess a source file
 command/While.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/While.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/While.cpp.i
 .PHONY : command/While.cpp.i
 
 command/While.s: command/While.cpp.s
@@ -1785,7 +1785,7 @@ command/While.s: command/While.cpp.s
 
 # target to generate assembly for a file
 command/While.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/While.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/command/While.cpp.s
 .PHONY : command/While.cpp.s
 
 configs/ConfigManager.o: configs/ConfigManager.cpp.o
@@ -1793,7 +1793,7 @@ configs/ConfigManager.o: configs/ConfigManager.cpp.o
 
 # target to build an object file
 configs/ConfigManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManager.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManager.cpp.o
 .PHONY : configs/ConfigManager.cpp.o
 
 configs/ConfigManager.i: configs/ConfigManager.cpp.i
@@ -1801,7 +1801,7 @@ configs/ConfigManager.i: configs/ConfigManager.cpp.i
 
 # target to preprocess a source file
 configs/ConfigManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManager.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManager.cpp.i
 .PHONY : configs/ConfigManager.cpp.i
 
 configs/ConfigManager.s: configs/ConfigManager.cpp.s
@@ -1809,7 +1809,7 @@ configs/ConfigManager.s: configs/ConfigManager.cpp.s
 
 # target to generate assembly for a file
 configs/ConfigManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManager.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManager.cpp.s
 .PHONY : configs/ConfigManager.cpp.s
 
 configs/ConfigManagerException.o: configs/ConfigManagerException.cpp.o
@@ -1817,7 +1817,7 @@ configs/ConfigManagerException.o: configs/ConfigManagerException.cpp.o
 
 # target to build an object file
 configs/ConfigManagerException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManagerException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManagerException.cpp.o
 .PHONY : configs/ConfigManagerException.cpp.o
 
 configs/ConfigManagerException.i: configs/ConfigManagerException.cpp.i
@@ -1825,7 +1825,7 @@ configs/ConfigManagerException.i: configs/ConfigManagerException.cpp.i
 
 # target to preprocess a source file
 configs/ConfigManagerException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManagerException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManagerException.cpp.i
 .PHONY : configs/ConfigManagerException.cpp.i
 
 configs/ConfigManagerException.s: configs/ConfigManagerException.cpp.s
@@ -1833,7 +1833,7 @@ configs/ConfigManagerException.s: configs/ConfigManagerException.cpp.s
 
 # target to generate assembly for a file
 configs/ConfigManagerException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManagerException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/configs/ConfigManagerException.cpp.s
 .PHONY : configs/ConfigManagerException.cpp.s
 
 coordsystem/AxisSystem.o: coordsystem/AxisSystem.cpp.o
@@ -1841,7 +1841,7 @@ coordsystem/AxisSystem.o: coordsystem/AxisSystem.cpp.o
 
 # target to build an object file
 coordsystem/AxisSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/AxisSystem.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/AxisSystem.cpp.o
 .PHONY : coordsystem/AxisSystem.cpp.o
 
 coordsystem/AxisSystem.i: coordsystem/AxisSystem.cpp.i
@@ -1849,7 +1849,7 @@ coordsystem/AxisSystem.i: coordsystem/AxisSystem.cpp.i
 
 # target to preprocess a source file
 coordsystem/AxisSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/AxisSystem.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/AxisSystem.cpp.i
 .PHONY : coordsystem/AxisSystem.cpp.i
 
 coordsystem/AxisSystem.s: coordsystem/AxisSystem.cpp.s
@@ -1857,7 +1857,7 @@ coordsystem/AxisSystem.s: coordsystem/AxisSystem.cpp.s
 
 # target to generate assembly for a file
 coordsystem/AxisSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/AxisSystem.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/AxisSystem.cpp.s
 .PHONY : coordsystem/AxisSystem.cpp.s
 
 coordsystem/BodyFixedAxes.o: coordsystem/BodyFixedAxes.cpp.o
@@ -1865,7 +1865,7 @@ coordsystem/BodyFixedAxes.o: coordsystem/BodyFixedAxes.cpp.o
 
 # target to build an object file
 coordsystem/BodyFixedAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyFixedAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyFixedAxes.cpp.o
 .PHONY : coordsystem/BodyFixedAxes.cpp.o
 
 coordsystem/BodyFixedAxes.i: coordsystem/BodyFixedAxes.cpp.i
@@ -1873,7 +1873,7 @@ coordsystem/BodyFixedAxes.i: coordsystem/BodyFixedAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/BodyFixedAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyFixedAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyFixedAxes.cpp.i
 .PHONY : coordsystem/BodyFixedAxes.cpp.i
 
 coordsystem/BodyFixedAxes.s: coordsystem/BodyFixedAxes.cpp.s
@@ -1881,7 +1881,7 @@ coordsystem/BodyFixedAxes.s: coordsystem/BodyFixedAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/BodyFixedAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyFixedAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyFixedAxes.cpp.s
 .PHONY : coordsystem/BodyFixedAxes.cpp.s
 
 coordsystem/BodyInertialAxes.o: coordsystem/BodyInertialAxes.cpp.o
@@ -1889,7 +1889,7 @@ coordsystem/BodyInertialAxes.o: coordsystem/BodyInertialAxes.cpp.o
 
 # target to build an object file
 coordsystem/BodyInertialAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyInertialAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyInertialAxes.cpp.o
 .PHONY : coordsystem/BodyInertialAxes.cpp.o
 
 coordsystem/BodyInertialAxes.i: coordsystem/BodyInertialAxes.cpp.i
@@ -1897,7 +1897,7 @@ coordsystem/BodyInertialAxes.i: coordsystem/BodyInertialAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/BodyInertialAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyInertialAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyInertialAxes.cpp.i
 .PHONY : coordsystem/BodyInertialAxes.cpp.i
 
 coordsystem/BodyInertialAxes.s: coordsystem/BodyInertialAxes.cpp.s
@@ -1905,7 +1905,7 @@ coordsystem/BodyInertialAxes.s: coordsystem/BodyInertialAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/BodyInertialAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyInertialAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodyInertialAxes.cpp.s
 .PHONY : coordsystem/BodyInertialAxes.cpp.s
 
 coordsystem/BodySpinSunAxes.o: coordsystem/BodySpinSunAxes.cpp.o
@@ -1913,7 +1913,7 @@ coordsystem/BodySpinSunAxes.o: coordsystem/BodySpinSunAxes.cpp.o
 
 # target to build an object file
 coordsystem/BodySpinSunAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodySpinSunAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodySpinSunAxes.cpp.o
 .PHONY : coordsystem/BodySpinSunAxes.cpp.o
 
 coordsystem/BodySpinSunAxes.i: coordsystem/BodySpinSunAxes.cpp.i
@@ -1921,7 +1921,7 @@ coordsystem/BodySpinSunAxes.i: coordsystem/BodySpinSunAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/BodySpinSunAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodySpinSunAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodySpinSunAxes.cpp.i
 .PHONY : coordsystem/BodySpinSunAxes.cpp.i
 
 coordsystem/BodySpinSunAxes.s: coordsystem/BodySpinSunAxes.cpp.s
@@ -1929,7 +1929,7 @@ coordsystem/BodySpinSunAxes.s: coordsystem/BodySpinSunAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/BodySpinSunAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodySpinSunAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/BodySpinSunAxes.cpp.s
 .PHONY : coordsystem/BodySpinSunAxes.cpp.s
 
 coordsystem/CoordinateBase.o: coordsystem/CoordinateBase.cpp.o
@@ -1937,7 +1937,7 @@ coordsystem/CoordinateBase.o: coordsystem/CoordinateBase.cpp.o
 
 # target to build an object file
 coordsystem/CoordinateBase.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateBase.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateBase.cpp.o
 .PHONY : coordsystem/CoordinateBase.cpp.o
 
 coordsystem/CoordinateBase.i: coordsystem/CoordinateBase.cpp.i
@@ -1945,7 +1945,7 @@ coordsystem/CoordinateBase.i: coordsystem/CoordinateBase.cpp.i
 
 # target to preprocess a source file
 coordsystem/CoordinateBase.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateBase.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateBase.cpp.i
 .PHONY : coordsystem/CoordinateBase.cpp.i
 
 coordsystem/CoordinateBase.s: coordsystem/CoordinateBase.cpp.s
@@ -1953,7 +1953,7 @@ coordsystem/CoordinateBase.s: coordsystem/CoordinateBase.cpp.s
 
 # target to generate assembly for a file
 coordsystem/CoordinateBase.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateBase.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateBase.cpp.s
 .PHONY : coordsystem/CoordinateBase.cpp.s
 
 coordsystem/CoordinateConverter.o: coordsystem/CoordinateConverter.cpp.o
@@ -1961,7 +1961,7 @@ coordsystem/CoordinateConverter.o: coordsystem/CoordinateConverter.cpp.o
 
 # target to build an object file
 coordsystem/CoordinateConverter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateConverter.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateConverter.cpp.o
 .PHONY : coordsystem/CoordinateConverter.cpp.o
 
 coordsystem/CoordinateConverter.i: coordsystem/CoordinateConverter.cpp.i
@@ -1969,7 +1969,7 @@ coordsystem/CoordinateConverter.i: coordsystem/CoordinateConverter.cpp.i
 
 # target to preprocess a source file
 coordsystem/CoordinateConverter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateConverter.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateConverter.cpp.i
 .PHONY : coordsystem/CoordinateConverter.cpp.i
 
 coordsystem/CoordinateConverter.s: coordsystem/CoordinateConverter.cpp.s
@@ -1977,7 +1977,7 @@ coordsystem/CoordinateConverter.s: coordsystem/CoordinateConverter.cpp.s
 
 # target to generate assembly for a file
 coordsystem/CoordinateConverter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateConverter.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateConverter.cpp.s
 .PHONY : coordsystem/CoordinateConverter.cpp.s
 
 coordsystem/CoordinateSystem.o: coordsystem/CoordinateSystem.cpp.o
@@ -1985,7 +1985,7 @@ coordsystem/CoordinateSystem.o: coordsystem/CoordinateSystem.cpp.o
 
 # target to build an object file
 coordsystem/CoordinateSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystem.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystem.cpp.o
 .PHONY : coordsystem/CoordinateSystem.cpp.o
 
 coordsystem/CoordinateSystem.i: coordsystem/CoordinateSystem.cpp.i
@@ -1993,7 +1993,7 @@ coordsystem/CoordinateSystem.i: coordsystem/CoordinateSystem.cpp.i
 
 # target to preprocess a source file
 coordsystem/CoordinateSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystem.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystem.cpp.i
 .PHONY : coordsystem/CoordinateSystem.cpp.i
 
 coordsystem/CoordinateSystem.s: coordsystem/CoordinateSystem.cpp.s
@@ -2001,7 +2001,7 @@ coordsystem/CoordinateSystem.s: coordsystem/CoordinateSystem.cpp.s
 
 # target to generate assembly for a file
 coordsystem/CoordinateSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystem.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystem.cpp.s
 .PHONY : coordsystem/CoordinateSystem.cpp.s
 
 coordsystem/CoordinateSystemException.o: coordsystem/CoordinateSystemException.cpp.o
@@ -2009,7 +2009,7 @@ coordsystem/CoordinateSystemException.o: coordsystem/CoordinateSystemException.c
 
 # target to build an object file
 coordsystem/CoordinateSystemException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystemException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystemException.cpp.o
 .PHONY : coordsystem/CoordinateSystemException.cpp.o
 
 coordsystem/CoordinateSystemException.i: coordsystem/CoordinateSystemException.cpp.i
@@ -2017,7 +2017,7 @@ coordsystem/CoordinateSystemException.i: coordsystem/CoordinateSystemException.c
 
 # target to preprocess a source file
 coordsystem/CoordinateSystemException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystemException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystemException.cpp.i
 .PHONY : coordsystem/CoordinateSystemException.cpp.i
 
 coordsystem/CoordinateSystemException.s: coordsystem/CoordinateSystemException.cpp.s
@@ -2025,7 +2025,7 @@ coordsystem/CoordinateSystemException.s: coordsystem/CoordinateSystemException.c
 
 # target to generate assembly for a file
 coordsystem/CoordinateSystemException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystemException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/CoordinateSystemException.cpp.s
 .PHONY : coordsystem/CoordinateSystemException.cpp.s
 
 coordsystem/DynamicAxes.o: coordsystem/DynamicAxes.cpp.o
@@ -2033,7 +2033,7 @@ coordsystem/DynamicAxes.o: coordsystem/DynamicAxes.cpp.o
 
 # target to build an object file
 coordsystem/DynamicAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/DynamicAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/DynamicAxes.cpp.o
 .PHONY : coordsystem/DynamicAxes.cpp.o
 
 coordsystem/DynamicAxes.i: coordsystem/DynamicAxes.cpp.i
@@ -2041,7 +2041,7 @@ coordsystem/DynamicAxes.i: coordsystem/DynamicAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/DynamicAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/DynamicAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/DynamicAxes.cpp.i
 .PHONY : coordsystem/DynamicAxes.cpp.i
 
 coordsystem/DynamicAxes.s: coordsystem/DynamicAxes.cpp.s
@@ -2049,7 +2049,7 @@ coordsystem/DynamicAxes.s: coordsystem/DynamicAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/DynamicAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/DynamicAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/DynamicAxes.cpp.s
 .PHONY : coordsystem/DynamicAxes.cpp.s
 
 coordsystem/EquatorAxes.o: coordsystem/EquatorAxes.cpp.o
@@ -2057,7 +2057,7 @@ coordsystem/EquatorAxes.o: coordsystem/EquatorAxes.cpp.o
 
 # target to build an object file
 coordsystem/EquatorAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/EquatorAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/EquatorAxes.cpp.o
 .PHONY : coordsystem/EquatorAxes.cpp.o
 
 coordsystem/EquatorAxes.i: coordsystem/EquatorAxes.cpp.i
@@ -2065,7 +2065,7 @@ coordsystem/EquatorAxes.i: coordsystem/EquatorAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/EquatorAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/EquatorAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/EquatorAxes.cpp.i
 .PHONY : coordsystem/EquatorAxes.cpp.i
 
 coordsystem/EquatorAxes.s: coordsystem/EquatorAxes.cpp.s
@@ -2073,7 +2073,7 @@ coordsystem/EquatorAxes.s: coordsystem/EquatorAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/EquatorAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/EquatorAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/EquatorAxes.cpp.s
 .PHONY : coordsystem/EquatorAxes.cpp.s
 
 coordsystem/GeocentricSolarEclipticAxes.o: coordsystem/GeocentricSolarEclipticAxes.cpp.o
@@ -2081,7 +2081,7 @@ coordsystem/GeocentricSolarEclipticAxes.o: coordsystem/GeocentricSolarEclipticAx
 
 # target to build an object file
 coordsystem/GeocentricSolarEclipticAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarEclipticAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarEclipticAxes.cpp.o
 .PHONY : coordsystem/GeocentricSolarEclipticAxes.cpp.o
 
 coordsystem/GeocentricSolarEclipticAxes.i: coordsystem/GeocentricSolarEclipticAxes.cpp.i
@@ -2089,7 +2089,7 @@ coordsystem/GeocentricSolarEclipticAxes.i: coordsystem/GeocentricSolarEclipticAx
 
 # target to preprocess a source file
 coordsystem/GeocentricSolarEclipticAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarEclipticAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarEclipticAxes.cpp.i
 .PHONY : coordsystem/GeocentricSolarEclipticAxes.cpp.i
 
 coordsystem/GeocentricSolarEclipticAxes.s: coordsystem/GeocentricSolarEclipticAxes.cpp.s
@@ -2097,7 +2097,7 @@ coordsystem/GeocentricSolarEclipticAxes.s: coordsystem/GeocentricSolarEclipticAx
 
 # target to generate assembly for a file
 coordsystem/GeocentricSolarEclipticAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarEclipticAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarEclipticAxes.cpp.s
 .PHONY : coordsystem/GeocentricSolarEclipticAxes.cpp.s
 
 coordsystem/GeocentricSolarMagneticAxes.o: coordsystem/GeocentricSolarMagneticAxes.cpp.o
@@ -2105,7 +2105,7 @@ coordsystem/GeocentricSolarMagneticAxes.o: coordsystem/GeocentricSolarMagneticAx
 
 # target to build an object file
 coordsystem/GeocentricSolarMagneticAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarMagneticAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarMagneticAxes.cpp.o
 .PHONY : coordsystem/GeocentricSolarMagneticAxes.cpp.o
 
 coordsystem/GeocentricSolarMagneticAxes.i: coordsystem/GeocentricSolarMagneticAxes.cpp.i
@@ -2113,7 +2113,7 @@ coordsystem/GeocentricSolarMagneticAxes.i: coordsystem/GeocentricSolarMagneticAx
 
 # target to preprocess a source file
 coordsystem/GeocentricSolarMagneticAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarMagneticAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarMagneticAxes.cpp.i
 .PHONY : coordsystem/GeocentricSolarMagneticAxes.cpp.i
 
 coordsystem/GeocentricSolarMagneticAxes.s: coordsystem/GeocentricSolarMagneticAxes.cpp.s
@@ -2121,7 +2121,7 @@ coordsystem/GeocentricSolarMagneticAxes.s: coordsystem/GeocentricSolarMagneticAx
 
 # target to generate assembly for a file
 coordsystem/GeocentricSolarMagneticAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarMagneticAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/GeocentricSolarMagneticAxes.cpp.s
 .PHONY : coordsystem/GeocentricSolarMagneticAxes.cpp.s
 
 coordsystem/IAUFile.o: coordsystem/IAUFile.cpp.o
@@ -2129,7 +2129,7 @@ coordsystem/IAUFile.o: coordsystem/IAUFile.cpp.o
 
 # target to build an object file
 coordsystem/IAUFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/IAUFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/IAUFile.cpp.o
 .PHONY : coordsystem/IAUFile.cpp.o
 
 coordsystem/IAUFile.i: coordsystem/IAUFile.cpp.i
@@ -2137,7 +2137,7 @@ coordsystem/IAUFile.i: coordsystem/IAUFile.cpp.i
 
 # target to preprocess a source file
 coordsystem/IAUFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/IAUFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/IAUFile.cpp.i
 .PHONY : coordsystem/IAUFile.cpp.i
 
 coordsystem/IAUFile.s: coordsystem/IAUFile.cpp.s
@@ -2145,7 +2145,7 @@ coordsystem/IAUFile.s: coordsystem/IAUFile.cpp.s
 
 # target to generate assembly for a file
 coordsystem/IAUFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/IAUFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/IAUFile.cpp.s
 .PHONY : coordsystem/IAUFile.cpp.s
 
 coordsystem/ICRFAxes.o: coordsystem/ICRFAxes.cpp.o
@@ -2153,7 +2153,7 @@ coordsystem/ICRFAxes.o: coordsystem/ICRFAxes.cpp.o
 
 # target to build an object file
 coordsystem/ICRFAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFAxes.cpp.o
 .PHONY : coordsystem/ICRFAxes.cpp.o
 
 coordsystem/ICRFAxes.i: coordsystem/ICRFAxes.cpp.i
@@ -2161,7 +2161,7 @@ coordsystem/ICRFAxes.i: coordsystem/ICRFAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/ICRFAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFAxes.cpp.i
 .PHONY : coordsystem/ICRFAxes.cpp.i
 
 coordsystem/ICRFAxes.s: coordsystem/ICRFAxes.cpp.s
@@ -2169,7 +2169,7 @@ coordsystem/ICRFAxes.s: coordsystem/ICRFAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/ICRFAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFAxes.cpp.s
 .PHONY : coordsystem/ICRFAxes.cpp.s
 
 coordsystem/ICRFFile.o: coordsystem/ICRFFile.cpp.o
@@ -2177,7 +2177,7 @@ coordsystem/ICRFFile.o: coordsystem/ICRFFile.cpp.o
 
 # target to build an object file
 coordsystem/ICRFFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFFile.cpp.o
 .PHONY : coordsystem/ICRFFile.cpp.o
 
 coordsystem/ICRFFile.i: coordsystem/ICRFFile.cpp.i
@@ -2185,7 +2185,7 @@ coordsystem/ICRFFile.i: coordsystem/ICRFFile.cpp.i
 
 # target to preprocess a source file
 coordsystem/ICRFFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFFile.cpp.i
 .PHONY : coordsystem/ICRFFile.cpp.i
 
 coordsystem/ICRFFile.s: coordsystem/ICRFFile.cpp.s
@@ -2193,7 +2193,7 @@ coordsystem/ICRFFile.s: coordsystem/ICRFFile.cpp.s
 
 # target to generate assembly for a file
 coordsystem/ICRFFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ICRFFile.cpp.s
 .PHONY : coordsystem/ICRFFile.cpp.s
 
 coordsystem/ITRFAxes.o: coordsystem/ITRFAxes.cpp.o
@@ -2201,7 +2201,7 @@ coordsystem/ITRFAxes.o: coordsystem/ITRFAxes.cpp.o
 
 # target to build an object file
 coordsystem/ITRFAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ITRFAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ITRFAxes.cpp.o
 .PHONY : coordsystem/ITRFAxes.cpp.o
 
 coordsystem/ITRFAxes.i: coordsystem/ITRFAxes.cpp.i
@@ -2209,7 +2209,7 @@ coordsystem/ITRFAxes.i: coordsystem/ITRFAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/ITRFAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ITRFAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ITRFAxes.cpp.i
 .PHONY : coordsystem/ITRFAxes.cpp.i
 
 coordsystem/ITRFAxes.s: coordsystem/ITRFAxes.cpp.s
@@ -2217,7 +2217,7 @@ coordsystem/ITRFAxes.s: coordsystem/ITRFAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/ITRFAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ITRFAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ITRFAxes.cpp.s
 .PHONY : coordsystem/ITRFAxes.cpp.s
 
 coordsystem/InertialAxes.o: coordsystem/InertialAxes.cpp.o
@@ -2225,7 +2225,7 @@ coordsystem/InertialAxes.o: coordsystem/InertialAxes.cpp.o
 
 # target to build an object file
 coordsystem/InertialAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/InertialAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/InertialAxes.cpp.o
 .PHONY : coordsystem/InertialAxes.cpp.o
 
 coordsystem/InertialAxes.i: coordsystem/InertialAxes.cpp.i
@@ -2233,7 +2233,7 @@ coordsystem/InertialAxes.i: coordsystem/InertialAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/InertialAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/InertialAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/InertialAxes.cpp.i
 .PHONY : coordsystem/InertialAxes.cpp.i
 
 coordsystem/InertialAxes.s: coordsystem/InertialAxes.cpp.s
@@ -2241,7 +2241,7 @@ coordsystem/InertialAxes.s: coordsystem/InertialAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/InertialAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/InertialAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/InertialAxes.cpp.s
 .PHONY : coordsystem/InertialAxes.cpp.s
 
 coordsystem/ItrfCoefficientsFile.o: coordsystem/ItrfCoefficientsFile.cpp.o
@@ -2249,7 +2249,7 @@ coordsystem/ItrfCoefficientsFile.o: coordsystem/ItrfCoefficientsFile.cpp.o
 
 # target to build an object file
 coordsystem/ItrfCoefficientsFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ItrfCoefficientsFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ItrfCoefficientsFile.cpp.o
 .PHONY : coordsystem/ItrfCoefficientsFile.cpp.o
 
 coordsystem/ItrfCoefficientsFile.i: coordsystem/ItrfCoefficientsFile.cpp.i
@@ -2257,7 +2257,7 @@ coordsystem/ItrfCoefficientsFile.i: coordsystem/ItrfCoefficientsFile.cpp.i
 
 # target to preprocess a source file
 coordsystem/ItrfCoefficientsFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ItrfCoefficientsFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ItrfCoefficientsFile.cpp.i
 .PHONY : coordsystem/ItrfCoefficientsFile.cpp.i
 
 coordsystem/ItrfCoefficientsFile.s: coordsystem/ItrfCoefficientsFile.cpp.s
@@ -2265,7 +2265,7 @@ coordsystem/ItrfCoefficientsFile.s: coordsystem/ItrfCoefficientsFile.cpp.s
 
 # target to generate assembly for a file
 coordsystem/ItrfCoefficientsFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ItrfCoefficientsFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ItrfCoefficientsFile.cpp.s
 .PHONY : coordsystem/ItrfCoefficientsFile.cpp.s
 
 coordsystem/LocalAlignedConstrainedAxes.o: coordsystem/LocalAlignedConstrainedAxes.cpp.o
@@ -2273,7 +2273,7 @@ coordsystem/LocalAlignedConstrainedAxes.o: coordsystem/LocalAlignedConstrainedAx
 
 # target to build an object file
 coordsystem/LocalAlignedConstrainedAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/LocalAlignedConstrainedAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/LocalAlignedConstrainedAxes.cpp.o
 .PHONY : coordsystem/LocalAlignedConstrainedAxes.cpp.o
 
 coordsystem/LocalAlignedConstrainedAxes.i: coordsystem/LocalAlignedConstrainedAxes.cpp.i
@@ -2281,7 +2281,7 @@ coordsystem/LocalAlignedConstrainedAxes.i: coordsystem/LocalAlignedConstrainedAx
 
 # target to preprocess a source file
 coordsystem/LocalAlignedConstrainedAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/LocalAlignedConstrainedAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/LocalAlignedConstrainedAxes.cpp.i
 .PHONY : coordsystem/LocalAlignedConstrainedAxes.cpp.i
 
 coordsystem/LocalAlignedConstrainedAxes.s: coordsystem/LocalAlignedConstrainedAxes.cpp.s
@@ -2289,7 +2289,7 @@ coordsystem/LocalAlignedConstrainedAxes.s: coordsystem/LocalAlignedConstrainedAx
 
 # target to generate assembly for a file
 coordsystem/LocalAlignedConstrainedAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/LocalAlignedConstrainedAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/LocalAlignedConstrainedAxes.cpp.s
 .PHONY : coordsystem/LocalAlignedConstrainedAxes.cpp.s
 
 coordsystem/MJ2000EcAxes.o: coordsystem/MJ2000EcAxes.cpp.o
@@ -2297,7 +2297,7 @@ coordsystem/MJ2000EcAxes.o: coordsystem/MJ2000EcAxes.cpp.o
 
 # target to build an object file
 coordsystem/MJ2000EcAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EcAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EcAxes.cpp.o
 .PHONY : coordsystem/MJ2000EcAxes.cpp.o
 
 coordsystem/MJ2000EcAxes.i: coordsystem/MJ2000EcAxes.cpp.i
@@ -2305,7 +2305,7 @@ coordsystem/MJ2000EcAxes.i: coordsystem/MJ2000EcAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/MJ2000EcAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EcAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EcAxes.cpp.i
 .PHONY : coordsystem/MJ2000EcAxes.cpp.i
 
 coordsystem/MJ2000EcAxes.s: coordsystem/MJ2000EcAxes.cpp.s
@@ -2313,7 +2313,7 @@ coordsystem/MJ2000EcAxes.s: coordsystem/MJ2000EcAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/MJ2000EcAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EcAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EcAxes.cpp.s
 .PHONY : coordsystem/MJ2000EcAxes.cpp.s
 
 coordsystem/MJ2000EqAxes.o: coordsystem/MJ2000EqAxes.cpp.o
@@ -2321,7 +2321,7 @@ coordsystem/MJ2000EqAxes.o: coordsystem/MJ2000EqAxes.cpp.o
 
 # target to build an object file
 coordsystem/MJ2000EqAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EqAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EqAxes.cpp.o
 .PHONY : coordsystem/MJ2000EqAxes.cpp.o
 
 coordsystem/MJ2000EqAxes.i: coordsystem/MJ2000EqAxes.cpp.i
@@ -2329,7 +2329,7 @@ coordsystem/MJ2000EqAxes.i: coordsystem/MJ2000EqAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/MJ2000EqAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EqAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EqAxes.cpp.i
 .PHONY : coordsystem/MJ2000EqAxes.cpp.i
 
 coordsystem/MJ2000EqAxes.s: coordsystem/MJ2000EqAxes.cpp.s
@@ -2337,7 +2337,7 @@ coordsystem/MJ2000EqAxes.s: coordsystem/MJ2000EqAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/MJ2000EqAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EqAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MJ2000EqAxes.cpp.s
 .PHONY : coordsystem/MJ2000EqAxes.cpp.s
 
 coordsystem/MODEcAxes.o: coordsystem/MODEcAxes.cpp.o
@@ -2345,7 +2345,7 @@ coordsystem/MODEcAxes.o: coordsystem/MODEcAxes.cpp.o
 
 # target to build an object file
 coordsystem/MODEcAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEcAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEcAxes.cpp.o
 .PHONY : coordsystem/MODEcAxes.cpp.o
 
 coordsystem/MODEcAxes.i: coordsystem/MODEcAxes.cpp.i
@@ -2353,7 +2353,7 @@ coordsystem/MODEcAxes.i: coordsystem/MODEcAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/MODEcAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEcAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEcAxes.cpp.i
 .PHONY : coordsystem/MODEcAxes.cpp.i
 
 coordsystem/MODEcAxes.s: coordsystem/MODEcAxes.cpp.s
@@ -2361,7 +2361,7 @@ coordsystem/MODEcAxes.s: coordsystem/MODEcAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/MODEcAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEcAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEcAxes.cpp.s
 .PHONY : coordsystem/MODEcAxes.cpp.s
 
 coordsystem/MODEqAxes.o: coordsystem/MODEqAxes.cpp.o
@@ -2369,7 +2369,7 @@ coordsystem/MODEqAxes.o: coordsystem/MODEqAxes.cpp.o
 
 # target to build an object file
 coordsystem/MODEqAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEqAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEqAxes.cpp.o
 .PHONY : coordsystem/MODEqAxes.cpp.o
 
 coordsystem/MODEqAxes.i: coordsystem/MODEqAxes.cpp.i
@@ -2377,7 +2377,7 @@ coordsystem/MODEqAxes.i: coordsystem/MODEqAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/MODEqAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEqAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEqAxes.cpp.i
 .PHONY : coordsystem/MODEqAxes.cpp.i
 
 coordsystem/MODEqAxes.s: coordsystem/MODEqAxes.cpp.s
@@ -2385,7 +2385,7 @@ coordsystem/MODEqAxes.s: coordsystem/MODEqAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/MODEqAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEqAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MODEqAxes.cpp.s
 .PHONY : coordsystem/MODEqAxes.cpp.s
 
 coordsystem/MOEEcAxes.o: coordsystem/MOEEcAxes.cpp.o
@@ -2393,7 +2393,7 @@ coordsystem/MOEEcAxes.o: coordsystem/MOEEcAxes.cpp.o
 
 # target to build an object file
 coordsystem/MOEEcAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEcAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEcAxes.cpp.o
 .PHONY : coordsystem/MOEEcAxes.cpp.o
 
 coordsystem/MOEEcAxes.i: coordsystem/MOEEcAxes.cpp.i
@@ -2401,7 +2401,7 @@ coordsystem/MOEEcAxes.i: coordsystem/MOEEcAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/MOEEcAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEcAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEcAxes.cpp.i
 .PHONY : coordsystem/MOEEcAxes.cpp.i
 
 coordsystem/MOEEcAxes.s: coordsystem/MOEEcAxes.cpp.s
@@ -2409,7 +2409,7 @@ coordsystem/MOEEcAxes.s: coordsystem/MOEEcAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/MOEEcAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEcAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEcAxes.cpp.s
 .PHONY : coordsystem/MOEEcAxes.cpp.s
 
 coordsystem/MOEEqAxes.o: coordsystem/MOEEqAxes.cpp.o
@@ -2417,7 +2417,7 @@ coordsystem/MOEEqAxes.o: coordsystem/MOEEqAxes.cpp.o
 
 # target to build an object file
 coordsystem/MOEEqAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEqAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEqAxes.cpp.o
 .PHONY : coordsystem/MOEEqAxes.cpp.o
 
 coordsystem/MOEEqAxes.i: coordsystem/MOEEqAxes.cpp.i
@@ -2425,7 +2425,7 @@ coordsystem/MOEEqAxes.i: coordsystem/MOEEqAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/MOEEqAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEqAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEqAxes.cpp.i
 .PHONY : coordsystem/MOEEqAxes.cpp.i
 
 coordsystem/MOEEqAxes.s: coordsystem/MOEEqAxes.cpp.s
@@ -2433,7 +2433,7 @@ coordsystem/MOEEqAxes.s: coordsystem/MOEEqAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/MOEEqAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEqAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MOEEqAxes.cpp.s
 .PHONY : coordsystem/MOEEqAxes.cpp.s
 
 coordsystem/MeanOfDateAxes.o: coordsystem/MeanOfDateAxes.cpp.o
@@ -2441,7 +2441,7 @@ coordsystem/MeanOfDateAxes.o: coordsystem/MeanOfDateAxes.cpp.o
 
 # target to build an object file
 coordsystem/MeanOfDateAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MeanOfDateAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MeanOfDateAxes.cpp.o
 .PHONY : coordsystem/MeanOfDateAxes.cpp.o
 
 coordsystem/MeanOfDateAxes.i: coordsystem/MeanOfDateAxes.cpp.i
@@ -2449,7 +2449,7 @@ coordsystem/MeanOfDateAxes.i: coordsystem/MeanOfDateAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/MeanOfDateAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MeanOfDateAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MeanOfDateAxes.cpp.i
 .PHONY : coordsystem/MeanOfDateAxes.cpp.i
 
 coordsystem/MeanOfDateAxes.s: coordsystem/MeanOfDateAxes.cpp.s
@@ -2457,7 +2457,7 @@ coordsystem/MeanOfDateAxes.s: coordsystem/MeanOfDateAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/MeanOfDateAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MeanOfDateAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/MeanOfDateAxes.cpp.s
 .PHONY : coordsystem/MeanOfDateAxes.cpp.s
 
 coordsystem/ObjectReferencedAxes.o: coordsystem/ObjectReferencedAxes.cpp.o
@@ -2465,7 +2465,7 @@ coordsystem/ObjectReferencedAxes.o: coordsystem/ObjectReferencedAxes.cpp.o
 
 # target to build an object file
 coordsystem/ObjectReferencedAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ObjectReferencedAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ObjectReferencedAxes.cpp.o
 .PHONY : coordsystem/ObjectReferencedAxes.cpp.o
 
 coordsystem/ObjectReferencedAxes.i: coordsystem/ObjectReferencedAxes.cpp.i
@@ -2473,7 +2473,7 @@ coordsystem/ObjectReferencedAxes.i: coordsystem/ObjectReferencedAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/ObjectReferencedAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ObjectReferencedAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ObjectReferencedAxes.cpp.i
 .PHONY : coordsystem/ObjectReferencedAxes.cpp.i
 
 coordsystem/ObjectReferencedAxes.s: coordsystem/ObjectReferencedAxes.cpp.s
@@ -2481,7 +2481,7 @@ coordsystem/ObjectReferencedAxes.s: coordsystem/ObjectReferencedAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/ObjectReferencedAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ObjectReferencedAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/ObjectReferencedAxes.cpp.s
 .PHONY : coordsystem/ObjectReferencedAxes.cpp.s
 
 coordsystem/TODEcAxes.o: coordsystem/TODEcAxes.cpp.o
@@ -2489,7 +2489,7 @@ coordsystem/TODEcAxes.o: coordsystem/TODEcAxes.cpp.o
 
 # target to build an object file
 coordsystem/TODEcAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEcAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEcAxes.cpp.o
 .PHONY : coordsystem/TODEcAxes.cpp.o
 
 coordsystem/TODEcAxes.i: coordsystem/TODEcAxes.cpp.i
@@ -2497,7 +2497,7 @@ coordsystem/TODEcAxes.i: coordsystem/TODEcAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/TODEcAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEcAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEcAxes.cpp.i
 .PHONY : coordsystem/TODEcAxes.cpp.i
 
 coordsystem/TODEcAxes.s: coordsystem/TODEcAxes.cpp.s
@@ -2505,7 +2505,7 @@ coordsystem/TODEcAxes.s: coordsystem/TODEcAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/TODEcAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEcAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEcAxes.cpp.s
 .PHONY : coordsystem/TODEcAxes.cpp.s
 
 coordsystem/TODEqAxes.o: coordsystem/TODEqAxes.cpp.o
@@ -2513,7 +2513,7 @@ coordsystem/TODEqAxes.o: coordsystem/TODEqAxes.cpp.o
 
 # target to build an object file
 coordsystem/TODEqAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEqAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEqAxes.cpp.o
 .PHONY : coordsystem/TODEqAxes.cpp.o
 
 coordsystem/TODEqAxes.i: coordsystem/TODEqAxes.cpp.i
@@ -2521,7 +2521,7 @@ coordsystem/TODEqAxes.i: coordsystem/TODEqAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/TODEqAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEqAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEqAxes.cpp.i
 .PHONY : coordsystem/TODEqAxes.cpp.i
 
 coordsystem/TODEqAxes.s: coordsystem/TODEqAxes.cpp.s
@@ -2529,7 +2529,7 @@ coordsystem/TODEqAxes.s: coordsystem/TODEqAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/TODEqAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEqAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TODEqAxes.cpp.s
 .PHONY : coordsystem/TODEqAxes.cpp.s
 
 coordsystem/TOEEcAxes.o: coordsystem/TOEEcAxes.cpp.o
@@ -2537,7 +2537,7 @@ coordsystem/TOEEcAxes.o: coordsystem/TOEEcAxes.cpp.o
 
 # target to build an object file
 coordsystem/TOEEcAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEcAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEcAxes.cpp.o
 .PHONY : coordsystem/TOEEcAxes.cpp.o
 
 coordsystem/TOEEcAxes.i: coordsystem/TOEEcAxes.cpp.i
@@ -2545,7 +2545,7 @@ coordsystem/TOEEcAxes.i: coordsystem/TOEEcAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/TOEEcAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEcAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEcAxes.cpp.i
 .PHONY : coordsystem/TOEEcAxes.cpp.i
 
 coordsystem/TOEEcAxes.s: coordsystem/TOEEcAxes.cpp.s
@@ -2553,7 +2553,7 @@ coordsystem/TOEEcAxes.s: coordsystem/TOEEcAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/TOEEcAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEcAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEcAxes.cpp.s
 .PHONY : coordsystem/TOEEcAxes.cpp.s
 
 coordsystem/TOEEqAxes.o: coordsystem/TOEEqAxes.cpp.o
@@ -2561,7 +2561,7 @@ coordsystem/TOEEqAxes.o: coordsystem/TOEEqAxes.cpp.o
 
 # target to build an object file
 coordsystem/TOEEqAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEqAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEqAxes.cpp.o
 .PHONY : coordsystem/TOEEqAxes.cpp.o
 
 coordsystem/TOEEqAxes.i: coordsystem/TOEEqAxes.cpp.i
@@ -2569,7 +2569,7 @@ coordsystem/TOEEqAxes.i: coordsystem/TOEEqAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/TOEEqAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEqAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEqAxes.cpp.i
 .PHONY : coordsystem/TOEEqAxes.cpp.i
 
 coordsystem/TOEEqAxes.s: coordsystem/TOEEqAxes.cpp.s
@@ -2577,7 +2577,7 @@ coordsystem/TOEEqAxes.s: coordsystem/TOEEqAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/TOEEqAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEqAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TOEEqAxes.cpp.s
 .PHONY : coordsystem/TOEEqAxes.cpp.s
 
 coordsystem/TopocentricAxes.o: coordsystem/TopocentricAxes.cpp.o
@@ -2585,7 +2585,7 @@ coordsystem/TopocentricAxes.o: coordsystem/TopocentricAxes.cpp.o
 
 # target to build an object file
 coordsystem/TopocentricAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TopocentricAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TopocentricAxes.cpp.o
 .PHONY : coordsystem/TopocentricAxes.cpp.o
 
 coordsystem/TopocentricAxes.i: coordsystem/TopocentricAxes.cpp.i
@@ -2593,7 +2593,7 @@ coordsystem/TopocentricAxes.i: coordsystem/TopocentricAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/TopocentricAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TopocentricAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TopocentricAxes.cpp.i
 .PHONY : coordsystem/TopocentricAxes.cpp.i
 
 coordsystem/TopocentricAxes.s: coordsystem/TopocentricAxes.cpp.s
@@ -2601,7 +2601,7 @@ coordsystem/TopocentricAxes.s: coordsystem/TopocentricAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/TopocentricAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TopocentricAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TopocentricAxes.cpp.s
 .PHONY : coordsystem/TopocentricAxes.cpp.s
 
 coordsystem/TrueOfDateAxes.o: coordsystem/TrueOfDateAxes.cpp.o
@@ -2609,7 +2609,7 @@ coordsystem/TrueOfDateAxes.o: coordsystem/TrueOfDateAxes.cpp.o
 
 # target to build an object file
 coordsystem/TrueOfDateAxes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TrueOfDateAxes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TrueOfDateAxes.cpp.o
 .PHONY : coordsystem/TrueOfDateAxes.cpp.o
 
 coordsystem/TrueOfDateAxes.i: coordsystem/TrueOfDateAxes.cpp.i
@@ -2617,7 +2617,7 @@ coordsystem/TrueOfDateAxes.i: coordsystem/TrueOfDateAxes.cpp.i
 
 # target to preprocess a source file
 coordsystem/TrueOfDateAxes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TrueOfDateAxes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TrueOfDateAxes.cpp.i
 .PHONY : coordsystem/TrueOfDateAxes.cpp.i
 
 coordsystem/TrueOfDateAxes.s: coordsystem/TrueOfDateAxes.cpp.s
@@ -2625,7 +2625,7 @@ coordsystem/TrueOfDateAxes.s: coordsystem/TrueOfDateAxes.cpp.s
 
 # target to generate assembly for a file
 coordsystem/TrueOfDateAxes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TrueOfDateAxes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/coordsystem/TrueOfDateAxes.cpp.s
 .PHONY : coordsystem/TrueOfDateAxes.cpp.s
 
 event/EventException.o: event/EventException.cpp.o
@@ -2633,7 +2633,7 @@ event/EventException.o: event/EventException.cpp.o
 
 # target to build an object file
 event/EventException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventException.cpp.o
 .PHONY : event/EventException.cpp.o
 
 event/EventException.i: event/EventException.cpp.i
@@ -2641,7 +2641,7 @@ event/EventException.i: event/EventException.cpp.i
 
 # target to preprocess a source file
 event/EventException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventException.cpp.i
 .PHONY : event/EventException.cpp.i
 
 event/EventException.s: event/EventException.cpp.s
@@ -2649,7 +2649,7 @@ event/EventException.s: event/EventException.cpp.s
 
 # target to generate assembly for a file
 event/EventException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventException.cpp.s
 .PHONY : event/EventException.cpp.s
 
 event/EventLocator.o: event/EventLocator.cpp.o
@@ -2657,7 +2657,7 @@ event/EventLocator.o: event/EventLocator.cpp.o
 
 # target to build an object file
 event/EventLocator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventLocator.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventLocator.cpp.o
 .PHONY : event/EventLocator.cpp.o
 
 event/EventLocator.i: event/EventLocator.cpp.i
@@ -2665,7 +2665,7 @@ event/EventLocator.i: event/EventLocator.cpp.i
 
 # target to preprocess a source file
 event/EventLocator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventLocator.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventLocator.cpp.i
 .PHONY : event/EventLocator.cpp.i
 
 event/EventLocator.s: event/EventLocator.cpp.s
@@ -2673,7 +2673,7 @@ event/EventLocator.s: event/EventLocator.cpp.s
 
 # target to generate assembly for a file
 event/EventLocator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventLocator.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/EventLocator.cpp.s
 .PHONY : event/EventLocator.cpp.s
 
 event/LocatedEvent.o: event/LocatedEvent.cpp.o
@@ -2681,7 +2681,7 @@ event/LocatedEvent.o: event/LocatedEvent.cpp.o
 
 # target to build an object file
 event/LocatedEvent.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/LocatedEvent.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/LocatedEvent.cpp.o
 .PHONY : event/LocatedEvent.cpp.o
 
 event/LocatedEvent.i: event/LocatedEvent.cpp.i
@@ -2689,7 +2689,7 @@ event/LocatedEvent.i: event/LocatedEvent.cpp.i
 
 # target to preprocess a source file
 event/LocatedEvent.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/LocatedEvent.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/LocatedEvent.cpp.i
 .PHONY : event/LocatedEvent.cpp.i
 
 event/LocatedEvent.s: event/LocatedEvent.cpp.s
@@ -2697,7 +2697,7 @@ event/LocatedEvent.s: event/LocatedEvent.cpp.s
 
 # target to generate assembly for a file
 event/LocatedEvent.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/LocatedEvent.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/event/LocatedEvent.cpp.s
 .PHONY : event/LocatedEvent.cpp.s
 
 executive/ListenerManager.o: executive/ListenerManager.cpp.o
@@ -2705,7 +2705,7 @@ executive/ListenerManager.o: executive/ListenerManager.cpp.o
 
 # target to build an object file
 executive/ListenerManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManager.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManager.cpp.o
 .PHONY : executive/ListenerManager.cpp.o
 
 executive/ListenerManager.i: executive/ListenerManager.cpp.i
@@ -2713,7 +2713,7 @@ executive/ListenerManager.i: executive/ListenerManager.cpp.i
 
 # target to preprocess a source file
 executive/ListenerManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManager.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManager.cpp.i
 .PHONY : executive/ListenerManager.cpp.i
 
 executive/ListenerManager.s: executive/ListenerManager.cpp.s
@@ -2721,7 +2721,7 @@ executive/ListenerManager.s: executive/ListenerManager.cpp.s
 
 # target to generate assembly for a file
 executive/ListenerManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManager.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManager.cpp.s
 .PHONY : executive/ListenerManager.cpp.s
 
 executive/ListenerManagerInterface.o: executive/ListenerManagerInterface.cpp.o
@@ -2729,7 +2729,7 @@ executive/ListenerManagerInterface.o: executive/ListenerManagerInterface.cpp.o
 
 # target to build an object file
 executive/ListenerManagerInterface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManagerInterface.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManagerInterface.cpp.o
 .PHONY : executive/ListenerManagerInterface.cpp.o
 
 executive/ListenerManagerInterface.i: executive/ListenerManagerInterface.cpp.i
@@ -2737,7 +2737,7 @@ executive/ListenerManagerInterface.i: executive/ListenerManagerInterface.cpp.i
 
 # target to preprocess a source file
 executive/ListenerManagerInterface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManagerInterface.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManagerInterface.cpp.i
 .PHONY : executive/ListenerManagerInterface.cpp.i
 
 executive/ListenerManagerInterface.s: executive/ListenerManagerInterface.cpp.s
@@ -2745,7 +2745,7 @@ executive/ListenerManagerInterface.s: executive/ListenerManagerInterface.cpp.s
 
 # target to generate assembly for a file
 executive/ListenerManagerInterface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManagerInterface.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/ListenerManagerInterface.cpp.s
 .PHONY : executive/ListenerManagerInterface.cpp.s
 
 executive/Moderator.o: executive/Moderator.cpp.o
@@ -2753,7 +2753,7 @@ executive/Moderator.o: executive/Moderator.cpp.o
 
 # target to build an object file
 executive/Moderator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Moderator.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Moderator.cpp.o
 .PHONY : executive/Moderator.cpp.o
 
 executive/Moderator.i: executive/Moderator.cpp.i
@@ -2761,7 +2761,7 @@ executive/Moderator.i: executive/Moderator.cpp.i
 
 # target to preprocess a source file
 executive/Moderator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Moderator.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Moderator.cpp.i
 .PHONY : executive/Moderator.cpp.i
 
 executive/Moderator.s: executive/Moderator.cpp.s
@@ -2769,7 +2769,7 @@ executive/Moderator.s: executive/Moderator.cpp.s
 
 # target to generate assembly for a file
 executive/Moderator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Moderator.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Moderator.cpp.s
 .PHONY : executive/Moderator.cpp.s
 
 executive/PlotInterface.o: executive/PlotInterface.cpp.o
@@ -2777,7 +2777,7 @@ executive/PlotInterface.o: executive/PlotInterface.cpp.o
 
 # target to build an object file
 executive/PlotInterface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotInterface.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotInterface.cpp.o
 .PHONY : executive/PlotInterface.cpp.o
 
 executive/PlotInterface.i: executive/PlotInterface.cpp.i
@@ -2785,7 +2785,7 @@ executive/PlotInterface.i: executive/PlotInterface.cpp.i
 
 # target to preprocess a source file
 executive/PlotInterface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotInterface.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotInterface.cpp.i
 .PHONY : executive/PlotInterface.cpp.i
 
 executive/PlotInterface.s: executive/PlotInterface.cpp.s
@@ -2793,7 +2793,7 @@ executive/PlotInterface.s: executive/PlotInterface.cpp.s
 
 # target to generate assembly for a file
 executive/PlotInterface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotInterface.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotInterface.cpp.s
 .PHONY : executive/PlotInterface.cpp.s
 
 executive/PlotReceiver.o: executive/PlotReceiver.cpp.o
@@ -2801,7 +2801,7 @@ executive/PlotReceiver.o: executive/PlotReceiver.cpp.o
 
 # target to build an object file
 executive/PlotReceiver.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotReceiver.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotReceiver.cpp.o
 .PHONY : executive/PlotReceiver.cpp.o
 
 executive/PlotReceiver.i: executive/PlotReceiver.cpp.i
@@ -2809,7 +2809,7 @@ executive/PlotReceiver.i: executive/PlotReceiver.cpp.i
 
 # target to preprocess a source file
 executive/PlotReceiver.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotReceiver.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotReceiver.cpp.i
 .PHONY : executive/PlotReceiver.cpp.i
 
 executive/PlotReceiver.s: executive/PlotReceiver.cpp.s
@@ -2817,7 +2817,7 @@ executive/PlotReceiver.s: executive/PlotReceiver.cpp.s
 
 # target to generate assembly for a file
 executive/PlotReceiver.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotReceiver.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PlotReceiver.cpp.s
 .PHONY : executive/PlotReceiver.cpp.s
 
 executive/Publisher.o: executive/Publisher.cpp.o
@@ -2825,7 +2825,7 @@ executive/Publisher.o: executive/Publisher.cpp.o
 
 # target to build an object file
 executive/Publisher.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Publisher.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Publisher.cpp.o
 .PHONY : executive/Publisher.cpp.o
 
 executive/Publisher.i: executive/Publisher.cpp.i
@@ -2833,7 +2833,7 @@ executive/Publisher.i: executive/Publisher.cpp.i
 
 # target to preprocess a source file
 executive/Publisher.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Publisher.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Publisher.cpp.i
 .PHONY : executive/Publisher.cpp.i
 
 executive/Publisher.s: executive/Publisher.cpp.s
@@ -2841,7 +2841,7 @@ executive/Publisher.s: executive/Publisher.cpp.s
 
 # target to generate assembly for a file
 executive/Publisher.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Publisher.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Publisher.cpp.s
 .PHONY : executive/Publisher.cpp.s
 
 executive/PublisherException.o: executive/PublisherException.cpp.o
@@ -2849,7 +2849,7 @@ executive/PublisherException.o: executive/PublisherException.cpp.o
 
 # target to build an object file
 executive/PublisherException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PublisherException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PublisherException.cpp.o
 .PHONY : executive/PublisherException.cpp.o
 
 executive/PublisherException.i: executive/PublisherException.cpp.i
@@ -2857,7 +2857,7 @@ executive/PublisherException.i: executive/PublisherException.cpp.i
 
 # target to preprocess a source file
 executive/PublisherException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PublisherException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PublisherException.cpp.i
 .PHONY : executive/PublisherException.cpp.i
 
 executive/PublisherException.s: executive/PublisherException.cpp.s
@@ -2865,7 +2865,7 @@ executive/PublisherException.s: executive/PublisherException.cpp.s
 
 # target to generate assembly for a file
 executive/PublisherException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PublisherException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/PublisherException.cpp.s
 .PHONY : executive/PublisherException.cpp.s
 
 executive/Sandbox.o: executive/Sandbox.cpp.o
@@ -2873,7 +2873,7 @@ executive/Sandbox.o: executive/Sandbox.cpp.o
 
 # target to build an object file
 executive/Sandbox.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Sandbox.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Sandbox.cpp.o
 .PHONY : executive/Sandbox.cpp.o
 
 executive/Sandbox.i: executive/Sandbox.cpp.i
@@ -2881,7 +2881,7 @@ executive/Sandbox.i: executive/Sandbox.cpp.i
 
 # target to preprocess a source file
 executive/Sandbox.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Sandbox.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Sandbox.cpp.i
 .PHONY : executive/Sandbox.cpp.i
 
 executive/Sandbox.s: executive/Sandbox.cpp.s
@@ -2889,7 +2889,7 @@ executive/Sandbox.s: executive/Sandbox.cpp.s
 
 # target to generate assembly for a file
 executive/Sandbox.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Sandbox.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/Sandbox.cpp.s
 .PHONY : executive/Sandbox.cpp.s
 
 executive/SandboxException.o: executive/SandboxException.cpp.o
@@ -2897,7 +2897,7 @@ executive/SandboxException.o: executive/SandboxException.cpp.o
 
 # target to build an object file
 executive/SandboxException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/SandboxException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/SandboxException.cpp.o
 .PHONY : executive/SandboxException.cpp.o
 
 executive/SandboxException.i: executive/SandboxException.cpp.i
@@ -2905,7 +2905,7 @@ executive/SandboxException.i: executive/SandboxException.cpp.i
 
 # target to preprocess a source file
 executive/SandboxException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/SandboxException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/SandboxException.cpp.i
 .PHONY : executive/SandboxException.cpp.i
 
 executive/SandboxException.s: executive/SandboxException.cpp.s
@@ -2913,7 +2913,7 @@ executive/SandboxException.s: executive/SandboxException.cpp.s
 
 # target to generate assembly for a file
 executive/SandboxException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/SandboxException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/executive/SandboxException.cpp.s
 .PHONY : executive/SandboxException.cpp.s
 
 factory/AtmosphereFactory.o: factory/AtmosphereFactory.cpp.o
@@ -2921,7 +2921,7 @@ factory/AtmosphereFactory.o: factory/AtmosphereFactory.cpp.o
 
 # target to build an object file
 factory/AtmosphereFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AtmosphereFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AtmosphereFactory.cpp.o
 .PHONY : factory/AtmosphereFactory.cpp.o
 
 factory/AtmosphereFactory.i: factory/AtmosphereFactory.cpp.i
@@ -2929,7 +2929,7 @@ factory/AtmosphereFactory.i: factory/AtmosphereFactory.cpp.i
 
 # target to preprocess a source file
 factory/AtmosphereFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AtmosphereFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AtmosphereFactory.cpp.i
 .PHONY : factory/AtmosphereFactory.cpp.i
 
 factory/AtmosphereFactory.s: factory/AtmosphereFactory.cpp.s
@@ -2937,7 +2937,7 @@ factory/AtmosphereFactory.s: factory/AtmosphereFactory.cpp.s
 
 # target to generate assembly for a file
 factory/AtmosphereFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AtmosphereFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AtmosphereFactory.cpp.s
 .PHONY : factory/AtmosphereFactory.cpp.s
 
 factory/AttitudeFactory.o: factory/AttitudeFactory.cpp.o
@@ -2945,7 +2945,7 @@ factory/AttitudeFactory.o: factory/AttitudeFactory.cpp.o
 
 # target to build an object file
 factory/AttitudeFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AttitudeFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AttitudeFactory.cpp.o
 .PHONY : factory/AttitudeFactory.cpp.o
 
 factory/AttitudeFactory.i: factory/AttitudeFactory.cpp.i
@@ -2953,7 +2953,7 @@ factory/AttitudeFactory.i: factory/AttitudeFactory.cpp.i
 
 # target to preprocess a source file
 factory/AttitudeFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AttitudeFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AttitudeFactory.cpp.i
 .PHONY : factory/AttitudeFactory.cpp.i
 
 factory/AttitudeFactory.s: factory/AttitudeFactory.cpp.s
@@ -2961,7 +2961,7 @@ factory/AttitudeFactory.s: factory/AttitudeFactory.cpp.s
 
 # target to generate assembly for a file
 factory/AttitudeFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AttitudeFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AttitudeFactory.cpp.s
 .PHONY : factory/AttitudeFactory.cpp.s
 
 factory/AxisSystemFactory.o: factory/AxisSystemFactory.cpp.o
@@ -2969,7 +2969,7 @@ factory/AxisSystemFactory.o: factory/AxisSystemFactory.cpp.o
 
 # target to build an object file
 factory/AxisSystemFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AxisSystemFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AxisSystemFactory.cpp.o
 .PHONY : factory/AxisSystemFactory.cpp.o
 
 factory/AxisSystemFactory.i: factory/AxisSystemFactory.cpp.i
@@ -2977,7 +2977,7 @@ factory/AxisSystemFactory.i: factory/AxisSystemFactory.cpp.i
 
 # target to preprocess a source file
 factory/AxisSystemFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AxisSystemFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AxisSystemFactory.cpp.i
 .PHONY : factory/AxisSystemFactory.cpp.i
 
 factory/AxisSystemFactory.s: factory/AxisSystemFactory.cpp.s
@@ -2985,7 +2985,7 @@ factory/AxisSystemFactory.s: factory/AxisSystemFactory.cpp.s
 
 # target to generate assembly for a file
 factory/AxisSystemFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AxisSystemFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/AxisSystemFactory.cpp.s
 .PHONY : factory/AxisSystemFactory.cpp.s
 
 factory/BurnFactory.o: factory/BurnFactory.cpp.o
@@ -2993,7 +2993,7 @@ factory/BurnFactory.o: factory/BurnFactory.cpp.o
 
 # target to build an object file
 factory/BurnFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/BurnFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/BurnFactory.cpp.o
 .PHONY : factory/BurnFactory.cpp.o
 
 factory/BurnFactory.i: factory/BurnFactory.cpp.i
@@ -3001,7 +3001,7 @@ factory/BurnFactory.i: factory/BurnFactory.cpp.i
 
 # target to preprocess a source file
 factory/BurnFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/BurnFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/BurnFactory.cpp.i
 .PHONY : factory/BurnFactory.cpp.i
 
 factory/BurnFactory.s: factory/BurnFactory.cpp.s
@@ -3009,7 +3009,7 @@ factory/BurnFactory.s: factory/BurnFactory.cpp.s
 
 # target to generate assembly for a file
 factory/BurnFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/BurnFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/BurnFactory.cpp.s
 .PHONY : factory/BurnFactory.cpp.s
 
 factory/CalculatedPointFactory.o: factory/CalculatedPointFactory.cpp.o
@@ -3017,7 +3017,7 @@ factory/CalculatedPointFactory.o: factory/CalculatedPointFactory.cpp.o
 
 # target to build an object file
 factory/CalculatedPointFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CalculatedPointFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CalculatedPointFactory.cpp.o
 .PHONY : factory/CalculatedPointFactory.cpp.o
 
 factory/CalculatedPointFactory.i: factory/CalculatedPointFactory.cpp.i
@@ -3025,7 +3025,7 @@ factory/CalculatedPointFactory.i: factory/CalculatedPointFactory.cpp.i
 
 # target to preprocess a source file
 factory/CalculatedPointFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CalculatedPointFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CalculatedPointFactory.cpp.i
 .PHONY : factory/CalculatedPointFactory.cpp.i
 
 factory/CalculatedPointFactory.s: factory/CalculatedPointFactory.cpp.s
@@ -3033,7 +3033,7 @@ factory/CalculatedPointFactory.s: factory/CalculatedPointFactory.cpp.s
 
 # target to generate assembly for a file
 factory/CalculatedPointFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CalculatedPointFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CalculatedPointFactory.cpp.s
 .PHONY : factory/CalculatedPointFactory.cpp.s
 
 factory/CelestialBodyFactory.o: factory/CelestialBodyFactory.cpp.o
@@ -3041,7 +3041,7 @@ factory/CelestialBodyFactory.o: factory/CelestialBodyFactory.cpp.o
 
 # target to build an object file
 factory/CelestialBodyFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CelestialBodyFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CelestialBodyFactory.cpp.o
 .PHONY : factory/CelestialBodyFactory.cpp.o
 
 factory/CelestialBodyFactory.i: factory/CelestialBodyFactory.cpp.i
@@ -3049,7 +3049,7 @@ factory/CelestialBodyFactory.i: factory/CelestialBodyFactory.cpp.i
 
 # target to preprocess a source file
 factory/CelestialBodyFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CelestialBodyFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CelestialBodyFactory.cpp.i
 .PHONY : factory/CelestialBodyFactory.cpp.i
 
 factory/CelestialBodyFactory.s: factory/CelestialBodyFactory.cpp.s
@@ -3057,7 +3057,7 @@ factory/CelestialBodyFactory.s: factory/CelestialBodyFactory.cpp.s
 
 # target to generate assembly for a file
 factory/CelestialBodyFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CelestialBodyFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CelestialBodyFactory.cpp.s
 .PHONY : factory/CelestialBodyFactory.cpp.s
 
 factory/CommandFactory.o: factory/CommandFactory.cpp.o
@@ -3065,7 +3065,7 @@ factory/CommandFactory.o: factory/CommandFactory.cpp.o
 
 # target to build an object file
 factory/CommandFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CommandFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CommandFactory.cpp.o
 .PHONY : factory/CommandFactory.cpp.o
 
 factory/CommandFactory.i: factory/CommandFactory.cpp.i
@@ -3073,7 +3073,7 @@ factory/CommandFactory.i: factory/CommandFactory.cpp.i
 
 # target to preprocess a source file
 factory/CommandFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CommandFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CommandFactory.cpp.i
 .PHONY : factory/CommandFactory.cpp.i
 
 factory/CommandFactory.s: factory/CommandFactory.cpp.s
@@ -3081,7 +3081,7 @@ factory/CommandFactory.s: factory/CommandFactory.cpp.s
 
 # target to generate assembly for a file
 factory/CommandFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CommandFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CommandFactory.cpp.s
 .PHONY : factory/CommandFactory.cpp.s
 
 factory/CoordinateSystemFactory.o: factory/CoordinateSystemFactory.cpp.o
@@ -3089,7 +3089,7 @@ factory/CoordinateSystemFactory.o: factory/CoordinateSystemFactory.cpp.o
 
 # target to build an object file
 factory/CoordinateSystemFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CoordinateSystemFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CoordinateSystemFactory.cpp.o
 .PHONY : factory/CoordinateSystemFactory.cpp.o
 
 factory/CoordinateSystemFactory.i: factory/CoordinateSystemFactory.cpp.i
@@ -3097,7 +3097,7 @@ factory/CoordinateSystemFactory.i: factory/CoordinateSystemFactory.cpp.i
 
 # target to preprocess a source file
 factory/CoordinateSystemFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CoordinateSystemFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CoordinateSystemFactory.cpp.i
 .PHONY : factory/CoordinateSystemFactory.cpp.i
 
 factory/CoordinateSystemFactory.s: factory/CoordinateSystemFactory.cpp.s
@@ -3105,7 +3105,7 @@ factory/CoordinateSystemFactory.s: factory/CoordinateSystemFactory.cpp.s
 
 # target to generate assembly for a file
 factory/CoordinateSystemFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CoordinateSystemFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/CoordinateSystemFactory.cpp.s
 .PHONY : factory/CoordinateSystemFactory.cpp.s
 
 factory/Factory.o: factory/Factory.cpp.o
@@ -3113,7 +3113,7 @@ factory/Factory.o: factory/Factory.cpp.o
 
 # target to build an object file
 factory/Factory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/Factory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/Factory.cpp.o
 .PHONY : factory/Factory.cpp.o
 
 factory/Factory.i: factory/Factory.cpp.i
@@ -3121,7 +3121,7 @@ factory/Factory.i: factory/Factory.cpp.i
 
 # target to preprocess a source file
 factory/Factory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/Factory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/Factory.cpp.i
 .PHONY : factory/Factory.cpp.i
 
 factory/Factory.s: factory/Factory.cpp.s
@@ -3129,7 +3129,7 @@ factory/Factory.s: factory/Factory.cpp.s
 
 # target to generate assembly for a file
 factory/Factory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/Factory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/Factory.cpp.s
 .PHONY : factory/Factory.cpp.s
 
 factory/FactoryException.o: factory/FactoryException.cpp.o
@@ -3137,7 +3137,7 @@ factory/FactoryException.o: factory/FactoryException.cpp.o
 
 # target to build an object file
 factory/FactoryException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryException.cpp.o
 .PHONY : factory/FactoryException.cpp.o
 
 factory/FactoryException.i: factory/FactoryException.cpp.i
@@ -3145,7 +3145,7 @@ factory/FactoryException.i: factory/FactoryException.cpp.i
 
 # target to preprocess a source file
 factory/FactoryException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryException.cpp.i
 .PHONY : factory/FactoryException.cpp.i
 
 factory/FactoryException.s: factory/FactoryException.cpp.s
@@ -3153,7 +3153,7 @@ factory/FactoryException.s: factory/FactoryException.cpp.s
 
 # target to generate assembly for a file
 factory/FactoryException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryException.cpp.s
 .PHONY : factory/FactoryException.cpp.s
 
 factory/FactoryManager.o: factory/FactoryManager.cpp.o
@@ -3161,7 +3161,7 @@ factory/FactoryManager.o: factory/FactoryManager.cpp.o
 
 # target to build an object file
 factory/FactoryManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryManager.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryManager.cpp.o
 .PHONY : factory/FactoryManager.cpp.o
 
 factory/FactoryManager.i: factory/FactoryManager.cpp.i
@@ -3169,7 +3169,7 @@ factory/FactoryManager.i: factory/FactoryManager.cpp.i
 
 # target to preprocess a source file
 factory/FactoryManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryManager.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryManager.cpp.i
 .PHONY : factory/FactoryManager.cpp.i
 
 factory/FactoryManager.s: factory/FactoryManager.cpp.s
@@ -3177,7 +3177,7 @@ factory/FactoryManager.s: factory/FactoryManager.cpp.s
 
 # target to generate assembly for a file
 factory/FactoryManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryManager.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/FactoryManager.cpp.s
 .PHONY : factory/FactoryManager.cpp.s
 
 factory/HardwareFactory.o: factory/HardwareFactory.cpp.o
@@ -3185,7 +3185,7 @@ factory/HardwareFactory.o: factory/HardwareFactory.cpp.o
 
 # target to build an object file
 factory/HardwareFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/HardwareFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/HardwareFactory.cpp.o
 .PHONY : factory/HardwareFactory.cpp.o
 
 factory/HardwareFactory.i: factory/HardwareFactory.cpp.i
@@ -3193,7 +3193,7 @@ factory/HardwareFactory.i: factory/HardwareFactory.cpp.i
 
 # target to preprocess a source file
 factory/HardwareFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/HardwareFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/HardwareFactory.cpp.i
 .PHONY : factory/HardwareFactory.cpp.i
 
 factory/HardwareFactory.s: factory/HardwareFactory.cpp.s
@@ -3201,7 +3201,7 @@ factory/HardwareFactory.s: factory/HardwareFactory.cpp.s
 
 # target to generate assembly for a file
 factory/HardwareFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/HardwareFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/HardwareFactory.cpp.s
 .PHONY : factory/HardwareFactory.cpp.s
 
 factory/InterfaceFactory.o: factory/InterfaceFactory.cpp.o
@@ -3209,7 +3209,7 @@ factory/InterfaceFactory.o: factory/InterfaceFactory.cpp.o
 
 # target to build an object file
 factory/InterfaceFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/InterfaceFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/InterfaceFactory.cpp.o
 .PHONY : factory/InterfaceFactory.cpp.o
 
 factory/InterfaceFactory.i: factory/InterfaceFactory.cpp.i
@@ -3217,7 +3217,7 @@ factory/InterfaceFactory.i: factory/InterfaceFactory.cpp.i
 
 # target to preprocess a source file
 factory/InterfaceFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/InterfaceFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/InterfaceFactory.cpp.i
 .PHONY : factory/InterfaceFactory.cpp.i
 
 factory/InterfaceFactory.s: factory/InterfaceFactory.cpp.s
@@ -3225,7 +3225,7 @@ factory/InterfaceFactory.s: factory/InterfaceFactory.cpp.s
 
 # target to generate assembly for a file
 factory/InterfaceFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/InterfaceFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/InterfaceFactory.cpp.s
 .PHONY : factory/InterfaceFactory.cpp.s
 
 factory/MathFactory.o: factory/MathFactory.cpp.o
@@ -3233,7 +3233,7 @@ factory/MathFactory.o: factory/MathFactory.cpp.o
 
 # target to build an object file
 factory/MathFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/MathFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/MathFactory.cpp.o
 .PHONY : factory/MathFactory.cpp.o
 
 factory/MathFactory.i: factory/MathFactory.cpp.i
@@ -3241,7 +3241,7 @@ factory/MathFactory.i: factory/MathFactory.cpp.i
 
 # target to preprocess a source file
 factory/MathFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/MathFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/MathFactory.cpp.i
 .PHONY : factory/MathFactory.cpp.i
 
 factory/MathFactory.s: factory/MathFactory.cpp.s
@@ -3249,7 +3249,7 @@ factory/MathFactory.s: factory/MathFactory.cpp.s
 
 # target to generate assembly for a file
 factory/MathFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/MathFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/MathFactory.cpp.s
 .PHONY : factory/MathFactory.cpp.s
 
 factory/ODEModelFactory.o: factory/ODEModelFactory.cpp.o
@@ -3257,7 +3257,7 @@ factory/ODEModelFactory.o: factory/ODEModelFactory.cpp.o
 
 # target to build an object file
 factory/ODEModelFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ODEModelFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ODEModelFactory.cpp.o
 .PHONY : factory/ODEModelFactory.cpp.o
 
 factory/ODEModelFactory.i: factory/ODEModelFactory.cpp.i
@@ -3265,7 +3265,7 @@ factory/ODEModelFactory.i: factory/ODEModelFactory.cpp.i
 
 # target to preprocess a source file
 factory/ODEModelFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ODEModelFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ODEModelFactory.cpp.i
 .PHONY : factory/ODEModelFactory.cpp.i
 
 factory/ODEModelFactory.s: factory/ODEModelFactory.cpp.s
@@ -3273,7 +3273,7 @@ factory/ODEModelFactory.s: factory/ODEModelFactory.cpp.s
 
 # target to generate assembly for a file
 factory/ODEModelFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ODEModelFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ODEModelFactory.cpp.s
 .PHONY : factory/ODEModelFactory.cpp.s
 
 factory/ParameterFactory.o: factory/ParameterFactory.cpp.o
@@ -3281,7 +3281,7 @@ factory/ParameterFactory.o: factory/ParameterFactory.cpp.o
 
 # target to build an object file
 factory/ParameterFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ParameterFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ParameterFactory.cpp.o
 .PHONY : factory/ParameterFactory.cpp.o
 
 factory/ParameterFactory.i: factory/ParameterFactory.cpp.i
@@ -3289,7 +3289,7 @@ factory/ParameterFactory.i: factory/ParameterFactory.cpp.i
 
 # target to preprocess a source file
 factory/ParameterFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ParameterFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ParameterFactory.cpp.i
 .PHONY : factory/ParameterFactory.cpp.i
 
 factory/ParameterFactory.s: factory/ParameterFactory.cpp.s
@@ -3297,7 +3297,7 @@ factory/ParameterFactory.s: factory/ParameterFactory.cpp.s
 
 # target to generate assembly for a file
 factory/ParameterFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ParameterFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/ParameterFactory.cpp.s
 .PHONY : factory/ParameterFactory.cpp.s
 
 factory/PhysicalModelFactory.o: factory/PhysicalModelFactory.cpp.o
@@ -3305,7 +3305,7 @@ factory/PhysicalModelFactory.o: factory/PhysicalModelFactory.cpp.o
 
 # target to build an object file
 factory/PhysicalModelFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PhysicalModelFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PhysicalModelFactory.cpp.o
 .PHONY : factory/PhysicalModelFactory.cpp.o
 
 factory/PhysicalModelFactory.i: factory/PhysicalModelFactory.cpp.i
@@ -3313,7 +3313,7 @@ factory/PhysicalModelFactory.i: factory/PhysicalModelFactory.cpp.i
 
 # target to preprocess a source file
 factory/PhysicalModelFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PhysicalModelFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PhysicalModelFactory.cpp.i
 .PHONY : factory/PhysicalModelFactory.cpp.i
 
 factory/PhysicalModelFactory.s: factory/PhysicalModelFactory.cpp.s
@@ -3321,7 +3321,7 @@ factory/PhysicalModelFactory.s: factory/PhysicalModelFactory.cpp.s
 
 # target to generate assembly for a file
 factory/PhysicalModelFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PhysicalModelFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PhysicalModelFactory.cpp.s
 .PHONY : factory/PhysicalModelFactory.cpp.s
 
 factory/PropSetupFactory.o: factory/PropSetupFactory.cpp.o
@@ -3329,7 +3329,7 @@ factory/PropSetupFactory.o: factory/PropSetupFactory.cpp.o
 
 # target to build an object file
 factory/PropSetupFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropSetupFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropSetupFactory.cpp.o
 .PHONY : factory/PropSetupFactory.cpp.o
 
 factory/PropSetupFactory.i: factory/PropSetupFactory.cpp.i
@@ -3337,7 +3337,7 @@ factory/PropSetupFactory.i: factory/PropSetupFactory.cpp.i
 
 # target to preprocess a source file
 factory/PropSetupFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropSetupFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropSetupFactory.cpp.i
 .PHONY : factory/PropSetupFactory.cpp.i
 
 factory/PropSetupFactory.s: factory/PropSetupFactory.cpp.s
@@ -3345,7 +3345,7 @@ factory/PropSetupFactory.s: factory/PropSetupFactory.cpp.s
 
 # target to generate assembly for a file
 factory/PropSetupFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropSetupFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropSetupFactory.cpp.s
 .PHONY : factory/PropSetupFactory.cpp.s
 
 factory/PropagatorFactory.o: factory/PropagatorFactory.cpp.o
@@ -3353,7 +3353,7 @@ factory/PropagatorFactory.o: factory/PropagatorFactory.cpp.o
 
 # target to build an object file
 factory/PropagatorFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropagatorFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropagatorFactory.cpp.o
 .PHONY : factory/PropagatorFactory.cpp.o
 
 factory/PropagatorFactory.i: factory/PropagatorFactory.cpp.i
@@ -3361,7 +3361,7 @@ factory/PropagatorFactory.i: factory/PropagatorFactory.cpp.i
 
 # target to preprocess a source file
 factory/PropagatorFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropagatorFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropagatorFactory.cpp.i
 .PHONY : factory/PropagatorFactory.cpp.i
 
 factory/PropagatorFactory.s: factory/PropagatorFactory.cpp.s
@@ -3369,7 +3369,7 @@ factory/PropagatorFactory.s: factory/PropagatorFactory.cpp.s
 
 # target to generate assembly for a file
 factory/PropagatorFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropagatorFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/PropagatorFactory.cpp.s
 .PHONY : factory/PropagatorFactory.cpp.s
 
 factory/SolarSystemFactory.o: factory/SolarSystemFactory.cpp.o
@@ -3377,7 +3377,7 @@ factory/SolarSystemFactory.o: factory/SolarSystemFactory.cpp.o
 
 # target to build an object file
 factory/SolarSystemFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolarSystemFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolarSystemFactory.cpp.o
 .PHONY : factory/SolarSystemFactory.cpp.o
 
 factory/SolarSystemFactory.i: factory/SolarSystemFactory.cpp.i
@@ -3385,7 +3385,7 @@ factory/SolarSystemFactory.i: factory/SolarSystemFactory.cpp.i
 
 # target to preprocess a source file
 factory/SolarSystemFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolarSystemFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolarSystemFactory.cpp.i
 .PHONY : factory/SolarSystemFactory.cpp.i
 
 factory/SolarSystemFactory.s: factory/SolarSystemFactory.cpp.s
@@ -3393,7 +3393,7 @@ factory/SolarSystemFactory.s: factory/SolarSystemFactory.cpp.s
 
 # target to generate assembly for a file
 factory/SolarSystemFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolarSystemFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolarSystemFactory.cpp.s
 .PHONY : factory/SolarSystemFactory.cpp.s
 
 factory/SolverFactory.o: factory/SolverFactory.cpp.o
@@ -3401,7 +3401,7 @@ factory/SolverFactory.o: factory/SolverFactory.cpp.o
 
 # target to build an object file
 factory/SolverFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolverFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolverFactory.cpp.o
 .PHONY : factory/SolverFactory.cpp.o
 
 factory/SolverFactory.i: factory/SolverFactory.cpp.i
@@ -3409,7 +3409,7 @@ factory/SolverFactory.i: factory/SolverFactory.cpp.i
 
 # target to preprocess a source file
 factory/SolverFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolverFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolverFactory.cpp.i
 .PHONY : factory/SolverFactory.cpp.i
 
 factory/SolverFactory.s: factory/SolverFactory.cpp.s
@@ -3417,7 +3417,7 @@ factory/SolverFactory.s: factory/SolverFactory.cpp.s
 
 # target to generate assembly for a file
 factory/SolverFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolverFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SolverFactory.cpp.s
 .PHONY : factory/SolverFactory.cpp.s
 
 factory/SpacecraftFactory.o: factory/SpacecraftFactory.cpp.o
@@ -3425,7 +3425,7 @@ factory/SpacecraftFactory.o: factory/SpacecraftFactory.cpp.o
 
 # target to build an object file
 factory/SpacecraftFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SpacecraftFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SpacecraftFactory.cpp.o
 .PHONY : factory/SpacecraftFactory.cpp.o
 
 factory/SpacecraftFactory.i: factory/SpacecraftFactory.cpp.i
@@ -3433,7 +3433,7 @@ factory/SpacecraftFactory.i: factory/SpacecraftFactory.cpp.i
 
 # target to preprocess a source file
 factory/SpacecraftFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SpacecraftFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SpacecraftFactory.cpp.i
 .PHONY : factory/SpacecraftFactory.cpp.i
 
 factory/SpacecraftFactory.s: factory/SpacecraftFactory.cpp.s
@@ -3441,7 +3441,7 @@ factory/SpacecraftFactory.s: factory/SpacecraftFactory.cpp.s
 
 # target to generate assembly for a file
 factory/SpacecraftFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SpacecraftFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SpacecraftFactory.cpp.s
 .PHONY : factory/SpacecraftFactory.cpp.s
 
 factory/StopConditionFactory.o: factory/StopConditionFactory.cpp.o
@@ -3449,7 +3449,7 @@ factory/StopConditionFactory.o: factory/StopConditionFactory.cpp.o
 
 # target to build an object file
 factory/StopConditionFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/StopConditionFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/StopConditionFactory.cpp.o
 .PHONY : factory/StopConditionFactory.cpp.o
 
 factory/StopConditionFactory.i: factory/StopConditionFactory.cpp.i
@@ -3457,7 +3457,7 @@ factory/StopConditionFactory.i: factory/StopConditionFactory.cpp.i
 
 # target to preprocess a source file
 factory/StopConditionFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/StopConditionFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/StopConditionFactory.cpp.i
 .PHONY : factory/StopConditionFactory.cpp.i
 
 factory/StopConditionFactory.s: factory/StopConditionFactory.cpp.s
@@ -3465,7 +3465,7 @@ factory/StopConditionFactory.s: factory/StopConditionFactory.cpp.s
 
 # target to generate assembly for a file
 factory/StopConditionFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/StopConditionFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/StopConditionFactory.cpp.s
 .PHONY : factory/StopConditionFactory.cpp.s
 
 factory/SubscriberFactory.o: factory/SubscriberFactory.cpp.o
@@ -3473,7 +3473,7 @@ factory/SubscriberFactory.o: factory/SubscriberFactory.cpp.o
 
 # target to build an object file
 factory/SubscriberFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SubscriberFactory.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SubscriberFactory.cpp.o
 .PHONY : factory/SubscriberFactory.cpp.o
 
 factory/SubscriberFactory.i: factory/SubscriberFactory.cpp.i
@@ -3481,7 +3481,7 @@ factory/SubscriberFactory.i: factory/SubscriberFactory.cpp.i
 
 # target to preprocess a source file
 factory/SubscriberFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SubscriberFactory.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SubscriberFactory.cpp.i
 .PHONY : factory/SubscriberFactory.cpp.i
 
 factory/SubscriberFactory.s: factory/SubscriberFactory.cpp.s
@@ -3489,7 +3489,7 @@ factory/SubscriberFactory.s: factory/SubscriberFactory.cpp.s
 
 # target to generate assembly for a file
 factory/SubscriberFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SubscriberFactory.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/factory/SubscriberFactory.cpp.s
 .PHONY : factory/SubscriberFactory.cpp.s
 
 forcemodel/DragForce.o: forcemodel/DragForce.cpp.o
@@ -3497,7 +3497,7 @@ forcemodel/DragForce.o: forcemodel/DragForce.cpp.o
 
 # target to build an object file
 forcemodel/DragForce.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/DragForce.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/DragForce.cpp.o
 .PHONY : forcemodel/DragForce.cpp.o
 
 forcemodel/DragForce.i: forcemodel/DragForce.cpp.i
@@ -3505,7 +3505,7 @@ forcemodel/DragForce.i: forcemodel/DragForce.cpp.i
 
 # target to preprocess a source file
 forcemodel/DragForce.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/DragForce.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/DragForce.cpp.i
 .PHONY : forcemodel/DragForce.cpp.i
 
 forcemodel/DragForce.s: forcemodel/DragForce.cpp.s
@@ -3513,7 +3513,7 @@ forcemodel/DragForce.s: forcemodel/DragForce.cpp.s
 
 # target to generate assembly for a file
 forcemodel/DragForce.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/DragForce.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/DragForce.cpp.s
 .PHONY : forcemodel/DragForce.cpp.s
 
 forcemodel/FiniteThrust.o: forcemodel/FiniteThrust.cpp.o
@@ -3521,7 +3521,7 @@ forcemodel/FiniteThrust.o: forcemodel/FiniteThrust.cpp.o
 
 # target to build an object file
 forcemodel/FiniteThrust.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/FiniteThrust.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/FiniteThrust.cpp.o
 .PHONY : forcemodel/FiniteThrust.cpp.o
 
 forcemodel/FiniteThrust.i: forcemodel/FiniteThrust.cpp.i
@@ -3529,7 +3529,7 @@ forcemodel/FiniteThrust.i: forcemodel/FiniteThrust.cpp.i
 
 # target to preprocess a source file
 forcemodel/FiniteThrust.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/FiniteThrust.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/FiniteThrust.cpp.i
 .PHONY : forcemodel/FiniteThrust.cpp.i
 
 forcemodel/FiniteThrust.s: forcemodel/FiniteThrust.cpp.s
@@ -3537,7 +3537,7 @@ forcemodel/FiniteThrust.s: forcemodel/FiniteThrust.cpp.s
 
 # target to generate assembly for a file
 forcemodel/FiniteThrust.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/FiniteThrust.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/FiniteThrust.cpp.s
 .PHONY : forcemodel/FiniteThrust.cpp.s
 
 forcemodel/GravityBase.o: forcemodel/GravityBase.cpp.o
@@ -3545,7 +3545,7 @@ forcemodel/GravityBase.o: forcemodel/GravityBase.cpp.o
 
 # target to build an object file
 forcemodel/GravityBase.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityBase.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityBase.cpp.o
 .PHONY : forcemodel/GravityBase.cpp.o
 
 forcemodel/GravityBase.i: forcemodel/GravityBase.cpp.i
@@ -3553,7 +3553,7 @@ forcemodel/GravityBase.i: forcemodel/GravityBase.cpp.i
 
 # target to preprocess a source file
 forcemodel/GravityBase.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityBase.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityBase.cpp.i
 .PHONY : forcemodel/GravityBase.cpp.i
 
 forcemodel/GravityBase.s: forcemodel/GravityBase.cpp.s
@@ -3561,7 +3561,7 @@ forcemodel/GravityBase.s: forcemodel/GravityBase.cpp.s
 
 # target to generate assembly for a file
 forcemodel/GravityBase.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityBase.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityBase.cpp.s
 .PHONY : forcemodel/GravityBase.cpp.s
 
 forcemodel/GravityField.o: forcemodel/GravityField.cpp.o
@@ -3569,7 +3569,7 @@ forcemodel/GravityField.o: forcemodel/GravityField.cpp.o
 
 # target to build an object file
 forcemodel/GravityField.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityField.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityField.cpp.o
 .PHONY : forcemodel/GravityField.cpp.o
 
 forcemodel/GravityField.i: forcemodel/GravityField.cpp.i
@@ -3577,7 +3577,7 @@ forcemodel/GravityField.i: forcemodel/GravityField.cpp.i
 
 # target to preprocess a source file
 forcemodel/GravityField.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityField.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityField.cpp.i
 .PHONY : forcemodel/GravityField.cpp.i
 
 forcemodel/GravityField.s: forcemodel/GravityField.cpp.s
@@ -3585,7 +3585,7 @@ forcemodel/GravityField.s: forcemodel/GravityField.cpp.s
 
 # target to generate assembly for a file
 forcemodel/GravityField.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityField.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/GravityField.cpp.s
 .PHONY : forcemodel/GravityField.cpp.s
 
 forcemodel/HarmonicField.o: forcemodel/HarmonicField.cpp.o
@@ -3593,7 +3593,7 @@ forcemodel/HarmonicField.o: forcemodel/HarmonicField.cpp.o
 
 # target to build an object file
 forcemodel/HarmonicField.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/HarmonicField.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/HarmonicField.cpp.o
 .PHONY : forcemodel/HarmonicField.cpp.o
 
 forcemodel/HarmonicField.i: forcemodel/HarmonicField.cpp.i
@@ -3601,7 +3601,7 @@ forcemodel/HarmonicField.i: forcemodel/HarmonicField.cpp.i
 
 # target to preprocess a source file
 forcemodel/HarmonicField.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/HarmonicField.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/HarmonicField.cpp.i
 .PHONY : forcemodel/HarmonicField.cpp.i
 
 forcemodel/HarmonicField.s: forcemodel/HarmonicField.cpp.s
@@ -3609,7 +3609,7 @@ forcemodel/HarmonicField.s: forcemodel/HarmonicField.cpp.s
 
 # target to generate assembly for a file
 forcemodel/HarmonicField.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/HarmonicField.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/HarmonicField.cpp.s
 .PHONY : forcemodel/HarmonicField.cpp.s
 
 forcemodel/ODEModel.o: forcemodel/ODEModel.cpp.o
@@ -3617,7 +3617,7 @@ forcemodel/ODEModel.o: forcemodel/ODEModel.cpp.o
 
 # target to build an object file
 forcemodel/ODEModel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModel.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModel.cpp.o
 .PHONY : forcemodel/ODEModel.cpp.o
 
 forcemodel/ODEModel.i: forcemodel/ODEModel.cpp.i
@@ -3625,7 +3625,7 @@ forcemodel/ODEModel.i: forcemodel/ODEModel.cpp.i
 
 # target to preprocess a source file
 forcemodel/ODEModel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModel.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModel.cpp.i
 .PHONY : forcemodel/ODEModel.cpp.i
 
 forcemodel/ODEModel.s: forcemodel/ODEModel.cpp.s
@@ -3633,7 +3633,7 @@ forcemodel/ODEModel.s: forcemodel/ODEModel.cpp.s
 
 # target to generate assembly for a file
 forcemodel/ODEModel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModel.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModel.cpp.s
 .PHONY : forcemodel/ODEModel.cpp.s
 
 forcemodel/ODEModelException.o: forcemodel/ODEModelException.cpp.o
@@ -3641,7 +3641,7 @@ forcemodel/ODEModelException.o: forcemodel/ODEModelException.cpp.o
 
 # target to build an object file
 forcemodel/ODEModelException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModelException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModelException.cpp.o
 .PHONY : forcemodel/ODEModelException.cpp.o
 
 forcemodel/ODEModelException.i: forcemodel/ODEModelException.cpp.i
@@ -3649,7 +3649,7 @@ forcemodel/ODEModelException.i: forcemodel/ODEModelException.cpp.i
 
 # target to preprocess a source file
 forcemodel/ODEModelException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModelException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModelException.cpp.i
 .PHONY : forcemodel/ODEModelException.cpp.i
 
 forcemodel/ODEModelException.s: forcemodel/ODEModelException.cpp.s
@@ -3657,7 +3657,7 @@ forcemodel/ODEModelException.s: forcemodel/ODEModelException.cpp.s
 
 # target to generate assembly for a file
 forcemodel/ODEModelException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModelException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/ODEModelException.cpp.s
 .PHONY : forcemodel/ODEModelException.cpp.s
 
 forcemodel/PhysicalModel.o: forcemodel/PhysicalModel.cpp.o
@@ -3665,7 +3665,7 @@ forcemodel/PhysicalModel.o: forcemodel/PhysicalModel.cpp.o
 
 # target to build an object file
 forcemodel/PhysicalModel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PhysicalModel.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PhysicalModel.cpp.o
 .PHONY : forcemodel/PhysicalModel.cpp.o
 
 forcemodel/PhysicalModel.i: forcemodel/PhysicalModel.cpp.i
@@ -3673,7 +3673,7 @@ forcemodel/PhysicalModel.i: forcemodel/PhysicalModel.cpp.i
 
 # target to preprocess a source file
 forcemodel/PhysicalModel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PhysicalModel.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PhysicalModel.cpp.i
 .PHONY : forcemodel/PhysicalModel.cpp.i
 
 forcemodel/PhysicalModel.s: forcemodel/PhysicalModel.cpp.s
@@ -3681,7 +3681,7 @@ forcemodel/PhysicalModel.s: forcemodel/PhysicalModel.cpp.s
 
 # target to generate assembly for a file
 forcemodel/PhysicalModel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PhysicalModel.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PhysicalModel.cpp.s
 .PHONY : forcemodel/PhysicalModel.cpp.s
 
 forcemodel/PointMassForce.o: forcemodel/PointMassForce.cpp.o
@@ -3689,7 +3689,7 @@ forcemodel/PointMassForce.o: forcemodel/PointMassForce.cpp.o
 
 # target to build an object file
 forcemodel/PointMassForce.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PointMassForce.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PointMassForce.cpp.o
 .PHONY : forcemodel/PointMassForce.cpp.o
 
 forcemodel/PointMassForce.i: forcemodel/PointMassForce.cpp.i
@@ -3697,7 +3697,7 @@ forcemodel/PointMassForce.i: forcemodel/PointMassForce.cpp.i
 
 # target to preprocess a source file
 forcemodel/PointMassForce.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PointMassForce.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PointMassForce.cpp.i
 .PHONY : forcemodel/PointMassForce.cpp.i
 
 forcemodel/PointMassForce.s: forcemodel/PointMassForce.cpp.s
@@ -3705,7 +3705,7 @@ forcemodel/PointMassForce.s: forcemodel/PointMassForce.cpp.s
 
 # target to generate assembly for a file
 forcemodel/PointMassForce.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PointMassForce.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/PointMassForce.cpp.s
 .PHONY : forcemodel/PointMassForce.cpp.s
 
 forcemodel/RelativisticCorrection.o: forcemodel/RelativisticCorrection.cpp.o
@@ -3713,7 +3713,7 @@ forcemodel/RelativisticCorrection.o: forcemodel/RelativisticCorrection.cpp.o
 
 # target to build an object file
 forcemodel/RelativisticCorrection.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/RelativisticCorrection.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/RelativisticCorrection.cpp.o
 .PHONY : forcemodel/RelativisticCorrection.cpp.o
 
 forcemodel/RelativisticCorrection.i: forcemodel/RelativisticCorrection.cpp.i
@@ -3721,7 +3721,7 @@ forcemodel/RelativisticCorrection.i: forcemodel/RelativisticCorrection.cpp.i
 
 # target to preprocess a source file
 forcemodel/RelativisticCorrection.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/RelativisticCorrection.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/RelativisticCorrection.cpp.i
 .PHONY : forcemodel/RelativisticCorrection.cpp.i
 
 forcemodel/RelativisticCorrection.s: forcemodel/RelativisticCorrection.cpp.s
@@ -3729,7 +3729,7 @@ forcemodel/RelativisticCorrection.s: forcemodel/RelativisticCorrection.cpp.s
 
 # target to generate assembly for a file
 forcemodel/RelativisticCorrection.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/RelativisticCorrection.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/RelativisticCorrection.cpp.s
 .PHONY : forcemodel/RelativisticCorrection.cpp.s
 
 forcemodel/SolarRadiationPressure.o: forcemodel/SolarRadiationPressure.cpp.o
@@ -3737,7 +3737,7 @@ forcemodel/SolarRadiationPressure.o: forcemodel/SolarRadiationPressure.cpp.o
 
 # target to build an object file
 forcemodel/SolarRadiationPressure.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/SolarRadiationPressure.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/SolarRadiationPressure.cpp.o
 .PHONY : forcemodel/SolarRadiationPressure.cpp.o
 
 forcemodel/SolarRadiationPressure.i: forcemodel/SolarRadiationPressure.cpp.i
@@ -3745,7 +3745,7 @@ forcemodel/SolarRadiationPressure.i: forcemodel/SolarRadiationPressure.cpp.i
 
 # target to preprocess a source file
 forcemodel/SolarRadiationPressure.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/SolarRadiationPressure.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/SolarRadiationPressure.cpp.i
 .PHONY : forcemodel/SolarRadiationPressure.cpp.i
 
 forcemodel/SolarRadiationPressure.s: forcemodel/SolarRadiationPressure.cpp.s
@@ -3753,7 +3753,7 @@ forcemodel/SolarRadiationPressure.s: forcemodel/SolarRadiationPressure.cpp.s
 
 # target to generate assembly for a file
 forcemodel/SolarRadiationPressure.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/SolarRadiationPressure.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/SolarRadiationPressure.cpp.s
 .PHONY : forcemodel/SolarRadiationPressure.cpp.s
 
 forcemodel/harmonic/Harmonic.o: forcemodel/harmonic/Harmonic.cpp.o
@@ -3761,7 +3761,7 @@ forcemodel/harmonic/Harmonic.o: forcemodel/harmonic/Harmonic.cpp.o
 
 # target to build an object file
 forcemodel/harmonic/Harmonic.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/Harmonic.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/Harmonic.cpp.o
 .PHONY : forcemodel/harmonic/Harmonic.cpp.o
 
 forcemodel/harmonic/Harmonic.i: forcemodel/harmonic/Harmonic.cpp.i
@@ -3769,7 +3769,7 @@ forcemodel/harmonic/Harmonic.i: forcemodel/harmonic/Harmonic.cpp.i
 
 # target to preprocess a source file
 forcemodel/harmonic/Harmonic.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/Harmonic.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/Harmonic.cpp.i
 .PHONY : forcemodel/harmonic/Harmonic.cpp.i
 
 forcemodel/harmonic/Harmonic.s: forcemodel/harmonic/Harmonic.cpp.s
@@ -3777,7 +3777,7 @@ forcemodel/harmonic/Harmonic.s: forcemodel/harmonic/Harmonic.cpp.s
 
 # target to generate assembly for a file
 forcemodel/harmonic/Harmonic.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/Harmonic.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/Harmonic.cpp.s
 .PHONY : forcemodel/harmonic/Harmonic.cpp.s
 
 forcemodel/harmonic/HarmonicGravity.o: forcemodel/harmonic/HarmonicGravity.cpp.o
@@ -3785,7 +3785,7 @@ forcemodel/harmonic/HarmonicGravity.o: forcemodel/harmonic/HarmonicGravity.cpp.o
 
 # target to build an object file
 forcemodel/harmonic/HarmonicGravity.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravity.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravity.cpp.o
 .PHONY : forcemodel/harmonic/HarmonicGravity.cpp.o
 
 forcemodel/harmonic/HarmonicGravity.i: forcemodel/harmonic/HarmonicGravity.cpp.i
@@ -3793,7 +3793,7 @@ forcemodel/harmonic/HarmonicGravity.i: forcemodel/harmonic/HarmonicGravity.cpp.i
 
 # target to preprocess a source file
 forcemodel/harmonic/HarmonicGravity.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravity.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravity.cpp.i
 .PHONY : forcemodel/harmonic/HarmonicGravity.cpp.i
 
 forcemodel/harmonic/HarmonicGravity.s: forcemodel/harmonic/HarmonicGravity.cpp.s
@@ -3801,7 +3801,7 @@ forcemodel/harmonic/HarmonicGravity.s: forcemodel/harmonic/HarmonicGravity.cpp.s
 
 # target to generate assembly for a file
 forcemodel/harmonic/HarmonicGravity.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravity.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravity.cpp.s
 .PHONY : forcemodel/harmonic/HarmonicGravity.cpp.s
 
 forcemodel/harmonic/HarmonicGravityCof.o: forcemodel/harmonic/HarmonicGravityCof.cpp.o
@@ -3809,7 +3809,7 @@ forcemodel/harmonic/HarmonicGravityCof.o: forcemodel/harmonic/HarmonicGravityCof
 
 # target to build an object file
 forcemodel/harmonic/HarmonicGravityCof.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityCof.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityCof.cpp.o
 .PHONY : forcemodel/harmonic/HarmonicGravityCof.cpp.o
 
 forcemodel/harmonic/HarmonicGravityCof.i: forcemodel/harmonic/HarmonicGravityCof.cpp.i
@@ -3817,7 +3817,7 @@ forcemodel/harmonic/HarmonicGravityCof.i: forcemodel/harmonic/HarmonicGravityCof
 
 # target to preprocess a source file
 forcemodel/harmonic/HarmonicGravityCof.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityCof.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityCof.cpp.i
 .PHONY : forcemodel/harmonic/HarmonicGravityCof.cpp.i
 
 forcemodel/harmonic/HarmonicGravityCof.s: forcemodel/harmonic/HarmonicGravityCof.cpp.s
@@ -3825,7 +3825,7 @@ forcemodel/harmonic/HarmonicGravityCof.s: forcemodel/harmonic/HarmonicGravityCof
 
 # target to generate assembly for a file
 forcemodel/harmonic/HarmonicGravityCof.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityCof.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityCof.cpp.s
 .PHONY : forcemodel/harmonic/HarmonicGravityCof.cpp.s
 
 forcemodel/harmonic/HarmonicGravityGrv.o: forcemodel/harmonic/HarmonicGravityGrv.cpp.o
@@ -3833,7 +3833,7 @@ forcemodel/harmonic/HarmonicGravityGrv.o: forcemodel/harmonic/HarmonicGravityGrv
 
 # target to build an object file
 forcemodel/harmonic/HarmonicGravityGrv.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityGrv.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityGrv.cpp.o
 .PHONY : forcemodel/harmonic/HarmonicGravityGrv.cpp.o
 
 forcemodel/harmonic/HarmonicGravityGrv.i: forcemodel/harmonic/HarmonicGravityGrv.cpp.i
@@ -3841,7 +3841,7 @@ forcemodel/harmonic/HarmonicGravityGrv.i: forcemodel/harmonic/HarmonicGravityGrv
 
 # target to preprocess a source file
 forcemodel/harmonic/HarmonicGravityGrv.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityGrv.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityGrv.cpp.i
 .PHONY : forcemodel/harmonic/HarmonicGravityGrv.cpp.i
 
 forcemodel/harmonic/HarmonicGravityGrv.s: forcemodel/harmonic/HarmonicGravityGrv.cpp.s
@@ -3849,7 +3849,7 @@ forcemodel/harmonic/HarmonicGravityGrv.s: forcemodel/harmonic/HarmonicGravityGrv
 
 # target to generate assembly for a file
 forcemodel/harmonic/HarmonicGravityGrv.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityGrv.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/forcemodel/harmonic/HarmonicGravityGrv.cpp.s
 .PHONY : forcemodel/harmonic/HarmonicGravityGrv.cpp.s
 
 foundation/Covariance.o: foundation/Covariance.cpp.o
@@ -3857,7 +3857,7 @@ foundation/Covariance.o: foundation/Covariance.cpp.o
 
 # target to build an object file
 foundation/Covariance.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/Covariance.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/Covariance.cpp.o
 .PHONY : foundation/Covariance.cpp.o
 
 foundation/Covariance.i: foundation/Covariance.cpp.i
@@ -3865,7 +3865,7 @@ foundation/Covariance.i: foundation/Covariance.cpp.i
 
 # target to preprocess a source file
 foundation/Covariance.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/Covariance.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/Covariance.cpp.i
 .PHONY : foundation/Covariance.cpp.i
 
 foundation/Covariance.s: foundation/Covariance.cpp.s
@@ -3873,7 +3873,7 @@ foundation/Covariance.s: foundation/Covariance.cpp.s
 
 # target to generate assembly for a file
 foundation/Covariance.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/Covariance.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/Covariance.cpp.s
 .PHONY : foundation/Covariance.cpp.s
 
 foundation/ElementWrapper.o: foundation/ElementWrapper.cpp.o
@@ -3881,7 +3881,7 @@ foundation/ElementWrapper.o: foundation/ElementWrapper.cpp.o
 
 # target to build an object file
 foundation/ElementWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ElementWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ElementWrapper.cpp.o
 .PHONY : foundation/ElementWrapper.cpp.o
 
 foundation/ElementWrapper.i: foundation/ElementWrapper.cpp.i
@@ -3889,7 +3889,7 @@ foundation/ElementWrapper.i: foundation/ElementWrapper.cpp.i
 
 # target to preprocess a source file
 foundation/ElementWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ElementWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ElementWrapper.cpp.i
 .PHONY : foundation/ElementWrapper.cpp.i
 
 foundation/ElementWrapper.s: foundation/ElementWrapper.cpp.s
@@ -3897,7 +3897,7 @@ foundation/ElementWrapper.s: foundation/ElementWrapper.cpp.s
 
 # target to generate assembly for a file
 foundation/ElementWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ElementWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ElementWrapper.cpp.s
 .PHONY : foundation/ElementWrapper.cpp.s
 
 foundation/GmatBase.o: foundation/GmatBase.cpp.o
@@ -3905,7 +3905,7 @@ foundation/GmatBase.o: foundation/GmatBase.cpp.o
 
 # target to build an object file
 foundation/GmatBase.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBase.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBase.cpp.o
 .PHONY : foundation/GmatBase.cpp.o
 
 foundation/GmatBase.i: foundation/GmatBase.cpp.i
@@ -3913,7 +3913,7 @@ foundation/GmatBase.i: foundation/GmatBase.cpp.i
 
 # target to preprocess a source file
 foundation/GmatBase.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBase.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBase.cpp.i
 .PHONY : foundation/GmatBase.cpp.i
 
 foundation/GmatBase.s: foundation/GmatBase.cpp.s
@@ -3921,7 +3921,7 @@ foundation/GmatBase.s: foundation/GmatBase.cpp.s
 
 # target to generate assembly for a file
 foundation/GmatBase.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBase.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBase.cpp.s
 .PHONY : foundation/GmatBase.cpp.s
 
 foundation/GmatBaseException.o: foundation/GmatBaseException.cpp.o
@@ -3929,7 +3929,7 @@ foundation/GmatBaseException.o: foundation/GmatBaseException.cpp.o
 
 # target to build an object file
 foundation/GmatBaseException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBaseException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBaseException.cpp.o
 .PHONY : foundation/GmatBaseException.cpp.o
 
 foundation/GmatBaseException.i: foundation/GmatBaseException.cpp.i
@@ -3937,7 +3937,7 @@ foundation/GmatBaseException.i: foundation/GmatBaseException.cpp.i
 
 # target to preprocess a source file
 foundation/GmatBaseException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBaseException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBaseException.cpp.i
 .PHONY : foundation/GmatBaseException.cpp.i
 
 foundation/GmatBaseException.s: foundation/GmatBaseException.cpp.s
@@ -3945,7 +3945,7 @@ foundation/GmatBaseException.s: foundation/GmatBaseException.cpp.s
 
 # target to generate assembly for a file
 foundation/GmatBaseException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBaseException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatBaseException.cpp.s
 .PHONY : foundation/GmatBaseException.cpp.s
 
 foundation/GmatState.o: foundation/GmatState.cpp.o
@@ -3953,7 +3953,7 @@ foundation/GmatState.o: foundation/GmatState.cpp.o
 
 # target to build an object file
 foundation/GmatState.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatState.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatState.cpp.o
 .PHONY : foundation/GmatState.cpp.o
 
 foundation/GmatState.i: foundation/GmatState.cpp.i
@@ -3961,7 +3961,7 @@ foundation/GmatState.i: foundation/GmatState.cpp.i
 
 # target to preprocess a source file
 foundation/GmatState.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatState.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatState.cpp.i
 .PHONY : foundation/GmatState.cpp.i
 
 foundation/GmatState.s: foundation/GmatState.cpp.s
@@ -3969,7 +3969,7 @@ foundation/GmatState.s: foundation/GmatState.cpp.s
 
 # target to generate assembly for a file
 foundation/GmatState.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatState.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/GmatState.cpp.s
 .PHONY : foundation/GmatState.cpp.s
 
 foundation/IChangeListener.o: foundation/IChangeListener.cpp.o
@@ -3977,7 +3977,7 @@ foundation/IChangeListener.o: foundation/IChangeListener.cpp.o
 
 # target to build an object file
 foundation/IChangeListener.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/IChangeListener.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/IChangeListener.cpp.o
 .PHONY : foundation/IChangeListener.cpp.o
 
 foundation/IChangeListener.i: foundation/IChangeListener.cpp.i
@@ -3985,7 +3985,7 @@ foundation/IChangeListener.i: foundation/IChangeListener.cpp.i
 
 # target to preprocess a source file
 foundation/IChangeListener.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/IChangeListener.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/IChangeListener.cpp.i
 .PHONY : foundation/IChangeListener.cpp.i
 
 foundation/IChangeListener.s: foundation/IChangeListener.cpp.s
@@ -3993,7 +3993,7 @@ foundation/IChangeListener.s: foundation/IChangeListener.cpp.s
 
 # target to generate assembly for a file
 foundation/IChangeListener.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/IChangeListener.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/IChangeListener.cpp.s
 .PHONY : foundation/IChangeListener.cpp.s
 
 foundation/ObjectInitializer.o: foundation/ObjectInitializer.cpp.o
@@ -4001,7 +4001,7 @@ foundation/ObjectInitializer.o: foundation/ObjectInitializer.cpp.o
 
 # target to build an object file
 foundation/ObjectInitializer.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ObjectInitializer.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ObjectInitializer.cpp.o
 .PHONY : foundation/ObjectInitializer.cpp.o
 
 foundation/ObjectInitializer.i: foundation/ObjectInitializer.cpp.i
@@ -4009,7 +4009,7 @@ foundation/ObjectInitializer.i: foundation/ObjectInitializer.cpp.i
 
 # target to preprocess a source file
 foundation/ObjectInitializer.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ObjectInitializer.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ObjectInitializer.cpp.i
 .PHONY : foundation/ObjectInitializer.cpp.i
 
 foundation/ObjectInitializer.s: foundation/ObjectInitializer.cpp.s
@@ -4017,7 +4017,7 @@ foundation/ObjectInitializer.s: foundation/ObjectInitializer.cpp.s
 
 # target to generate assembly for a file
 foundation/ObjectInitializer.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ObjectInitializer.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/ObjectInitializer.cpp.s
 .PHONY : foundation/ObjectInitializer.cpp.s
 
 foundation/SpacePoint.o: foundation/SpacePoint.cpp.o
@@ -4025,7 +4025,7 @@ foundation/SpacePoint.o: foundation/SpacePoint.cpp.o
 
 # target to build an object file
 foundation/SpacePoint.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/SpacePoint.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/SpacePoint.cpp.o
 .PHONY : foundation/SpacePoint.cpp.o
 
 foundation/SpacePoint.i: foundation/SpacePoint.cpp.i
@@ -4033,7 +4033,7 @@ foundation/SpacePoint.i: foundation/SpacePoint.cpp.i
 
 # target to preprocess a source file
 foundation/SpacePoint.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/SpacePoint.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/SpacePoint.cpp.i
 .PHONY : foundation/SpacePoint.cpp.i
 
 foundation/SpacePoint.s: foundation/SpacePoint.cpp.s
@@ -4041,7 +4041,7 @@ foundation/SpacePoint.s: foundation/SpacePoint.cpp.s
 
 # target to generate assembly for a file
 foundation/SpacePoint.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/SpacePoint.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/SpacePoint.cpp.s
 .PHONY : foundation/SpacePoint.cpp.s
 
 foundation/StateManager.o: foundation/StateManager.cpp.o
@@ -4049,7 +4049,7 @@ foundation/StateManager.o: foundation/StateManager.cpp.o
 
 # target to build an object file
 foundation/StateManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/StateManager.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/StateManager.cpp.o
 .PHONY : foundation/StateManager.cpp.o
 
 foundation/StateManager.i: foundation/StateManager.cpp.i
@@ -4057,7 +4057,7 @@ foundation/StateManager.i: foundation/StateManager.cpp.i
 
 # target to preprocess a source file
 foundation/StateManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/StateManager.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/StateManager.cpp.i
 .PHONY : foundation/StateManager.cpp.i
 
 foundation/StateManager.s: foundation/StateManager.cpp.s
@@ -4065,7 +4065,7 @@ foundation/StateManager.s: foundation/StateManager.cpp.s
 
 # target to generate assembly for a file
 foundation/StateManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/StateManager.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/StateManager.cpp.s
 .PHONY : foundation/StateManager.cpp.s
 
 foundation/TriggerManager.o: foundation/TriggerManager.cpp.o
@@ -4073,7 +4073,7 @@ foundation/TriggerManager.o: foundation/TriggerManager.cpp.o
 
 # target to build an object file
 foundation/TriggerManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/TriggerManager.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/TriggerManager.cpp.o
 .PHONY : foundation/TriggerManager.cpp.o
 
 foundation/TriggerManager.i: foundation/TriggerManager.cpp.i
@@ -4081,7 +4081,7 @@ foundation/TriggerManager.i: foundation/TriggerManager.cpp.i
 
 # target to preprocess a source file
 foundation/TriggerManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/TriggerManager.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/TriggerManager.cpp.i
 .PHONY : foundation/TriggerManager.cpp.i
 
 foundation/TriggerManager.s: foundation/TriggerManager.cpp.s
@@ -4089,7 +4089,7 @@ foundation/TriggerManager.s: foundation/TriggerManager.cpp.s
 
 # target to generate assembly for a file
 foundation/TriggerManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/TriggerManager.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/foundation/TriggerManager.cpp.s
 .PHONY : foundation/TriggerManager.cpp.s
 
 function/Function.o: function/Function.cpp.o
@@ -4097,7 +4097,7 @@ function/Function.o: function/Function.cpp.o
 
 # target to build an object file
 function/Function.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/Function.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/Function.cpp.o
 .PHONY : function/Function.cpp.o
 
 function/Function.i: function/Function.cpp.i
@@ -4105,7 +4105,7 @@ function/Function.i: function/Function.cpp.i
 
 # target to preprocess a source file
 function/Function.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/Function.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/Function.cpp.i
 .PHONY : function/Function.cpp.i
 
 function/Function.s: function/Function.cpp.s
@@ -4113,7 +4113,7 @@ function/Function.s: function/Function.cpp.s
 
 # target to generate assembly for a file
 function/Function.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/Function.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/Function.cpp.s
 .PHONY : function/Function.cpp.s
 
 function/FunctionException.o: function/FunctionException.cpp.o
@@ -4121,7 +4121,7 @@ function/FunctionException.o: function/FunctionException.cpp.o
 
 # target to build an object file
 function/FunctionException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionException.cpp.o
 .PHONY : function/FunctionException.cpp.o
 
 function/FunctionException.i: function/FunctionException.cpp.i
@@ -4129,7 +4129,7 @@ function/FunctionException.i: function/FunctionException.cpp.i
 
 # target to preprocess a source file
 function/FunctionException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionException.cpp.i
 .PHONY : function/FunctionException.cpp.i
 
 function/FunctionException.s: function/FunctionException.cpp.s
@@ -4137,7 +4137,7 @@ function/FunctionException.s: function/FunctionException.cpp.s
 
 # target to generate assembly for a file
 function/FunctionException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionException.cpp.s
 .PHONY : function/FunctionException.cpp.s
 
 function/FunctionManager.o: function/FunctionManager.cpp.o
@@ -4145,7 +4145,7 @@ function/FunctionManager.o: function/FunctionManager.cpp.o
 
 # target to build an object file
 function/FunctionManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionManager.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionManager.cpp.o
 .PHONY : function/FunctionManager.cpp.o
 
 function/FunctionManager.i: function/FunctionManager.cpp.i
@@ -4153,7 +4153,7 @@ function/FunctionManager.i: function/FunctionManager.cpp.i
 
 # target to preprocess a source file
 function/FunctionManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionManager.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionManager.cpp.i
 .PHONY : function/FunctionManager.cpp.i
 
 function/FunctionManager.s: function/FunctionManager.cpp.s
@@ -4161,7 +4161,7 @@ function/FunctionManager.s: function/FunctionManager.cpp.s
 
 # target to generate assembly for a file
 function/FunctionManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionManager.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/function/FunctionManager.cpp.s
 .PHONY : function/FunctionManager.cpp.s
 
 hardware/ChemicalTank.o: hardware/ChemicalTank.cpp.o
@@ -4169,7 +4169,7 @@ hardware/ChemicalTank.o: hardware/ChemicalTank.cpp.o
 
 # target to build an object file
 hardware/ChemicalTank.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalTank.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalTank.cpp.o
 .PHONY : hardware/ChemicalTank.cpp.o
 
 hardware/ChemicalTank.i: hardware/ChemicalTank.cpp.i
@@ -4177,7 +4177,7 @@ hardware/ChemicalTank.i: hardware/ChemicalTank.cpp.i
 
 # target to preprocess a source file
 hardware/ChemicalTank.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalTank.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalTank.cpp.i
 .PHONY : hardware/ChemicalTank.cpp.i
 
 hardware/ChemicalTank.s: hardware/ChemicalTank.cpp.s
@@ -4185,7 +4185,7 @@ hardware/ChemicalTank.s: hardware/ChemicalTank.cpp.s
 
 # target to generate assembly for a file
 hardware/ChemicalTank.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalTank.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalTank.cpp.s
 .PHONY : hardware/ChemicalTank.cpp.s
 
 hardware/ChemicalThruster.o: hardware/ChemicalThruster.cpp.o
@@ -4193,7 +4193,7 @@ hardware/ChemicalThruster.o: hardware/ChemicalThruster.cpp.o
 
 # target to build an object file
 hardware/ChemicalThruster.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalThruster.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalThruster.cpp.o
 .PHONY : hardware/ChemicalThruster.cpp.o
 
 hardware/ChemicalThruster.i: hardware/ChemicalThruster.cpp.i
@@ -4201,7 +4201,7 @@ hardware/ChemicalThruster.i: hardware/ChemicalThruster.cpp.i
 
 # target to preprocess a source file
 hardware/ChemicalThruster.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalThruster.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalThruster.cpp.i
 .PHONY : hardware/ChemicalThruster.cpp.i
 
 hardware/ChemicalThruster.s: hardware/ChemicalThruster.cpp.s
@@ -4209,7 +4209,7 @@ hardware/ChemicalThruster.s: hardware/ChemicalThruster.cpp.s
 
 # target to generate assembly for a file
 hardware/ChemicalThruster.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalThruster.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ChemicalThruster.cpp.s
 .PHONY : hardware/ChemicalThruster.cpp.s
 
 hardware/ElectricTank.o: hardware/ElectricTank.cpp.o
@@ -4217,7 +4217,7 @@ hardware/ElectricTank.o: hardware/ElectricTank.cpp.o
 
 # target to build an object file
 hardware/ElectricTank.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricTank.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricTank.cpp.o
 .PHONY : hardware/ElectricTank.cpp.o
 
 hardware/ElectricTank.i: hardware/ElectricTank.cpp.i
@@ -4225,7 +4225,7 @@ hardware/ElectricTank.i: hardware/ElectricTank.cpp.i
 
 # target to preprocess a source file
 hardware/ElectricTank.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricTank.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricTank.cpp.i
 .PHONY : hardware/ElectricTank.cpp.i
 
 hardware/ElectricTank.s: hardware/ElectricTank.cpp.s
@@ -4233,7 +4233,7 @@ hardware/ElectricTank.s: hardware/ElectricTank.cpp.s
 
 # target to generate assembly for a file
 hardware/ElectricTank.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricTank.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricTank.cpp.s
 .PHONY : hardware/ElectricTank.cpp.s
 
 hardware/ElectricThruster.o: hardware/ElectricThruster.cpp.o
@@ -4241,7 +4241,7 @@ hardware/ElectricThruster.o: hardware/ElectricThruster.cpp.o
 
 # target to build an object file
 hardware/ElectricThruster.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricThruster.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricThruster.cpp.o
 .PHONY : hardware/ElectricThruster.cpp.o
 
 hardware/ElectricThruster.i: hardware/ElectricThruster.cpp.i
@@ -4249,7 +4249,7 @@ hardware/ElectricThruster.i: hardware/ElectricThruster.cpp.i
 
 # target to preprocess a source file
 hardware/ElectricThruster.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricThruster.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricThruster.cpp.i
 .PHONY : hardware/ElectricThruster.cpp.i
 
 hardware/ElectricThruster.s: hardware/ElectricThruster.cpp.s
@@ -4257,7 +4257,7 @@ hardware/ElectricThruster.s: hardware/ElectricThruster.cpp.s
 
 # target to generate assembly for a file
 hardware/ElectricThruster.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricThruster.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/ElectricThruster.cpp.s
 .PHONY : hardware/ElectricThruster.cpp.s
 
 hardware/FuelTank.o: hardware/FuelTank.cpp.o
@@ -4265,7 +4265,7 @@ hardware/FuelTank.o: hardware/FuelTank.cpp.o
 
 # target to build an object file
 hardware/FuelTank.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/FuelTank.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/FuelTank.cpp.o
 .PHONY : hardware/FuelTank.cpp.o
 
 hardware/FuelTank.i: hardware/FuelTank.cpp.i
@@ -4273,7 +4273,7 @@ hardware/FuelTank.i: hardware/FuelTank.cpp.i
 
 # target to preprocess a source file
 hardware/FuelTank.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/FuelTank.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/FuelTank.cpp.i
 .PHONY : hardware/FuelTank.cpp.i
 
 hardware/FuelTank.s: hardware/FuelTank.cpp.s
@@ -4281,7 +4281,7 @@ hardware/FuelTank.s: hardware/FuelTank.cpp.s
 
 # target to generate assembly for a file
 hardware/FuelTank.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/FuelTank.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/FuelTank.cpp.s
 .PHONY : hardware/FuelTank.cpp.s
 
 hardware/Hardware.o: hardware/Hardware.cpp.o
@@ -4289,7 +4289,7 @@ hardware/Hardware.o: hardware/Hardware.cpp.o
 
 # target to build an object file
 hardware/Hardware.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Hardware.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Hardware.cpp.o
 .PHONY : hardware/Hardware.cpp.o
 
 hardware/Hardware.i: hardware/Hardware.cpp.i
@@ -4297,7 +4297,7 @@ hardware/Hardware.i: hardware/Hardware.cpp.i
 
 # target to preprocess a source file
 hardware/Hardware.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Hardware.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Hardware.cpp.i
 .PHONY : hardware/Hardware.cpp.i
 
 hardware/Hardware.s: hardware/Hardware.cpp.s
@@ -4305,7 +4305,7 @@ hardware/Hardware.s: hardware/Hardware.cpp.s
 
 # target to generate assembly for a file
 hardware/Hardware.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Hardware.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Hardware.cpp.s
 .PHONY : hardware/Hardware.cpp.s
 
 hardware/HardwareException.o: hardware/HardwareException.cpp.o
@@ -4313,7 +4313,7 @@ hardware/HardwareException.o: hardware/HardwareException.cpp.o
 
 # target to build an object file
 hardware/HardwareException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/HardwareException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/HardwareException.cpp.o
 .PHONY : hardware/HardwareException.cpp.o
 
 hardware/HardwareException.i: hardware/HardwareException.cpp.i
@@ -4321,7 +4321,7 @@ hardware/HardwareException.i: hardware/HardwareException.cpp.i
 
 # target to preprocess a source file
 hardware/HardwareException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/HardwareException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/HardwareException.cpp.i
 .PHONY : hardware/HardwareException.cpp.i
 
 hardware/HardwareException.s: hardware/HardwareException.cpp.s
@@ -4329,7 +4329,7 @@ hardware/HardwareException.s: hardware/HardwareException.cpp.s
 
 # target to generate assembly for a file
 hardware/HardwareException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/HardwareException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/HardwareException.cpp.s
 .PHONY : hardware/HardwareException.cpp.s
 
 hardware/NuclearPowerSystem.o: hardware/NuclearPowerSystem.cpp.o
@@ -4337,7 +4337,7 @@ hardware/NuclearPowerSystem.o: hardware/NuclearPowerSystem.cpp.o
 
 # target to build an object file
 hardware/NuclearPowerSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/NuclearPowerSystem.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/NuclearPowerSystem.cpp.o
 .PHONY : hardware/NuclearPowerSystem.cpp.o
 
 hardware/NuclearPowerSystem.i: hardware/NuclearPowerSystem.cpp.i
@@ -4345,7 +4345,7 @@ hardware/NuclearPowerSystem.i: hardware/NuclearPowerSystem.cpp.i
 
 # target to preprocess a source file
 hardware/NuclearPowerSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/NuclearPowerSystem.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/NuclearPowerSystem.cpp.i
 .PHONY : hardware/NuclearPowerSystem.cpp.i
 
 hardware/NuclearPowerSystem.s: hardware/NuclearPowerSystem.cpp.s
@@ -4353,7 +4353,7 @@ hardware/NuclearPowerSystem.s: hardware/NuclearPowerSystem.cpp.s
 
 # target to generate assembly for a file
 hardware/NuclearPowerSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/NuclearPowerSystem.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/NuclearPowerSystem.cpp.s
 .PHONY : hardware/NuclearPowerSystem.cpp.s
 
 hardware/PowerSystem.o: hardware/PowerSystem.cpp.o
@@ -4361,7 +4361,7 @@ hardware/PowerSystem.o: hardware/PowerSystem.cpp.o
 
 # target to build an object file
 hardware/PowerSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/PowerSystem.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/PowerSystem.cpp.o
 .PHONY : hardware/PowerSystem.cpp.o
 
 hardware/PowerSystem.i: hardware/PowerSystem.cpp.i
@@ -4369,7 +4369,7 @@ hardware/PowerSystem.i: hardware/PowerSystem.cpp.i
 
 # target to preprocess a source file
 hardware/PowerSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/PowerSystem.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/PowerSystem.cpp.i
 .PHONY : hardware/PowerSystem.cpp.i
 
 hardware/PowerSystem.s: hardware/PowerSystem.cpp.s
@@ -4377,7 +4377,7 @@ hardware/PowerSystem.s: hardware/PowerSystem.cpp.s
 
 # target to generate assembly for a file
 hardware/PowerSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/PowerSystem.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/PowerSystem.cpp.s
 .PHONY : hardware/PowerSystem.cpp.s
 
 hardware/SolarPowerSystem.o: hardware/SolarPowerSystem.cpp.o
@@ -4385,7 +4385,7 @@ hardware/SolarPowerSystem.o: hardware/SolarPowerSystem.cpp.o
 
 # target to build an object file
 hardware/SolarPowerSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/SolarPowerSystem.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/SolarPowerSystem.cpp.o
 .PHONY : hardware/SolarPowerSystem.cpp.o
 
 hardware/SolarPowerSystem.i: hardware/SolarPowerSystem.cpp.i
@@ -4393,7 +4393,7 @@ hardware/SolarPowerSystem.i: hardware/SolarPowerSystem.cpp.i
 
 # target to preprocess a source file
 hardware/SolarPowerSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/SolarPowerSystem.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/SolarPowerSystem.cpp.i
 .PHONY : hardware/SolarPowerSystem.cpp.i
 
 hardware/SolarPowerSystem.s: hardware/SolarPowerSystem.cpp.s
@@ -4401,7 +4401,7 @@ hardware/SolarPowerSystem.s: hardware/SolarPowerSystem.cpp.s
 
 # target to generate assembly for a file
 hardware/SolarPowerSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/SolarPowerSystem.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/SolarPowerSystem.cpp.s
 .PHONY : hardware/SolarPowerSystem.cpp.s
 
 hardware/Thruster.o: hardware/Thruster.cpp.o
@@ -4409,7 +4409,7 @@ hardware/Thruster.o: hardware/Thruster.cpp.o
 
 # target to build an object file
 hardware/Thruster.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Thruster.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Thruster.cpp.o
 .PHONY : hardware/Thruster.cpp.o
 
 hardware/Thruster.i: hardware/Thruster.cpp.i
@@ -4417,7 +4417,7 @@ hardware/Thruster.i: hardware/Thruster.cpp.i
 
 # target to preprocess a source file
 hardware/Thruster.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Thruster.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Thruster.cpp.i
 .PHONY : hardware/Thruster.cpp.i
 
 hardware/Thruster.s: hardware/Thruster.cpp.s
@@ -4425,7 +4425,7 @@ hardware/Thruster.s: hardware/Thruster.cpp.s
 
 # target to generate assembly for a file
 hardware/Thruster.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Thruster.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/hardware/Thruster.cpp.s
 .PHONY : hardware/Thruster.cpp.s
 
 interface/GmatInterface.o: interface/GmatInterface.cpp.o
@@ -4433,7 +4433,7 @@ interface/GmatInterface.o: interface/GmatInterface.cpp.o
 
 # target to build an object file
 interface/GmatInterface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/GmatInterface.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/GmatInterface.cpp.o
 .PHONY : interface/GmatInterface.cpp.o
 
 interface/GmatInterface.i: interface/GmatInterface.cpp.i
@@ -4441,7 +4441,7 @@ interface/GmatInterface.i: interface/GmatInterface.cpp.i
 
 # target to preprocess a source file
 interface/GmatInterface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/GmatInterface.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/GmatInterface.cpp.i
 .PHONY : interface/GmatInterface.cpp.i
 
 interface/GmatInterface.s: interface/GmatInterface.cpp.s
@@ -4449,7 +4449,7 @@ interface/GmatInterface.s: interface/GmatInterface.cpp.s
 
 # target to generate assembly for a file
 interface/GmatInterface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/GmatInterface.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/GmatInterface.cpp.s
 .PHONY : interface/GmatInterface.cpp.s
 
 interface/Interface.o: interface/Interface.cpp.o
@@ -4457,7 +4457,7 @@ interface/Interface.o: interface/Interface.cpp.o
 
 # target to build an object file
 interface/Interface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/Interface.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/Interface.cpp.o
 .PHONY : interface/Interface.cpp.o
 
 interface/Interface.i: interface/Interface.cpp.i
@@ -4465,7 +4465,7 @@ interface/Interface.i: interface/Interface.cpp.i
 
 # target to preprocess a source file
 interface/Interface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/Interface.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/Interface.cpp.i
 .PHONY : interface/Interface.cpp.i
 
 interface/Interface.s: interface/Interface.cpp.s
@@ -4473,7 +4473,7 @@ interface/Interface.s: interface/Interface.cpp.s
 
 # target to generate assembly for a file
 interface/Interface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/Interface.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/Interface.cpp.s
 .PHONY : interface/Interface.cpp.s
 
 interface/InterfaceException.o: interface/InterfaceException.cpp.o
@@ -4481,7 +4481,7 @@ interface/InterfaceException.o: interface/InterfaceException.cpp.o
 
 # target to build an object file
 interface/InterfaceException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/InterfaceException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/InterfaceException.cpp.o
 .PHONY : interface/InterfaceException.cpp.o
 
 interface/InterfaceException.i: interface/InterfaceException.cpp.i
@@ -4489,7 +4489,7 @@ interface/InterfaceException.i: interface/InterfaceException.cpp.i
 
 # target to preprocess a source file
 interface/InterfaceException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/InterfaceException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/InterfaceException.cpp.i
 .PHONY : interface/InterfaceException.cpp.i
 
 interface/InterfaceException.s: interface/InterfaceException.cpp.s
@@ -4497,7 +4497,7 @@ interface/InterfaceException.s: interface/InterfaceException.cpp.s
 
 # target to generate assembly for a file
 interface/InterfaceException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/InterfaceException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interface/InterfaceException.cpp.s
 .PHONY : interface/InterfaceException.cpp.s
 
 interpolator/BrentDekkerZero.o: interpolator/BrentDekkerZero.cpp.o
@@ -4505,7 +4505,7 @@ interpolator/BrentDekkerZero.o: interpolator/BrentDekkerZero.cpp.o
 
 # target to build an object file
 interpolator/BrentDekkerZero.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/BrentDekkerZero.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/BrentDekkerZero.cpp.o
 .PHONY : interpolator/BrentDekkerZero.cpp.o
 
 interpolator/BrentDekkerZero.i: interpolator/BrentDekkerZero.cpp.i
@@ -4513,7 +4513,7 @@ interpolator/BrentDekkerZero.i: interpolator/BrentDekkerZero.cpp.i
 
 # target to preprocess a source file
 interpolator/BrentDekkerZero.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/BrentDekkerZero.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/BrentDekkerZero.cpp.i
 .PHONY : interpolator/BrentDekkerZero.cpp.i
 
 interpolator/BrentDekkerZero.s: interpolator/BrentDekkerZero.cpp.s
@@ -4521,7 +4521,7 @@ interpolator/BrentDekkerZero.s: interpolator/BrentDekkerZero.cpp.s
 
 # target to generate assembly for a file
 interpolator/BrentDekkerZero.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/BrentDekkerZero.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/BrentDekkerZero.cpp.s
 .PHONY : interpolator/BrentDekkerZero.cpp.s
 
 interpolator/CubicSplineInterpolator.o: interpolator/CubicSplineInterpolator.cpp.o
@@ -4529,7 +4529,7 @@ interpolator/CubicSplineInterpolator.o: interpolator/CubicSplineInterpolator.cpp
 
 # target to build an object file
 interpolator/CubicSplineInterpolator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/CubicSplineInterpolator.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/CubicSplineInterpolator.cpp.o
 .PHONY : interpolator/CubicSplineInterpolator.cpp.o
 
 interpolator/CubicSplineInterpolator.i: interpolator/CubicSplineInterpolator.cpp.i
@@ -4537,7 +4537,7 @@ interpolator/CubicSplineInterpolator.i: interpolator/CubicSplineInterpolator.cpp
 
 # target to preprocess a source file
 interpolator/CubicSplineInterpolator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/CubicSplineInterpolator.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/CubicSplineInterpolator.cpp.i
 .PHONY : interpolator/CubicSplineInterpolator.cpp.i
 
 interpolator/CubicSplineInterpolator.s: interpolator/CubicSplineInterpolator.cpp.s
@@ -4545,7 +4545,7 @@ interpolator/CubicSplineInterpolator.s: interpolator/CubicSplineInterpolator.cpp
 
 # target to generate assembly for a file
 interpolator/CubicSplineInterpolator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/CubicSplineInterpolator.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/CubicSplineInterpolator.cpp.s
 .PHONY : interpolator/CubicSplineInterpolator.cpp.s
 
 interpolator/Interpolator.o: interpolator/Interpolator.cpp.o
@@ -4553,7 +4553,7 @@ interpolator/Interpolator.o: interpolator/Interpolator.cpp.o
 
 # target to build an object file
 interpolator/Interpolator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/Interpolator.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/Interpolator.cpp.o
 .PHONY : interpolator/Interpolator.cpp.o
 
 interpolator/Interpolator.i: interpolator/Interpolator.cpp.i
@@ -4561,7 +4561,7 @@ interpolator/Interpolator.i: interpolator/Interpolator.cpp.i
 
 # target to preprocess a source file
 interpolator/Interpolator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/Interpolator.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/Interpolator.cpp.i
 .PHONY : interpolator/Interpolator.cpp.i
 
 interpolator/Interpolator.s: interpolator/Interpolator.cpp.s
@@ -4569,7 +4569,7 @@ interpolator/Interpolator.s: interpolator/Interpolator.cpp.s
 
 # target to generate assembly for a file
 interpolator/Interpolator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/Interpolator.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/Interpolator.cpp.s
 .PHONY : interpolator/Interpolator.cpp.s
 
 interpolator/InterpolatorException.o: interpolator/InterpolatorException.cpp.o
@@ -4577,7 +4577,7 @@ interpolator/InterpolatorException.o: interpolator/InterpolatorException.cpp.o
 
 # target to build an object file
 interpolator/InterpolatorException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/InterpolatorException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/InterpolatorException.cpp.o
 .PHONY : interpolator/InterpolatorException.cpp.o
 
 interpolator/InterpolatorException.i: interpolator/InterpolatorException.cpp.i
@@ -4585,7 +4585,7 @@ interpolator/InterpolatorException.i: interpolator/InterpolatorException.cpp.i
 
 # target to preprocess a source file
 interpolator/InterpolatorException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/InterpolatorException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/InterpolatorException.cpp.i
 .PHONY : interpolator/InterpolatorException.cpp.i
 
 interpolator/InterpolatorException.s: interpolator/InterpolatorException.cpp.s
@@ -4593,7 +4593,7 @@ interpolator/InterpolatorException.s: interpolator/InterpolatorException.cpp.s
 
 # target to generate assembly for a file
 interpolator/InterpolatorException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/InterpolatorException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/InterpolatorException.cpp.s
 .PHONY : interpolator/InterpolatorException.cpp.s
 
 interpolator/LagrangeInterpolator.o: interpolator/LagrangeInterpolator.cpp.o
@@ -4601,7 +4601,7 @@ interpolator/LagrangeInterpolator.o: interpolator/LagrangeInterpolator.cpp.o
 
 # target to build an object file
 interpolator/LagrangeInterpolator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LagrangeInterpolator.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LagrangeInterpolator.cpp.o
 .PHONY : interpolator/LagrangeInterpolator.cpp.o
 
 interpolator/LagrangeInterpolator.i: interpolator/LagrangeInterpolator.cpp.i
@@ -4609,7 +4609,7 @@ interpolator/LagrangeInterpolator.i: interpolator/LagrangeInterpolator.cpp.i
 
 # target to preprocess a source file
 interpolator/LagrangeInterpolator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LagrangeInterpolator.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LagrangeInterpolator.cpp.i
 .PHONY : interpolator/LagrangeInterpolator.cpp.i
 
 interpolator/LagrangeInterpolator.s: interpolator/LagrangeInterpolator.cpp.s
@@ -4617,7 +4617,7 @@ interpolator/LagrangeInterpolator.s: interpolator/LagrangeInterpolator.cpp.s
 
 # target to generate assembly for a file
 interpolator/LagrangeInterpolator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LagrangeInterpolator.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LagrangeInterpolator.cpp.s
 .PHONY : interpolator/LagrangeInterpolator.cpp.s
 
 interpolator/LinearInterpolator.o: interpolator/LinearInterpolator.cpp.o
@@ -4625,7 +4625,7 @@ interpolator/LinearInterpolator.o: interpolator/LinearInterpolator.cpp.o
 
 # target to build an object file
 interpolator/LinearInterpolator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LinearInterpolator.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LinearInterpolator.cpp.o
 .PHONY : interpolator/LinearInterpolator.cpp.o
 
 interpolator/LinearInterpolator.i: interpolator/LinearInterpolator.cpp.i
@@ -4633,7 +4633,7 @@ interpolator/LinearInterpolator.i: interpolator/LinearInterpolator.cpp.i
 
 # target to preprocess a source file
 interpolator/LinearInterpolator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LinearInterpolator.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LinearInterpolator.cpp.i
 .PHONY : interpolator/LinearInterpolator.cpp.i
 
 interpolator/LinearInterpolator.s: interpolator/LinearInterpolator.cpp.s
@@ -4641,7 +4641,7 @@ interpolator/LinearInterpolator.s: interpolator/LinearInterpolator.cpp.s
 
 # target to generate assembly for a file
 interpolator/LinearInterpolator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LinearInterpolator.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/LinearInterpolator.cpp.s
 .PHONY : interpolator/LinearInterpolator.cpp.s
 
 interpolator/NotAKnotInterpolator.o: interpolator/NotAKnotInterpolator.cpp.o
@@ -4649,7 +4649,7 @@ interpolator/NotAKnotInterpolator.o: interpolator/NotAKnotInterpolator.cpp.o
 
 # target to build an object file
 interpolator/NotAKnotInterpolator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/NotAKnotInterpolator.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/NotAKnotInterpolator.cpp.o
 .PHONY : interpolator/NotAKnotInterpolator.cpp.o
 
 interpolator/NotAKnotInterpolator.i: interpolator/NotAKnotInterpolator.cpp.i
@@ -4657,7 +4657,7 @@ interpolator/NotAKnotInterpolator.i: interpolator/NotAKnotInterpolator.cpp.i
 
 # target to preprocess a source file
 interpolator/NotAKnotInterpolator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/NotAKnotInterpolator.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/NotAKnotInterpolator.cpp.i
 .PHONY : interpolator/NotAKnotInterpolator.cpp.i
 
 interpolator/NotAKnotInterpolator.s: interpolator/NotAKnotInterpolator.cpp.s
@@ -4665,7 +4665,7 @@ interpolator/NotAKnotInterpolator.s: interpolator/NotAKnotInterpolator.cpp.s
 
 # target to generate assembly for a file
 interpolator/NotAKnotInterpolator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/NotAKnotInterpolator.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpolator/NotAKnotInterpolator.cpp.s
 .PHONY : interpolator/NotAKnotInterpolator.cpp.s
 
 interpreter/Interpreter.o: interpreter/Interpreter.cpp.o
@@ -4673,7 +4673,7 @@ interpreter/Interpreter.o: interpreter/Interpreter.cpp.o
 
 # target to build an object file
 interpreter/Interpreter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Interpreter.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Interpreter.cpp.o
 .PHONY : interpreter/Interpreter.cpp.o
 
 interpreter/Interpreter.i: interpreter/Interpreter.cpp.i
@@ -4681,7 +4681,7 @@ interpreter/Interpreter.i: interpreter/Interpreter.cpp.i
 
 # target to preprocess a source file
 interpreter/Interpreter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Interpreter.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Interpreter.cpp.i
 .PHONY : interpreter/Interpreter.cpp.i
 
 interpreter/Interpreter.s: interpreter/Interpreter.cpp.s
@@ -4689,7 +4689,7 @@ interpreter/Interpreter.s: interpreter/Interpreter.cpp.s
 
 # target to generate assembly for a file
 interpreter/Interpreter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Interpreter.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Interpreter.cpp.s
 .PHONY : interpreter/Interpreter.cpp.s
 
 interpreter/InterpreterException.o: interpreter/InterpreterException.cpp.o
@@ -4697,7 +4697,7 @@ interpreter/InterpreterException.o: interpreter/InterpreterException.cpp.o
 
 # target to build an object file
 interpreter/InterpreterException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/InterpreterException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/InterpreterException.cpp.o
 .PHONY : interpreter/InterpreterException.cpp.o
 
 interpreter/InterpreterException.i: interpreter/InterpreterException.cpp.i
@@ -4705,7 +4705,7 @@ interpreter/InterpreterException.i: interpreter/InterpreterException.cpp.i
 
 # target to preprocess a source file
 interpreter/InterpreterException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/InterpreterException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/InterpreterException.cpp.i
 .PHONY : interpreter/InterpreterException.cpp.i
 
 interpreter/InterpreterException.s: interpreter/InterpreterException.cpp.s
@@ -4713,7 +4713,7 @@ interpreter/InterpreterException.s: interpreter/InterpreterException.cpp.s
 
 # target to generate assembly for a file
 interpreter/InterpreterException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/InterpreterException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/InterpreterException.cpp.s
 .PHONY : interpreter/InterpreterException.cpp.s
 
 interpreter/MathParser.o: interpreter/MathParser.cpp.o
@@ -4721,7 +4721,7 @@ interpreter/MathParser.o: interpreter/MathParser.cpp.o
 
 # target to build an object file
 interpreter/MathParser.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathParser.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathParser.cpp.o
 .PHONY : interpreter/MathParser.cpp.o
 
 interpreter/MathParser.i: interpreter/MathParser.cpp.i
@@ -4729,7 +4729,7 @@ interpreter/MathParser.i: interpreter/MathParser.cpp.i
 
 # target to preprocess a source file
 interpreter/MathParser.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathParser.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathParser.cpp.i
 .PHONY : interpreter/MathParser.cpp.i
 
 interpreter/MathParser.s: interpreter/MathParser.cpp.s
@@ -4737,7 +4737,7 @@ interpreter/MathParser.s: interpreter/MathParser.cpp.s
 
 # target to generate assembly for a file
 interpreter/MathParser.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathParser.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathParser.cpp.s
 .PHONY : interpreter/MathParser.cpp.s
 
 interpreter/MathTree.o: interpreter/MathTree.cpp.o
@@ -4745,7 +4745,7 @@ interpreter/MathTree.o: interpreter/MathTree.cpp.o
 
 # target to build an object file
 interpreter/MathTree.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathTree.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathTree.cpp.o
 .PHONY : interpreter/MathTree.cpp.o
 
 interpreter/MathTree.i: interpreter/MathTree.cpp.i
@@ -4753,7 +4753,7 @@ interpreter/MathTree.i: interpreter/MathTree.cpp.i
 
 # target to preprocess a source file
 interpreter/MathTree.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathTree.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathTree.cpp.i
 .PHONY : interpreter/MathTree.cpp.i
 
 interpreter/MathTree.s: interpreter/MathTree.cpp.s
@@ -4761,7 +4761,7 @@ interpreter/MathTree.s: interpreter/MathTree.cpp.s
 
 # target to generate assembly for a file
 interpreter/MathTree.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathTree.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/MathTree.cpp.s
 .PHONY : interpreter/MathTree.cpp.s
 
 interpreter/ScriptInterpreter.o: interpreter/ScriptInterpreter.cpp.o
@@ -4769,7 +4769,7 @@ interpreter/ScriptInterpreter.o: interpreter/ScriptInterpreter.cpp.o
 
 # target to build an object file
 interpreter/ScriptInterpreter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptInterpreter.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptInterpreter.cpp.o
 .PHONY : interpreter/ScriptInterpreter.cpp.o
 
 interpreter/ScriptInterpreter.i: interpreter/ScriptInterpreter.cpp.i
@@ -4777,7 +4777,7 @@ interpreter/ScriptInterpreter.i: interpreter/ScriptInterpreter.cpp.i
 
 # target to preprocess a source file
 interpreter/ScriptInterpreter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptInterpreter.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptInterpreter.cpp.i
 .PHONY : interpreter/ScriptInterpreter.cpp.i
 
 interpreter/ScriptInterpreter.s: interpreter/ScriptInterpreter.cpp.s
@@ -4785,7 +4785,7 @@ interpreter/ScriptInterpreter.s: interpreter/ScriptInterpreter.cpp.s
 
 # target to generate assembly for a file
 interpreter/ScriptInterpreter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptInterpreter.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptInterpreter.cpp.s
 .PHONY : interpreter/ScriptInterpreter.cpp.s
 
 interpreter/ScriptReadWriter.o: interpreter/ScriptReadWriter.cpp.o
@@ -4793,7 +4793,7 @@ interpreter/ScriptReadWriter.o: interpreter/ScriptReadWriter.cpp.o
 
 # target to build an object file
 interpreter/ScriptReadWriter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptReadWriter.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptReadWriter.cpp.o
 .PHONY : interpreter/ScriptReadWriter.cpp.o
 
 interpreter/ScriptReadWriter.i: interpreter/ScriptReadWriter.cpp.i
@@ -4801,7 +4801,7 @@ interpreter/ScriptReadWriter.i: interpreter/ScriptReadWriter.cpp.i
 
 # target to preprocess a source file
 interpreter/ScriptReadWriter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptReadWriter.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptReadWriter.cpp.i
 .PHONY : interpreter/ScriptReadWriter.cpp.i
 
 interpreter/ScriptReadWriter.s: interpreter/ScriptReadWriter.cpp.s
@@ -4809,7 +4809,7 @@ interpreter/ScriptReadWriter.s: interpreter/ScriptReadWriter.cpp.s
 
 # target to generate assembly for a file
 interpreter/ScriptReadWriter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptReadWriter.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/ScriptReadWriter.cpp.s
 .PHONY : interpreter/ScriptReadWriter.cpp.s
 
 interpreter/Validator.o: interpreter/Validator.cpp.o
@@ -4817,7 +4817,7 @@ interpreter/Validator.o: interpreter/Validator.cpp.o
 
 # target to build an object file
 interpreter/Validator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Validator.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Validator.cpp.o
 .PHONY : interpreter/Validator.cpp.o
 
 interpreter/Validator.i: interpreter/Validator.cpp.i
@@ -4825,7 +4825,7 @@ interpreter/Validator.i: interpreter/Validator.cpp.i
 
 # target to preprocess a source file
 interpreter/Validator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Validator.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Validator.cpp.i
 .PHONY : interpreter/Validator.cpp.i
 
 interpreter/Validator.s: interpreter/Validator.cpp.s
@@ -4833,7 +4833,7 @@ interpreter/Validator.s: interpreter/Validator.cpp.s
 
 # target to generate assembly for a file
 interpreter/Validator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Validator.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/interpreter/Validator.cpp.s
 .PHONY : interpreter/Validator.cpp.s
 
 math/Abs.o: math/Abs.cpp.o
@@ -4841,7 +4841,7 @@ math/Abs.o: math/Abs.cpp.o
 
 # target to build an object file
 math/Abs.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Abs.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Abs.cpp.o
 .PHONY : math/Abs.cpp.o
 
 math/Abs.i: math/Abs.cpp.i
@@ -4849,7 +4849,7 @@ math/Abs.i: math/Abs.cpp.i
 
 # target to preprocess a source file
 math/Abs.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Abs.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Abs.cpp.i
 .PHONY : math/Abs.cpp.i
 
 math/Abs.s: math/Abs.cpp.s
@@ -4857,7 +4857,7 @@ math/Abs.s: math/Abs.cpp.s
 
 # target to generate assembly for a file
 math/Abs.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Abs.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Abs.cpp.s
 .PHONY : math/Abs.cpp.s
 
 math/Acos.o: math/Acos.cpp.o
@@ -4865,7 +4865,7 @@ math/Acos.o: math/Acos.cpp.o
 
 # target to build an object file
 math/Acos.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acos.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acos.cpp.o
 .PHONY : math/Acos.cpp.o
 
 math/Acos.i: math/Acos.cpp.i
@@ -4873,7 +4873,7 @@ math/Acos.i: math/Acos.cpp.i
 
 # target to preprocess a source file
 math/Acos.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acos.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acos.cpp.i
 .PHONY : math/Acos.cpp.i
 
 math/Acos.s: math/Acos.cpp.s
@@ -4881,7 +4881,7 @@ math/Acos.s: math/Acos.cpp.s
 
 # target to generate assembly for a file
 math/Acos.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acos.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acos.cpp.s
 .PHONY : math/Acos.cpp.s
 
 math/Acosh.o: math/Acosh.cpp.o
@@ -4889,7 +4889,7 @@ math/Acosh.o: math/Acosh.cpp.o
 
 # target to build an object file
 math/Acosh.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acosh.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acosh.cpp.o
 .PHONY : math/Acosh.cpp.o
 
 math/Acosh.i: math/Acosh.cpp.i
@@ -4897,7 +4897,7 @@ math/Acosh.i: math/Acosh.cpp.i
 
 # target to preprocess a source file
 math/Acosh.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acosh.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acosh.cpp.i
 .PHONY : math/Acosh.cpp.i
 
 math/Acosh.s: math/Acosh.cpp.s
@@ -4905,7 +4905,7 @@ math/Acosh.s: math/Acosh.cpp.s
 
 # target to generate assembly for a file
 math/Acosh.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acosh.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Acosh.cpp.s
 .PHONY : math/Acosh.cpp.s
 
 math/Add.o: math/Add.cpp.o
@@ -4913,7 +4913,7 @@ math/Add.o: math/Add.cpp.o
 
 # target to build an object file
 math/Add.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Add.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Add.cpp.o
 .PHONY : math/Add.cpp.o
 
 math/Add.i: math/Add.cpp.i
@@ -4921,7 +4921,7 @@ math/Add.i: math/Add.cpp.i
 
 # target to preprocess a source file
 math/Add.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Add.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Add.cpp.i
 .PHONY : math/Add.cpp.i
 
 math/Add.s: math/Add.cpp.s
@@ -4929,7 +4929,7 @@ math/Add.s: math/Add.cpp.s
 
 # target to generate assembly for a file
 math/Add.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Add.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Add.cpp.s
 .PHONY : math/Add.cpp.s
 
 math/Asin.o: math/Asin.cpp.o
@@ -4937,7 +4937,7 @@ math/Asin.o: math/Asin.cpp.o
 
 # target to build an object file
 math/Asin.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asin.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asin.cpp.o
 .PHONY : math/Asin.cpp.o
 
 math/Asin.i: math/Asin.cpp.i
@@ -4945,7 +4945,7 @@ math/Asin.i: math/Asin.cpp.i
 
 # target to preprocess a source file
 math/Asin.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asin.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asin.cpp.i
 .PHONY : math/Asin.cpp.i
 
 math/Asin.s: math/Asin.cpp.s
@@ -4953,7 +4953,7 @@ math/Asin.s: math/Asin.cpp.s
 
 # target to generate assembly for a file
 math/Asin.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asin.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asin.cpp.s
 .PHONY : math/Asin.cpp.s
 
 math/Asinh.o: math/Asinh.cpp.o
@@ -4961,7 +4961,7 @@ math/Asinh.o: math/Asinh.cpp.o
 
 # target to build an object file
 math/Asinh.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asinh.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asinh.cpp.o
 .PHONY : math/Asinh.cpp.o
 
 math/Asinh.i: math/Asinh.cpp.i
@@ -4969,7 +4969,7 @@ math/Asinh.i: math/Asinh.cpp.i
 
 # target to preprocess a source file
 math/Asinh.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asinh.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asinh.cpp.i
 .PHONY : math/Asinh.cpp.i
 
 math/Asinh.s: math/Asinh.cpp.s
@@ -4977,7 +4977,7 @@ math/Asinh.s: math/Asinh.cpp.s
 
 # target to generate assembly for a file
 math/Asinh.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asinh.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Asinh.cpp.s
 .PHONY : math/Asinh.cpp.s
 
 math/Atan.o: math/Atan.cpp.o
@@ -4985,7 +4985,7 @@ math/Atan.o: math/Atan.cpp.o
 
 # target to build an object file
 math/Atan.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan.cpp.o
 .PHONY : math/Atan.cpp.o
 
 math/Atan.i: math/Atan.cpp.i
@@ -4993,7 +4993,7 @@ math/Atan.i: math/Atan.cpp.i
 
 # target to preprocess a source file
 math/Atan.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan.cpp.i
 .PHONY : math/Atan.cpp.i
 
 math/Atan.s: math/Atan.cpp.s
@@ -5001,7 +5001,7 @@ math/Atan.s: math/Atan.cpp.s
 
 # target to generate assembly for a file
 math/Atan.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan.cpp.s
 .PHONY : math/Atan.cpp.s
 
 math/Atan2.o: math/Atan2.cpp.o
@@ -5009,7 +5009,7 @@ math/Atan2.o: math/Atan2.cpp.o
 
 # target to build an object file
 math/Atan2.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan2.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan2.cpp.o
 .PHONY : math/Atan2.cpp.o
 
 math/Atan2.i: math/Atan2.cpp.i
@@ -5017,7 +5017,7 @@ math/Atan2.i: math/Atan2.cpp.i
 
 # target to preprocess a source file
 math/Atan2.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan2.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan2.cpp.i
 .PHONY : math/Atan2.cpp.i
 
 math/Atan2.s: math/Atan2.cpp.s
@@ -5025,7 +5025,7 @@ math/Atan2.s: math/Atan2.cpp.s
 
 # target to generate assembly for a file
 math/Atan2.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan2.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Atan2.cpp.s
 .PHONY : math/Atan2.cpp.s
 
 math/Cos.o: math/Cos.cpp.o
@@ -5033,7 +5033,7 @@ math/Cos.o: math/Cos.cpp.o
 
 # target to build an object file
 math/Cos.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cos.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cos.cpp.o
 .PHONY : math/Cos.cpp.o
 
 math/Cos.i: math/Cos.cpp.i
@@ -5041,7 +5041,7 @@ math/Cos.i: math/Cos.cpp.i
 
 # target to preprocess a source file
 math/Cos.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cos.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cos.cpp.i
 .PHONY : math/Cos.cpp.i
 
 math/Cos.s: math/Cos.cpp.s
@@ -5049,7 +5049,7 @@ math/Cos.s: math/Cos.cpp.s
 
 # target to generate assembly for a file
 math/Cos.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cos.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cos.cpp.s
 .PHONY : math/Cos.cpp.s
 
 math/Cosh.o: math/Cosh.cpp.o
@@ -5057,7 +5057,7 @@ math/Cosh.o: math/Cosh.cpp.o
 
 # target to build an object file
 math/Cosh.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cosh.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cosh.cpp.o
 .PHONY : math/Cosh.cpp.o
 
 math/Cosh.i: math/Cosh.cpp.i
@@ -5065,7 +5065,7 @@ math/Cosh.i: math/Cosh.cpp.i
 
 # target to preprocess a source file
 math/Cosh.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cosh.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cosh.cpp.i
 .PHONY : math/Cosh.cpp.i
 
 math/Cosh.s: math/Cosh.cpp.s
@@ -5073,7 +5073,7 @@ math/Cosh.s: math/Cosh.cpp.s
 
 # target to generate assembly for a file
 math/Cosh.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cosh.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Cosh.cpp.s
 .PHONY : math/Cosh.cpp.s
 
 math/DegToRad.o: math/DegToRad.cpp.o
@@ -5081,7 +5081,7 @@ math/DegToRad.o: math/DegToRad.cpp.o
 
 # target to build an object file
 math/DegToRad.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/DegToRad.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/DegToRad.cpp.o
 .PHONY : math/DegToRad.cpp.o
 
 math/DegToRad.i: math/DegToRad.cpp.i
@@ -5089,7 +5089,7 @@ math/DegToRad.i: math/DegToRad.cpp.i
 
 # target to preprocess a source file
 math/DegToRad.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/DegToRad.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/DegToRad.cpp.i
 .PHONY : math/DegToRad.cpp.i
 
 math/DegToRad.s: math/DegToRad.cpp.s
@@ -5097,7 +5097,7 @@ math/DegToRad.s: math/DegToRad.cpp.s
 
 # target to generate assembly for a file
 math/DegToRad.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/DegToRad.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/DegToRad.cpp.s
 .PHONY : math/DegToRad.cpp.s
 
 math/Determinant.o: math/Determinant.cpp.o
@@ -5105,7 +5105,7 @@ math/Determinant.o: math/Determinant.cpp.o
 
 # target to build an object file
 math/Determinant.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Determinant.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Determinant.cpp.o
 .PHONY : math/Determinant.cpp.o
 
 math/Determinant.i: math/Determinant.cpp.i
@@ -5113,7 +5113,7 @@ math/Determinant.i: math/Determinant.cpp.i
 
 # target to preprocess a source file
 math/Determinant.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Determinant.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Determinant.cpp.i
 .PHONY : math/Determinant.cpp.i
 
 math/Determinant.s: math/Determinant.cpp.s
@@ -5121,7 +5121,7 @@ math/Determinant.s: math/Determinant.cpp.s
 
 # target to generate assembly for a file
 math/Determinant.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Determinant.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Determinant.cpp.s
 .PHONY : math/Determinant.cpp.s
 
 math/Divide.o: math/Divide.cpp.o
@@ -5129,7 +5129,7 @@ math/Divide.o: math/Divide.cpp.o
 
 # target to build an object file
 math/Divide.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Divide.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Divide.cpp.o
 .PHONY : math/Divide.cpp.o
 
 math/Divide.i: math/Divide.cpp.i
@@ -5137,7 +5137,7 @@ math/Divide.i: math/Divide.cpp.i
 
 # target to preprocess a source file
 math/Divide.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Divide.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Divide.cpp.i
 .PHONY : math/Divide.cpp.i
 
 math/Divide.s: math/Divide.cpp.s
@@ -5145,7 +5145,7 @@ math/Divide.s: math/Divide.cpp.s
 
 # target to generate assembly for a file
 math/Divide.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Divide.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Divide.cpp.s
 .PHONY : math/Divide.cpp.s
 
 math/Exp.o: math/Exp.cpp.o
@@ -5153,7 +5153,7 @@ math/Exp.o: math/Exp.cpp.o
 
 # target to build an object file
 math/Exp.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Exp.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Exp.cpp.o
 .PHONY : math/Exp.cpp.o
 
 math/Exp.i: math/Exp.cpp.i
@@ -5161,7 +5161,7 @@ math/Exp.i: math/Exp.cpp.i
 
 # target to preprocess a source file
 math/Exp.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Exp.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Exp.cpp.i
 .PHONY : math/Exp.cpp.i
 
 math/Exp.s: math/Exp.cpp.s
@@ -5169,7 +5169,7 @@ math/Exp.s: math/Exp.cpp.s
 
 # target to generate assembly for a file
 math/Exp.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Exp.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Exp.cpp.s
 .PHONY : math/Exp.cpp.s
 
 math/FunctionRunner.o: math/FunctionRunner.cpp.o
@@ -5177,7 +5177,7 @@ math/FunctionRunner.o: math/FunctionRunner.cpp.o
 
 # target to build an object file
 math/FunctionRunner.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/FunctionRunner.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/FunctionRunner.cpp.o
 .PHONY : math/FunctionRunner.cpp.o
 
 math/FunctionRunner.i: math/FunctionRunner.cpp.i
@@ -5185,7 +5185,7 @@ math/FunctionRunner.i: math/FunctionRunner.cpp.i
 
 # target to preprocess a source file
 math/FunctionRunner.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/FunctionRunner.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/FunctionRunner.cpp.i
 .PHONY : math/FunctionRunner.cpp.i
 
 math/FunctionRunner.s: math/FunctionRunner.cpp.s
@@ -5193,7 +5193,7 @@ math/FunctionRunner.s: math/FunctionRunner.cpp.s
 
 # target to generate assembly for a file
 math/FunctionRunner.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/FunctionRunner.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/FunctionRunner.cpp.s
 .PHONY : math/FunctionRunner.cpp.s
 
 math/Inverse.o: math/Inverse.cpp.o
@@ -5201,7 +5201,7 @@ math/Inverse.o: math/Inverse.cpp.o
 
 # target to build an object file
 math/Inverse.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Inverse.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Inverse.cpp.o
 .PHONY : math/Inverse.cpp.o
 
 math/Inverse.i: math/Inverse.cpp.i
@@ -5209,7 +5209,7 @@ math/Inverse.i: math/Inverse.cpp.i
 
 # target to preprocess a source file
 math/Inverse.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Inverse.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Inverse.cpp.i
 .PHONY : math/Inverse.cpp.i
 
 math/Inverse.s: math/Inverse.cpp.s
@@ -5217,7 +5217,7 @@ math/Inverse.s: math/Inverse.cpp.s
 
 # target to generate assembly for a file
 math/Inverse.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Inverse.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Inverse.cpp.s
 .PHONY : math/Inverse.cpp.s
 
 math/Log.o: math/Log.cpp.o
@@ -5225,7 +5225,7 @@ math/Log.o: math/Log.cpp.o
 
 # target to build an object file
 math/Log.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log.cpp.o
 .PHONY : math/Log.cpp.o
 
 math/Log.i: math/Log.cpp.i
@@ -5233,7 +5233,7 @@ math/Log.i: math/Log.cpp.i
 
 # target to preprocess a source file
 math/Log.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log.cpp.i
 .PHONY : math/Log.cpp.i
 
 math/Log.s: math/Log.cpp.s
@@ -5241,7 +5241,7 @@ math/Log.s: math/Log.cpp.s
 
 # target to generate assembly for a file
 math/Log.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log.cpp.s
 .PHONY : math/Log.cpp.s
 
 math/Log10.o: math/Log10.cpp.o
@@ -5249,7 +5249,7 @@ math/Log10.o: math/Log10.cpp.o
 
 # target to build an object file
 math/Log10.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log10.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log10.cpp.o
 .PHONY : math/Log10.cpp.o
 
 math/Log10.i: math/Log10.cpp.i
@@ -5257,7 +5257,7 @@ math/Log10.i: math/Log10.cpp.i
 
 # target to preprocess a source file
 math/Log10.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log10.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log10.cpp.i
 .PHONY : math/Log10.cpp.i
 
 math/Log10.s: math/Log10.cpp.s
@@ -5265,7 +5265,7 @@ math/Log10.s: math/Log10.cpp.s
 
 # target to generate assembly for a file
 math/Log10.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log10.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Log10.cpp.s
 .PHONY : math/Log10.cpp.s
 
 math/MathElement.o: math/MathElement.cpp.o
@@ -5273,7 +5273,7 @@ math/MathElement.o: math/MathElement.cpp.o
 
 # target to build an object file
 math/MathElement.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathElement.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathElement.cpp.o
 .PHONY : math/MathElement.cpp.o
 
 math/MathElement.i: math/MathElement.cpp.i
@@ -5281,7 +5281,7 @@ math/MathElement.i: math/MathElement.cpp.i
 
 # target to preprocess a source file
 math/MathElement.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathElement.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathElement.cpp.i
 .PHONY : math/MathElement.cpp.i
 
 math/MathElement.s: math/MathElement.cpp.s
@@ -5289,7 +5289,7 @@ math/MathElement.s: math/MathElement.cpp.s
 
 # target to generate assembly for a file
 math/MathElement.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathElement.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathElement.cpp.s
 .PHONY : math/MathElement.cpp.s
 
 math/MathException.o: math/MathException.cpp.o
@@ -5297,7 +5297,7 @@ math/MathException.o: math/MathException.cpp.o
 
 # target to build an object file
 math/MathException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathException.cpp.o
 .PHONY : math/MathException.cpp.o
 
 math/MathException.i: math/MathException.cpp.i
@@ -5305,7 +5305,7 @@ math/MathException.i: math/MathException.cpp.i
 
 # target to preprocess a source file
 math/MathException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathException.cpp.i
 .PHONY : math/MathException.cpp.i
 
 math/MathException.s: math/MathException.cpp.s
@@ -5313,7 +5313,7 @@ math/MathException.s: math/MathException.cpp.s
 
 # target to generate assembly for a file
 math/MathException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathException.cpp.s
 .PHONY : math/MathException.cpp.s
 
 math/MathFunction.o: math/MathFunction.cpp.o
@@ -5321,7 +5321,7 @@ math/MathFunction.o: math/MathFunction.cpp.o
 
 # target to build an object file
 math/MathFunction.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathFunction.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathFunction.cpp.o
 .PHONY : math/MathFunction.cpp.o
 
 math/MathFunction.i: math/MathFunction.cpp.i
@@ -5329,7 +5329,7 @@ math/MathFunction.i: math/MathFunction.cpp.i
 
 # target to preprocess a source file
 math/MathFunction.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathFunction.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathFunction.cpp.i
 .PHONY : math/MathFunction.cpp.i
 
 math/MathFunction.s: math/MathFunction.cpp.s
@@ -5337,7 +5337,7 @@ math/MathFunction.s: math/MathFunction.cpp.s
 
 # target to generate assembly for a file
 math/MathFunction.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathFunction.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathFunction.cpp.s
 .PHONY : math/MathFunction.cpp.s
 
 math/MathNode.o: math/MathNode.cpp.o
@@ -5345,7 +5345,7 @@ math/MathNode.o: math/MathNode.cpp.o
 
 # target to build an object file
 math/MathNode.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathNode.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathNode.cpp.o
 .PHONY : math/MathNode.cpp.o
 
 math/MathNode.i: math/MathNode.cpp.i
@@ -5353,7 +5353,7 @@ math/MathNode.i: math/MathNode.cpp.i
 
 # target to preprocess a source file
 math/MathNode.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathNode.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathNode.cpp.i
 .PHONY : math/MathNode.cpp.i
 
 math/MathNode.s: math/MathNode.cpp.s
@@ -5361,7 +5361,7 @@ math/MathNode.s: math/MathNode.cpp.s
 
 # target to generate assembly for a file
 math/MathNode.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathNode.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/MathNode.cpp.s
 .PHONY : math/MathNode.cpp.s
 
 math/Multiply.o: math/Multiply.cpp.o
@@ -5369,7 +5369,7 @@ math/Multiply.o: math/Multiply.cpp.o
 
 # target to build an object file
 math/Multiply.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Multiply.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Multiply.cpp.o
 .PHONY : math/Multiply.cpp.o
 
 math/Multiply.i: math/Multiply.cpp.i
@@ -5377,7 +5377,7 @@ math/Multiply.i: math/Multiply.cpp.i
 
 # target to preprocess a source file
 math/Multiply.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Multiply.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Multiply.cpp.i
 .PHONY : math/Multiply.cpp.i
 
 math/Multiply.s: math/Multiply.cpp.s
@@ -5385,7 +5385,7 @@ math/Multiply.s: math/Multiply.cpp.s
 
 # target to generate assembly for a file
 math/Multiply.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Multiply.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Multiply.cpp.s
 .PHONY : math/Multiply.cpp.s
 
 math/Negate.o: math/Negate.cpp.o
@@ -5393,7 +5393,7 @@ math/Negate.o: math/Negate.cpp.o
 
 # target to build an object file
 math/Negate.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Negate.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Negate.cpp.o
 .PHONY : math/Negate.cpp.o
 
 math/Negate.i: math/Negate.cpp.i
@@ -5401,7 +5401,7 @@ math/Negate.i: math/Negate.cpp.i
 
 # target to preprocess a source file
 math/Negate.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Negate.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Negate.cpp.i
 .PHONY : math/Negate.cpp.i
 
 math/Negate.s: math/Negate.cpp.s
@@ -5409,7 +5409,7 @@ math/Negate.s: math/Negate.cpp.s
 
 # target to generate assembly for a file
 math/Negate.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Negate.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Negate.cpp.s
 .PHONY : math/Negate.cpp.s
 
 math/Norm.o: math/Norm.cpp.o
@@ -5417,7 +5417,7 @@ math/Norm.o: math/Norm.cpp.o
 
 # target to build an object file
 math/Norm.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Norm.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Norm.cpp.o
 .PHONY : math/Norm.cpp.o
 
 math/Norm.i: math/Norm.cpp.i
@@ -5425,7 +5425,7 @@ math/Norm.i: math/Norm.cpp.i
 
 # target to preprocess a source file
 math/Norm.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Norm.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Norm.cpp.i
 .PHONY : math/Norm.cpp.i
 
 math/Norm.s: math/Norm.cpp.s
@@ -5433,7 +5433,7 @@ math/Norm.s: math/Norm.cpp.s
 
 # target to generate assembly for a file
 math/Norm.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Norm.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Norm.cpp.s
 .PHONY : math/Norm.cpp.s
 
 math/Power.o: math/Power.cpp.o
@@ -5441,7 +5441,7 @@ math/Power.o: math/Power.cpp.o
 
 # target to build an object file
 math/Power.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Power.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Power.cpp.o
 .PHONY : math/Power.cpp.o
 
 math/Power.i: math/Power.cpp.i
@@ -5449,7 +5449,7 @@ math/Power.i: math/Power.cpp.i
 
 # target to preprocess a source file
 math/Power.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Power.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Power.cpp.i
 .PHONY : math/Power.cpp.i
 
 math/Power.s: math/Power.cpp.s
@@ -5457,7 +5457,7 @@ math/Power.s: math/Power.cpp.s
 
 # target to generate assembly for a file
 math/Power.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Power.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Power.cpp.s
 .PHONY : math/Power.cpp.s
 
 math/RadToDeg.o: math/RadToDeg.cpp.o
@@ -5465,7 +5465,7 @@ math/RadToDeg.o: math/RadToDeg.cpp.o
 
 # target to build an object file
 math/RadToDeg.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/RadToDeg.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/RadToDeg.cpp.o
 .PHONY : math/RadToDeg.cpp.o
 
 math/RadToDeg.i: math/RadToDeg.cpp.i
@@ -5473,7 +5473,7 @@ math/RadToDeg.i: math/RadToDeg.cpp.i
 
 # target to preprocess a source file
 math/RadToDeg.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/RadToDeg.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/RadToDeg.cpp.i
 .PHONY : math/RadToDeg.cpp.i
 
 math/RadToDeg.s: math/RadToDeg.cpp.s
@@ -5481,7 +5481,7 @@ math/RadToDeg.s: math/RadToDeg.cpp.s
 
 # target to generate assembly for a file
 math/RadToDeg.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/RadToDeg.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/RadToDeg.cpp.s
 .PHONY : math/RadToDeg.cpp.s
 
 math/Sin.o: math/Sin.cpp.o
@@ -5489,7 +5489,7 @@ math/Sin.o: math/Sin.cpp.o
 
 # target to build an object file
 math/Sin.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sin.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sin.cpp.o
 .PHONY : math/Sin.cpp.o
 
 math/Sin.i: math/Sin.cpp.i
@@ -5497,7 +5497,7 @@ math/Sin.i: math/Sin.cpp.i
 
 # target to preprocess a source file
 math/Sin.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sin.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sin.cpp.i
 .PHONY : math/Sin.cpp.i
 
 math/Sin.s: math/Sin.cpp.s
@@ -5505,7 +5505,7 @@ math/Sin.s: math/Sin.cpp.s
 
 # target to generate assembly for a file
 math/Sin.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sin.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sin.cpp.s
 .PHONY : math/Sin.cpp.s
 
 math/Sinh.o: math/Sinh.cpp.o
@@ -5513,7 +5513,7 @@ math/Sinh.o: math/Sinh.cpp.o
 
 # target to build an object file
 math/Sinh.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sinh.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sinh.cpp.o
 .PHONY : math/Sinh.cpp.o
 
 math/Sinh.i: math/Sinh.cpp.i
@@ -5521,7 +5521,7 @@ math/Sinh.i: math/Sinh.cpp.i
 
 # target to preprocess a source file
 math/Sinh.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sinh.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sinh.cpp.i
 .PHONY : math/Sinh.cpp.i
 
 math/Sinh.s: math/Sinh.cpp.s
@@ -5529,7 +5529,7 @@ math/Sinh.s: math/Sinh.cpp.s
 
 # target to generate assembly for a file
 math/Sinh.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sinh.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sinh.cpp.s
 .PHONY : math/Sinh.cpp.s
 
 math/Sqrt.o: math/Sqrt.cpp.o
@@ -5537,7 +5537,7 @@ math/Sqrt.o: math/Sqrt.cpp.o
 
 # target to build an object file
 math/Sqrt.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sqrt.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sqrt.cpp.o
 .PHONY : math/Sqrt.cpp.o
 
 math/Sqrt.i: math/Sqrt.cpp.i
@@ -5545,7 +5545,7 @@ math/Sqrt.i: math/Sqrt.cpp.i
 
 # target to preprocess a source file
 math/Sqrt.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sqrt.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sqrt.cpp.i
 .PHONY : math/Sqrt.cpp.i
 
 math/Sqrt.s: math/Sqrt.cpp.s
@@ -5553,7 +5553,7 @@ math/Sqrt.s: math/Sqrt.cpp.s
 
 # target to generate assembly for a file
 math/Sqrt.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sqrt.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Sqrt.cpp.s
 .PHONY : math/Sqrt.cpp.s
 
 math/Subtract.o: math/Subtract.cpp.o
@@ -5561,7 +5561,7 @@ math/Subtract.o: math/Subtract.cpp.o
 
 # target to build an object file
 math/Subtract.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Subtract.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Subtract.cpp.o
 .PHONY : math/Subtract.cpp.o
 
 math/Subtract.i: math/Subtract.cpp.i
@@ -5569,7 +5569,7 @@ math/Subtract.i: math/Subtract.cpp.i
 
 # target to preprocess a source file
 math/Subtract.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Subtract.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Subtract.cpp.i
 .PHONY : math/Subtract.cpp.i
 
 math/Subtract.s: math/Subtract.cpp.s
@@ -5577,7 +5577,7 @@ math/Subtract.s: math/Subtract.cpp.s
 
 # target to generate assembly for a file
 math/Subtract.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Subtract.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Subtract.cpp.s
 .PHONY : math/Subtract.cpp.s
 
 math/Tan.o: math/Tan.cpp.o
@@ -5585,7 +5585,7 @@ math/Tan.o: math/Tan.cpp.o
 
 # target to build an object file
 math/Tan.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tan.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tan.cpp.o
 .PHONY : math/Tan.cpp.o
 
 math/Tan.i: math/Tan.cpp.i
@@ -5593,7 +5593,7 @@ math/Tan.i: math/Tan.cpp.i
 
 # target to preprocess a source file
 math/Tan.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tan.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tan.cpp.i
 .PHONY : math/Tan.cpp.i
 
 math/Tan.s: math/Tan.cpp.s
@@ -5601,7 +5601,7 @@ math/Tan.s: math/Tan.cpp.s
 
 # target to generate assembly for a file
 math/Tan.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tan.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tan.cpp.s
 .PHONY : math/Tan.cpp.s
 
 math/Tanh.o: math/Tanh.cpp.o
@@ -5609,7 +5609,7 @@ math/Tanh.o: math/Tanh.cpp.o
 
 # target to build an object file
 math/Tanh.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tanh.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tanh.cpp.o
 .PHONY : math/Tanh.cpp.o
 
 math/Tanh.i: math/Tanh.cpp.i
@@ -5617,7 +5617,7 @@ math/Tanh.i: math/Tanh.cpp.i
 
 # target to preprocess a source file
 math/Tanh.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tanh.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tanh.cpp.i
 .PHONY : math/Tanh.cpp.i
 
 math/Tanh.s: math/Tanh.cpp.s
@@ -5625,7 +5625,7 @@ math/Tanh.s: math/Tanh.cpp.s
 
 # target to generate assembly for a file
 math/Tanh.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tanh.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Tanh.cpp.s
 .PHONY : math/Tanh.cpp.s
 
 math/Transpose.o: math/Transpose.cpp.o
@@ -5633,7 +5633,7 @@ math/Transpose.o: math/Transpose.cpp.o
 
 # target to build an object file
 math/Transpose.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Transpose.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Transpose.cpp.o
 .PHONY : math/Transpose.cpp.o
 
 math/Transpose.i: math/Transpose.cpp.i
@@ -5641,7 +5641,7 @@ math/Transpose.i: math/Transpose.cpp.i
 
 # target to preprocess a source file
 math/Transpose.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Transpose.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Transpose.cpp.i
 .PHONY : math/Transpose.cpp.i
 
 math/Transpose.s: math/Transpose.cpp.s
@@ -5649,7 +5649,7 @@ math/Transpose.s: math/Transpose.cpp.s
 
 # target to generate assembly for a file
 math/Transpose.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Transpose.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/math/Transpose.cpp.s
 .PHONY : math/Transpose.cpp.s
 
 parameter/AlternateEquinoctialParameters.o: parameter/AlternateEquinoctialParameters.cpp.o
@@ -5657,7 +5657,7 @@ parameter/AlternateEquinoctialParameters.o: parameter/AlternateEquinoctialParame
 
 # target to build an object file
 parameter/AlternateEquinoctialParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AlternateEquinoctialParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AlternateEquinoctialParameters.cpp.o
 .PHONY : parameter/AlternateEquinoctialParameters.cpp.o
 
 parameter/AlternateEquinoctialParameters.i: parameter/AlternateEquinoctialParameters.cpp.i
@@ -5665,7 +5665,7 @@ parameter/AlternateEquinoctialParameters.i: parameter/AlternateEquinoctialParame
 
 # target to preprocess a source file
 parameter/AlternateEquinoctialParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AlternateEquinoctialParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AlternateEquinoctialParameters.cpp.i
 .PHONY : parameter/AlternateEquinoctialParameters.cpp.i
 
 parameter/AlternateEquinoctialParameters.s: parameter/AlternateEquinoctialParameters.cpp.s
@@ -5673,7 +5673,7 @@ parameter/AlternateEquinoctialParameters.s: parameter/AlternateEquinoctialParame
 
 # target to generate assembly for a file
 parameter/AlternateEquinoctialParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AlternateEquinoctialParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AlternateEquinoctialParameters.cpp.s
 .PHONY : parameter/AlternateEquinoctialParameters.cpp.s
 
 parameter/AngularParameters.o: parameter/AngularParameters.cpp.o
@@ -5681,7 +5681,7 @@ parameter/AngularParameters.o: parameter/AngularParameters.cpp.o
 
 # target to build an object file
 parameter/AngularParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AngularParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AngularParameters.cpp.o
 .PHONY : parameter/AngularParameters.cpp.o
 
 parameter/AngularParameters.i: parameter/AngularParameters.cpp.i
@@ -5689,7 +5689,7 @@ parameter/AngularParameters.i: parameter/AngularParameters.cpp.i
 
 # target to preprocess a source file
 parameter/AngularParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AngularParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AngularParameters.cpp.i
 .PHONY : parameter/AngularParameters.cpp.i
 
 parameter/AngularParameters.s: parameter/AngularParameters.cpp.s
@@ -5697,7 +5697,7 @@ parameter/AngularParameters.s: parameter/AngularParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/AngularParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AngularParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AngularParameters.cpp.s
 .PHONY : parameter/AngularParameters.cpp.s
 
 parameter/Array.o: parameter/Array.cpp.o
@@ -5705,7 +5705,7 @@ parameter/Array.o: parameter/Array.cpp.o
 
 # target to build an object file
 parameter/Array.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Array.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Array.cpp.o
 .PHONY : parameter/Array.cpp.o
 
 parameter/Array.i: parameter/Array.cpp.i
@@ -5713,7 +5713,7 @@ parameter/Array.i: parameter/Array.cpp.i
 
 # target to preprocess a source file
 parameter/Array.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Array.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Array.cpp.i
 .PHONY : parameter/Array.cpp.i
 
 parameter/Array.s: parameter/Array.cpp.s
@@ -5721,7 +5721,7 @@ parameter/Array.s: parameter/Array.cpp.s
 
 # target to generate assembly for a file
 parameter/Array.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Array.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Array.cpp.s
 .PHONY : parameter/Array.cpp.s
 
 parameter/ArrayElementWrapper.o: parameter/ArrayElementWrapper.cpp.o
@@ -5729,7 +5729,7 @@ parameter/ArrayElementWrapper.o: parameter/ArrayElementWrapper.cpp.o
 
 # target to build an object file
 parameter/ArrayElementWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayElementWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayElementWrapper.cpp.o
 .PHONY : parameter/ArrayElementWrapper.cpp.o
 
 parameter/ArrayElementWrapper.i: parameter/ArrayElementWrapper.cpp.i
@@ -5737,7 +5737,7 @@ parameter/ArrayElementWrapper.i: parameter/ArrayElementWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/ArrayElementWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayElementWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayElementWrapper.cpp.i
 .PHONY : parameter/ArrayElementWrapper.cpp.i
 
 parameter/ArrayElementWrapper.s: parameter/ArrayElementWrapper.cpp.s
@@ -5745,7 +5745,7 @@ parameter/ArrayElementWrapper.s: parameter/ArrayElementWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/ArrayElementWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayElementWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayElementWrapper.cpp.s
 .PHONY : parameter/ArrayElementWrapper.cpp.s
 
 parameter/ArrayWrapper.o: parameter/ArrayWrapper.cpp.o
@@ -5753,7 +5753,7 @@ parameter/ArrayWrapper.o: parameter/ArrayWrapper.cpp.o
 
 # target to build an object file
 parameter/ArrayWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayWrapper.cpp.o
 .PHONY : parameter/ArrayWrapper.cpp.o
 
 parameter/ArrayWrapper.i: parameter/ArrayWrapper.cpp.i
@@ -5761,7 +5761,7 @@ parameter/ArrayWrapper.i: parameter/ArrayWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/ArrayWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayWrapper.cpp.i
 .PHONY : parameter/ArrayWrapper.cpp.i
 
 parameter/ArrayWrapper.s: parameter/ArrayWrapper.cpp.s
@@ -5769,7 +5769,7 @@ parameter/ArrayWrapper.s: parameter/ArrayWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/ArrayWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ArrayWrapper.cpp.s
 .PHONY : parameter/ArrayWrapper.cpp.s
 
 parameter/AttitudeData.o: parameter/AttitudeData.cpp.o
@@ -5777,7 +5777,7 @@ parameter/AttitudeData.o: parameter/AttitudeData.cpp.o
 
 # target to build an object file
 parameter/AttitudeData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeData.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeData.cpp.o
 .PHONY : parameter/AttitudeData.cpp.o
 
 parameter/AttitudeData.i: parameter/AttitudeData.cpp.i
@@ -5785,7 +5785,7 @@ parameter/AttitudeData.i: parameter/AttitudeData.cpp.i
 
 # target to preprocess a source file
 parameter/AttitudeData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeData.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeData.cpp.i
 .PHONY : parameter/AttitudeData.cpp.i
 
 parameter/AttitudeData.s: parameter/AttitudeData.cpp.s
@@ -5793,7 +5793,7 @@ parameter/AttitudeData.s: parameter/AttitudeData.cpp.s
 
 # target to generate assembly for a file
 parameter/AttitudeData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeData.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeData.cpp.s
 .PHONY : parameter/AttitudeData.cpp.s
 
 parameter/AttitudeParameters.o: parameter/AttitudeParameters.cpp.o
@@ -5801,7 +5801,7 @@ parameter/AttitudeParameters.o: parameter/AttitudeParameters.cpp.o
 
 # target to build an object file
 parameter/AttitudeParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeParameters.cpp.o
 .PHONY : parameter/AttitudeParameters.cpp.o
 
 parameter/AttitudeParameters.i: parameter/AttitudeParameters.cpp.i
@@ -5809,7 +5809,7 @@ parameter/AttitudeParameters.i: parameter/AttitudeParameters.cpp.i
 
 # target to preprocess a source file
 parameter/AttitudeParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeParameters.cpp.i
 .PHONY : parameter/AttitudeParameters.cpp.i
 
 parameter/AttitudeParameters.s: parameter/AttitudeParameters.cpp.s
@@ -5817,7 +5817,7 @@ parameter/AttitudeParameters.s: parameter/AttitudeParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/AttitudeParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeParameters.cpp.s
 .PHONY : parameter/AttitudeParameters.cpp.s
 
 parameter/AttitudeReal.o: parameter/AttitudeReal.cpp.o
@@ -5825,7 +5825,7 @@ parameter/AttitudeReal.o: parameter/AttitudeReal.cpp.o
 
 # target to build an object file
 parameter/AttitudeReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeReal.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeReal.cpp.o
 .PHONY : parameter/AttitudeReal.cpp.o
 
 parameter/AttitudeReal.i: parameter/AttitudeReal.cpp.i
@@ -5833,7 +5833,7 @@ parameter/AttitudeReal.i: parameter/AttitudeReal.cpp.i
 
 # target to preprocess a source file
 parameter/AttitudeReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeReal.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeReal.cpp.i
 .PHONY : parameter/AttitudeReal.cpp.i
 
 parameter/AttitudeReal.s: parameter/AttitudeReal.cpp.s
@@ -5841,7 +5841,7 @@ parameter/AttitudeReal.s: parameter/AttitudeReal.cpp.s
 
 # target to generate assembly for a file
 parameter/AttitudeReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeReal.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeReal.cpp.s
 .PHONY : parameter/AttitudeReal.cpp.s
 
 parameter/AttitudeRvector.o: parameter/AttitudeRvector.cpp.o
@@ -5849,7 +5849,7 @@ parameter/AttitudeRvector.o: parameter/AttitudeRvector.cpp.o
 
 # target to build an object file
 parameter/AttitudeRvector.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeRvector.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeRvector.cpp.o
 .PHONY : parameter/AttitudeRvector.cpp.o
 
 parameter/AttitudeRvector.i: parameter/AttitudeRvector.cpp.i
@@ -5857,7 +5857,7 @@ parameter/AttitudeRvector.i: parameter/AttitudeRvector.cpp.i
 
 # target to preprocess a source file
 parameter/AttitudeRvector.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeRvector.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeRvector.cpp.i
 .PHONY : parameter/AttitudeRvector.cpp.i
 
 parameter/AttitudeRvector.s: parameter/AttitudeRvector.cpp.s
@@ -5865,7 +5865,7 @@ parameter/AttitudeRvector.s: parameter/AttitudeRvector.cpp.s
 
 # target to generate assembly for a file
 parameter/AttitudeRvector.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeRvector.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeRvector.cpp.s
 .PHONY : parameter/AttitudeRvector.cpp.s
 
 parameter/AttitudeString.o: parameter/AttitudeString.cpp.o
@@ -5873,7 +5873,7 @@ parameter/AttitudeString.o: parameter/AttitudeString.cpp.o
 
 # target to build an object file
 parameter/AttitudeString.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeString.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeString.cpp.o
 .PHONY : parameter/AttitudeString.cpp.o
 
 parameter/AttitudeString.i: parameter/AttitudeString.cpp.i
@@ -5881,7 +5881,7 @@ parameter/AttitudeString.i: parameter/AttitudeString.cpp.i
 
 # target to preprocess a source file
 parameter/AttitudeString.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeString.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeString.cpp.i
 .PHONY : parameter/AttitudeString.cpp.i
 
 parameter/AttitudeString.s: parameter/AttitudeString.cpp.s
@@ -5889,7 +5889,7 @@ parameter/AttitudeString.s: parameter/AttitudeString.cpp.s
 
 # target to generate assembly for a file
 parameter/AttitudeString.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeString.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/AttitudeString.cpp.s
 .PHONY : parameter/AttitudeString.cpp.s
 
 parameter/BallisticMassParameters.o: parameter/BallisticMassParameters.cpp.o
@@ -5897,7 +5897,7 @@ parameter/BallisticMassParameters.o: parameter/BallisticMassParameters.cpp.o
 
 # target to build an object file
 parameter/BallisticMassParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassParameters.cpp.o
 .PHONY : parameter/BallisticMassParameters.cpp.o
 
 parameter/BallisticMassParameters.i: parameter/BallisticMassParameters.cpp.i
@@ -5905,7 +5905,7 @@ parameter/BallisticMassParameters.i: parameter/BallisticMassParameters.cpp.i
 
 # target to preprocess a source file
 parameter/BallisticMassParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassParameters.cpp.i
 .PHONY : parameter/BallisticMassParameters.cpp.i
 
 parameter/BallisticMassParameters.s: parameter/BallisticMassParameters.cpp.s
@@ -5913,7 +5913,7 @@ parameter/BallisticMassParameters.s: parameter/BallisticMassParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/BallisticMassParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassParameters.cpp.s
 .PHONY : parameter/BallisticMassParameters.cpp.s
 
 parameter/BallisticMassReal.o: parameter/BallisticMassReal.cpp.o
@@ -5921,7 +5921,7 @@ parameter/BallisticMassReal.o: parameter/BallisticMassReal.cpp.o
 
 # target to build an object file
 parameter/BallisticMassReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassReal.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassReal.cpp.o
 .PHONY : parameter/BallisticMassReal.cpp.o
 
 parameter/BallisticMassReal.i: parameter/BallisticMassReal.cpp.i
@@ -5929,7 +5929,7 @@ parameter/BallisticMassReal.i: parameter/BallisticMassReal.cpp.i
 
 # target to preprocess a source file
 parameter/BallisticMassReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassReal.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassReal.cpp.i
 .PHONY : parameter/BallisticMassReal.cpp.i
 
 parameter/BallisticMassReal.s: parameter/BallisticMassReal.cpp.s
@@ -5937,7 +5937,7 @@ parameter/BallisticMassReal.s: parameter/BallisticMassReal.cpp.s
 
 # target to generate assembly for a file
 parameter/BallisticMassReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassReal.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BallisticMassReal.cpp.s
 .PHONY : parameter/BallisticMassReal.cpp.s
 
 parameter/BooleanWrapper.o: parameter/BooleanWrapper.cpp.o
@@ -5945,7 +5945,7 @@ parameter/BooleanWrapper.o: parameter/BooleanWrapper.cpp.o
 
 # target to build an object file
 parameter/BooleanWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BooleanWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BooleanWrapper.cpp.o
 .PHONY : parameter/BooleanWrapper.cpp.o
 
 parameter/BooleanWrapper.i: parameter/BooleanWrapper.cpp.i
@@ -5953,7 +5953,7 @@ parameter/BooleanWrapper.i: parameter/BooleanWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/BooleanWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BooleanWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BooleanWrapper.cpp.i
 .PHONY : parameter/BooleanWrapper.cpp.i
 
 parameter/BooleanWrapper.s: parameter/BooleanWrapper.cpp.s
@@ -5961,7 +5961,7 @@ parameter/BooleanWrapper.s: parameter/BooleanWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/BooleanWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BooleanWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BooleanWrapper.cpp.s
 .PHONY : parameter/BooleanWrapper.cpp.s
 
 parameter/BplaneData.o: parameter/BplaneData.cpp.o
@@ -5969,7 +5969,7 @@ parameter/BplaneData.o: parameter/BplaneData.cpp.o
 
 # target to build an object file
 parameter/BplaneData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneData.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneData.cpp.o
 .PHONY : parameter/BplaneData.cpp.o
 
 parameter/BplaneData.i: parameter/BplaneData.cpp.i
@@ -5977,7 +5977,7 @@ parameter/BplaneData.i: parameter/BplaneData.cpp.i
 
 # target to preprocess a source file
 parameter/BplaneData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneData.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneData.cpp.i
 .PHONY : parameter/BplaneData.cpp.i
 
 parameter/BplaneData.s: parameter/BplaneData.cpp.s
@@ -5985,7 +5985,7 @@ parameter/BplaneData.s: parameter/BplaneData.cpp.s
 
 # target to generate assembly for a file
 parameter/BplaneData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneData.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneData.cpp.s
 .PHONY : parameter/BplaneData.cpp.s
 
 parameter/BplaneParameters.o: parameter/BplaneParameters.cpp.o
@@ -5993,7 +5993,7 @@ parameter/BplaneParameters.o: parameter/BplaneParameters.cpp.o
 
 # target to build an object file
 parameter/BplaneParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneParameters.cpp.o
 .PHONY : parameter/BplaneParameters.cpp.o
 
 parameter/BplaneParameters.i: parameter/BplaneParameters.cpp.i
@@ -6001,7 +6001,7 @@ parameter/BplaneParameters.i: parameter/BplaneParameters.cpp.i
 
 # target to preprocess a source file
 parameter/BplaneParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneParameters.cpp.i
 .PHONY : parameter/BplaneParameters.cpp.i
 
 parameter/BplaneParameters.s: parameter/BplaneParameters.cpp.s
@@ -6009,7 +6009,7 @@ parameter/BplaneParameters.s: parameter/BplaneParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/BplaneParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneParameters.cpp.s
 .PHONY : parameter/BplaneParameters.cpp.s
 
 parameter/BplaneReal.o: parameter/BplaneReal.cpp.o
@@ -6017,7 +6017,7 @@ parameter/BplaneReal.o: parameter/BplaneReal.cpp.o
 
 # target to build an object file
 parameter/BplaneReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneReal.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneReal.cpp.o
 .PHONY : parameter/BplaneReal.cpp.o
 
 parameter/BplaneReal.i: parameter/BplaneReal.cpp.i
@@ -6025,7 +6025,7 @@ parameter/BplaneReal.i: parameter/BplaneReal.cpp.i
 
 # target to preprocess a source file
 parameter/BplaneReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneReal.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneReal.cpp.i
 .PHONY : parameter/BplaneReal.cpp.i
 
 parameter/BplaneReal.s: parameter/BplaneReal.cpp.s
@@ -6033,7 +6033,7 @@ parameter/BplaneReal.s: parameter/BplaneReal.cpp.s
 
 # target to generate assembly for a file
 parameter/BplaneReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneReal.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BplaneReal.cpp.s
 .PHONY : parameter/BplaneReal.cpp.s
 
 parameter/BrouwerMeanLongParameters.o: parameter/BrouwerMeanLongParameters.cpp.o
@@ -6041,7 +6041,7 @@ parameter/BrouwerMeanLongParameters.o: parameter/BrouwerMeanLongParameters.cpp.o
 
 # target to build an object file
 parameter/BrouwerMeanLongParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanLongParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanLongParameters.cpp.o
 .PHONY : parameter/BrouwerMeanLongParameters.cpp.o
 
 parameter/BrouwerMeanLongParameters.i: parameter/BrouwerMeanLongParameters.cpp.i
@@ -6049,7 +6049,7 @@ parameter/BrouwerMeanLongParameters.i: parameter/BrouwerMeanLongParameters.cpp.i
 
 # target to preprocess a source file
 parameter/BrouwerMeanLongParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanLongParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanLongParameters.cpp.i
 .PHONY : parameter/BrouwerMeanLongParameters.cpp.i
 
 parameter/BrouwerMeanLongParameters.s: parameter/BrouwerMeanLongParameters.cpp.s
@@ -6057,7 +6057,7 @@ parameter/BrouwerMeanLongParameters.s: parameter/BrouwerMeanLongParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/BrouwerMeanLongParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanLongParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanLongParameters.cpp.s
 .PHONY : parameter/BrouwerMeanLongParameters.cpp.s
 
 parameter/BrouwerMeanShortParameters.o: parameter/BrouwerMeanShortParameters.cpp.o
@@ -6065,7 +6065,7 @@ parameter/BrouwerMeanShortParameters.o: parameter/BrouwerMeanShortParameters.cpp
 
 # target to build an object file
 parameter/BrouwerMeanShortParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanShortParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanShortParameters.cpp.o
 .PHONY : parameter/BrouwerMeanShortParameters.cpp.o
 
 parameter/BrouwerMeanShortParameters.i: parameter/BrouwerMeanShortParameters.cpp.i
@@ -6073,7 +6073,7 @@ parameter/BrouwerMeanShortParameters.i: parameter/BrouwerMeanShortParameters.cpp
 
 # target to preprocess a source file
 parameter/BrouwerMeanShortParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanShortParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanShortParameters.cpp.i
 .PHONY : parameter/BrouwerMeanShortParameters.cpp.i
 
 parameter/BrouwerMeanShortParameters.s: parameter/BrouwerMeanShortParameters.cpp.s
@@ -6081,7 +6081,7 @@ parameter/BrouwerMeanShortParameters.s: parameter/BrouwerMeanShortParameters.cpp
 
 # target to generate assembly for a file
 parameter/BrouwerMeanShortParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanShortParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BrouwerMeanShortParameters.cpp.s
 .PHONY : parameter/BrouwerMeanShortParameters.cpp.s
 
 parameter/BurnData.o: parameter/BurnData.cpp.o
@@ -6089,7 +6089,7 @@ parameter/BurnData.o: parameter/BurnData.cpp.o
 
 # target to build an object file
 parameter/BurnData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnData.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnData.cpp.o
 .PHONY : parameter/BurnData.cpp.o
 
 parameter/BurnData.i: parameter/BurnData.cpp.i
@@ -6097,7 +6097,7 @@ parameter/BurnData.i: parameter/BurnData.cpp.i
 
 # target to preprocess a source file
 parameter/BurnData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnData.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnData.cpp.i
 .PHONY : parameter/BurnData.cpp.i
 
 parameter/BurnData.s: parameter/BurnData.cpp.s
@@ -6105,7 +6105,7 @@ parameter/BurnData.s: parameter/BurnData.cpp.s
 
 # target to generate assembly for a file
 parameter/BurnData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnData.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnData.cpp.s
 .PHONY : parameter/BurnData.cpp.s
 
 parameter/BurnParameters.o: parameter/BurnParameters.cpp.o
@@ -6113,7 +6113,7 @@ parameter/BurnParameters.o: parameter/BurnParameters.cpp.o
 
 # target to build an object file
 parameter/BurnParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnParameters.cpp.o
 .PHONY : parameter/BurnParameters.cpp.o
 
 parameter/BurnParameters.i: parameter/BurnParameters.cpp.i
@@ -6121,7 +6121,7 @@ parameter/BurnParameters.i: parameter/BurnParameters.cpp.i
 
 # target to preprocess a source file
 parameter/BurnParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnParameters.cpp.i
 .PHONY : parameter/BurnParameters.cpp.i
 
 parameter/BurnParameters.s: parameter/BurnParameters.cpp.s
@@ -6129,7 +6129,7 @@ parameter/BurnParameters.s: parameter/BurnParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/BurnParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnParameters.cpp.s
 .PHONY : parameter/BurnParameters.cpp.s
 
 parameter/BurnReal.o: parameter/BurnReal.cpp.o
@@ -6137,7 +6137,7 @@ parameter/BurnReal.o: parameter/BurnReal.cpp.o
 
 # target to build an object file
 parameter/BurnReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnReal.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnReal.cpp.o
 .PHONY : parameter/BurnReal.cpp.o
 
 parameter/BurnReal.i: parameter/BurnReal.cpp.i
@@ -6145,7 +6145,7 @@ parameter/BurnReal.i: parameter/BurnReal.cpp.i
 
 # target to preprocess a source file
 parameter/BurnReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnReal.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnReal.cpp.i
 .PHONY : parameter/BurnReal.cpp.i
 
 parameter/BurnReal.s: parameter/BurnReal.cpp.s
@@ -6153,7 +6153,7 @@ parameter/BurnReal.s: parameter/BurnReal.cpp.s
 
 # target to generate assembly for a file
 parameter/BurnReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnReal.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/BurnReal.cpp.s
 .PHONY : parameter/BurnReal.cpp.s
 
 parameter/CartesianParameters.o: parameter/CartesianParameters.cpp.o
@@ -6161,7 +6161,7 @@ parameter/CartesianParameters.o: parameter/CartesianParameters.cpp.o
 
 # target to build an object file
 parameter/CartesianParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/CartesianParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/CartesianParameters.cpp.o
 .PHONY : parameter/CartesianParameters.cpp.o
 
 parameter/CartesianParameters.i: parameter/CartesianParameters.cpp.i
@@ -6169,7 +6169,7 @@ parameter/CartesianParameters.i: parameter/CartesianParameters.cpp.i
 
 # target to preprocess a source file
 parameter/CartesianParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/CartesianParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/CartesianParameters.cpp.i
 .PHONY : parameter/CartesianParameters.cpp.i
 
 parameter/CartesianParameters.s: parameter/CartesianParameters.cpp.s
@@ -6177,7 +6177,7 @@ parameter/CartesianParameters.s: parameter/CartesianParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/CartesianParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/CartesianParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/CartesianParameters.cpp.s
 .PHONY : parameter/CartesianParameters.cpp.s
 
 parameter/DelaunayParameters.o: parameter/DelaunayParameters.cpp.o
@@ -6185,7 +6185,7 @@ parameter/DelaunayParameters.o: parameter/DelaunayParameters.cpp.o
 
 # target to build an object file
 parameter/DelaunayParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/DelaunayParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/DelaunayParameters.cpp.o
 .PHONY : parameter/DelaunayParameters.cpp.o
 
 parameter/DelaunayParameters.i: parameter/DelaunayParameters.cpp.i
@@ -6193,7 +6193,7 @@ parameter/DelaunayParameters.i: parameter/DelaunayParameters.cpp.i
 
 # target to preprocess a source file
 parameter/DelaunayParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/DelaunayParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/DelaunayParameters.cpp.i
 .PHONY : parameter/DelaunayParameters.cpp.i
 
 parameter/DelaunayParameters.s: parameter/DelaunayParameters.cpp.s
@@ -6201,7 +6201,7 @@ parameter/DelaunayParameters.s: parameter/DelaunayParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/DelaunayParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/DelaunayParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/DelaunayParameters.cpp.s
 .PHONY : parameter/DelaunayParameters.cpp.s
 
 parameter/EnvData.o: parameter/EnvData.cpp.o
@@ -6209,7 +6209,7 @@ parameter/EnvData.o: parameter/EnvData.cpp.o
 
 # target to build an object file
 parameter/EnvData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvData.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvData.cpp.o
 .PHONY : parameter/EnvData.cpp.o
 
 parameter/EnvData.i: parameter/EnvData.cpp.i
@@ -6217,7 +6217,7 @@ parameter/EnvData.i: parameter/EnvData.cpp.i
 
 # target to preprocess a source file
 parameter/EnvData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvData.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvData.cpp.i
 .PHONY : parameter/EnvData.cpp.i
 
 parameter/EnvData.s: parameter/EnvData.cpp.s
@@ -6225,7 +6225,7 @@ parameter/EnvData.s: parameter/EnvData.cpp.s
 
 # target to generate assembly for a file
 parameter/EnvData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvData.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvData.cpp.s
 .PHONY : parameter/EnvData.cpp.s
 
 parameter/EnvReal.o: parameter/EnvReal.cpp.o
@@ -6233,7 +6233,7 @@ parameter/EnvReal.o: parameter/EnvReal.cpp.o
 
 # target to build an object file
 parameter/EnvReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvReal.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvReal.cpp.o
 .PHONY : parameter/EnvReal.cpp.o
 
 parameter/EnvReal.i: parameter/EnvReal.cpp.i
@@ -6241,7 +6241,7 @@ parameter/EnvReal.i: parameter/EnvReal.cpp.i
 
 # target to preprocess a source file
 parameter/EnvReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvReal.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvReal.cpp.i
 .PHONY : parameter/EnvReal.cpp.i
 
 parameter/EnvReal.s: parameter/EnvReal.cpp.s
@@ -6249,7 +6249,7 @@ parameter/EnvReal.s: parameter/EnvReal.cpp.s
 
 # target to generate assembly for a file
 parameter/EnvReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvReal.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EnvReal.cpp.s
 .PHONY : parameter/EnvReal.cpp.s
 
 parameter/EquinoctialParameters.o: parameter/EquinoctialParameters.cpp.o
@@ -6257,7 +6257,7 @@ parameter/EquinoctialParameters.o: parameter/EquinoctialParameters.cpp.o
 
 # target to build an object file
 parameter/EquinoctialParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EquinoctialParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EquinoctialParameters.cpp.o
 .PHONY : parameter/EquinoctialParameters.cpp.o
 
 parameter/EquinoctialParameters.i: parameter/EquinoctialParameters.cpp.i
@@ -6265,7 +6265,7 @@ parameter/EquinoctialParameters.i: parameter/EquinoctialParameters.cpp.i
 
 # target to preprocess a source file
 parameter/EquinoctialParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EquinoctialParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EquinoctialParameters.cpp.i
 .PHONY : parameter/EquinoctialParameters.cpp.i
 
 parameter/EquinoctialParameters.s: parameter/EquinoctialParameters.cpp.s
@@ -6273,7 +6273,7 @@ parameter/EquinoctialParameters.s: parameter/EquinoctialParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/EquinoctialParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EquinoctialParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/EquinoctialParameters.cpp.s
 .PHONY : parameter/EquinoctialParameters.cpp.s
 
 parameter/ExpressionParser.o: parameter/ExpressionParser.cpp.o
@@ -6281,7 +6281,7 @@ parameter/ExpressionParser.o: parameter/ExpressionParser.cpp.o
 
 # target to build an object file
 parameter/ExpressionParser.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ExpressionParser.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ExpressionParser.cpp.o
 .PHONY : parameter/ExpressionParser.cpp.o
 
 parameter/ExpressionParser.i: parameter/ExpressionParser.cpp.i
@@ -6289,7 +6289,7 @@ parameter/ExpressionParser.i: parameter/ExpressionParser.cpp.i
 
 # target to preprocess a source file
 parameter/ExpressionParser.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ExpressionParser.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ExpressionParser.cpp.i
 .PHONY : parameter/ExpressionParser.cpp.i
 
 parameter/ExpressionParser.s: parameter/ExpressionParser.cpp.s
@@ -6297,7 +6297,7 @@ parameter/ExpressionParser.s: parameter/ExpressionParser.cpp.s
 
 # target to generate assembly for a file
 parameter/ExpressionParser.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ExpressionParser.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ExpressionParser.cpp.s
 .PHONY : parameter/ExpressionParser.cpp.s
 
 parameter/HardwareParameters.o: parameter/HardwareParameters.cpp.o
@@ -6305,7 +6305,7 @@ parameter/HardwareParameters.o: parameter/HardwareParameters.cpp.o
 
 # target to build an object file
 parameter/HardwareParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareParameters.cpp.o
 .PHONY : parameter/HardwareParameters.cpp.o
 
 parameter/HardwareParameters.i: parameter/HardwareParameters.cpp.i
@@ -6313,7 +6313,7 @@ parameter/HardwareParameters.i: parameter/HardwareParameters.cpp.i
 
 # target to preprocess a source file
 parameter/HardwareParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareParameters.cpp.i
 .PHONY : parameter/HardwareParameters.cpp.i
 
 parameter/HardwareParameters.s: parameter/HardwareParameters.cpp.s
@@ -6321,7 +6321,7 @@ parameter/HardwareParameters.s: parameter/HardwareParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/HardwareParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareParameters.cpp.s
 .PHONY : parameter/HardwareParameters.cpp.s
 
 parameter/HardwareReal.o: parameter/HardwareReal.cpp.o
@@ -6329,7 +6329,7 @@ parameter/HardwareReal.o: parameter/HardwareReal.cpp.o
 
 # target to build an object file
 parameter/HardwareReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareReal.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareReal.cpp.o
 .PHONY : parameter/HardwareReal.cpp.o
 
 parameter/HardwareReal.i: parameter/HardwareReal.cpp.i
@@ -6337,7 +6337,7 @@ parameter/HardwareReal.i: parameter/HardwareReal.cpp.i
 
 # target to preprocess a source file
 parameter/HardwareReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareReal.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareReal.cpp.i
 .PHONY : parameter/HardwareReal.cpp.i
 
 parameter/HardwareReal.s: parameter/HardwareReal.cpp.s
@@ -6345,7 +6345,7 @@ parameter/HardwareReal.s: parameter/HardwareReal.cpp.s
 
 # target to generate assembly for a file
 parameter/HardwareReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareReal.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/HardwareReal.cpp.s
 .PHONY : parameter/HardwareReal.cpp.s
 
 parameter/IncomingAsymptoteParameters.o: parameter/IncomingAsymptoteParameters.cpp.o
@@ -6353,7 +6353,7 @@ parameter/IncomingAsymptoteParameters.o: parameter/IncomingAsymptoteParameters.c
 
 # target to build an object file
 parameter/IncomingAsymptoteParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/IncomingAsymptoteParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/IncomingAsymptoteParameters.cpp.o
 .PHONY : parameter/IncomingAsymptoteParameters.cpp.o
 
 parameter/IncomingAsymptoteParameters.i: parameter/IncomingAsymptoteParameters.cpp.i
@@ -6361,7 +6361,7 @@ parameter/IncomingAsymptoteParameters.i: parameter/IncomingAsymptoteParameters.c
 
 # target to preprocess a source file
 parameter/IncomingAsymptoteParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/IncomingAsymptoteParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/IncomingAsymptoteParameters.cpp.i
 .PHONY : parameter/IncomingAsymptoteParameters.cpp.i
 
 parameter/IncomingAsymptoteParameters.s: parameter/IncomingAsymptoteParameters.cpp.s
@@ -6369,7 +6369,7 @@ parameter/IncomingAsymptoteParameters.s: parameter/IncomingAsymptoteParameters.c
 
 # target to generate assembly for a file
 parameter/IncomingAsymptoteParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/IncomingAsymptoteParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/IncomingAsymptoteParameters.cpp.s
 .PHONY : parameter/IncomingAsymptoteParameters.cpp.s
 
 parameter/KeplerianParameters.o: parameter/KeplerianParameters.cpp.o
@@ -6377,7 +6377,7 @@ parameter/KeplerianParameters.o: parameter/KeplerianParameters.cpp.o
 
 # target to build an object file
 parameter/KeplerianParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/KeplerianParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/KeplerianParameters.cpp.o
 .PHONY : parameter/KeplerianParameters.cpp.o
 
 parameter/KeplerianParameters.i: parameter/KeplerianParameters.cpp.i
@@ -6385,7 +6385,7 @@ parameter/KeplerianParameters.i: parameter/KeplerianParameters.cpp.i
 
 # target to preprocess a source file
 parameter/KeplerianParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/KeplerianParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/KeplerianParameters.cpp.i
 .PHONY : parameter/KeplerianParameters.cpp.i
 
 parameter/KeplerianParameters.s: parameter/KeplerianParameters.cpp.s
@@ -6393,7 +6393,7 @@ parameter/KeplerianParameters.s: parameter/KeplerianParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/KeplerianParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/KeplerianParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/KeplerianParameters.cpp.s
 .PHONY : parameter/KeplerianParameters.cpp.s
 
 parameter/ModEquinoctialParameters.o: parameter/ModEquinoctialParameters.cpp.o
@@ -6401,7 +6401,7 @@ parameter/ModEquinoctialParameters.o: parameter/ModEquinoctialParameters.cpp.o
 
 # target to build an object file
 parameter/ModEquinoctialParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ModEquinoctialParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ModEquinoctialParameters.cpp.o
 .PHONY : parameter/ModEquinoctialParameters.cpp.o
 
 parameter/ModEquinoctialParameters.i: parameter/ModEquinoctialParameters.cpp.i
@@ -6409,7 +6409,7 @@ parameter/ModEquinoctialParameters.i: parameter/ModEquinoctialParameters.cpp.i
 
 # target to preprocess a source file
 parameter/ModEquinoctialParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ModEquinoctialParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ModEquinoctialParameters.cpp.i
 .PHONY : parameter/ModEquinoctialParameters.cpp.i
 
 parameter/ModEquinoctialParameters.s: parameter/ModEquinoctialParameters.cpp.s
@@ -6417,7 +6417,7 @@ parameter/ModEquinoctialParameters.s: parameter/ModEquinoctialParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/ModEquinoctialParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ModEquinoctialParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ModEquinoctialParameters.cpp.s
 .PHONY : parameter/ModEquinoctialParameters.cpp.s
 
 parameter/NumberWrapper.o: parameter/NumberWrapper.cpp.o
@@ -6425,7 +6425,7 @@ parameter/NumberWrapper.o: parameter/NumberWrapper.cpp.o
 
 # target to build an object file
 parameter/NumberWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/NumberWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/NumberWrapper.cpp.o
 .PHONY : parameter/NumberWrapper.cpp.o
 
 parameter/NumberWrapper.i: parameter/NumberWrapper.cpp.i
@@ -6433,7 +6433,7 @@ parameter/NumberWrapper.i: parameter/NumberWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/NumberWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/NumberWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/NumberWrapper.cpp.i
 .PHONY : parameter/NumberWrapper.cpp.i
 
 parameter/NumberWrapper.s: parameter/NumberWrapper.cpp.s
@@ -6441,7 +6441,7 @@ parameter/NumberWrapper.s: parameter/NumberWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/NumberWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/NumberWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/NumberWrapper.cpp.s
 .PHONY : parameter/NumberWrapper.cpp.s
 
 parameter/ObjectPropertyWrapper.o: parameter/ObjectPropertyWrapper.cpp.o
@@ -6449,7 +6449,7 @@ parameter/ObjectPropertyWrapper.o: parameter/ObjectPropertyWrapper.cpp.o
 
 # target to build an object file
 parameter/ObjectPropertyWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectPropertyWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectPropertyWrapper.cpp.o
 .PHONY : parameter/ObjectPropertyWrapper.cpp.o
 
 parameter/ObjectPropertyWrapper.i: parameter/ObjectPropertyWrapper.cpp.i
@@ -6457,7 +6457,7 @@ parameter/ObjectPropertyWrapper.i: parameter/ObjectPropertyWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/ObjectPropertyWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectPropertyWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectPropertyWrapper.cpp.i
 .PHONY : parameter/ObjectPropertyWrapper.cpp.i
 
 parameter/ObjectPropertyWrapper.s: parameter/ObjectPropertyWrapper.cpp.s
@@ -6465,7 +6465,7 @@ parameter/ObjectPropertyWrapper.s: parameter/ObjectPropertyWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/ObjectPropertyWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectPropertyWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectPropertyWrapper.cpp.s
 .PHONY : parameter/ObjectPropertyWrapper.cpp.s
 
 parameter/ObjectWrapper.o: parameter/ObjectWrapper.cpp.o
@@ -6473,7 +6473,7 @@ parameter/ObjectWrapper.o: parameter/ObjectWrapper.cpp.o
 
 # target to build an object file
 parameter/ObjectWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectWrapper.cpp.o
 .PHONY : parameter/ObjectWrapper.cpp.o
 
 parameter/ObjectWrapper.i: parameter/ObjectWrapper.cpp.i
@@ -6481,7 +6481,7 @@ parameter/ObjectWrapper.i: parameter/ObjectWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/ObjectWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectWrapper.cpp.i
 .PHONY : parameter/ObjectWrapper.cpp.i
 
 parameter/ObjectWrapper.s: parameter/ObjectWrapper.cpp.s
@@ -6489,7 +6489,7 @@ parameter/ObjectWrapper.s: parameter/ObjectWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/ObjectWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ObjectWrapper.cpp.s
 .PHONY : parameter/ObjectWrapper.cpp.s
 
 parameter/OnOffWrapper.o: parameter/OnOffWrapper.cpp.o
@@ -6497,7 +6497,7 @@ parameter/OnOffWrapper.o: parameter/OnOffWrapper.cpp.o
 
 # target to build an object file
 parameter/OnOffWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OnOffWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OnOffWrapper.cpp.o
 .PHONY : parameter/OnOffWrapper.cpp.o
 
 parameter/OnOffWrapper.i: parameter/OnOffWrapper.cpp.i
@@ -6505,7 +6505,7 @@ parameter/OnOffWrapper.i: parameter/OnOffWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/OnOffWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OnOffWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OnOffWrapper.cpp.i
 .PHONY : parameter/OnOffWrapper.cpp.i
 
 parameter/OnOffWrapper.s: parameter/OnOffWrapper.cpp.s
@@ -6513,7 +6513,7 @@ parameter/OnOffWrapper.s: parameter/OnOffWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/OnOffWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OnOffWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OnOffWrapper.cpp.s
 .PHONY : parameter/OnOffWrapper.cpp.s
 
 parameter/OrbitData.o: parameter/OrbitData.cpp.o
@@ -6521,7 +6521,7 @@ parameter/OrbitData.o: parameter/OrbitData.cpp.o
 
 # target to build an object file
 parameter/OrbitData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitData.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitData.cpp.o
 .PHONY : parameter/OrbitData.cpp.o
 
 parameter/OrbitData.i: parameter/OrbitData.cpp.i
@@ -6529,7 +6529,7 @@ parameter/OrbitData.i: parameter/OrbitData.cpp.i
 
 # target to preprocess a source file
 parameter/OrbitData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitData.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitData.cpp.i
 .PHONY : parameter/OrbitData.cpp.i
 
 parameter/OrbitData.s: parameter/OrbitData.cpp.s
@@ -6537,7 +6537,7 @@ parameter/OrbitData.s: parameter/OrbitData.cpp.s
 
 # target to generate assembly for a file
 parameter/OrbitData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitData.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitData.cpp.s
 .PHONY : parameter/OrbitData.cpp.s
 
 parameter/OrbitReal.o: parameter/OrbitReal.cpp.o
@@ -6545,7 +6545,7 @@ parameter/OrbitReal.o: parameter/OrbitReal.cpp.o
 
 # target to build an object file
 parameter/OrbitReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitReal.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitReal.cpp.o
 .PHONY : parameter/OrbitReal.cpp.o
 
 parameter/OrbitReal.i: parameter/OrbitReal.cpp.i
@@ -6553,7 +6553,7 @@ parameter/OrbitReal.i: parameter/OrbitReal.cpp.i
 
 # target to preprocess a source file
 parameter/OrbitReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitReal.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitReal.cpp.i
 .PHONY : parameter/OrbitReal.cpp.i
 
 parameter/OrbitReal.s: parameter/OrbitReal.cpp.s
@@ -6561,7 +6561,7 @@ parameter/OrbitReal.s: parameter/OrbitReal.cpp.s
 
 # target to generate assembly for a file
 parameter/OrbitReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitReal.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitReal.cpp.s
 .PHONY : parameter/OrbitReal.cpp.s
 
 parameter/OrbitRmat33.o: parameter/OrbitRmat33.cpp.o
@@ -6569,7 +6569,7 @@ parameter/OrbitRmat33.o: parameter/OrbitRmat33.cpp.o
 
 # target to build an object file
 parameter/OrbitRmat33.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat33.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat33.cpp.o
 .PHONY : parameter/OrbitRmat33.cpp.o
 
 parameter/OrbitRmat33.i: parameter/OrbitRmat33.cpp.i
@@ -6577,7 +6577,7 @@ parameter/OrbitRmat33.i: parameter/OrbitRmat33.cpp.i
 
 # target to preprocess a source file
 parameter/OrbitRmat33.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat33.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat33.cpp.i
 .PHONY : parameter/OrbitRmat33.cpp.i
 
 parameter/OrbitRmat33.s: parameter/OrbitRmat33.cpp.s
@@ -6585,7 +6585,7 @@ parameter/OrbitRmat33.s: parameter/OrbitRmat33.cpp.s
 
 # target to generate assembly for a file
 parameter/OrbitRmat33.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat33.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat33.cpp.s
 .PHONY : parameter/OrbitRmat33.cpp.s
 
 parameter/OrbitRmat66.o: parameter/OrbitRmat66.cpp.o
@@ -6593,7 +6593,7 @@ parameter/OrbitRmat66.o: parameter/OrbitRmat66.cpp.o
 
 # target to build an object file
 parameter/OrbitRmat66.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat66.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat66.cpp.o
 .PHONY : parameter/OrbitRmat66.cpp.o
 
 parameter/OrbitRmat66.i: parameter/OrbitRmat66.cpp.i
@@ -6601,7 +6601,7 @@ parameter/OrbitRmat66.i: parameter/OrbitRmat66.cpp.i
 
 # target to preprocess a source file
 parameter/OrbitRmat66.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat66.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat66.cpp.i
 .PHONY : parameter/OrbitRmat66.cpp.i
 
 parameter/OrbitRmat66.s: parameter/OrbitRmat66.cpp.s
@@ -6609,7 +6609,7 @@ parameter/OrbitRmat66.s: parameter/OrbitRmat66.cpp.s
 
 # target to generate assembly for a file
 parameter/OrbitRmat66.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat66.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRmat66.cpp.s
 .PHONY : parameter/OrbitRmat66.cpp.s
 
 parameter/OrbitRvec6.o: parameter/OrbitRvec6.cpp.o
@@ -6617,7 +6617,7 @@ parameter/OrbitRvec6.o: parameter/OrbitRvec6.cpp.o
 
 # target to build an object file
 parameter/OrbitRvec6.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRvec6.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRvec6.cpp.o
 .PHONY : parameter/OrbitRvec6.cpp.o
 
 parameter/OrbitRvec6.i: parameter/OrbitRvec6.cpp.i
@@ -6625,7 +6625,7 @@ parameter/OrbitRvec6.i: parameter/OrbitRvec6.cpp.i
 
 # target to preprocess a source file
 parameter/OrbitRvec6.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRvec6.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRvec6.cpp.i
 .PHONY : parameter/OrbitRvec6.cpp.i
 
 parameter/OrbitRvec6.s: parameter/OrbitRvec6.cpp.s
@@ -6633,7 +6633,7 @@ parameter/OrbitRvec6.s: parameter/OrbitRvec6.cpp.s
 
 # target to generate assembly for a file
 parameter/OrbitRvec6.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRvec6.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitRvec6.cpp.s
 .PHONY : parameter/OrbitRvec6.cpp.s
 
 parameter/OrbitStmParameters.o: parameter/OrbitStmParameters.cpp.o
@@ -6641,7 +6641,7 @@ parameter/OrbitStmParameters.o: parameter/OrbitStmParameters.cpp.o
 
 # target to build an object file
 parameter/OrbitStmParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitStmParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitStmParameters.cpp.o
 .PHONY : parameter/OrbitStmParameters.cpp.o
 
 parameter/OrbitStmParameters.i: parameter/OrbitStmParameters.cpp.i
@@ -6649,7 +6649,7 @@ parameter/OrbitStmParameters.i: parameter/OrbitStmParameters.cpp.i
 
 # target to preprocess a source file
 parameter/OrbitStmParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitStmParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitStmParameters.cpp.i
 .PHONY : parameter/OrbitStmParameters.cpp.i
 
 parameter/OrbitStmParameters.s: parameter/OrbitStmParameters.cpp.s
@@ -6657,7 +6657,7 @@ parameter/OrbitStmParameters.s: parameter/OrbitStmParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/OrbitStmParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitStmParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitStmParameters.cpp.s
 .PHONY : parameter/OrbitStmParameters.cpp.s
 
 parameter/OrbitalParameters.o: parameter/OrbitalParameters.cpp.o
@@ -6665,7 +6665,7 @@ parameter/OrbitalParameters.o: parameter/OrbitalParameters.cpp.o
 
 # target to build an object file
 parameter/OrbitalParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitalParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitalParameters.cpp.o
 .PHONY : parameter/OrbitalParameters.cpp.o
 
 parameter/OrbitalParameters.i: parameter/OrbitalParameters.cpp.i
@@ -6673,7 +6673,7 @@ parameter/OrbitalParameters.i: parameter/OrbitalParameters.cpp.i
 
 # target to preprocess a source file
 parameter/OrbitalParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitalParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitalParameters.cpp.i
 .PHONY : parameter/OrbitalParameters.cpp.i
 
 parameter/OrbitalParameters.s: parameter/OrbitalParameters.cpp.s
@@ -6681,7 +6681,7 @@ parameter/OrbitalParameters.s: parameter/OrbitalParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/OrbitalParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitalParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OrbitalParameters.cpp.s
 .PHONY : parameter/OrbitalParameters.cpp.s
 
 parameter/OutgoingAsymptoteParameters.o: parameter/OutgoingAsymptoteParameters.cpp.o
@@ -6689,7 +6689,7 @@ parameter/OutgoingAsymptoteParameters.o: parameter/OutgoingAsymptoteParameters.c
 
 # target to build an object file
 parameter/OutgoingAsymptoteParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OutgoingAsymptoteParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OutgoingAsymptoteParameters.cpp.o
 .PHONY : parameter/OutgoingAsymptoteParameters.cpp.o
 
 parameter/OutgoingAsymptoteParameters.i: parameter/OutgoingAsymptoteParameters.cpp.i
@@ -6697,7 +6697,7 @@ parameter/OutgoingAsymptoteParameters.i: parameter/OutgoingAsymptoteParameters.c
 
 # target to preprocess a source file
 parameter/OutgoingAsymptoteParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OutgoingAsymptoteParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OutgoingAsymptoteParameters.cpp.i
 .PHONY : parameter/OutgoingAsymptoteParameters.cpp.i
 
 parameter/OutgoingAsymptoteParameters.s: parameter/OutgoingAsymptoteParameters.cpp.s
@@ -6705,7 +6705,7 @@ parameter/OutgoingAsymptoteParameters.s: parameter/OutgoingAsymptoteParameters.c
 
 # target to generate assembly for a file
 parameter/OutgoingAsymptoteParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OutgoingAsymptoteParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/OutgoingAsymptoteParameters.cpp.s
 .PHONY : parameter/OutgoingAsymptoteParameters.cpp.s
 
 parameter/Parameter.o: parameter/Parameter.cpp.o
@@ -6713,7 +6713,7 @@ parameter/Parameter.o: parameter/Parameter.cpp.o
 
 # target to build an object file
 parameter/Parameter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Parameter.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Parameter.cpp.o
 .PHONY : parameter/Parameter.cpp.o
 
 parameter/Parameter.i: parameter/Parameter.cpp.i
@@ -6721,7 +6721,7 @@ parameter/Parameter.i: parameter/Parameter.cpp.i
 
 # target to preprocess a source file
 parameter/Parameter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Parameter.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Parameter.cpp.i
 .PHONY : parameter/Parameter.cpp.i
 
 parameter/Parameter.s: parameter/Parameter.cpp.s
@@ -6729,7 +6729,7 @@ parameter/Parameter.s: parameter/Parameter.cpp.s
 
 # target to generate assembly for a file
 parameter/Parameter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Parameter.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Parameter.cpp.s
 .PHONY : parameter/Parameter.cpp.s
 
 parameter/ParameterDatabase.o: parameter/ParameterDatabase.cpp.o
@@ -6737,7 +6737,7 @@ parameter/ParameterDatabase.o: parameter/ParameterDatabase.cpp.o
 
 # target to build an object file
 parameter/ParameterDatabase.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterDatabase.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterDatabase.cpp.o
 .PHONY : parameter/ParameterDatabase.cpp.o
 
 parameter/ParameterDatabase.i: parameter/ParameterDatabase.cpp.i
@@ -6745,7 +6745,7 @@ parameter/ParameterDatabase.i: parameter/ParameterDatabase.cpp.i
 
 # target to preprocess a source file
 parameter/ParameterDatabase.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterDatabase.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterDatabase.cpp.i
 .PHONY : parameter/ParameterDatabase.cpp.i
 
 parameter/ParameterDatabase.s: parameter/ParameterDatabase.cpp.s
@@ -6753,7 +6753,7 @@ parameter/ParameterDatabase.s: parameter/ParameterDatabase.cpp.s
 
 # target to generate assembly for a file
 parameter/ParameterDatabase.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterDatabase.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterDatabase.cpp.s
 .PHONY : parameter/ParameterDatabase.cpp.s
 
 parameter/ParameterInfo.o: parameter/ParameterInfo.cpp.o
@@ -6761,7 +6761,7 @@ parameter/ParameterInfo.o: parameter/ParameterInfo.cpp.o
 
 # target to build an object file
 parameter/ParameterInfo.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterInfo.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterInfo.cpp.o
 .PHONY : parameter/ParameterInfo.cpp.o
 
 parameter/ParameterInfo.i: parameter/ParameterInfo.cpp.i
@@ -6769,7 +6769,7 @@ parameter/ParameterInfo.i: parameter/ParameterInfo.cpp.i
 
 # target to preprocess a source file
 parameter/ParameterInfo.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterInfo.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterInfo.cpp.i
 .PHONY : parameter/ParameterInfo.cpp.i
 
 parameter/ParameterInfo.s: parameter/ParameterInfo.cpp.s
@@ -6777,7 +6777,7 @@ parameter/ParameterInfo.s: parameter/ParameterInfo.cpp.s
 
 # target to generate assembly for a file
 parameter/ParameterInfo.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterInfo.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterInfo.cpp.s
 .PHONY : parameter/ParameterInfo.cpp.s
 
 parameter/ParameterWrapper.o: parameter/ParameterWrapper.cpp.o
@@ -6785,7 +6785,7 @@ parameter/ParameterWrapper.o: parameter/ParameterWrapper.cpp.o
 
 # target to build an object file
 parameter/ParameterWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterWrapper.cpp.o
 .PHONY : parameter/ParameterWrapper.cpp.o
 
 parameter/ParameterWrapper.i: parameter/ParameterWrapper.cpp.i
@@ -6793,7 +6793,7 @@ parameter/ParameterWrapper.i: parameter/ParameterWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/ParameterWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterWrapper.cpp.i
 .PHONY : parameter/ParameterWrapper.cpp.i
 
 parameter/ParameterWrapper.s: parameter/ParameterWrapper.cpp.s
@@ -6801,7 +6801,7 @@ parameter/ParameterWrapper.s: parameter/ParameterWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/ParameterWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/ParameterWrapper.cpp.s
 .PHONY : parameter/ParameterWrapper.cpp.s
 
 parameter/PlanetData.o: parameter/PlanetData.cpp.o
@@ -6809,7 +6809,7 @@ parameter/PlanetData.o: parameter/PlanetData.cpp.o
 
 # target to build an object file
 parameter/PlanetData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetData.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetData.cpp.o
 .PHONY : parameter/PlanetData.cpp.o
 
 parameter/PlanetData.i: parameter/PlanetData.cpp.i
@@ -6817,7 +6817,7 @@ parameter/PlanetData.i: parameter/PlanetData.cpp.i
 
 # target to preprocess a source file
 parameter/PlanetData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetData.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetData.cpp.i
 .PHONY : parameter/PlanetData.cpp.i
 
 parameter/PlanetData.s: parameter/PlanetData.cpp.s
@@ -6825,7 +6825,7 @@ parameter/PlanetData.s: parameter/PlanetData.cpp.s
 
 # target to generate assembly for a file
 parameter/PlanetData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetData.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetData.cpp.s
 .PHONY : parameter/PlanetData.cpp.s
 
 parameter/PlanetParameters.o: parameter/PlanetParameters.cpp.o
@@ -6833,7 +6833,7 @@ parameter/PlanetParameters.o: parameter/PlanetParameters.cpp.o
 
 # target to build an object file
 parameter/PlanetParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetParameters.cpp.o
 .PHONY : parameter/PlanetParameters.cpp.o
 
 parameter/PlanetParameters.i: parameter/PlanetParameters.cpp.i
@@ -6841,7 +6841,7 @@ parameter/PlanetParameters.i: parameter/PlanetParameters.cpp.i
 
 # target to preprocess a source file
 parameter/PlanetParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetParameters.cpp.i
 .PHONY : parameter/PlanetParameters.cpp.i
 
 parameter/PlanetParameters.s: parameter/PlanetParameters.cpp.s
@@ -6849,7 +6849,7 @@ parameter/PlanetParameters.s: parameter/PlanetParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/PlanetParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetParameters.cpp.s
 .PHONY : parameter/PlanetParameters.cpp.s
 
 parameter/PlanetReal.o: parameter/PlanetReal.cpp.o
@@ -6857,7 +6857,7 @@ parameter/PlanetReal.o: parameter/PlanetReal.cpp.o
 
 # target to build an object file
 parameter/PlanetReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetReal.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetReal.cpp.o
 .PHONY : parameter/PlanetReal.cpp.o
 
 parameter/PlanetReal.i: parameter/PlanetReal.cpp.i
@@ -6865,7 +6865,7 @@ parameter/PlanetReal.i: parameter/PlanetReal.cpp.i
 
 # target to preprocess a source file
 parameter/PlanetReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetReal.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetReal.cpp.i
 .PHONY : parameter/PlanetReal.cpp.i
 
 parameter/PlanetReal.s: parameter/PlanetReal.cpp.s
@@ -6873,7 +6873,7 @@ parameter/PlanetReal.s: parameter/PlanetReal.cpp.s
 
 # target to generate assembly for a file
 parameter/PlanetReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetReal.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetReal.cpp.s
 .PHONY : parameter/PlanetReal.cpp.s
 
 parameter/PlanetodeticParameters.o: parameter/PlanetodeticParameters.cpp.o
@@ -6881,7 +6881,7 @@ parameter/PlanetodeticParameters.o: parameter/PlanetodeticParameters.cpp.o
 
 # target to build an object file
 parameter/PlanetodeticParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetodeticParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetodeticParameters.cpp.o
 .PHONY : parameter/PlanetodeticParameters.cpp.o
 
 parameter/PlanetodeticParameters.i: parameter/PlanetodeticParameters.cpp.i
@@ -6889,7 +6889,7 @@ parameter/PlanetodeticParameters.i: parameter/PlanetodeticParameters.cpp.i
 
 # target to preprocess a source file
 parameter/PlanetodeticParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetodeticParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetodeticParameters.cpp.i
 .PHONY : parameter/PlanetodeticParameters.cpp.i
 
 parameter/PlanetodeticParameters.s: parameter/PlanetodeticParameters.cpp.s
@@ -6897,7 +6897,7 @@ parameter/PlanetodeticParameters.s: parameter/PlanetodeticParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/PlanetodeticParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetodeticParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/PlanetodeticParameters.cpp.s
 .PHONY : parameter/PlanetodeticParameters.cpp.s
 
 parameter/RealVar.o: parameter/RealVar.cpp.o
@@ -6905,7 +6905,7 @@ parameter/RealVar.o: parameter/RealVar.cpp.o
 
 # target to build an object file
 parameter/RealVar.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RealVar.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RealVar.cpp.o
 .PHONY : parameter/RealVar.cpp.o
 
 parameter/RealVar.i: parameter/RealVar.cpp.i
@@ -6913,7 +6913,7 @@ parameter/RealVar.i: parameter/RealVar.cpp.i
 
 # target to preprocess a source file
 parameter/RealVar.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RealVar.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RealVar.cpp.i
 .PHONY : parameter/RealVar.cpp.i
 
 parameter/RealVar.s: parameter/RealVar.cpp.s
@@ -6921,7 +6921,7 @@ parameter/RealVar.s: parameter/RealVar.cpp.s
 
 # target to generate assembly for a file
 parameter/RealVar.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RealVar.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RealVar.cpp.s
 .PHONY : parameter/RealVar.cpp.s
 
 parameter/RefData.o: parameter/RefData.cpp.o
@@ -6929,7 +6929,7 @@ parameter/RefData.o: parameter/RefData.cpp.o
 
 # target to build an object file
 parameter/RefData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RefData.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RefData.cpp.o
 .PHONY : parameter/RefData.cpp.o
 
 parameter/RefData.i: parameter/RefData.cpp.i
@@ -6937,7 +6937,7 @@ parameter/RefData.i: parameter/RefData.cpp.i
 
 # target to preprocess a source file
 parameter/RefData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RefData.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RefData.cpp.i
 .PHONY : parameter/RefData.cpp.i
 
 parameter/RefData.s: parameter/RefData.cpp.s
@@ -6945,7 +6945,7 @@ parameter/RefData.s: parameter/RefData.cpp.s
 
 # target to generate assembly for a file
 parameter/RefData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RefData.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RefData.cpp.s
 .PHONY : parameter/RefData.cpp.s
 
 parameter/Rmat33Var.o: parameter/Rmat33Var.cpp.o
@@ -6953,7 +6953,7 @@ parameter/Rmat33Var.o: parameter/Rmat33Var.cpp.o
 
 # target to build an object file
 parameter/Rmat33Var.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat33Var.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat33Var.cpp.o
 .PHONY : parameter/Rmat33Var.cpp.o
 
 parameter/Rmat33Var.i: parameter/Rmat33Var.cpp.i
@@ -6961,7 +6961,7 @@ parameter/Rmat33Var.i: parameter/Rmat33Var.cpp.i
 
 # target to preprocess a source file
 parameter/Rmat33Var.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat33Var.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat33Var.cpp.i
 .PHONY : parameter/Rmat33Var.cpp.i
 
 parameter/Rmat33Var.s: parameter/Rmat33Var.cpp.s
@@ -6969,7 +6969,7 @@ parameter/Rmat33Var.s: parameter/Rmat33Var.cpp.s
 
 # target to generate assembly for a file
 parameter/Rmat33Var.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat33Var.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat33Var.cpp.s
 .PHONY : parameter/Rmat33Var.cpp.s
 
 parameter/Rmat66Var.o: parameter/Rmat66Var.cpp.o
@@ -6977,7 +6977,7 @@ parameter/Rmat66Var.o: parameter/Rmat66Var.cpp.o
 
 # target to build an object file
 parameter/Rmat66Var.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat66Var.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat66Var.cpp.o
 .PHONY : parameter/Rmat66Var.cpp.o
 
 parameter/Rmat66Var.i: parameter/Rmat66Var.cpp.i
@@ -6985,7 +6985,7 @@ parameter/Rmat66Var.i: parameter/Rmat66Var.cpp.i
 
 # target to preprocess a source file
 parameter/Rmat66Var.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat66Var.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat66Var.cpp.i
 .PHONY : parameter/Rmat66Var.cpp.i
 
 parameter/Rmat66Var.s: parameter/Rmat66Var.cpp.s
@@ -6993,7 +6993,7 @@ parameter/Rmat66Var.s: parameter/Rmat66Var.cpp.s
 
 # target to generate assembly for a file
 parameter/Rmat66Var.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat66Var.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rmat66Var.cpp.s
 .PHONY : parameter/Rmat66Var.cpp.s
 
 parameter/Rvec6Var.o: parameter/Rvec6Var.cpp.o
@@ -7001,7 +7001,7 @@ parameter/Rvec6Var.o: parameter/Rvec6Var.cpp.o
 
 # target to build an object file
 parameter/Rvec6Var.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rvec6Var.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rvec6Var.cpp.o
 .PHONY : parameter/Rvec6Var.cpp.o
 
 parameter/Rvec6Var.i: parameter/Rvec6Var.cpp.i
@@ -7009,7 +7009,7 @@ parameter/Rvec6Var.i: parameter/Rvec6Var.cpp.i
 
 # target to preprocess a source file
 parameter/Rvec6Var.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rvec6Var.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rvec6Var.cpp.i
 .PHONY : parameter/Rvec6Var.cpp.i
 
 parameter/Rvec6Var.s: parameter/Rvec6Var.cpp.s
@@ -7017,7 +7017,7 @@ parameter/Rvec6Var.s: parameter/Rvec6Var.cpp.s
 
 # target to generate assembly for a file
 parameter/Rvec6Var.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rvec6Var.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Rvec6Var.cpp.s
 .PHONY : parameter/Rvec6Var.cpp.s
 
 parameter/RvectorVar.o: parameter/RvectorVar.cpp.o
@@ -7025,7 +7025,7 @@ parameter/RvectorVar.o: parameter/RvectorVar.cpp.o
 
 # target to build an object file
 parameter/RvectorVar.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RvectorVar.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RvectorVar.cpp.o
 .PHONY : parameter/RvectorVar.cpp.o
 
 parameter/RvectorVar.i: parameter/RvectorVar.cpp.i
@@ -7033,7 +7033,7 @@ parameter/RvectorVar.i: parameter/RvectorVar.cpp.i
 
 # target to preprocess a source file
 parameter/RvectorVar.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RvectorVar.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RvectorVar.cpp.i
 .PHONY : parameter/RvectorVar.cpp.i
 
 parameter/RvectorVar.s: parameter/RvectorVar.cpp.s
@@ -7041,7 +7041,7 @@ parameter/RvectorVar.s: parameter/RvectorVar.cpp.s
 
 # target to generate assembly for a file
 parameter/RvectorVar.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RvectorVar.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/RvectorVar.cpp.s
 .PHONY : parameter/RvectorVar.cpp.s
 
 parameter/SpacecraftData.o: parameter/SpacecraftData.cpp.o
@@ -7049,7 +7049,7 @@ parameter/SpacecraftData.o: parameter/SpacecraftData.cpp.o
 
 # target to build an object file
 parameter/SpacecraftData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SpacecraftData.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SpacecraftData.cpp.o
 .PHONY : parameter/SpacecraftData.cpp.o
 
 parameter/SpacecraftData.i: parameter/SpacecraftData.cpp.i
@@ -7057,7 +7057,7 @@ parameter/SpacecraftData.i: parameter/SpacecraftData.cpp.i
 
 # target to preprocess a source file
 parameter/SpacecraftData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SpacecraftData.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SpacecraftData.cpp.i
 .PHONY : parameter/SpacecraftData.cpp.i
 
 parameter/SpacecraftData.s: parameter/SpacecraftData.cpp.s
@@ -7065,7 +7065,7 @@ parameter/SpacecraftData.s: parameter/SpacecraftData.cpp.s
 
 # target to generate assembly for a file
 parameter/SpacecraftData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SpacecraftData.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SpacecraftData.cpp.s
 .PHONY : parameter/SpacecraftData.cpp.s
 
 parameter/SphericalParameters.o: parameter/SphericalParameters.cpp.o
@@ -7073,7 +7073,7 @@ parameter/SphericalParameters.o: parameter/SphericalParameters.cpp.o
 
 # target to build an object file
 parameter/SphericalParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SphericalParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SphericalParameters.cpp.o
 .PHONY : parameter/SphericalParameters.cpp.o
 
 parameter/SphericalParameters.i: parameter/SphericalParameters.cpp.i
@@ -7081,7 +7081,7 @@ parameter/SphericalParameters.i: parameter/SphericalParameters.cpp.i
 
 # target to preprocess a source file
 parameter/SphericalParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SphericalParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SphericalParameters.cpp.i
 .PHONY : parameter/SphericalParameters.cpp.i
 
 parameter/SphericalParameters.s: parameter/SphericalParameters.cpp.s
@@ -7089,7 +7089,7 @@ parameter/SphericalParameters.s: parameter/SphericalParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/SphericalParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SphericalParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/SphericalParameters.cpp.s
 .PHONY : parameter/SphericalParameters.cpp.s
 
 parameter/StringObjectWrapper.o: parameter/StringObjectWrapper.cpp.o
@@ -7097,7 +7097,7 @@ parameter/StringObjectWrapper.o: parameter/StringObjectWrapper.cpp.o
 
 # target to build an object file
 parameter/StringObjectWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringObjectWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringObjectWrapper.cpp.o
 .PHONY : parameter/StringObjectWrapper.cpp.o
 
 parameter/StringObjectWrapper.i: parameter/StringObjectWrapper.cpp.i
@@ -7105,7 +7105,7 @@ parameter/StringObjectWrapper.i: parameter/StringObjectWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/StringObjectWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringObjectWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringObjectWrapper.cpp.i
 .PHONY : parameter/StringObjectWrapper.cpp.i
 
 parameter/StringObjectWrapper.s: parameter/StringObjectWrapper.cpp.s
@@ -7113,7 +7113,7 @@ parameter/StringObjectWrapper.s: parameter/StringObjectWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/StringObjectWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringObjectWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringObjectWrapper.cpp.s
 .PHONY : parameter/StringObjectWrapper.cpp.s
 
 parameter/StringVar.o: parameter/StringVar.cpp.o
@@ -7121,7 +7121,7 @@ parameter/StringVar.o: parameter/StringVar.cpp.o
 
 # target to build an object file
 parameter/StringVar.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringVar.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringVar.cpp.o
 .PHONY : parameter/StringVar.cpp.o
 
 parameter/StringVar.i: parameter/StringVar.cpp.i
@@ -7129,7 +7129,7 @@ parameter/StringVar.i: parameter/StringVar.cpp.i
 
 # target to preprocess a source file
 parameter/StringVar.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringVar.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringVar.cpp.i
 .PHONY : parameter/StringVar.cpp.i
 
 parameter/StringVar.s: parameter/StringVar.cpp.s
@@ -7137,7 +7137,7 @@ parameter/StringVar.s: parameter/StringVar.cpp.s
 
 # target to generate assembly for a file
 parameter/StringVar.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringVar.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringVar.cpp.s
 .PHONY : parameter/StringVar.cpp.s
 
 parameter/StringWrapper.o: parameter/StringWrapper.cpp.o
@@ -7145,7 +7145,7 @@ parameter/StringWrapper.o: parameter/StringWrapper.cpp.o
 
 # target to build an object file
 parameter/StringWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringWrapper.cpp.o
 .PHONY : parameter/StringWrapper.cpp.o
 
 parameter/StringWrapper.i: parameter/StringWrapper.cpp.i
@@ -7153,7 +7153,7 @@ parameter/StringWrapper.i: parameter/StringWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/StringWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringWrapper.cpp.i
 .PHONY : parameter/StringWrapper.cpp.i
 
 parameter/StringWrapper.s: parameter/StringWrapper.cpp.s
@@ -7161,7 +7161,7 @@ parameter/StringWrapper.s: parameter/StringWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/StringWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/StringWrapper.cpp.s
 .PHONY : parameter/StringWrapper.cpp.s
 
 parameter/TimeData.o: parameter/TimeData.cpp.o
@@ -7169,7 +7169,7 @@ parameter/TimeData.o: parameter/TimeData.cpp.o
 
 # target to build an object file
 parameter/TimeData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeData.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeData.cpp.o
 .PHONY : parameter/TimeData.cpp.o
 
 parameter/TimeData.i: parameter/TimeData.cpp.i
@@ -7177,7 +7177,7 @@ parameter/TimeData.i: parameter/TimeData.cpp.i
 
 # target to preprocess a source file
 parameter/TimeData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeData.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeData.cpp.i
 .PHONY : parameter/TimeData.cpp.i
 
 parameter/TimeData.s: parameter/TimeData.cpp.s
@@ -7185,7 +7185,7 @@ parameter/TimeData.s: parameter/TimeData.cpp.s
 
 # target to generate assembly for a file
 parameter/TimeData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeData.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeData.cpp.s
 .PHONY : parameter/TimeData.cpp.s
 
 parameter/TimeParameters.o: parameter/TimeParameters.cpp.o
@@ -7193,7 +7193,7 @@ parameter/TimeParameters.o: parameter/TimeParameters.cpp.o
 
 # target to build an object file
 parameter/TimeParameters.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeParameters.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeParameters.cpp.o
 .PHONY : parameter/TimeParameters.cpp.o
 
 parameter/TimeParameters.i: parameter/TimeParameters.cpp.i
@@ -7201,7 +7201,7 @@ parameter/TimeParameters.i: parameter/TimeParameters.cpp.i
 
 # target to preprocess a source file
 parameter/TimeParameters.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeParameters.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeParameters.cpp.i
 .PHONY : parameter/TimeParameters.cpp.i
 
 parameter/TimeParameters.s: parameter/TimeParameters.cpp.s
@@ -7209,7 +7209,7 @@ parameter/TimeParameters.s: parameter/TimeParameters.cpp.s
 
 # target to generate assembly for a file
 parameter/TimeParameters.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeParameters.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeParameters.cpp.s
 .PHONY : parameter/TimeParameters.cpp.s
 
 parameter/TimeReal.o: parameter/TimeReal.cpp.o
@@ -7217,7 +7217,7 @@ parameter/TimeReal.o: parameter/TimeReal.cpp.o
 
 # target to build an object file
 parameter/TimeReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeReal.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeReal.cpp.o
 .PHONY : parameter/TimeReal.cpp.o
 
 parameter/TimeReal.i: parameter/TimeReal.cpp.i
@@ -7225,7 +7225,7 @@ parameter/TimeReal.i: parameter/TimeReal.cpp.i
 
 # target to preprocess a source file
 parameter/TimeReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeReal.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeReal.cpp.i
 .PHONY : parameter/TimeReal.cpp.i
 
 parameter/TimeReal.s: parameter/TimeReal.cpp.s
@@ -7233,7 +7233,7 @@ parameter/TimeReal.s: parameter/TimeReal.cpp.s
 
 # target to generate assembly for a file
 parameter/TimeReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeReal.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeReal.cpp.s
 .PHONY : parameter/TimeReal.cpp.s
 
 parameter/TimeString.o: parameter/TimeString.cpp.o
@@ -7241,7 +7241,7 @@ parameter/TimeString.o: parameter/TimeString.cpp.o
 
 # target to build an object file
 parameter/TimeString.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeString.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeString.cpp.o
 .PHONY : parameter/TimeString.cpp.o
 
 parameter/TimeString.i: parameter/TimeString.cpp.i
@@ -7249,7 +7249,7 @@ parameter/TimeString.i: parameter/TimeString.cpp.i
 
 # target to preprocess a source file
 parameter/TimeString.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeString.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeString.cpp.i
 .PHONY : parameter/TimeString.cpp.i
 
 parameter/TimeString.s: parameter/TimeString.cpp.s
@@ -7257,7 +7257,7 @@ parameter/TimeString.s: parameter/TimeString.cpp.s
 
 # target to generate assembly for a file
 parameter/TimeString.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeString.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/TimeString.cpp.s
 .PHONY : parameter/TimeString.cpp.s
 
 parameter/Variable.o: parameter/Variable.cpp.o
@@ -7265,7 +7265,7 @@ parameter/Variable.o: parameter/Variable.cpp.o
 
 # target to build an object file
 parameter/Variable.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Variable.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Variable.cpp.o
 .PHONY : parameter/Variable.cpp.o
 
 parameter/Variable.i: parameter/Variable.cpp.i
@@ -7273,7 +7273,7 @@ parameter/Variable.i: parameter/Variable.cpp.i
 
 # target to preprocess a source file
 parameter/Variable.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Variable.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Variable.cpp.i
 .PHONY : parameter/Variable.cpp.i
 
 parameter/Variable.s: parameter/Variable.cpp.s
@@ -7281,7 +7281,7 @@ parameter/Variable.s: parameter/Variable.cpp.s
 
 # target to generate assembly for a file
 parameter/Variable.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Variable.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/Variable.cpp.s
 .PHONY : parameter/Variable.cpp.s
 
 parameter/VariableWrapper.o: parameter/VariableWrapper.cpp.o
@@ -7289,7 +7289,7 @@ parameter/VariableWrapper.o: parameter/VariableWrapper.cpp.o
 
 # target to build an object file
 parameter/VariableWrapper.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/VariableWrapper.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/VariableWrapper.cpp.o
 .PHONY : parameter/VariableWrapper.cpp.o
 
 parameter/VariableWrapper.i: parameter/VariableWrapper.cpp.i
@@ -7297,7 +7297,7 @@ parameter/VariableWrapper.i: parameter/VariableWrapper.cpp.i
 
 # target to preprocess a source file
 parameter/VariableWrapper.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/VariableWrapper.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/VariableWrapper.cpp.i
 .PHONY : parameter/VariableWrapper.cpp.i
 
 parameter/VariableWrapper.s: parameter/VariableWrapper.cpp.s
@@ -7305,7 +7305,7 @@ parameter/VariableWrapper.s: parameter/VariableWrapper.cpp.s
 
 # target to generate assembly for a file
 parameter/VariableWrapper.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/VariableWrapper.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/parameter/VariableWrapper.cpp.s
 .PHONY : parameter/VariableWrapper.cpp.s
 
 plugin/DynamicLibrary.o: plugin/DynamicLibrary.cpp.o
@@ -7313,7 +7313,7 @@ plugin/DynamicLibrary.o: plugin/DynamicLibrary.cpp.o
 
 # target to build an object file
 plugin/DynamicLibrary.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/plugin/DynamicLibrary.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/plugin/DynamicLibrary.cpp.o
 .PHONY : plugin/DynamicLibrary.cpp.o
 
 plugin/DynamicLibrary.i: plugin/DynamicLibrary.cpp.i
@@ -7321,7 +7321,7 @@ plugin/DynamicLibrary.i: plugin/DynamicLibrary.cpp.i
 
 # target to preprocess a source file
 plugin/DynamicLibrary.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/plugin/DynamicLibrary.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/plugin/DynamicLibrary.cpp.i
 .PHONY : plugin/DynamicLibrary.cpp.i
 
 plugin/DynamicLibrary.s: plugin/DynamicLibrary.cpp.s
@@ -7329,7 +7329,7 @@ plugin/DynamicLibrary.s: plugin/DynamicLibrary.cpp.s
 
 # target to generate assembly for a file
 plugin/DynamicLibrary.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/plugin/DynamicLibrary.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/plugin/DynamicLibrary.cpp.s
 .PHONY : plugin/DynamicLibrary.cpp.s
 
 propagator/AdamsBashforthMoulton.o: propagator/AdamsBashforthMoulton.cpp.o
@@ -7337,7 +7337,7 @@ propagator/AdamsBashforthMoulton.o: propagator/AdamsBashforthMoulton.cpp.o
 
 # target to build an object file
 propagator/AdamsBashforthMoulton.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/AdamsBashforthMoulton.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/AdamsBashforthMoulton.cpp.o
 .PHONY : propagator/AdamsBashforthMoulton.cpp.o
 
 propagator/AdamsBashforthMoulton.i: propagator/AdamsBashforthMoulton.cpp.i
@@ -7345,7 +7345,7 @@ propagator/AdamsBashforthMoulton.i: propagator/AdamsBashforthMoulton.cpp.i
 
 # target to preprocess a source file
 propagator/AdamsBashforthMoulton.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/AdamsBashforthMoulton.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/AdamsBashforthMoulton.cpp.i
 .PHONY : propagator/AdamsBashforthMoulton.cpp.i
 
 propagator/AdamsBashforthMoulton.s: propagator/AdamsBashforthMoulton.cpp.s
@@ -7353,7 +7353,7 @@ propagator/AdamsBashforthMoulton.s: propagator/AdamsBashforthMoulton.cpp.s
 
 # target to generate assembly for a file
 propagator/AdamsBashforthMoulton.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/AdamsBashforthMoulton.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/AdamsBashforthMoulton.cpp.s
 .PHONY : propagator/AdamsBashforthMoulton.cpp.s
 
 propagator/DormandElMikkawyPrince68.o: propagator/DormandElMikkawyPrince68.cpp.o
@@ -7361,7 +7361,7 @@ propagator/DormandElMikkawyPrince68.o: propagator/DormandElMikkawyPrince68.cpp.o
 
 # target to build an object file
 propagator/DormandElMikkawyPrince68.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/DormandElMikkawyPrince68.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/DormandElMikkawyPrince68.cpp.o
 .PHONY : propagator/DormandElMikkawyPrince68.cpp.o
 
 propagator/DormandElMikkawyPrince68.i: propagator/DormandElMikkawyPrince68.cpp.i
@@ -7369,7 +7369,7 @@ propagator/DormandElMikkawyPrince68.i: propagator/DormandElMikkawyPrince68.cpp.i
 
 # target to preprocess a source file
 propagator/DormandElMikkawyPrince68.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/DormandElMikkawyPrince68.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/DormandElMikkawyPrince68.cpp.i
 .PHONY : propagator/DormandElMikkawyPrince68.cpp.i
 
 propagator/DormandElMikkawyPrince68.s: propagator/DormandElMikkawyPrince68.cpp.s
@@ -7377,7 +7377,7 @@ propagator/DormandElMikkawyPrince68.s: propagator/DormandElMikkawyPrince68.cpp.s
 
 # target to generate assembly for a file
 propagator/DormandElMikkawyPrince68.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/DormandElMikkawyPrince68.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/DormandElMikkawyPrince68.cpp.s
 .PHONY : propagator/DormandElMikkawyPrince68.cpp.s
 
 propagator/Integrator.o: propagator/Integrator.cpp.o
@@ -7385,7 +7385,7 @@ propagator/Integrator.o: propagator/Integrator.cpp.o
 
 # target to build an object file
 propagator/Integrator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Integrator.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Integrator.cpp.o
 .PHONY : propagator/Integrator.cpp.o
 
 propagator/Integrator.i: propagator/Integrator.cpp.i
@@ -7393,7 +7393,7 @@ propagator/Integrator.i: propagator/Integrator.cpp.i
 
 # target to preprocess a source file
 propagator/Integrator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Integrator.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Integrator.cpp.i
 .PHONY : propagator/Integrator.cpp.i
 
 propagator/Integrator.s: propagator/Integrator.cpp.s
@@ -7401,7 +7401,7 @@ propagator/Integrator.s: propagator/Integrator.cpp.s
 
 # target to generate assembly for a file
 propagator/Integrator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Integrator.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Integrator.cpp.s
 .PHONY : propagator/Integrator.cpp.s
 
 propagator/PredictorCorrector.o: propagator/PredictorCorrector.cpp.o
@@ -7409,7 +7409,7 @@ propagator/PredictorCorrector.o: propagator/PredictorCorrector.cpp.o
 
 # target to build an object file
 propagator/PredictorCorrector.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PredictorCorrector.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PredictorCorrector.cpp.o
 .PHONY : propagator/PredictorCorrector.cpp.o
 
 propagator/PredictorCorrector.i: propagator/PredictorCorrector.cpp.i
@@ -7417,7 +7417,7 @@ propagator/PredictorCorrector.i: propagator/PredictorCorrector.cpp.i
 
 # target to preprocess a source file
 propagator/PredictorCorrector.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PredictorCorrector.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PredictorCorrector.cpp.i
 .PHONY : propagator/PredictorCorrector.cpp.i
 
 propagator/PredictorCorrector.s: propagator/PredictorCorrector.cpp.s
@@ -7425,7 +7425,7 @@ propagator/PredictorCorrector.s: propagator/PredictorCorrector.cpp.s
 
 # target to generate assembly for a file
 propagator/PredictorCorrector.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PredictorCorrector.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PredictorCorrector.cpp.s
 .PHONY : propagator/PredictorCorrector.cpp.s
 
 propagator/PrinceDormand45.o: propagator/PrinceDormand45.cpp.o
@@ -7433,7 +7433,7 @@ propagator/PrinceDormand45.o: propagator/PrinceDormand45.cpp.o
 
 # target to build an object file
 propagator/PrinceDormand45.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand45.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand45.cpp.o
 .PHONY : propagator/PrinceDormand45.cpp.o
 
 propagator/PrinceDormand45.i: propagator/PrinceDormand45.cpp.i
@@ -7441,7 +7441,7 @@ propagator/PrinceDormand45.i: propagator/PrinceDormand45.cpp.i
 
 # target to preprocess a source file
 propagator/PrinceDormand45.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand45.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand45.cpp.i
 .PHONY : propagator/PrinceDormand45.cpp.i
 
 propagator/PrinceDormand45.s: propagator/PrinceDormand45.cpp.s
@@ -7449,7 +7449,7 @@ propagator/PrinceDormand45.s: propagator/PrinceDormand45.cpp.s
 
 # target to generate assembly for a file
 propagator/PrinceDormand45.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand45.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand45.cpp.s
 .PHONY : propagator/PrinceDormand45.cpp.s
 
 propagator/PrinceDormand78.o: propagator/PrinceDormand78.cpp.o
@@ -7457,7 +7457,7 @@ propagator/PrinceDormand78.o: propagator/PrinceDormand78.cpp.o
 
 # target to build an object file
 propagator/PrinceDormand78.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand78.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand78.cpp.o
 .PHONY : propagator/PrinceDormand78.cpp.o
 
 propagator/PrinceDormand78.i: propagator/PrinceDormand78.cpp.i
@@ -7465,7 +7465,7 @@ propagator/PrinceDormand78.i: propagator/PrinceDormand78.cpp.i
 
 # target to preprocess a source file
 propagator/PrinceDormand78.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand78.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand78.cpp.i
 .PHONY : propagator/PrinceDormand78.cpp.i
 
 propagator/PrinceDormand78.s: propagator/PrinceDormand78.cpp.s
@@ -7473,7 +7473,7 @@ propagator/PrinceDormand78.s: propagator/PrinceDormand78.cpp.s
 
 # target to generate assembly for a file
 propagator/PrinceDormand78.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand78.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PrinceDormand78.cpp.s
 .PHONY : propagator/PrinceDormand78.cpp.s
 
 propagator/PropSetup.o: propagator/PropSetup.cpp.o
@@ -7481,7 +7481,7 @@ propagator/PropSetup.o: propagator/PropSetup.cpp.o
 
 # target to build an object file
 propagator/PropSetup.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropSetup.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropSetup.cpp.o
 .PHONY : propagator/PropSetup.cpp.o
 
 propagator/PropSetup.i: propagator/PropSetup.cpp.i
@@ -7489,7 +7489,7 @@ propagator/PropSetup.i: propagator/PropSetup.cpp.i
 
 # target to preprocess a source file
 propagator/PropSetup.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropSetup.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropSetup.cpp.i
 .PHONY : propagator/PropSetup.cpp.i
 
 propagator/PropSetup.s: propagator/PropSetup.cpp.s
@@ -7497,7 +7497,7 @@ propagator/PropSetup.s: propagator/PropSetup.cpp.s
 
 # target to generate assembly for a file
 propagator/PropSetup.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropSetup.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropSetup.cpp.s
 .PHONY : propagator/PropSetup.cpp.s
 
 propagator/PropagationStateManager.o: propagator/PropagationStateManager.cpp.o
@@ -7505,7 +7505,7 @@ propagator/PropagationStateManager.o: propagator/PropagationStateManager.cpp.o
 
 # target to build an object file
 propagator/PropagationStateManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropagationStateManager.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropagationStateManager.cpp.o
 .PHONY : propagator/PropagationStateManager.cpp.o
 
 propagator/PropagationStateManager.i: propagator/PropagationStateManager.cpp.i
@@ -7513,7 +7513,7 @@ propagator/PropagationStateManager.i: propagator/PropagationStateManager.cpp.i
 
 # target to preprocess a source file
 propagator/PropagationStateManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropagationStateManager.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropagationStateManager.cpp.i
 .PHONY : propagator/PropagationStateManager.cpp.i
 
 propagator/PropagationStateManager.s: propagator/PropagationStateManager.cpp.s
@@ -7521,7 +7521,7 @@ propagator/PropagationStateManager.s: propagator/PropagationStateManager.cpp.s
 
 # target to generate assembly for a file
 propagator/PropagationStateManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropagationStateManager.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/PropagationStateManager.cpp.s
 .PHONY : propagator/PropagationStateManager.cpp.s
 
 propagator/Propagator.o: propagator/Propagator.cpp.o
@@ -7529,7 +7529,7 @@ propagator/Propagator.o: propagator/Propagator.cpp.o
 
 # target to build an object file
 propagator/Propagator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Propagator.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Propagator.cpp.o
 .PHONY : propagator/Propagator.cpp.o
 
 propagator/Propagator.i: propagator/Propagator.cpp.i
@@ -7537,7 +7537,7 @@ propagator/Propagator.i: propagator/Propagator.cpp.i
 
 # target to preprocess a source file
 propagator/Propagator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Propagator.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Propagator.cpp.i
 .PHONY : propagator/Propagator.cpp.i
 
 propagator/Propagator.s: propagator/Propagator.cpp.s
@@ -7545,7 +7545,7 @@ propagator/Propagator.s: propagator/Propagator.cpp.s
 
 # target to generate assembly for a file
 propagator/Propagator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Propagator.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/Propagator.cpp.s
 .PHONY : propagator/Propagator.cpp.s
 
 propagator/RungeKutta.o: propagator/RungeKutta.cpp.o
@@ -7553,7 +7553,7 @@ propagator/RungeKutta.o: propagator/RungeKutta.cpp.o
 
 # target to build an object file
 propagator/RungeKutta.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta.cpp.o
 .PHONY : propagator/RungeKutta.cpp.o
 
 propagator/RungeKutta.i: propagator/RungeKutta.cpp.i
@@ -7561,7 +7561,7 @@ propagator/RungeKutta.i: propagator/RungeKutta.cpp.i
 
 # target to preprocess a source file
 propagator/RungeKutta.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta.cpp.i
 .PHONY : propagator/RungeKutta.cpp.i
 
 propagator/RungeKutta.s: propagator/RungeKutta.cpp.s
@@ -7569,7 +7569,7 @@ propagator/RungeKutta.s: propagator/RungeKutta.cpp.s
 
 # target to generate assembly for a file
 propagator/RungeKutta.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta.cpp.s
 .PHONY : propagator/RungeKutta.cpp.s
 
 propagator/RungeKutta89.o: propagator/RungeKutta89.cpp.o
@@ -7577,7 +7577,7 @@ propagator/RungeKutta89.o: propagator/RungeKutta89.cpp.o
 
 # target to build an object file
 propagator/RungeKutta89.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta89.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta89.cpp.o
 .PHONY : propagator/RungeKutta89.cpp.o
 
 propagator/RungeKutta89.i: propagator/RungeKutta89.cpp.i
@@ -7585,7 +7585,7 @@ propagator/RungeKutta89.i: propagator/RungeKutta89.cpp.i
 
 # target to preprocess a source file
 propagator/RungeKutta89.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta89.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta89.cpp.i
 .PHONY : propagator/RungeKutta89.cpp.i
 
 propagator/RungeKutta89.s: propagator/RungeKutta89.cpp.s
@@ -7593,7 +7593,7 @@ propagator/RungeKutta89.s: propagator/RungeKutta89.cpp.s
 
 # target to generate assembly for a file
 propagator/RungeKutta89.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta89.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKutta89.cpp.s
 .PHONY : propagator/RungeKutta89.cpp.s
 
 propagator/RungeKuttaFehlberg56.o: propagator/RungeKuttaFehlberg56.cpp.o
@@ -7601,7 +7601,7 @@ propagator/RungeKuttaFehlberg56.o: propagator/RungeKuttaFehlberg56.cpp.o
 
 # target to build an object file
 propagator/RungeKuttaFehlberg56.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaFehlberg56.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaFehlberg56.cpp.o
 .PHONY : propagator/RungeKuttaFehlberg56.cpp.o
 
 propagator/RungeKuttaFehlberg56.i: propagator/RungeKuttaFehlberg56.cpp.i
@@ -7609,7 +7609,7 @@ propagator/RungeKuttaFehlberg56.i: propagator/RungeKuttaFehlberg56.cpp.i
 
 # target to preprocess a source file
 propagator/RungeKuttaFehlberg56.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaFehlberg56.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaFehlberg56.cpp.i
 .PHONY : propagator/RungeKuttaFehlberg56.cpp.i
 
 propagator/RungeKuttaFehlberg56.s: propagator/RungeKuttaFehlberg56.cpp.s
@@ -7617,7 +7617,7 @@ propagator/RungeKuttaFehlberg56.s: propagator/RungeKuttaFehlberg56.cpp.s
 
 # target to generate assembly for a file
 propagator/RungeKuttaFehlberg56.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaFehlberg56.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaFehlberg56.cpp.s
 .PHONY : propagator/RungeKuttaFehlberg56.cpp.s
 
 propagator/RungeKuttaNystrom.o: propagator/RungeKuttaNystrom.cpp.o
@@ -7625,7 +7625,7 @@ propagator/RungeKuttaNystrom.o: propagator/RungeKuttaNystrom.cpp.o
 
 # target to build an object file
 propagator/RungeKuttaNystrom.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaNystrom.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaNystrom.cpp.o
 .PHONY : propagator/RungeKuttaNystrom.cpp.o
 
 propagator/RungeKuttaNystrom.i: propagator/RungeKuttaNystrom.cpp.i
@@ -7633,7 +7633,7 @@ propagator/RungeKuttaNystrom.i: propagator/RungeKuttaNystrom.cpp.i
 
 # target to preprocess a source file
 propagator/RungeKuttaNystrom.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaNystrom.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaNystrom.cpp.i
 .PHONY : propagator/RungeKuttaNystrom.cpp.i
 
 propagator/RungeKuttaNystrom.s: propagator/RungeKuttaNystrom.cpp.s
@@ -7641,7 +7641,7 @@ propagator/RungeKuttaNystrom.s: propagator/RungeKuttaNystrom.cpp.s
 
 # target to generate assembly for a file
 propagator/RungeKuttaNystrom.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaNystrom.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/propagator/RungeKuttaNystrom.cpp.s
 .PHONY : propagator/RungeKuttaNystrom.cpp.s
 
 solarsys/Asteroid.o: solarsys/Asteroid.cpp.o
@@ -7649,7 +7649,7 @@ solarsys/Asteroid.o: solarsys/Asteroid.cpp.o
 
 # target to build an object file
 solarsys/Asteroid.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Asteroid.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Asteroid.cpp.o
 .PHONY : solarsys/Asteroid.cpp.o
 
 solarsys/Asteroid.i: solarsys/Asteroid.cpp.i
@@ -7657,7 +7657,7 @@ solarsys/Asteroid.i: solarsys/Asteroid.cpp.i
 
 # target to preprocess a source file
 solarsys/Asteroid.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Asteroid.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Asteroid.cpp.i
 .PHONY : solarsys/Asteroid.cpp.i
 
 solarsys/Asteroid.s: solarsys/Asteroid.cpp.s
@@ -7665,7 +7665,7 @@ solarsys/Asteroid.s: solarsys/Asteroid.cpp.s
 
 # target to generate assembly for a file
 solarsys/Asteroid.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Asteroid.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Asteroid.cpp.s
 .PHONY : solarsys/Asteroid.cpp.s
 
 solarsys/AtmosphereModel.o: solarsys/AtmosphereModel.cpp.o
@@ -7673,7 +7673,7 @@ solarsys/AtmosphereModel.o: solarsys/AtmosphereModel.cpp.o
 
 # target to build an object file
 solarsys/AtmosphereModel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/AtmosphereModel.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/AtmosphereModel.cpp.o
 .PHONY : solarsys/AtmosphereModel.cpp.o
 
 solarsys/AtmosphereModel.i: solarsys/AtmosphereModel.cpp.i
@@ -7681,7 +7681,7 @@ solarsys/AtmosphereModel.i: solarsys/AtmosphereModel.cpp.i
 
 # target to preprocess a source file
 solarsys/AtmosphereModel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/AtmosphereModel.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/AtmosphereModel.cpp.i
 .PHONY : solarsys/AtmosphereModel.cpp.i
 
 solarsys/AtmosphereModel.s: solarsys/AtmosphereModel.cpp.s
@@ -7689,7 +7689,7 @@ solarsys/AtmosphereModel.s: solarsys/AtmosphereModel.cpp.s
 
 # target to generate assembly for a file
 solarsys/AtmosphereModel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/AtmosphereModel.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/AtmosphereModel.cpp.s
 .PHONY : solarsys/AtmosphereModel.cpp.s
 
 solarsys/Barycenter.o: solarsys/Barycenter.cpp.o
@@ -7697,7 +7697,7 @@ solarsys/Barycenter.o: solarsys/Barycenter.cpp.o
 
 # target to build an object file
 solarsys/Barycenter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Barycenter.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Barycenter.cpp.o
 .PHONY : solarsys/Barycenter.cpp.o
 
 solarsys/Barycenter.i: solarsys/Barycenter.cpp.i
@@ -7705,7 +7705,7 @@ solarsys/Barycenter.i: solarsys/Barycenter.cpp.i
 
 # target to preprocess a source file
 solarsys/Barycenter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Barycenter.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Barycenter.cpp.i
 .PHONY : solarsys/Barycenter.cpp.i
 
 solarsys/Barycenter.s: solarsys/Barycenter.cpp.s
@@ -7713,7 +7713,7 @@ solarsys/Barycenter.s: solarsys/Barycenter.cpp.s
 
 # target to generate assembly for a file
 solarsys/Barycenter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Barycenter.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Barycenter.cpp.s
 .PHONY : solarsys/Barycenter.cpp.s
 
 solarsys/CalculatedPoint.o: solarsys/CalculatedPoint.cpp.o
@@ -7721,7 +7721,7 @@ solarsys/CalculatedPoint.o: solarsys/CalculatedPoint.cpp.o
 
 # target to build an object file
 solarsys/CalculatedPoint.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CalculatedPoint.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CalculatedPoint.cpp.o
 .PHONY : solarsys/CalculatedPoint.cpp.o
 
 solarsys/CalculatedPoint.i: solarsys/CalculatedPoint.cpp.i
@@ -7729,7 +7729,7 @@ solarsys/CalculatedPoint.i: solarsys/CalculatedPoint.cpp.i
 
 # target to preprocess a source file
 solarsys/CalculatedPoint.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CalculatedPoint.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CalculatedPoint.cpp.i
 .PHONY : solarsys/CalculatedPoint.cpp.i
 
 solarsys/CalculatedPoint.s: solarsys/CalculatedPoint.cpp.s
@@ -7737,7 +7737,7 @@ solarsys/CalculatedPoint.s: solarsys/CalculatedPoint.cpp.s
 
 # target to generate assembly for a file
 solarsys/CalculatedPoint.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CalculatedPoint.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CalculatedPoint.cpp.s
 .PHONY : solarsys/CalculatedPoint.cpp.s
 
 solarsys/CelestialBody.o: solarsys/CelestialBody.cpp.o
@@ -7745,7 +7745,7 @@ solarsys/CelestialBody.o: solarsys/CelestialBody.cpp.o
 
 # target to build an object file
 solarsys/CelestialBody.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CelestialBody.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CelestialBody.cpp.o
 .PHONY : solarsys/CelestialBody.cpp.o
 
 solarsys/CelestialBody.i: solarsys/CelestialBody.cpp.i
@@ -7753,7 +7753,7 @@ solarsys/CelestialBody.i: solarsys/CelestialBody.cpp.i
 
 # target to preprocess a source file
 solarsys/CelestialBody.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CelestialBody.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CelestialBody.cpp.i
 .PHONY : solarsys/CelestialBody.cpp.i
 
 solarsys/CelestialBody.s: solarsys/CelestialBody.cpp.s
@@ -7761,7 +7761,7 @@ solarsys/CelestialBody.s: solarsys/CelestialBody.cpp.s
 
 # target to generate assembly for a file
 solarsys/CelestialBody.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CelestialBody.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/CelestialBody.cpp.s
 .PHONY : solarsys/CelestialBody.cpp.s
 
 solarsys/Comet.o: solarsys/Comet.cpp.o
@@ -7769,7 +7769,7 @@ solarsys/Comet.o: solarsys/Comet.cpp.o
 
 # target to build an object file
 solarsys/Comet.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Comet.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Comet.cpp.o
 .PHONY : solarsys/Comet.cpp.o
 
 solarsys/Comet.i: solarsys/Comet.cpp.i
@@ -7777,7 +7777,7 @@ solarsys/Comet.i: solarsys/Comet.cpp.i
 
 # target to preprocess a source file
 solarsys/Comet.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Comet.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Comet.cpp.i
 .PHONY : solarsys/Comet.cpp.i
 
 solarsys/Comet.s: solarsys/Comet.cpp.s
@@ -7785,7 +7785,7 @@ solarsys/Comet.s: solarsys/Comet.cpp.s
 
 # target to generate assembly for a file
 solarsys/Comet.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Comet.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Comet.cpp.s
 .PHONY : solarsys/Comet.cpp.s
 
 solarsys/DeFile.o: solarsys/DeFile.cpp.o
@@ -7793,7 +7793,7 @@ solarsys/DeFile.o: solarsys/DeFile.cpp.o
 
 # target to build an object file
 solarsys/DeFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/DeFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/DeFile.cpp.o
 .PHONY : solarsys/DeFile.cpp.o
 
 solarsys/DeFile.i: solarsys/DeFile.cpp.i
@@ -7801,7 +7801,7 @@ solarsys/DeFile.i: solarsys/DeFile.cpp.i
 
 # target to preprocess a source file
 solarsys/DeFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/DeFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/DeFile.cpp.i
 .PHONY : solarsys/DeFile.cpp.i
 
 solarsys/DeFile.s: solarsys/DeFile.cpp.s
@@ -7809,7 +7809,7 @@ solarsys/DeFile.s: solarsys/DeFile.cpp.s
 
 # target to generate assembly for a file
 solarsys/DeFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/DeFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/DeFile.cpp.s
 .PHONY : solarsys/DeFile.cpp.s
 
 solarsys/ExponentialAtmosphere.o: solarsys/ExponentialAtmosphere.cpp.o
@@ -7817,7 +7817,7 @@ solarsys/ExponentialAtmosphere.o: solarsys/ExponentialAtmosphere.cpp.o
 
 # target to build an object file
 solarsys/ExponentialAtmosphere.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ExponentialAtmosphere.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ExponentialAtmosphere.cpp.o
 .PHONY : solarsys/ExponentialAtmosphere.cpp.o
 
 solarsys/ExponentialAtmosphere.i: solarsys/ExponentialAtmosphere.cpp.i
@@ -7825,7 +7825,7 @@ solarsys/ExponentialAtmosphere.i: solarsys/ExponentialAtmosphere.cpp.i
 
 # target to preprocess a source file
 solarsys/ExponentialAtmosphere.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ExponentialAtmosphere.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ExponentialAtmosphere.cpp.i
 .PHONY : solarsys/ExponentialAtmosphere.cpp.i
 
 solarsys/ExponentialAtmosphere.s: solarsys/ExponentialAtmosphere.cpp.s
@@ -7833,7 +7833,7 @@ solarsys/ExponentialAtmosphere.s: solarsys/ExponentialAtmosphere.cpp.s
 
 # target to generate assembly for a file
 solarsys/ExponentialAtmosphere.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ExponentialAtmosphere.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ExponentialAtmosphere.cpp.s
 .PHONY : solarsys/ExponentialAtmosphere.cpp.s
 
 solarsys/JacchiaRobertsAtmosphere.o: solarsys/JacchiaRobertsAtmosphere.cpp.o
@@ -7841,7 +7841,7 @@ solarsys/JacchiaRobertsAtmosphere.o: solarsys/JacchiaRobertsAtmosphere.cpp.o
 
 # target to build an object file
 solarsys/JacchiaRobertsAtmosphere.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/JacchiaRobertsAtmosphere.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/JacchiaRobertsAtmosphere.cpp.o
 .PHONY : solarsys/JacchiaRobertsAtmosphere.cpp.o
 
 solarsys/JacchiaRobertsAtmosphere.i: solarsys/JacchiaRobertsAtmosphere.cpp.i
@@ -7849,7 +7849,7 @@ solarsys/JacchiaRobertsAtmosphere.i: solarsys/JacchiaRobertsAtmosphere.cpp.i
 
 # target to preprocess a source file
 solarsys/JacchiaRobertsAtmosphere.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/JacchiaRobertsAtmosphere.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/JacchiaRobertsAtmosphere.cpp.i
 .PHONY : solarsys/JacchiaRobertsAtmosphere.cpp.i
 
 solarsys/JacchiaRobertsAtmosphere.s: solarsys/JacchiaRobertsAtmosphere.cpp.s
@@ -7857,7 +7857,7 @@ solarsys/JacchiaRobertsAtmosphere.s: solarsys/JacchiaRobertsAtmosphere.cpp.s
 
 # target to generate assembly for a file
 solarsys/JacchiaRobertsAtmosphere.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/JacchiaRobertsAtmosphere.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/JacchiaRobertsAtmosphere.cpp.s
 .PHONY : solarsys/JacchiaRobertsAtmosphere.cpp.s
 
 solarsys/LibrationPoint.o: solarsys/LibrationPoint.cpp.o
@@ -7865,7 +7865,7 @@ solarsys/LibrationPoint.o: solarsys/LibrationPoint.cpp.o
 
 # target to build an object file
 solarsys/LibrationPoint.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/LibrationPoint.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/LibrationPoint.cpp.o
 .PHONY : solarsys/LibrationPoint.cpp.o
 
 solarsys/LibrationPoint.i: solarsys/LibrationPoint.cpp.i
@@ -7873,7 +7873,7 @@ solarsys/LibrationPoint.i: solarsys/LibrationPoint.cpp.i
 
 # target to preprocess a source file
 solarsys/LibrationPoint.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/LibrationPoint.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/LibrationPoint.cpp.i
 .PHONY : solarsys/LibrationPoint.cpp.i
 
 solarsys/LibrationPoint.s: solarsys/LibrationPoint.cpp.s
@@ -7881,7 +7881,7 @@ solarsys/LibrationPoint.s: solarsys/LibrationPoint.cpp.s
 
 # target to generate assembly for a file
 solarsys/LibrationPoint.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/LibrationPoint.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/LibrationPoint.cpp.s
 .PHONY : solarsys/LibrationPoint.cpp.s
 
 solarsys/Moon.o: solarsys/Moon.cpp.o
@@ -7889,7 +7889,7 @@ solarsys/Moon.o: solarsys/Moon.cpp.o
 
 # target to build an object file
 solarsys/Moon.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Moon.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Moon.cpp.o
 .PHONY : solarsys/Moon.cpp.o
 
 solarsys/Moon.i: solarsys/Moon.cpp.i
@@ -7897,7 +7897,7 @@ solarsys/Moon.i: solarsys/Moon.cpp.i
 
 # target to preprocess a source file
 solarsys/Moon.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Moon.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Moon.cpp.i
 .PHONY : solarsys/Moon.cpp.i
 
 solarsys/Moon.s: solarsys/Moon.cpp.s
@@ -7905,7 +7905,7 @@ solarsys/Moon.s: solarsys/Moon.cpp.s
 
 # target to generate assembly for a file
 solarsys/Moon.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Moon.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Moon.cpp.s
 .PHONY : solarsys/Moon.cpp.s
 
 solarsys/Msise90Atmosphere.o: solarsys/Msise90Atmosphere.cpp.o
@@ -7913,7 +7913,7 @@ solarsys/Msise90Atmosphere.o: solarsys/Msise90Atmosphere.cpp.o
 
 # target to build an object file
 solarsys/Msise90Atmosphere.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Msise90Atmosphere.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Msise90Atmosphere.cpp.o
 .PHONY : solarsys/Msise90Atmosphere.cpp.o
 
 solarsys/Msise90Atmosphere.i: solarsys/Msise90Atmosphere.cpp.i
@@ -7921,7 +7921,7 @@ solarsys/Msise90Atmosphere.i: solarsys/Msise90Atmosphere.cpp.i
 
 # target to preprocess a source file
 solarsys/Msise90Atmosphere.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Msise90Atmosphere.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Msise90Atmosphere.cpp.i
 .PHONY : solarsys/Msise90Atmosphere.cpp.i
 
 solarsys/Msise90Atmosphere.s: solarsys/Msise90Atmosphere.cpp.s
@@ -7929,7 +7929,7 @@ solarsys/Msise90Atmosphere.s: solarsys/Msise90Atmosphere.cpp.s
 
 # target to generate assembly for a file
 solarsys/Msise90Atmosphere.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Msise90Atmosphere.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Msise90Atmosphere.cpp.s
 .PHONY : solarsys/Msise90Atmosphere.cpp.s
 
 solarsys/Planet.o: solarsys/Planet.cpp.o
@@ -7937,7 +7937,7 @@ solarsys/Planet.o: solarsys/Planet.cpp.o
 
 # target to build an object file
 solarsys/Planet.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Planet.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Planet.cpp.o
 .PHONY : solarsys/Planet.cpp.o
 
 solarsys/Planet.i: solarsys/Planet.cpp.i
@@ -7945,7 +7945,7 @@ solarsys/Planet.i: solarsys/Planet.cpp.i
 
 # target to preprocess a source file
 solarsys/Planet.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Planet.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Planet.cpp.i
 .PHONY : solarsys/Planet.cpp.i
 
 solarsys/Planet.s: solarsys/Planet.cpp.s
@@ -7953,7 +7953,7 @@ solarsys/Planet.s: solarsys/Planet.cpp.s
 
 # target to generate assembly for a file
 solarsys/Planet.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Planet.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Planet.cpp.s
 .PHONY : solarsys/Planet.cpp.s
 
 solarsys/PlanetaryEphem.o: solarsys/PlanetaryEphem.cpp.o
@@ -7961,7 +7961,7 @@ solarsys/PlanetaryEphem.o: solarsys/PlanetaryEphem.cpp.o
 
 # target to build an object file
 solarsys/PlanetaryEphem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphem.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphem.cpp.o
 .PHONY : solarsys/PlanetaryEphem.cpp.o
 
 solarsys/PlanetaryEphem.i: solarsys/PlanetaryEphem.cpp.i
@@ -7969,7 +7969,7 @@ solarsys/PlanetaryEphem.i: solarsys/PlanetaryEphem.cpp.i
 
 # target to preprocess a source file
 solarsys/PlanetaryEphem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphem.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphem.cpp.i
 .PHONY : solarsys/PlanetaryEphem.cpp.i
 
 solarsys/PlanetaryEphem.s: solarsys/PlanetaryEphem.cpp.s
@@ -7977,7 +7977,7 @@ solarsys/PlanetaryEphem.s: solarsys/PlanetaryEphem.cpp.s
 
 # target to generate assembly for a file
 solarsys/PlanetaryEphem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphem.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphem.cpp.s
 .PHONY : solarsys/PlanetaryEphem.cpp.s
 
 solarsys/PlanetaryEphemException.o: solarsys/PlanetaryEphemException.cpp.o
@@ -7985,7 +7985,7 @@ solarsys/PlanetaryEphemException.o: solarsys/PlanetaryEphemException.cpp.o
 
 # target to build an object file
 solarsys/PlanetaryEphemException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphemException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphemException.cpp.o
 .PHONY : solarsys/PlanetaryEphemException.cpp.o
 
 solarsys/PlanetaryEphemException.i: solarsys/PlanetaryEphemException.cpp.i
@@ -7993,7 +7993,7 @@ solarsys/PlanetaryEphemException.i: solarsys/PlanetaryEphemException.cpp.i
 
 # target to preprocess a source file
 solarsys/PlanetaryEphemException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphemException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphemException.cpp.i
 .PHONY : solarsys/PlanetaryEphemException.cpp.i
 
 solarsys/PlanetaryEphemException.s: solarsys/PlanetaryEphemException.cpp.s
@@ -8001,7 +8001,7 @@ solarsys/PlanetaryEphemException.s: solarsys/PlanetaryEphemException.cpp.s
 
 # target to generate assembly for a file
 solarsys/PlanetaryEphemException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphemException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/PlanetaryEphemException.cpp.s
 .PHONY : solarsys/PlanetaryEphemException.cpp.s
 
 solarsys/ShadowState.o: solarsys/ShadowState.cpp.o
@@ -8009,7 +8009,7 @@ solarsys/ShadowState.o: solarsys/ShadowState.cpp.o
 
 # target to build an object file
 solarsys/ShadowState.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ShadowState.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ShadowState.cpp.o
 .PHONY : solarsys/ShadowState.cpp.o
 
 solarsys/ShadowState.i: solarsys/ShadowState.cpp.i
@@ -8017,7 +8017,7 @@ solarsys/ShadowState.i: solarsys/ShadowState.cpp.i
 
 # target to preprocess a source file
 solarsys/ShadowState.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ShadowState.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ShadowState.cpp.i
 .PHONY : solarsys/ShadowState.cpp.i
 
 solarsys/ShadowState.s: solarsys/ShadowState.cpp.s
@@ -8025,7 +8025,7 @@ solarsys/ShadowState.s: solarsys/ShadowState.cpp.s
 
 # target to generate assembly for a file
 solarsys/ShadowState.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ShadowState.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/ShadowState.cpp.s
 .PHONY : solarsys/ShadowState.cpp.s
 
 solarsys/SimpleExponentialAtmosphere.o: solarsys/SimpleExponentialAtmosphere.cpp.o
@@ -8033,7 +8033,7 @@ solarsys/SimpleExponentialAtmosphere.o: solarsys/SimpleExponentialAtmosphere.cpp
 
 # target to build an object file
 solarsys/SimpleExponentialAtmosphere.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SimpleExponentialAtmosphere.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SimpleExponentialAtmosphere.cpp.o
 .PHONY : solarsys/SimpleExponentialAtmosphere.cpp.o
 
 solarsys/SimpleExponentialAtmosphere.i: solarsys/SimpleExponentialAtmosphere.cpp.i
@@ -8041,7 +8041,7 @@ solarsys/SimpleExponentialAtmosphere.i: solarsys/SimpleExponentialAtmosphere.cpp
 
 # target to preprocess a source file
 solarsys/SimpleExponentialAtmosphere.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SimpleExponentialAtmosphere.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SimpleExponentialAtmosphere.cpp.i
 .PHONY : solarsys/SimpleExponentialAtmosphere.cpp.i
 
 solarsys/SimpleExponentialAtmosphere.s: solarsys/SimpleExponentialAtmosphere.cpp.s
@@ -8049,7 +8049,7 @@ solarsys/SimpleExponentialAtmosphere.s: solarsys/SimpleExponentialAtmosphere.cpp
 
 # target to generate assembly for a file
 solarsys/SimpleExponentialAtmosphere.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SimpleExponentialAtmosphere.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SimpleExponentialAtmosphere.cpp.s
 .PHONY : solarsys/SimpleExponentialAtmosphere.cpp.s
 
 solarsys/SlpFile.o: solarsys/SlpFile.cpp.o
@@ -8057,7 +8057,7 @@ solarsys/SlpFile.o: solarsys/SlpFile.cpp.o
 
 # target to build an object file
 solarsys/SlpFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SlpFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SlpFile.cpp.o
 .PHONY : solarsys/SlpFile.cpp.o
 
 solarsys/SlpFile.i: solarsys/SlpFile.cpp.i
@@ -8065,7 +8065,7 @@ solarsys/SlpFile.i: solarsys/SlpFile.cpp.i
 
 # target to preprocess a source file
 solarsys/SlpFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SlpFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SlpFile.cpp.i
 .PHONY : solarsys/SlpFile.cpp.i
 
 solarsys/SlpFile.s: solarsys/SlpFile.cpp.s
@@ -8073,7 +8073,7 @@ solarsys/SlpFile.s: solarsys/SlpFile.cpp.s
 
 # target to generate assembly for a file
 solarsys/SlpFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SlpFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SlpFile.cpp.s
 .PHONY : solarsys/SlpFile.cpp.s
 
 solarsys/SolarFluxReader.o: solarsys/SolarFluxReader.cpp.o
@@ -8081,7 +8081,7 @@ solarsys/SolarFluxReader.o: solarsys/SolarFluxReader.cpp.o
 
 # target to build an object file
 solarsys/SolarFluxReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarFluxReader.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarFluxReader.cpp.o
 .PHONY : solarsys/SolarFluxReader.cpp.o
 
 solarsys/SolarFluxReader.i: solarsys/SolarFluxReader.cpp.i
@@ -8089,7 +8089,7 @@ solarsys/SolarFluxReader.i: solarsys/SolarFluxReader.cpp.i
 
 # target to preprocess a source file
 solarsys/SolarFluxReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarFluxReader.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarFluxReader.cpp.i
 .PHONY : solarsys/SolarFluxReader.cpp.i
 
 solarsys/SolarFluxReader.s: solarsys/SolarFluxReader.cpp.s
@@ -8097,7 +8097,7 @@ solarsys/SolarFluxReader.s: solarsys/SolarFluxReader.cpp.s
 
 # target to generate assembly for a file
 solarsys/SolarFluxReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarFluxReader.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarFluxReader.cpp.s
 .PHONY : solarsys/SolarFluxReader.cpp.s
 
 solarsys/SolarSystem.o: solarsys/SolarSystem.cpp.o
@@ -8105,7 +8105,7 @@ solarsys/SolarSystem.o: solarsys/SolarSystem.cpp.o
 
 # target to build an object file
 solarsys/SolarSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystem.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystem.cpp.o
 .PHONY : solarsys/SolarSystem.cpp.o
 
 solarsys/SolarSystem.i: solarsys/SolarSystem.cpp.i
@@ -8113,7 +8113,7 @@ solarsys/SolarSystem.i: solarsys/SolarSystem.cpp.i
 
 # target to preprocess a source file
 solarsys/SolarSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystem.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystem.cpp.i
 .PHONY : solarsys/SolarSystem.cpp.i
 
 solarsys/SolarSystem.s: solarsys/SolarSystem.cpp.s
@@ -8121,7 +8121,7 @@ solarsys/SolarSystem.s: solarsys/SolarSystem.cpp.s
 
 # target to generate assembly for a file
 solarsys/SolarSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystem.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystem.cpp.s
 .PHONY : solarsys/SolarSystem.cpp.s
 
 solarsys/SolarSystemException.o: solarsys/SolarSystemException.cpp.o
@@ -8129,7 +8129,7 @@ solarsys/SolarSystemException.o: solarsys/SolarSystemException.cpp.o
 
 # target to build an object file
 solarsys/SolarSystemException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystemException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystemException.cpp.o
 .PHONY : solarsys/SolarSystemException.cpp.o
 
 solarsys/SolarSystemException.i: solarsys/SolarSystemException.cpp.i
@@ -8137,7 +8137,7 @@ solarsys/SolarSystemException.i: solarsys/SolarSystemException.cpp.i
 
 # target to preprocess a source file
 solarsys/SolarSystemException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystemException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystemException.cpp.i
 .PHONY : solarsys/SolarSystemException.cpp.i
 
 solarsys/SolarSystemException.s: solarsys/SolarSystemException.cpp.s
@@ -8145,7 +8145,7 @@ solarsys/SolarSystemException.s: solarsys/SolarSystemException.cpp.s
 
 # target to generate assembly for a file
 solarsys/SolarSystemException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystemException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SolarSystemException.cpp.s
 .PHONY : solarsys/SolarSystemException.cpp.s
 
 solarsys/SpecialCelestialPoint.o: solarsys/SpecialCelestialPoint.cpp.o
@@ -8153,7 +8153,7 @@ solarsys/SpecialCelestialPoint.o: solarsys/SpecialCelestialPoint.cpp.o
 
 # target to build an object file
 solarsys/SpecialCelestialPoint.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SpecialCelestialPoint.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SpecialCelestialPoint.cpp.o
 .PHONY : solarsys/SpecialCelestialPoint.cpp.o
 
 solarsys/SpecialCelestialPoint.i: solarsys/SpecialCelestialPoint.cpp.i
@@ -8161,7 +8161,7 @@ solarsys/SpecialCelestialPoint.i: solarsys/SpecialCelestialPoint.cpp.i
 
 # target to preprocess a source file
 solarsys/SpecialCelestialPoint.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SpecialCelestialPoint.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SpecialCelestialPoint.cpp.i
 .PHONY : solarsys/SpecialCelestialPoint.cpp.i
 
 solarsys/SpecialCelestialPoint.s: solarsys/SpecialCelestialPoint.cpp.s
@@ -8169,7 +8169,7 @@ solarsys/SpecialCelestialPoint.s: solarsys/SpecialCelestialPoint.cpp.s
 
 # target to generate assembly for a file
 solarsys/SpecialCelestialPoint.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SpecialCelestialPoint.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/SpecialCelestialPoint.cpp.s
 .PHONY : solarsys/SpecialCelestialPoint.cpp.s
 
 solarsys/Star.o: solarsys/Star.cpp.o
@@ -8177,7 +8177,7 @@ solarsys/Star.o: solarsys/Star.cpp.o
 
 # target to build an object file
 solarsys/Star.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Star.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Star.cpp.o
 .PHONY : solarsys/Star.cpp.o
 
 solarsys/Star.i: solarsys/Star.cpp.i
@@ -8185,7 +8185,7 @@ solarsys/Star.i: solarsys/Star.cpp.i
 
 # target to preprocess a source file
 solarsys/Star.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Star.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Star.cpp.i
 .PHONY : solarsys/Star.cpp.i
 
 solarsys/Star.s: solarsys/Star.cpp.s
@@ -8193,7 +8193,7 @@ solarsys/Star.s: solarsys/Star.cpp.s
 
 # target to generate assembly for a file
 solarsys/Star.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Star.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/Star.cpp.s
 .PHONY : solarsys/Star.cpp.s
 
 solarsys/msise90_sub.o: solarsys/msise90_sub.c.o
@@ -8201,7 +8201,7 @@ solarsys/msise90_sub.o: solarsys/msise90_sub.c.o
 
 # target to build an object file
 solarsys/msise90_sub.c.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/msise90_sub.c.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/msise90_sub.c.o
 .PHONY : solarsys/msise90_sub.c.o
 
 solarsys/msise90_sub.i: solarsys/msise90_sub.c.i
@@ -8209,7 +8209,7 @@ solarsys/msise90_sub.i: solarsys/msise90_sub.c.i
 
 # target to preprocess a source file
 solarsys/msise90_sub.c.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/msise90_sub.c.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/msise90_sub.c.i
 .PHONY : solarsys/msise90_sub.c.i
 
 solarsys/msise90_sub.s: solarsys/msise90_sub.c.s
@@ -8217,7 +8217,7 @@ solarsys/msise90_sub.s: solarsys/msise90_sub.c.s
 
 # target to generate assembly for a file
 solarsys/msise90_sub.c.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/msise90_sub.c.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solarsys/msise90_sub.c.s
 .PHONY : solarsys/msise90_sub.c.s
 
 solver/DerivativeModel.o: solver/DerivativeModel.cpp.o
@@ -8225,7 +8225,7 @@ solver/DerivativeModel.o: solver/DerivativeModel.cpp.o
 
 # target to build an object file
 solver/DerivativeModel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DerivativeModel.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DerivativeModel.cpp.o
 .PHONY : solver/DerivativeModel.cpp.o
 
 solver/DerivativeModel.i: solver/DerivativeModel.cpp.i
@@ -8233,7 +8233,7 @@ solver/DerivativeModel.i: solver/DerivativeModel.cpp.i
 
 # target to preprocess a source file
 solver/DerivativeModel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DerivativeModel.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DerivativeModel.cpp.i
 .PHONY : solver/DerivativeModel.cpp.i
 
 solver/DerivativeModel.s: solver/DerivativeModel.cpp.s
@@ -8241,7 +8241,7 @@ solver/DerivativeModel.s: solver/DerivativeModel.cpp.s
 
 # target to generate assembly for a file
 solver/DerivativeModel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DerivativeModel.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DerivativeModel.cpp.s
 .PHONY : solver/DerivativeModel.cpp.s
 
 solver/DifferentialCorrector.o: solver/DifferentialCorrector.cpp.o
@@ -8249,7 +8249,7 @@ solver/DifferentialCorrector.o: solver/DifferentialCorrector.cpp.o
 
 # target to build an object file
 solver/DifferentialCorrector.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DifferentialCorrector.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DifferentialCorrector.cpp.o
 .PHONY : solver/DifferentialCorrector.cpp.o
 
 solver/DifferentialCorrector.i: solver/DifferentialCorrector.cpp.i
@@ -8257,7 +8257,7 @@ solver/DifferentialCorrector.i: solver/DifferentialCorrector.cpp.i
 
 # target to preprocess a source file
 solver/DifferentialCorrector.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DifferentialCorrector.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DifferentialCorrector.cpp.i
 .PHONY : solver/DifferentialCorrector.cpp.i
 
 solver/DifferentialCorrector.s: solver/DifferentialCorrector.cpp.s
@@ -8265,7 +8265,7 @@ solver/DifferentialCorrector.s: solver/DifferentialCorrector.cpp.s
 
 # target to generate assembly for a file
 solver/DifferentialCorrector.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DifferentialCorrector.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/DifferentialCorrector.cpp.s
 .PHONY : solver/DifferentialCorrector.cpp.s
 
 solver/ExternalOptimizer.o: solver/ExternalOptimizer.cpp.o
@@ -8273,7 +8273,7 @@ solver/ExternalOptimizer.o: solver/ExternalOptimizer.cpp.o
 
 # target to build an object file
 solver/ExternalOptimizer.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ExternalOptimizer.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ExternalOptimizer.cpp.o
 .PHONY : solver/ExternalOptimizer.cpp.o
 
 solver/ExternalOptimizer.i: solver/ExternalOptimizer.cpp.i
@@ -8281,7 +8281,7 @@ solver/ExternalOptimizer.i: solver/ExternalOptimizer.cpp.i
 
 # target to preprocess a source file
 solver/ExternalOptimizer.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ExternalOptimizer.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ExternalOptimizer.cpp.i
 .PHONY : solver/ExternalOptimizer.cpp.i
 
 solver/ExternalOptimizer.s: solver/ExternalOptimizer.cpp.s
@@ -8289,7 +8289,7 @@ solver/ExternalOptimizer.s: solver/ExternalOptimizer.cpp.s
 
 # target to generate assembly for a file
 solver/ExternalOptimizer.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ExternalOptimizer.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ExternalOptimizer.cpp.s
 .PHONY : solver/ExternalOptimizer.cpp.s
 
 solver/Gradient.o: solver/Gradient.cpp.o
@@ -8297,7 +8297,7 @@ solver/Gradient.o: solver/Gradient.cpp.o
 
 # target to build an object file
 solver/Gradient.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Gradient.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Gradient.cpp.o
 .PHONY : solver/Gradient.cpp.o
 
 solver/Gradient.i: solver/Gradient.cpp.i
@@ -8305,7 +8305,7 @@ solver/Gradient.i: solver/Gradient.cpp.i
 
 # target to preprocess a source file
 solver/Gradient.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Gradient.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Gradient.cpp.i
 .PHONY : solver/Gradient.cpp.i
 
 solver/Gradient.s: solver/Gradient.cpp.s
@@ -8313,7 +8313,7 @@ solver/Gradient.s: solver/Gradient.cpp.s
 
 # target to generate assembly for a file
 solver/Gradient.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Gradient.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Gradient.cpp.s
 .PHONY : solver/Gradient.cpp.s
 
 solver/ISolverListener.o: solver/ISolverListener.cpp.o
@@ -8321,7 +8321,7 @@ solver/ISolverListener.o: solver/ISolverListener.cpp.o
 
 # target to build an object file
 solver/ISolverListener.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ISolverListener.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ISolverListener.cpp.o
 .PHONY : solver/ISolverListener.cpp.o
 
 solver/ISolverListener.i: solver/ISolverListener.cpp.i
@@ -8329,7 +8329,7 @@ solver/ISolverListener.i: solver/ISolverListener.cpp.i
 
 # target to preprocess a source file
 solver/ISolverListener.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ISolverListener.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ISolverListener.cpp.i
 .PHONY : solver/ISolverListener.cpp.i
 
 solver/ISolverListener.s: solver/ISolverListener.cpp.s
@@ -8337,7 +8337,7 @@ solver/ISolverListener.s: solver/ISolverListener.cpp.s
 
 # target to generate assembly for a file
 solver/ISolverListener.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ISolverListener.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/ISolverListener.cpp.s
 .PHONY : solver/ISolverListener.cpp.s
 
 solver/InternalOptimizer.o: solver/InternalOptimizer.cpp.o
@@ -8345,7 +8345,7 @@ solver/InternalOptimizer.o: solver/InternalOptimizer.cpp.o
 
 # target to build an object file
 solver/InternalOptimizer.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/InternalOptimizer.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/InternalOptimizer.cpp.o
 .PHONY : solver/InternalOptimizer.cpp.o
 
 solver/InternalOptimizer.i: solver/InternalOptimizer.cpp.i
@@ -8353,7 +8353,7 @@ solver/InternalOptimizer.i: solver/InternalOptimizer.cpp.i
 
 # target to preprocess a source file
 solver/InternalOptimizer.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/InternalOptimizer.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/InternalOptimizer.cpp.i
 .PHONY : solver/InternalOptimizer.cpp.i
 
 solver/InternalOptimizer.s: solver/InternalOptimizer.cpp.s
@@ -8361,7 +8361,7 @@ solver/InternalOptimizer.s: solver/InternalOptimizer.cpp.s
 
 # target to generate assembly for a file
 solver/InternalOptimizer.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/InternalOptimizer.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/InternalOptimizer.cpp.s
 .PHONY : solver/InternalOptimizer.cpp.s
 
 solver/Jacobian.o: solver/Jacobian.cpp.o
@@ -8369,7 +8369,7 @@ solver/Jacobian.o: solver/Jacobian.cpp.o
 
 # target to build an object file
 solver/Jacobian.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Jacobian.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Jacobian.cpp.o
 .PHONY : solver/Jacobian.cpp.o
 
 solver/Jacobian.i: solver/Jacobian.cpp.i
@@ -8377,7 +8377,7 @@ solver/Jacobian.i: solver/Jacobian.cpp.i
 
 # target to preprocess a source file
 solver/Jacobian.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Jacobian.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Jacobian.cpp.i
 .PHONY : solver/Jacobian.cpp.i
 
 solver/Jacobian.s: solver/Jacobian.cpp.s
@@ -8385,7 +8385,7 @@ solver/Jacobian.s: solver/Jacobian.cpp.s
 
 # target to generate assembly for a file
 solver/Jacobian.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Jacobian.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Jacobian.cpp.s
 .PHONY : solver/Jacobian.cpp.s
 
 solver/LineSearch.o: solver/LineSearch.cpp.o
@@ -8393,7 +8393,7 @@ solver/LineSearch.o: solver/LineSearch.cpp.o
 
 # target to build an object file
 solver/LineSearch.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/LineSearch.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/LineSearch.cpp.o
 .PHONY : solver/LineSearch.cpp.o
 
 solver/LineSearch.i: solver/LineSearch.cpp.i
@@ -8401,7 +8401,7 @@ solver/LineSearch.i: solver/LineSearch.cpp.i
 
 # target to preprocess a source file
 solver/LineSearch.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/LineSearch.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/LineSearch.cpp.i
 .PHONY : solver/LineSearch.cpp.i
 
 solver/LineSearch.s: solver/LineSearch.cpp.s
@@ -8409,7 +8409,7 @@ solver/LineSearch.s: solver/LineSearch.cpp.s
 
 # target to generate assembly for a file
 solver/LineSearch.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/LineSearch.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/LineSearch.cpp.s
 .PHONY : solver/LineSearch.cpp.s
 
 solver/Optimizer.o: solver/Optimizer.cpp.o
@@ -8417,7 +8417,7 @@ solver/Optimizer.o: solver/Optimizer.cpp.o
 
 # target to build an object file
 solver/Optimizer.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Optimizer.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Optimizer.cpp.o
 .PHONY : solver/Optimizer.cpp.o
 
 solver/Optimizer.i: solver/Optimizer.cpp.i
@@ -8425,7 +8425,7 @@ solver/Optimizer.i: solver/Optimizer.cpp.i
 
 # target to preprocess a source file
 solver/Optimizer.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Optimizer.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Optimizer.cpp.i
 .PHONY : solver/Optimizer.cpp.i
 
 solver/Optimizer.s: solver/Optimizer.cpp.s
@@ -8433,7 +8433,7 @@ solver/Optimizer.s: solver/Optimizer.cpp.s
 
 # target to generate assembly for a file
 solver/Optimizer.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Optimizer.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Optimizer.cpp.s
 .PHONY : solver/Optimizer.cpp.s
 
 solver/Solver.o: solver/Solver.cpp.o
@@ -8441,7 +8441,7 @@ solver/Solver.o: solver/Solver.cpp.o
 
 # target to build an object file
 solver/Solver.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Solver.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Solver.cpp.o
 .PHONY : solver/Solver.cpp.o
 
 solver/Solver.i: solver/Solver.cpp.i
@@ -8449,7 +8449,7 @@ solver/Solver.i: solver/Solver.cpp.i
 
 # target to preprocess a source file
 solver/Solver.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Solver.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Solver.cpp.i
 .PHONY : solver/Solver.cpp.i
 
 solver/Solver.s: solver/Solver.cpp.s
@@ -8457,7 +8457,7 @@ solver/Solver.s: solver/Solver.cpp.s
 
 # target to generate assembly for a file
 solver/Solver.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Solver.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/Solver.cpp.s
 .PHONY : solver/Solver.cpp.s
 
 solver/SteepestDescent.o: solver/SteepestDescent.cpp.o
@@ -8465,7 +8465,7 @@ solver/SteepestDescent.o: solver/SteepestDescent.cpp.o
 
 # target to build an object file
 solver/SteepestDescent.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/SteepestDescent.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/SteepestDescent.cpp.o
 .PHONY : solver/SteepestDescent.cpp.o
 
 solver/SteepestDescent.i: solver/SteepestDescent.cpp.i
@@ -8473,7 +8473,7 @@ solver/SteepestDescent.i: solver/SteepestDescent.cpp.i
 
 # target to preprocess a source file
 solver/SteepestDescent.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/SteepestDescent.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/SteepestDescent.cpp.i
 .PHONY : solver/SteepestDescent.cpp.i
 
 solver/SteepestDescent.s: solver/SteepestDescent.cpp.s
@@ -8481,7 +8481,7 @@ solver/SteepestDescent.s: solver/SteepestDescent.cpp.s
 
 # target to generate assembly for a file
 solver/SteepestDescent.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/SteepestDescent.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/solver/SteepestDescent.cpp.s
 .PHONY : solver/SteepestDescent.cpp.s
 
 spacecraft/FormationInterface.o: spacecraft/FormationInterface.cpp.o
@@ -8489,7 +8489,7 @@ spacecraft/FormationInterface.o: spacecraft/FormationInterface.cpp.o
 
 # target to build an object file
 spacecraft/FormationInterface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/FormationInterface.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/FormationInterface.cpp.o
 .PHONY : spacecraft/FormationInterface.cpp.o
 
 spacecraft/FormationInterface.i: spacecraft/FormationInterface.cpp.i
@@ -8497,7 +8497,7 @@ spacecraft/FormationInterface.i: spacecraft/FormationInterface.cpp.i
 
 # target to preprocess a source file
 spacecraft/FormationInterface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/FormationInterface.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/FormationInterface.cpp.i
 .PHONY : spacecraft/FormationInterface.cpp.i
 
 spacecraft/FormationInterface.s: spacecraft/FormationInterface.cpp.s
@@ -8505,7 +8505,7 @@ spacecraft/FormationInterface.s: spacecraft/FormationInterface.cpp.s
 
 # target to generate assembly for a file
 spacecraft/FormationInterface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/FormationInterface.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/FormationInterface.cpp.s
 .PHONY : spacecraft/FormationInterface.cpp.s
 
 spacecraft/SpaceObject.o: spacecraft/SpaceObject.cpp.o
@@ -8513,7 +8513,7 @@ spacecraft/SpaceObject.o: spacecraft/SpaceObject.cpp.o
 
 # target to build an object file
 spacecraft/SpaceObject.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/SpaceObject.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/SpaceObject.cpp.o
 .PHONY : spacecraft/SpaceObject.cpp.o
 
 spacecraft/SpaceObject.i: spacecraft/SpaceObject.cpp.i
@@ -8521,7 +8521,7 @@ spacecraft/SpaceObject.i: spacecraft/SpaceObject.cpp.i
 
 # target to preprocess a source file
 spacecraft/SpaceObject.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/SpaceObject.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/SpaceObject.cpp.i
 .PHONY : spacecraft/SpaceObject.cpp.i
 
 spacecraft/SpaceObject.s: spacecraft/SpaceObject.cpp.s
@@ -8529,7 +8529,7 @@ spacecraft/SpaceObject.s: spacecraft/SpaceObject.cpp.s
 
 # target to generate assembly for a file
 spacecraft/SpaceObject.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/SpaceObject.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/SpaceObject.cpp.s
 .PHONY : spacecraft/SpaceObject.cpp.s
 
 spacecraft/Spacecraft.o: spacecraft/Spacecraft.cpp.o
@@ -8537,7 +8537,7 @@ spacecraft/Spacecraft.o: spacecraft/Spacecraft.cpp.o
 
 # target to build an object file
 spacecraft/Spacecraft.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/Spacecraft.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/Spacecraft.cpp.o
 .PHONY : spacecraft/Spacecraft.cpp.o
 
 spacecraft/Spacecraft.i: spacecraft/Spacecraft.cpp.i
@@ -8545,7 +8545,7 @@ spacecraft/Spacecraft.i: spacecraft/Spacecraft.cpp.i
 
 # target to preprocess a source file
 spacecraft/Spacecraft.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/Spacecraft.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/Spacecraft.cpp.i
 .PHONY : spacecraft/Spacecraft.cpp.i
 
 spacecraft/Spacecraft.s: spacecraft/Spacecraft.cpp.s
@@ -8553,7 +8553,7 @@ spacecraft/Spacecraft.s: spacecraft/Spacecraft.cpp.s
 
 # target to generate assembly for a file
 spacecraft/Spacecraft.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/Spacecraft.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/Spacecraft.cpp.s
 .PHONY : spacecraft/Spacecraft.cpp.s
 
 spacecraft/TextTrajectoryFile.o: spacecraft/TextTrajectoryFile.cpp.o
@@ -8561,7 +8561,7 @@ spacecraft/TextTrajectoryFile.o: spacecraft/TextTrajectoryFile.cpp.o
 
 # target to build an object file
 spacecraft/TextTrajectoryFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/TextTrajectoryFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/TextTrajectoryFile.cpp.o
 .PHONY : spacecraft/TextTrajectoryFile.cpp.o
 
 spacecraft/TextTrajectoryFile.i: spacecraft/TextTrajectoryFile.cpp.i
@@ -8569,7 +8569,7 @@ spacecraft/TextTrajectoryFile.i: spacecraft/TextTrajectoryFile.cpp.i
 
 # target to preprocess a source file
 spacecraft/TextTrajectoryFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/TextTrajectoryFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/TextTrajectoryFile.cpp.i
 .PHONY : spacecraft/TextTrajectoryFile.cpp.i
 
 spacecraft/TextTrajectoryFile.s: spacecraft/TextTrajectoryFile.cpp.s
@@ -8577,7 +8577,7 @@ spacecraft/TextTrajectoryFile.s: spacecraft/TextTrajectoryFile.cpp.s
 
 # target to generate assembly for a file
 spacecraft/TextTrajectoryFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/TextTrajectoryFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/spacecraft/TextTrajectoryFile.cpp.s
 .PHONY : spacecraft/TextTrajectoryFile.cpp.s
 
 stopcond/StopCondition.o: stopcond/StopCondition.cpp.o
@@ -8585,7 +8585,7 @@ stopcond/StopCondition.o: stopcond/StopCondition.cpp.o
 
 # target to build an object file
 stopcond/StopCondition.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/stopcond/StopCondition.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/stopcond/StopCondition.cpp.o
 .PHONY : stopcond/StopCondition.cpp.o
 
 stopcond/StopCondition.i: stopcond/StopCondition.cpp.i
@@ -8593,7 +8593,7 @@ stopcond/StopCondition.i: stopcond/StopCondition.cpp.i
 
 # target to preprocess a source file
 stopcond/StopCondition.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/stopcond/StopCondition.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/stopcond/StopCondition.cpp.i
 .PHONY : stopcond/StopCondition.cpp.i
 
 stopcond/StopCondition.s: stopcond/StopCondition.cpp.s
@@ -8601,7 +8601,7 @@ stopcond/StopCondition.s: stopcond/StopCondition.cpp.s
 
 # target to generate assembly for a file
 stopcond/StopCondition.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/stopcond/StopCondition.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/stopcond/StopCondition.cpp.s
 .PHONY : stopcond/StopCondition.cpp.s
 
 subscriber/EphemManager.o: subscriber/EphemManager.cpp.o
@@ -8609,7 +8609,7 @@ subscriber/EphemManager.o: subscriber/EphemManager.cpp.o
 
 # target to build an object file
 subscriber/EphemManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemManager.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemManager.cpp.o
 .PHONY : subscriber/EphemManager.cpp.o
 
 subscriber/EphemManager.i: subscriber/EphemManager.cpp.i
@@ -8617,7 +8617,7 @@ subscriber/EphemManager.i: subscriber/EphemManager.cpp.i
 
 # target to preprocess a source file
 subscriber/EphemManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemManager.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemManager.cpp.i
 .PHONY : subscriber/EphemManager.cpp.i
 
 subscriber/EphemManager.s: subscriber/EphemManager.cpp.s
@@ -8625,7 +8625,7 @@ subscriber/EphemManager.s: subscriber/EphemManager.cpp.s
 
 # target to generate assembly for a file
 subscriber/EphemManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemManager.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemManager.cpp.s
 .PHONY : subscriber/EphemManager.cpp.s
 
 subscriber/EphemerisFile.o: subscriber/EphemerisFile.cpp.o
@@ -8633,7 +8633,7 @@ subscriber/EphemerisFile.o: subscriber/EphemerisFile.cpp.o
 
 # target to build an object file
 subscriber/EphemerisFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemerisFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemerisFile.cpp.o
 .PHONY : subscriber/EphemerisFile.cpp.o
 
 subscriber/EphemerisFile.i: subscriber/EphemerisFile.cpp.i
@@ -8641,7 +8641,7 @@ subscriber/EphemerisFile.i: subscriber/EphemerisFile.cpp.i
 
 # target to preprocess a source file
 subscriber/EphemerisFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemerisFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemerisFile.cpp.i
 .PHONY : subscriber/EphemerisFile.cpp.i
 
 subscriber/EphemerisFile.s: subscriber/EphemerisFile.cpp.s
@@ -8649,7 +8649,7 @@ subscriber/EphemerisFile.s: subscriber/EphemerisFile.cpp.s
 
 # target to generate assembly for a file
 subscriber/EphemerisFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemerisFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/EphemerisFile.cpp.s
 .PHONY : subscriber/EphemerisFile.cpp.s
 
 subscriber/GroundTrackPlot.o: subscriber/GroundTrackPlot.cpp.o
@@ -8657,7 +8657,7 @@ subscriber/GroundTrackPlot.o: subscriber/GroundTrackPlot.cpp.o
 
 # target to build an object file
 subscriber/GroundTrackPlot.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/GroundTrackPlot.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/GroundTrackPlot.cpp.o
 .PHONY : subscriber/GroundTrackPlot.cpp.o
 
 subscriber/GroundTrackPlot.i: subscriber/GroundTrackPlot.cpp.i
@@ -8665,7 +8665,7 @@ subscriber/GroundTrackPlot.i: subscriber/GroundTrackPlot.cpp.i
 
 # target to preprocess a source file
 subscriber/GroundTrackPlot.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/GroundTrackPlot.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/GroundTrackPlot.cpp.i
 .PHONY : subscriber/GroundTrackPlot.cpp.i
 
 subscriber/GroundTrackPlot.s: subscriber/GroundTrackPlot.cpp.s
@@ -8673,7 +8673,7 @@ subscriber/GroundTrackPlot.s: subscriber/GroundTrackPlot.cpp.s
 
 # target to generate assembly for a file
 subscriber/GroundTrackPlot.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/GroundTrackPlot.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/GroundTrackPlot.cpp.s
 .PHONY : subscriber/GroundTrackPlot.cpp.s
 
 subscriber/MessageWindow.o: subscriber/MessageWindow.cpp.o
@@ -8681,7 +8681,7 @@ subscriber/MessageWindow.o: subscriber/MessageWindow.cpp.o
 
 # target to build an object file
 subscriber/MessageWindow.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/MessageWindow.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/MessageWindow.cpp.o
 .PHONY : subscriber/MessageWindow.cpp.o
 
 subscriber/MessageWindow.i: subscriber/MessageWindow.cpp.i
@@ -8689,7 +8689,7 @@ subscriber/MessageWindow.i: subscriber/MessageWindow.cpp.i
 
 # target to preprocess a source file
 subscriber/MessageWindow.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/MessageWindow.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/MessageWindow.cpp.i
 .PHONY : subscriber/MessageWindow.cpp.i
 
 subscriber/MessageWindow.s: subscriber/MessageWindow.cpp.s
@@ -8697,7 +8697,7 @@ subscriber/MessageWindow.s: subscriber/MessageWindow.cpp.s
 
 # target to generate assembly for a file
 subscriber/MessageWindow.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/MessageWindow.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/MessageWindow.cpp.s
 .PHONY : subscriber/MessageWindow.cpp.s
 
 subscriber/OrbitPlot.o: subscriber/OrbitPlot.cpp.o
@@ -8705,7 +8705,7 @@ subscriber/OrbitPlot.o: subscriber/OrbitPlot.cpp.o
 
 # target to build an object file
 subscriber/OrbitPlot.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitPlot.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitPlot.cpp.o
 .PHONY : subscriber/OrbitPlot.cpp.o
 
 subscriber/OrbitPlot.i: subscriber/OrbitPlot.cpp.i
@@ -8713,7 +8713,7 @@ subscriber/OrbitPlot.i: subscriber/OrbitPlot.cpp.i
 
 # target to preprocess a source file
 subscriber/OrbitPlot.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitPlot.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitPlot.cpp.i
 .PHONY : subscriber/OrbitPlot.cpp.i
 
 subscriber/OrbitPlot.s: subscriber/OrbitPlot.cpp.s
@@ -8721,7 +8721,7 @@ subscriber/OrbitPlot.s: subscriber/OrbitPlot.cpp.s
 
 # target to generate assembly for a file
 subscriber/OrbitPlot.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitPlot.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitPlot.cpp.s
 .PHONY : subscriber/OrbitPlot.cpp.s
 
 subscriber/OrbitView.o: subscriber/OrbitView.cpp.o
@@ -8729,7 +8729,7 @@ subscriber/OrbitView.o: subscriber/OrbitView.cpp.o
 
 # target to build an object file
 subscriber/OrbitView.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitView.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitView.cpp.o
 .PHONY : subscriber/OrbitView.cpp.o
 
 subscriber/OrbitView.i: subscriber/OrbitView.cpp.i
@@ -8737,7 +8737,7 @@ subscriber/OrbitView.i: subscriber/OrbitView.cpp.i
 
 # target to preprocess a source file
 subscriber/OrbitView.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitView.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitView.cpp.i
 .PHONY : subscriber/OrbitView.cpp.i
 
 subscriber/OrbitView.s: subscriber/OrbitView.cpp.s
@@ -8745,7 +8745,7 @@ subscriber/OrbitView.s: subscriber/OrbitView.cpp.s
 
 # target to generate assembly for a file
 subscriber/OrbitView.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitView.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OrbitView.cpp.s
 .PHONY : subscriber/OrbitView.cpp.s
 
 subscriber/OwnedPlot.o: subscriber/OwnedPlot.cpp.o
@@ -8753,7 +8753,7 @@ subscriber/OwnedPlot.o: subscriber/OwnedPlot.cpp.o
 
 # target to build an object file
 subscriber/OwnedPlot.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OwnedPlot.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OwnedPlot.cpp.o
 .PHONY : subscriber/OwnedPlot.cpp.o
 
 subscriber/OwnedPlot.i: subscriber/OwnedPlot.cpp.i
@@ -8761,7 +8761,7 @@ subscriber/OwnedPlot.i: subscriber/OwnedPlot.cpp.i
 
 # target to preprocess a source file
 subscriber/OwnedPlot.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OwnedPlot.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OwnedPlot.cpp.i
 .PHONY : subscriber/OwnedPlot.cpp.i
 
 subscriber/OwnedPlot.s: subscriber/OwnedPlot.cpp.s
@@ -8769,7 +8769,7 @@ subscriber/OwnedPlot.s: subscriber/OwnedPlot.cpp.s
 
 # target to generate assembly for a file
 subscriber/OwnedPlot.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OwnedPlot.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/OwnedPlot.cpp.s
 .PHONY : subscriber/OwnedPlot.cpp.s
 
 subscriber/ReportFile.o: subscriber/ReportFile.cpp.o
@@ -8777,7 +8777,7 @@ subscriber/ReportFile.o: subscriber/ReportFile.cpp.o
 
 # target to build an object file
 subscriber/ReportFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/ReportFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/ReportFile.cpp.o
 .PHONY : subscriber/ReportFile.cpp.o
 
 subscriber/ReportFile.i: subscriber/ReportFile.cpp.i
@@ -8785,7 +8785,7 @@ subscriber/ReportFile.i: subscriber/ReportFile.cpp.i
 
 # target to preprocess a source file
 subscriber/ReportFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/ReportFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/ReportFile.cpp.i
 .PHONY : subscriber/ReportFile.cpp.i
 
 subscriber/ReportFile.s: subscriber/ReportFile.cpp.s
@@ -8793,7 +8793,7 @@ subscriber/ReportFile.s: subscriber/ReportFile.cpp.s
 
 # target to generate assembly for a file
 subscriber/ReportFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/ReportFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/ReportFile.cpp.s
 .PHONY : subscriber/ReportFile.cpp.s
 
 subscriber/Subscriber.o: subscriber/Subscriber.cpp.o
@@ -8801,7 +8801,7 @@ subscriber/Subscriber.o: subscriber/Subscriber.cpp.o
 
 # target to build an object file
 subscriber/Subscriber.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/Subscriber.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/Subscriber.cpp.o
 .PHONY : subscriber/Subscriber.cpp.o
 
 subscriber/Subscriber.i: subscriber/Subscriber.cpp.i
@@ -8809,7 +8809,7 @@ subscriber/Subscriber.i: subscriber/Subscriber.cpp.i
 
 # target to preprocess a source file
 subscriber/Subscriber.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/Subscriber.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/Subscriber.cpp.i
 .PHONY : subscriber/Subscriber.cpp.i
 
 subscriber/Subscriber.s: subscriber/Subscriber.cpp.s
@@ -8817,7 +8817,7 @@ subscriber/Subscriber.s: subscriber/Subscriber.cpp.s
 
 # target to generate assembly for a file
 subscriber/Subscriber.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/Subscriber.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/Subscriber.cpp.s
 .PHONY : subscriber/Subscriber.cpp.s
 
 subscriber/TextEphemFile.o: subscriber/TextEphemFile.cpp.o
@@ -8825,7 +8825,7 @@ subscriber/TextEphemFile.o: subscriber/TextEphemFile.cpp.o
 
 # target to build an object file
 subscriber/TextEphemFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/TextEphemFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/TextEphemFile.cpp.o
 .PHONY : subscriber/TextEphemFile.cpp.o
 
 subscriber/TextEphemFile.i: subscriber/TextEphemFile.cpp.i
@@ -8833,7 +8833,7 @@ subscriber/TextEphemFile.i: subscriber/TextEphemFile.cpp.i
 
 # target to preprocess a source file
 subscriber/TextEphemFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/TextEphemFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/TextEphemFile.cpp.i
 .PHONY : subscriber/TextEphemFile.cpp.i
 
 subscriber/TextEphemFile.s: subscriber/TextEphemFile.cpp.s
@@ -8841,7 +8841,7 @@ subscriber/TextEphemFile.s: subscriber/TextEphemFile.cpp.s
 
 # target to generate assembly for a file
 subscriber/TextEphemFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/TextEphemFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/TextEphemFile.cpp.s
 .PHONY : subscriber/TextEphemFile.cpp.s
 
 subscriber/XyPlot.o: subscriber/XyPlot.cpp.o
@@ -8849,7 +8849,7 @@ subscriber/XyPlot.o: subscriber/XyPlot.cpp.o
 
 # target to build an object file
 subscriber/XyPlot.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/XyPlot.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/XyPlot.cpp.o
 .PHONY : subscriber/XyPlot.cpp.o
 
 subscriber/XyPlot.i: subscriber/XyPlot.cpp.i
@@ -8857,7 +8857,7 @@ subscriber/XyPlot.i: subscriber/XyPlot.cpp.i
 
 # target to preprocess a source file
 subscriber/XyPlot.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/XyPlot.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/XyPlot.cpp.i
 .PHONY : subscriber/XyPlot.cpp.i
 
 subscriber/XyPlot.s: subscriber/XyPlot.cpp.s
@@ -8865,7 +8865,7 @@ subscriber/XyPlot.s: subscriber/XyPlot.cpp.s
 
 # target to generate assembly for a file
 subscriber/XyPlot.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/XyPlot.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/subscriber/XyPlot.cpp.s
 .PHONY : subscriber/XyPlot.cpp.s
 
 util/A1Date.o: util/A1Date.cpp.o
@@ -8873,7 +8873,7 @@ util/A1Date.o: util/A1Date.cpp.o
 
 # target to build an object file
 util/A1Date.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Date.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Date.cpp.o
 .PHONY : util/A1Date.cpp.o
 
 util/A1Date.i: util/A1Date.cpp.i
@@ -8881,7 +8881,7 @@ util/A1Date.i: util/A1Date.cpp.i
 
 # target to preprocess a source file
 util/A1Date.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Date.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Date.cpp.i
 .PHONY : util/A1Date.cpp.i
 
 util/A1Date.s: util/A1Date.cpp.s
@@ -8889,7 +8889,7 @@ util/A1Date.s: util/A1Date.cpp.s
 
 # target to generate assembly for a file
 util/A1Date.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Date.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Date.cpp.s
 .PHONY : util/A1Date.cpp.s
 
 util/A1Mjd.o: util/A1Mjd.cpp.o
@@ -8897,7 +8897,7 @@ util/A1Mjd.o: util/A1Mjd.cpp.o
 
 # target to build an object file
 util/A1Mjd.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Mjd.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Mjd.cpp.o
 .PHONY : util/A1Mjd.cpp.o
 
 util/A1Mjd.i: util/A1Mjd.cpp.i
@@ -8905,7 +8905,7 @@ util/A1Mjd.i: util/A1Mjd.cpp.i
 
 # target to preprocess a source file
 util/A1Mjd.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Mjd.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Mjd.cpp.i
 .PHONY : util/A1Mjd.cpp.i
 
 util/A1Mjd.s: util/A1Mjd.cpp.s
@@ -8913,7 +8913,7 @@ util/A1Mjd.s: util/A1Mjd.cpp.s
 
 # target to generate assembly for a file
 util/A1Mjd.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Mjd.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/A1Mjd.cpp.s
 .PHONY : util/A1Mjd.cpp.s
 
 util/AngleUtil.o: util/AngleUtil.cpp.o
@@ -8921,7 +8921,7 @@ util/AngleUtil.o: util/AngleUtil.cpp.o
 
 # target to build an object file
 util/AngleUtil.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AngleUtil.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AngleUtil.cpp.o
 .PHONY : util/AngleUtil.cpp.o
 
 util/AngleUtil.i: util/AngleUtil.cpp.i
@@ -8929,7 +8929,7 @@ util/AngleUtil.i: util/AngleUtil.cpp.i
 
 # target to preprocess a source file
 util/AngleUtil.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AngleUtil.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AngleUtil.cpp.i
 .PHONY : util/AngleUtil.cpp.i
 
 util/AngleUtil.s: util/AngleUtil.cpp.s
@@ -8937,7 +8937,7 @@ util/AngleUtil.s: util/AngleUtil.cpp.s
 
 # target to generate assembly for a file
 util/AngleUtil.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AngleUtil.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AngleUtil.cpp.s
 .PHONY : util/AngleUtil.cpp.s
 
 util/AttitudeConversionUtility.o: util/AttitudeConversionUtility.cpp.o
@@ -8945,7 +8945,7 @@ util/AttitudeConversionUtility.o: util/AttitudeConversionUtility.cpp.o
 
 # target to build an object file
 util/AttitudeConversionUtility.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeConversionUtility.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeConversionUtility.cpp.o
 .PHONY : util/AttitudeConversionUtility.cpp.o
 
 util/AttitudeConversionUtility.i: util/AttitudeConversionUtility.cpp.i
@@ -8953,7 +8953,7 @@ util/AttitudeConversionUtility.i: util/AttitudeConversionUtility.cpp.i
 
 # target to preprocess a source file
 util/AttitudeConversionUtility.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeConversionUtility.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeConversionUtility.cpp.i
 .PHONY : util/AttitudeConversionUtility.cpp.i
 
 util/AttitudeConversionUtility.s: util/AttitudeConversionUtility.cpp.s
@@ -8961,7 +8961,7 @@ util/AttitudeConversionUtility.s: util/AttitudeConversionUtility.cpp.s
 
 # target to generate assembly for a file
 util/AttitudeConversionUtility.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeConversionUtility.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeConversionUtility.cpp.s
 .PHONY : util/AttitudeConversionUtility.cpp.s
 
 util/AttitudeUtil.o: util/AttitudeUtil.cpp.o
@@ -8969,7 +8969,7 @@ util/AttitudeUtil.o: util/AttitudeUtil.cpp.o
 
 # target to build an object file
 util/AttitudeUtil.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeUtil.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeUtil.cpp.o
 .PHONY : util/AttitudeUtil.cpp.o
 
 util/AttitudeUtil.i: util/AttitudeUtil.cpp.i
@@ -8977,7 +8977,7 @@ util/AttitudeUtil.i: util/AttitudeUtil.cpp.i
 
 # target to preprocess a source file
 util/AttitudeUtil.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeUtil.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeUtil.cpp.i
 .PHONY : util/AttitudeUtil.cpp.i
 
 util/AttitudeUtil.s: util/AttitudeUtil.cpp.s
@@ -8985,7 +8985,7 @@ util/AttitudeUtil.s: util/AttitudeUtil.cpp.s
 
 # target to generate assembly for a file
 util/AttitudeUtil.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeUtil.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/AttitudeUtil.cpp.s
 .PHONY : util/AttitudeUtil.cpp.s
 
 util/BaseException.o: util/BaseException.cpp.o
@@ -8993,7 +8993,7 @@ util/BaseException.o: util/BaseException.cpp.o
 
 # target to build an object file
 util/BaseException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BaseException.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BaseException.cpp.o
 .PHONY : util/BaseException.cpp.o
 
 util/BaseException.i: util/BaseException.cpp.i
@@ -9001,7 +9001,7 @@ util/BaseException.i: util/BaseException.cpp.i
 
 # target to preprocess a source file
 util/BaseException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BaseException.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BaseException.cpp.i
 .PHONY : util/BaseException.cpp.i
 
 util/BaseException.s: util/BaseException.cpp.s
@@ -9009,7 +9009,7 @@ util/BaseException.s: util/BaseException.cpp.s
 
 # target to generate assembly for a file
 util/BaseException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BaseException.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BaseException.cpp.s
 .PHONY : util/BaseException.cpp.s
 
 util/BodyFixedStateConverter.o: util/BodyFixedStateConverter.cpp.o
@@ -9017,7 +9017,7 @@ util/BodyFixedStateConverter.o: util/BodyFixedStateConverter.cpp.o
 
 # target to build an object file
 util/BodyFixedStateConverter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BodyFixedStateConverter.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BodyFixedStateConverter.cpp.o
 .PHONY : util/BodyFixedStateConverter.cpp.o
 
 util/BodyFixedStateConverter.i: util/BodyFixedStateConverter.cpp.i
@@ -9025,7 +9025,7 @@ util/BodyFixedStateConverter.i: util/BodyFixedStateConverter.cpp.i
 
 # target to preprocess a source file
 util/BodyFixedStateConverter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BodyFixedStateConverter.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BodyFixedStateConverter.cpp.i
 .PHONY : util/BodyFixedStateConverter.cpp.i
 
 util/BodyFixedStateConverter.s: util/BodyFixedStateConverter.cpp.s
@@ -9033,7 +9033,7 @@ util/BodyFixedStateConverter.s: util/BodyFixedStateConverter.cpp.s
 
 # target to generate assembly for a file
 util/BodyFixedStateConverter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BodyFixedStateConverter.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/BodyFixedStateConverter.cpp.s
 .PHONY : util/BodyFixedStateConverter.cpp.s
 
 util/CCSDSAEMEulerAngleSegment.o: util/CCSDSAEMEulerAngleSegment.cpp.o
@@ -9041,7 +9041,7 @@ util/CCSDSAEMEulerAngleSegment.o: util/CCSDSAEMEulerAngleSegment.cpp.o
 
 # target to build an object file
 util/CCSDSAEMEulerAngleSegment.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMEulerAngleSegment.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMEulerAngleSegment.cpp.o
 .PHONY : util/CCSDSAEMEulerAngleSegment.cpp.o
 
 util/CCSDSAEMEulerAngleSegment.i: util/CCSDSAEMEulerAngleSegment.cpp.i
@@ -9049,7 +9049,7 @@ util/CCSDSAEMEulerAngleSegment.i: util/CCSDSAEMEulerAngleSegment.cpp.i
 
 # target to preprocess a source file
 util/CCSDSAEMEulerAngleSegment.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMEulerAngleSegment.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMEulerAngleSegment.cpp.i
 .PHONY : util/CCSDSAEMEulerAngleSegment.cpp.i
 
 util/CCSDSAEMEulerAngleSegment.s: util/CCSDSAEMEulerAngleSegment.cpp.s
@@ -9057,7 +9057,7 @@ util/CCSDSAEMEulerAngleSegment.s: util/CCSDSAEMEulerAngleSegment.cpp.s
 
 # target to generate assembly for a file
 util/CCSDSAEMEulerAngleSegment.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMEulerAngleSegment.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMEulerAngleSegment.cpp.s
 .PHONY : util/CCSDSAEMEulerAngleSegment.cpp.s
 
 util/CCSDSAEMQuaternionSegment.o: util/CCSDSAEMQuaternionSegment.cpp.o
@@ -9065,7 +9065,7 @@ util/CCSDSAEMQuaternionSegment.o: util/CCSDSAEMQuaternionSegment.cpp.o
 
 # target to build an object file
 util/CCSDSAEMQuaternionSegment.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMQuaternionSegment.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMQuaternionSegment.cpp.o
 .PHONY : util/CCSDSAEMQuaternionSegment.cpp.o
 
 util/CCSDSAEMQuaternionSegment.i: util/CCSDSAEMQuaternionSegment.cpp.i
@@ -9073,7 +9073,7 @@ util/CCSDSAEMQuaternionSegment.i: util/CCSDSAEMQuaternionSegment.cpp.i
 
 # target to preprocess a source file
 util/CCSDSAEMQuaternionSegment.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMQuaternionSegment.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMQuaternionSegment.cpp.i
 .PHONY : util/CCSDSAEMQuaternionSegment.cpp.i
 
 util/CCSDSAEMQuaternionSegment.s: util/CCSDSAEMQuaternionSegment.cpp.s
@@ -9081,7 +9081,7 @@ util/CCSDSAEMQuaternionSegment.s: util/CCSDSAEMQuaternionSegment.cpp.s
 
 # target to generate assembly for a file
 util/CCSDSAEMQuaternionSegment.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMQuaternionSegment.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMQuaternionSegment.cpp.s
 .PHONY : util/CCSDSAEMQuaternionSegment.cpp.s
 
 util/CCSDSAEMReader.o: util/CCSDSAEMReader.cpp.o
@@ -9089,7 +9089,7 @@ util/CCSDSAEMReader.o: util/CCSDSAEMReader.cpp.o
 
 # target to build an object file
 util/CCSDSAEMReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMReader.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMReader.cpp.o
 .PHONY : util/CCSDSAEMReader.cpp.o
 
 util/CCSDSAEMReader.i: util/CCSDSAEMReader.cpp.i
@@ -9097,7 +9097,7 @@ util/CCSDSAEMReader.i: util/CCSDSAEMReader.cpp.i
 
 # target to preprocess a source file
 util/CCSDSAEMReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMReader.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMReader.cpp.i
 .PHONY : util/CCSDSAEMReader.cpp.i
 
 util/CCSDSAEMReader.s: util/CCSDSAEMReader.cpp.s
@@ -9105,7 +9105,7 @@ util/CCSDSAEMReader.s: util/CCSDSAEMReader.cpp.s
 
 # target to generate assembly for a file
 util/CCSDSAEMReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMReader.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMReader.cpp.s
 .PHONY : util/CCSDSAEMReader.cpp.s
 
 util/CCSDSAEMSegment.o: util/CCSDSAEMSegment.cpp.o
@@ -9113,7 +9113,7 @@ util/CCSDSAEMSegment.o: util/CCSDSAEMSegment.cpp.o
 
 # target to build an object file
 util/CCSDSAEMSegment.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMSegment.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMSegment.cpp.o
 .PHONY : util/CCSDSAEMSegment.cpp.o
 
 util/CCSDSAEMSegment.i: util/CCSDSAEMSegment.cpp.i
@@ -9121,7 +9121,7 @@ util/CCSDSAEMSegment.i: util/CCSDSAEMSegment.cpp.i
 
 # target to preprocess a source file
 util/CCSDSAEMSegment.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMSegment.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMSegment.cpp.i
 .PHONY : util/CCSDSAEMSegment.cpp.i
 
 util/CCSDSAEMSegment.s: util/CCSDSAEMSegment.cpp.s
@@ -9129,7 +9129,7 @@ util/CCSDSAEMSegment.s: util/CCSDSAEMSegment.cpp.s
 
 # target to generate assembly for a file
 util/CCSDSAEMSegment.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMSegment.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSAEMSegment.cpp.s
 .PHONY : util/CCSDSAEMSegment.cpp.s
 
 util/CCSDSEMReader.o: util/CCSDSEMReader.cpp.o
@@ -9137,7 +9137,7 @@ util/CCSDSEMReader.o: util/CCSDSEMReader.cpp.o
 
 # target to build an object file
 util/CCSDSEMReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMReader.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMReader.cpp.o
 .PHONY : util/CCSDSEMReader.cpp.o
 
 util/CCSDSEMReader.i: util/CCSDSEMReader.cpp.i
@@ -9145,7 +9145,7 @@ util/CCSDSEMReader.i: util/CCSDSEMReader.cpp.i
 
 # target to preprocess a source file
 util/CCSDSEMReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMReader.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMReader.cpp.i
 .PHONY : util/CCSDSEMReader.cpp.i
 
 util/CCSDSEMReader.s: util/CCSDSEMReader.cpp.s
@@ -9153,7 +9153,7 @@ util/CCSDSEMReader.s: util/CCSDSEMReader.cpp.s
 
 # target to generate assembly for a file
 util/CCSDSEMReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMReader.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMReader.cpp.s
 .PHONY : util/CCSDSEMReader.cpp.s
 
 util/CCSDSEMSegment.o: util/CCSDSEMSegment.cpp.o
@@ -9161,7 +9161,7 @@ util/CCSDSEMSegment.o: util/CCSDSEMSegment.cpp.o
 
 # target to build an object file
 util/CCSDSEMSegment.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMSegment.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMSegment.cpp.o
 .PHONY : util/CCSDSEMSegment.cpp.o
 
 util/CCSDSEMSegment.i: util/CCSDSEMSegment.cpp.i
@@ -9169,7 +9169,7 @@ util/CCSDSEMSegment.i: util/CCSDSEMSegment.cpp.i
 
 # target to preprocess a source file
 util/CCSDSEMSegment.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMSegment.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMSegment.cpp.i
 .PHONY : util/CCSDSEMSegment.cpp.i
 
 util/CCSDSEMSegment.s: util/CCSDSEMSegment.cpp.s
@@ -9177,7 +9177,7 @@ util/CCSDSEMSegment.s: util/CCSDSEMSegment.cpp.s
 
 # target to generate assembly for a file
 util/CCSDSEMSegment.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMSegment.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CCSDSEMSegment.cpp.s
 .PHONY : util/CCSDSEMSegment.cpp.s
 
 util/CalculationUtilities.o: util/CalculationUtilities.cpp.o
@@ -9185,7 +9185,7 @@ util/CalculationUtilities.o: util/CalculationUtilities.cpp.o
 
 # target to build an object file
 util/CalculationUtilities.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CalculationUtilities.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CalculationUtilities.cpp.o
 .PHONY : util/CalculationUtilities.cpp.o
 
 util/CalculationUtilities.i: util/CalculationUtilities.cpp.i
@@ -9193,7 +9193,7 @@ util/CalculationUtilities.i: util/CalculationUtilities.cpp.i
 
 # target to preprocess a source file
 util/CalculationUtilities.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CalculationUtilities.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CalculationUtilities.cpp.i
 .PHONY : util/CalculationUtilities.cpp.i
 
 util/CalculationUtilities.s: util/CalculationUtilities.cpp.s
@@ -9201,7 +9201,7 @@ util/CalculationUtilities.s: util/CalculationUtilities.cpp.s
 
 # target to generate assembly for a file
 util/CalculationUtilities.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CalculationUtilities.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/CalculationUtilities.cpp.s
 .PHONY : util/CalculationUtilities.cpp.s
 
 util/Code500EphemerisFile.o: util/Code500EphemerisFile.cpp.o
@@ -9209,7 +9209,7 @@ util/Code500EphemerisFile.o: util/Code500EphemerisFile.cpp.o
 
 # target to build an object file
 util/Code500EphemerisFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Code500EphemerisFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Code500EphemerisFile.cpp.o
 .PHONY : util/Code500EphemerisFile.cpp.o
 
 util/Code500EphemerisFile.i: util/Code500EphemerisFile.cpp.i
@@ -9217,7 +9217,7 @@ util/Code500EphemerisFile.i: util/Code500EphemerisFile.cpp.i
 
 # target to preprocess a source file
 util/Code500EphemerisFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Code500EphemerisFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Code500EphemerisFile.cpp.i
 .PHONY : util/Code500EphemerisFile.cpp.i
 
 util/Code500EphemerisFile.s: util/Code500EphemerisFile.cpp.s
@@ -9225,7 +9225,7 @@ util/Code500EphemerisFile.s: util/Code500EphemerisFile.cpp.s
 
 # target to generate assembly for a file
 util/Code500EphemerisFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Code500EphemerisFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Code500EphemerisFile.cpp.s
 .PHONY : util/Code500EphemerisFile.cpp.s
 
 util/ColorDatabase.o: util/ColorDatabase.cpp.o
@@ -9233,7 +9233,7 @@ util/ColorDatabase.o: util/ColorDatabase.cpp.o
 
 # target to build an object file
 util/ColorDatabase.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ColorDatabase.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ColorDatabase.cpp.o
 .PHONY : util/ColorDatabase.cpp.o
 
 util/ColorDatabase.i: util/ColorDatabase.cpp.i
@@ -9241,7 +9241,7 @@ util/ColorDatabase.i: util/ColorDatabase.cpp.i
 
 # target to preprocess a source file
 util/ColorDatabase.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ColorDatabase.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ColorDatabase.cpp.i
 .PHONY : util/ColorDatabase.cpp.i
 
 util/ColorDatabase.s: util/ColorDatabase.cpp.s
@@ -9249,7 +9249,7 @@ util/ColorDatabase.s: util/ColorDatabase.cpp.s
 
 # target to generate assembly for a file
 util/ColorDatabase.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ColorDatabase.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ColorDatabase.cpp.s
 .PHONY : util/ColorDatabase.cpp.s
 
 util/Date.o: util/Date.cpp.o
@@ -9257,7 +9257,7 @@ util/Date.o: util/Date.cpp.o
 
 # target to build an object file
 util/Date.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Date.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Date.cpp.o
 .PHONY : util/Date.cpp.o
 
 util/Date.i: util/Date.cpp.i
@@ -9265,7 +9265,7 @@ util/Date.i: util/Date.cpp.i
 
 # target to preprocess a source file
 util/Date.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Date.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Date.cpp.i
 .PHONY : util/Date.cpp.i
 
 util/Date.s: util/Date.cpp.s
@@ -9273,7 +9273,7 @@ util/Date.s: util/Date.cpp.s
 
 # target to generate assembly for a file
 util/Date.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Date.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Date.cpp.s
 .PHONY : util/Date.cpp.s
 
 util/DateUtil.o: util/DateUtil.cpp.o
@@ -9281,7 +9281,7 @@ util/DateUtil.o: util/DateUtil.cpp.o
 
 # target to build an object file
 util/DateUtil.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/DateUtil.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/DateUtil.cpp.o
 .PHONY : util/DateUtil.cpp.o
 
 util/DateUtil.i: util/DateUtil.cpp.i
@@ -9289,7 +9289,7 @@ util/DateUtil.i: util/DateUtil.cpp.i
 
 # target to preprocess a source file
 util/DateUtil.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/DateUtil.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/DateUtil.cpp.i
 .PHONY : util/DateUtil.cpp.i
 
 util/DateUtil.s: util/DateUtil.cpp.s
@@ -9297,7 +9297,7 @@ util/DateUtil.s: util/DateUtil.cpp.s
 
 # target to generate assembly for a file
 util/DateUtil.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/DateUtil.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/DateUtil.cpp.s
 .PHONY : util/DateUtil.cpp.s
 
 util/ElapsedTime.o: util/ElapsedTime.cpp.o
@@ -9305,7 +9305,7 @@ util/ElapsedTime.o: util/ElapsedTime.cpp.o
 
 # target to build an object file
 util/ElapsedTime.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ElapsedTime.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ElapsedTime.cpp.o
 .PHONY : util/ElapsedTime.cpp.o
 
 util/ElapsedTime.i: util/ElapsedTime.cpp.i
@@ -9313,7 +9313,7 @@ util/ElapsedTime.i: util/ElapsedTime.cpp.i
 
 # target to preprocess a source file
 util/ElapsedTime.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ElapsedTime.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ElapsedTime.cpp.i
 .PHONY : util/ElapsedTime.cpp.i
 
 util/ElapsedTime.s: util/ElapsedTime.cpp.s
@@ -9321,7 +9321,7 @@ util/ElapsedTime.s: util/ElapsedTime.cpp.s
 
 # target to generate assembly for a file
 util/ElapsedTime.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ElapsedTime.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/ElapsedTime.cpp.s
 .PHONY : util/ElapsedTime.cpp.s
 
 util/EopFile.o: util/EopFile.cpp.o
@@ -9329,7 +9329,7 @@ util/EopFile.o: util/EopFile.cpp.o
 
 # target to build an object file
 util/EopFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/EopFile.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/EopFile.cpp.o
 .PHONY : util/EopFile.cpp.o
 
 util/EopFile.i: util/EopFile.cpp.i
@@ -9337,7 +9337,7 @@ util/EopFile.i: util/EopFile.cpp.i
 
 # target to preprocess a source file
 util/EopFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/EopFile.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/EopFile.cpp.i
 .PHONY : util/EopFile.cpp.i
 
 util/EopFile.s: util/EopFile.cpp.s
@@ -9345,7 +9345,7 @@ util/EopFile.s: util/EopFile.cpp.s
 
 # target to generate assembly for a file
 util/EopFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/EopFile.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/EopFile.cpp.s
 .PHONY : util/EopFile.cpp.s
 
 util/FileManager.o: util/FileManager.cpp.o
@@ -9353,7 +9353,7 @@ util/FileManager.o: util/FileManager.cpp.o
 
 # target to build an object file
 util/FileManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileManager.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileManager.cpp.o
 .PHONY : util/FileManager.cpp.o
 
 util/FileManager.i: util/FileManager.cpp.i
@@ -9361,7 +9361,7 @@ util/FileManager.i: util/FileManager.cpp.i
 
 # target to preprocess a source file
 util/FileManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileManager.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileManager.cpp.i
 .PHONY : util/FileManager.cpp.i
 
 util/FileManager.s: util/FileManager.cpp.s
@@ -9369,7 +9369,7 @@ util/FileManager.s: util/FileManager.cpp.s
 
 # target to generate assembly for a file
 util/FileManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileManager.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileManager.cpp.s
 .PHONY : util/FileManager.cpp.s
 
 util/FileUtil.o: util/FileUtil.cpp.o
@@ -9377,7 +9377,7 @@ util/FileUtil.o: util/FileUtil.cpp.o
 
 # target to build an object file
 util/FileUtil.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileUtil.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileUtil.cpp.o
 .PHONY : util/FileUtil.cpp.o
 
 util/FileUtil.i: util/FileUtil.cpp.i
@@ -9385,7 +9385,7 @@ util/FileUtil.i: util/FileUtil.cpp.i
 
 # target to preprocess a source file
 util/FileUtil.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileUtil.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileUtil.cpp.i
 .PHONY : util/FileUtil.cpp.i
 
 util/FileUtil.s: util/FileUtil.cpp.s
@@ -9393,7 +9393,7 @@ util/FileUtil.s: util/FileUtil.cpp.s
 
 # target to generate assembly for a file
 util/FileUtil.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileUtil.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/FileUtil.cpp.s
 .PHONY : util/FileUtil.cpp.s
 
 util/Frozen.o: util/Frozen.cpp.o
@@ -9401,7 +9401,7 @@ util/Frozen.o: util/Frozen.cpp.o
 
 # target to build an object file
 util/Frozen.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Frozen.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Frozen.cpp.o
 .PHONY : util/Frozen.cpp.o
 
 util/Frozen.i: util/Frozen.cpp.i
@@ -9409,7 +9409,7 @@ util/Frozen.i: util/Frozen.cpp.i
 
 # target to preprocess a source file
 util/Frozen.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Frozen.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Frozen.cpp.i
 .PHONY : util/Frozen.cpp.i
 
 util/Frozen.s: util/Frozen.cpp.s
@@ -9417,7 +9417,7 @@ util/Frozen.s: util/Frozen.cpp.s
 
 # target to generate assembly for a file
 util/Frozen.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Frozen.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Frozen.cpp.s
 .PHONY : util/Frozen.cpp.s
 
 util/GmatGlobal.o: util/GmatGlobal.cpp.o
@@ -9425,7 +9425,7 @@ util/GmatGlobal.o: util/GmatGlobal.cpp.o
 
 # target to build an object file
 util/GmatGlobal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GmatGlobal.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GmatGlobal.cpp.o
 .PHONY : util/GmatGlobal.cpp.o
 
 util/GmatGlobal.i: util/GmatGlobal.cpp.i
@@ -9433,7 +9433,7 @@ util/GmatGlobal.i: util/GmatGlobal.cpp.i
 
 # target to preprocess a source file
 util/GmatGlobal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GmatGlobal.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GmatGlobal.cpp.i
 .PHONY : util/GmatGlobal.cpp.i
 
 util/GmatGlobal.s: util/GmatGlobal.cpp.s
@@ -9441,7 +9441,7 @@ util/GmatGlobal.s: util/GmatGlobal.cpp.s
 
 # target to generate assembly for a file
 util/GmatGlobal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GmatGlobal.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GmatGlobal.cpp.s
 .PHONY : util/GmatGlobal.cpp.s
 
 util/GravityFileUtil.o: util/GravityFileUtil.cpp.o
@@ -9449,7 +9449,7 @@ util/GravityFileUtil.o: util/GravityFileUtil.cpp.o
 
 # target to build an object file
 util/GravityFileUtil.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GravityFileUtil.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GravityFileUtil.cpp.o
 .PHONY : util/GravityFileUtil.cpp.o
 
 util/GravityFileUtil.i: util/GravityFileUtil.cpp.i
@@ -9457,7 +9457,7 @@ util/GravityFileUtil.i: util/GravityFileUtil.cpp.i
 
 # target to preprocess a source file
 util/GravityFileUtil.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GravityFileUtil.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GravityFileUtil.cpp.i
 .PHONY : util/GravityFileUtil.cpp.i
 
 util/GravityFileUtil.s: util/GravityFileUtil.cpp.s
@@ -9465,7 +9465,7 @@ util/GravityFileUtil.s: util/GravityFileUtil.cpp.s
 
 # target to generate assembly for a file
 util/GravityFileUtil.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GravityFileUtil.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GravityFileUtil.cpp.s
 .PHONY : util/GravityFileUtil.cpp.s
 
 util/GregorianDate.o: util/GregorianDate.cpp.o
@@ -9473,7 +9473,7 @@ util/GregorianDate.o: util/GregorianDate.cpp.o
 
 # target to build an object file
 util/GregorianDate.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GregorianDate.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GregorianDate.cpp.o
 .PHONY : util/GregorianDate.cpp.o
 
 util/GregorianDate.i: util/GregorianDate.cpp.i
@@ -9481,7 +9481,7 @@ util/GregorianDate.i: util/GregorianDate.cpp.i
 
 # target to preprocess a source file
 util/GregorianDate.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GregorianDate.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GregorianDate.cpp.i
 .PHONY : util/GregorianDate.cpp.i
 
 util/GregorianDate.s: util/GregorianDate.cpp.s
@@ -9489,7 +9489,7 @@ util/GregorianDate.s: util/GregorianDate.cpp.s
 
 # target to generate assembly for a file
 util/GregorianDate.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GregorianDate.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/GregorianDate.cpp.s
 .PHONY : util/GregorianDate.cpp.s
 
 util/LeapSecsFileReader.o: util/LeapSecsFileReader.cpp.o
@@ -9497,7 +9497,7 @@ util/LeapSecsFileReader.o: util/LeapSecsFileReader.cpp.o
 
 # target to build an object file
 util/LeapSecsFileReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/LeapSecsFileReader.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/LeapSecsFileReader.cpp.o
 .PHONY : util/LeapSecsFileReader.cpp.o
 
 util/LeapSecsFileReader.i: util/LeapSecsFileReader.cpp.i
@@ -9505,7 +9505,7 @@ util/LeapSecsFileReader.i: util/LeapSecsFileReader.cpp.i
 
 # target to preprocess a source file
 util/LeapSecsFileReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/LeapSecsFileReader.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/LeapSecsFileReader.cpp.i
 .PHONY : util/LeapSecsFileReader.cpp.i
 
 util/LeapSecsFileReader.s: util/LeapSecsFileReader.cpp.s
@@ -9513,7 +9513,7 @@ util/LeapSecsFileReader.s: util/LeapSecsFileReader.cpp.s
 
 # target to generate assembly for a file
 util/LeapSecsFileReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/LeapSecsFileReader.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/LeapSecsFileReader.cpp.s
 .PHONY : util/LeapSecsFileReader.cpp.s
 
 util/Linear.o: util/Linear.cpp.o
@@ -9521,7 +9521,7 @@ util/Linear.o: util/Linear.cpp.o
 
 # target to build an object file
 util/Linear.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Linear.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Linear.cpp.o
 .PHONY : util/Linear.cpp.o
 
 util/Linear.i: util/Linear.cpp.i
@@ -9529,7 +9529,7 @@ util/Linear.i: util/Linear.cpp.i
 
 # target to preprocess a source file
 util/Linear.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Linear.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Linear.cpp.i
 .PHONY : util/Linear.cpp.i
 
 util/Linear.s: util/Linear.cpp.s
@@ -9537,7 +9537,7 @@ util/Linear.s: util/Linear.cpp.s
 
 # target to generate assembly for a file
 util/Linear.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Linear.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Linear.cpp.s
 .PHONY : util/Linear.cpp.s
 
 util/MemoryTracker.o: util/MemoryTracker.cpp.o
@@ -9545,7 +9545,7 @@ util/MemoryTracker.o: util/MemoryTracker.cpp.o
 
 # target to build an object file
 util/MemoryTracker.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MemoryTracker.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MemoryTracker.cpp.o
 .PHONY : util/MemoryTracker.cpp.o
 
 util/MemoryTracker.i: util/MemoryTracker.cpp.i
@@ -9553,7 +9553,7 @@ util/MemoryTracker.i: util/MemoryTracker.cpp.i
 
 # target to preprocess a source file
 util/MemoryTracker.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MemoryTracker.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MemoryTracker.cpp.i
 .PHONY : util/MemoryTracker.cpp.i
 
 util/MemoryTracker.s: util/MemoryTracker.cpp.s
@@ -9561,7 +9561,7 @@ util/MemoryTracker.s: util/MemoryTracker.cpp.s
 
 # target to generate assembly for a file
 util/MemoryTracker.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MemoryTracker.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MemoryTracker.cpp.s
 .PHONY : util/MemoryTracker.cpp.s
 
 util/MessageInterface.o: util/MessageInterface.cpp.o
@@ -9569,7 +9569,7 @@ util/MessageInterface.o: util/MessageInterface.cpp.o
 
 # target to build an object file
 util/MessageInterface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageInterface.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageInterface.cpp.o
 .PHONY : util/MessageInterface.cpp.o
 
 util/MessageInterface.i: util/MessageInterface.cpp.i
@@ -9577,7 +9577,7 @@ util/MessageInterface.i: util/MessageInterface.cpp.i
 
 # target to preprocess a source file
 util/MessageInterface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageInterface.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageInterface.cpp.i
 .PHONY : util/MessageInterface.cpp.i
 
 util/MessageInterface.s: util/MessageInterface.cpp.s
@@ -9585,7 +9585,7 @@ util/MessageInterface.s: util/MessageInterface.cpp.s
 
 # target to generate assembly for a file
 util/MessageInterface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageInterface.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageInterface.cpp.s
 .PHONY : util/MessageInterface.cpp.s
 
 util/MessageReceiver.o: util/MessageReceiver.cpp.o
@@ -9593,7 +9593,7 @@ util/MessageReceiver.o: util/MessageReceiver.cpp.o
 
 # target to build an object file
 util/MessageReceiver.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageReceiver.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageReceiver.cpp.o
 .PHONY : util/MessageReceiver.cpp.o
 
 util/MessageReceiver.i: util/MessageReceiver.cpp.i
@@ -9601,7 +9601,7 @@ util/MessageReceiver.i: util/MessageReceiver.cpp.i
 
 # target to preprocess a source file
 util/MessageReceiver.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageReceiver.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageReceiver.cpp.i
 .PHONY : util/MessageReceiver.cpp.i
 
 util/MessageReceiver.s: util/MessageReceiver.cpp.s
@@ -9609,7 +9609,7 @@ util/MessageReceiver.s: util/MessageReceiver.cpp.s
 
 # target to generate assembly for a file
 util/MessageReceiver.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageReceiver.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/MessageReceiver.cpp.s
 .PHONY : util/MessageReceiver.cpp.s
 
 util/OrbitDesignerTime.o: util/OrbitDesignerTime.cpp.o
@@ -9617,7 +9617,7 @@ util/OrbitDesignerTime.o: util/OrbitDesignerTime.cpp.o
 
 # target to build an object file
 util/OrbitDesignerTime.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/OrbitDesignerTime.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/OrbitDesignerTime.cpp.o
 .PHONY : util/OrbitDesignerTime.cpp.o
 
 util/OrbitDesignerTime.i: util/OrbitDesignerTime.cpp.i
@@ -9625,7 +9625,7 @@ util/OrbitDesignerTime.i: util/OrbitDesignerTime.cpp.i
 
 # target to preprocess a source file
 util/OrbitDesignerTime.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/OrbitDesignerTime.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/OrbitDesignerTime.cpp.i
 .PHONY : util/OrbitDesignerTime.cpp.i
 
 util/OrbitDesignerTime.s: util/OrbitDesignerTime.cpp.s
@@ -9633,7 +9633,7 @@ util/OrbitDesignerTime.s: util/OrbitDesignerTime.cpp.s
 
 # target to generate assembly for a file
 util/OrbitDesignerTime.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/OrbitDesignerTime.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/OrbitDesignerTime.cpp.s
 .PHONY : util/OrbitDesignerTime.cpp.s
 
 util/RealUtilities.o: util/RealUtilities.cpp.o
@@ -9641,7 +9641,7 @@ util/RealUtilities.o: util/RealUtilities.cpp.o
 
 # target to build an object file
 util/RealUtilities.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RealUtilities.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RealUtilities.cpp.o
 .PHONY : util/RealUtilities.cpp.o
 
 util/RealUtilities.i: util/RealUtilities.cpp.i
@@ -9649,7 +9649,7 @@ util/RealUtilities.i: util/RealUtilities.cpp.i
 
 # target to preprocess a source file
 util/RealUtilities.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RealUtilities.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RealUtilities.cpp.i
 .PHONY : util/RealUtilities.cpp.i
 
 util/RealUtilities.s: util/RealUtilities.cpp.s
@@ -9657,7 +9657,7 @@ util/RealUtilities.s: util/RealUtilities.cpp.s
 
 # target to generate assembly for a file
 util/RealUtilities.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RealUtilities.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RealUtilities.cpp.s
 .PHONY : util/RealUtilities.cpp.s
 
 util/RepeatGroundTrack.o: util/RepeatGroundTrack.cpp.o
@@ -9665,7 +9665,7 @@ util/RepeatGroundTrack.o: util/RepeatGroundTrack.cpp.o
 
 # target to build an object file
 util/RepeatGroundTrack.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatGroundTrack.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatGroundTrack.cpp.o
 .PHONY : util/RepeatGroundTrack.cpp.o
 
 util/RepeatGroundTrack.i: util/RepeatGroundTrack.cpp.i
@@ -9673,7 +9673,7 @@ util/RepeatGroundTrack.i: util/RepeatGroundTrack.cpp.i
 
 # target to preprocess a source file
 util/RepeatGroundTrack.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatGroundTrack.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatGroundTrack.cpp.i
 .PHONY : util/RepeatGroundTrack.cpp.i
 
 util/RepeatGroundTrack.s: util/RepeatGroundTrack.cpp.s
@@ -9681,7 +9681,7 @@ util/RepeatGroundTrack.s: util/RepeatGroundTrack.cpp.s
 
 # target to generate assembly for a file
 util/RepeatGroundTrack.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatGroundTrack.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatGroundTrack.cpp.s
 .PHONY : util/RepeatGroundTrack.cpp.s
 
 util/RepeatSunSync.o: util/RepeatSunSync.cpp.o
@@ -9689,7 +9689,7 @@ util/RepeatSunSync.o: util/RepeatSunSync.cpp.o
 
 # target to build an object file
 util/RepeatSunSync.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatSunSync.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatSunSync.cpp.o
 .PHONY : util/RepeatSunSync.cpp.o
 
 util/RepeatSunSync.i: util/RepeatSunSync.cpp.i
@@ -9697,7 +9697,7 @@ util/RepeatSunSync.i: util/RepeatSunSync.cpp.i
 
 # target to preprocess a source file
 util/RepeatSunSync.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatSunSync.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatSunSync.cpp.i
 .PHONY : util/RepeatSunSync.cpp.i
 
 util/RepeatSunSync.s: util/RepeatSunSync.cpp.s
@@ -9705,7 +9705,7 @@ util/RepeatSunSync.s: util/RepeatSunSync.cpp.s
 
 # target to generate assembly for a file
 util/RepeatSunSync.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatSunSync.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RepeatSunSync.cpp.s
 .PHONY : util/RepeatSunSync.cpp.s
 
 util/RgbColor.o: util/RgbColor.cpp.o
@@ -9713,7 +9713,7 @@ util/RgbColor.o: util/RgbColor.cpp.o
 
 # target to build an object file
 util/RgbColor.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RgbColor.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RgbColor.cpp.o
 .PHONY : util/RgbColor.cpp.o
 
 util/RgbColor.i: util/RgbColor.cpp.i
@@ -9721,7 +9721,7 @@ util/RgbColor.i: util/RgbColor.cpp.i
 
 # target to preprocess a source file
 util/RgbColor.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RgbColor.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RgbColor.cpp.i
 .PHONY : util/RgbColor.cpp.i
 
 util/RgbColor.s: util/RgbColor.cpp.s
@@ -9729,7 +9729,7 @@ util/RgbColor.s: util/RgbColor.cpp.s
 
 # target to generate assembly for a file
 util/RgbColor.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RgbColor.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/RgbColor.cpp.s
 .PHONY : util/RgbColor.cpp.s
 
 util/Rmatrix.o: util/Rmatrix.cpp.o
@@ -9737,7 +9737,7 @@ util/Rmatrix.o: util/Rmatrix.cpp.o
 
 # target to build an object file
 util/Rmatrix.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix.cpp.o
 .PHONY : util/Rmatrix.cpp.o
 
 util/Rmatrix.i: util/Rmatrix.cpp.i
@@ -9745,7 +9745,7 @@ util/Rmatrix.i: util/Rmatrix.cpp.i
 
 # target to preprocess a source file
 util/Rmatrix.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix.cpp.i
 .PHONY : util/Rmatrix.cpp.i
 
 util/Rmatrix.s: util/Rmatrix.cpp.s
@@ -9753,7 +9753,7 @@ util/Rmatrix.s: util/Rmatrix.cpp.s
 
 # target to generate assembly for a file
 util/Rmatrix.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix.cpp.s
 .PHONY : util/Rmatrix.cpp.s
 
 util/Rmatrix33.o: util/Rmatrix33.cpp.o
@@ -9761,7 +9761,7 @@ util/Rmatrix33.o: util/Rmatrix33.cpp.o
 
 # target to build an object file
 util/Rmatrix33.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix33.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix33.cpp.o
 .PHONY : util/Rmatrix33.cpp.o
 
 util/Rmatrix33.i: util/Rmatrix33.cpp.i
@@ -9769,7 +9769,7 @@ util/Rmatrix33.i: util/Rmatrix33.cpp.i
 
 # target to preprocess a source file
 util/Rmatrix33.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix33.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix33.cpp.i
 .PHONY : util/Rmatrix33.cpp.i
 
 util/Rmatrix33.s: util/Rmatrix33.cpp.s
@@ -9777,7 +9777,7 @@ util/Rmatrix33.s: util/Rmatrix33.cpp.s
 
 # target to generate assembly for a file
 util/Rmatrix33.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix33.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix33.cpp.s
 .PHONY : util/Rmatrix33.cpp.s
 
 util/Rmatrix66.o: util/Rmatrix66.cpp.o
@@ -9785,7 +9785,7 @@ util/Rmatrix66.o: util/Rmatrix66.cpp.o
 
 # target to build an object file
 util/Rmatrix66.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix66.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix66.cpp.o
 .PHONY : util/Rmatrix66.cpp.o
 
 util/Rmatrix66.i: util/Rmatrix66.cpp.i
@@ -9793,7 +9793,7 @@ util/Rmatrix66.i: util/Rmatrix66.cpp.i
 
 # target to preprocess a source file
 util/Rmatrix66.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix66.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix66.cpp.i
 .PHONY : util/Rmatrix66.cpp.i
 
 util/Rmatrix66.s: util/Rmatrix66.cpp.s
@@ -9801,7 +9801,7 @@ util/Rmatrix66.s: util/Rmatrix66.cpp.s
 
 # target to generate assembly for a file
 util/Rmatrix66.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix66.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rmatrix66.cpp.s
 .PHONY : util/Rmatrix66.cpp.s
 
 util/Rvector.o: util/Rvector.cpp.o
@@ -9809,7 +9809,7 @@ util/Rvector.o: util/Rvector.cpp.o
 
 # target to build an object file
 util/Rvector.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector.cpp.o
 .PHONY : util/Rvector.cpp.o
 
 util/Rvector.i: util/Rvector.cpp.i
@@ -9817,7 +9817,7 @@ util/Rvector.i: util/Rvector.cpp.i
 
 # target to preprocess a source file
 util/Rvector.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector.cpp.i
 .PHONY : util/Rvector.cpp.i
 
 util/Rvector.s: util/Rvector.cpp.s
@@ -9825,7 +9825,7 @@ util/Rvector.s: util/Rvector.cpp.s
 
 # target to generate assembly for a file
 util/Rvector.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector.cpp.s
 .PHONY : util/Rvector.cpp.s
 
 util/Rvector3.o: util/Rvector3.cpp.o
@@ -9833,7 +9833,7 @@ util/Rvector3.o: util/Rvector3.cpp.o
 
 # target to build an object file
 util/Rvector3.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector3.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector3.cpp.o
 .PHONY : util/Rvector3.cpp.o
 
 util/Rvector3.i: util/Rvector3.cpp.i
@@ -9841,7 +9841,7 @@ util/Rvector3.i: util/Rvector3.cpp.i
 
 # target to preprocess a source file
 util/Rvector3.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector3.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector3.cpp.i
 .PHONY : util/Rvector3.cpp.i
 
 util/Rvector3.s: util/Rvector3.cpp.s
@@ -9849,7 +9849,7 @@ util/Rvector3.s: util/Rvector3.cpp.s
 
 # target to generate assembly for a file
 util/Rvector3.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector3.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector3.cpp.s
 .PHONY : util/Rvector3.cpp.s
 
 util/Rvector6.o: util/Rvector6.cpp.o
@@ -9857,7 +9857,7 @@ util/Rvector6.o: util/Rvector6.cpp.o
 
 # target to build an object file
 util/Rvector6.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector6.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector6.cpp.o
 .PHONY : util/Rvector6.cpp.o
 
 util/Rvector6.i: util/Rvector6.cpp.i
@@ -9865,7 +9865,7 @@ util/Rvector6.i: util/Rvector6.cpp.i
 
 # target to preprocess a source file
 util/Rvector6.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector6.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector6.cpp.i
 .PHONY : util/Rvector6.cpp.i
 
 util/Rvector6.s: util/Rvector6.cpp.s
@@ -9873,7 +9873,7 @@ util/Rvector6.s: util/Rvector6.cpp.s
 
 # target to generate assembly for a file
 util/Rvector6.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector6.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/Rvector6.cpp.s
 .PHONY : util/Rvector6.cpp.s
 
 util/SPADFileReader.o: util/SPADFileReader.cpp.o
@@ -9881,7 +9881,7 @@ util/SPADFileReader.o: util/SPADFileReader.cpp.o
 
 # target to build an object file
 util/SPADFileReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SPADFileReader.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SPADFileReader.cpp.o
 .PHONY : util/SPADFileReader.cpp.o
 
 util/SPADFileReader.i: util/SPADFileReader.cpp.i
@@ -9889,7 +9889,7 @@ util/SPADFileReader.i: util/SPADFileReader.cpp.i
 
 # target to preprocess a source file
 util/SPADFileReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SPADFileReader.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SPADFileReader.cpp.i
 .PHONY : util/SPADFileReader.cpp.i
 
 util/SPADFileReader.s: util/SPADFileReader.cpp.s
@@ -9897,7 +9897,7 @@ util/SPADFileReader.s: util/SPADFileReader.cpp.s
 
 # target to generate assembly for a file
 util/SPADFileReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SPADFileReader.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SPADFileReader.cpp.s
 .PHONY : util/SPADFileReader.cpp.s
 
 util/SpiceAttitudeKernelReader.o: util/SpiceAttitudeKernelReader.cpp.o
@@ -9905,7 +9905,7 @@ util/SpiceAttitudeKernelReader.o: util/SpiceAttitudeKernelReader.cpp.o
 
 # target to build an object file
 util/SpiceAttitudeKernelReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceAttitudeKernelReader.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceAttitudeKernelReader.cpp.o
 .PHONY : util/SpiceAttitudeKernelReader.cpp.o
 
 util/SpiceAttitudeKernelReader.i: util/SpiceAttitudeKernelReader.cpp.i
@@ -9913,7 +9913,7 @@ util/SpiceAttitudeKernelReader.i: util/SpiceAttitudeKernelReader.cpp.i
 
 # target to preprocess a source file
 util/SpiceAttitudeKernelReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceAttitudeKernelReader.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceAttitudeKernelReader.cpp.i
 .PHONY : util/SpiceAttitudeKernelReader.cpp.i
 
 util/SpiceAttitudeKernelReader.s: util/SpiceAttitudeKernelReader.cpp.s
@@ -9921,7 +9921,7 @@ util/SpiceAttitudeKernelReader.s: util/SpiceAttitudeKernelReader.cpp.s
 
 # target to generate assembly for a file
 util/SpiceAttitudeKernelReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceAttitudeKernelReader.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceAttitudeKernelReader.cpp.s
 .PHONY : util/SpiceAttitudeKernelReader.cpp.s
 
 util/SpiceInterface.o: util/SpiceInterface.cpp.o
@@ -9929,7 +9929,7 @@ util/SpiceInterface.o: util/SpiceInterface.cpp.o
 
 # target to build an object file
 util/SpiceInterface.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceInterface.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceInterface.cpp.o
 .PHONY : util/SpiceInterface.cpp.o
 
 util/SpiceInterface.i: util/SpiceInterface.cpp.i
@@ -9937,7 +9937,7 @@ util/SpiceInterface.i: util/SpiceInterface.cpp.i
 
 # target to preprocess a source file
 util/SpiceInterface.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceInterface.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceInterface.cpp.i
 .PHONY : util/SpiceInterface.cpp.i
 
 util/SpiceInterface.s: util/SpiceInterface.cpp.s
@@ -9945,7 +9945,7 @@ util/SpiceInterface.s: util/SpiceInterface.cpp.s
 
 # target to generate assembly for a file
 util/SpiceInterface.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceInterface.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceInterface.cpp.s
 .PHONY : util/SpiceInterface.cpp.s
 
 util/SpiceKernelReader.o: util/SpiceKernelReader.cpp.o
@@ -9953,7 +9953,7 @@ util/SpiceKernelReader.o: util/SpiceKernelReader.cpp.o
 
 # target to build an object file
 util/SpiceKernelReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelReader.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelReader.cpp.o
 .PHONY : util/SpiceKernelReader.cpp.o
 
 util/SpiceKernelReader.i: util/SpiceKernelReader.cpp.i
@@ -9961,7 +9961,7 @@ util/SpiceKernelReader.i: util/SpiceKernelReader.cpp.i
 
 # target to preprocess a source file
 util/SpiceKernelReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelReader.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelReader.cpp.i
 .PHONY : util/SpiceKernelReader.cpp.i
 
 util/SpiceKernelReader.s: util/SpiceKernelReader.cpp.s
@@ -9969,7 +9969,7 @@ util/SpiceKernelReader.s: util/SpiceKernelReader.cpp.s
 
 # target to generate assembly for a file
 util/SpiceKernelReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelReader.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelReader.cpp.s
 .PHONY : util/SpiceKernelReader.cpp.s
 
 util/SpiceKernelWriter.o: util/SpiceKernelWriter.cpp.o
@@ -9977,7 +9977,7 @@ util/SpiceKernelWriter.o: util/SpiceKernelWriter.cpp.o
 
 # target to build an object file
 util/SpiceKernelWriter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelWriter.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelWriter.cpp.o
 .PHONY : util/SpiceKernelWriter.cpp.o
 
 util/SpiceKernelWriter.i: util/SpiceKernelWriter.cpp.i
@@ -9985,7 +9985,7 @@ util/SpiceKernelWriter.i: util/SpiceKernelWriter.cpp.i
 
 # target to preprocess a source file
 util/SpiceKernelWriter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelWriter.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelWriter.cpp.i
 .PHONY : util/SpiceKernelWriter.cpp.i
 
 util/SpiceKernelWriter.s: util/SpiceKernelWriter.cpp.s
@@ -9993,7 +9993,7 @@ util/SpiceKernelWriter.s: util/SpiceKernelWriter.cpp.s
 
 # target to generate assembly for a file
 util/SpiceKernelWriter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelWriter.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceKernelWriter.cpp.s
 .PHONY : util/SpiceKernelWriter.cpp.s
 
 util/SpiceOrbitKernelReader.o: util/SpiceOrbitKernelReader.cpp.o
@@ -10001,7 +10001,7 @@ util/SpiceOrbitKernelReader.o: util/SpiceOrbitKernelReader.cpp.o
 
 # target to build an object file
 util/SpiceOrbitKernelReader.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelReader.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelReader.cpp.o
 .PHONY : util/SpiceOrbitKernelReader.cpp.o
 
 util/SpiceOrbitKernelReader.i: util/SpiceOrbitKernelReader.cpp.i
@@ -10009,7 +10009,7 @@ util/SpiceOrbitKernelReader.i: util/SpiceOrbitKernelReader.cpp.i
 
 # target to preprocess a source file
 util/SpiceOrbitKernelReader.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelReader.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelReader.cpp.i
 .PHONY : util/SpiceOrbitKernelReader.cpp.i
 
 util/SpiceOrbitKernelReader.s: util/SpiceOrbitKernelReader.cpp.s
@@ -10017,7 +10017,7 @@ util/SpiceOrbitKernelReader.s: util/SpiceOrbitKernelReader.cpp.s
 
 # target to generate assembly for a file
 util/SpiceOrbitKernelReader.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelReader.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelReader.cpp.s
 .PHONY : util/SpiceOrbitKernelReader.cpp.s
 
 util/SpiceOrbitKernelWriter.o: util/SpiceOrbitKernelWriter.cpp.o
@@ -10025,7 +10025,7 @@ util/SpiceOrbitKernelWriter.o: util/SpiceOrbitKernelWriter.cpp.o
 
 # target to build an object file
 util/SpiceOrbitKernelWriter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelWriter.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelWriter.cpp.o
 .PHONY : util/SpiceOrbitKernelWriter.cpp.o
 
 util/SpiceOrbitKernelWriter.i: util/SpiceOrbitKernelWriter.cpp.i
@@ -10033,7 +10033,7 @@ util/SpiceOrbitKernelWriter.i: util/SpiceOrbitKernelWriter.cpp.i
 
 # target to preprocess a source file
 util/SpiceOrbitKernelWriter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelWriter.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelWriter.cpp.i
 .PHONY : util/SpiceOrbitKernelWriter.cpp.i
 
 util/SpiceOrbitKernelWriter.s: util/SpiceOrbitKernelWriter.cpp.s
@@ -10041,7 +10041,7 @@ util/SpiceOrbitKernelWriter.s: util/SpiceOrbitKernelWriter.cpp.s
 
 # target to generate assembly for a file
 util/SpiceOrbitKernelWriter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelWriter.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SpiceOrbitKernelWriter.cpp.s
 .PHONY : util/SpiceOrbitKernelWriter.cpp.s
 
 util/StateConversionUtil.o: util/StateConversionUtil.cpp.o
@@ -10049,7 +10049,7 @@ util/StateConversionUtil.o: util/StateConversionUtil.cpp.o
 
 # target to build an object file
 util/StateConversionUtil.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StateConversionUtil.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StateConversionUtil.cpp.o
 .PHONY : util/StateConversionUtil.cpp.o
 
 util/StateConversionUtil.i: util/StateConversionUtil.cpp.i
@@ -10057,7 +10057,7 @@ util/StateConversionUtil.i: util/StateConversionUtil.cpp.i
 
 # target to preprocess a source file
 util/StateConversionUtil.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StateConversionUtil.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StateConversionUtil.cpp.i
 .PHONY : util/StateConversionUtil.cpp.i
 
 util/StateConversionUtil.s: util/StateConversionUtil.cpp.s
@@ -10065,7 +10065,7 @@ util/StateConversionUtil.s: util/StateConversionUtil.cpp.s
 
 # target to generate assembly for a file
 util/StateConversionUtil.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StateConversionUtil.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StateConversionUtil.cpp.s
 .PHONY : util/StateConversionUtil.cpp.s
 
 util/StringTokenizer.o: util/StringTokenizer.cpp.o
@@ -10073,7 +10073,7 @@ util/StringTokenizer.o: util/StringTokenizer.cpp.o
 
 # target to build an object file
 util/StringTokenizer.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringTokenizer.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringTokenizer.cpp.o
 .PHONY : util/StringTokenizer.cpp.o
 
 util/StringTokenizer.i: util/StringTokenizer.cpp.i
@@ -10081,7 +10081,7 @@ util/StringTokenizer.i: util/StringTokenizer.cpp.i
 
 # target to preprocess a source file
 util/StringTokenizer.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringTokenizer.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringTokenizer.cpp.i
 .PHONY : util/StringTokenizer.cpp.i
 
 util/StringTokenizer.s: util/StringTokenizer.cpp.s
@@ -10089,7 +10089,7 @@ util/StringTokenizer.s: util/StringTokenizer.cpp.s
 
 # target to generate assembly for a file
 util/StringTokenizer.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringTokenizer.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringTokenizer.cpp.s
 .PHONY : util/StringTokenizer.cpp.s
 
 util/StringUtil.o: util/StringUtil.cpp.o
@@ -10097,7 +10097,7 @@ util/StringUtil.o: util/StringUtil.cpp.o
 
 # target to build an object file
 util/StringUtil.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringUtil.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringUtil.cpp.o
 .PHONY : util/StringUtil.cpp.o
 
 util/StringUtil.i: util/StringUtil.cpp.i
@@ -10105,7 +10105,7 @@ util/StringUtil.i: util/StringUtil.cpp.i
 
 # target to preprocess a source file
 util/StringUtil.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringUtil.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringUtil.cpp.i
 .PHONY : util/StringUtil.cpp.i
 
 util/StringUtil.s: util/StringUtil.cpp.s
@@ -10113,7 +10113,7 @@ util/StringUtil.s: util/StringUtil.cpp.s
 
 # target to generate assembly for a file
 util/StringUtil.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringUtil.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/StringUtil.cpp.s
 .PHONY : util/StringUtil.cpp.s
 
 util/SunSync.o: util/SunSync.cpp.o
@@ -10121,7 +10121,7 @@ util/SunSync.o: util/SunSync.cpp.o
 
 # target to build an object file
 util/SunSync.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SunSync.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SunSync.cpp.o
 .PHONY : util/SunSync.cpp.o
 
 util/SunSync.i: util/SunSync.cpp.i
@@ -10129,7 +10129,7 @@ util/SunSync.i: util/SunSync.cpp.i
 
 # target to preprocess a source file
 util/SunSync.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SunSync.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SunSync.cpp.i
 .PHONY : util/SunSync.cpp.i
 
 util/SunSync.s: util/SunSync.cpp.s
@@ -10137,7 +10137,7 @@ util/SunSync.s: util/SunSync.cpp.s
 
 # target to generate assembly for a file
 util/SunSync.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SunSync.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/SunSync.cpp.s
 .PHONY : util/SunSync.cpp.s
 
 util/TextParser.o: util/TextParser.cpp.o
@@ -10145,7 +10145,7 @@ util/TextParser.o: util/TextParser.cpp.o
 
 # target to build an object file
 util/TextParser.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TextParser.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TextParser.cpp.o
 .PHONY : util/TextParser.cpp.o
 
 util/TextParser.i: util/TextParser.cpp.i
@@ -10153,7 +10153,7 @@ util/TextParser.i: util/TextParser.cpp.i
 
 # target to preprocess a source file
 util/TextParser.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TextParser.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TextParser.cpp.i
 .PHONY : util/TextParser.cpp.i
 
 util/TextParser.s: util/TextParser.cpp.s
@@ -10161,7 +10161,7 @@ util/TextParser.s: util/TextParser.cpp.s
 
 # target to generate assembly for a file
 util/TextParser.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TextParser.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TextParser.cpp.s
 .PHONY : util/TextParser.cpp.s
 
 util/TimeSystemConverter.o: util/TimeSystemConverter.cpp.o
@@ -10169,7 +10169,7 @@ util/TimeSystemConverter.o: util/TimeSystemConverter.cpp.o
 
 # target to build an object file
 util/TimeSystemConverter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeSystemConverter.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeSystemConverter.cpp.o
 .PHONY : util/TimeSystemConverter.cpp.o
 
 util/TimeSystemConverter.i: util/TimeSystemConverter.cpp.i
@@ -10177,7 +10177,7 @@ util/TimeSystemConverter.i: util/TimeSystemConverter.cpp.i
 
 # target to preprocess a source file
 util/TimeSystemConverter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeSystemConverter.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeSystemConverter.cpp.i
 .PHONY : util/TimeSystemConverter.cpp.i
 
 util/TimeSystemConverter.s: util/TimeSystemConverter.cpp.s
@@ -10185,7 +10185,7 @@ util/TimeSystemConverter.s: util/TimeSystemConverter.cpp.s
 
 # target to generate assembly for a file
 util/TimeSystemConverter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeSystemConverter.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeSystemConverter.cpp.s
 .PHONY : util/TimeSystemConverter.cpp.s
 
 util/TimeTypes.o: util/TimeTypes.cpp.o
@@ -10193,7 +10193,7 @@ util/TimeTypes.o: util/TimeTypes.cpp.o
 
 # target to build an object file
 util/TimeTypes.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeTypes.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeTypes.cpp.o
 .PHONY : util/TimeTypes.cpp.o
 
 util/TimeTypes.i: util/TimeTypes.cpp.i
@@ -10201,7 +10201,7 @@ util/TimeTypes.i: util/TimeTypes.cpp.i
 
 # target to preprocess a source file
 util/TimeTypes.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeTypes.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeTypes.cpp.i
 .PHONY : util/TimeTypes.cpp.i
 
 util/TimeTypes.s: util/TimeTypes.cpp.s
@@ -10209,7 +10209,7 @@ util/TimeTypes.s: util/TimeTypes.cpp.s
 
 # target to generate assembly for a file
 util/TimeTypes.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeTypes.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/TimeTypes.cpp.s
 .PHONY : util/TimeTypes.cpp.s
 
 util/UtcDate.o: util/UtcDate.cpp.o
@@ -10217,7 +10217,7 @@ util/UtcDate.o: util/UtcDate.cpp.o
 
 # target to build an object file
 util/UtcDate.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/UtcDate.cpp.o
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/UtcDate.cpp.o
 .PHONY : util/UtcDate.cpp.o
 
 util/UtcDate.i: util/UtcDate.cpp.i
@@ -10225,7 +10225,7 @@ util/UtcDate.i: util/UtcDate.cpp.i
 
 # target to preprocess a source file
 util/UtcDate.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/UtcDate.cpp.i
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/UtcDate.cpp.i
 .PHONY : util/UtcDate.cpp.i
 
 util/UtcDate.s: util/UtcDate.cpp.s
@@ -10233,7 +10233,7 @@ util/UtcDate.s: util/UtcDate.cpp.s
 
 # target to generate assembly for a file
 util/UtcDate.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/UtcDate.cpp.s
+	cd /gmat && $(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/util/UtcDate.cpp.s
 .PHONY : util/UtcDate.cpp.s
 
 # Help Target
@@ -11520,6 +11520,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

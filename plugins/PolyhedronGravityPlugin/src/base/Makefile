@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/rule
 .PHONY : plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ PolyhedronGravity: plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/Polyhedro
 
 # fast build rule for target.
 PolyhedronGravity/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build
 .PHONY : PolyhedronGravity/fast
 
 factory/PolyhedronGravityModelFactory.o: factory/PolyhedronGravityModelFactory.cpp.o
@@ -161,7 +161,7 @@ factory/PolyhedronGravityModelFactory.o: factory/PolyhedronGravityModelFactory.c
 
 # target to build an object file
 factory/PolyhedronGravityModelFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.o
 .PHONY : factory/PolyhedronGravityModelFactory.cpp.o
 
 factory/PolyhedronGravityModelFactory.i: factory/PolyhedronGravityModelFactory.cpp.i
@@ -169,7 +169,7 @@ factory/PolyhedronGravityModelFactory.i: factory/PolyhedronGravityModelFactory.c
 
 # target to preprocess a source file
 factory/PolyhedronGravityModelFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.i
 .PHONY : factory/PolyhedronGravityModelFactory.cpp.i
 
 factory/PolyhedronGravityModelFactory.s: factory/PolyhedronGravityModelFactory.cpp.s
@@ -177,7 +177,7 @@ factory/PolyhedronGravityModelFactory.s: factory/PolyhedronGravityModelFactory.c
 
 # target to generate assembly for a file
 factory/PolyhedronGravityModelFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.s
 .PHONY : factory/PolyhedronGravityModelFactory.cpp.s
 
 gravitymodel/PolyhedronBody.o: gravitymodel/PolyhedronBody.cpp.o
@@ -185,7 +185,7 @@ gravitymodel/PolyhedronBody.o: gravitymodel/PolyhedronBody.cpp.o
 
 # target to build an object file
 gravitymodel/PolyhedronBody.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.o
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.o
 .PHONY : gravitymodel/PolyhedronBody.cpp.o
 
 gravitymodel/PolyhedronBody.i: gravitymodel/PolyhedronBody.cpp.i
@@ -193,7 +193,7 @@ gravitymodel/PolyhedronBody.i: gravitymodel/PolyhedronBody.cpp.i
 
 # target to preprocess a source file
 gravitymodel/PolyhedronBody.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.i
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.i
 .PHONY : gravitymodel/PolyhedronBody.cpp.i
 
 gravitymodel/PolyhedronBody.s: gravitymodel/PolyhedronBody.cpp.s
@@ -201,7 +201,7 @@ gravitymodel/PolyhedronBody.s: gravitymodel/PolyhedronBody.cpp.s
 
 # target to generate assembly for a file
 gravitymodel/PolyhedronBody.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.s
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.s
 .PHONY : gravitymodel/PolyhedronBody.cpp.s
 
 gravitymodel/PolyhedronGravityModel.o: gravitymodel/PolyhedronGravityModel.cpp.o
@@ -209,7 +209,7 @@ gravitymodel/PolyhedronGravityModel.o: gravitymodel/PolyhedronGravityModel.cpp.o
 
 # target to build an object file
 gravitymodel/PolyhedronGravityModel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.o
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.o
 .PHONY : gravitymodel/PolyhedronGravityModel.cpp.o
 
 gravitymodel/PolyhedronGravityModel.i: gravitymodel/PolyhedronGravityModel.cpp.i
@@ -217,7 +217,7 @@ gravitymodel/PolyhedronGravityModel.i: gravitymodel/PolyhedronGravityModel.cpp.i
 
 # target to preprocess a source file
 gravitymodel/PolyhedronGravityModel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.i
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.i
 .PHONY : gravitymodel/PolyhedronGravityModel.cpp.i
 
 gravitymodel/PolyhedronGravityModel.s: gravitymodel/PolyhedronGravityModel.cpp.s
@@ -225,7 +225,7 @@ gravitymodel/PolyhedronGravityModel.s: gravitymodel/PolyhedronGravityModel.cpp.s
 
 # target to generate assembly for a file
 gravitymodel/PolyhedronGravityModel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.s
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.s
 .PHONY : gravitymodel/PolyhedronGravityModel.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -233,7 +233,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -241,7 +241,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -249,7 +249,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 # Help Target
@@ -288,6 +288,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Directory level rules for directory src
@@ -98,7 +98,7 @@ src/base/preinstall:
 src/base/CMakeFiles/GmatBase.dir/all:
 	$(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/depend
 	$(MAKE) -f src/base/CMakeFiles/GmatBase.dir/build.make src/base/CMakeFiles/GmatBase.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64
 	@echo "Built target GmatBase"
 .PHONY : src/base/CMakeFiles/GmatBase.dir/all
 
@@ -108,9 +108,9 @@ all: src/base/CMakeFiles/GmatBase.dir/all
 
 # Build rule for subdir invocation for target.
 src/base/CMakeFiles/GmatBase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 59
 	$(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/GmatBase.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : src/base/CMakeFiles/GmatBase.dir/rule
 
 # Convenience name for target.
@@ -148,7 +148,7 @@ src/console/preinstall:
 src/console/CMakeFiles/GmatConsole.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/depend
 	$(MAKE) -f src/console/CMakeFiles/GmatConsole.dir/build.make src/console/CMakeFiles/GmatConsole.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles 
 	@echo "Built target GmatConsole"
 .PHONY : src/console/CMakeFiles/GmatConsole.dir/all
 
@@ -158,9 +158,9 @@ all: src/console/CMakeFiles/GmatConsole.dir/all
 
 # Build rule for subdir invocation for target.
 src/console/CMakeFiles/GmatConsole.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 59
 	$(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/GmatConsole.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : src/console/CMakeFiles/GmatConsole.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ src/gui/preinstall:
 src/gui/CMakeFiles/GmatGUI.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/depend
 	$(MAKE) -f src/gui/CMakeFiles/GmatGUI.dir/build.make src/gui/CMakeFiles/GmatGUI.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95
 	@echo "Built target GmatGUI"
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/all
 
@@ -208,9 +208,9 @@ all: src/gui/CMakeFiles/GmatGUI.dir/all
 
 # Build rule for subdir invocation for target.
 src/gui/CMakeFiles/GmatGUI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 80
 	$(MAKE) -f CMakeFiles/Makefile2 src/gui/CMakeFiles/GmatGUI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : src/gui/CMakeFiles/GmatGUI.dir/rule
 
 # Convenience name for target.
@@ -308,7 +308,7 @@ plugins/CInterfacePlugin/src/preinstall:
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/depend
 	$(MAKE) -f plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build.make plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles 
 	@echo "Built target CInterface"
 .PHONY : plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/all
 
@@ -318,9 +318,9 @@ all: plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 59
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/CInterfacePlugin/src/CMakeFiles/CInterface.dir/rule
 
 # Convenience name for target.
@@ -358,7 +358,7 @@ plugins/DataInterfacePlugin/src/base/preinstall:
 plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/depend
 	$(MAKE) -f plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build.make plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  1
 	@echo "Built target DataInterface"
 .PHONY : plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/all
 
@@ -368,9 +368,9 @@ all: plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 60
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/DataInterfacePlugin/src/base/CMakeFiles/DataInterface.dir/rule
 
 # Convenience name for target.
@@ -408,7 +408,7 @@ plugins/EphemPropagatorPlugin/src/base/preinstall:
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/depend
 	$(MAKE) -f plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build.make plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  2
 	@echo "Built target EphemPropagator"
 .PHONY : plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/all
 
@@ -418,9 +418,9 @@ all: plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 60
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/EphemPropagatorPlugin/src/base/CMakeFiles/EphemPropagator.dir/rule
 
 # Convenience name for target.
@@ -458,7 +458,7 @@ plugins/EstimationPlugin/src/base/preinstall:
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/depend
 	$(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  65 66 67 68 69 70 71 72 73
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  65 66 67 68 69 70 71 72 73
 	@echo "Built target GmatEstimation"
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/all
 
@@ -468,9 +468,9 @@ all: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 68
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/rule
 
 # Convenience name for target.
@@ -508,7 +508,7 @@ plugins/EventLocatorPlugin/src/base/preinstall:
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/depend
 	$(MAKE) -f plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build.make plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  3
 	@echo "Built target EventLocator"
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/all
 
@@ -518,9 +518,9 @@ all: plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 60
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/EventLocatorPlugin/src/base/CMakeFiles/EventLocator.dir/rule
 
 # Convenience name for target.
@@ -558,7 +558,7 @@ plugins/ExtraPropagatorsPlugin/src/base/preinstall:
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/depend
 	$(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  4
 	@echo "Built target ExtraPropagators"
 .PHONY : plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/all
 
@@ -568,9 +568,9 @@ all: plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 60
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/rule
 
 # Convenience name for target.
@@ -608,7 +608,7 @@ plugins/FormationPlugin/src/base/preinstall:
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/depend
 	$(MAKE) -f plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build.make plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles 
 	@echo "Built target Formation"
 .PHONY : plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/all
 
@@ -618,9 +618,9 @@ all: plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 59
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/FormationPlugin/src/base/CMakeFiles/Formation.dir/rule
 
 # Convenience name for target.
@@ -659,7 +659,7 @@ plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/all: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/all
 	$(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/depend
 	$(MAKE) -f plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build.make plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  5
 	@echo "Built target GeometricMeasurements"
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/all
 
@@ -669,9 +669,9 @@ all: plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurement
 
 # Build rule for subdir invocation for target.
 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 69
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/GeometricMeasurementPlugin/src/base/CMakeFiles/GeometricMeasurements.dir/rule
 
 # Convenience name for target.
@@ -709,7 +709,7 @@ plugins/GmatFunctionPlugin/src/base/preinstall:
 plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/depend
 	$(MAKE) -f plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build.make plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  74
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  74
 	@echo "Built target GmatFunction"
 .PHONY : plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/all
 
@@ -719,9 +719,9 @@ all: plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 60
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/GmatFunctionPlugin/src/base/CMakeFiles/GmatFunction.dir/rule
 
 # Convenience name for target.
@@ -774,7 +774,7 @@ plugins/NewParameterPlugin/src/base/preinstall:
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/depend
 	$(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  96 97
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  96 97
 	@echo "Built target NewParameters"
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/all
 
@@ -784,9 +784,9 @@ all: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 61
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/rule
 
 # Convenience name for target.
@@ -824,7 +824,7 @@ plugins/PolyhedronGravityPlugin/src/base/preinstall:
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/depend
 	$(MAKE) -f plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build.make plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  98
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  98
 	@echo "Built target PolyhedronGravity"
 .PHONY : plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/all
 
@@ -834,9 +834,9 @@ all: plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/a
 
 # Build rule for subdir invocation for target.
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 60
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/rule
 
 # Convenience name for target.
@@ -874,7 +874,7 @@ plugins/ProductionPropagatorPlugin/src/base/preinstall:
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/build.make plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/depend
 	$(MAKE) -f plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/build.make plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles 
 	@echo "Built target ProductionPropagators"
 .PHONY : plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/all
 
@@ -884,9 +884,9 @@ all: plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagator
 
 # Build rule for subdir invocation for target.
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 59
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/rule
 
 # Convenience name for target.
@@ -924,7 +924,7 @@ plugins/PythonInterfacePlugin/src/base/preinstall:
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/depend
 	$(MAKE) -f plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build.make plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  99
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  99
 	@echo "Built target PythonInterface"
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/all
 
@@ -934,9 +934,9 @@ all: plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 60
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/rule
 
 # Convenience name for target.
@@ -974,7 +974,7 @@ plugins/SaveCommandPlugin/src/base/preinstall:
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/depend
 	$(MAKE) -f plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build.make plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles 
 	@echo "Built target SaveCommand"
 .PHONY : plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/all
 
@@ -984,9 +984,9 @@ all: plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 59
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/SaveCommandPlugin/src/base/CMakeFiles/SaveCommand.dir/rule
 
 # Convenience name for target.
@@ -1024,7 +1024,7 @@ plugins/StationPlugin/src/base/preinstall:
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/all: src/base/CMakeFiles/GmatBase.dir/all
 	$(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/depend
 	$(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles  100
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles  100
 	@echo "Built target Station"
 .PHONY : plugins/StationPlugin/src/base/CMakeFiles/Station.dir/all
 
@@ -1034,9 +1034,9 @@ all: plugins/StationPlugin/src/base/CMakeFiles/Station.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 60
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : plugins/StationPlugin/src/base/CMakeFiles/Station.dir/rule
 
 # Convenience name for target.

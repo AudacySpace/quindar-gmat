@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include src/console/CMakeFiles/GmatConsole.dir/depend.make
@@ -54,17 +54,17 @@ include src/console/CMakeFiles/GmatConsole.dir/flags.make
 
 src/console/CMakeFiles/GmatConsole.dir/driver.cpp.o: src/console/CMakeFiles/GmatConsole.dir/flags.make
 src/console/CMakeFiles/GmatConsole.dir/driver.cpp.o: src/console/driver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/console/CMakeFiles/GmatConsole.dir/driver.cpp.o"
-	cd /GMAT-R2015a/src/console && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatConsole.dir/driver.cpp.o -c /GMAT-R2015a/src/console/driver.cpp
+	cd /gmat/src/console && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatConsole.dir/driver.cpp.o -c /gmat/src/console/driver.cpp
 
 src/console/CMakeFiles/GmatConsole.dir/driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatConsole.dir/driver.cpp.i"
-	cd /GMAT-R2015a/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/console/driver.cpp > CMakeFiles/GmatConsole.dir/driver.cpp.i
+	cd /gmat/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/console/driver.cpp > CMakeFiles/GmatConsole.dir/driver.cpp.i
 
 src/console/CMakeFiles/GmatConsole.dir/driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatConsole.dir/driver.cpp.s"
-	cd /GMAT-R2015a/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/console/driver.cpp -o CMakeFiles/GmatConsole.dir/driver.cpp.s
+	cd /gmat/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/console/driver.cpp -o CMakeFiles/GmatConsole.dir/driver.cpp.s
 
 src/console/CMakeFiles/GmatConsole.dir/driver.cpp.o.requires:
 .PHONY : src/console/CMakeFiles/GmatConsole.dir/driver.cpp.o.requires
@@ -77,17 +77,17 @@ src/console/CMakeFiles/GmatConsole.dir/driver.cpp.o.provides.build: src/console/
 
 src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.o: src/console/CMakeFiles/GmatConsole.dir/flags.make
 src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.o: src/console/ConsoleAppException.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.o"
-	cd /GMAT-R2015a/src/console && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.o -c /GMAT-R2015a/src/console/ConsoleAppException.cpp
+	cd /gmat/src/console && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.o -c /gmat/src/console/ConsoleAppException.cpp
 
 src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.i"
-	cd /GMAT-R2015a/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/console/ConsoleAppException.cpp > CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.i
+	cd /gmat/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/console/ConsoleAppException.cpp > CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.i
 
 src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.s"
-	cd /GMAT-R2015a/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/console/ConsoleAppException.cpp -o CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.s
+	cd /gmat/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/console/ConsoleAppException.cpp -o CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.s
 
 src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.o.requires:
 .PHONY : src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.o.requires
@@ -100,17 +100,17 @@ src/console/CMakeFiles/GmatConsole.dir/ConsoleAppException.cpp.o.provides.build:
 
 src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.o: src/console/CMakeFiles/GmatConsole.dir/flags.make
 src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.o: src/console/PrintUtility.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.o"
-	cd /GMAT-R2015a/src/console && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatConsole.dir/PrintUtility.cpp.o -c /GMAT-R2015a/src/console/PrintUtility.cpp
+	cd /gmat/src/console && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatConsole.dir/PrintUtility.cpp.o -c /gmat/src/console/PrintUtility.cpp
 
 src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatConsole.dir/PrintUtility.cpp.i"
-	cd /GMAT-R2015a/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/console/PrintUtility.cpp > CMakeFiles/GmatConsole.dir/PrintUtility.cpp.i
+	cd /gmat/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/console/PrintUtility.cpp > CMakeFiles/GmatConsole.dir/PrintUtility.cpp.i
 
 src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatConsole.dir/PrintUtility.cpp.s"
-	cd /GMAT-R2015a/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/console/PrintUtility.cpp -o CMakeFiles/GmatConsole.dir/PrintUtility.cpp.s
+	cd /gmat/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/console/PrintUtility.cpp -o CMakeFiles/GmatConsole.dir/PrintUtility.cpp.s
 
 src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.o.requires:
 .PHONY : src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.o.requires
@@ -123,17 +123,17 @@ src/console/CMakeFiles/GmatConsole.dir/PrintUtility.cpp.o.provides.build: src/co
 
 src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.o: src/console/CMakeFiles/GmatConsole.dir/flags.make
 src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.o: src/console/ConsoleMessageReceiver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.o"
-	cd /GMAT-R2015a/src/console && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.o -c /GMAT-R2015a/src/console/ConsoleMessageReceiver.cpp
+	cd /gmat/src/console && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.o -c /gmat/src/console/ConsoleMessageReceiver.cpp
 
 src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.i"
-	cd /GMAT-R2015a/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/src/console/ConsoleMessageReceiver.cpp > CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.i
+	cd /gmat/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/src/console/ConsoleMessageReceiver.cpp > CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.i
 
 src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.s"
-	cd /GMAT-R2015a/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/src/console/ConsoleMessageReceiver.cpp -o CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.s
+	cd /gmat/src/console && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/src/console/ConsoleMessageReceiver.cpp -o CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.s
 
 src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.o.requires:
 .PHONY : src/console/CMakeFiles/GmatConsole.dir/ConsoleMessageReceiver.cpp.o.requires
@@ -163,8 +163,8 @@ application/bin/GmatConsole-R2015a: application/bin/libGmatBase.so.R2015a
 application/bin/GmatConsole-R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/bin/GmatConsole-R2015a: src/console/CMakeFiles/GmatConsole.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../application/bin/GmatConsole"
-	cd /GMAT-R2015a/src/console && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GmatConsole.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/src/console && $(CMAKE_COMMAND) -E cmake_symlink_executable ../../application/bin/GmatConsole-R2015a ../../application/bin/GmatConsole
+	cd /gmat/src/console && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GmatConsole.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/src/console && $(CMAKE_COMMAND) -E cmake_symlink_executable ../../application/bin/GmatConsole-R2015a ../../application/bin/GmatConsole
 
 application/bin/GmatConsole: application/bin/GmatConsole-R2015a
 
@@ -179,10 +179,10 @@ src/console/CMakeFiles/GmatConsole.dir/requires: src/console/CMakeFiles/GmatCons
 .PHONY : src/console/CMakeFiles/GmatConsole.dir/requires
 
 src/console/CMakeFiles/GmatConsole.dir/clean:
-	cd /GMAT-R2015a/src/console && $(CMAKE_COMMAND) -P CMakeFiles/GmatConsole.dir/cmake_clean.cmake
+	cd /gmat/src/console && $(CMAKE_COMMAND) -P CMakeFiles/GmatConsole.dir/cmake_clean.cmake
 .PHONY : src/console/CMakeFiles/GmatConsole.dir/clean
 
 src/console/CMakeFiles/GmatConsole.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/src/console /GMAT-R2015a /GMAT-R2015a/src/console /GMAT-R2015a/src/console/CMakeFiles/GmatConsole.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/src/console /gmat /gmat/src/console /gmat/src/console/CMakeFiles/GmatConsole.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/console/CMakeFiles/GmatConsole.dir/depend
 

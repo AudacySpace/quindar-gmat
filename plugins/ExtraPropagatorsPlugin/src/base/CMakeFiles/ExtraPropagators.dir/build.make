@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.o: plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/flags.make
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.o: plugins/ExtraPropagatorsPlugin/src/base/factory/ExtraPropagatorFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.o -c /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/factory/ExtraPropagatorFactory.cpp
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.o -c /gmat/plugins/ExtraPropagatorsPlugin/src/base/factory/ExtraPropagatorFactory.cpp
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/factory/ExtraPropagatorFactory.cpp > CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.i
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/ExtraPropagatorsPlugin/src/base/factory/ExtraPropagatorFactory.cpp > CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.i
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/factory/ExtraPropagatorFactory.cpp -o CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.s
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/ExtraPropagatorsPlugin/src/base/factory/ExtraPropagatorFactory.cpp -o CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.s
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.o.requires:
 .PHONY : plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.o: plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/flags.make
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.o: plugins/ExtraPropagatorsPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/ExtraPropagatorsPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/ExtraPropagatorsPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/ExtraPropagatorsPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/G
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.o: plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/flags.make
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.o: plugins/ExtraPropagatorsPlugin/src/base/propagator/BulirschStoer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.o"
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.o -c /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/propagator/BulirschStoer.cpp
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.o -c /gmat/plugins/ExtraPropagatorsPlugin/src/base/propagator/BulirschStoer.cpp
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.i"
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/propagator/BulirschStoer.cpp > CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.i
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/ExtraPropagatorsPlugin/src/base/propagator/BulirschStoer.cpp > CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.i
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.s"
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/propagator/BulirschStoer.cpp -o CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.s
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/ExtraPropagatorsPlugin/src/base/propagator/BulirschStoer.cpp -o CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.s
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.o.requires:
 .PHONY : plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.o.requires
@@ -138,8 +138,8 @@ application/plugins/libExtraPropagators.so.R2015a: application/bin/libGmatBase.s
 application/plugins/libExtraPropagators.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libExtraPropagators.so.R2015a: plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libExtraPropagators.so"
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExtraPropagators.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libExtraPropagators.so.R2015a ../../../../application/plugins/libExtraPropagators.so.R2015a ../../../../application/plugins/libExtraPropagators.so
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExtraPropagators.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libExtraPropagators.so.R2015a ../../../../application/plugins/libExtraPropagators.so.R2015a ../../../../application/plugins/libExtraPropagators.so
 
 application/plugins/libExtraPropagators.so: application/plugins/libExtraPropagators.so.R2015a
 
@@ -153,10 +153,10 @@ plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/requires
 .PHONY : plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/requires
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/clean:
-	cd /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/ExtraPropagators.dir/cmake_clean.cmake
+	cd /gmat/plugins/ExtraPropagatorsPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/ExtraPropagators.dir/cmake_clean.cmake
 .PHONY : plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/clean
 
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/ExtraPropagatorsPlugin/src/base /gmat /gmat/plugins/ExtraPropagatorsPlugin/src/base /gmat/plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/depend
 

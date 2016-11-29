@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/StationPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/StationPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/StationPlugin/src/base/CMakeFiles/Station.dir/rule
 .PHONY : plugins/StationPlugin/src/base/CMakeFiles/Station.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ Station: plugins/StationPlugin/src/base/CMakeFiles/Station.dir/rule
 
 # fast build rule for target.
 Station/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build
+	cd /gmat && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build
 .PHONY : Station/fast
 
 factory/StationFactory.o: factory/StationFactory.cpp.o
@@ -161,7 +161,7 @@ factory/StationFactory.o: factory/StationFactory.cpp.o
 
 # target to build an object file
 factory/StationFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.o
 .PHONY : factory/StationFactory.cpp.o
 
 factory/StationFactory.i: factory/StationFactory.cpp.i
@@ -169,7 +169,7 @@ factory/StationFactory.i: factory/StationFactory.cpp.i
 
 # target to preprocess a source file
 factory/StationFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.i
 .PHONY : factory/StationFactory.cpp.i
 
 factory/StationFactory.s: factory/StationFactory.cpp.s
@@ -177,7 +177,7 @@ factory/StationFactory.s: factory/StationFactory.cpp.s
 
 # target to generate assembly for a file
 factory/StationFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/factory/StationFactory.cpp.s
 .PHONY : factory/StationFactory.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -185,7 +185,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -193,7 +193,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -201,7 +201,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 station/GroundStation.o: station/GroundStation.cpp.o
@@ -209,7 +209,7 @@ station/GroundStation.o: station/GroundStation.cpp.o
 
 # target to build an object file
 station/GroundStation.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.o
+	cd /gmat && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.o
 .PHONY : station/GroundStation.cpp.o
 
 station/GroundStation.i: station/GroundStation.cpp.i
@@ -217,7 +217,7 @@ station/GroundStation.i: station/GroundStation.cpp.i
 
 # target to preprocess a source file
 station/GroundStation.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.i
+	cd /gmat && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.i
 .PHONY : station/GroundStation.cpp.i
 
 station/GroundStation.s: station/GroundStation.cpp.s
@@ -225,7 +225,7 @@ station/GroundStation.s: station/GroundStation.cpp.s
 
 # target to generate assembly for a file
 station/GroundStation.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.s
+	cd /gmat && $(MAKE) -f plugins/StationPlugin/src/base/CMakeFiles/Station.dir/build.make plugins/StationPlugin/src/base/CMakeFiles/Station.dir/station/GroundStation.cpp.s
 .PHONY : station/GroundStation.cpp.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

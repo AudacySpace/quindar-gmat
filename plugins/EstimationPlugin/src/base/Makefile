@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/EstimationPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/EstimationPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/rule
 .PHONY : plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ GmatEstimation: plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/
 
 # fast build rule for target.
 GmatEstimation/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build
 .PHONY : GmatEstimation/fast
 
 command/RunEstimator.o: command/RunEstimator.cpp.o
@@ -161,7 +161,7 @@ command/RunEstimator.o: command/RunEstimator.cpp.o
 
 # target to build an object file
 command/RunEstimator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.o
 .PHONY : command/RunEstimator.cpp.o
 
 command/RunEstimator.i: command/RunEstimator.cpp.i
@@ -169,7 +169,7 @@ command/RunEstimator.i: command/RunEstimator.cpp.i
 
 # target to preprocess a source file
 command/RunEstimator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.i
 .PHONY : command/RunEstimator.cpp.i
 
 command/RunEstimator.s: command/RunEstimator.cpp.s
@@ -177,7 +177,7 @@ command/RunEstimator.s: command/RunEstimator.cpp.s
 
 # target to generate assembly for a file
 command/RunEstimator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunEstimator.cpp.s
 .PHONY : command/RunEstimator.cpp.s
 
 command/RunSimulator.o: command/RunSimulator.cpp.o
@@ -185,7 +185,7 @@ command/RunSimulator.o: command/RunSimulator.cpp.o
 
 # target to build an object file
 command/RunSimulator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.o
 .PHONY : command/RunSimulator.cpp.o
 
 command/RunSimulator.i: command/RunSimulator.cpp.i
@@ -193,7 +193,7 @@ command/RunSimulator.i: command/RunSimulator.cpp.i
 
 # target to preprocess a source file
 command/RunSimulator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.i
 .PHONY : command/RunSimulator.cpp.i
 
 command/RunSimulator.s: command/RunSimulator.cpp.s
@@ -201,7 +201,7 @@ command/RunSimulator.s: command/RunSimulator.cpp.s
 
 # target to generate assembly for a file
 command/RunSimulator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/command/RunSimulator.cpp.s
 .PHONY : command/RunSimulator.cpp.s
 
 estimator/BatchEstimator.o: estimator/BatchEstimator.cpp.o
@@ -209,7 +209,7 @@ estimator/BatchEstimator.o: estimator/BatchEstimator.cpp.o
 
 # target to build an object file
 estimator/BatchEstimator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.o
 .PHONY : estimator/BatchEstimator.cpp.o
 
 estimator/BatchEstimator.i: estimator/BatchEstimator.cpp.i
@@ -217,7 +217,7 @@ estimator/BatchEstimator.i: estimator/BatchEstimator.cpp.i
 
 # target to preprocess a source file
 estimator/BatchEstimator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.i
 .PHONY : estimator/BatchEstimator.cpp.i
 
 estimator/BatchEstimator.s: estimator/BatchEstimator.cpp.s
@@ -225,7 +225,7 @@ estimator/BatchEstimator.s: estimator/BatchEstimator.cpp.s
 
 # target to generate assembly for a file
 estimator/BatchEstimator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimator.cpp.s
 .PHONY : estimator/BatchEstimator.cpp.s
 
 estimator/BatchEstimatorInv.o: estimator/BatchEstimatorInv.cpp.o
@@ -233,7 +233,7 @@ estimator/BatchEstimatorInv.o: estimator/BatchEstimatorInv.cpp.o
 
 # target to build an object file
 estimator/BatchEstimatorInv.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.o
 .PHONY : estimator/BatchEstimatorInv.cpp.o
 
 estimator/BatchEstimatorInv.i: estimator/BatchEstimatorInv.cpp.i
@@ -241,7 +241,7 @@ estimator/BatchEstimatorInv.i: estimator/BatchEstimatorInv.cpp.i
 
 # target to preprocess a source file
 estimator/BatchEstimatorInv.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.i
 .PHONY : estimator/BatchEstimatorInv.cpp.i
 
 estimator/BatchEstimatorInv.s: estimator/BatchEstimatorInv.cpp.s
@@ -249,7 +249,7 @@ estimator/BatchEstimatorInv.s: estimator/BatchEstimatorInv.cpp.s
 
 # target to generate assembly for a file
 estimator/BatchEstimatorInv.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorInv.cpp.s
 .PHONY : estimator/BatchEstimatorInv.cpp.s
 
 estimator/BatchEstimatorSVD.o: estimator/BatchEstimatorSVD.cpp.o
@@ -257,7 +257,7 @@ estimator/BatchEstimatorSVD.o: estimator/BatchEstimatorSVD.cpp.o
 
 # target to build an object file
 estimator/BatchEstimatorSVD.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.o
 .PHONY : estimator/BatchEstimatorSVD.cpp.o
 
 estimator/BatchEstimatorSVD.i: estimator/BatchEstimatorSVD.cpp.i
@@ -265,7 +265,7 @@ estimator/BatchEstimatorSVD.i: estimator/BatchEstimatorSVD.cpp.i
 
 # target to preprocess a source file
 estimator/BatchEstimatorSVD.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.i
 .PHONY : estimator/BatchEstimatorSVD.cpp.i
 
 estimator/BatchEstimatorSVD.s: estimator/BatchEstimatorSVD.cpp.s
@@ -273,7 +273,7 @@ estimator/BatchEstimatorSVD.s: estimator/BatchEstimatorSVD.cpp.s
 
 # target to generate assembly for a file
 estimator/BatchEstimatorSVD.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/BatchEstimatorSVD.cpp.s
 .PHONY : estimator/BatchEstimatorSVD.cpp.s
 
 estimator/EstimationStateManager.o: estimator/EstimationStateManager.cpp.o
@@ -281,7 +281,7 @@ estimator/EstimationStateManager.o: estimator/EstimationStateManager.cpp.o
 
 # target to build an object file
 estimator/EstimationStateManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.o
 .PHONY : estimator/EstimationStateManager.cpp.o
 
 estimator/EstimationStateManager.i: estimator/EstimationStateManager.cpp.i
@@ -289,7 +289,7 @@ estimator/EstimationStateManager.i: estimator/EstimationStateManager.cpp.i
 
 # target to preprocess a source file
 estimator/EstimationStateManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.i
 .PHONY : estimator/EstimationStateManager.cpp.i
 
 estimator/EstimationStateManager.s: estimator/EstimationStateManager.cpp.s
@@ -297,7 +297,7 @@ estimator/EstimationStateManager.s: estimator/EstimationStateManager.cpp.s
 
 # target to generate assembly for a file
 estimator/EstimationStateManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimationStateManager.cpp.s
 .PHONY : estimator/EstimationStateManager.cpp.s
 
 estimator/Estimator.o: estimator/Estimator.cpp.o
@@ -305,7 +305,7 @@ estimator/Estimator.o: estimator/Estimator.cpp.o
 
 # target to build an object file
 estimator/Estimator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.o
 .PHONY : estimator/Estimator.cpp.o
 
 estimator/Estimator.i: estimator/Estimator.cpp.i
@@ -313,7 +313,7 @@ estimator/Estimator.i: estimator/Estimator.cpp.i
 
 # target to preprocess a source file
 estimator/Estimator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.i
 .PHONY : estimator/Estimator.cpp.i
 
 estimator/Estimator.s: estimator/Estimator.cpp.s
@@ -321,7 +321,7 @@ estimator/Estimator.s: estimator/Estimator.cpp.s
 
 # target to generate assembly for a file
 estimator/Estimator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Estimator.cpp.s
 .PHONY : estimator/Estimator.cpp.s
 
 estimator/EstimatorException.o: estimator/EstimatorException.cpp.o
@@ -329,7 +329,7 @@ estimator/EstimatorException.o: estimator/EstimatorException.cpp.o
 
 # target to build an object file
 estimator/EstimatorException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.o
 .PHONY : estimator/EstimatorException.cpp.o
 
 estimator/EstimatorException.i: estimator/EstimatorException.cpp.i
@@ -337,7 +337,7 @@ estimator/EstimatorException.i: estimator/EstimatorException.cpp.i
 
 # target to preprocess a source file
 estimator/EstimatorException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.i
 .PHONY : estimator/EstimatorException.cpp.i
 
 estimator/EstimatorException.s: estimator/EstimatorException.cpp.s
@@ -345,7 +345,7 @@ estimator/EstimatorException.s: estimator/EstimatorException.cpp.s
 
 # target to generate assembly for a file
 estimator/EstimatorException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/EstimatorException.cpp.s
 .PHONY : estimator/EstimatorException.cpp.s
 
 estimator/ExtendedKalmanInv.o: estimator/ExtendedKalmanInv.cpp.o
@@ -353,7 +353,7 @@ estimator/ExtendedKalmanInv.o: estimator/ExtendedKalmanInv.cpp.o
 
 # target to build an object file
 estimator/ExtendedKalmanInv.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.o
 .PHONY : estimator/ExtendedKalmanInv.cpp.o
 
 estimator/ExtendedKalmanInv.i: estimator/ExtendedKalmanInv.cpp.i
@@ -361,7 +361,7 @@ estimator/ExtendedKalmanInv.i: estimator/ExtendedKalmanInv.cpp.i
 
 # target to preprocess a source file
 estimator/ExtendedKalmanInv.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.i
 .PHONY : estimator/ExtendedKalmanInv.cpp.i
 
 estimator/ExtendedKalmanInv.s: estimator/ExtendedKalmanInv.cpp.s
@@ -369,7 +369,7 @@ estimator/ExtendedKalmanInv.s: estimator/ExtendedKalmanInv.cpp.s
 
 # target to generate assembly for a file
 estimator/ExtendedKalmanInv.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/ExtendedKalmanInv.cpp.s
 .PHONY : estimator/ExtendedKalmanInv.cpp.s
 
 estimator/SequentialEstimator.o: estimator/SequentialEstimator.cpp.o
@@ -377,7 +377,7 @@ estimator/SequentialEstimator.o: estimator/SequentialEstimator.cpp.o
 
 # target to build an object file
 estimator/SequentialEstimator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.o
 .PHONY : estimator/SequentialEstimator.cpp.o
 
 estimator/SequentialEstimator.i: estimator/SequentialEstimator.cpp.i
@@ -385,7 +385,7 @@ estimator/SequentialEstimator.i: estimator/SequentialEstimator.cpp.i
 
 # target to preprocess a source file
 estimator/SequentialEstimator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.i
 .PHONY : estimator/SequentialEstimator.cpp.i
 
 estimator/SequentialEstimator.s: estimator/SequentialEstimator.cpp.s
@@ -393,7 +393,7 @@ estimator/SequentialEstimator.s: estimator/SequentialEstimator.cpp.s
 
 # target to generate assembly for a file
 estimator/SequentialEstimator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/SequentialEstimator.cpp.s
 .PHONY : estimator/SequentialEstimator.cpp.s
 
 estimator/Simulator.o: estimator/Simulator.cpp.o
@@ -401,7 +401,7 @@ estimator/Simulator.o: estimator/Simulator.cpp.o
 
 # target to build an object file
 estimator/Simulator.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.o
 .PHONY : estimator/Simulator.cpp.o
 
 estimator/Simulator.i: estimator/Simulator.cpp.i
@@ -409,7 +409,7 @@ estimator/Simulator.i: estimator/Simulator.cpp.i
 
 # target to preprocess a source file
 estimator/Simulator.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.i
 .PHONY : estimator/Simulator.cpp.i
 
 estimator/Simulator.s: estimator/Simulator.cpp.s
@@ -417,7 +417,7 @@ estimator/Simulator.s: estimator/Simulator.cpp.s
 
 # target to generate assembly for a file
 estimator/Simulator.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/estimator/Simulator.cpp.s
 .PHONY : estimator/Simulator.cpp.s
 
 event/EstimationRootFinder.o: event/EstimationRootFinder.cpp.o
@@ -425,7 +425,7 @@ event/EstimationRootFinder.o: event/EstimationRootFinder.cpp.o
 
 # target to build an object file
 event/EstimationRootFinder.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.o
 .PHONY : event/EstimationRootFinder.cpp.o
 
 event/EstimationRootFinder.i: event/EstimationRootFinder.cpp.i
@@ -433,7 +433,7 @@ event/EstimationRootFinder.i: event/EstimationRootFinder.cpp.i
 
 # target to preprocess a source file
 event/EstimationRootFinder.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.i
 .PHONY : event/EstimationRootFinder.cpp.i
 
 event/EstimationRootFinder.s: event/EstimationRootFinder.cpp.s
@@ -441,7 +441,7 @@ event/EstimationRootFinder.s: event/EstimationRootFinder.cpp.s
 
 # target to generate assembly for a file
 event/EstimationRootFinder.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EstimationRootFinder.cpp.s
 .PHONY : event/EstimationRootFinder.cpp.s
 
 event/Event.o: event/Event.cpp.o
@@ -449,7 +449,7 @@ event/Event.o: event/Event.cpp.o
 
 # target to build an object file
 event/Event.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.o
 .PHONY : event/Event.cpp.o
 
 event/Event.i: event/Event.cpp.i
@@ -457,7 +457,7 @@ event/Event.i: event/Event.cpp.i
 
 # target to preprocess a source file
 event/Event.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.i
 .PHONY : event/Event.cpp.i
 
 event/Event.s: event/Event.cpp.s
@@ -465,7 +465,7 @@ event/Event.s: event/Event.cpp.s
 
 # target to generate assembly for a file
 event/Event.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/Event.cpp.s
 .PHONY : event/Event.cpp.s
 
 event/EventData.o: event/EventData.cpp.o
@@ -473,7 +473,7 @@ event/EventData.o: event/EventData.cpp.o
 
 # target to build an object file
 event/EventData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.o
 .PHONY : event/EventData.cpp.o
 
 event/EventData.i: event/EventData.cpp.i
@@ -481,7 +481,7 @@ event/EventData.i: event/EventData.cpp.i
 
 # target to preprocess a source file
 event/EventData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.i
 .PHONY : event/EventData.cpp.i
 
 event/EventData.s: event/EventData.cpp.s
@@ -489,7 +489,7 @@ event/EventData.s: event/EventData.cpp.s
 
 # target to generate assembly for a file
 event/EventData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventData.cpp.s
 .PHONY : event/EventData.cpp.s
 
 event/EventException.o: event/EventException.cpp.o
@@ -497,7 +497,7 @@ event/EventException.o: event/EventException.cpp.o
 
 # target to build an object file
 event/EventException.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.o
 .PHONY : event/EventException.cpp.o
 
 event/EventException.i: event/EventException.cpp.i
@@ -505,7 +505,7 @@ event/EventException.i: event/EventException.cpp.i
 
 # target to preprocess a source file
 event/EventException.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.i
 .PHONY : event/EventException.cpp.i
 
 event/EventException.s: event/EventException.cpp.s
@@ -513,7 +513,7 @@ event/EventException.s: event/EventException.cpp.s
 
 # target to generate assembly for a file
 event/EventException.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventException.cpp.s
 .PHONY : event/EventException.cpp.s
 
 event/EventManager.o: event/EventManager.cpp.o
@@ -521,7 +521,7 @@ event/EventManager.o: event/EventManager.cpp.o
 
 # target to build an object file
 event/EventManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.o
 .PHONY : event/EventManager.cpp.o
 
 event/EventManager.i: event/EventManager.cpp.i
@@ -529,7 +529,7 @@ event/EventManager.i: event/EventManager.cpp.i
 
 # target to preprocess a source file
 event/EventManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.i
 .PHONY : event/EventManager.cpp.i
 
 event/EventManager.s: event/EventManager.cpp.s
@@ -537,7 +537,7 @@ event/EventManager.s: event/EventManager.cpp.s
 
 # target to generate assembly for a file
 event/EventManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/EventManager.cpp.s
 .PHONY : event/EventManager.cpp.s
 
 event/LightTimeCorrection.o: event/LightTimeCorrection.cpp.o
@@ -545,7 +545,7 @@ event/LightTimeCorrection.o: event/LightTimeCorrection.cpp.o
 
 # target to build an object file
 event/LightTimeCorrection.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.o
 .PHONY : event/LightTimeCorrection.cpp.o
 
 event/LightTimeCorrection.i: event/LightTimeCorrection.cpp.i
@@ -553,7 +553,7 @@ event/LightTimeCorrection.i: event/LightTimeCorrection.cpp.i
 
 # target to preprocess a source file
 event/LightTimeCorrection.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.i
 .PHONY : event/LightTimeCorrection.cpp.i
 
 event/LightTimeCorrection.s: event/LightTimeCorrection.cpp.s
@@ -561,7 +561,7 @@ event/LightTimeCorrection.s: event/LightTimeCorrection.cpp.s
 
 # target to generate assembly for a file
 event/LightTimeCorrection.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/event/LightTimeCorrection.cpp.s
 .PHONY : event/LightTimeCorrection.cpp.s
 
 factory/DataFileFactory.o: factory/DataFileFactory.cpp.o
@@ -569,7 +569,7 @@ factory/DataFileFactory.o: factory/DataFileFactory.cpp.o
 
 # target to build an object file
 factory/DataFileFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.o
 .PHONY : factory/DataFileFactory.cpp.o
 
 factory/DataFileFactory.i: factory/DataFileFactory.cpp.i
@@ -577,7 +577,7 @@ factory/DataFileFactory.i: factory/DataFileFactory.cpp.i
 
 # target to preprocess a source file
 factory/DataFileFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.i
 .PHONY : factory/DataFileFactory.cpp.i
 
 factory/DataFileFactory.s: factory/DataFileFactory.cpp.s
@@ -585,7 +585,7 @@ factory/DataFileFactory.s: factory/DataFileFactory.cpp.s
 
 # target to generate assembly for a file
 factory/DataFileFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/DataFileFactory.cpp.s
 .PHONY : factory/DataFileFactory.cpp.s
 
 factory/EstimationCommandFactory.o: factory/EstimationCommandFactory.cpp.o
@@ -593,7 +593,7 @@ factory/EstimationCommandFactory.o: factory/EstimationCommandFactory.cpp.o
 
 # target to build an object file
 factory/EstimationCommandFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.o
 .PHONY : factory/EstimationCommandFactory.cpp.o
 
 factory/EstimationCommandFactory.i: factory/EstimationCommandFactory.cpp.i
@@ -601,7 +601,7 @@ factory/EstimationCommandFactory.i: factory/EstimationCommandFactory.cpp.i
 
 # target to preprocess a source file
 factory/EstimationCommandFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.i
 .PHONY : factory/EstimationCommandFactory.cpp.i
 
 factory/EstimationCommandFactory.s: factory/EstimationCommandFactory.cpp.s
@@ -609,7 +609,7 @@ factory/EstimationCommandFactory.s: factory/EstimationCommandFactory.cpp.s
 
 # target to generate assembly for a file
 factory/EstimationCommandFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimationCommandFactory.cpp.s
 .PHONY : factory/EstimationCommandFactory.cpp.s
 
 factory/EstimatorFactory.o: factory/EstimatorFactory.cpp.o
@@ -617,7 +617,7 @@ factory/EstimatorFactory.o: factory/EstimatorFactory.cpp.o
 
 # target to build an object file
 factory/EstimatorFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.o
 .PHONY : factory/EstimatorFactory.cpp.o
 
 factory/EstimatorFactory.i: factory/EstimatorFactory.cpp.i
@@ -625,7 +625,7 @@ factory/EstimatorFactory.i: factory/EstimatorFactory.cpp.i
 
 # target to preprocess a source file
 factory/EstimatorFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.i
 .PHONY : factory/EstimatorFactory.cpp.i
 
 factory/EstimatorFactory.s: factory/EstimatorFactory.cpp.s
@@ -633,7 +633,7 @@ factory/EstimatorFactory.s: factory/EstimatorFactory.cpp.s
 
 # target to generate assembly for a file
 factory/EstimatorFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorFactory.cpp.s
 .PHONY : factory/EstimatorFactory.cpp.s
 
 factory/EstimatorHardwareFactory.o: factory/EstimatorHardwareFactory.cpp.o
@@ -641,7 +641,7 @@ factory/EstimatorHardwareFactory.o: factory/EstimatorHardwareFactory.cpp.o
 
 # target to build an object file
 factory/EstimatorHardwareFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.o
 .PHONY : factory/EstimatorHardwareFactory.cpp.o
 
 factory/EstimatorHardwareFactory.i: factory/EstimatorHardwareFactory.cpp.i
@@ -649,7 +649,7 @@ factory/EstimatorHardwareFactory.i: factory/EstimatorHardwareFactory.cpp.i
 
 # target to preprocess a source file
 factory/EstimatorHardwareFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.i
 .PHONY : factory/EstimatorHardwareFactory.cpp.i
 
 factory/EstimatorHardwareFactory.s: factory/EstimatorHardwareFactory.cpp.s
@@ -657,7 +657,7 @@ factory/EstimatorHardwareFactory.s: factory/EstimatorHardwareFactory.cpp.s
 
 # target to generate assembly for a file
 factory/EstimatorHardwareFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EstimatorHardwareFactory.cpp.s
 .PHONY : factory/EstimatorHardwareFactory.cpp.s
 
 factory/EventFactory.o: factory/EventFactory.cpp.o
@@ -665,7 +665,7 @@ factory/EventFactory.o: factory/EventFactory.cpp.o
 
 # target to build an object file
 factory/EventFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.o
 .PHONY : factory/EventFactory.cpp.o
 
 factory/EventFactory.i: factory/EventFactory.cpp.i
@@ -673,7 +673,7 @@ factory/EventFactory.i: factory/EventFactory.cpp.i
 
 # target to preprocess a source file
 factory/EventFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.i
 .PHONY : factory/EventFactory.cpp.i
 
 factory/EventFactory.s: factory/EventFactory.cpp.s
@@ -681,7 +681,7 @@ factory/EventFactory.s: factory/EventFactory.cpp.s
 
 # target to generate assembly for a file
 factory/EventFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/EventFactory.cpp.s
 .PHONY : factory/EventFactory.cpp.s
 
 factory/MeasurementFactory.o: factory/MeasurementFactory.cpp.o
@@ -689,7 +689,7 @@ factory/MeasurementFactory.o: factory/MeasurementFactory.cpp.o
 
 # target to build an object file
 factory/MeasurementFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.o
 .PHONY : factory/MeasurementFactory.cpp.o
 
 factory/MeasurementFactory.i: factory/MeasurementFactory.cpp.i
@@ -697,7 +697,7 @@ factory/MeasurementFactory.i: factory/MeasurementFactory.cpp.i
 
 # target to preprocess a source file
 factory/MeasurementFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.i
 .PHONY : factory/MeasurementFactory.cpp.i
 
 factory/MeasurementFactory.s: factory/MeasurementFactory.cpp.s
@@ -705,7 +705,7 @@ factory/MeasurementFactory.s: factory/MeasurementFactory.cpp.s
 
 # target to generate assembly for a file
 factory/MeasurementFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementFactory.cpp.s
 .PHONY : factory/MeasurementFactory.cpp.s
 
 factory/MeasurementModelFactory.o: factory/MeasurementModelFactory.cpp.o
@@ -713,7 +713,7 @@ factory/MeasurementModelFactory.o: factory/MeasurementModelFactory.cpp.o
 
 # target to build an object file
 factory/MeasurementModelFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.o
 .PHONY : factory/MeasurementModelFactory.cpp.o
 
 factory/MeasurementModelFactory.i: factory/MeasurementModelFactory.cpp.i
@@ -721,7 +721,7 @@ factory/MeasurementModelFactory.i: factory/MeasurementModelFactory.cpp.i
 
 # target to preprocess a source file
 factory/MeasurementModelFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.i
 .PHONY : factory/MeasurementModelFactory.cpp.i
 
 factory/MeasurementModelFactory.s: factory/MeasurementModelFactory.cpp.s
@@ -729,7 +729,7 @@ factory/MeasurementModelFactory.s: factory/MeasurementModelFactory.cpp.s
 
 # target to generate assembly for a file
 factory/MeasurementModelFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/MeasurementModelFactory.cpp.s
 .PHONY : factory/MeasurementModelFactory.cpp.s
 
 factory/ObTypeFactory.o: factory/ObTypeFactory.cpp.o
@@ -737,7 +737,7 @@ factory/ObTypeFactory.o: factory/ObTypeFactory.cpp.o
 
 # target to build an object file
 factory/ObTypeFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.o
 .PHONY : factory/ObTypeFactory.cpp.o
 
 factory/ObTypeFactory.i: factory/ObTypeFactory.cpp.i
@@ -745,7 +745,7 @@ factory/ObTypeFactory.i: factory/ObTypeFactory.cpp.i
 
 # target to preprocess a source file
 factory/ObTypeFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.i
 .PHONY : factory/ObTypeFactory.cpp.i
 
 factory/ObTypeFactory.s: factory/ObTypeFactory.cpp.s
@@ -753,7 +753,7 @@ factory/ObTypeFactory.s: factory/ObTypeFactory.cpp.s
 
 # target to generate assembly for a file
 factory/ObTypeFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/ObTypeFactory.cpp.s
 .PHONY : factory/ObTypeFactory.cpp.s
 
 factory/TrackingDataFactory.o: factory/TrackingDataFactory.cpp.o
@@ -761,7 +761,7 @@ factory/TrackingDataFactory.o: factory/TrackingDataFactory.cpp.o
 
 # target to build an object file
 factory/TrackingDataFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.o
 .PHONY : factory/TrackingDataFactory.cpp.o
 
 factory/TrackingDataFactory.i: factory/TrackingDataFactory.cpp.i
@@ -769,7 +769,7 @@ factory/TrackingDataFactory.i: factory/TrackingDataFactory.cpp.i
 
 # target to preprocess a source file
 factory/TrackingDataFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.i
 .PHONY : factory/TrackingDataFactory.cpp.i
 
 factory/TrackingDataFactory.s: factory/TrackingDataFactory.cpp.s
@@ -777,7 +777,7 @@ factory/TrackingDataFactory.s: factory/TrackingDataFactory.cpp.s
 
 # target to generate assembly for a file
 factory/TrackingDataFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingDataFactory.cpp.s
 .PHONY : factory/TrackingDataFactory.cpp.s
 
 factory/TrackingSystemFactory.o: factory/TrackingSystemFactory.cpp.o
@@ -785,7 +785,7 @@ factory/TrackingSystemFactory.o: factory/TrackingSystemFactory.cpp.o
 
 # target to build an object file
 factory/TrackingSystemFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.o
 .PHONY : factory/TrackingSystemFactory.cpp.o
 
 factory/TrackingSystemFactory.i: factory/TrackingSystemFactory.cpp.i
@@ -793,7 +793,7 @@ factory/TrackingSystemFactory.i: factory/TrackingSystemFactory.cpp.i
 
 # target to preprocess a source file
 factory/TrackingSystemFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.i
 .PHONY : factory/TrackingSystemFactory.cpp.i
 
 factory/TrackingSystemFactory.s: factory/TrackingSystemFactory.cpp.s
@@ -801,7 +801,7 @@ factory/TrackingSystemFactory.s: factory/TrackingSystemFactory.cpp.s
 
 # target to generate assembly for a file
 factory/TrackingSystemFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/factory/TrackingSystemFactory.cpp.s
 .PHONY : factory/TrackingSystemFactory.cpp.s
 
 hardware/Antenna.o: hardware/Antenna.cpp.o
@@ -809,7 +809,7 @@ hardware/Antenna.o: hardware/Antenna.cpp.o
 
 # target to build an object file
 hardware/Antenna.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.o
 .PHONY : hardware/Antenna.cpp.o
 
 hardware/Antenna.i: hardware/Antenna.cpp.i
@@ -817,7 +817,7 @@ hardware/Antenna.i: hardware/Antenna.cpp.i
 
 # target to preprocess a source file
 hardware/Antenna.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.i
 .PHONY : hardware/Antenna.cpp.i
 
 hardware/Antenna.s: hardware/Antenna.cpp.s
@@ -825,7 +825,7 @@ hardware/Antenna.s: hardware/Antenna.cpp.s
 
 # target to generate assembly for a file
 hardware/Antenna.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Antenna.cpp.s
 .PHONY : hardware/Antenna.cpp.s
 
 hardware/RFHardware.o: hardware/RFHardware.cpp.o
@@ -833,7 +833,7 @@ hardware/RFHardware.o: hardware/RFHardware.cpp.o
 
 # target to build an object file
 hardware/RFHardware.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.o
 .PHONY : hardware/RFHardware.cpp.o
 
 hardware/RFHardware.i: hardware/RFHardware.cpp.i
@@ -841,7 +841,7 @@ hardware/RFHardware.i: hardware/RFHardware.cpp.i
 
 # target to preprocess a source file
 hardware/RFHardware.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.i
 .PHONY : hardware/RFHardware.cpp.i
 
 hardware/RFHardware.s: hardware/RFHardware.cpp.s
@@ -849,7 +849,7 @@ hardware/RFHardware.s: hardware/RFHardware.cpp.s
 
 # target to generate assembly for a file
 hardware/RFHardware.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/RFHardware.cpp.s
 .PHONY : hardware/RFHardware.cpp.s
 
 hardware/Receiver.o: hardware/Receiver.cpp.o
@@ -857,7 +857,7 @@ hardware/Receiver.o: hardware/Receiver.cpp.o
 
 # target to build an object file
 hardware/Receiver.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.o
 .PHONY : hardware/Receiver.cpp.o
 
 hardware/Receiver.i: hardware/Receiver.cpp.i
@@ -865,7 +865,7 @@ hardware/Receiver.i: hardware/Receiver.cpp.i
 
 # target to preprocess a source file
 hardware/Receiver.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.i
 .PHONY : hardware/Receiver.cpp.i
 
 hardware/Receiver.s: hardware/Receiver.cpp.s
@@ -873,7 +873,7 @@ hardware/Receiver.s: hardware/Receiver.cpp.s
 
 # target to generate assembly for a file
 hardware/Receiver.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Receiver.cpp.s
 .PHONY : hardware/Receiver.cpp.s
 
 hardware/Sensor.o: hardware/Sensor.cpp.o
@@ -881,7 +881,7 @@ hardware/Sensor.o: hardware/Sensor.cpp.o
 
 # target to build an object file
 hardware/Sensor.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.o
 .PHONY : hardware/Sensor.cpp.o
 
 hardware/Sensor.i: hardware/Sensor.cpp.i
@@ -889,7 +889,7 @@ hardware/Sensor.i: hardware/Sensor.cpp.i
 
 # target to preprocess a source file
 hardware/Sensor.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.i
 .PHONY : hardware/Sensor.cpp.i
 
 hardware/Sensor.s: hardware/Sensor.cpp.s
@@ -897,7 +897,7 @@ hardware/Sensor.s: hardware/Sensor.cpp.s
 
 # target to generate assembly for a file
 hardware/Sensor.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Sensor.cpp.s
 .PHONY : hardware/Sensor.cpp.s
 
 hardware/Signal.o: hardware/Signal.cpp.o
@@ -905,7 +905,7 @@ hardware/Signal.o: hardware/Signal.cpp.o
 
 # target to build an object file
 hardware/Signal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.o
 .PHONY : hardware/Signal.cpp.o
 
 hardware/Signal.i: hardware/Signal.cpp.i
@@ -913,7 +913,7 @@ hardware/Signal.i: hardware/Signal.cpp.i
 
 # target to preprocess a source file
 hardware/Signal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.i
 .PHONY : hardware/Signal.cpp.i
 
 hardware/Signal.s: hardware/Signal.cpp.s
@@ -921,7 +921,7 @@ hardware/Signal.s: hardware/Signal.cpp.s
 
 # target to generate assembly for a file
 hardware/Signal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Signal.cpp.s
 .PHONY : hardware/Signal.cpp.s
 
 hardware/Transmitter.o: hardware/Transmitter.cpp.o
@@ -929,7 +929,7 @@ hardware/Transmitter.o: hardware/Transmitter.cpp.o
 
 # target to build an object file
 hardware/Transmitter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.o
 .PHONY : hardware/Transmitter.cpp.o
 
 hardware/Transmitter.i: hardware/Transmitter.cpp.i
@@ -937,7 +937,7 @@ hardware/Transmitter.i: hardware/Transmitter.cpp.i
 
 # target to preprocess a source file
 hardware/Transmitter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.i
 .PHONY : hardware/Transmitter.cpp.i
 
 hardware/Transmitter.s: hardware/Transmitter.cpp.s
@@ -945,7 +945,7 @@ hardware/Transmitter.s: hardware/Transmitter.cpp.s
 
 # target to generate assembly for a file
 hardware/Transmitter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transmitter.cpp.s
 .PHONY : hardware/Transmitter.cpp.s
 
 hardware/Transponder.o: hardware/Transponder.cpp.o
@@ -953,7 +953,7 @@ hardware/Transponder.o: hardware/Transponder.cpp.o
 
 # target to build an object file
 hardware/Transponder.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.o
 .PHONY : hardware/Transponder.cpp.o
 
 hardware/Transponder.i: hardware/Transponder.cpp.i
@@ -961,7 +961,7 @@ hardware/Transponder.i: hardware/Transponder.cpp.i
 
 # target to preprocess a source file
 hardware/Transponder.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.i
 .PHONY : hardware/Transponder.cpp.i
 
 hardware/Transponder.s: hardware/Transponder.cpp.s
@@ -969,7 +969,7 @@ hardware/Transponder.s: hardware/Transponder.cpp.s
 
 # target to generate assembly for a file
 hardware/Transponder.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/hardware/Transponder.cpp.s
 .PHONY : hardware/Transponder.cpp.s
 
 measurement/AveragedDoppler.o: measurement/AveragedDoppler.cpp.o
@@ -977,7 +977,7 @@ measurement/AveragedDoppler.o: measurement/AveragedDoppler.cpp.o
 
 # target to build an object file
 measurement/AveragedDoppler.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.o
 .PHONY : measurement/AveragedDoppler.cpp.o
 
 measurement/AveragedDoppler.i: measurement/AveragedDoppler.cpp.i
@@ -985,7 +985,7 @@ measurement/AveragedDoppler.i: measurement/AveragedDoppler.cpp.i
 
 # target to preprocess a source file
 measurement/AveragedDoppler.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.i
 .PHONY : measurement/AveragedDoppler.cpp.i
 
 measurement/AveragedDoppler.s: measurement/AveragedDoppler.cpp.s
@@ -993,7 +993,7 @@ measurement/AveragedDoppler.s: measurement/AveragedDoppler.cpp.s
 
 # target to generate assembly for a file
 measurement/AveragedDoppler.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/AveragedDoppler.cpp.s
 .PHONY : measurement/AveragedDoppler.cpp.s
 
 measurement/CoreMeasurement.o: measurement/CoreMeasurement.cpp.o
@@ -1001,7 +1001,7 @@ measurement/CoreMeasurement.o: measurement/CoreMeasurement.cpp.o
 
 # target to build an object file
 measurement/CoreMeasurement.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.o
 .PHONY : measurement/CoreMeasurement.cpp.o
 
 measurement/CoreMeasurement.i: measurement/CoreMeasurement.cpp.i
@@ -1009,7 +1009,7 @@ measurement/CoreMeasurement.i: measurement/CoreMeasurement.cpp.i
 
 # target to preprocess a source file
 measurement/CoreMeasurement.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.i
 .PHONY : measurement/CoreMeasurement.cpp.i
 
 measurement/CoreMeasurement.s: measurement/CoreMeasurement.cpp.s
@@ -1017,7 +1017,7 @@ measurement/CoreMeasurement.s: measurement/CoreMeasurement.cpp.s
 
 # target to generate assembly for a file
 measurement/CoreMeasurement.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/CoreMeasurement.cpp.s
 .PHONY : measurement/CoreMeasurement.cpp.s
 
 measurement/DSNTwoWayDoppler.o: measurement/DSNTwoWayDoppler.cpp.o
@@ -1025,7 +1025,7 @@ measurement/DSNTwoWayDoppler.o: measurement/DSNTwoWayDoppler.cpp.o
 
 # target to build an object file
 measurement/DSNTwoWayDoppler.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.o
 .PHONY : measurement/DSNTwoWayDoppler.cpp.o
 
 measurement/DSNTwoWayDoppler.i: measurement/DSNTwoWayDoppler.cpp.i
@@ -1033,7 +1033,7 @@ measurement/DSNTwoWayDoppler.i: measurement/DSNTwoWayDoppler.cpp.i
 
 # target to preprocess a source file
 measurement/DSNTwoWayDoppler.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.i
 .PHONY : measurement/DSNTwoWayDoppler.cpp.i
 
 measurement/DSNTwoWayDoppler.s: measurement/DSNTwoWayDoppler.cpp.s
@@ -1041,7 +1041,7 @@ measurement/DSNTwoWayDoppler.s: measurement/DSNTwoWayDoppler.cpp.s
 
 # target to generate assembly for a file
 measurement/DSNTwoWayDoppler.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayDoppler.cpp.s
 .PHONY : measurement/DSNTwoWayDoppler.cpp.s
 
 measurement/DSNTwoWayRange.o: measurement/DSNTwoWayRange.cpp.o
@@ -1049,7 +1049,7 @@ measurement/DSNTwoWayRange.o: measurement/DSNTwoWayRange.cpp.o
 
 # target to build an object file
 measurement/DSNTwoWayRange.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.o
 .PHONY : measurement/DSNTwoWayRange.cpp.o
 
 measurement/DSNTwoWayRange.i: measurement/DSNTwoWayRange.cpp.i
@@ -1057,7 +1057,7 @@ measurement/DSNTwoWayRange.i: measurement/DSNTwoWayRange.cpp.i
 
 # target to preprocess a source file
 measurement/DSNTwoWayRange.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.i
 .PHONY : measurement/DSNTwoWayRange.cpp.i
 
 measurement/DSNTwoWayRange.s: measurement/DSNTwoWayRange.cpp.s
@@ -1065,7 +1065,7 @@ measurement/DSNTwoWayRange.s: measurement/DSNTwoWayRange.cpp.s
 
 # target to generate assembly for a file
 measurement/DSNTwoWayRange.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/DSNTwoWayRange.cpp.s
 .PHONY : measurement/DSNTwoWayRange.cpp.s
 
 measurement/MeasurementData.o: measurement/MeasurementData.cpp.o
@@ -1073,7 +1073,7 @@ measurement/MeasurementData.o: measurement/MeasurementData.cpp.o
 
 # target to build an object file
 measurement/MeasurementData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.o
 .PHONY : measurement/MeasurementData.cpp.o
 
 measurement/MeasurementData.i: measurement/MeasurementData.cpp.i
@@ -1081,7 +1081,7 @@ measurement/MeasurementData.i: measurement/MeasurementData.cpp.i
 
 # target to preprocess a source file
 measurement/MeasurementData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.i
 .PHONY : measurement/MeasurementData.cpp.i
 
 measurement/MeasurementData.s: measurement/MeasurementData.cpp.s
@@ -1089,7 +1089,7 @@ measurement/MeasurementData.s: measurement/MeasurementData.cpp.s
 
 # target to generate assembly for a file
 measurement/MeasurementData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementData.cpp.s
 .PHONY : measurement/MeasurementData.cpp.s
 
 measurement/MeasurementManager.o: measurement/MeasurementManager.cpp.o
@@ -1097,7 +1097,7 @@ measurement/MeasurementManager.o: measurement/MeasurementManager.cpp.o
 
 # target to build an object file
 measurement/MeasurementManager.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.o
 .PHONY : measurement/MeasurementManager.cpp.o
 
 measurement/MeasurementManager.i: measurement/MeasurementManager.cpp.i
@@ -1105,7 +1105,7 @@ measurement/MeasurementManager.i: measurement/MeasurementManager.cpp.i
 
 # target to preprocess a source file
 measurement/MeasurementManager.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.i
 .PHONY : measurement/MeasurementManager.cpp.i
 
 measurement/MeasurementManager.s: measurement/MeasurementManager.cpp.s
@@ -1113,7 +1113,7 @@ measurement/MeasurementManager.s: measurement/MeasurementManager.cpp.s
 
 # target to generate assembly for a file
 measurement/MeasurementManager.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementManager.cpp.s
 .PHONY : measurement/MeasurementManager.cpp.s
 
 measurement/MeasurementModel.o: measurement/MeasurementModel.cpp.o
@@ -1121,7 +1121,7 @@ measurement/MeasurementModel.o: measurement/MeasurementModel.cpp.o
 
 # target to build an object file
 measurement/MeasurementModel.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.o
 .PHONY : measurement/MeasurementModel.cpp.o
 
 measurement/MeasurementModel.i: measurement/MeasurementModel.cpp.i
@@ -1129,7 +1129,7 @@ measurement/MeasurementModel.i: measurement/MeasurementModel.cpp.i
 
 # target to preprocess a source file
 measurement/MeasurementModel.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.i
 .PHONY : measurement/MeasurementModel.cpp.i
 
 measurement/MeasurementModel.s: measurement/MeasurementModel.cpp.s
@@ -1137,7 +1137,7 @@ measurement/MeasurementModel.s: measurement/MeasurementModel.cpp.s
 
 # target to generate assembly for a file
 measurement/MeasurementModel.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MeasurementModel.cpp.s
 .PHONY : measurement/MeasurementModel.cpp.s
 
 measurement/MediaCorrection.o: measurement/MediaCorrection.cpp.o
@@ -1145,7 +1145,7 @@ measurement/MediaCorrection.o: measurement/MediaCorrection.cpp.o
 
 # target to build an object file
 measurement/MediaCorrection.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.o
 .PHONY : measurement/MediaCorrection.cpp.o
 
 measurement/MediaCorrection.i: measurement/MediaCorrection.cpp.i
@@ -1153,7 +1153,7 @@ measurement/MediaCorrection.i: measurement/MediaCorrection.cpp.i
 
 # target to preprocess a source file
 measurement/MediaCorrection.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.i
 .PHONY : measurement/MediaCorrection.cpp.i
 
 measurement/MediaCorrection.s: measurement/MediaCorrection.cpp.s
@@ -1161,7 +1161,7 @@ measurement/MediaCorrection.s: measurement/MediaCorrection.cpp.s
 
 # target to generate assembly for a file
 measurement/MediaCorrection.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/MediaCorrection.cpp.s
 .PHONY : measurement/MediaCorrection.cpp.s
 
 measurement/OpticalAngles.o: measurement/OpticalAngles.cpp.o
@@ -1169,7 +1169,7 @@ measurement/OpticalAngles.o: measurement/OpticalAngles.cpp.o
 
 # target to build an object file
 measurement/OpticalAngles.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.o
 .PHONY : measurement/OpticalAngles.cpp.o
 
 measurement/OpticalAngles.i: measurement/OpticalAngles.cpp.i
@@ -1177,7 +1177,7 @@ measurement/OpticalAngles.i: measurement/OpticalAngles.cpp.i
 
 # target to preprocess a source file
 measurement/OpticalAngles.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.i
 .PHONY : measurement/OpticalAngles.cpp.i
 
 measurement/OpticalAngles.s: measurement/OpticalAngles.cpp.s
@@ -1185,7 +1185,7 @@ measurement/OpticalAngles.s: measurement/OpticalAngles.cpp.s
 
 # target to generate assembly for a file
 measurement/OpticalAngles.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAngles.cpp.s
 .PHONY : measurement/OpticalAngles.cpp.s
 
 measurement/OpticalAzEl.o: measurement/OpticalAzEl.cpp.o
@@ -1193,7 +1193,7 @@ measurement/OpticalAzEl.o: measurement/OpticalAzEl.cpp.o
 
 # target to build an object file
 measurement/OpticalAzEl.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.o
 .PHONY : measurement/OpticalAzEl.cpp.o
 
 measurement/OpticalAzEl.i: measurement/OpticalAzEl.cpp.i
@@ -1201,7 +1201,7 @@ measurement/OpticalAzEl.i: measurement/OpticalAzEl.cpp.i
 
 # target to preprocess a source file
 measurement/OpticalAzEl.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.i
 .PHONY : measurement/OpticalAzEl.cpp.i
 
 measurement/OpticalAzEl.s: measurement/OpticalAzEl.cpp.s
@@ -1209,7 +1209,7 @@ measurement/OpticalAzEl.s: measurement/OpticalAzEl.cpp.s
 
 # target to generate assembly for a file
 measurement/OpticalAzEl.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/OpticalAzEl.cpp.s
 .PHONY : measurement/OpticalAzEl.cpp.s
 
 measurement/PhysicalMeasurement.o: measurement/PhysicalMeasurement.cpp.o
@@ -1217,7 +1217,7 @@ measurement/PhysicalMeasurement.o: measurement/PhysicalMeasurement.cpp.o
 
 # target to build an object file
 measurement/PhysicalMeasurement.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.o
 .PHONY : measurement/PhysicalMeasurement.cpp.o
 
 measurement/PhysicalMeasurement.i: measurement/PhysicalMeasurement.cpp.i
@@ -1225,7 +1225,7 @@ measurement/PhysicalMeasurement.i: measurement/PhysicalMeasurement.cpp.i
 
 # target to preprocess a source file
 measurement/PhysicalMeasurement.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.i
 .PHONY : measurement/PhysicalMeasurement.cpp.i
 
 measurement/PhysicalMeasurement.s: measurement/PhysicalMeasurement.cpp.s
@@ -1233,7 +1233,7 @@ measurement/PhysicalMeasurement.s: measurement/PhysicalMeasurement.cpp.s
 
 # target to generate assembly for a file
 measurement/PhysicalMeasurement.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/PhysicalMeasurement.cpp.s
 .PHONY : measurement/PhysicalMeasurement.cpp.s
 
 measurement/SnTwoWayRange.o: measurement/SnTwoWayRange.cpp.o
@@ -1241,7 +1241,7 @@ measurement/SnTwoWayRange.o: measurement/SnTwoWayRange.cpp.o
 
 # target to build an object file
 measurement/SnTwoWayRange.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.o
 .PHONY : measurement/SnTwoWayRange.cpp.o
 
 measurement/SnTwoWayRange.i: measurement/SnTwoWayRange.cpp.i
@@ -1249,7 +1249,7 @@ measurement/SnTwoWayRange.i: measurement/SnTwoWayRange.cpp.i
 
 # target to preprocess a source file
 measurement/SnTwoWayRange.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.i
 .PHONY : measurement/SnTwoWayRange.cpp.i
 
 measurement/SnTwoWayRange.s: measurement/SnTwoWayRange.cpp.s
@@ -1257,7 +1257,7 @@ measurement/SnTwoWayRange.s: measurement/SnTwoWayRange.cpp.s
 
 # target to generate assembly for a file
 measurement/SnTwoWayRange.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/SnTwoWayRange.cpp.s
 .PHONY : measurement/SnTwoWayRange.cpp.s
 
 measurement/TDRSSTwoWayRange.o: measurement/TDRSSTwoWayRange.cpp.o
@@ -1265,7 +1265,7 @@ measurement/TDRSSTwoWayRange.o: measurement/TDRSSTwoWayRange.cpp.o
 
 # target to build an object file
 measurement/TDRSSTwoWayRange.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.o
 .PHONY : measurement/TDRSSTwoWayRange.cpp.o
 
 measurement/TDRSSTwoWayRange.i: measurement/TDRSSTwoWayRange.cpp.i
@@ -1273,7 +1273,7 @@ measurement/TDRSSTwoWayRange.i: measurement/TDRSSTwoWayRange.cpp.i
 
 # target to preprocess a source file
 measurement/TDRSSTwoWayRange.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.i
 .PHONY : measurement/TDRSSTwoWayRange.cpp.i
 
 measurement/TDRSSTwoWayRange.s: measurement/TDRSSTwoWayRange.cpp.s
@@ -1281,7 +1281,7 @@ measurement/TDRSSTwoWayRange.s: measurement/TDRSSTwoWayRange.cpp.s
 
 # target to generate assembly for a file
 measurement/TDRSSTwoWayRange.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TDRSSTwoWayRange.cpp.s
 .PHONY : measurement/TDRSSTwoWayRange.cpp.s
 
 measurement/TrackingData.o: measurement/TrackingData.cpp.o
@@ -1289,7 +1289,7 @@ measurement/TrackingData.o: measurement/TrackingData.cpp.o
 
 # target to build an object file
 measurement/TrackingData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.o
 .PHONY : measurement/TrackingData.cpp.o
 
 measurement/TrackingData.i: measurement/TrackingData.cpp.i
@@ -1297,7 +1297,7 @@ measurement/TrackingData.i: measurement/TrackingData.cpp.i
 
 # target to preprocess a source file
 measurement/TrackingData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.i
 .PHONY : measurement/TrackingData.cpp.i
 
 measurement/TrackingData.s: measurement/TrackingData.cpp.s
@@ -1305,7 +1305,7 @@ measurement/TrackingData.s: measurement/TrackingData.cpp.s
 
 # target to generate assembly for a file
 measurement/TrackingData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TrackingData.cpp.s
 .PHONY : measurement/TrackingData.cpp.s
 
 measurement/Troposphere/Troposphere.o: measurement/Troposphere/Troposphere.cpp.o
@@ -1313,7 +1313,7 @@ measurement/Troposphere/Troposphere.o: measurement/Troposphere/Troposphere.cpp.o
 
 # target to build an object file
 measurement/Troposphere/Troposphere.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.o
 .PHONY : measurement/Troposphere/Troposphere.cpp.o
 
 measurement/Troposphere/Troposphere.i: measurement/Troposphere/Troposphere.cpp.i
@@ -1321,7 +1321,7 @@ measurement/Troposphere/Troposphere.i: measurement/Troposphere/Troposphere.cpp.i
 
 # target to preprocess a source file
 measurement/Troposphere/Troposphere.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.i
 .PHONY : measurement/Troposphere/Troposphere.cpp.i
 
 measurement/Troposphere/Troposphere.s: measurement/Troposphere/Troposphere.cpp.s
@@ -1329,7 +1329,7 @@ measurement/Troposphere/Troposphere.s: measurement/Troposphere/Troposphere.cpp.s
 
 # target to generate assembly for a file
 measurement/Troposphere/Troposphere.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/Troposphere/Troposphere.cpp.s
 .PHONY : measurement/Troposphere/Troposphere.cpp.s
 
 measurement/TwoWayRange.o: measurement/TwoWayRange.cpp.o
@@ -1337,7 +1337,7 @@ measurement/TwoWayRange.o: measurement/TwoWayRange.cpp.o
 
 # target to build an object file
 measurement/TwoWayRange.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.o
 .PHONY : measurement/TwoWayRange.cpp.o
 
 measurement/TwoWayRange.i: measurement/TwoWayRange.cpp.i
@@ -1345,7 +1345,7 @@ measurement/TwoWayRange.i: measurement/TwoWayRange.cpp.i
 
 # target to preprocess a source file
 measurement/TwoWayRange.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.i
 .PHONY : measurement/TwoWayRange.cpp.i
 
 measurement/TwoWayRange.s: measurement/TwoWayRange.cpp.s
@@ -1353,7 +1353,7 @@ measurement/TwoWayRange.s: measurement/TwoWayRange.cpp.s
 
 # target to generate assembly for a file
 measurement/TwoWayRange.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/TwoWayRange.cpp.s
 .PHONY : measurement/TwoWayRange.cpp.s
 
 measurement/USNTwoWayRange.o: measurement/USNTwoWayRange.cpp.o
@@ -1361,7 +1361,7 @@ measurement/USNTwoWayRange.o: measurement/USNTwoWayRange.cpp.o
 
 # target to build an object file
 measurement/USNTwoWayRange.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.o
 .PHONY : measurement/USNTwoWayRange.cpp.o
 
 measurement/USNTwoWayRange.i: measurement/USNTwoWayRange.cpp.i
@@ -1369,7 +1369,7 @@ measurement/USNTwoWayRange.i: measurement/USNTwoWayRange.cpp.i
 
 # target to preprocess a source file
 measurement/USNTwoWayRange.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.i
 .PHONY : measurement/USNTwoWayRange.cpp.i
 
 measurement/USNTwoWayRange.s: measurement/USNTwoWayRange.cpp.s
@@ -1377,7 +1377,7 @@ measurement/USNTwoWayRange.s: measurement/USNTwoWayRange.cpp.s
 
 # target to generate assembly for a file
 measurement/USNTwoWayRange.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurement/USNTwoWayRange.cpp.s
 .PHONY : measurement/USNTwoWayRange.cpp.s
 
 measurementfile/B3_obtype.o: measurementfile/B3_obtype.cpp.o
@@ -1385,7 +1385,7 @@ measurementfile/B3_obtype.o: measurementfile/B3_obtype.cpp.o
 
 # target to build an object file
 measurementfile/B3_obtype.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.o
 .PHONY : measurementfile/B3_obtype.cpp.o
 
 measurementfile/B3_obtype.i: measurementfile/B3_obtype.cpp.i
@@ -1393,7 +1393,7 @@ measurementfile/B3_obtype.i: measurementfile/B3_obtype.cpp.i
 
 # target to preprocess a source file
 measurementfile/B3_obtype.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.i
 .PHONY : measurementfile/B3_obtype.cpp.i
 
 measurementfile/B3_obtype.s: measurementfile/B3_obtype.cpp.s
@@ -1401,7 +1401,7 @@ measurementfile/B3_obtype.s: measurementfile/B3_obtype.cpp.s
 
 # target to generate assembly for a file
 measurementfile/B3_obtype.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/B3_obtype.cpp.s
 .PHONY : measurementfile/B3_obtype.cpp.s
 
 measurementfile/DataFile.o: measurementfile/DataFile.cpp.o
@@ -1409,7 +1409,7 @@ measurementfile/DataFile.o: measurementfile/DataFile.cpp.o
 
 # target to build an object file
 measurementfile/DataFile.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.o
 .PHONY : measurementfile/DataFile.cpp.o
 
 measurementfile/DataFile.i: measurementfile/DataFile.cpp.i
@@ -1417,7 +1417,7 @@ measurementfile/DataFile.i: measurementfile/DataFile.cpp.i
 
 # target to preprocess a source file
 measurementfile/DataFile.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.i
 .PHONY : measurementfile/DataFile.cpp.i
 
 measurementfile/DataFile.s: measurementfile/DataFile.cpp.s
@@ -1425,7 +1425,7 @@ measurementfile/DataFile.s: measurementfile/DataFile.cpp.s
 
 # target to generate assembly for a file
 measurementfile/DataFile.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFile.cpp.s
 .PHONY : measurementfile/DataFile.cpp.s
 
 measurementfile/DataFileAdapter.o: measurementfile/DataFileAdapter.cpp.o
@@ -1433,7 +1433,7 @@ measurementfile/DataFileAdapter.o: measurementfile/DataFileAdapter.cpp.o
 
 # target to build an object file
 measurementfile/DataFileAdapter.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.o
 .PHONY : measurementfile/DataFileAdapter.cpp.o
 
 measurementfile/DataFileAdapter.i: measurementfile/DataFileAdapter.cpp.i
@@ -1441,7 +1441,7 @@ measurementfile/DataFileAdapter.i: measurementfile/DataFileAdapter.cpp.i
 
 # target to preprocess a source file
 measurementfile/DataFileAdapter.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.i
 .PHONY : measurementfile/DataFileAdapter.cpp.i
 
 measurementfile/DataFileAdapter.s: measurementfile/DataFileAdapter.cpp.s
@@ -1449,7 +1449,7 @@ measurementfile/DataFileAdapter.s: measurementfile/DataFileAdapter.cpp.s
 
 # target to generate assembly for a file
 measurementfile/DataFileAdapter.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/DataFileAdapter.cpp.s
 .PHONY : measurementfile/DataFileAdapter.cpp.s
 
 measurementfile/GmatObType.o: measurementfile/GmatObType.cpp.o
@@ -1457,7 +1457,7 @@ measurementfile/GmatObType.o: measurementfile/GmatObType.cpp.o
 
 # target to build an object file
 measurementfile/GmatObType.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.o
 .PHONY : measurementfile/GmatObType.cpp.o
 
 measurementfile/GmatObType.i: measurementfile/GmatObType.cpp.i
@@ -1465,7 +1465,7 @@ measurementfile/GmatObType.i: measurementfile/GmatObType.cpp.i
 
 # target to preprocess a source file
 measurementfile/GmatObType.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.i
 .PHONY : measurementfile/GmatObType.cpp.i
 
 measurementfile/GmatObType.s: measurementfile/GmatObType.cpp.s
@@ -1473,7 +1473,7 @@ measurementfile/GmatObType.s: measurementfile/GmatObType.cpp.s
 
 # target to generate assembly for a file
 measurementfile/GmatObType.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/GmatObType.cpp.s
 .PHONY : measurementfile/GmatObType.cpp.s
 
 measurementfile/ObType.o: measurementfile/ObType.cpp.o
@@ -1481,7 +1481,7 @@ measurementfile/ObType.o: measurementfile/ObType.cpp.o
 
 # target to build an object file
 measurementfile/ObType.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.o
 .PHONY : measurementfile/ObType.cpp.o
 
 measurementfile/ObType.i: measurementfile/ObType.cpp.i
@@ -1489,7 +1489,7 @@ measurementfile/ObType.i: measurementfile/ObType.cpp.i
 
 # target to preprocess a source file
 measurementfile/ObType.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.i
 .PHONY : measurementfile/ObType.cpp.i
 
 measurementfile/ObType.s: measurementfile/ObType.cpp.s
@@ -1497,7 +1497,7 @@ measurementfile/ObType.s: measurementfile/ObType.cpp.s
 
 # target to generate assembly for a file
 measurementfile/ObType.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObType.cpp.s
 .PHONY : measurementfile/ObType.cpp.s
 
 measurementfile/ObservationData.o: measurementfile/ObservationData.cpp.o
@@ -1505,7 +1505,7 @@ measurementfile/ObservationData.o: measurementfile/ObservationData.cpp.o
 
 # target to build an object file
 measurementfile/ObservationData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.o
 .PHONY : measurementfile/ObservationData.cpp.o
 
 measurementfile/ObservationData.i: measurementfile/ObservationData.cpp.i
@@ -1513,7 +1513,7 @@ measurementfile/ObservationData.i: measurementfile/ObservationData.cpp.i
 
 # target to preprocess a source file
 measurementfile/ObservationData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.i
 .PHONY : measurementfile/ObservationData.cpp.i
 
 measurementfile/ObservationData.s: measurementfile/ObservationData.cpp.s
@@ -1521,7 +1521,7 @@ measurementfile/ObservationData.s: measurementfile/ObservationData.cpp.s
 
 # target to generate assembly for a file
 measurementfile/ObservationData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/measurementfile/ObservationData.cpp.s
 .PHONY : measurementfile/ObservationData.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -1529,7 +1529,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -1537,7 +1537,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -1545,7 +1545,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 trackingsystem/DSNTrackingSystem.o: trackingsystem/DSNTrackingSystem.cpp.o
@@ -1553,7 +1553,7 @@ trackingsystem/DSNTrackingSystem.o: trackingsystem/DSNTrackingSystem.cpp.o
 
 # target to build an object file
 trackingsystem/DSNTrackingSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.o
 .PHONY : trackingsystem/DSNTrackingSystem.cpp.o
 
 trackingsystem/DSNTrackingSystem.i: trackingsystem/DSNTrackingSystem.cpp.i
@@ -1561,7 +1561,7 @@ trackingsystem/DSNTrackingSystem.i: trackingsystem/DSNTrackingSystem.cpp.i
 
 # target to preprocess a source file
 trackingsystem/DSNTrackingSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.i
 .PHONY : trackingsystem/DSNTrackingSystem.cpp.i
 
 trackingsystem/DSNTrackingSystem.s: trackingsystem/DSNTrackingSystem.cpp.s
@@ -1569,7 +1569,7 @@ trackingsystem/DSNTrackingSystem.s: trackingsystem/DSNTrackingSystem.cpp.s
 
 # target to generate assembly for a file
 trackingsystem/DSNTrackingSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/DSNTrackingSystem.cpp.s
 .PHONY : trackingsystem/DSNTrackingSystem.cpp.s
 
 trackingsystem/OpticalTrackingSystem.o: trackingsystem/OpticalTrackingSystem.cpp.o
@@ -1577,7 +1577,7 @@ trackingsystem/OpticalTrackingSystem.o: trackingsystem/OpticalTrackingSystem.cpp
 
 # target to build an object file
 trackingsystem/OpticalTrackingSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.o
 .PHONY : trackingsystem/OpticalTrackingSystem.cpp.o
 
 trackingsystem/OpticalTrackingSystem.i: trackingsystem/OpticalTrackingSystem.cpp.i
@@ -1585,7 +1585,7 @@ trackingsystem/OpticalTrackingSystem.i: trackingsystem/OpticalTrackingSystem.cpp
 
 # target to preprocess a source file
 trackingsystem/OpticalTrackingSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.i
 .PHONY : trackingsystem/OpticalTrackingSystem.cpp.i
 
 trackingsystem/OpticalTrackingSystem.s: trackingsystem/OpticalTrackingSystem.cpp.s
@@ -1593,7 +1593,7 @@ trackingsystem/OpticalTrackingSystem.s: trackingsystem/OpticalTrackingSystem.cpp
 
 # target to generate assembly for a file
 trackingsystem/OpticalTrackingSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/OpticalTrackingSystem.cpp.s
 .PHONY : trackingsystem/OpticalTrackingSystem.cpp.s
 
 trackingsystem/TDRSSTrackingSystem.o: trackingsystem/TDRSSTrackingSystem.cpp.o
@@ -1601,7 +1601,7 @@ trackingsystem/TDRSSTrackingSystem.o: trackingsystem/TDRSSTrackingSystem.cpp.o
 
 # target to build an object file
 trackingsystem/TDRSSTrackingSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.o
 .PHONY : trackingsystem/TDRSSTrackingSystem.cpp.o
 
 trackingsystem/TDRSSTrackingSystem.i: trackingsystem/TDRSSTrackingSystem.cpp.i
@@ -1609,7 +1609,7 @@ trackingsystem/TDRSSTrackingSystem.i: trackingsystem/TDRSSTrackingSystem.cpp.i
 
 # target to preprocess a source file
 trackingsystem/TDRSSTrackingSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.i
 .PHONY : trackingsystem/TDRSSTrackingSystem.cpp.i
 
 trackingsystem/TDRSSTrackingSystem.s: trackingsystem/TDRSSTrackingSystem.cpp.s
@@ -1617,7 +1617,7 @@ trackingsystem/TDRSSTrackingSystem.s: trackingsystem/TDRSSTrackingSystem.cpp.s
 
 # target to generate assembly for a file
 trackingsystem/TDRSSTrackingSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TDRSSTrackingSystem.cpp.s
 .PHONY : trackingsystem/TDRSSTrackingSystem.cpp.s
 
 trackingsystem/TrackingSystem.o: trackingsystem/TrackingSystem.cpp.o
@@ -1625,7 +1625,7 @@ trackingsystem/TrackingSystem.o: trackingsystem/TrackingSystem.cpp.o
 
 # target to build an object file
 trackingsystem/TrackingSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.o
 .PHONY : trackingsystem/TrackingSystem.cpp.o
 
 trackingsystem/TrackingSystem.i: trackingsystem/TrackingSystem.cpp.i
@@ -1633,7 +1633,7 @@ trackingsystem/TrackingSystem.i: trackingsystem/TrackingSystem.cpp.i
 
 # target to preprocess a source file
 trackingsystem/TrackingSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.i
 .PHONY : trackingsystem/TrackingSystem.cpp.i
 
 trackingsystem/TrackingSystem.s: trackingsystem/TrackingSystem.cpp.s
@@ -1641,7 +1641,7 @@ trackingsystem/TrackingSystem.s: trackingsystem/TrackingSystem.cpp.s
 
 # target to generate assembly for a file
 trackingsystem/TrackingSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/TrackingSystem.cpp.s
 .PHONY : trackingsystem/TrackingSystem.cpp.s
 
 trackingsystem/USNTrackingSystem.o: trackingsystem/USNTrackingSystem.cpp.o
@@ -1649,7 +1649,7 @@ trackingsystem/USNTrackingSystem.o: trackingsystem/USNTrackingSystem.cpp.o
 
 # target to build an object file
 trackingsystem/USNTrackingSystem.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.o
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.o
 .PHONY : trackingsystem/USNTrackingSystem.cpp.o
 
 trackingsystem/USNTrackingSystem.i: trackingsystem/USNTrackingSystem.cpp.i
@@ -1657,7 +1657,7 @@ trackingsystem/USNTrackingSystem.i: trackingsystem/USNTrackingSystem.cpp.i
 
 # target to preprocess a source file
 trackingsystem/USNTrackingSystem.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.i
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.i
 .PHONY : trackingsystem/USNTrackingSystem.cpp.i
 
 trackingsystem/USNTrackingSystem.s: trackingsystem/USNTrackingSystem.cpp.s
@@ -1665,7 +1665,7 @@ trackingsystem/USNTrackingSystem.s: trackingsystem/USNTrackingSystem.cpp.s
 
 # target to generate assembly for a file
 trackingsystem/USNTrackingSystem.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.s
+	cd /gmat && $(MAKE) -f plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/build.make plugins/EstimationPlugin/src/base/CMakeFiles/GmatEstimation.dir/trackingsystem/USNTrackingSystem.cpp.s
 .PHONY : trackingsystem/USNTrackingSystem.cpp.s
 
 # Help Target
@@ -1881,6 +1881,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

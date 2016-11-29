@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/rule
 .PHONY : plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ ExtraPropagators: plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropag
 
 # fast build rule for target.
 ExtraPropagators/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build
+	cd /gmat && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build
 .PHONY : ExtraPropagators/fast
 
 factory/ExtraPropagatorFactory.o: factory/ExtraPropagatorFactory.cpp.o
@@ -161,7 +161,7 @@ factory/ExtraPropagatorFactory.o: factory/ExtraPropagatorFactory.cpp.o
 
 # target to build an object file
 factory/ExtraPropagatorFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.o
 .PHONY : factory/ExtraPropagatorFactory.cpp.o
 
 factory/ExtraPropagatorFactory.i: factory/ExtraPropagatorFactory.cpp.i
@@ -169,7 +169,7 @@ factory/ExtraPropagatorFactory.i: factory/ExtraPropagatorFactory.cpp.i
 
 # target to preprocess a source file
 factory/ExtraPropagatorFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.i
 .PHONY : factory/ExtraPropagatorFactory.cpp.i
 
 factory/ExtraPropagatorFactory.s: factory/ExtraPropagatorFactory.cpp.s
@@ -177,7 +177,7 @@ factory/ExtraPropagatorFactory.s: factory/ExtraPropagatorFactory.cpp.s
 
 # target to generate assembly for a file
 factory/ExtraPropagatorFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/factory/ExtraPropagatorFactory.cpp.s
 .PHONY : factory/ExtraPropagatorFactory.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -185,7 +185,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -193,7 +193,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -201,7 +201,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 propagator/BulirschStoer.o: propagator/BulirschStoer.cpp.o
@@ -209,7 +209,7 @@ propagator/BulirschStoer.o: propagator/BulirschStoer.cpp.o
 
 # target to build an object file
 propagator/BulirschStoer.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.o
+	cd /gmat && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.o
 .PHONY : propagator/BulirschStoer.cpp.o
 
 propagator/BulirschStoer.i: propagator/BulirschStoer.cpp.i
@@ -217,7 +217,7 @@ propagator/BulirschStoer.i: propagator/BulirschStoer.cpp.i
 
 # target to preprocess a source file
 propagator/BulirschStoer.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.i
+	cd /gmat && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.i
 .PHONY : propagator/BulirschStoer.cpp.i
 
 propagator/BulirschStoer.s: propagator/BulirschStoer.cpp.s
@@ -225,7 +225,7 @@ propagator/BulirschStoer.s: propagator/BulirschStoer.cpp.s
 
 # target to generate assembly for a file
 propagator/BulirschStoer.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.s
+	cd /gmat && $(MAKE) -f plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/build.make plugins/ExtraPropagatorsPlugin/src/base/CMakeFiles/ExtraPropagators.dir/propagator/BulirschStoer.cpp.s
 .PHONY : propagator/BulirschStoer.cpp.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

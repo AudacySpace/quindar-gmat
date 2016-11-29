@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/fl
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.o: plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/flags.make
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.o: plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.o"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.o -c /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.cpp
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.o -c /gmat/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.cpp
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.i"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.cpp > CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.i
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.cpp > CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.i
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.s"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.cpp -o CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.s
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/PythonInterfacePlugin/src/base/command/CallPythonFunction.cpp -o CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.s
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.o.requires:
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/CallPythonFunction.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/command/Ca
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.o: plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/flags.make
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.o: plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.o -c /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.cpp
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.o -c /gmat/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.cpp
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.cpp > CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.i
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.cpp > CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.i
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.cpp -o CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.s
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/PythonInterfacePlugin/src/base/factory/PythonCommandFactory.cpp -o CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.s
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.o.requires:
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/PythonCommandFactory.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/factory/Py
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.o: plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/flags.make
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.o: plugins/PythonInterfacePlugin/src/base/function/PythonModule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.o"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.o -c /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/function/PythonModule.cpp
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.o -c /gmat/plugins/PythonInterfacePlugin/src/base/function/PythonModule.cpp
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.i"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/function/PythonModule.cpp > CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.i
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/PythonInterfacePlugin/src/base/function/PythonModule.cpp > CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.i
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.s"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/function/PythonModule.cpp -o CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.s
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/PythonInterfacePlugin/src/base/function/PythonModule.cpp -o CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.s
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.o.requires:
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/PythonModule.cpp.o.requires
@@ -123,17 +123,17 @@ plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/function/P
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.o: plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/flags.make
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.o: plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.o"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.o -c /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.cpp
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.o -c /gmat/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.cpp
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.i"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.cpp > CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.i
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.cpp > CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.i
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.s"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.cpp -o CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.s
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/PythonInterfacePlugin/src/base/interface/PythonInterface.cpp -o CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.s
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.o.requires:
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/PythonInterface.cpp.o.requires
@@ -146,17 +146,17 @@ plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/interface/
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.o: plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/flags.make
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.o: plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/PythonInterfacePlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -189,8 +189,8 @@ application/plugins/libPythonInterface.so.R2015a: /usr/local/lib/libpython3.4m.s
 application/plugins/libPythonInterface.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libPythonInterface.so.R2015a: plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libPythonInterface.so"
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PythonInterface.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libPythonInterface.so.R2015a ../../../../application/plugins/libPythonInterface.so.R2015a ../../../../application/plugins/libPythonInterface.so
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PythonInterface.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libPythonInterface.so.R2015a ../../../../application/plugins/libPythonInterface.so.R2015a ../../../../application/plugins/libPythonInterface.so
 
 application/plugins/libPythonInterface.so: application/plugins/libPythonInterface.so.R2015a
 
@@ -206,10 +206,10 @@ plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/requires: 
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/requires
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/clean:
-	cd /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/PythonInterface.dir/cmake_clean.cmake
+	cd /gmat/plugins/PythonInterfacePlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/PythonInterface.dir/cmake_clean.cmake
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/clean
 
 plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base /GMAT-R2015a/plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/PythonInterfacePlugin/src/base /gmat /gmat/plugins/PythonInterfacePlugin/src/base /gmat/plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/PythonInterfacePlugin/src/base/CMakeFiles/PythonInterface.dir/depend
 

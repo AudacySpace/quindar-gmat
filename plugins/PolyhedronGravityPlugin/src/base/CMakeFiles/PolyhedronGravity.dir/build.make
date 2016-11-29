@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.di
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.o: plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/flags.make
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.o: plugins/PolyhedronGravityPlugin/src/base/factory/PolyhedronGravityModelFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.o -c /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/factory/PolyhedronGravityModelFactory.cpp
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.o -c /gmat/plugins/PolyhedronGravityPlugin/src/base/factory/PolyhedronGravityModelFactory.cpp
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/factory/PolyhedronGravityModelFactory.cpp > CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.i
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/PolyhedronGravityPlugin/src/base/factory/PolyhedronGravityModelFactory.cpp > CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.i
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/factory/PolyhedronGravityModelFactory.cpp -o CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.s
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/PolyhedronGravityPlugin/src/base/factory/PolyhedronGravityModelFactory.cpp -o CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.s
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.o.requires:
 .PHONY : plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factory/PolyhedronGravityModelFactory.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/factor
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.o: plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/flags.make
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.o: plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronBody.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.o"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.o -c /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronBody.cpp
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.o -c /gmat/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronBody.cpp
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.i"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronBody.cpp > CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.i
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronBody.cpp > CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.i
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.s"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronBody.cpp -o CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.s
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronBody.cpp -o CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.s
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.o.requires:
 .PHONY : plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronBody.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravit
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.o: plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/flags.make
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.o: plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronGravityModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.o"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.o -c /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronGravityModel.cpp
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.o -c /gmat/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronGravityModel.cpp
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.i"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronGravityModel.cpp > CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.i
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronGravityModel.cpp > CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.i
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.s"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronGravityModel.cpp -o CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.s
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/PolyhedronGravityPlugin/src/base/gravitymodel/PolyhedronGravityModel.cpp -o CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.s
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.o.requires:
 .PHONY : plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravitymodel/PolyhedronGravityModel.cpp.o.requires
@@ -123,17 +123,17 @@ plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/gravit
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.o: plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/flags.make
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.o: plugins/PolyhedronGravityPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/PolyhedronGravityPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/PolyhedronGravityPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/PolyhedronGravityPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -163,8 +163,8 @@ application/plugins/libPolyhedronGravity.so.R2015a: application/bin/libGmatBase.
 application/plugins/libPolyhedronGravity.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libPolyhedronGravity.so.R2015a: plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libPolyhedronGravity.so"
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PolyhedronGravity.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libPolyhedronGravity.so.R2015a ../../../../application/plugins/libPolyhedronGravity.so.R2015a ../../../../application/plugins/libPolyhedronGravity.so
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PolyhedronGravity.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libPolyhedronGravity.so.R2015a ../../../../application/plugins/libPolyhedronGravity.so.R2015a ../../../../application/plugins/libPolyhedronGravity.so
 
 application/plugins/libPolyhedronGravity.so: application/plugins/libPolyhedronGravity.so.R2015a
 
@@ -179,10 +179,10 @@ plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/requir
 .PHONY : plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/requires
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/clean:
-	cd /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/PolyhedronGravity.dir/cmake_clean.cmake
+	cd /gmat/plugins/PolyhedronGravityPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/PolyhedronGravity.dir/cmake_clean.cmake
 .PHONY : plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/clean
 
 plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base /GMAT-R2015a/plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/PolyhedronGravityPlugin/src/base /gmat /gmat/plugins/PolyhedronGravityPlugin/src/base /gmat/plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/PolyhedronGravityPlugin/src/base/CMakeFiles/PolyhedronGravity.dir/depend
 

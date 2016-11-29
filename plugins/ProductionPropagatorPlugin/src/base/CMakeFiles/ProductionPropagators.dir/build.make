@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 # Include any dependencies generated for this target.
 include plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/depend.make
@@ -54,17 +54,17 @@ include plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropaga
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.o: plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/flags.make
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.o: plugins/ProductionPropagatorPlugin/src/base/factory/ProductionPropagatorFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.o"
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.o -c /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/factory/ProductionPropagatorFactory.cpp
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.o -c /gmat/plugins/ProductionPropagatorPlugin/src/base/factory/ProductionPropagatorFactory.cpp
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.i"
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/factory/ProductionPropagatorFactory.cpp > CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.i
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/ProductionPropagatorPlugin/src/base/factory/ProductionPropagatorFactory.cpp > CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.i
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.s"
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/factory/ProductionPropagatorFactory.cpp -o CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.s
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/ProductionPropagatorPlugin/src/base/factory/ProductionPropagatorFactory.cpp -o CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.s
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.o.requires:
 .PHONY : plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/factory/ProductionPropagatorFactory.cpp.o.requires
@@ -77,17 +77,17 @@ plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.o: plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/flags.make
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.o: plugins/ProductionPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.o"
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.o -c /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.o -c /gmat/plugins/ProductionPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.i"
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/ProductionPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp > CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.i
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.s"
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/ProductionPropagatorPlugin/src/base/plugin/GmatPluginFunctions.cpp -o CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.s
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.o.requires:
 .PHONY : plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/plugin/GmatPluginFunctions.cpp.o.requires
@@ -100,17 +100,17 @@ plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.o: plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/flags.make
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.o: plugins/ProductionPropagatorPlugin/src/base/propagator/PrinceDormand853.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /GMAT-R2015a/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /gmat/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.o"
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.o -c /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/propagator/PrinceDormand853.cpp
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.o -c /gmat/plugins/ProductionPropagatorPlugin/src/base/propagator/PrinceDormand853.cpp
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.i"
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/propagator/PrinceDormand853.cpp > CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.i
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /gmat/plugins/ProductionPropagatorPlugin/src/base/propagator/PrinceDormand853.cpp > CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.i
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.s"
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/propagator/PrinceDormand853.cpp -o CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.s
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /gmat/plugins/ProductionPropagatorPlugin/src/base/propagator/PrinceDormand853.cpp -o CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.s
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.o.requires:
 .PHONY : plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/propagator/PrinceDormand853.cpp.o.requires
@@ -138,8 +138,8 @@ application/plugins/libProductionPropagators.so.R2015a: application/bin/libGmatB
 application/plugins/libProductionPropagators.so.R2015a: depends/cspice/linux/cspice64/lib/cspice.a
 application/plugins/libProductionPropagators.so.R2015a: plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../application/plugins/libProductionPropagators.so"
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProductionPropagators.dir/link.txt --verbose=$(VERBOSE)
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libProductionPropagators.so.R2015a ../../../../application/plugins/libProductionPropagators.so.R2015a ../../../../application/plugins/libProductionPropagators.so
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProductionPropagators.dir/link.txt --verbose=$(VERBOSE)
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../../application/plugins/libProductionPropagators.so.R2015a ../../../../application/plugins/libProductionPropagators.so.R2015a ../../../../application/plugins/libProductionPropagators.so
 
 application/plugins/libProductionPropagators.so: application/plugins/libProductionPropagators.so.R2015a
 
@@ -153,10 +153,10 @@ plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir
 .PHONY : plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/requires
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/clean:
-	cd /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/ProductionPropagators.dir/cmake_clean.cmake
+	cd /gmat/plugins/ProductionPropagatorPlugin/src/base && $(CMAKE_COMMAND) -P CMakeFiles/ProductionPropagators.dir/cmake_clean.cmake
 .PHONY : plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/clean
 
 plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /GMAT-R2015a /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base /GMAT-R2015a /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base /GMAT-R2015a/plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/DependInfo.cmake --color=$(COLOR)
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /gmat /gmat/plugins/ProductionPropagatorPlugin/src/base /gmat /gmat/plugins/ProductionPropagatorPlugin/src/base /gmat/plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/ProductionPropagatorPlugin/src/base/CMakeFiles/ProductionPropagators.dir/depend
 

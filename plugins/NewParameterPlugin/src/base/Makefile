@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /GMAT-R2015a
+CMAKE_SOURCE_DIR = /gmat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /GMAT-R2015a
+CMAKE_BINARY_DIR = /gmat
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles /GMAT-R2015a/plugins/NewParameterPlugin/src/base/CMakeFiles/progress.marks
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /GMAT-R2015a/CMakeFiles 0
+	cd /gmat && $(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles /gmat/plugins/NewParameterPlugin/src/base/CMakeFiles/progress.marks
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gmat/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/clean
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/preinstall
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/rule:
-	cd /GMAT-R2015a && $(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/rule
+	cd /gmat && $(MAKE) -f CMakeFiles/Makefile2 plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/rule
 .PHONY : plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ NewParameters: plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/
 
 # fast build rule for target.
 NewParameters/fast:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build
 .PHONY : NewParameters/fast
 
 factory/NewParameterFactory.o: factory/NewParameterFactory.cpp.o
@@ -161,7 +161,7 @@ factory/NewParameterFactory.o: factory/NewParameterFactory.cpp.o
 
 # target to build an object file
 factory/NewParameterFactory.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.o
 .PHONY : factory/NewParameterFactory.cpp.o
 
 factory/NewParameterFactory.i: factory/NewParameterFactory.cpp.i
@@ -169,7 +169,7 @@ factory/NewParameterFactory.i: factory/NewParameterFactory.cpp.i
 
 # target to preprocess a source file
 factory/NewParameterFactory.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.i
 .PHONY : factory/NewParameterFactory.cpp.i
 
 factory/NewParameterFactory.s: factory/NewParameterFactory.cpp.s
@@ -177,7 +177,7 @@ factory/NewParameterFactory.s: factory/NewParameterFactory.cpp.s
 
 # target to generate assembly for a file
 factory/NewParameterFactory.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/factory/NewParameterFactory.cpp.s
 .PHONY : factory/NewParameterFactory.cpp.s
 
 parameter/AtmosDensity.o: parameter/AtmosDensity.cpp.o
@@ -185,7 +185,7 @@ parameter/AtmosDensity.o: parameter/AtmosDensity.cpp.o
 
 # target to build an object file
 parameter/AtmosDensity.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.o
 .PHONY : parameter/AtmosDensity.cpp.o
 
 parameter/AtmosDensity.i: parameter/AtmosDensity.cpp.i
@@ -193,7 +193,7 @@ parameter/AtmosDensity.i: parameter/AtmosDensity.cpp.i
 
 # target to preprocess a source file
 parameter/AtmosDensity.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.i
 .PHONY : parameter/AtmosDensity.cpp.i
 
 parameter/AtmosDensity.s: parameter/AtmosDensity.cpp.s
@@ -201,7 +201,7 @@ parameter/AtmosDensity.s: parameter/AtmosDensity.cpp.s
 
 # target to generate assembly for a file
 parameter/AtmosDensity.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/AtmosDensity.cpp.s
 .PHONY : parameter/AtmosDensity.cpp.s
 
 parameter/FMAcceleration.o: parameter/FMAcceleration.cpp.o
@@ -209,7 +209,7 @@ parameter/FMAcceleration.o: parameter/FMAcceleration.cpp.o
 
 # target to build an object file
 parameter/FMAcceleration.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.o
 .PHONY : parameter/FMAcceleration.cpp.o
 
 parameter/FMAcceleration.i: parameter/FMAcceleration.cpp.i
@@ -217,7 +217,7 @@ parameter/FMAcceleration.i: parameter/FMAcceleration.cpp.i
 
 # target to preprocess a source file
 parameter/FMAcceleration.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.i
 .PHONY : parameter/FMAcceleration.cpp.i
 
 parameter/FMAcceleration.s: parameter/FMAcceleration.cpp.s
@@ -225,7 +225,7 @@ parameter/FMAcceleration.s: parameter/FMAcceleration.cpp.s
 
 # target to generate assembly for a file
 parameter/FMAcceleration.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMAcceleration.cpp.s
 .PHONY : parameter/FMAcceleration.cpp.s
 
 parameter/FMDensity.o: parameter/FMDensity.cpp.o
@@ -233,7 +233,7 @@ parameter/FMDensity.o: parameter/FMDensity.cpp.o
 
 # target to build an object file
 parameter/FMDensity.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.o
 .PHONY : parameter/FMDensity.cpp.o
 
 parameter/FMDensity.i: parameter/FMDensity.cpp.i
@@ -241,7 +241,7 @@ parameter/FMDensity.i: parameter/FMDensity.cpp.i
 
 # target to preprocess a source file
 parameter/FMDensity.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.i
 .PHONY : parameter/FMDensity.cpp.i
 
 parameter/FMDensity.s: parameter/FMDensity.cpp.s
@@ -249,7 +249,7 @@ parameter/FMDensity.s: parameter/FMDensity.cpp.s
 
 # target to generate assembly for a file
 parameter/FMDensity.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/FMDensity.cpp.s
 .PHONY : parameter/FMDensity.cpp.s
 
 parameter/OdeData.o: parameter/OdeData.cpp.o
@@ -257,7 +257,7 @@ parameter/OdeData.o: parameter/OdeData.cpp.o
 
 # target to build an object file
 parameter/OdeData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.o
 .PHONY : parameter/OdeData.cpp.o
 
 parameter/OdeData.i: parameter/OdeData.cpp.i
@@ -265,7 +265,7 @@ parameter/OdeData.i: parameter/OdeData.cpp.i
 
 # target to preprocess a source file
 parameter/OdeData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.i
 .PHONY : parameter/OdeData.cpp.i
 
 parameter/OdeData.s: parameter/OdeData.cpp.s
@@ -273,7 +273,7 @@ parameter/OdeData.s: parameter/OdeData.cpp.s
 
 # target to generate assembly for a file
 parameter/OdeData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeData.cpp.s
 .PHONY : parameter/OdeData.cpp.s
 
 parameter/OdeReal.o: parameter/OdeReal.cpp.o
@@ -281,7 +281,7 @@ parameter/OdeReal.o: parameter/OdeReal.cpp.o
 
 # target to build an object file
 parameter/OdeReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.o
 .PHONY : parameter/OdeReal.cpp.o
 
 parameter/OdeReal.i: parameter/OdeReal.cpp.i
@@ -289,7 +289,7 @@ parameter/OdeReal.i: parameter/OdeReal.cpp.i
 
 # target to preprocess a source file
 parameter/OdeReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.i
 .PHONY : parameter/OdeReal.cpp.i
 
 parameter/OdeReal.s: parameter/OdeReal.cpp.s
@@ -297,7 +297,7 @@ parameter/OdeReal.s: parameter/OdeReal.cpp.s
 
 # target to generate assembly for a file
 parameter/OdeReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/OdeReal.cpp.s
 .PHONY : parameter/OdeReal.cpp.s
 
 parameter/SolverData.o: parameter/SolverData.cpp.o
@@ -305,7 +305,7 @@ parameter/SolverData.o: parameter/SolverData.cpp.o
 
 # target to build an object file
 parameter/SolverData.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.o
 .PHONY : parameter/SolverData.cpp.o
 
 parameter/SolverData.i: parameter/SolverData.cpp.i
@@ -313,7 +313,7 @@ parameter/SolverData.i: parameter/SolverData.cpp.i
 
 # target to preprocess a source file
 parameter/SolverData.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.i
 .PHONY : parameter/SolverData.cpp.i
 
 parameter/SolverData.s: parameter/SolverData.cpp.s
@@ -321,7 +321,7 @@ parameter/SolverData.s: parameter/SolverData.cpp.s
 
 # target to generate assembly for a file
 parameter/SolverData.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverData.cpp.s
 .PHONY : parameter/SolverData.cpp.s
 
 parameter/SolverReal.o: parameter/SolverReal.cpp.o
@@ -329,7 +329,7 @@ parameter/SolverReal.o: parameter/SolverReal.cpp.o
 
 # target to build an object file
 parameter/SolverReal.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.o
 .PHONY : parameter/SolverReal.cpp.o
 
 parameter/SolverReal.i: parameter/SolverReal.cpp.i
@@ -337,7 +337,7 @@ parameter/SolverReal.i: parameter/SolverReal.cpp.i
 
 # target to preprocess a source file
 parameter/SolverReal.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.i
 .PHONY : parameter/SolverReal.cpp.i
 
 parameter/SolverReal.s: parameter/SolverReal.cpp.s
@@ -345,7 +345,7 @@ parameter/SolverReal.s: parameter/SolverReal.cpp.s
 
 # target to generate assembly for a file
 parameter/SolverReal.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverReal.cpp.s
 .PHONY : parameter/SolverReal.cpp.s
 
 parameter/SolverState.o: parameter/SolverState.cpp.o
@@ -353,7 +353,7 @@ parameter/SolverState.o: parameter/SolverState.cpp.o
 
 # target to build an object file
 parameter/SolverState.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.o
 .PHONY : parameter/SolverState.cpp.o
 
 parameter/SolverState.i: parameter/SolverState.cpp.i
@@ -361,7 +361,7 @@ parameter/SolverState.i: parameter/SolverState.cpp.i
 
 # target to preprocess a source file
 parameter/SolverState.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.i
 .PHONY : parameter/SolverState.cpp.i
 
 parameter/SolverState.s: parameter/SolverState.cpp.s
@@ -369,7 +369,7 @@ parameter/SolverState.s: parameter/SolverState.cpp.s
 
 # target to generate assembly for a file
 parameter/SolverState.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverState.cpp.s
 .PHONY : parameter/SolverState.cpp.s
 
 parameter/SolverStatus.o: parameter/SolverStatus.cpp.o
@@ -377,7 +377,7 @@ parameter/SolverStatus.o: parameter/SolverStatus.cpp.o
 
 # target to build an object file
 parameter/SolverStatus.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.o
 .PHONY : parameter/SolverStatus.cpp.o
 
 parameter/SolverStatus.i: parameter/SolverStatus.cpp.i
@@ -385,7 +385,7 @@ parameter/SolverStatus.i: parameter/SolverStatus.cpp.i
 
 # target to preprocess a source file
 parameter/SolverStatus.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.i
 .PHONY : parameter/SolverStatus.cpp.i
 
 parameter/SolverStatus.s: parameter/SolverStatus.cpp.s
@@ -393,7 +393,7 @@ parameter/SolverStatus.s: parameter/SolverStatus.cpp.s
 
 # target to generate assembly for a file
 parameter/SolverStatus.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverStatus.cpp.s
 .PHONY : parameter/SolverStatus.cpp.s
 
 parameter/SolverString.o: parameter/SolverString.cpp.o
@@ -401,7 +401,7 @@ parameter/SolverString.o: parameter/SolverString.cpp.o
 
 # target to build an object file
 parameter/SolverString.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.o
 .PHONY : parameter/SolverString.cpp.o
 
 parameter/SolverString.i: parameter/SolverString.cpp.i
@@ -409,7 +409,7 @@ parameter/SolverString.i: parameter/SolverString.cpp.i
 
 # target to preprocess a source file
 parameter/SolverString.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.i
 .PHONY : parameter/SolverString.cpp.i
 
 parameter/SolverString.s: parameter/SolverString.cpp.s
@@ -417,7 +417,7 @@ parameter/SolverString.s: parameter/SolverString.cpp.s
 
 # target to generate assembly for a file
 parameter/SolverString.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/parameter/SolverString.cpp.s
 .PHONY : parameter/SolverString.cpp.s
 
 plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
@@ -425,7 +425,7 @@ plugin/GmatPluginFunctions.o: plugin/GmatPluginFunctions.cpp.o
 
 # target to build an object file
 plugin/GmatPluginFunctions.cpp.o:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.o
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.o
 .PHONY : plugin/GmatPluginFunctions.cpp.o
 
 plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
@@ -433,7 +433,7 @@ plugin/GmatPluginFunctions.i: plugin/GmatPluginFunctions.cpp.i
 
 # target to preprocess a source file
 plugin/GmatPluginFunctions.cpp.i:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.i
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.i
 .PHONY : plugin/GmatPluginFunctions.cpp.i
 
 plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
@@ -441,7 +441,7 @@ plugin/GmatPluginFunctions.s: plugin/GmatPluginFunctions.cpp.s
 
 # target to generate assembly for a file
 plugin/GmatPluginFunctions.cpp.s:
-	cd /GMAT-R2015a && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.s
+	cd /gmat && $(MAKE) -f plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/build.make plugins/NewParameterPlugin/src/base/CMakeFiles/NewParameters.dir/plugin/GmatPluginFunctions.cpp.s
 .PHONY : plugin/GmatPluginFunctions.cpp.s
 
 # Help Target
@@ -504,6 +504,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /GMAT-R2015a && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /gmat && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

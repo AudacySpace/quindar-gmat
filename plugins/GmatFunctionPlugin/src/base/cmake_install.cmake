@@ -1,8 +1,8 @@
-# Install script for directory: /GMAT-R2015a/plugins/GmatFunctionPlugin/src/base
+# Install script for directory: /gmat/plugins/GmatFunctionPlugin/src/base
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/GMAT-R2015a/GMAT-R2015a-Linux-x64")
+  SET(CMAKE_INSTALL_PREFIX "/gmat/GMAT-R2015a-Linux-x64")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,8 +45,8 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     ENDIF()
   ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE SHARED_LIBRARY FILES
-    "/GMAT-R2015a/application/plugins/libGmatFunction.so.R2015a"
-    "/GMAT-R2015a/application/plugins/libGmatFunction.so"
+    "/gmat/application/plugins/libGmatFunction.so.R2015a"
+    "/gmat/application/plugins/libGmatFunction.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/plugins/libGmatFunction.so.R2015a"

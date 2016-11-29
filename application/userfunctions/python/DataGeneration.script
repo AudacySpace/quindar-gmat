@@ -1,4 +1,4 @@
-%eneral Mission Analysis Tool(GMAT) Script
+%General Mission Analysis Tool(GMAT) Script
 %Created: 2016-05-06 13:59:09
 
 
@@ -260,6 +260,7 @@ Create Variable z2 vx2 vy2 vz2 x3 y3 z3 vx3 vy3 vz3;
 Create Variable q1_1 q2_1 q3_1 q4_1 q1_2 q2_2 q3_2 q4_2 q1_3 q2_3;
 Create Variable q3_3 q4_3;
 Create Variable testData;
+Create String testData1;
 
 %----------------------------------------
 %---------- Mission Sequence
@@ -302,8 +303,8 @@ While i_loop > 0
    GMAT q3_3 = Audacy3.Q3;
    GMAT q4_3 = Audacy3.Q4;
 
-   GMAT testData = Python.MathFunctions.sqrt(x1);   
-%   GMAT [testData] = Python.DataGeneration.Generate(x1, y1, z1, vx1, vy1, vz1, x2, y2, z2, vx2, vy2, vz2, x3, y3, z3, vx3, vy3, vz3, q1_1, q2_1, q3_1, q4_1, q1_2, q2_2, q3_2, q4_2, q1_3, q2_3, q3_3, q4_3, time);
+%   GMAT testData = Python.MathFunctions.sqrt(x1);   
+   GMAT [testData1] = Python.DataGeneration.Generate_v1(x1, y1, z1, vx1, vy1, vz1, x2, y2, z2, vx2, vy2, vz2, x3, y3, z3, vx3, vy3, vz3, q1_1, q2_1, q3_1, q4_1, q1_2, q2_2, q3_2, q4_2, q1_3, q2_3, q3_3, q4_3, time);
 %   GMAT Python.DataGenerationMQ.SendMQ(x1, y1, z1, vx1, vy1, vz1, x2, y2, z2, vx2, vy2, vz2, x3, y3, z3, vx3, vy3, vz3, q1_1, q2_1, q3_1, q4_1, q1_2, q2_2, q3_2, q4_2, q1_3, q2_3, q3_3, q4_3, time);
 
 EndWhile;
