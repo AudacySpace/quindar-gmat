@@ -44,7 +44,7 @@ q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,time):
 
 def Generate_v1(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q1_1,q2_1,q3_1, q4_1,
 q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,time):
-	timestamp = (time+2430000-2440587.5)*86400.0
+	timestamp = time+2430000
 	with SocketIO('localhost', 3000, LoggingNamespace) as socketIO:
 		testData1 = json.dumps({ "vehicleId": "Audacy1", "x": x1, "y": y1, "z": z1,
 		 "vx": vx1,"vy": vy1, "vz": vz1, "timestamp": timestamp }, sort_keys=True)
