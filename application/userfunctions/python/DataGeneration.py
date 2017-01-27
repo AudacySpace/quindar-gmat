@@ -73,7 +73,7 @@ q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time
 		socketIO.emit("satData1", testData1)
 		socketIO.emit("satData1", testData2)
 		socketIO.emit("satData1", testData3)
-		socketIO.emit("gsData1", testData4)
-		socketIO.emit("gsData1", testData5)	
+		socketIO.emit("satData1", testData4)
+		socketIO.emit("satData1", testData5)	
 		socketIO.wait(seconds=1)
 		return testData1
