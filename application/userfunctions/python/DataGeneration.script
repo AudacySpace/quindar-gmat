@@ -123,6 +123,38 @@ GMAT Audacy3.AttitudeCoordinateSystem = EarthMJ2000Eq;
 GMAT Audacy3.EulerAngleSequence = '321';
 
 %----------------------------------------
+%---------- GroundStations
+%----------------------------------------
+
+Create GroundStation EarthStation1;
+GMAT EarthStation1.OrbitColor = Thistle;
+GMAT EarthStation1.TargetColor = DarkGray;
+GMAT EarthStation1.CentralBody = Earth;
+GMAT EarthStation1.StateType = Spherical;
+GMAT EarthStation1.HorizonReference = Sphere;
+GMAT EarthStation1.Location1 = 37.6808;
+GMAT EarthStation1.Location2 = 237.6;
+GMAT EarthStation1.Location3 = 0;
+GMAT EarthStation1.Id = 'StationId';
+GMAT EarthStation1.MinimumElevationAngle = 7;
+
+%----------------------------------------
+%---------- GroundStations
+%----------------------------------------
+
+Create GroundStation EarthStation2;
+GMAT EarthStation2.OrbitColor = Thistle;
+GMAT EarthStation2.TargetColor = DarkGray;
+GMAT EarthStation2.CentralBody = Earth;
+GMAT EarthStation2.StateType = Spherical;
+GMAT EarthStation2.HorizonReference = Sphere;
+GMAT EarthStation2.Location1 = 1.3521;
+GMAT EarthStation2.Location2 = 103.8198;
+GMAT EarthStation2.Location3 = 0;
+GMAT EarthStation2.Id = 'StationId';
+GMAT EarthStation2.MinimumElevationAngle = 7;
+
+%----------------------------------------
 %---------- ForceModels
 %----------------------------------------
 
@@ -227,7 +259,7 @@ GMAT DefaultGroundTrackPlot.UpperLeft = [ 0 0.5148698884758365 ];
 GMAT DefaultGroundTrackPlot.Size = [ 0.5003866976024749 0.4498141263940521 ];
 GMAT DefaultGroundTrackPlot.RelativeZOrder = 8;
 GMAT DefaultGroundTrackPlot.Maximized = false;
-GMAT DefaultGroundTrackPlot.Add = {Audacy1, Audacy2, Audacy3};
+GMAT DefaultGroundTrackPlot.Add = {Audacy1, Audacy2, Audacy3, EarthStation1, EarthStation2};
 GMAT DefaultGroundTrackPlot.DataCollectFrequency = 1;
 GMAT DefaultGroundTrackPlot.UpdatePlotFrequency = 50;
 GMAT DefaultGroundTrackPlot.NumPointsToRedraw = 0;
@@ -260,6 +292,7 @@ Create Variable z2 vx2 vy2 vz2 x3 y3 z3 vx3 vy3 vz3;
 Create Variable q1_1 q2_1 q3_1 q4_1 q1_2 q2_2 q3_2 q4_2 q1_3 q2_3;
 Create Variable q3_3 q4_3;
 Create Variable testData;
+Create Variable gs1_x gs1_y gs1_z gs2_x gs2_y gs2_z;
 Create String testData1;
 
 %----------------------------------------
@@ -268,6 +301,12 @@ Create String testData1;
 
 BeginMissionSequence;
 GMAT i_loop = 1;
+GMAT gs1_x = EarthStation1.EarthFixed.X;
+GMAT gs1_y = EarthStation1.EarthFixed.Y;
+GMAT gs1_z = EarthStation1.EarthFixed.Z;
+GMAT gs2_x = EarthStation2.EarthFixed.X;
+GMAT gs2_y = EarthStation2.EarthFixed.Y;
+GMAT gs2_z = EarthStation2.EarthFixed.Z;
 While i_loop > 0
    Propagate DefaultProp(Audacy1, Audacy2, Audacy3) {Audacy1.ElapsedSecs = 100};
    GMAT x1 = Audacy1.EarthFixed.X;
@@ -304,7 +343,7 @@ While i_loop > 0
    GMAT q4_3 = Audacy3.Q4;
 
 %   GMAT testData = Python.MathFunctions.sqrt(x1);   
-   GMAT [testData1] = Python.DataGeneration.Generate_v1(x1, y1, z1, vx1, vy1, vz1, x2, y2, z2, vx2, vy2, vz2, x3, y3, z3, vx3, vy3, vz3, q1_1, q2_1, q3_1, q4_1, q1_2, q2_2, q3_2, q4_2, q1_3, q2_3, q3_3, q4_3, time);
+   GMAT [testData1] = Python.DataGeneration.Generate_v1(x1, y1, z1, vx1, vy1, vz1, x2, y2, z2, vx2, vy2, vz2, x3, y3, z3, vx3, vy3, vz3, q1_1, q2_1, q3_1, q4_1, q1_2, q2_2, q3_2, q4_2, q1_3, q2_3, q3_3, q4_3, gs1_x, gs1_y, gs1_z, gs2_x, gs2_y, gs2_z, time);
 %   GMAT Python.DataGenerationMQ.SendMQ(x1, y1, z1, vx1, vy1, vz1, x2, y2, z2, vx2, vy2, vz2, x3, y3, z3, vx3, vy3, vz3, q1_1, q2_1, q3_1, q4_1, q1_2, q2_2, q3_2, q4_2, q1_3, q2_3, q3_3, q4_3, time);
 
 EndWhile;
