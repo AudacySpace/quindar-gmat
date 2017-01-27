@@ -57,12 +57,12 @@ q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time
 		 "vx": vx3,"vy": vy3, "vz": vz3, "timestamp": timestamp }, sort_keys=True)
 
 		r1 = math.sqrt(math.pow(gs1_x,2)+math.pow(gs1_y,2)+math.pow(gs1_z,2))
-        longitude1 = math.atan2(gs1_y,gs1_x)/math.pi*180
-        latitude1 = math.asin(gs1_z/r1)/math.pi*180
+		longitude1 = math.atan2(gs1_y,gs1_x)/math.pi*180
+		latitude1 = math.asin(gs1_z/r1)/math.pi*180
 
 		r2 = math.sqrt(math.pow(gs2_x,2)+math.pow(gs2_y,2)+math.pow(gs2_z,2))
-        longitude2 = math.atan2(gs2_y,gs2_x)/math.pi*180
-        latitude2 = math.asin(gs2_z/r2)/math.pi*180
+		longitude2 = math.atan2(gs2_y,gs2_x)/math.pi*180
+		latitude2 = math.asin(gs2_z/r2)/math.pi*180
 
 		testData4 = json.dumps({ "stationId": "EarthStation1", "latitude": latitude1, 
 		"longitude": longitude1, "timestamp": timestamp }, sort_keys=True)
