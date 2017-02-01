@@ -47,15 +47,6 @@ def Generate_v1(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q
 q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time):
 	timestamp = time+2430000
 	with SocketIO('https://qsvr.quindar.space', 443, LoggingNamespace) as socketIO:
-		testData1 = json.dumps({ "vehicleId": "Audacy1", "x": x1, "y": y1, "z": z1,
-		 "vx": vx1,"vy": vy1, "vz": vz1, "timestamp": timestamp }, sort_keys=True)
-		
-		testData2 = json.dumps({ "vehicleId": "Audacy2", "x": x2, "y": y2, "z": z2,
-		 "vx": vx2,"vy": vy2, "vz": vz2, "timestamp": timestamp }, sort_keys=True)
-
-		testData3 = json.dumps({ "vehicleId": "Audacy3", "x": x3, "y": y3, "z": z3,
-		 "vx": vx3,"vy": vy3, "vz": vz3, "timestamp": timestamp }, sort_keys=True)
-
 		r1 = math.sqrt(math.pow(gs1_x,2)+math.pow(gs1_y,2)+math.pow(gs1_z,2))
 		longitude1 = math.atan2(gs1_y,gs1_x)/math.pi*180
 		latitude1 = math.asin(gs1_z/r1)/math.pi*180
@@ -64,16 +55,20 @@ q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time
 		longitude2 = math.atan2(gs2_y,gs2_x)/math.pi*180
 		latitude2 = math.asin(gs2_z/r2)/math.pi*180
 
-		testData4 = json.dumps({ "stationId": "EarthStation1", "latitude": latitude1, 
-		"longitude": longitude1, "timestamp": timestamp }, sort_keys=True)
+		testData1 = json.dumps({ "vehicleId": "Audacy1", "x": x1, "y": y1, "z": z1,
+		 "vx": vx1,"vy": vy1, "vz": vz1, "timestamp": timestamp, "stationId": "EarthStation1", 
+		 "latitude": latitude1, "longitude": longitude1}, sort_keys=True)
+		
+		testData2 = json.dumps({ "vehicleId": "Audacy2", "x": x2, "y": y2, "z": z2,
+		 "vx": vx2,"vy": vy2, "vz": vz2, "timestamp": timestamp, "stationId": "EarthStation1", 
+		 "latitude": latitude1, "longitude": longitude1 }, sort_keys=True)
 
-		testData5 = json.dumps({ "stationId": "EarthStation2", "latitude": latitude2, 
-		"longitude": longitude2, "timestamp": timestamp }, sort_keys=True)
+		testData3 = json.dumps({ "vehicleId": "Audacy3", "x": x3, "y": y3, "z": z3,
+		 "vx": vx3,"vy": vy3, "vz": vz3, "timestamp": timestamp, "stationId": "EarthStation1", 
+		 "latitude": latitude1, "longitude": longitude1 }, sort_keys=True)
 		
 		socketIO.emit("satData1", testData1)
 		socketIO.emit("satData1", testData2)
-		socketIO.emit("satData1", testData3)
-		socketIO.emit("satData1", testData4)
-		socketIO.emit("satData1", testData5)	
+		socketIO.emit("satData1", testData3)	
 		socketIO.wait(seconds=1)
 		return testData1
