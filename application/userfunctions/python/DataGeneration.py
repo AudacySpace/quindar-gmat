@@ -57,15 +57,18 @@ q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time
 
 		testData1 = json.dumps({ "vehicleId": "Audacy1", "x": x1, "y": y1, "z": z1,
 		 "vx": vx1,"vy": vy1, "vz": vz1, "timestamp": timestamp, "stationId": "EarthStation1", 
-		 "latitude": latitude1, "longitude": longitude1}, sort_keys=True)
+		 "latitude": latitude1, "longitude": longitude1, "q1": q1_1, "q2": q2_1,
+		 "q3": q3_1, "qc": q4_1}, sort_keys=True)
 		
 		testData2 = json.dumps({ "vehicleId": "Audacy2", "x": x2, "y": y2, "z": z2,
 		 "vx": vx2,"vy": vy2, "vz": vz2, "timestamp": timestamp, "stationId": "EarthStation1", 
-		 "latitude": latitude1, "longitude": longitude1 }, sort_keys=True)
+		 "latitude": latitude1, "longitude": longitude1, "q1": q1_2, "q2": q2_2,
+		 "q3": q3_2, "qc": q4_2 }, sort_keys=True)
 
 		testData3 = json.dumps({ "vehicleId": "Audacy3", "x": x3, "y": y3, "z": z3,
 		 "vx": vx3,"vy": vy3, "vz": vz3, "timestamp": timestamp, "stationId": "EarthStation1", 
-		 "latitude": latitude1, "longitude": longitude1 }, sort_keys=True)
+		 "latitude": latitude1, "longitude": longitude1, "q1": q1_3, "q2": q2_3,
+		 "q3": q3_3, "qc": q4_3 }, sort_keys=True)
 		
 		socketIO.emit("satData1", testData1)
 		socketIO.emit("satData1", testData2)

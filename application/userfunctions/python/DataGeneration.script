@@ -41,6 +41,14 @@ GMAT Audacy1.AttitudeDisplayStateType = 'Quaternion';
 GMAT Audacy1.AttitudeRateDisplayStateType = 'AngularVelocity';
 GMAT Audacy1.AttitudeCoordinateSystem = EarthMJ2000Eq;
 GMAT Audacy1.EulerAngleSequence = '321';
+GMAT Audacy1.AttitudeReferenceBody = Earth;
+GMAT Audacy1.AttitudeConstraintType = 'OrbitNormal';
+GMAT Audacy1.BodyAlignmentVectorX = 1;
+GMAT Audacy1.BodyAlignmentVectorY = 0;
+GMAT Audacy1.BodyAlignmentVectorZ = 0;
+GMAT Audacy1.BodyConstraintVectorX = 0;
+GMAT Audacy1.BodyConstraintVectorY = 0;
+GMAT Audacy1.BodyConstraintVectorZ = 1;
 
 %----------------------------------------
 %---------- Spacecraft
@@ -81,6 +89,14 @@ GMAT Audacy2.AttitudeDisplayStateType = 'Quaternion';
 GMAT Audacy2.AttitudeRateDisplayStateType = 'AngularVelocity';
 GMAT Audacy2.AttitudeCoordinateSystem = EarthMJ2000Eq;
 GMAT Audacy2.EulerAngleSequence = '321';
+GMAT Audacy2.AttitudeReferenceBody = Earth;
+GMAT Audacy2.AttitudeConstraintType = 'OrbitNormal';
+GMAT Audacy2.BodyAlignmentVectorX = 1;
+GMAT Audacy2.BodyAlignmentVectorY = 0;
+GMAT Audacy2.BodyAlignmentVectorZ = 0;
+GMAT Audacy2.BodyConstraintVectorX = 0;
+GMAT Audacy2.BodyConstraintVectorY = 0;
+GMAT Audacy2.BodyConstraintVectorZ = 1;
 
 %----------------------------------------
 %---------- Spacecraft
@@ -121,6 +137,14 @@ GMAT Audacy3.AttitudeDisplayStateType = 'Quaternion';
 GMAT Audacy3.AttitudeRateDisplayStateType = 'AngularVelocity';
 GMAT Audacy3.AttitudeCoordinateSystem = EarthMJ2000Eq;
 GMAT Audacy3.EulerAngleSequence = '321';
+GMAT Audacy3.AttitudeReferenceBody = Earth;
+GMAT Audacy3.AttitudeConstraintType = 'OrbitNormal';
+GMAT Audacy3.BodyAlignmentVectorX = 1;
+GMAT Audacy3.BodyAlignmentVectorY = 0;
+GMAT Audacy3.BodyAlignmentVectorZ = 0;
+GMAT Audacy3.BodyConstraintVectorX = 0;
+GMAT Audacy3.BodyConstraintVectorY = 0;
+GMAT Audacy3.BodyConstraintVectorZ = 1;
 
 %----------------------------------------
 %---------- GroundStations
