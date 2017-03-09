@@ -44,6 +44,6 @@ Clone the two repositories in a single folder, such as ~/repositories
 	
 By default, quindar-qsrc will be connected to quindar-gmat repository in GitHub.  To run your version of quindar-gmat, you need to creat your own [feature branch](https://github.com/quindar/quindar-ux/tree/master) and run the following command.
 
-	sudo docker exec qsrc gmat-update.sh <branch>
+	sudo docker exec qsrc gmat-update.sh <your feature branch>
 	
 Connect to the server at http://hostname or you can access the VNC server directly with a [VNC client](https://www.realvnc.com/download/viewer/) at hostname:5901 using password "vncpassword".
