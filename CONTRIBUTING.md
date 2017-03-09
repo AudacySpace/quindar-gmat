@@ -14,11 +14,11 @@ If you found a bug,
 
 ## Contributing to the Quindar-GMAT code
 ### Scenarios
-* You can contribute by creating new scenario files.  Your script files need to be placed at /application/userfunctions/python/ to use the existing python functions.
+* You can contribute by creating new scenario files.  Your script files need to be placed in /application/userfunctions/python/ to use the existing python functions.
 * Check NASA's [User Guide](http://gmat.sourceforge.net/docs/R2016a/html/index.html) for more information about script files.
 
 ### Python functions
-* You can contribute by creating new python functions that can be used by Quindar-GMAT.  Your python functions need to be placed at /application/userfunctions/python/.
+* You can contribute by creating new python functions that can be used by Quindar-GMAT.  Your python functions need to be placed in /application/userfunctions/python/.
 
 ### GMAT
 * You can contribute by modifying Quindar-GMAT.  Check NASA's [GMAT Wiki](http://gmatcentral.org) to learn more about GMAT.
@@ -46,4 +46,4 @@ By default, quindar-qsrc will be connected to quindar-gmat repository in GitHub.
 
 	sudo docker exec qsrc gmat-update.sh <branch>
 	
-Connect to the server at http://hostname or you can access the VNC server directly with a VNC client at hostname:5901 using password "vncpassword".
+Connect to the server at http://hostname or you can access the VNC server directly with a [VNC client](https://www.realvnc.com/download/viewer/) at hostname:5901 using password "vncpassword".

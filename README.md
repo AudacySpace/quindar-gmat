@@ -9,7 +9,7 @@ These files are copied under gmat folder when quindar-qsrc is deployed.  See  ht
 ## How to operate
 * Click NASA GMAT (GUI) icon to open GMAT GUI.  You can visually navigate to the directory where your script file is.  A sample data generation script file is located at application/userfunction/python/DataGeneration.script.  Also, the python function used by DataGeneration.script is defined in DataGeneration.py. 
 * Click NASA GMAT (Console) to open a termial emulator to run GMAT.  You can specify the script file you want to run.  To run the sample data generation script file, type ../userfunctions/python/DataGeneration.script.
-* The official GMAT user guide is available at http://gmat.sourceforge.net/docs/R2016a/html/index.html.
+* NASA's GMAT user guide is available at http://gmat.sourceforge.net/docs/R2016a/html/index.html.
 * To learn more about GMAT, go to https://gmat.gsfc.nasa.gov/.
 
 ## Contributing
