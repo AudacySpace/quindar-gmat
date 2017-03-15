@@ -1,11 +1,11 @@
-#Contributing to Quindar-GMAT
+# Contributing to Quindar-GMAT
 
 This guide covers ways in which you can become a part of the ongoing development of Quindar-GMAT. Outlined in this file are:
 
 * Reporting an Issue
 * Contributing to the Quindar-GMAT code
 
-##Code of Conduct
+## Code of Conduct
 
 Quindar is committed to fostering a welcoming, collaborative and passionate community. If you encounter any unacceptable behavior, follow these steps to report the issue to the Quindar team. We are here to help. 
 
