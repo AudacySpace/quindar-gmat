@@ -62,3 +62,8 @@ By default, quindar-qsrc will be connected to quindar-gmat repository in GitHub.
 	sudo docker exec qsrc gmat-update.sh <your feature branch>
 	
 Connect to the server at http://hostname or you can access the VNC server directly with a [VNC client](https://www.realvnc.com/download/viewer/) at hostname:5901 using password "vncpassword".
+
+## To Do
+
+* user access management integration with the quindar-proxy server
+* more example scenarios
