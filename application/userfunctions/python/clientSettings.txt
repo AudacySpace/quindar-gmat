@@ -1,2 +1,1 @@
 #[Server end point, Database port number, Port number (socket)]
-platform.audacy.space,7902,7904
