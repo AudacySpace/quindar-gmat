@@ -43,7 +43,7 @@ q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,time):
 		socketIO.wait(seconds=1)
 		return testData1
 
-def Generate_v1(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q1_1,q2_1,q3_1, q4_1,
+def Generate_v1_old(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q1_1,q2_1,q3_1, q4_1,
 q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time):
 	timestamp = time+2430000
 	with SocketIO('https://qsvr.quindar.space', 443, LoggingNamespace) as socketIO:
@@ -73,5 +73,47 @@ q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time
 		socketIO.emit("satData1", testData1)
 		socketIO.emit("satData1", testData2)
 		socketIO.emit("satData1", testData3)	
+		socketIO.wait(seconds=1)
+		return testData1
+
+def Generate_v1(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q1_1,q2_1,q3_1, q4_1,
+q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time):
+	timestamp = time+2430000
+	with SocketIO('https://qsvr.quindar.space', 443, LoggingNamespace, verify=False) as socketIO:
+
+		testData1 = json.dumps({"mission": "ATest", "timestamp": timestamp,"data": {
+		"GMAT_ATest_Audacy1_GNC_position_x": x1,
+		"GMAT_ATest_Audacy1_GNC_position_y": y1,
+		"GMAT_ATest_Audacy1_GNC_position_z": z1,
+		"GMAT_ATest_Audacy1_GNC_velocity_vx": vx1,
+		"GMAT_ATest_Audacy1_GNC_velocity_vy": vy1,
+		"GMAT_ATest_Audacy1_GNC_velocity_vz": vz1,
+		"GMAT_ATest_Audacy1_GNC_attitude_q1": q1_1,
+		"GMAT_ATest_Audacy1_GNC_attitude_q2": q2_1,
+		"GMAT_ATest_Audacy1_GNC_attitude_q3": q3_1,
+		"GMAT_ATest_Audacy1_GNC_attitude_qc": q4_1,
+		"GMAT_ATest_Audacy2_GNC_position_x": x2,
+		"GMAT_ATest_Audacy2_GNC_position_y": y2,
+		"GMAT_ATest_Audacy2_GNC_position_z": z2,
+		"GMAT_ATest_Audacy2_GNC_velocity_vx": vx2,
+		"GMAT_ATest_Audacy2_GNC_velocity_vy": vy2,
+		"GMAT_ATest_Audacy2_GNC_velocity_vz": vz2,
+		"GMAT_ATest_Audacy2_GNC_attitude_q1": q1_2,
+		"GMAT_ATest_Audacy2_GNC_attitude_q2": q2_2,
+		"GMAT_ATest_Audacy2_GNC_attitude_q3": q3_2,
+		"GMAT_ATest_Audacy2_GNC_attitude_qc": q4_2,
+		"GMAT_ATest_Audacy3_GNC_position_x": x3,
+		"GMAT_ATest_Audacy3_GNC_position_y": y3,
+		"GMAT_ATest_Audacy3_GNC_position_z": z3,
+		"GMAT_ATest_Audacy3_GNC_velocity_vx": vx3,
+		"GMAT_ATest_Audacy3_GNC_velocity_vy": vy3,
+		"GMAT_ATest_Audacy3_GNC_velocity_vz": vz3,
+		"GMAT_ATest_Audacy3_GNC_attitude_q1": q1_3,
+		"GMAT_ATest_Audacy3_GNC_attitude_q2": q2_3,
+		"GMAT_ATest_Audacy3_GNC_attitude_q3": q3_3,
+		"GMAT_ATest_Audacy3_GNC_attitude_qc": q4_3,
+		}}, sort_keys=True)
+		
+		socketIO.emit("satData1", testData1)
 		socketIO.wait(seconds=1)
 		return testData1
