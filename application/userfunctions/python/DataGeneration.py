@@ -3,6 +3,26 @@ import sys
 import json
 import math
 from socketIO_client import SocketIO, LoggingNamespace
+global com_name, com_type, com_value, com_time
+
+# ('https://qsvr.quindar.space', 443, LoggingNamespace, verify=False)
+socketIO = SocketIO('https://qsvr.quindar.space', 443, LoggingNamespace, verify=False)
+missionData = {"mission" : "ATest"}
+com_name = ""
+com_type = ""
+com_value = ""
+com_time = ""
+
+def connect():
+	socketIO.emit("add-mission", missionData)
+
+def testCommand(*args):
+	global com_name, com_type, com_value, com_time
+	for arg in args:
+		com_name = arg["name"]
+		com_type = arg["type"]
+		com_value = arg["argument"]
+		com_time = arg["timestamp"]
 
 # platform.audacy.space with port 7904
 def Generate(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q1_1,q2_1,q3_1, q4_1,
@@ -43,7 +63,7 @@ q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,time):
 		socketIO.wait(seconds=1)
 		return testData1
 
-def Generate_v1(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q1_1,q2_1,q3_1, q4_1,
+def Generate_v1_old(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q1_1,q2_1,q3_1, q4_1,
 q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time):
 	timestamp = time+2430000
 	with SocketIO('https://qsvr.quindar.space', 443, LoggingNamespace) as socketIO:
@@ -75,3 +95,49 @@ q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time
 		socketIO.emit("satData1", testData3)	
 		socketIO.wait(seconds=1)
 		return testData1
+
+def Generate_v1(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q1_1,q2_1,q3_1, q4_1,
+q1_2,q2_2,q3_2,q4_2,q1_3,q2_3,q3_3,q4_3,gs1_x,gs1_y,gs1_z,gs2_x,gs2_y,gs2_z,time):
+	timestamp = time+2430000
+
+	testData1 = json.dumps({"mission": "ATest", "timestamp": timestamp,"data": {
+		"Audacy1_GNC_position_x": x1,
+		"Audacy1_GNC_position_y": y1,
+		"Audacy1_GNC_position_z": z1,
+		"Audacy1_GNC_velocity_vx": vx1,
+		"Audacy1_GNC_velocity_vy": vy1,
+		"Audacy1_GNC_velocity_vz": vz1,
+		"Audacy1_GNC_attitude_q1": q1_1,
+		"Audacy1_GNC_attitude_q2": q2_1,
+		"Audacy1_GNC_attitude_q3": q3_1,
+		"Audacy1_GNC_attitude_qc": q4_1,
+		"Audacy2_GNC_position_x": x2,
+		"Audacy2_GNC_position_y": y2,
+		"Audacy2_GNC_position_z": z2,
+		"Audacy2_GNC_velocity_vx": vx2,
+		"Audacy2_GNC_velocity_vy": vy2,
+		"Audacy2_GNC_velocity_vz": vz2,
+		"Audacy2_GNC_attitude_q1": q1_2,
+		"Audacy2_GNC_attitude_q2": q2_2,
+		"Audacy2_GNC_attitude_q3": q3_2,
+		"Audacy2_GNC_attitude_qc": q4_2,
+		"Audacy3_GNC_position_x": x3,
+		"Audacy3_GNC_position_y": y3,
+		"Audacy3_GNC_position_z": z3,
+		"Audacy3_GNC_velocity_vx": vx3,
+		"Audacy3_GNC_velocity_vy": vy3,
+		"Audacy3_GNC_velocity_vz": vz3,
+		"Audacy3_GNC_attitude_q1": q1_3,
+		"Audacy3_GNC_attitude_q2": q2_3,
+		"Audacy3_GNC_attitude_q3": q3_3,
+		"Audacy3_GNC_attitude_qc": q4_3,
+		}}, sort_keys=True)
+		
+	socketIO.emit("satData1", testData1)
+	socketIO.wait(seconds=1)
+	return testData1
+
+socketIO.on("connect", connect)
+socketIO.on("reconnect", connect)
+
+socketIO.on("command", testCommand)
