@@ -23,7 +23,7 @@ def testCommand(*args):
 		com_time = arg["timestamp"]
 		com_data = ""
 	commandResponse = json.dumps({"mission":"ATest","timestamp":com_time,"metadata":{"status":"Success","data":"N/A","sent_timestamp":com_time},"data":""}, sort_keys=True)
-	socketIO.emit('comm-ack',{"mission":"ATest","timestamp":com_time,"metadata":{"status":"Success","data":"N/A","sent_timestamp":com_time},"data":""})
+	socketIO.emit('comm-ack',commandResponse)
 
 
 # platform.audacy.space with port 7904
