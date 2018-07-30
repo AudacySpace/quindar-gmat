@@ -9,7 +9,6 @@ global com_name, com_type, com_value, com_time
 socketIO = SocketIO('https://qsvr.quindar.space', 443, LoggingNamespace, verify=False)
 missionData = {"mission" : "ATest"}
 com_name = ""
-com_type = ""
 com_value = ""
 com_time = ""
 
@@ -19,10 +18,12 @@ def connect():
 def testCommand(*args):
 	global com_name, com_type, com_value, com_time
 	for arg in args:
-		com_name = arg["name"]
-		com_type = arg["type"]
-		com_value = arg["argument"]
+		com_cmd = arg["metadata"]["cmd"]
+		com_arg = arg["metadata"]["arg"]
 		com_time = arg["timestamp"]
+		com_data = ""
+	socketIO.emit('comm-ack',{"mission":"ATest","timestamp":com_time,"metadata":{"status":"Success","data":"N/A","sent_timestamp":com_time},"data":""})
+
 
 # platform.audacy.space with port 7904
 def Generate(x1,y1,z1,vx1,vy1,vz1,x2,y2,z2,vx2,vy2,vz2,x3,y3,z3,vx3,vy3,vz3,q1_1,q2_1,q3_1, q4_1,
