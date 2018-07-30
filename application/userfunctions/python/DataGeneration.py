@@ -22,6 +22,7 @@ def testCommand(*args):
 		com_arg = arg["metadata"]["arg"]
 		com_time = arg["timestamp"]
 		com_data = ""
+	commandResponse = json.dumps({"mission":"ATest","timestamp":com_time,"metadata":{"status":"Success","data":"N/A","sent_timestamp":com_time},"data":""}, sort_keys=True)
 	socketIO.emit('comm-ack',{"mission":"ATest","timestamp":com_time,"metadata":{"status":"Success","data":"N/A","sent_timestamp":com_time},"data":""})
 
 
