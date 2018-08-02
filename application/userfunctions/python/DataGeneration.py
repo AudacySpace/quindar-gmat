@@ -3,7 +3,8 @@ import sys
 import json
 import math
 from socketIO_client import SocketIO, LoggingNamespace
-global com_name, com_type, com_value, com_time
+from datetime import datetime
+global com_name, com_type, com_value, com_time, com_localTime, com_localTimeString
 
 # ('https://qsvr.quindar.space', 443, LoggingNamespace, verify=False)
 socketIO = SocketIO('https://qsvr.quindar.space', 443, LoggingNamespace, verify=False)
@@ -11,6 +12,8 @@ missionData = {"mission" : "ATest"}
 com_name = ""
 com_value = ""
 com_time = ""
+com_localTime = ""
+com_localTimeString = ""
 
 def connect():
 	socketIO.emit("add-mission", missionData)
@@ -22,7 +25,9 @@ def testCommand(*args):
 		com_arg = arg["metadata"]["arg"]
 		com_time = arg["timestamp"]
 		com_data = ""
-	commandResponse = json.dumps({"mission":"ATest","timestamp":com_time,"metadata":{"status":"Success","data":"N/A","sent_timestamp":com_time},"data":""}, sort_keys=True)
+	com_localTime = datetime.utcnow()
+	com_localTimeString = com_localTime.__str__()
+	commandResponse = json.dumps({"mission":"ATest","timestamp":com_localTimeString,"metadata":{"status":"Success","data":"N/A","sent_timestamp":com_time},"data":""}, sort_keys=True)
 	socketIO.emit('comm-ack',commandResponse)
 
 
